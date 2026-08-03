@@ -63,9 +63,90 @@ th { color: var(--muted); font-weight: 500; font-size: 0.78rem; text-transform: 
   </nav>
 </header>
 <div class="layout">
-
+<div class="sidebar"><h3>Sports</h3><button class="league-btn active" data-league="all" onclick="filterLeague('all', this)">All Sports</button><button class="league-btn" data-league="MLB" onclick="filterLeague('MLB', this)">MLB</button></div>
 <main>
-<p class="updated">Last updated 2026-08-02 UTC</p><p class="empty">No upcoming games right now. Check back after the next data refresh.</p>
+<p class="updated">Last updated 2026-08-03 UTC</p><div class="league-group filterable-item" data-league="MLB"><h2>MLB</h2>
+<div class="card">
+  <div class="matchup">St. Louis Cardinals @ New York Yankees</div>
+  <div class="meta">Mon Aug 03, 07:06 PM EDT &middot; prediction pending next refresh</div>
+  <div class="odds-row"><div class="odds-item"><div class="odds-label">Moneyline</div><div class="odds-value">New York Yankees -243 &middot; St. Louis Cardinals +206</div></div><div class="odds-item"><div class="odds-label">Spread</div><div class="odds-value">New York Yankees -1.5 &middot; St. Louis Cardinals +1.5</div></div><div class="odds-item"><div class="odds-label">Total (O/U)</div><div class="odds-value">7.9</div></div><div class="odds-item"><div class="odds-label">Books</div><div class="odds-value">9</div></div></div>
+</div>
+<div class="card">
+  <div class="matchup">Pittsburgh Pirates @ Milwaukee Brewers</div>
+  <div class="meta">Mon Aug 03, 07:41 PM EDT &middot; prediction pending next refresh</div>
+  <div class="odds-row"><div class="odds-item"><div class="odds-label">Moneyline</div><div class="odds-value">Milwaukee Brewers -151 &middot; Pittsburgh Pirates +131</div></div><div class="odds-item"><div class="odds-label">Spread</div><div class="odds-value">Milwaukee Brewers -1.5 &middot; Pittsburgh Pirates +1.5</div></div><div class="odds-item"><div class="odds-label">Total (O/U)</div><div class="odds-value">8.4</div></div><div class="odds-item"><div class="odds-label">Books</div><div class="odds-value">9</div></div></div>
+</div>
+<div class="card">
+  <div class="matchup">Los Angeles Dodgers @ Chicago Cubs</div>
+  <div class="meta">Mon Aug 03, 08:06 PM EDT &middot; prediction pending next refresh</div>
+  <div class="odds-row"><div class="odds-item"><div class="odds-label">Moneyline</div><div class="odds-value">Chicago Cubs +108 &middot; Los Angeles Dodgers -125</div></div><div class="odds-item"><div class="odds-label">Spread</div><div class="odds-value">Chicago Cubs +1.5 &middot; Los Angeles Dodgers -1.5</div></div><div class="odds-item"><div class="odds-label">Total (O/U)</div><div class="odds-value">8.0</div></div><div class="odds-item"><div class="odds-label">Books</div><div class="odds-value">9</div></div></div>
+</div>
+<div class="card">
+  <div class="matchup">San Francisco Giants @ Texas Rangers</div>
+  <div class="meta">Mon Aug 03, 08:06 PM EDT &middot; prediction pending next refresh</div>
+  <div class="odds-row"><div class="odds-item"><div class="odds-label">Moneyline</div><div class="odds-value">San Francisco Giants +114 &middot; Texas Rangers -131</div></div><div class="odds-item"><div class="odds-label">Spread</div><div class="odds-value">San Francisco Giants +1.5 &middot; Texas Rangers -1.5</div></div><div class="odds-item"><div class="odds-label">Total (O/U)</div><div class="odds-value">8.0</div></div><div class="odds-item"><div class="odds-label">Books</div><div class="odds-value">9</div></div></div>
+</div>
+<div class="card">
+  <div class="matchup">Toronto Blue Jays @ Houston Astros</div>
+  <div class="meta">Mon Aug 03, 08:10 PM EDT &middot; prediction pending next refresh</div>
+  <div class="odds-row"><div class="odds-item"><div class="odds-label">Moneyline</div><div class="odds-value">Houston Astros -138 &middot; Toronto Blue Jays +120</div></div><div class="odds-item"><div class="odds-label">Spread</div><div class="odds-value">Houston Astros -1.5 &middot; Toronto Blue Jays +1.5</div></div><div class="odds-item"><div class="odds-label">Total (O/U)</div><div class="odds-value">9.0</div></div><div class="odds-item"><div class="odds-label">Books</div><div class="odds-value">9</div></div></div>
+</div>
+<div class="card">
+  <div class="matchup">Tampa Bay Rays @ Colorado Rockies</div>
+  <div class="meta">Mon Aug 03, 08:41 PM EDT &middot; prediction pending next refresh</div>
+  <div class="odds-row"><div class="odds-item"><div class="odds-label">Moneyline</div><div class="odds-value">Colorado Rockies +156 &middot; Tampa Bay Rays -181</div></div><div class="odds-item"><div class="odds-label">Spread</div><div class="odds-value">Colorado Rockies +1.5 &middot; Tampa Bay Rays -1.5</div></div><div class="odds-item"><div class="odds-label">Total (O/U)</div><div class="odds-value">11.5</div></div><div class="odds-item"><div class="odds-label">Books</div><div class="odds-value">9</div></div></div>
+</div>
+<div class="card">
+  <div class="matchup">San Diego Padres @ Arizona Diamondbacks</div>
+  <div class="meta">Mon Aug 03, 09:41 PM EDT &middot; prediction pending next refresh</div>
+  <div class="odds-row"><div class="odds-item"><div class="odds-label">Moneyline</div><div class="odds-value">Arizona Diamondbacks -112 &middot; San Diego Padres -14</div></div><div class="odds-item"><div class="odds-label">Spread</div><div class="odds-value">Arizona Diamondbacks +0.2 &middot; San Diego Padres -0.2</div></div><div class="odds-item"><div class="odds-label">Total (O/U)</div><div class="odds-value">9.0</div></div><div class="odds-item"><div class="odds-label">Books</div><div class="odds-value">9</div></div></div>
+</div>
+<div class="card">
+  <div class="matchup">Athletics @ Cincinnati Reds</div>
+  <div class="meta">Tue Aug 04, 06:40 PM EDT &middot; prediction pending next refresh</div>
+  <div class="odds-row"><div class="odds-item"><div class="odds-label">Moneyline</div><div class="odds-value">Athletics +115 &middot; Cincinnati Reds -135</div></div><div class="odds-item"><div class="odds-label">Spread</div><div class="odds-value">Athletics +1.5 &middot; Cincinnati Reds -1.5</div></div><div class="odds-item"><div class="odds-label">Total (O/U)</div><div class="odds-value">9.2</div></div><div class="odds-item"><div class="odds-label">Books</div><div class="odds-value">6</div></div></div>
+</div>
+<div class="card">
+  <div class="matchup">New York Mets @ Cleveland Guardians</div>
+  <div class="meta">Tue Aug 04, 06:40 PM EDT &middot; prediction pending next refresh</div>
+  <div class="odds-row"><div class="odds-item"><div class="odds-label">Moneyline</div><div class="odds-value">Cleveland Guardians -138 &middot; New York Mets +118</div></div><div class="odds-item"><div class="odds-label">Spread</div><div class="odds-value">Cleveland Guardians -1.5 &middot; New York Mets +1.5</div></div><div class="odds-item"><div class="odds-label">Total (O/U)</div><div class="odds-value">7.5</div></div><div class="odds-item"><div class="odds-label">Books</div><div class="odds-value">6</div></div></div>
+</div>
+<div class="card">
+  <div class="matchup">Washington Nationals @ Philadelphia Phillies</div>
+  <div class="meta">Tue Aug 04, 06:40 PM EDT &middot; prediction pending next refresh</div>
+  <div class="odds-row"><div class="odds-item"><div class="odds-label">Moneyline</div><div class="odds-value">Philadelphia Phillies -226 &middot; Washington Nationals +190</div></div><div class="odds-item"><div class="odds-label">Spread</div><div class="odds-value">Philadelphia Phillies -1.5 &middot; Washington Nationals +1.5</div></div><div class="odds-item"><div class="odds-label">Total (O/U)</div><div class="odds-value">8.8</div></div><div class="odds-item"><div class="odds-label">Books</div><div class="odds-value">6</div></div></div>
+</div>
+<div class="card">
+  <div class="matchup">Chicago White Sox @ Boston Red Sox</div>
+  <div class="meta">Tue Aug 04, 07:11 PM EDT &middot; prediction pending next refresh</div>
+  <div class="odds-row"><div class="odds-item"><div class="odds-label">Moneyline</div><div class="odds-value">Boston Red Sox -127 &middot; Chicago White Sox +110</div></div><div class="odds-item"><div class="odds-label">Spread</div><div class="odds-value">Boston Red Sox -1.5 &middot; Chicago White Sox +1.5</div></div><div class="odds-item"><div class="odds-label">Total (O/U)</div><div class="odds-value">9.0</div></div><div class="odds-item"><div class="odds-label">Books</div><div class="odds-value">3</div></div></div>
+</div>
+<div class="card">
+  <div class="matchup">Miami Marlins @ Atlanta Braves</div>
+  <div class="meta">Tue Aug 04, 07:16 PM EDT &middot; prediction pending next refresh</div>
+  <div class="odds-row"><div class="odds-item"><div class="odds-label">Moneyline</div><div class="odds-value">Atlanta Braves -138 &middot; Miami Marlins +117</div></div><div class="odds-item"><div class="odds-label">Spread</div><div class="odds-value">Atlanta Braves -1.5 &middot; Miami Marlins +1.5</div></div><div class="odds-item"><div class="odds-label">Total (O/U)</div><div class="odds-value">9.0</div></div><div class="odds-item"><div class="odds-label">Books</div><div class="odds-value">3</div></div></div>
+</div>
+<div class="card">
+  <div class="matchup">Pittsburgh Pirates @ Milwaukee Brewers</div>
+  <div class="meta">Tue Aug 04, 07:40 PM EDT &middot; prediction pending next refresh</div>
+  <div class="odds-row"><div class="odds-item"><div class="odds-label">Moneyline</div><div class="odds-value">Milwaukee Brewers -160 &middot; Pittsburgh Pirates +138</div></div><div class="odds-item"><div class="odds-label">Spread</div><div class="odds-value">Milwaukee Brewers -1.5 &middot; Pittsburgh Pirates +1.5</div></div><div class="odds-item"><div class="odds-label">Total (O/U)</div><div class="odds-value">7.7</div></div><div class="odds-item"><div class="odds-label">Books</div><div class="odds-value">6</div></div></div>
+</div>
+<div class="card">
+  <div class="matchup">Minnesota Twins @ Kansas City Royals</div>
+  <div class="meta">Tue Aug 04, 07:41 PM EDT &middot; prediction pending next refresh</div>
+  <div class="odds-row"><div class="odds-item"><div class="odds-label">Moneyline</div><div class="odds-value">Kansas City Royals +126 &middot; Minnesota Twins -147</div></div><div class="odds-item"><div class="odds-label">Spread</div><div class="odds-value">Kansas City Royals +1.5 &middot; Minnesota Twins -1.5</div></div><div class="odds-item"><div class="odds-label">Total (O/U)</div><div class="odds-value">9.2</div></div><div class="odds-item"><div class="odds-label">Books</div><div class="odds-value">6</div></div></div>
+</div>
+<div class="card">
+  <div class="matchup">Los Angeles Dodgers @ Chicago Cubs</div>
+  <div class="meta">Tue Aug 04, 08:06 PM EDT &middot; prediction pending next refresh</div>
+  <div class="odds-row"><div class="odds-item"><div class="odds-label">Moneyline</div><div class="odds-value">Chicago Cubs +171 &middot; Los Angeles Dodgers -202</div></div><div class="odds-item"><div class="odds-label">Spread</div><div class="odds-value">Chicago Cubs +1.5 &middot; Los Angeles Dodgers -1.5</div></div><div class="odds-item"><div class="odds-label">Total (O/U)</div><div class="odds-value">9.0</div></div><div class="odds-item"><div class="odds-label">Books</div><div class="odds-value">6</div></div></div>
+</div>
+<div class="card">
+  <div class="matchup">Toronto Blue Jays @ Houston Astros</div>
+  <div class="meta">Tue Aug 04, 08:10 PM EDT &middot; prediction pending next refresh</div>
+  <div class="odds-row"><div class="odds-item"><div class="odds-label">Moneyline</div><div class="odds-value">Houston Astros -129 &middot; Toronto Blue Jays +111</div></div><div class="odds-item"><div class="odds-label">Spread</div><div class="odds-value">Houston Astros -1.5 &middot; Toronto Blue Jays +1.5</div></div><div class="odds-item"><div class="odds-label">Total (O/U)</div><div class="odds-value">8.5</div></div><div class="odds-item"><div class="odds-label">Books</div><div class="odds-value">4</div></div></div>
+</div>
+</div>
 </main>
 </div>
 
