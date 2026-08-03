@@ -1,0 +1,482 @@
+{
+  "baseball_mlb_2026-07-31_new-york-yankees_at_chicago-cubs": {
+    "predicted_winner": "Chicago Cubs",
+    "predicted_against_spread": "New York Yankees",
+    "confidence": 54,
+    "key_factors": [
+      "Identical 62-47 records for both teams",
+      "Cubs enter on a 1-game winning streak, Yankees on a 2-game skid",
+      "No head-to-head data available this matchup",
+      "Market favors Cubs by a run and a half despite even overall records"
+    ],
+    "reasoning": "Both teams sit at 62-47, making this close to a toss-up on paper, but Chicago's recent form (3-2) edges New York's (2-3) and the Cubs are on a one-game winning streak while the Yankees are riding a two-game skid. That's enough to lean Cubs on the moneyline, but not enough to trust them to win by two-plus runs against an evenly-matched opponent, so I like the Yankees to cover the +1.5 spread even in a loss."
+  },
+  "baseball_mlb_2026-07-31_pittsburgh-pirates_at_cincinnati-reds": {
+    "predicted_winner": "Cincinnati Reds",
+    "predicted_against_spread": "Cincinnati Reds",
+    "confidence": 47,
+    "key_factors": [
+      "Pirates are mired in a 3-game losing streak while Reds have won their last game",
+      "Reds beat Pittsburgh 3-2 in their most recent head-to-head meeting",
+      "Season series is close at 6-4 Pirates, not a lopsided advantage",
+      "Market has Pirates favored despite the worse recent trajectory"
+    ],
+    "reasoning": "The market makes Pittsburgh the favorite off their better overall record, but that record is stale -- the Pirates have dropped three straight while Cincinnati just won and beat them head-to-head in the most recent meeting. With the season series close (6-4) rather than lopsided, I'm siding with the hotter team and taking the Reds both to win and cover."
+  },
+  "baseball_mlb_2026-07-31_philadelphia-phillies_at_baltimore-orioles": {
+    "predicted_winner": "Baltimore Orioles",
+    "predicted_against_spread": "Baltimore Orioles",
+    "confidence": 60,
+    "key_factors": [
+      "Phillies have lost 3 straight and are 1-4 in their last five games",
+      "Orioles are trending up, winning their last game and 3-2 in last five",
+      "Only 2 bookmakers reporting this line, so the market number carries less weight",
+      "Phillies still hold a better season record (57-52 vs 53-56) but form has cratered"
+    ],
+    "reasoning": "Philadelphia's season-long record is better, but they're in freefall -- a 1-4 stretch with three straight losses -- while Baltimore is trending the opposite direction. With only two bookmakers pricing this game, the market number is thin, so I'm leaning more heavily on recent form: Orioles to win and cover."
+  },
+  "baseball_mlb_2026-07-31_st.-louis-cardinals_at_toronto-blue-jays": {
+    "predicted_winner": "Toronto Blue Jays",
+    "predicted_against_spread": "St. Louis Cardinals",
+    "confidence": 55,
+    "key_factors": [
+      "Blue Jays have better recent form (3-2, W1) despite a worse overall record (50-59)",
+      "Cardinals actually hold the better season record at 54-55",
+      "Market prices Toronto as a heavy -177 favorite, steeper than the underlying records suggest",
+      "No head-to-head data provided"
+    ],
+    "reasoning": "Toronto's recent form is the better story here, and I'll lean their way to win, but the -177 price looks steep for a team with a worse overall record than St. Louis. The Cardinals, despite a one-game skid, have been the better team over the full season, so I like them to keep this competitive and cover the +1.5."
+  },
+  "baseball_mlb_2026-07-31_arizona-diamondbacks_at_cleveland-guardians": {
+    "predicted_winner": "Arizona Diamondbacks",
+    "predicted_against_spread": "Arizona Diamondbacks",
+    "confidence": 48,
+    "key_factors": [
+      "Records are nearly identical (57-52 Diamondbacks vs 56-54 Guardians)",
+      "Diamondbacks own the longer active winning streak (W2 vs W1)",
+      "Both teams are 2-3 in their last five games",
+      "Market favors Cleveland at home despite Arizona's slightly better underlying record"
+    ],
+    "reasoning": "This is close to a coin flip statistically, with virtually identical recent form and records. The Diamondbacks' longer winning streak and marginally better overall record tip me toward the road team here, going against the market's home-field lean. Low confidence given how tight the trends actually are."
+  },
+  "baseball_mlb_2026-07-31_chicago-white-sox_at_tampa-bay-rays": {
+    "predicted_winner": "Tampa Bay Rays",
+    "predicted_against_spread": "Tampa Bay Rays",
+    "confidence": 68,
+    "key_factors": [
+      "Rays hold a decisive 64-44 record compared to Chicago's 57-51",
+      "Tampa Bay is 4-1 in their last five with a 3-0 season sweep of the White Sox so far",
+      "White Sox lost the most recent head-to-head meeting 3-5",
+      "Both teams enter on winning streaks, but Rays' is against a tougher overall profile"
+    ],
+    "reasoning": "Every trend here points the same direction: the Rays are the better team by record, hotter recently, and have dominated this matchup 3-0 this season including the last meeting. This is one of the more one-sided games on the board, so I'm comfortable backing Tampa Bay to both win and cover."
+  },
+  "baseball_mlb_2026-07-31_washington-nationals_at_atlanta-braves": {
+    "predicted_winner": "Atlanta Braves",
+    "predicted_against_spread": "Atlanta Braves",
+    "confidence": 65,
+    "key_factors": [
+      "Braves have a much better record (64-45) than Washington (55-55)",
+      "Atlanta is 3-2 with a 2-game win streak; Nationals are 2-3 with a 2-game skid",
+      "Braves have won the season series 5-3, including the most recent meeting",
+      "All trend indicators point the same direction as the market price"
+    ],
+    "reasoning": "Atlanta checks every box here -- better record, better recent form, and control of the head-to-head series including a win in the most recent meeting. Nothing in the trend data contradicts the market, so I'm comfortable backing the Braves to win and cover."
+  },
+  "baseball_mlb_2026-08-01_texas-rangers_at_houston-astros": {
+    "predicted_winner": "Houston Astros",
+    "predicted_against_spread": "Houston Astros",
+    "confidence": 62,
+    "key_factors": [
+      "Records are virtually identical (55-54 Rangers vs 55-55 Astros)",
+      "Astros are red hot with a 3-game win streak and 4-1 in their last five",
+      "Rangers are mired in a 2-game skid, 2-3 in last five",
+      "Astros hold the season series edge, 6-4"
+    ],
+    "reasoning": "With records essentially tied, the deciding factor is form: Houston is riding a three-game winning streak and has won the season series, while Texas is scuffling with a two-game slide. I'll back the Astros to win and cover here."
+  },
+  "baseball_mlb_2026-08-01_kansas-city-royals_at_colorado-rockies": {
+    "predicted_winner": "Kansas City Royals",
+    "predicted_against_spread": "Kansas City Royals",
+    "confidence": 56,
+    "key_factors": [
+      "Royals hold the better record (46-64) compared to Colorado's 42-67",
+      "Rockies are in a brutal 4-game losing streak and just 1-4 in their last five",
+      "Royals are 3-2 over their last five games",
+      "High total (11.1) reflects Coors Field's hitter-friendly environment, adding scoring variance"
+    ],
+    "reasoning": "Colorado is reeling with a four-game losing streak and the worse record of two struggling teams, while Kansas City has been comparatively steadier. I'll take the Royals to win, though the sky-high total at Coors Field adds real variance to the outcome."
+  },
+  "baseball_mlb_2026-08-01_milwaukee-brewers_at_los-angeles-angels": {
+    "predicted_winner": "Milwaukee Brewers",
+    "predicted_against_spread": "Milwaukee Brewers",
+    "confidence": 70,
+    "key_factors": [
+      "Brewers have a contender-caliber record at 67-41 versus the Angels' 43-66",
+      "Angels are struggling badly, 1-4 in last five with a 3-game losing streak",
+      "Brewers' only blemish is a 1-game skid, still 3-2 over their last five",
+      "Talent gap between these two teams is significant and well-reflected in recent form"
+    ],
+    "reasoning": "This is a straightforward case where the trends and the market fully agree -- Milwaukee is a clearly superior team by record and by recent form, while the Angels are struggling on both fronts. I don't see anything in the data to fade the favorite here."
+  },
+  "baseball_mlb_2026-08-01_detroit-tigers_at_athletics": {
+    "predicted_winner": "Detroit Tigers",
+    "predicted_against_spread": "Detroit Tigers",
+    "confidence": 58,
+    "key_factors": [
+      "Tigers have swept the season series 3-0 against the Athletics, including the last meeting",
+      "Both teams are scuffling with identical 1-4 last-five records",
+      "Tigers hold the better overall record (51-58 vs 45-63)",
+      "High total (10.7) suggests thin pitching on both sides"
+    ],
+    "reasoning": "Neither team is playing well right now, but Detroit has the head-to-head edge with a perfect 3-0 record against Oakland/Athletics this season, including a recent win, plus the better overall record. That tips the scale enough to back the Tigers here despite their own recent slump."
+  },
+  "baseball_mlb_2026-08-01_minnesota-twins_at_seattle-mariners": {
+    "predicted_winner": "Minnesota Twins",
+    "predicted_against_spread": "Minnesota Twins",
+    "confidence": 45,
+    "key_factors": [
+      "Twins are red hot at 4-1 in their last five while Mariners are 2-3 and on a 1-game skid",
+      "Records are nearly even (55-55 Twins vs 53-56 Mariners)",
+      "Market prices Seattle as a heavy -186 favorite despite the form gap favoring Minnesota",
+      "Mariners hold a slim 2-1 head-to-head edge this season"
+    ],
+    "reasoning": "The market has Seattle as a significant favorite, but that doesn't match the recent trend data -- Minnesota is hot at 4-1 over their last five while Seattle has cooled off and is on a one-game skid. With records this close, I think the price is inflated toward Seattle and lean toward the Twins as a live underdog, both to win and cover."
+  },
+  "soccer_usa_mls_2026-07-31_toronto-fc_at_new-york-city-fc": {
+    "predicted_winner": "New York City FC",
+    "predicted_against_spread": "New York City FC",
+    "confidence": 75,
+    "key_factors": [
+      "Toronto FC is on an 11-game losing streak and winless in their last five",
+      "NYCFC is trending positive at 3-2 with a 2-game win streak",
+      "Toronto's 3-14 record is one of the worst in the league",
+      "Market and trend data are fully aligned here"
+    ],
+    "reasoning": "This is about as lopsided as trend data gets -- Toronto FC is mired in an 11-game losing streak against a New York City FC side playing well. Nothing here suggests fading the favorite; I'm backing NYCFC to win and cover."
+  },
+  "soccer_usa_mls_2026-08-01_atlanta-united-fc_at_philadelphia-union": {
+    "predicted_winner": "Philadelphia Union",
+    "predicted_against_spread": "Philadelphia Union",
+    "confidence": 58,
+    "key_factors": [
+      "Atlanta United is on a 6-game losing streak and winless in their last five",
+      "Philadelphia Union is 2-3 with a 2-game winning streak, much better current form",
+      "Both teams share an identical 3-14 record on the season",
+      "Atlanta won the only previous meeting 3-1, but that was back in March, before form diverged"
+    ],
+    "reasoning": "Both clubs have been bad all season, but Philadelphia is trending up while Atlanta is in a six-game freefall. The lone head-to-head result from March feels stale given how much recent form has diverged since, so I'll side with the Union to win and cover."
+  },
+  "soccer_usa_mls_2026-08-01_new-england-revolution_at_cf-montreal": {
+    "predicted_winner": "New England Revolution",
+    "predicted_against_spread": "New England Revolution",
+    "confidence": 60,
+    "key_factors": [
+      "Revolution have a winning record (9-7) compared to Montreal's 4-13",
+      "Montreal is on a 6-game losing streak, winless in their last five (0-5)",
+      "Revolution enter on a 1-game win streak with decent recent form (2-3)",
+      "Market odds are close to even/favoring Montreal slightly on home field, despite the form gap"
+    ],
+    "reasoning": "New England is simply the better team right now by a wide margin, with a winning record against a Montreal side that hasn't won in six games. I don't see enough home-field value to overcome that gap, so I'm backing the Revolution to win and cover."
+  },
+  "soccer_usa_mls_2026-08-01_columbus-crew-sc_at_inter-miami-cf": {
+    "predicted_winner": "Inter Miami CF",
+    "predicted_against_spread": "Inter Miami CF",
+    "confidence": 72,
+    "key_factors": [
+      "Inter Miami is undefeated in their last five (5-0) on a 6-game winning streak",
+      "Miami holds a far superior record at 11-6 versus Columbus' 5-12",
+      "Columbus has managed only a 1-game win streak amid a middling 2-3 stretch",
+      "All trend indicators strongly support the market favorite"
+    ],
+    "reasoning": "Inter Miami is playing about as well as any team on this board -- five straight wins and a six-game unbeaten streak overall, against a Columbus side with a losing record. This is a clear case where the trends fully back the favorite."
+  },
+  "soccer_usa_mls_2026-08-01_nashville-sc_at_d.c.-united": {
+    "predicted_winner": "Nashville SC",
+    "predicted_against_spread": "Nashville SC",
+    "confidence": 63,
+    "key_factors": [
+      "Nashville holds a strong 12-5 record compared to D.C. United's 5-12",
+      "Nashville is 4-1 in their last five games despite a 1-game skid entering this match",
+      "D.C. United's win streak is just 1 game, following a 1-4 stretch",
+      "Head-to-head data shows a close previous meeting (2-2) between these sides"
+    ],
+    "reasoning": "Nashville is clearly the stronger team by record and by broader recent form, even with a one-game slip entering this match. D.C. United's single-game win streak doesn't offset a 5-12 season record, so I'm backing Nashville to win, albeit by a thin margin given how tight the previous meeting was."
+  },
+  "soccer_usa_mls_2026-08-01_san-jose-earthquakes_at_fc-cincinnati": {
+    "predicted_winner": "San Jose Earthquakes",
+    "predicted_against_spread": "San Jose Earthquakes",
+    "confidence": 47,
+    "key_factors": [
+      "San Jose holds the better overall record (10-7) versus Cincinnati's 6-11",
+      "Both teams are in mild slumps, but Cincinnati's underlying record is weaker",
+      "Market slightly favors Cincinnati at home despite the record gap",
+      "No head-to-head data available"
+    ],
+    "reasoning": "San Jose is in a rough patch recently, but their season-long record is considerably better than Cincinnati's, who's also unable to string wins together. I'll lean toward the better overall team here despite the mild form dip, taking San Jose against a thin home-field market edge."
+  },
+  "soccer_usa_mls_2026-08-01_los-angeles-fc_at_vancouver-whitecaps-fc": {
+    "predicted_winner": "Vancouver Whitecaps FC",
+    "predicted_against_spread": "Vancouver Whitecaps FC",
+    "confidence": 40,
+    "key_factors": [
+      "No trend data available for Los Angeles FC this cycle -- form, streak, and record all missing",
+      "Vancouver holds a solid 10-6 record but is on a 2-game losing streak",
+      "Market favors Vancouver at home",
+      "Confidence is capped low given the incomplete data for LAFC"
+    ],
+    "reasoning": "With zero trend data available for LAFC, I can't independently verify their form, so I'm leaning on Vancouver's decent season record and home-field standing, while flagging that this pick carries real uncertainty. Vancouver's own 2-game skid is a mild concern, keeping confidence modest."
+  },
+  "soccer_usa_mls_2026-08-01_orlando-city-sc_at_new-york-red-bulls": {
+    "predicted_winner": "Orlando City SC",
+    "predicted_against_spread": "Orlando City SC",
+    "confidence": 42,
+    "key_factors": [
+      "No trend data available for New York Red Bulls this cycle",
+      "Orlando City is playing well recently: 3-2 in last five with a 2-game win streak",
+      "Orlando's overall record (6-11) is below .500 but trending up",
+      "Missing data for the home side lowers overall confidence in this pick"
+    ],
+    "reasoning": "Without any recent-form data for the Red Bulls, I'm leaning on what I can verify -- Orlando is playing better soccer lately with a two-game win streak despite a losing record. That's a thin edge given the data gap on the other side, so confidence here is limited."
+  },
+  "soccer_usa_mls_2026-08-02_charlotte-fc_at_chicago-fire": {
+    "predicted_winner": "Chicago Fire",
+    "predicted_against_spread": "Charlotte FC",
+    "confidence": 52,
+    "key_factors": [
+      "Both teams share identical recent form: 3-2 in last five with a 1-game win streak",
+      "Records are close: Chicago Fire 8-8 versus Charlotte FC 7-10",
+      "Market prices Chicago as a heavy -190 favorite despite the trend similarity",
+      "No head-to-head data provided"
+    ],
+    "reasoning": "These two teams are trending almost identically right now, which makes the -190 price on Chicago look inflated. I'll lean Fire to win at home given the slightly better record, but I like Charlotte to keep it within the +1.1 spread given how evenly matched the underlying trends actually are."
+  },
+  "soccer_usa_mls_2026-08-02_houston-dynamo_at_sporting-kansas-city": {
+    "predicted_winner": "Houston Dynamo",
+    "predicted_against_spread": "Houston Dynamo",
+    "confidence": 60,
+    "key_factors": [
+      "Houston has a much better record (8-8) than Sporting KC (4-13)",
+      "Houston enters on a 1-game win streak; KC is on a 1-game skid",
+      "Both teams are 2-3 over their last five, but Houston's overall season has been stronger",
+      "Market and trends align in favoring Houston"
+    ],
+    "reasoning": "Houston is simply the better team by record here, and their momentum edges KC's as well. Nothing in the trend data contradicts the market favorite, so I'm backing the Dynamo to win and cover."
+  },
+  "soccer_usa_mls_2026-08-02_san-diego-fc_at_minnesota-united-fc": {
+    "predicted_winner": "San Diego FC",
+    "predicted_against_spread": "San Diego FC",
+    "confidence": 44,
+    "key_factors": [
+      "Minnesota United is on a 6-game losing streak and winless in their last five (0-5)",
+      "San Diego FC has actually won more recently, going 2-3 with a 1-game win streak",
+      "Minnesota won the previous head-to-head meeting 2-1, but that was back in April, before the current skid",
+      "Market prices Minnesota as a short favorite despite their current form collapse"
+    ],
+    "reasoning": "Minnesota's price doesn't reflect where they actually are right now -- a six-game losing streak and winless in their last five is a serious red flag that the market seems to be discounting. San Diego, despite their own losing record, has the better recent trajectory, so I'm fading the home favorite here."
+  },
+  "soccer_usa_mls_2026-08-02_real-salt-lake_at_st.-louis-city-sc": {
+    "predicted_winner": "St. Louis City SC",
+    "predicted_against_spread": "St. Louis City SC",
+    "confidence": 58,
+    "key_factors": [
+      "St. Louis is red hot with a 4-game winning streak, 4-1 in their last five",
+      "Real Salt Lake is struggling with a 3-game losing streak, 2-3 in last five",
+      "RSL holds a marginally better overall record (8-8 vs 7-10), but recent form has clearly diverged",
+      "Market favors the in-form St. Louis side"
+    ],
+    "reasoning": "St. Louis' overall record is slightly worse, but they're playing far better soccer right now with a four-game winning streak against a Real Salt Lake team that's lost three in a row. I'll trust the hot hand here and back St. Louis to win and cover."
+  },
+  "soccer_usa_mls_2026-08-02_austin-fc_at_colorado-rapids": {
+    "predicted_winner": "Colorado Rapids",
+    "predicted_against_spread": "Colorado Rapids",
+    "confidence": 56,
+    "key_factors": [
+      "Colorado holds the better record (6-11) versus Austin's 4-13",
+      "Austin is 1-4 in their last five compared to Colorado's 2-3",
+      "Both teams are on 1-game losing streaks, but Colorado's floor looks higher",
+      "Trends support the market favorite"
+    ],
+    "reasoning": "Neither team is playing well, but Colorado has the better record and slightly better recent form than Austin. There's nothing in the data suggesting a fade here, so I'm siding with the market favorite."
+  },
+  "soccer_usa_mls_2026-08-02_fc-dallas_at_la-galaxy": {
+    "predicted_winner": "FC Dallas",
+    "predicted_against_spread": "FC Dallas",
+    "confidence": 55,
+    "key_factors": [
+      "LA Galaxy are on a 4-game losing streak and just 1-4 in their last five",
+      "Dallas holds a considerably better record (7-10) than Galaxy's 5-13",
+      "Dallas is 2-3 recently, outperforming Galaxy's form",
+      "Market favors Galaxy at home despite the clear form and record gap favoring Dallas"
+    ],
+    "reasoning": "The Galaxy are in freefall with four straight losses, while Dallas -- though not flashy -- has a meaningfully better record and recent form. Home field doesn't seem enough to overcome that gap, so I'm fading the Galaxy and backing Dallas to win and cover."
+  },
+  "soccer_usa_mls_2026-08-02_seattle-sounders-fc_at_portland-timbers": {
+    "predicted_winner": "Portland Timbers",
+    "predicted_against_spread": "Portland Timbers",
+    "confidence": 62,
+    "key_factors": [
+      "Seattle is winless in their last five (0-5) and on a 5-game losing streak",
+      "Portland won the most recent head-to-head meeting decisively, 5-1",
+      "Portland is 2-3 recently with a 1-game win streak, a better trajectory than Seattle",
+      "Seattle's overall record (7-9) is better than Portland's (6-11), but current form heavily favors the Timbers"
+    ],
+    "reasoning": "Seattle's season record is better, but they're in a five-game tailspin and just got blown out 5-1 by this same Portland side in their last meeting. That head-to-head result plus the current form gap is enough to back the Timbers here despite Seattle's superior overall record."
+  },
+  "baseball_mlb_2026-08-01_st.-louis-cardinals_at_toronto-blue-jays": {
+    "predicted_winner": "Toronto Blue Jays",
+    "predicted_against_spread": "St. Louis Cardinals",
+    "confidence": 57,
+    "key_factors": [
+      "Blue Jays own the recent form edge at 3-2 vs 1-4",
+      "Toronto has won the lone season meeting so far",
+      "Cardinals are on a 2-game losing streak while Toronto is riding a 2-game win streak",
+      "The market leans Toronto, but the spread is large enough to keep this live"
+    ],
+    "reasoning": "Toronto has the cleaner trend profile here: a better recent record, a current two-game winning streak, and a head-to-head win already this season. St. Louis has been slipping lately and the market is giving Toronto the edge, so I like the Blue Jays to win even if the Cardinals can keep it close enough to cover."
+  },
+  "baseball_mlb_2026-08-01_chicago-white-sox_at_tampa-bay-rays": {
+    "predicted_winner": "Tampa Bay Rays",
+    "predicted_against_spread": "Tampa Bay Rays",
+    "confidence": 69,
+    "key_factors": [
+      "Rays have the far better overall record at 64-45",
+      "Tampa Bay has a 3-2 last-five mark and is 3-1 in the season series",
+      "Chicago has been competitive lately but not enough to offset the gap",
+      "The market is aligned with the stronger recent profile"
+    ],
+    "reasoning": "The Rays are the stronger team by record and by the head-to-head series, and they still have enough recent form to look like the sharper side even after a brief stumble. I\u2019m comfortable backing Tampa Bay to win and cover against a White Sox club that has been more volatile."
+  },
+  "baseball_mlb_2026-08-01_miami-marlins_at_new-york-mets": {
+    "predicted_winner": "New York Mets",
+    "predicted_against_spread": "Miami Marlins",
+    "confidence": 55,
+    "key_factors": [
+      "Mets are the better team on paper at 47-64 versus Miami at 56-55",
+      "Miami is hotter at 4-1 lately, but that is partly offset by the market price",
+      "The season series is split 4-4, so the matchup is not one-sided",
+      "This is a low-confidence spot because the recent form and record disagree"
+    ],
+    "reasoning": "The market is slightly on the Mets side, but the Marlins have been hotter over the last week and the season series is essentially even. I\u2019ll lean New York to win, but I\u2019m not trusting them to dominate the game, so I like Miami to keep it close and cover the spread."
+  },
+  "baseball_mlb_2026-08-01_pittsburgh-pirates_at_cincinnati-reds": {
+    "predicted_winner": "Cincinnati Reds",
+    "predicted_against_spread": "Cincinnati Reds",
+    "confidence": 63,
+    "key_factors": [
+      "Reds have won two straight and are 3-2 in their last five",
+      "Pirates are in a 4-game losing streak and 1-4 over their last five",
+      "Cincinnati has won the most recent head-to-head meeting",
+      "The market is slightly underestimating the recent slide in Pittsburgh"
+    ],
+    "reasoning": "This is one of the cleaner spots on the board: Pittsburgh is trending down hard while Cincinnati is trending up, and the Reds also took the most recent matchup. I\u2019m backing the Reds to win and cover with solid conviction."
+  },
+  "baseball_mlb_2026-08-01_philadelphia-phillies_at_baltimore-orioles": {
+    "predicted_winner": "Baltimore Orioles",
+    "predicted_against_spread": "Baltimore Orioles",
+    "confidence": 61,
+    "key_factors": [
+      "Orioles are 3-2 in their last five and have won their last game",
+      "Phillies have lost four straight and are 1-4 over their last five",
+      "Baltimore also won the most recent head-to-head meeting",
+      "The market has the Phillies as the favorite, but recent form points elsewhere"
+    ],
+    "reasoning": "Philadelphia\u2019s recent form has fallen off a cliff while Baltimore is trending in the opposite direction, and the Orioles also won the most recent meeting. The contrast is strong enough that I\u2019m taking Baltimore to win and cover despite the market price."
+  },
+  "baseball_mlb_2026-08-01_arizona-diamondbacks_at_cleveland-guardians": {
+    "predicted_winner": "Arizona Diamondbacks",
+    "predicted_against_spread": "Arizona Diamondbacks",
+    "confidence": 54,
+    "key_factors": [
+      "The records are nearly identical and the recent form is basically a wash",
+      "Arizona has the slightly longer active streak at W3 to Cleveland\u2019s L1",
+      "The Diamondbacks also won the most recent head-to-head contest",
+      "This is a true coin-flip spot, but the recent streak gives Arizona a narrow edge"
+    ],
+    "reasoning": "This is about as close as it gets: records are nearly even, recent form is similar, and the season series is basically balanced. I\u2019m giving Arizona a very slight edge because they\u2019ve won the last game and are carrying the longer current streak, so I\u2019ll lean them to win and cover."
+  },
+  "baseball_mlb_2026-08-01_washington-nationals_at_atlanta-braves": {
+    "predicted_winner": "Atlanta Braves",
+    "predicted_against_spread": "Atlanta Braves",
+    "confidence": 71,
+    "key_factors": [
+      "Braves own the much better overall record at 65-45",
+      "Atlanta has won three straight and is 3-2 over its last five",
+      "Washington is on a three-game losing streak and 1-4 over its last five",
+      "Atlanta also has the better head-to-head edge this season"
+    ],
+    "reasoning": "This is one of the most clear-cut spots on the board: Atlanta has the superior record, the better current form, and the stronger head-to-head hold on the season. The market price matches the data, so I\u2019m backing the Braves to win and cover."
+  },
+  "baseball_mlb_2026-08-01_new-york-yankees_at_chicago-cubs": {
+    "predicted_winner": "Chicago Cubs",
+    "predicted_against_spread": "New York Yankees",
+    "confidence": 56,
+    "key_factors": [
+      "Cubs and Yankees have nearly identical records, but the Cubs are slightly hotter",
+      "Chicago is 3-2 over the last five while New York is 2-3",
+      "The Yankees have the better head-to-head result this season, but the matchup is still close",
+      "The price suggests a near-even game and I\u2019m leaning to the underdog to keep it close"
+    ],
+    "reasoning": "This looks like a true coin-flip game, with the teams basically even on record and close in recent form. I\u2019ll take the Cubs on the moneyline but like the Yankees to stay competitive enough to cover the +1.5 spread."
+  },
+  "baseball_mlb_2026-08-02_kansas-city-royals_at_colorado-rockies": {
+    "predicted_winner": "Colorado Rockies",
+    "predicted_against_spread": "Colorado Rockies",
+    "confidence": 53,
+    "key_factors": [
+      "Colorado has won the only matchup so far this season",
+      "The Rockies are coming off a win whereas Kansas City is on a two-game slide",
+      "The market is close to a pick-em, which leaves room for the recent result to matter",
+      "Coors Field adds enough variance that the home team deserves a small edge"
+    ],
+    "reasoning": "The Royals and Rockies are both struggling, but Colorado has the better recent result and a home-field edge in a hitter-friendly environment. I\u2019m giving the Rockies a slight nod to win and cover in a volatile spot."
+  },
+  "baseball_mlb_2026-08-02_san-francisco-giants_at_san-diego-padres": {
+    "predicted_winner": "San Diego Padres",
+    "predicted_against_spread": "San Diego Padres",
+    "confidence": 60,
+    "key_factors": [
+      "Padres are 4-1 over their last five and are playing better right now",
+      "San Francisco is 3-2 but just lost their last game and are on a one-game skid",
+      "San Diego won the most recent head-to-head meeting",
+      "The market favors the Padres and the form is consistent with that"
+    ],
+    "reasoning": "The Padres have the stronger recent form and the most recent head-to-head result, and San Francisco\u2019s last game was a poor one. That combination is enough for me to back San Diego to win and cover."
+  },
+  "baseball_mlb_2026-08-02_boston-red-sox_at_los-angeles-dodgers": {
+    "predicted_winner": "Los Angeles Dodgers",
+    "predicted_against_spread": "Boston Red Sox",
+    "confidence": 57,
+    "key_factors": [
+      "The Dodgers have the far better overall record at 66-44",
+      "Boston has been hotter recently at 4-1 and the Red Sox also won the latest head-to-head",
+      "The price is still on the Dodgers, but the market is not overwhelming",
+      "The recent form split is enough to keep the spread interesting"
+    ],
+    "reasoning": "Boston has been the better recent team and just beat the Dodgers in the most recent showdown, but Los Angeles still holds the big edge in talent and overall record. I\u2019ll lean the Dodgers to win, but I\u2019m taking the Red Sox to keep it much closer than the moneyline suggests."
+  },
+  "baseball_mlb_2026-08-02_milwaukee-brewers_at_los-angeles-angels": {
+    "predicted_winner": "Milwaukee Brewers",
+    "predicted_against_spread": "Milwaukee Brewers",
+    "confidence": 72,
+    "key_factors": [
+      "Brewers own the much better record at 68-41",
+      "Milwaukee is 3-2 over the last five and has won the most recent head-to-head",
+      "Los Angeles is in a 4-game losing streak and is 1-4 over its last five",
+      "The talent gap is wide enough that the market and the trends line up"
+    ],
+    "reasoning": "This is a clear mismatch on the trend sheet: Milwaukee is the much better team by record, has the more favorable recent form, and just beat the Angels in the most recent meeting. I\u2019m comfortable taking the Brewers to win and cover."
+  },
+  "baseball_mlb_2026-08-02_detroit-tigers_at_athletics": {
+    "predicted_winner": "Detroit Tigers",
+    "predicted_against_spread": "Detroit Tigers",
+    "confidence": 65,
+    "key_factors": [
+      "Detroit has won four straight in the season series and the most recent meeting by a wide margin",
+      "The Tigers have the superior overall record at 52-58 versus Oakland\u2019s 45-65",
+      "Athletics are on a 3-game losing streak and the form is poor",
+      "The market is not giving the Tigers enough credit for the head-to-head edge"
+    ],
+    "reasoning": "Detroit has the head-to-head edge, the better record, and a clear recent edge over a struggling Athletics club. That is enough for me to back the Tigers to win and cover in this matchup."
+  }
+}

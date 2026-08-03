@@ -1,0 +1,599 @@
+{
+  "instructions": "For each game below, act as a sharp, disciplined sports betting analyst. Do NOT simply pick whichever side the betting market favors -- weigh the actual trend data provided (recent form, streaks, head-to-head history, and weather where relevant) and form an independent judgment. It's fine, and expected, to disagree with the market when the trends support it. If trend data is sparse for a game, say so and let that lower your confidence rather than defaulting to the favorite. For each game_id, produce: predicted_winner (exact team name), predicted_against_spread (exact team name), confidence (integer 1-100), key_factors (2-4 short strings), and reasoning (2-4 sentences referencing the specific trend data given).",
+  "games": {
+    "baseball_mlb_2026-08-03_st.-louis-cardinals_at_new-york-yankees": {
+      "league": "MLB",
+      "away_team": "St. Louis Cardinals",
+      "home_team": "New York Yankees",
+      "commence_time": "2026-08-03T23:06:00Z",
+      "market_line": {
+        "moneyline": {
+          "New York Yankees": -243,
+          "St. Louis Cardinals": 206
+        },
+        "spread": {
+          "New York Yankees": -1.5,
+          "St. Louis Cardinals": 1.5
+        },
+        "total": 7.9,
+        "num_bookmakers": 9
+      },
+      "away_team_trends": {
+        "team": "St. Louis Cardinals",
+        "last5": "2-3",
+        "streak": "W1",
+        "record": "55-57",
+        "h2h_vs_opponent": null
+      },
+      "home_team_trends": {
+        "team": "New York Yankees",
+        "last5": "2-3",
+        "streak": "W1",
+        "record": "64-48",
+        "h2h_vs_opponent": null
+      },
+      "weather_at_kickoff": null
+    },
+    "baseball_mlb_2026-08-03_pittsburgh-pirates_at_milwaukee-brewers": {
+      "league": "MLB",
+      "away_team": "Pittsburgh Pirates",
+      "home_team": "Milwaukee Brewers",
+      "commence_time": "2026-08-03T23:41:00Z",
+      "market_line": {
+        "moneyline": {
+          "Milwaukee Brewers": -151,
+          "Pittsburgh Pirates": 131
+        },
+        "spread": {
+          "Milwaukee Brewers": -1.5,
+          "Pittsburgh Pirates": 1.5
+        },
+        "total": 8.4,
+        "num_bookmakers": 9
+      },
+      "away_team_trends": {
+        "team": "Pittsburgh Pirates",
+        "last5": "1-4",
+        "streak": "L1",
+        "record": "56-57",
+        "h2h_vs_opponent": {
+          "record_this_season": "5-1",
+          "last_meeting_result": "won 14-5 on 2026-07-12"
+        }
+      },
+      "home_team_trends": {
+        "team": "Milwaukee Brewers",
+        "last5": "3-2",
+        "streak": "L1",
+        "record": "69-42",
+        "h2h_vs_opponent": {
+          "record_this_season": "1-5",
+          "last_meeting_result": "lost 5-14 on 2026-07-12"
+        }
+      },
+      "weather_at_kickoff": null
+    },
+    "baseball_mlb_2026-08-04_los-angeles-dodgers_at_chicago-cubs": {
+      "league": "MLB",
+      "away_team": "Los Angeles Dodgers",
+      "home_team": "Chicago Cubs",
+      "commence_time": "2026-08-04T00:06:00Z",
+      "market_line": {
+        "moneyline": {
+          "Chicago Cubs": 108,
+          "Los Angeles Dodgers": -125
+        },
+        "spread": {
+          "Chicago Cubs": 1.5,
+          "Los Angeles Dodgers": -1.5
+        },
+        "total": 8.0,
+        "num_bookmakers": 9
+      },
+      "away_team_trends": {
+        "team": "Los Angeles Dodgers",
+        "last5": "2-3",
+        "streak": "L3",
+        "record": "66-46",
+        "h2h_vs_opponent": {
+          "record_this_season": "2-1",
+          "last_meeting_result": "won 6-0 on 2026-04-26"
+        }
+      },
+      "home_team_trends": {
+        "team": "Chicago Cubs",
+        "last5": "2-3",
+        "streak": "L1",
+        "record": "63-49",
+        "h2h_vs_opponent": {
+          "record_this_season": "1-2",
+          "last_meeting_result": "lost 0-6 on 2026-04-26"
+        }
+      },
+      "weather_at_kickoff": null
+    },
+    "baseball_mlb_2026-08-04_san-francisco-giants_at_texas-rangers": {
+      "league": "MLB",
+      "away_team": "San Francisco Giants",
+      "home_team": "Texas Rangers",
+      "commence_time": "2026-08-04T00:06:00Z",
+      "market_line": {
+        "moneyline": {
+          "San Francisco Giants": 114,
+          "Texas Rangers": -131
+        },
+        "spread": {
+          "San Francisco Giants": 1.5,
+          "Texas Rangers": -1.5
+        },
+        "total": 8.0,
+        "num_bookmakers": 9
+      },
+      "away_team_trends": {
+        "team": "San Francisco Giants",
+        "last5": "2-3",
+        "streak": "L3",
+        "record": "47-65",
+        "h2h_vs_opponent": null
+      },
+      "home_team_trends": {
+        "team": "Texas Rangers",
+        "last5": "0-5",
+        "streak": "L5",
+        "record": "55-57",
+        "h2h_vs_opponent": null
+      },
+      "weather_at_kickoff": null
+    },
+    "baseball_mlb_2026-08-04_toronto-blue-jays_at_houston-astros": {
+      "league": "MLB",
+      "away_team": "Toronto Blue Jays",
+      "home_team": "Houston Astros",
+      "commence_time": "2026-08-04T00:10:00Z",
+      "market_line": {
+        "moneyline": {
+          "Houston Astros": -138,
+          "Toronto Blue Jays": 120
+        },
+        "spread": {
+          "Houston Astros": -1.5,
+          "Toronto Blue Jays": 1.5
+        },
+        "total": 9.0,
+        "num_bookmakers": 9
+      },
+      "away_team_trends": {
+        "team": "Toronto Blue Jays",
+        "last5": "3-2",
+        "streak": "L1",
+        "record": "52-60",
+        "h2h_vs_opponent": {
+          "record_this_season": "1-2",
+          "last_meeting_result": "lost 1-3 on 2026-06-24"
+        }
+      },
+      "home_team_trends": {
+        "team": "Houston Astros",
+        "last5": "5-0",
+        "streak": "W6",
+        "record": "58-55",
+        "h2h_vs_opponent": {
+          "record_this_season": "2-1",
+          "last_meeting_result": "won 3-1 on 2026-06-24"
+        }
+      },
+      "weather_at_kickoff": null
+    },
+    "baseball_mlb_2026-08-04_tampa-bay-rays_at_colorado-rockies": {
+      "league": "MLB",
+      "away_team": "Tampa Bay Rays",
+      "home_team": "Colorado Rockies",
+      "commence_time": "2026-08-04T00:41:00Z",
+      "market_line": {
+        "moneyline": {
+          "Colorado Rockies": 156,
+          "Tampa Bay Rays": -181
+        },
+        "spread": {
+          "Colorado Rockies": 1.5,
+          "Tampa Bay Rays": -1.5
+        },
+        "total": 11.5,
+        "num_bookmakers": 9
+      },
+      "away_team_trends": {
+        "team": "Tampa Bay Rays",
+        "last5": "3-2",
+        "streak": "L1",
+        "record": "65-46",
+        "h2h_vs_opponent": null
+      },
+      "home_team_trends": {
+        "team": "Colorado Rockies",
+        "last5": "3-2",
+        "streak": "W3",
+        "record": "45-67",
+        "h2h_vs_opponent": null
+      },
+      "weather_at_kickoff": null
+    },
+    "baseball_mlb_2026-08-04_san-diego-padres_at_arizona-diamondbacks": {
+      "league": "MLB",
+      "away_team": "San Diego Padres",
+      "home_team": "Arizona Diamondbacks",
+      "commence_time": "2026-08-04T01:41:00Z",
+      "market_line": {
+        "moneyline": {
+          "Arizona Diamondbacks": -112,
+          "San Diego Padres": -14
+        },
+        "spread": {
+          "Arizona Diamondbacks": 0.2,
+          "San Diego Padres": -0.2
+        },
+        "total": 9.0,
+        "num_bookmakers": 9
+      },
+      "away_team_trends": {
+        "team": "San Diego Padres",
+        "last5": "4-1",
+        "streak": "W3",
+        "record": "58-54",
+        "h2h_vs_opponent": {
+          "record_this_season": "3-3",
+          "last_meeting_result": "lost 1-3 on 2026-07-10"
+        }
+      },
+      "home_team_trends": {
+        "team": "Arizona Diamondbacks",
+        "last5": "4-1",
+        "streak": "L1",
+        "record": "59-53",
+        "h2h_vs_opponent": {
+          "record_this_season": "3-3",
+          "last_meeting_result": "won 3-1 on 2026-07-10"
+        }
+      },
+      "weather_at_kickoff": null
+    },
+    "baseball_mlb_2026-08-04_athletics_at_cincinnati-reds": {
+      "league": "MLB",
+      "away_team": "Athletics",
+      "home_team": "Cincinnati Reds",
+      "commence_time": "2026-08-04T22:40:00Z",
+      "market_line": {
+        "moneyline": {
+          "Athletics": 115,
+          "Cincinnati Reds": -135
+        },
+        "spread": {
+          "Athletics": 1.5,
+          "Cincinnati Reds": -1.5
+        },
+        "total": 9.2,
+        "num_bookmakers": 6
+      },
+      "away_team_trends": {
+        "team": "Athletics",
+        "last5": "0-5",
+        "streak": "L5",
+        "record": "45-67",
+        "h2h_vs_opponent": null
+      },
+      "home_team_trends": {
+        "team": "Cincinnati Reds",
+        "last5": "3-2",
+        "streak": "W1",
+        "record": "53-58",
+        "h2h_vs_opponent": null
+      },
+      "weather_at_kickoff": null
+    },
+    "baseball_mlb_2026-08-04_new-york-mets_at_cleveland-guardians": {
+      "league": "MLB",
+      "away_team": "New York Mets",
+      "home_team": "Cleveland Guardians",
+      "commence_time": "2026-08-04T22:40:00Z",
+      "market_line": {
+        "moneyline": {
+          "Cleveland Guardians": -138,
+          "New York Mets": 118
+        },
+        "spread": {
+          "Cleveland Guardians": -1.5,
+          "New York Mets": 1.5
+        },
+        "total": 7.5,
+        "num_bookmakers": 6
+      },
+      "away_team_trends": {
+        "team": "New York Mets",
+        "last5": "1-4",
+        "streak": "L3",
+        "record": "47-66",
+        "h2h_vs_opponent": null
+      },
+      "home_team_trends": {
+        "team": "Cleveland Guardians",
+        "last5": "2-3",
+        "streak": "W1",
+        "record": "57-56",
+        "h2h_vs_opponent": null
+      },
+      "weather_at_kickoff": null
+    },
+    "baseball_mlb_2026-08-04_washington-nationals_at_philadelphia-phillies": {
+      "league": "MLB",
+      "away_team": "Washington Nationals",
+      "home_team": "Philadelphia Phillies",
+      "commence_time": "2026-08-04T22:40:00Z",
+      "market_line": {
+        "moneyline": {
+          "Philadelphia Phillies": -226,
+          "Washington Nationals": 190
+        },
+        "spread": {
+          "Philadelphia Phillies": -1.5,
+          "Washington Nationals": 1.5
+        },
+        "total": 8.8,
+        "num_bookmakers": 6
+      },
+      "away_team_trends": {
+        "team": "Washington Nationals",
+        "last5": "0-5",
+        "streak": "L5",
+        "record": "55-58",
+        "h2h_vs_opponent": {
+          "record_this_season": "2-5",
+          "last_meeting_result": "lost 5-10 on 2026-06-25"
+        }
+      },
+      "home_team_trends": {
+        "team": "Philadelphia Phillies",
+        "last5": "2-3",
+        "streak": "W2",
+        "record": "59-53",
+        "h2h_vs_opponent": {
+          "record_this_season": "5-2",
+          "last_meeting_result": "won 10-5 on 2026-06-25"
+        }
+      },
+      "weather_at_kickoff": null
+    },
+    "baseball_mlb_2026-08-04_chicago-white-sox_at_boston-red-sox": {
+      "league": "MLB",
+      "away_team": "Chicago White Sox",
+      "home_team": "Boston Red Sox",
+      "commence_time": "2026-08-04T23:11:00Z",
+      "market_line": {
+        "moneyline": {
+          "Boston Red Sox": -127,
+          "Chicago White Sox": 110
+        },
+        "spread": {
+          "Boston Red Sox": -1.5,
+          "Chicago White Sox": 1.5
+        },
+        "total": 9.0,
+        "num_bookmakers": 3
+      },
+      "away_team_trends": {
+        "team": "Chicago White Sox",
+        "last5": "4-1",
+        "streak": "W1",
+        "record": "59-52",
+        "h2h_vs_opponent": {
+          "record_this_season": "0-3",
+          "last_meeting_result": "lost 1-2 on 2026-07-09"
+        }
+      },
+      "home_team_trends": {
+        "team": "Boston Red Sox",
+        "last5": "5-0",
+        "streak": "W5",
+        "record": "60-51",
+        "h2h_vs_opponent": {
+          "record_this_season": "3-0",
+          "last_meeting_result": "won 2-1 on 2026-07-09"
+        }
+      },
+      "weather_at_kickoff": null
+    },
+    "baseball_mlb_2026-08-04_miami-marlins_at_atlanta-braves": {
+      "league": "MLB",
+      "away_team": "Miami Marlins",
+      "home_team": "Atlanta Braves",
+      "commence_time": "2026-08-04T23:16:00Z",
+      "market_line": {
+        "moneyline": {
+          "Atlanta Braves": -138,
+          "Miami Marlins": 117
+        },
+        "spread": {
+          "Atlanta Braves": -1.5,
+          "Miami Marlins": 1.5
+        },
+        "total": 9.0,
+        "num_bookmakers": 3
+      },
+      "away_team_trends": {
+        "team": "Miami Marlins",
+        "last5": "4-1",
+        "streak": "W3",
+        "record": "58-55",
+        "h2h_vs_opponent": {
+          "record_this_season": "2-5",
+          "last_meeting_result": "lost 3-9 on 2026-05-21"
+        }
+      },
+      "home_team_trends": {
+        "team": "Atlanta Braves",
+        "last5": "5-0",
+        "streak": "W5",
+        "record": "67-45",
+        "h2h_vs_opponent": {
+          "record_this_season": "5-2",
+          "last_meeting_result": "won 9-3 on 2026-05-21"
+        }
+      },
+      "weather_at_kickoff": null
+    },
+    "baseball_mlb_2026-08-04_pittsburgh-pirates_at_milwaukee-brewers": {
+      "league": "MLB",
+      "away_team": "Pittsburgh Pirates",
+      "home_team": "Milwaukee Brewers",
+      "commence_time": "2026-08-04T23:40:00Z",
+      "market_line": {
+        "moneyline": {
+          "Milwaukee Brewers": -160,
+          "Pittsburgh Pirates": 138
+        },
+        "spread": {
+          "Milwaukee Brewers": -1.5,
+          "Pittsburgh Pirates": 1.5
+        },
+        "total": 7.7,
+        "num_bookmakers": 6
+      },
+      "away_team_trends": {
+        "team": "Pittsburgh Pirates",
+        "last5": "1-4",
+        "streak": "L1",
+        "record": "56-57",
+        "h2h_vs_opponent": {
+          "record_this_season": "5-1",
+          "last_meeting_result": "won 14-5 on 2026-07-12"
+        }
+      },
+      "home_team_trends": {
+        "team": "Milwaukee Brewers",
+        "last5": "3-2",
+        "streak": "L1",
+        "record": "69-42",
+        "h2h_vs_opponent": {
+          "record_this_season": "1-5",
+          "last_meeting_result": "lost 5-14 on 2026-07-12"
+        }
+      },
+      "weather_at_kickoff": null
+    },
+    "baseball_mlb_2026-08-04_minnesota-twins_at_kansas-city-royals": {
+      "league": "MLB",
+      "away_team": "Minnesota Twins",
+      "home_team": "Kansas City Royals",
+      "commence_time": "2026-08-04T23:41:00Z",
+      "market_line": {
+        "moneyline": {
+          "Kansas City Royals": 126,
+          "Minnesota Twins": -147
+        },
+        "spread": {
+          "Kansas City Royals": 1.5,
+          "Minnesota Twins": -1.5
+        },
+        "total": 9.2,
+        "num_bookmakers": 6
+      },
+      "away_team_trends": {
+        "team": "Minnesota Twins",
+        "last5": "2-3",
+        "streak": "L2",
+        "record": "56-57",
+        "h2h_vs_opponent": {
+          "record_this_season": "4-6",
+          "last_meeting_result": "won 4-3 on 2026-07-30"
+        }
+      },
+      "home_team_trends": {
+        "team": "Kansas City Royals",
+        "last5": "1-4",
+        "streak": "L4",
+        "record": "46-67",
+        "h2h_vs_opponent": {
+          "record_this_season": "6-4",
+          "last_meeting_result": "lost 3-4 on 2026-07-30"
+        }
+      },
+      "weather_at_kickoff": null
+    },
+    "baseball_mlb_2026-08-05_los-angeles-dodgers_at_chicago-cubs": {
+      "league": "MLB",
+      "away_team": "Los Angeles Dodgers",
+      "home_team": "Chicago Cubs",
+      "commence_time": "2026-08-05T00:06:00Z",
+      "market_line": {
+        "moneyline": {
+          "Chicago Cubs": 171,
+          "Los Angeles Dodgers": -202
+        },
+        "spread": {
+          "Chicago Cubs": 1.5,
+          "Los Angeles Dodgers": -1.5
+        },
+        "total": 9.0,
+        "num_bookmakers": 6
+      },
+      "away_team_trends": {
+        "team": "Los Angeles Dodgers",
+        "last5": "2-3",
+        "streak": "L3",
+        "record": "66-46",
+        "h2h_vs_opponent": {
+          "record_this_season": "2-1",
+          "last_meeting_result": "won 6-0 on 2026-04-26"
+        }
+      },
+      "home_team_trends": {
+        "team": "Chicago Cubs",
+        "last5": "2-3",
+        "streak": "L1",
+        "record": "63-49",
+        "h2h_vs_opponent": {
+          "record_this_season": "1-2",
+          "last_meeting_result": "lost 0-6 on 2026-04-26"
+        }
+      },
+      "weather_at_kickoff": null
+    },
+    "baseball_mlb_2026-08-05_toronto-blue-jays_at_houston-astros": {
+      "league": "MLB",
+      "away_team": "Toronto Blue Jays",
+      "home_team": "Houston Astros",
+      "commence_time": "2026-08-05T00:10:00Z",
+      "market_line": {
+        "moneyline": {
+          "Houston Astros": -129,
+          "Toronto Blue Jays": 111
+        },
+        "spread": {
+          "Houston Astros": -1.5,
+          "Toronto Blue Jays": 1.5
+        },
+        "total": 8.5,
+        "num_bookmakers": 4
+      },
+      "away_team_trends": {
+        "team": "Toronto Blue Jays",
+        "last5": "3-2",
+        "streak": "L1",
+        "record": "52-60",
+        "h2h_vs_opponent": {
+          "record_this_season": "1-2",
+          "last_meeting_result": "lost 1-3 on 2026-06-24"
+        }
+      },
+      "home_team_trends": {
+        "team": "Houston Astros",
+        "last5": "5-0",
+        "streak": "W6",
+        "record": "58-55",
+        "h2h_vs_opponent": {
+          "record_this_season": "2-1",
+          "last_meeting_result": "won 3-1 on 2026-06-24"
+        }
+      },
+      "weather_at_kickoff": null
+    }
+  }
+}

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Steven's Bet Tracker</title>
+<style>
+:root {
+  --bg: #0f1115; --card: #171a21; --border: #262b36; --text: #e8eaed;
+  --muted: #9aa4b2; --accent: #4f8cff; --good: #33c17a; --bad: #e6564c; --push: #c9a227;
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--text); font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
+header { padding: 24px 20px; border-bottom: 1px solid var(--border); display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px; }
+header h1 { margin: 0; font-size: 1.4rem; }
+nav a { color: var(--muted); text-decoration: none; margin-left: 18px; font-size: 0.95rem; }
+nav a.active, nav a:hover { color: var(--text); }
+.layout { max-width: 1200px; margin: 0 auto; display: flex; align-items: flex-start; }
+.sidebar { width: 190px; flex-shrink: 0; padding: 24px 12px 60px; position: sticky; top: 0; align-self: flex-start; }
+.sidebar h3 { color: var(--muted); font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.04em; margin: 0 0 10px 10px; }
+.sidebar button { display: block; width: 100%; text-align: left; background: none; border: none; color: var(--muted); padding: 8px 10px; border-radius: 6px; cursor: pointer; font-size: 0.9rem; margin-bottom: 2px; font-family: inherit; }
+.sidebar button:hover { background: #1f2430; color: var(--text); }
+.sidebar button.active { background: rgba(79,140,255,0.15); color: var(--accent); font-weight: 600; }
+main { flex: 1; min-width: 0; padding: 24px 20px 60px; }
+.updated { color: var(--muted); font-size: 0.85rem; margin-bottom: 24px; }
+.league-group h2 { font-size: 1.1rem; color: var(--accent); margin-bottom: 12px; }
+.card { background: var(--card); border: 1px solid var(--border); border-radius: 10px; padding: 16px 18px; margin-bottom: 12px; }
+.matchup { font-size: 1.05rem; font-weight: 600; margin-bottom: 4px; }
+.meta { color: var(--muted); font-size: 0.85rem; margin-bottom: 10px; }
+.odds-row { display: flex; gap: 22px; flex-wrap: wrap; margin: 10px 0; padding: 10px 12px; background: #1f2430; border-radius: 8px; }
+.odds-item .odds-label { color: var(--muted); font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.03em; margin-bottom: 2px; }
+.odds-item .odds-value { color: var(--text); font-size: 0.85rem; font-weight: 600; }
+.your-pick-badge { display: inline-flex; align-items: center; gap: 5px; background: rgba(51,193,122,0.15); color: var(--good); padding: 2px 9px; border-radius: 20px; font-size: 0.78rem; font-weight: 600; margin-left: 8px; }
+.pick-row { display: flex; align-items: center; gap: 10px; margin-bottom: 8px; flex-wrap: wrap; }
+.pick { font-weight: 600; color: var(--accent); }
+.confidence { background: rgba(79,140,255,0.15); color: var(--accent); padding: 2px 9px; border-radius: 20px; font-size: 0.8rem; }
+.factors { list-style: none; padding: 0; margin: 8px 0 0; display: flex; flex-wrap: wrap; gap: 6px; }
+.factors li { background: #1f2430; border: 1px solid var(--border); border-radius: 6px; padding: 3px 9px; font-size: 0.78rem; color: var(--muted); }
+.reasoning { margin-top: 10px; font-size: 0.88rem; color: var(--muted); line-height: 1.4; }
+.no-lean { margin-top: 8px; font-size: 0.85rem; color: var(--muted); font-style: italic; }
+.empty { color: var(--muted); font-style: italic; padding: 30px 0; text-align: center; }
+.stats-row { display: flex; gap: 12px; margin-bottom: 28px; flex-wrap: wrap; }
+.stat-box { background: var(--card); border: 1px solid var(--border); border-radius: 10px; padding: 16px 22px; min-width: 140px; }
+.stat-box .num { font-size: 1.6rem; font-weight: 700; }
+.stat-box .label { color: var(--muted); font-size: 0.8rem; }
+table { width: 100%; border-collapse: collapse; font-size: 0.88rem; }
+th, td { text-align: left; padding: 9px 10px; border-bottom: 1px solid var(--border); }
+th { color: var(--muted); font-weight: 500; font-size: 0.78rem; text-transform: uppercase; }
+.result-good { color: var(--good); font-weight: 600; }
+.result-bad { color: var(--bad); font-weight: 600; }
+.result-push { color: var(--push); font-weight: 600; }
+.pick-toggle { display: inline-flex; align-items: center; gap: 6px; margin-top: 10px; font-size: 0.85rem; color: var(--muted); cursor: pointer; user-select: none; }
+.pick-toggle input { cursor: pointer; }
+.pick-status { margin-top: 6px; font-size: 0.78rem; color: var(--bad); display: none; }
+</style>
+</head>
+<body>
+<header>
+  <h1>Steven's Bet Tracker</h1>
+  <nav>
+    <a href="index.html" class="active">Upcoming Predictions</a>
+    <a href="results.html">Track Record</a>
+  </nav>
+</header>
+<div class="layout">
+
+<main>
+<p class="updated">Last updated 2026-08-02 UTC</p><p class="empty">No upcoming games right now. Check back after the next data refresh.</p>
+</main>
+</div>
+
+<script>
+function filterLeague(league, btn) {
+  document.querySelectorAll('.filterable-item').forEach(function(el) {
+    el.style.display = (league === 'all' || el.dataset.league === league) ? '' : 'none';
+  });
+  document.querySelectorAll('.league-btn').forEach(function(b) { b.classList.remove('active'); });
+  btn.classList.add('active');
+}
+</script>
+
+
+<script>
+function togglePick(gameId, checkbox) {
+  var badge = document.getElementById('badge-' + gameId);
+  var status = document.getElementById('status-' + gameId);
+  checkbox.disabled = true;
+  fetch('http://127.0.0.1:8934/toggle-pick', {
+    method: 'POST',
+    headers: {'Content-Type': 'application/json'},
+    body: JSON.stringify({game_id: gameId})
+  })
+  .then(function(res) { if (!res.ok) throw new Error('bad response'); return res.json(); })
+  .then(function(data) {
+    if (badge) badge.style.display = data.user_selected ? 'inline-flex' : 'none';
+    checkbox.checked = data.user_selected;
+    if (status) status.style.display = 'none';
+  })
+  .catch(function(err) {
+    checkbox.checked = !checkbox.checked;
+    if (status) status.style.display = 'block';
+  })
+  .finally(function() { checkbox.disabled = false; });
+}
+</script>
+
+</body>
+</html>
