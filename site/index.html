@@ -37,7 +37,6 @@ main { flex: 1; min-width: 0; padding: 24px 20px 60px; }
 .factors { list-style: none; padding: 0; margin: 8px 0 0; display: flex; flex-wrap: wrap; gap: 6px; }
 .factors li { background: #1f2430; border: 1px solid var(--border); border-radius: 6px; padding: 3px 9px; font-size: 0.78rem; color: var(--muted); }
 .reasoning { margin-top: 10px; font-size: 0.88rem; color: var(--muted); line-height: 1.4; }
-.no-lean { margin-top: 8px; font-size: 0.85rem; color: var(--muted); font-style: italic; }
 .empty { color: var(--muted); font-style: italic; padding: 30px 0; text-align: center; }
 .stats-row { display: flex; gap: 12px; margin-bottom: 28px; flex-wrap: wrap; }
 .stat-box { background: var(--card); border: 1px solid var(--border); border-radius: 10px; padding: 16px 22px; min-width: 140px; }
@@ -65,86 +64,134 @@ th { color: var(--muted); font-weight: 500; font-size: 0.78rem; text-transform: 
 <div class="layout">
 <div class="sidebar"><h3>Sports</h3><button class="league-btn active" data-league="all" onclick="filterLeague('all', this)">All Sports</button><button class="league-btn" data-league="MLB" onclick="filterLeague('MLB', this)">MLB</button></div>
 <main>
-<p class="updated">Last updated 2026-08-03 UTC</p><div class="league-group filterable-item" data-league="MLB"><h2>MLB</h2>
+<p class="updated">Last updated 2026-08-04 UTC</p><div class="league-group filterable-item" data-league="MLB"><h2>MLB</h2>
 <div class="card">
-  <div class="matchup">St. Louis Cardinals @ New York Yankees</div>
-  <div class="meta">Mon Aug 03, 07:06 PM EDT &middot; prediction pending next refresh</div>
-  <div class="odds-row"><div class="odds-item"><div class="odds-label">Moneyline</div><div class="odds-value">New York Yankees -243 &middot; St. Louis Cardinals +206</div></div><div class="odds-item"><div class="odds-label">Spread</div><div class="odds-value">New York Yankees -1.5 &middot; St. Louis Cardinals +1.5</div></div><div class="odds-item"><div class="odds-label">Total (O/U)</div><div class="odds-value">7.9</div></div><div class="odds-item"><div class="odds-label">Books</div><div class="odds-value">9</div></div></div>
-</div>
-<div class="card">
-  <div class="matchup">Pittsburgh Pirates @ Milwaukee Brewers</div>
-  <div class="meta">Mon Aug 03, 07:41 PM EDT &middot; prediction pending next refresh</div>
-  <div class="odds-row"><div class="odds-item"><div class="odds-label">Moneyline</div><div class="odds-value">Milwaukee Brewers -151 &middot; Pittsburgh Pirates +131</div></div><div class="odds-item"><div class="odds-label">Spread</div><div class="odds-value">Milwaukee Brewers -1.5 &middot; Pittsburgh Pirates +1.5</div></div><div class="odds-item"><div class="odds-label">Total (O/U)</div><div class="odds-value">8.4</div></div><div class="odds-item"><div class="odds-label">Books</div><div class="odds-value">9</div></div></div>
-</div>
-<div class="card">
-  <div class="matchup">Los Angeles Dodgers @ Chicago Cubs</div>
-  <div class="meta">Mon Aug 03, 08:06 PM EDT &middot; prediction pending next refresh</div>
-  <div class="odds-row"><div class="odds-item"><div class="odds-label">Moneyline</div><div class="odds-value">Chicago Cubs +108 &middot; Los Angeles Dodgers -125</div></div><div class="odds-item"><div class="odds-label">Spread</div><div class="odds-value">Chicago Cubs +1.5 &middot; Los Angeles Dodgers -1.5</div></div><div class="odds-item"><div class="odds-label">Total (O/U)</div><div class="odds-value">8.0</div></div><div class="odds-item"><div class="odds-label">Books</div><div class="odds-value">9</div></div></div>
-</div>
-<div class="card">
-  <div class="matchup">San Francisco Giants @ Texas Rangers</div>
-  <div class="meta">Mon Aug 03, 08:06 PM EDT &middot; prediction pending next refresh</div>
-  <div class="odds-row"><div class="odds-item"><div class="odds-label">Moneyline</div><div class="odds-value">San Francisco Giants +114 &middot; Texas Rangers -131</div></div><div class="odds-item"><div class="odds-label">Spread</div><div class="odds-value">San Francisco Giants +1.5 &middot; Texas Rangers -1.5</div></div><div class="odds-item"><div class="odds-label">Total (O/U)</div><div class="odds-value">8.0</div></div><div class="odds-item"><div class="odds-label">Books</div><div class="odds-value">9</div></div></div>
-</div>
-<div class="card">
-  <div class="matchup">Toronto Blue Jays @ Houston Astros</div>
-  <div class="meta">Mon Aug 03, 08:10 PM EDT &middot; prediction pending next refresh</div>
-  <div class="odds-row"><div class="odds-item"><div class="odds-label">Moneyline</div><div class="odds-value">Houston Astros -138 &middot; Toronto Blue Jays +120</div></div><div class="odds-item"><div class="odds-label">Spread</div><div class="odds-value">Houston Astros -1.5 &middot; Toronto Blue Jays +1.5</div></div><div class="odds-item"><div class="odds-label">Total (O/U)</div><div class="odds-value">9.0</div></div><div class="odds-item"><div class="odds-label">Books</div><div class="odds-value">9</div></div></div>
-</div>
-<div class="card">
-  <div class="matchup">Tampa Bay Rays @ Colorado Rockies</div>
-  <div class="meta">Mon Aug 03, 08:41 PM EDT &middot; prediction pending next refresh</div>
-  <div class="odds-row"><div class="odds-item"><div class="odds-label">Moneyline</div><div class="odds-value">Colorado Rockies +156 &middot; Tampa Bay Rays -181</div></div><div class="odds-item"><div class="odds-label">Spread</div><div class="odds-value">Colorado Rockies +1.5 &middot; Tampa Bay Rays -1.5</div></div><div class="odds-item"><div class="odds-label">Total (O/U)</div><div class="odds-value">11.5</div></div><div class="odds-item"><div class="odds-label">Books</div><div class="odds-value">9</div></div></div>
-</div>
-<div class="card">
-  <div class="matchup">San Diego Padres @ Arizona Diamondbacks</div>
-  <div class="meta">Mon Aug 03, 09:41 PM EDT &middot; prediction pending next refresh</div>
-  <div class="odds-row"><div class="odds-item"><div class="odds-label">Moneyline</div><div class="odds-value">Arizona Diamondbacks -112 &middot; San Diego Padres -14</div></div><div class="odds-item"><div class="odds-label">Spread</div><div class="odds-value">Arizona Diamondbacks +0.2 &middot; San Diego Padres -0.2</div></div><div class="odds-item"><div class="odds-label">Total (O/U)</div><div class="odds-value">9.0</div></div><div class="odds-item"><div class="odds-label">Books</div><div class="odds-value">9</div></div></div>
-</div>
-<div class="card">
-  <div class="matchup">Athletics @ Cincinnati Reds</div>
-  <div class="meta">Tue Aug 04, 06:40 PM EDT &middot; prediction pending next refresh</div>
-  <div class="odds-row"><div class="odds-item"><div class="odds-label">Moneyline</div><div class="odds-value">Athletics +115 &middot; Cincinnati Reds -135</div></div><div class="odds-item"><div class="odds-label">Spread</div><div class="odds-value">Athletics +1.5 &middot; Cincinnati Reds -1.5</div></div><div class="odds-item"><div class="odds-label">Total (O/U)</div><div class="odds-value">9.2</div></div><div class="odds-item"><div class="odds-label">Books</div><div class="odds-value">6</div></div></div>
-</div>
-<div class="card">
-  <div class="matchup">New York Mets @ Cleveland Guardians</div>
-  <div class="meta">Tue Aug 04, 06:40 PM EDT &middot; prediction pending next refresh</div>
-  <div class="odds-row"><div class="odds-item"><div class="odds-label">Moneyline</div><div class="odds-value">Cleveland Guardians -138 &middot; New York Mets +118</div></div><div class="odds-item"><div class="odds-label">Spread</div><div class="odds-value">Cleveland Guardians -1.5 &middot; New York Mets +1.5</div></div><div class="odds-item"><div class="odds-label">Total (O/U)</div><div class="odds-value">7.5</div></div><div class="odds-item"><div class="odds-label">Books</div><div class="odds-value">6</div></div></div>
-</div>
-<div class="card">
-  <div class="matchup">Washington Nationals @ Philadelphia Phillies</div>
-  <div class="meta">Tue Aug 04, 06:40 PM EDT &middot; prediction pending next refresh</div>
+  <div class="matchup">Washington Nationals @ Philadelphia Phillies <span class="your-pick-badge" id="badge-baseball_mlb_2026-08-04_washington-nationals_at_philadelphia-phillies" style="display:none;">&#10003; Your pick</span></div>
+  <div class="meta">Tue Aug 04, 06:40 PM EDT</div>
   <div class="odds-row"><div class="odds-item"><div class="odds-label">Moneyline</div><div class="odds-value">Philadelphia Phillies -226 &middot; Washington Nationals +190</div></div><div class="odds-item"><div class="odds-label">Spread</div><div class="odds-value">Philadelphia Phillies -1.5 &middot; Washington Nationals +1.5</div></div><div class="odds-item"><div class="odds-label">Total (O/U)</div><div class="odds-value">8.8</div></div><div class="odds-item"><div class="odds-label">Books</div><div class="odds-value">6</div></div></div>
+  <div class="pick-row">
+    <span>Pick:</span> <span class="pick">Philadelphia Phillies</span>
+    <span class="confidence">72% confidence</span>
+  </div>
+  <div class="pick-row"><span>Against the spread:</span> <span class="pick">Philadelphia Phillies</span></div>
+  <ul class="factors"><li>Nationals are on a brutal 0-5 stretch</li><li>Phillies lead the season series 5-2 and just beat Washington 10-5</li><li>Jesus Luzardo (3.57 ERA, 9-5) well ahead of Zack Littell (4.94 ERA, 7-8)</li></ul>
+  <div class="reasoning">This is about as aligned as these matchups get: Washington has lost five straight, Philadelphia has dominated the season series (5-2, including a 10-5 win last meeting), and the Phillies' Jesus Luzardo (3.57 ERA, 9-5) is a clear step up from Washington's Zack Littell (4.94 ERA, 7-8). The market's already pricing Philadelphia as a heavy favorite (-226), and every trend here confirms rather than contradicts that price -- this is the highest-confidence pick of the set.</div>
+  <label class="pick-toggle">
+    <input type="checkbox" id="chk-baseball_mlb_2026-08-04_washington-nationals_at_philadelphia-phillies"  onchange="togglePick('baseball_mlb_2026-08-04_washington-nationals_at_philadelphia-phillies', this)"> I bet on this
+  </label>
+  <div class="pick-status" id="status-baseball_mlb_2026-08-04_washington-nationals_at_philadelphia-phillies">Couldn't reach the local pick server &mdash; run <code>python3 scripts/pick_server.py</code> on your machine, then try again.</div>
 </div>
 <div class="card">
-  <div class="matchup">Chicago White Sox @ Boston Red Sox</div>
-  <div class="meta">Tue Aug 04, 07:11 PM EDT &middot; prediction pending next refresh</div>
-  <div class="odds-row"><div class="odds-item"><div class="odds-label">Moneyline</div><div class="odds-value">Boston Red Sox -127 &middot; Chicago White Sox +110</div></div><div class="odds-item"><div class="odds-label">Spread</div><div class="odds-value">Boston Red Sox -1.5 &middot; Chicago White Sox +1.5</div></div><div class="odds-item"><div class="odds-label">Total (O/U)</div><div class="odds-value">9.0</div></div><div class="odds-item"><div class="odds-label">Books</div><div class="odds-value">3</div></div></div>
-</div>
-<div class="card">
-  <div class="matchup">Miami Marlins @ Atlanta Braves</div>
-  <div class="meta">Tue Aug 04, 07:16 PM EDT &middot; prediction pending next refresh</div>
+  <div class="matchup">Miami Marlins @ Atlanta Braves <span class="your-pick-badge" id="badge-baseball_mlb_2026-08-04_miami-marlins_at_atlanta-braves" style="display:none;">&#10003; Your pick</span></div>
+  <div class="meta">Tue Aug 04, 07:16 PM EDT</div>
   <div class="odds-row"><div class="odds-item"><div class="odds-label">Moneyline</div><div class="odds-value">Atlanta Braves -138 &middot; Miami Marlins +117</div></div><div class="odds-item"><div class="odds-label">Spread</div><div class="odds-value">Atlanta Braves -1.5 &middot; Miami Marlins +1.5</div></div><div class="odds-item"><div class="odds-label">Total (O/U)</div><div class="odds-value">9.0</div></div><div class="odds-item"><div class="odds-label">Books</div><div class="odds-value">3</div></div></div>
+  <div class="pick-row">
+    <span>Pick:</span> <span class="pick">Atlanta Braves</span>
+    <span class="confidence">68% confidence</span>
+  </div>
+  <div class="pick-row"><span>Against the spread:</span> <span class="pick">Atlanta Braves</span></div>
+  <ul class="factors"><li>Braves have MLB-caliber form: 5-0 over last 5, 5-game win streak, 67-45 record</li><li>Braves lead the season series 5-2 and won the last meeting 9-3</li><li>Miami's starter unannounced, a minor gap given the team-quality edge</li></ul>
+  <div class="reasoning">Atlanta is playing as well as any team in the sample right now -- a perfect 5-0 over the last five games on top of the best overall record here (67-45) -- and has beaten Miami soundly in the season series (5-2, including a 9-3 win last time out). Miami is also playing well (W3) but is a clear tier below. Not knowing Miami's starter is a minor gap, not enough to offset the size of the overall edge.</div>
+  <label class="pick-toggle">
+    <input type="checkbox" id="chk-baseball_mlb_2026-08-04_miami-marlins_at_atlanta-braves"  onchange="togglePick('baseball_mlb_2026-08-04_miami-marlins_at_atlanta-braves', this)"> I bet on this
+  </label>
+  <div class="pick-status" id="status-baseball_mlb_2026-08-04_miami-marlins_at_atlanta-braves">Couldn't reach the local pick server &mdash; run <code>python3 scripts/pick_server.py</code> on your machine, then try again.</div>
 </div>
 <div class="card">
-  <div class="matchup">Pittsburgh Pirates @ Milwaukee Brewers</div>
-  <div class="meta">Tue Aug 04, 07:40 PM EDT &middot; prediction pending next refresh</div>
+  <div class="matchup">New York Mets @ Cleveland Guardians <span class="your-pick-badge" id="badge-baseball_mlb_2026-08-04_new-york-mets_at_cleveland-guardians" style="display:none;">&#10003; Your pick</span></div>
+  <div class="meta">Tue Aug 04, 06:40 PM EDT</div>
+  <div class="odds-row"><div class="odds-item"><div class="odds-label">Moneyline</div><div class="odds-value">Cleveland Guardians -138 &middot; New York Mets +118</div></div><div class="odds-item"><div class="odds-label">Spread</div><div class="odds-value">Cleveland Guardians -1.5 &middot; New York Mets +1.5</div></div><div class="odds-item"><div class="odds-label">Total (O/U)</div><div class="odds-value">7.5</div></div><div class="odds-item"><div class="odds-label">Books</div><div class="odds-value">6</div></div></div>
+  <div class="pick-row">
+    <span>Pick:</span> <span class="pick">Cleveland Guardians</span>
+    <span class="confidence">66% confidence</span>
+  </div>
+  <div class="pick-row"><span>Against the spread:</span> <span class="pick">Cleveland Guardians</span></div>
+  <ul class="factors"><li>Mets are on a 3-game skid and 1-4 over their last 5</li><li>Joey Cantillo (3.88 ERA, 8-6) clearly outpitching Sean Manaea (4.42 ERA, 2-5)</li><li>Cleveland has the better overall record (57-56 vs 47-66) and current W1 form</li></ul>
+  <div class="reasoning">Every signal points the same direction here: the Mets are in freefall (L3, 1-4 over their last five, well under .500 on the year), and their starter Sean Manaea (4.42 ERA, 2-5) is being outclassed on paper by Cleveland's Joey Cantillo (3.88 ERA, 8-6). Cleveland's overall record and recent form are also stronger. With trend data, form, and the pitching matchup all aligned, this is one of the more confident picks in the group.</div>
+  <label class="pick-toggle">
+    <input type="checkbox" id="chk-baseball_mlb_2026-08-04_new-york-mets_at_cleveland-guardians"  onchange="togglePick('baseball_mlb_2026-08-04_new-york-mets_at_cleveland-guardians', this)"> I bet on this
+  </label>
+  <div class="pick-status" id="status-baseball_mlb_2026-08-04_new-york-mets_at_cleveland-guardians">Couldn't reach the local pick server &mdash; run <code>python3 scripts/pick_server.py</code> on your machine, then try again.</div>
+</div>
+<div class="card">
+  <div class="matchup">San Diego Padres @ Arizona Diamondbacks <span class="your-pick-badge" id="badge-baseball_mlb_2026-08-04_san-diego-padres_at_arizona-diamondbacks" style="display:none;">&#10003; Your pick</span></div>
+  <div class="meta">Mon Aug 03, 09:41 PM EDT</div>
+  <div class="odds-row"><div class="odds-item"><div class="odds-label">Moneyline</div><div class="odds-value">Arizona Diamondbacks -112 &middot; San Diego Padres -14</div></div><div class="odds-item"><div class="odds-label">Spread</div><div class="odds-value">Arizona Diamondbacks +0.2 &middot; San Diego Padres -0.2</div></div><div class="odds-item"><div class="odds-label">Total (O/U)</div><div class="odds-value">9.0</div></div><div class="odds-item"><div class="odds-label">Books</div><div class="odds-value">9</div></div></div>
+  <div class="pick-row">
+    <span>Pick:</span> <span class="pick">Arizona Diamondbacks</span>
+    <span class="confidence">60% confidence</span>
+  </div>
+  <div class="pick-row"><span>Against the spread:</span> <span class="pick">Arizona Diamondbacks</span></div>
+  <ul class="factors"><li>Eduardo Rodriguez (2.48 ERA, 10-3) is a clear mound advantage for Arizona</li><li>Teams are essentially even on record (59-53 vs 58-54) and both hot over last 5</li><li>Season series tied 3-3, so no historical edge either way</li><li>Padres' starter unannounced</li></ul>
+  <div class="reasoning">This is close to a coin flip on paper -- both teams are hot (4-1 over the last 5) and evenly matched on record, and the season series is split 3-3. What tips it is Arizona's starter: Eduardo Rodriguez is having a genuinely excellent season (2.48 ERA, 10-3), a real edge the market's near-even pricing (-112) doesn't seem to fully reflect. San Diego's starter wasn't posted yet, adding some uncertainty.</div>
+  <label class="pick-toggle">
+    <input type="checkbox" id="chk-baseball_mlb_2026-08-04_san-diego-padres_at_arizona-diamondbacks"  onchange="togglePick('baseball_mlb_2026-08-04_san-diego-padres_at_arizona-diamondbacks', this)"> I bet on this
+  </label>
+  <div class="pick-status" id="status-baseball_mlb_2026-08-04_san-diego-padres_at_arizona-diamondbacks">Couldn't reach the local pick server &mdash; run <code>python3 scripts/pick_server.py</code> on your machine, then try again.</div>
+</div>
+<div class="card">
+  <div class="matchup">Tampa Bay Rays @ Colorado Rockies <span class="your-pick-badge" id="badge-baseball_mlb_2026-08-04_tampa-bay-rays_at_colorado-rockies" style="display:none;">&#10003; Your pick</span></div>
+  <div class="meta">Mon Aug 03, 08:41 PM EDT</div>
+  <div class="odds-row"><div class="odds-item"><div class="odds-label">Moneyline</div><div class="odds-value">Colorado Rockies +156 &middot; Tampa Bay Rays -181</div></div><div class="odds-item"><div class="odds-label">Spread</div><div class="odds-value">Colorado Rockies +1.5 &middot; Tampa Bay Rays -1.5</div></div><div class="odds-item"><div class="odds-label">Total (O/U)</div><div class="odds-value">11.5</div></div><div class="odds-item"><div class="odds-label">Books</div><div class="odds-value">9</div></div></div>
+  <div class="pick-row">
+    <span>Pick:</span> <span class="pick">Tampa Bay Rays</span>
+    <span class="confidence">58% confidence</span>
+  </div>
+  <div class="pick-row"><span>Against the spread:</span> <span class="pick">Tampa Bay Rays</span></div>
+  <ul class="factors"><li>Rays' 65-46 record is far stronger than Rockies' 45-67</li><li>Rockies riding a 3-game win streak at home, some resistance expected</li><li>Rays' starter not yet announced, which caps confidence a bit</li></ul>
+  <div class="reasoning">Tampa Bay is simply the better team by a wide margin (65-46 vs 45-67), and Colorado has been one of the league's weakest clubs all year despite the current 3-game streak. The high 11.5 total reflects Coors Field's usual offensive boost, but the team-quality gap should still show up in the result. Confidence is capped in the mid-50s because the Rays' probable starter hadn't been posted yet at data-pull time, leaving a real gap in the picture.</div>
+  <label class="pick-toggle">
+    <input type="checkbox" id="chk-baseball_mlb_2026-08-04_tampa-bay-rays_at_colorado-rockies"  onchange="togglePick('baseball_mlb_2026-08-04_tampa-bay-rays_at_colorado-rockies', this)"> I bet on this
+  </label>
+  <div class="pick-status" id="status-baseball_mlb_2026-08-04_tampa-bay-rays_at_colorado-rockies">Couldn't reach the local pick server &mdash; run <code>python3 scripts/pick_server.py</code> on your machine, then try again.</div>
+</div>
+<div class="card">
+  <div class="matchup">Chicago White Sox @ Boston Red Sox <span class="your-pick-badge" id="badge-baseball_mlb_2026-08-04_chicago-white-sox_at_boston-red-sox" style="display:none;">&#10003; Your pick</span></div>
+  <div class="meta">Tue Aug 04, 07:11 PM EDT</div>
+  <div class="odds-row"><div class="odds-item"><div class="odds-label">Moneyline</div><div class="odds-value">Boston Red Sox -127 &middot; Chicago White Sox +110</div></div><div class="odds-item"><div class="odds-label">Spread</div><div class="odds-value">Boston Red Sox -1.5 &middot; Chicago White Sox +1.5</div></div><div class="odds-item"><div class="odds-label">Total (O/U)</div><div class="odds-value">9.0</div></div><div class="odds-item"><div class="odds-label">Books</div><div class="odds-value">3</div></div></div>
+  <div class="pick-row">
+    <span>Pick:</span> <span class="pick">Boston Red Sox</span>
+    <span class="confidence">58% confidence</span>
+  </div>
+  <div class="pick-row"><span>Against the spread:</span> <span class="pick">Boston Red Sox</span></div>
+  <ul class="factors"><li>Red Sox are red-hot: 5-0 over their last 5, current 5-game win streak</li><li>Boston has swept the season series 3-0 so far</li><li>Patrick Sandoval's 0-0 record suggests a very limited sample despite his 3.32 ERA</li><li>Davis Martin (3.62 ERA, 9-5) has a fuller, more proven track record</li></ul>
+  <div class="reasoning">Boston's current form (5-0, 5-game win streak) and a clean 3-0 season sweep of Chicago both point strongly to the Red Sox. The one thing holding this back from a higher grade is the pitching matchup: Sandoval's 0-0 record alongside his 3.32 ERA suggests very few innings this season (likely a rehab or spot start), while Chicago's Davis Martin has a much larger, more reliable sample at 9-5. That uncertainty is enough to keep this as a lean rather than a strong pick.</div>
+  <label class="pick-toggle">
+    <input type="checkbox" id="chk-baseball_mlb_2026-08-04_chicago-white-sox_at_boston-red-sox"  onchange="togglePick('baseball_mlb_2026-08-04_chicago-white-sox_at_boston-red-sox', this)"> I bet on this
+  </label>
+  <div class="pick-status" id="status-baseball_mlb_2026-08-04_chicago-white-sox_at_boston-red-sox">Couldn't reach the local pick server &mdash; run <code>python3 scripts/pick_server.py</code> on your machine, then try again.</div>
+</div>
+<div class="card">
+  <div class="matchup">Athletics @ Cincinnati Reds <span class="your-pick-badge" id="badge-baseball_mlb_2026-08-04_athletics_at_cincinnati-reds" style="display:none;">&#10003; Your pick</span></div>
+  <div class="meta">Tue Aug 04, 06:40 PM EDT</div>
+  <div class="odds-row"><div class="odds-item"><div class="odds-label">Moneyline</div><div class="odds-value">Athletics +115 &middot; Cincinnati Reds -135</div></div><div class="odds-item"><div class="odds-label">Spread</div><div class="odds-value">Athletics +1.5 &middot; Cincinnati Reds -1.5</div></div><div class="odds-item"><div class="odds-label">Total (O/U)</div><div class="odds-value">9.2</div></div><div class="odds-item"><div class="odds-label">Books</div><div class="odds-value">6</div></div></div>
+  <div class="pick-row">
+    <span>Pick:</span> <span class="pick">Cincinnati Reds</span>
+    <span class="confidence">57% confidence</span>
+  </div>
+  <div class="pick-row"><span>Against the spread:</span> <span class="pick">Cincinnati Reds</span></div>
+  <ul class="factors"><li>Athletics are on an 0-5 skid and reeling</li><li>Reds' Brady Singer (4.35 ERA, 5-10) is actually the weaker starter tonight</li><li>J.T. Ginn (3.46 ERA, 8-6) gives Oakland a real mound edge despite the team slump</li></ul>
+  <div class="reasoning">Oakland's five-game losing streak points to deeper team-wide problems (bullpen, offense) that one strong start likely can't fix, and Cincinnati has the better recent form (W1, 3-2 last five) at home. That said, the pitching matchup actually favors Oakland's J.T. Ginn (3.46 ERA, 8-6) over Cincinnati's Brady Singer (4.35 ERA, 5-10 record), which is a real conflicting signal -- that's why this lands just above the confidence bar rather than higher.</div>
+  <label class="pick-toggle">
+    <input type="checkbox" id="chk-baseball_mlb_2026-08-04_athletics_at_cincinnati-reds"  onchange="togglePick('baseball_mlb_2026-08-04_athletics_at_cincinnati-reds', this)"> I bet on this
+  </label>
+  <div class="pick-status" id="status-baseball_mlb_2026-08-04_athletics_at_cincinnati-reds">Couldn't reach the local pick server &mdash; run <code>python3 scripts/pick_server.py</code> on your machine, then try again.</div>
+</div>
+<div class="card">
+  <div class="matchup">Pittsburgh Pirates @ Milwaukee Brewers <span class="your-pick-badge" id="badge-baseball_mlb_2026-08-04_pittsburgh-pirates_at_milwaukee-brewers" style="display:none;">&#10003; Your pick</span></div>
+  <div class="meta">Tue Aug 04, 07:40 PM EDT</div>
   <div class="odds-row"><div class="odds-item"><div class="odds-label">Moneyline</div><div class="odds-value">Milwaukee Brewers -160 &middot; Pittsburgh Pirates +138</div></div><div class="odds-item"><div class="odds-label">Spread</div><div class="odds-value">Milwaukee Brewers -1.5 &middot; Pittsburgh Pirates +1.5</div></div><div class="odds-item"><div class="odds-label">Total (O/U)</div><div class="odds-value">7.7</div></div><div class="odds-item"><div class="odds-label">Books</div><div class="odds-value">6</div></div></div>
-</div>
-<div class="card">
-  <div class="matchup">Minnesota Twins @ Kansas City Royals</div>
-  <div class="meta">Tue Aug 04, 07:41 PM EDT &middot; prediction pending next refresh</div>
-  <div class="odds-row"><div class="odds-item"><div class="odds-label">Moneyline</div><div class="odds-value">Kansas City Royals +126 &middot; Minnesota Twins -147</div></div><div class="odds-item"><div class="odds-label">Spread</div><div class="odds-value">Kansas City Royals +1.5 &middot; Minnesota Twins -1.5</div></div><div class="odds-item"><div class="odds-label">Total (O/U)</div><div class="odds-value">9.2</div></div><div class="odds-item"><div class="odds-label">Books</div><div class="odds-value">6</div></div></div>
-</div>
-<div class="card">
-  <div class="matchup">Los Angeles Dodgers @ Chicago Cubs</div>
-  <div class="meta">Tue Aug 04, 08:06 PM EDT &middot; prediction pending next refresh</div>
-  <div class="odds-row"><div class="odds-item"><div class="odds-label">Moneyline</div><div class="odds-value">Chicago Cubs +171 &middot; Los Angeles Dodgers -202</div></div><div class="odds-item"><div class="odds-label">Spread</div><div class="odds-value">Chicago Cubs +1.5 &middot; Los Angeles Dodgers -1.5</div></div><div class="odds-item"><div class="odds-label">Total (O/U)</div><div class="odds-value">9.0</div></div><div class="odds-item"><div class="odds-label">Books</div><div class="odds-value">6</div></div></div>
-</div>
-<div class="card">
-  <div class="matchup">Toronto Blue Jays @ Houston Astros</div>
-  <div class="meta">Tue Aug 04, 08:10 PM EDT &middot; prediction pending next refresh</div>
-  <div class="odds-row"><div class="odds-item"><div class="odds-label">Moneyline</div><div class="odds-value">Houston Astros -129 &middot; Toronto Blue Jays +111</div></div><div class="odds-item"><div class="odds-label">Spread</div><div class="odds-value">Houston Astros -1.5 &middot; Toronto Blue Jays +1.5</div></div><div class="odds-item"><div class="odds-label">Total (O/U)</div><div class="odds-value">8.5</div></div><div class="odds-item"><div class="odds-label">Books</div><div class="odds-value">4</div></div></div>
+  <div class="pick-row">
+    <span>Pick:</span> <span class="pick">Milwaukee Brewers</span>
+    <span class="confidence">56% confidence</span>
+  </div>
+  <div class="pick-row"><span>Against the spread:</span> <span class="pick">Milwaukee Brewers</span></div>
+  <ul class="factors"><li>Brewers have MLB-best-caliber record (69-42) and a strong starter, Logan Henderson (2.66 ERA, 5-1)</li><li>But Pittsburgh has won the season series 5-1, including a 14-5 blowout last time</li><li>That head-to-head split is a real red flag against an otherwise strong Brewers case</li></ul>
+  <div class="reasoning">On paper this should be a comfortable Brewers pick -- best record in the sample (69-42) and an excellent starter in Logan Henderson (2.66 ERA, 5-1). But Pittsburgh has flipped the script on Milwaukee specifically this year, winning the season series 5-1 with a 14-5 blowout in the last meeting, which is too large a sample to wave off. That conflict between team quality and head-to-head history is exactly the kind of thing that should cap confidence rather than default to the better overall team, so this lands just above the threshold as a lean, not a strong pick.</div>
+  <label class="pick-toggle">
+    <input type="checkbox" id="chk-baseball_mlb_2026-08-04_pittsburgh-pirates_at_milwaukee-brewers"  onchange="togglePick('baseball_mlb_2026-08-04_pittsburgh-pirates_at_milwaukee-brewers', this)"> I bet on this
+  </label>
+  <div class="pick-status" id="status-baseball_mlb_2026-08-04_pittsburgh-pirates_at_milwaukee-brewers">Couldn't reach the local pick server &mdash; run <code>python3 scripts/pick_server.py</code> on your machine, then try again.</div>
 </div>
 </div>
 </main>

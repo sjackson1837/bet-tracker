@@ -16,7 +16,7 @@ from datetime import datetime, timezone, timedelta
 
 from utils import DATA_DIR, load_config
 from games_store import load_games
-from form import get_team_trends
+from form import get_team_trends, get_probable_pitchers
 from weather import get_game_weather
 
 OUT_PATH = DATA_DIR / "pending_predictions.json"
@@ -24,12 +24,12 @@ OUT_PATH = DATA_DIR / "pending_predictions.json"
 INSTRUCTIONS = (
     "For each game below, act as a sharp, disciplined sports betting analyst. Do NOT simply "
     "pick whichever side the betting market favors -- weigh the actual trend data provided "
-    "(recent form, streaks, head-to-head history, and weather where relevant) and form an "
-    "independent judgment. It's fine, and expected, to disagree with the market when the "
-    "trends support it. If trend data is sparse for a game, say so and let that lower your "
-    "confidence rather than defaulting to the favorite. For each game_id, produce: "
-    "predicted_winner (exact team name), predicted_against_spread (exact team name), "
-    "confidence (integer 1-100), key_factors (2-4 short strings), and reasoning "
+    "(recent form, streaks, head-to-head history, starting pitcher matchups where given, and "
+    "weather where relevant) and form an independent judgment. It's fine, and expected, to "
+    "disagree with the market when the trends support it. If trend data is sparse for a game, "
+    "say so and let that lower your confidence rather than defaulting to the favorite. For each "
+    "game_id, produce: predicted_winner (exact team name), predicted_against_spread (exact team "
+    "name), confidence (integer 1-100), key_factors (2-4 short strings), and reasoning "
     "(2-4 sentences referencing the specific trend data given)."
 )
 
@@ -42,7 +42,9 @@ def build_context(game):
     weather = None
     if game.get("outdoor"):
         weather = get_game_weather(game["home_team"], game["commence_time"][:10])
-    return away_trends, home_trends, weather
+    pitchers = get_probable_pitchers(game.get("espn_sport"), game.get("espn_league"),
+                                      game["commence_time"][:10], game["home_team"], game["away_team"])
+    return away_trends, home_trends, weather, pitchers
 
 
 def main():
@@ -63,7 +65,7 @@ def main():
             skipped_far_out += 1
             continue  # too far out — lines will move a lot before kickoff, predict closer to game time
 
-        away_trends, home_trends, weather = build_context(game)
+        away_trends, home_trends, weather, pitchers = build_context(game)
         pending[gid] = {
             "league": game["league"],
             "away_team": game["away_team"],
@@ -73,6 +75,7 @@ def main():
             "away_team_trends": away_trends,
             "home_team_trends": home_trends,
             "weather_at_kickoff": weather,
+            "probable_pitchers": pitchers,
         }
 
     with open(OUT_PATH, "w") as f:

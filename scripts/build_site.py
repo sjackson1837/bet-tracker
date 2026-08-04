@@ -45,7 +45,6 @@ main { flex: 1; min-width: 0; padding: 24px 20px 60px; }
 .factors { list-style: none; padding: 0; margin: 8px 0 0; display: flex; flex-wrap: wrap; gap: 6px; }
 .factors li { background: #1f2430; border: 1px solid var(--border); border-radius: 6px; padding: 3px 9px; font-size: 0.78rem; color: var(--muted); }
 .reasoning { margin-top: 10px; font-size: 0.88rem; color: var(--muted); line-height: 1.4; }
-.no-lean { margin-top: 8px; font-size: 0.85rem; color: var(--muted); font-style: italic; }
 .empty { color: var(--muted); font-style: italic; padding: 30px 0; text-align: center; }
 .stats-row { display: flex; gap: 12px; margin-bottom: 28px; flex-wrap: wrap; }
 .stat-box { background: var(--card); border: 1px solid var(--border); border-radius: 10px; padding: 16px 22px; min-width: 140px; }
@@ -208,6 +207,11 @@ def render_upcoming(games, tz_name, window_days, min_confidence):
         # window so the page isn't cluttered with games months away.
         if g["status"] == "scheduled" and commence > cutoff:
             continue
+        # Only surface games with an actual confident pick -- no bare-odds
+        # cards and no sub-threshold "no lean" cards cluttering the page.
+        pred = g.get("prediction")
+        if not pred or pred.get("confidence", 0) <= min_confidence:
+            continue
         g = dict(g)
         g["id"] = gid
         upcoming.append(g)
@@ -231,7 +235,7 @@ def render_upcoming(games, tz_name, window_days, min_confidence):
         glist.sort(key=confidence_sort_key)
         html.append(f'<div class="league-group filterable-item" data-league="{league}"><h2>{league}</h2>')
         for g in glist:
-            html.append(render_game_card(g, tz_name, min_confidence))
+            html.append(render_game_card(g, tz_name))
         html.append("</div>")
     return "\n".join(html), list(by_league.keys())
 
@@ -246,33 +250,15 @@ def render_pick_toggle(gid, selected):
   <div class="pick-status" id="status-{gid}">Couldn't reach the local pick server &mdash; run <code>python3 scripts/pick_server.py</code> on your machine, then try again.</div>"""
 
 
-def render_game_card(g, tz_name, min_confidence):
+def render_game_card(g, tz_name):
     when = fmt_time(g["commence_time"], tz_name)
     odds_html = render_odds_row(g)
-    pred = g.get("prediction")
+    pred = g["prediction"]
     gid = g.get("id", "")
     display = "inline-flex" if g.get("user_selected") else "none"
     badge = f' <span class="your-pick-badge" id="badge-{gid}" style="display:{display};">&#10003; Your pick</span>'
 
-    show_analysis = pred and pred.get("confidence", 0) > min_confidence
-
-    if not pred:
-        return f"""<div class="card">
-  <div class="matchup">{g['away_team']} @ {g['home_team']}</div>
-  <div class="meta">{when} &middot; prediction pending next refresh</div>
-  {odds_html}
-</div>"""
-
     pick_toggle = render_pick_toggle(gid, g.get("user_selected", False))
-
-    if not show_analysis:
-        return f"""<div class="card">
-  <div class="matchup">{g['away_team']} @ {g['home_team']}{badge}</div>
-  <div class="meta">{when}</div>
-  {odds_html}
-  <div class="no-lean">No strong lean on this one (confidence {pred.get('confidence')}% is below the {min_confidence}% threshold) &mdash; odds shown above for reference.</div>
-  {pick_toggle}
-</div>"""
 
     factors = "".join(f"<li>{f}</li>" for f in pred.get("key_factors", []))
     return f"""<div class="card">

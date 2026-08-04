@@ -66,6 +66,7 @@ def main():
             "away_trends": context.get("away_team_trends"),
             "home_trends": context.get("home_team_trends"),
             "weather": context.get("weather_at_kickoff"),
+            "probable_pitchers": context.get("probable_pitchers"),
         }
         prediction["generated_at"] = now.isoformat()
         prediction["model"] = "claude (cowork session, manual)"

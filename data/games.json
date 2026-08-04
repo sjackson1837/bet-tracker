@@ -14599,7 +14599,7 @@
     "espn_sport": "baseball",
     "espn_league": "mlb",
     "outdoor": true,
-    "status": "scheduled",
+    "status": "predicted",
     "odds": {
       "moneyline": {
         "Colorado Rockies": 156,
@@ -14612,7 +14612,61 @@
       "total": 11.5,
       "num_bookmakers": 9
     },
-    "prediction": null,
+    "prediction": {
+      "predicted_winner": "Tampa Bay Rays",
+      "predicted_against_spread": "Tampa Bay Rays",
+      "confidence": 58,
+      "key_factors": [
+        "Rays' 65-46 record is far stronger than Rockies' 45-67",
+        "Rockies riding a 3-game win streak at home, some resistance expected",
+        "Rays' starter not yet announced, which caps confidence a bit"
+      ],
+      "reasoning": "Tampa Bay is simply the better team by a wide margin (65-46 vs 45-67), and Colorado has been one of the league's weakest clubs all year despite the current 3-game streak. The high 11.5 total reflects Coors Field's usual offensive boost, but the team-quality gap should still show up in the result. Confidence is capped in the mid-50s because the Rays' probable starter hadn't been posted yet at data-pull time, leaving a real gap in the picture.",
+      "context_used": {
+        "away_trends": {
+          "team": "Tampa Bay Rays",
+          "last5": "3-2",
+          "streak": "L1",
+          "record": "65-46",
+          "h2h_vs_opponent": null
+        },
+        "home_trends": {
+          "team": "Colorado Rockies",
+          "last5": "3-2",
+          "streak": "W3",
+          "record": "45-67",
+          "h2h_vs_opponent": null
+        },
+        "weather": {
+          "high_f": 78.4,
+          "low_f": 60.9,
+          "precipitation_in": 0.0,
+          "wind_mph": 10.7
+        },
+        "probable_pitchers": {
+          "home": {
+            "name": "Gabriel Hughes",
+            "era": "3.33",
+            "record": "(0-3, 3.33)"
+          },
+          "away": null
+        }
+      },
+      "generated_at": "2026-08-04T00:28:29.115283+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "Colorado Rockies": 156,
+          "Tampa Bay Rays": -181
+        },
+        "spread": {
+          "Colorado Rockies": 1.5,
+          "Tampa Bay Rays": -1.5
+        },
+        "total": 11.5,
+        "num_bookmakers": 9
+      }
+    },
     "actual": null
   },
   "baseball_mlb_2026-08-04_san-diego-padres_at_arizona-diamondbacks": {
@@ -14624,7 +14678,7 @@
     "espn_sport": "baseball",
     "espn_league": "mlb",
     "outdoor": true,
-    "status": "scheduled",
+    "status": "predicted",
     "odds": {
       "moneyline": {
         "Arizona Diamondbacks": -112,
@@ -14637,7 +14691,63 @@
       "total": 9.0,
       "num_bookmakers": 9
     },
-    "prediction": null,
+    "prediction": {
+      "predicted_winner": "Arizona Diamondbacks",
+      "predicted_against_spread": "Arizona Diamondbacks",
+      "confidence": 60,
+      "key_factors": [
+        "Eduardo Rodriguez (2.48 ERA, 10-3) is a clear mound advantage for Arizona",
+        "Teams are essentially even on record (59-53 vs 58-54) and both hot over last 5",
+        "Season series tied 3-3, so no historical edge either way",
+        "Padres' starter unannounced"
+      ],
+      "reasoning": "This is close to a coin flip on paper -- both teams are hot (4-1 over the last 5) and evenly matched on record, and the season series is split 3-3. What tips it is Arizona's starter: Eduardo Rodriguez is having a genuinely excellent season (2.48 ERA, 10-3), a real edge the market's near-even pricing (-112) doesn't seem to fully reflect. San Diego's starter wasn't posted yet, adding some uncertainty.",
+      "context_used": {
+        "away_trends": {
+          "team": "San Diego Padres",
+          "last5": "4-1",
+          "streak": "W3",
+          "record": "58-54",
+          "h2h_vs_opponent": {
+            "record_this_season": "3-3",
+            "last_meeting_result": "lost 1-3 on 2026-07-10"
+          }
+        },
+        "home_trends": {
+          "team": "Arizona Diamondbacks",
+          "last5": "4-1",
+          "streak": "L1",
+          "record": "59-53",
+          "h2h_vs_opponent": {
+            "record_this_season": "3-3",
+            "last_meeting_result": "won 3-1 on 2026-07-10"
+          }
+        },
+        "weather": null,
+        "probable_pitchers": {
+          "home": {
+            "name": "Eduardo Rodriguez",
+            "era": "2.48",
+            "record": "(10-3, 2.48)"
+          },
+          "away": null
+        }
+      },
+      "generated_at": "2026-08-04T00:28:29.115283+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "Arizona Diamondbacks": -112,
+          "San Diego Padres": -14
+        },
+        "spread": {
+          "Arizona Diamondbacks": 0.2,
+          "San Diego Padres": -0.2
+        },
+        "total": 9.0,
+        "num_bookmakers": 9
+      }
+    },
     "actual": null
   },
   "baseball_mlb_2026-08-04_athletics_at_cincinnati-reds": {
@@ -14649,7 +14759,7 @@
     "espn_sport": "baseball",
     "espn_league": "mlb",
     "outdoor": true,
-    "status": "scheduled",
+    "status": "predicted",
     "odds": {
       "moneyline": {
         "Athletics": 115,
@@ -14662,7 +14772,65 @@
       "total": 9.2,
       "num_bookmakers": 6
     },
-    "prediction": null,
+    "prediction": {
+      "predicted_winner": "Cincinnati Reds",
+      "predicted_against_spread": "Cincinnati Reds",
+      "confidence": 57,
+      "key_factors": [
+        "Athletics are on an 0-5 skid and reeling",
+        "Reds' Brady Singer (4.35 ERA, 5-10) is actually the weaker starter tonight",
+        "J.T. Ginn (3.46 ERA, 8-6) gives Oakland a real mound edge despite the team slump"
+      ],
+      "reasoning": "Oakland's five-game losing streak points to deeper team-wide problems (bullpen, offense) that one strong start likely can't fix, and Cincinnati has the better recent form (W1, 3-2 last five) at home. That said, the pitching matchup actually favors Oakland's J.T. Ginn (3.46 ERA, 8-6) over Cincinnati's Brady Singer (4.35 ERA, 5-10 record), which is a real conflicting signal -- that's why this lands just above the confidence bar rather than higher.",
+      "context_used": {
+        "away_trends": {
+          "team": "Athletics",
+          "last5": "0-5",
+          "streak": "L5",
+          "record": "45-67",
+          "h2h_vs_opponent": null
+        },
+        "home_trends": {
+          "team": "Cincinnati Reds",
+          "last5": "3-2",
+          "streak": "W1",
+          "record": "53-58",
+          "h2h_vs_opponent": null
+        },
+        "weather": {
+          "high_f": 88.6,
+          "low_f": 62.3,
+          "precipitation_in": 0.0,
+          "wind_mph": 6.4
+        },
+        "probable_pitchers": {
+          "home": {
+            "name": "Brady Singer",
+            "era": "4.35",
+            "record": "(5-10, 4.35)"
+          },
+          "away": {
+            "name": "J.T. Ginn",
+            "era": "3.46",
+            "record": "(8-6, 3.46)"
+          }
+        }
+      },
+      "generated_at": "2026-08-04T00:28:29.115283+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "Athletics": 115,
+          "Cincinnati Reds": -135
+        },
+        "spread": {
+          "Athletics": 1.5,
+          "Cincinnati Reds": -1.5
+        },
+        "total": 9.2,
+        "num_bookmakers": 6
+      }
+    },
     "actual": null
   },
   "baseball_mlb_2026-08-04_new-york-mets_at_cleveland-guardians": {
@@ -14674,7 +14842,7 @@
     "espn_sport": "baseball",
     "espn_league": "mlb",
     "outdoor": true,
-    "status": "scheduled",
+    "status": "predicted",
     "odds": {
       "moneyline": {
         "Cleveland Guardians": -138,
@@ -14687,7 +14855,65 @@
       "total": 7.5,
       "num_bookmakers": 6
     },
-    "prediction": null,
+    "prediction": {
+      "predicted_winner": "Cleveland Guardians",
+      "predicted_against_spread": "Cleveland Guardians",
+      "confidence": 66,
+      "key_factors": [
+        "Mets are on a 3-game skid and 1-4 over their last 5",
+        "Joey Cantillo (3.88 ERA, 8-6) clearly outpitching Sean Manaea (4.42 ERA, 2-5)",
+        "Cleveland has the better overall record (57-56 vs 47-66) and current W1 form"
+      ],
+      "reasoning": "Every signal points the same direction here: the Mets are in freefall (L3, 1-4 over their last five, well under .500 on the year), and their starter Sean Manaea (4.42 ERA, 2-5) is being outclassed on paper by Cleveland's Joey Cantillo (3.88 ERA, 8-6). Cleveland's overall record and recent form are also stronger. With trend data, form, and the pitching matchup all aligned, this is one of the more confident picks in the group.",
+      "context_used": {
+        "away_trends": {
+          "team": "New York Mets",
+          "last5": "1-4",
+          "streak": "L3",
+          "record": "47-66",
+          "h2h_vs_opponent": null
+        },
+        "home_trends": {
+          "team": "Cleveland Guardians",
+          "last5": "2-3",
+          "streak": "W1",
+          "record": "57-56",
+          "h2h_vs_opponent": null
+        },
+        "weather": {
+          "high_f": 80.8,
+          "low_f": 59.6,
+          "precipitation_in": 0.0,
+          "wind_mph": 8.8
+        },
+        "probable_pitchers": {
+          "home": {
+            "name": "Joey Cantillo",
+            "era": "3.88",
+            "record": "(8-6, 3.88)"
+          },
+          "away": {
+            "name": "Sean Manaea",
+            "era": "4.42",
+            "record": "(2-5, 4.42)"
+          }
+        }
+      },
+      "generated_at": "2026-08-04T00:28:29.115283+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "Cleveland Guardians": -138,
+          "New York Mets": 118
+        },
+        "spread": {
+          "Cleveland Guardians": -1.5,
+          "New York Mets": 1.5
+        },
+        "total": 7.5,
+        "num_bookmakers": 6
+      }
+    },
     "actual": null
   },
   "baseball_mlb_2026-08-04_washington-nationals_at_philadelphia-phillies": {
@@ -14699,7 +14925,7 @@
     "espn_sport": "baseball",
     "espn_league": "mlb",
     "outdoor": true,
-    "status": "scheduled",
+    "status": "predicted",
     "odds": {
       "moneyline": {
         "Philadelphia Phillies": -226,
@@ -14712,7 +14938,71 @@
       "total": 8.8,
       "num_bookmakers": 6
     },
-    "prediction": null,
+    "prediction": {
+      "predicted_winner": "Philadelphia Phillies",
+      "predicted_against_spread": "Philadelphia Phillies",
+      "confidence": 72,
+      "key_factors": [
+        "Nationals are on a brutal 0-5 stretch",
+        "Phillies lead the season series 5-2 and just beat Washington 10-5",
+        "Jesus Luzardo (3.57 ERA, 9-5) well ahead of Zack Littell (4.94 ERA, 7-8)"
+      ],
+      "reasoning": "This is about as aligned as these matchups get: Washington has lost five straight, Philadelphia has dominated the season series (5-2, including a 10-5 win last meeting), and the Phillies' Jesus Luzardo (3.57 ERA, 9-5) is a clear step up from Washington's Zack Littell (4.94 ERA, 7-8). The market's already pricing Philadelphia as a heavy favorite (-226), and every trend here confirms rather than contradicts that price -- this is the highest-confidence pick of the set.",
+      "context_used": {
+        "away_trends": {
+          "team": "Washington Nationals",
+          "last5": "0-5",
+          "streak": "L5",
+          "record": "55-58",
+          "h2h_vs_opponent": {
+            "record_this_season": "2-5",
+            "last_meeting_result": "lost 5-10 on 2026-06-25"
+          }
+        },
+        "home_trends": {
+          "team": "Philadelphia Phillies",
+          "last5": "2-3",
+          "streak": "W2",
+          "record": "59-53",
+          "h2h_vs_opponent": {
+            "record_this_season": "5-2",
+            "last_meeting_result": "won 10-5 on 2026-06-25"
+          }
+        },
+        "weather": {
+          "high_f": 84.2,
+          "low_f": 67.1,
+          "precipitation_in": 0.0,
+          "wind_mph": 7.4
+        },
+        "probable_pitchers": {
+          "home": {
+            "name": "Jesus Luzardo",
+            "era": "3.57",
+            "record": "(9-5, 3.57)"
+          },
+          "away": {
+            "name": "Zack Littell",
+            "era": "4.94",
+            "record": "(7-8, 4.94)"
+          }
+        }
+      },
+      "generated_at": "2026-08-04T00:28:29.115283+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "Philadelphia Phillies": -226,
+          "Washington Nationals": 190
+        },
+        "spread": {
+          "Philadelphia Phillies": -1.5,
+          "Washington Nationals": 1.5
+        },
+        "total": 8.8,
+        "num_bookmakers": 6
+      }
+    },
     "actual": null
   },
   "baseball_mlb_2026-08-04_chicago-white-sox_at_boston-red-sox": {
@@ -14724,7 +15014,7 @@
     "espn_sport": "baseball",
     "espn_league": "mlb",
     "outdoor": true,
-    "status": "scheduled",
+    "status": "predicted",
     "odds": {
       "moneyline": {
         "Boston Red Sox": -127,
@@ -14737,7 +15027,72 @@
       "total": 9.0,
       "num_bookmakers": 3
     },
-    "prediction": null,
+    "prediction": {
+      "predicted_winner": "Boston Red Sox",
+      "predicted_against_spread": "Boston Red Sox",
+      "confidence": 58,
+      "key_factors": [
+        "Red Sox are red-hot: 5-0 over their last 5, current 5-game win streak",
+        "Boston has swept the season series 3-0 so far",
+        "Patrick Sandoval's 0-0 record suggests a very limited sample despite his 3.32 ERA",
+        "Davis Martin (3.62 ERA, 9-5) has a fuller, more proven track record"
+      ],
+      "reasoning": "Boston's current form (5-0, 5-game win streak) and a clean 3-0 season sweep of Chicago both point strongly to the Red Sox. The one thing holding this back from a higher grade is the pitching matchup: Sandoval's 0-0 record alongside his 3.32 ERA suggests very few innings this season (likely a rehab or spot start), while Chicago's Davis Martin has a much larger, more reliable sample at 9-5. That uncertainty is enough to keep this as a lean rather than a strong pick.",
+      "context_used": {
+        "away_trends": {
+          "team": "Chicago White Sox",
+          "last5": "4-1",
+          "streak": "W1",
+          "record": "59-52",
+          "h2h_vs_opponent": {
+            "record_this_season": "0-3",
+            "last_meeting_result": "lost 1-2 on 2026-07-09"
+          }
+        },
+        "home_trends": {
+          "team": "Boston Red Sox",
+          "last5": "5-0",
+          "streak": "W5",
+          "record": "60-51",
+          "h2h_vs_opponent": {
+            "record_this_season": "3-0",
+            "last_meeting_result": "won 2-1 on 2026-07-09"
+          }
+        },
+        "weather": {
+          "high_f": 81.2,
+          "low_f": 62.3,
+          "precipitation_in": 0.0,
+          "wind_mph": 6.9
+        },
+        "probable_pitchers": {
+          "home": {
+            "name": "Patrick Sandoval",
+            "era": "3.32",
+            "record": "(0-0, 3.32)"
+          },
+          "away": {
+            "name": "Davis Martin",
+            "era": "3.62",
+            "record": "(9-5, 3.62)"
+          }
+        }
+      },
+      "generated_at": "2026-08-04T00:28:29.115283+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "Boston Red Sox": -127,
+          "Chicago White Sox": 110
+        },
+        "spread": {
+          "Boston Red Sox": -1.5,
+          "Chicago White Sox": 1.5
+        },
+        "total": 9.0,
+        "num_bookmakers": 3
+      }
+    },
     "actual": null
   },
   "baseball_mlb_2026-08-04_miami-marlins_at_atlanta-braves": {
@@ -14749,7 +15104,7 @@
     "espn_sport": "baseball",
     "espn_league": "mlb",
     "outdoor": true,
-    "status": "scheduled",
+    "status": "predicted",
     "odds": {
       "moneyline": {
         "Atlanta Braves": -138,
@@ -14762,7 +15117,67 @@
       "total": 9.0,
       "num_bookmakers": 3
     },
-    "prediction": null,
+    "prediction": {
+      "predicted_winner": "Atlanta Braves",
+      "predicted_against_spread": "Atlanta Braves",
+      "confidence": 68,
+      "key_factors": [
+        "Braves have MLB-caliber form: 5-0 over last 5, 5-game win streak, 67-45 record",
+        "Braves lead the season series 5-2 and won the last meeting 9-3",
+        "Miami's starter unannounced, a minor gap given the team-quality edge"
+      ],
+      "reasoning": "Atlanta is playing as well as any team in the sample right now -- a perfect 5-0 over the last five games on top of the best overall record here (67-45) -- and has beaten Miami soundly in the season series (5-2, including a 9-3 win last time out). Miami is also playing well (W3) but is a clear tier below. Not knowing Miami's starter is a minor gap, not enough to offset the size of the overall edge.",
+      "context_used": {
+        "away_trends": {
+          "team": "Miami Marlins",
+          "last5": "4-1",
+          "streak": "W3",
+          "record": "58-55",
+          "h2h_vs_opponent": {
+            "record_this_season": "2-5",
+            "last_meeting_result": "lost 3-9 on 2026-05-21"
+          }
+        },
+        "home_trends": {
+          "team": "Atlanta Braves",
+          "last5": "5-0",
+          "streak": "W5",
+          "record": "67-45",
+          "h2h_vs_opponent": {
+            "record_this_season": "5-2",
+            "last_meeting_result": "won 9-3 on 2026-05-21"
+          }
+        },
+        "weather": {
+          "high_f": 84.4,
+          "low_f": 69.2,
+          "precipitation_in": 0.016,
+          "wind_mph": 12.1
+        },
+        "probable_pitchers": {
+          "home": {
+            "name": "Grant Holmes",
+            "era": "3.88",
+            "record": "(6-4, 3.88)"
+          },
+          "away": null
+        }
+      },
+      "generated_at": "2026-08-04T00:28:29.115283+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "Atlanta Braves": -138,
+          "Miami Marlins": 117
+        },
+        "spread": {
+          "Atlanta Braves": -1.5,
+          "Miami Marlins": 1.5
+        },
+        "total": 9.0,
+        "num_bookmakers": 3
+      }
+    },
     "actual": null
   },
   "baseball_mlb_2026-08-04_pittsburgh-pirates_at_milwaukee-brewers": {
@@ -14774,7 +15189,7 @@
     "espn_sport": "baseball",
     "espn_league": "mlb",
     "outdoor": true,
-    "status": "scheduled",
+    "status": "predicted",
     "odds": {
       "moneyline": {
         "Milwaukee Brewers": -160,
@@ -14787,7 +15202,66 @@
       "total": 7.7,
       "num_bookmakers": 6
     },
-    "prediction": null,
+    "prediction": {
+      "predicted_winner": "Milwaukee Brewers",
+      "predicted_against_spread": "Milwaukee Brewers",
+      "confidence": 56,
+      "key_factors": [
+        "Brewers have MLB-best-caliber record (69-42) and a strong starter, Logan Henderson (2.66 ERA, 5-1)",
+        "But Pittsburgh has won the season series 5-1, including a 14-5 blowout last time",
+        "That head-to-head split is a real red flag against an otherwise strong Brewers case"
+      ],
+      "reasoning": "On paper this should be a comfortable Brewers pick -- best record in the sample (69-42) and an excellent starter in Logan Henderson (2.66 ERA, 5-1). But Pittsburgh has flipped the script on Milwaukee specifically this year, winning the season series 5-1 with a 14-5 blowout in the last meeting, which is too large a sample to wave off. That conflict between team quality and head-to-head history is exactly the kind of thing that should cap confidence rather than default to the better overall team, so this lands just above the threshold as a lean, not a strong pick.",
+      "context_used": {
+        "away_trends": {
+          "team": "Pittsburgh Pirates",
+          "last5": "1-4",
+          "streak": "L1",
+          "record": "56-57",
+          "h2h_vs_opponent": {
+            "record_this_season": "5-1",
+            "last_meeting_result": "won 14-5 on 2026-07-12"
+          }
+        },
+        "home_trends": {
+          "team": "Milwaukee Brewers",
+          "last5": "3-2",
+          "streak": "L1",
+          "record": "69-42",
+          "h2h_vs_opponent": {
+            "record_this_season": "1-5",
+            "last_meeting_result": "lost 5-14 on 2026-07-12"
+          }
+        },
+        "weather": null,
+        "probable_pitchers": {
+          "home": {
+            "name": "Logan Henderson",
+            "era": "2.66",
+            "record": "(5-1, 2.66)"
+          },
+          "away": {
+            "name": "Jared Jones",
+            "era": "3.81",
+            "record": "(2-2, 3.81)"
+          }
+        }
+      },
+      "generated_at": "2026-08-04T00:28:29.115283+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "Milwaukee Brewers": -160,
+          "Pittsburgh Pirates": 138
+        },
+        "spread": {
+          "Milwaukee Brewers": -1.5,
+          "Pittsburgh Pirates": 1.5
+        },
+        "total": 7.7,
+        "num_bookmakers": 6
+      }
+    },
     "actual": null
   },
   "baseball_mlb_2026-08-04_minnesota-twins_at_kansas-city-royals": {
@@ -14799,7 +15273,7 @@
     "espn_sport": "baseball",
     "espn_league": "mlb",
     "outdoor": true,
-    "status": "scheduled",
+    "status": "predicted",
     "odds": {
       "moneyline": {
         "Kansas City Royals": 126,
@@ -14812,7 +15286,71 @@
       "total": 9.2,
       "num_bookmakers": 6
     },
-    "prediction": null,
+    "prediction": {
+      "predicted_winner": "Minnesota Twins",
+      "predicted_against_spread": "Minnesota Twins",
+      "confidence": 50,
+      "key_factors": [
+        "Royals are worse overall (46-67) and on a 4-game skid",
+        "But Royals have won the season series 6-4 and just beat Minnesota 4 days ago",
+        "Kansas City's Randy Dobnak has a 1.04 ERA but only a 1-0 record -- too small a sample to trust"
+      ],
+      "reasoning": "Team quality favors Minnesota (56-57 vs 46-67, and Kansas City is mired in a 4-game losing streak), but Kansas City has actually won the season series 6-4 and beat the Twins just five days ago. Kansas City's starter shows a tiny 1.04 ERA, but with only a 1-0 record behind it that's far too small a sample to weight heavily. With team form and head-to-head trends pointing in opposite directions and no reliable pitching signal to break the tie, this doesn't clear a confident bar either way.",
+      "context_used": {
+        "away_trends": {
+          "team": "Minnesota Twins",
+          "last5": "2-3",
+          "streak": "L2",
+          "record": "56-57",
+          "h2h_vs_opponent": {
+            "record_this_season": "4-6",
+            "last_meeting_result": "won 4-3 on 2026-07-30"
+          }
+        },
+        "home_trends": {
+          "team": "Kansas City Royals",
+          "last5": "1-4",
+          "streak": "L4",
+          "record": "46-67",
+          "h2h_vs_opponent": {
+            "record_this_season": "6-4",
+            "last_meeting_result": "lost 3-4 on 2026-07-30"
+          }
+        },
+        "weather": {
+          "high_f": 97.1,
+          "low_f": 69.7,
+          "precipitation_in": 0.0,
+          "wind_mph": 9.6
+        },
+        "probable_pitchers": {
+          "home": {
+            "name": "Randy Dobnak",
+            "era": "1.04",
+            "record": "(1-0, 1.04)"
+          },
+          "away": {
+            "name": "Joe Ryan",
+            "era": "3.52",
+            "record": "(6-7, 3.52)"
+          }
+        }
+      },
+      "generated_at": "2026-08-04T00:28:29.115283+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "Kansas City Royals": 126,
+          "Minnesota Twins": -147
+        },
+        "spread": {
+          "Kansas City Royals": 1.5,
+          "Minnesota Twins": -1.5
+        },
+        "total": 9.2,
+        "num_bookmakers": 6
+      }
+    },
     "actual": null
   },
   "baseball_mlb_2026-08-05_los-angeles-dodgers_at_chicago-cubs": {
@@ -14824,7 +15362,7 @@
     "espn_sport": "baseball",
     "espn_league": "mlb",
     "outdoor": true,
-    "status": "scheduled",
+    "status": "predicted",
     "odds": {
       "moneyline": {
         "Chicago Cubs": 171,
@@ -14837,7 +15375,72 @@
       "total": 9.0,
       "num_bookmakers": 6
     },
-    "prediction": null,
+    "prediction": {
+      "predicted_winner": "Los Angeles Dodgers",
+      "predicted_against_spread": "Chicago Cubs",
+      "confidence": 50,
+      "key_factors": [
+        "Both teams are cold: Dodgers on a 3-game skid, Cubs on a 1-game skid, similar last-5 records",
+        "Shota Imanaga (3.67 ERA) actually outpitching LA's Eric Lauer (4.50 ERA) on paper",
+        "Rain in the forecast (1.6in) adds uncertainty to scoring",
+        "Market prices Dodgers as a heavy -202 favorite based on season-long roster strength"
+      ],
+      "reasoning": "The Dodgers' -202 price reflects their overall roster quality (66-46), but neither team's recent form supports a lopsided result right now -- both are cold, and the pitching matchup on paper actually favors Chicago's Imanaga (3.67 ERA) over LA's Lauer (4.50 ERA). A meaningful rain forecast adds further uncertainty. There isn't enough here to back the Dodgers at that price, but not enough to confidently back Chicago outright either, so this stays below the confidence bar.",
+      "context_used": {
+        "away_trends": {
+          "team": "Los Angeles Dodgers",
+          "last5": "2-3",
+          "streak": "L3",
+          "record": "66-46",
+          "h2h_vs_opponent": {
+            "record_this_season": "2-1",
+            "last_meeting_result": "won 6-0 on 2026-04-26"
+          }
+        },
+        "home_trends": {
+          "team": "Chicago Cubs",
+          "last5": "2-3",
+          "streak": "L1",
+          "record": "63-49",
+          "h2h_vs_opponent": {
+            "record_this_season": "1-2",
+            "last_meeting_result": "lost 0-6 on 2026-04-26"
+          }
+        },
+        "weather": {
+          "high_f": 83.7,
+          "low_f": 64.9,
+          "precipitation_in": 1.601,
+          "wind_mph": 12.3
+        },
+        "probable_pitchers": {
+          "home": {
+            "name": "Shota Imanaga",
+            "era": "3.67",
+            "record": "(7-9, 3.67)"
+          },
+          "away": {
+            "name": "Eric Lauer",
+            "era": "4.50",
+            "record": "(6-5, 4.50)"
+          }
+        }
+      },
+      "generated_at": "2026-08-04T00:28:29.115283+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "Chicago Cubs": 171,
+          "Los Angeles Dodgers": -202
+        },
+        "spread": {
+          "Chicago Cubs": 1.5,
+          "Los Angeles Dodgers": -1.5
+        },
+        "total": 9.0,
+        "num_bookmakers": 6
+      }
+    },
     "actual": null
   },
   "baseball_mlb_2026-08-05_toronto-blue-jays_at_houston-astros": {
@@ -14849,7 +15452,7 @@
     "espn_sport": "baseball",
     "espn_league": "mlb",
     "outdoor": true,
-    "status": "scheduled",
+    "status": "predicted",
     "odds": {
       "moneyline": {
         "Houston Astros": -129,
@@ -14862,7 +15465,66 @@
       "total": 8.5,
       "num_bookmakers": 4
     },
-    "prediction": null,
+    "prediction": {
+      "predicted_winner": "Houston Astros",
+      "predicted_against_spread": "Houston Astros",
+      "confidence": 54,
+      "key_factors": [
+        "Astros are on a 6-game win streak, 5-0 over their last 5",
+        "Astros lead the season series 2-1 and won the last meeting",
+        "But Toronto's Dylan Cease (2.41 ERA, 7-5) is a clear step above Houston's Hunter Brown (3.42 ERA, 3-1)"
+      ],
+      "reasoning": "Houston's momentum is real -- a 6-game win streak and a season-series edge over Toronto -- but Toronto is sending out the better arm tonight: Dylan Cease's 2.41 ERA and 7-5 record clearly outclass Hunter Brown's 3.42 ERA and thin 3-1 sample. An ace-caliber start is exactly the kind of thing that can halt a hot streak, so this stays a marginal lean toward Houston rather than a confident pick.",
+      "context_used": {
+        "away_trends": {
+          "team": "Toronto Blue Jays",
+          "last5": "3-2",
+          "streak": "L1",
+          "record": "52-60",
+          "h2h_vs_opponent": {
+            "record_this_season": "1-2",
+            "last_meeting_result": "lost 1-3 on 2026-06-24"
+          }
+        },
+        "home_trends": {
+          "team": "Houston Astros",
+          "last5": "5-0",
+          "streak": "W6",
+          "record": "58-55",
+          "h2h_vs_opponent": {
+            "record_this_season": "2-1",
+            "last_meeting_result": "won 3-1 on 2026-06-24"
+          }
+        },
+        "weather": null,
+        "probable_pitchers": {
+          "home": {
+            "name": "Hunter Brown",
+            "era": "3.42",
+            "record": "(3-1, 3.42)"
+          },
+          "away": {
+            "name": "Dylan Cease",
+            "era": "2.41",
+            "record": "(7-5, 2.41)"
+          }
+        }
+      },
+      "generated_at": "2026-08-04T00:28:29.115283+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "Houston Astros": -129,
+          "Toronto Blue Jays": 111
+        },
+        "spread": {
+          "Houston Astros": -1.5,
+          "Toronto Blue Jays": 1.5
+        },
+        "total": 8.5,
+        "num_bookmakers": 4
+      }
+    },
     "actual": null
   },
   "soccer_spain_la_liga_2026-08-20_alav\u00e9s_at_rayo-vallecano": {

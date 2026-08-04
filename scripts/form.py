@@ -18,6 +18,8 @@ from utils import DATA_DIR, read_json, write_json
 ESPN_BASE = "https://site.api.espn.com/apis/site/v2/sports/{sport}/{league}"
 TEAM_CACHE_PATH = DATA_DIR / "team_ids_cache.json"
 
+_scoreboard_cache = {}
+
 
 def _load_cache():
     return read_json(TEAM_CACHE_PATH, default={})
@@ -152,3 +154,54 @@ def get_team_trends(espn_sport, espn_league, team_name, opponent_name=None):
             }
 
     return trends
+
+
+def get_probable_pitchers(espn_sport, espn_league, game_date, home_team, away_team):
+    """MLB only: looks up ESPN's probable-starter listing for a given date and
+    returns {'home': {...}, 'away': {...}}, or None per side if ESPN hasn't
+    posted a probable yet (common for games more than ~1-2 days out)."""
+    result = {"home": None, "away": None}
+    if espn_sport != "baseball":
+        return result
+
+    cache_key = f"{espn_sport}/{espn_league}/{game_date}"
+    if cache_key in _scoreboard_cache:
+        events = _scoreboard_cache[cache_key]
+    else:
+        url = ESPN_BASE.format(sport=espn_sport, league=espn_league) + "/scoreboard"
+        try:
+            resp = requests.get(url, params={"dates": game_date.replace("-", "")}, timeout=20)
+            resp.raise_for_status()
+            events = resp.json().get("events", [])
+        except Exception as e:
+            print(f"    ! could not load scoreboard for {cache_key}: {e}")
+            events = []
+        _scoreboard_cache[cache_key] = events
+
+    for ev in events:
+        comp = ev.get("competitions", [{}])[0]
+        competitors = comp.get("competitors", [])
+        if len(competitors) != 2:
+            continue
+        home_c = next((c for c in competitors if c.get("homeAway") == "home"), None)
+        away_c = next((c for c in competitors if c.get("homeAway") == "away"), None)
+        if not home_c or not away_c:
+            continue
+        if not (_is_same_team(home_c, home_team) and _is_same_team(away_c, away_team)):
+            continue
+
+        for side, competitor in (("home", home_c), ("away", away_c)):
+            probables = competitor.get("probables") or []
+            if not probables:
+                continue
+            p = probables[0]
+            athlete = p.get("athlete", {})
+            stats = {s["abbreviation"]: s.get("displayValue") for s in p.get("statistics", [])}
+            result[side] = {
+                "name": athlete.get("displayName"),
+                "era": stats.get("ERA"),
+                "record": p.get("record"),
+            }
+        break
+
+    return result
