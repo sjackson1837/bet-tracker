@@ -33,6 +33,10 @@ class Handler(BaseHTTPRequestHandler):
         self.send_header("Access-Control-Allow-Origin", "*")
         self.send_header("Access-Control-Allow-Methods", "POST, OPTIONS")
         self.send_header("Access-Control-Allow-Headers", "Content-Type")
+        # Required for browsers enforcing Private Network Access: without this,
+        # a page served from a public https origin (e.g. GitHub Pages) is blocked
+        # from reaching a loopback server like this one, even with CORS otherwise fine.
+        self.send_header("Access-Control-Allow-Private-Network", "true")
 
     def _send_json(self, status, payload):
         body = json.dumps(payload).encode()

@@ -1,126 +1,107 @@
 {
-  "baseball_mlb_2026-08-04_tampa-bay-rays_at_colorado-rockies": {
-    "predicted_winner": "Tampa Bay Rays",
-    "predicted_against_spread": "Tampa Bay Rays",
+  "soccer_usa_mls_2026-08-08_houston-dynamo_at_new-england-revolution": {
+    "predicted_winner": "Houston Dynamo",
+    "predicted_against_spread": "Houston Dynamo [+0.1]",
     "confidence": 58,
-    "key_factors": [
-      "Rays' 65-46 record is far stronger than Rockies' 45-67",
-      "Rockies riding a 3-game win streak at home, some resistance expected",
-      "Rays' starter not yet announced, which caps confidence a bit"
-    ],
-    "reasoning": "Tampa Bay is simply the better team by a wide margin (65-46 vs 45-67), and Colorado has been one of the league's weakest clubs all year despite the current 3-game streak. The high 11.5 total reflects Coors Field's usual offensive boost, but the team-quality gap should still show up in the result. Confidence is capped in the mid-50s because the Rays' probable starter hadn't been posted yet at data-pull time, leaving a real gap in the picture."
+    "key_factors": ["Houston 3-2 last 5 vs NE 2-3", "Houston W2 streak vs NE L1", "Form advantage Houston"],
+    "reasoning": "Houston shows better recent form (3-2 L5, W2 streak) compared to New England's 2-3 record with a loss streak. While the matchup is fairly even by the odds, Houston's momentum gives them a slight edge in this road game."
   },
-  "baseball_mlb_2026-08-04_san-diego-padres_at_arizona-diamondbacks": {
-    "predicted_winner": "Arizona Diamondbacks",
-    "predicted_against_spread": "Arizona Diamondbacks",
-    "confidence": 60,
-    "key_factors": [
-      "Eduardo Rodriguez (2.48 ERA, 10-3) is a clear mound advantage for Arizona",
-      "Teams are essentially even on record (59-53 vs 58-54) and both hot over last 5",
-      "Season series tied 3-3, so no historical edge either way",
-      "Padres' starter unannounced"
-    ],
-    "reasoning": "This is close to a coin flip on paper -- both teams are hot (4-1 over the last 5) and evenly matched on record, and the season series is split 3-3. What tips it is Arizona's starter: Eduardo Rodriguez is having a genuinely excellent season (2.48 ERA, 10-3), a real edge the market's near-even pricing (-112) doesn't seem to fully reflect. San Diego's starter wasn't posted yet, adding some uncertainty."
-  },
-  "baseball_mlb_2026-08-04_athletics_at_cincinnati-reds": {
-    "predicted_winner": "Cincinnati Reds",
-    "predicted_against_spread": "Cincinnati Reds",
-    "confidence": 57,
-    "key_factors": [
-      "Athletics are on an 0-5 skid and reeling",
-      "Reds' Brady Singer (4.35 ERA, 5-10) is actually the weaker starter tonight",
-      "J.T. Ginn (3.46 ERA, 8-6) gives Oakland a real mound edge despite the team slump"
-    ],
-    "reasoning": "Oakland's five-game losing streak points to deeper team-wide problems (bullpen, offense) that one strong start likely can't fix, and Cincinnati has the better recent form (W1, 3-2 last five) at home. That said, the pitching matchup actually favors Oakland's J.T. Ginn (3.46 ERA, 8-6) over Cincinnati's Brady Singer (4.35 ERA, 5-10 record), which is a real conflicting signal -- that's why this lands just above the confidence bar rather than higher."
-  },
-  "baseball_mlb_2026-08-04_new-york-mets_at_cleveland-guardians": {
-    "predicted_winner": "Cleveland Guardians",
-    "predicted_against_spread": "Cleveland Guardians",
-    "confidence": 66,
-    "key_factors": [
-      "Mets are on a 3-game skid and 1-4 over their last 5",
-      "Joey Cantillo (3.88 ERA, 8-6) clearly outpitching Sean Manaea (4.42 ERA, 2-5)",
-      "Cleveland has the better overall record (57-56 vs 47-66) and current W1 form"
-    ],
-    "reasoning": "Every signal points the same direction here: the Mets are in freefall (L3, 1-4 over their last five, well under .500 on the year), and their starter Sean Manaea (4.42 ERA, 2-5) is being outclassed on paper by Cleveland's Joey Cantillo (3.88 ERA, 8-6). Cleveland's overall record and recent form are also stronger. With trend data, form, and the pitching matchup all aligned, this is one of the more confident picks in the group."
-  },
-  "baseball_mlb_2026-08-04_washington-nationals_at_philadelphia-phillies": {
+  "baseball_mlb_2026-08-06_washington-nationals_at_philadelphia-phillies": {
     "predicted_winner": "Philadelphia Phillies",
-    "predicted_against_spread": "Philadelphia Phillies",
+    "predicted_against_spread": "Philadelphia Phillies [-1.7]",
     "confidence": 72,
-    "key_factors": [
-      "Nationals are on a brutal 0-5 stretch",
-      "Phillies lead the season series 5-2 and just beat Washington 10-5",
-      "Jesus Luzardo (3.57 ERA, 9-5) well ahead of Zack Littell (4.94 ERA, 7-8)"
-    ],
-    "reasoning": "This is about as aligned as these matchups get: Washington has lost five straight, Philadelphia has dominated the season series (5-2, including a 10-5 win last meeting), and the Phillies' Jesus Luzardo (3.57 ERA, 9-5) is a clear step up from Washington's Zack Littell (4.94 ERA, 7-8). The market's already pricing Philadelphia as a heavy favorite (-226), and every trend here confirms rather than contradicts that price -- this is the highest-confidence pick of the set."
+    "key_factors": ["Phillies 4-1 L5 vs Nats 1-4", "Sanchez elite (2.61 ERA) vs Mikolas poor (5.67)", "7-3 h2h Phillies", "Better overall record 61-54 vs 56-60"],
+    "reasoning": "Despite the Nationals' upset win yesterday (10-4), the Phillies are the clear choice here. Philadelphia's 4-1 recent form, dominant 7-3 head-to-head record, and significant pitcher advantage (elite Cristopher Sanchez vs struggling Miles Mikolas) outweigh yesterday's outlier result. The Phillies' superior overall record and home-field advantage seal this pick."
   },
-  "baseball_mlb_2026-08-04_chicago-white-sox_at_boston-red-sox": {
+  "baseball_mlb_2026-08-06_chicago-white-sox_at_boston-red-sox": {
     "predicted_winner": "Boston Red Sox",
-    "predicted_against_spread": "Boston Red Sox",
-    "confidence": 58,
-    "key_factors": [
-      "Red Sox are red-hot: 5-0 over their last 5, current 5-game win streak",
-      "Boston has swept the season series 3-0 so far",
-      "Patrick Sandoval's 0-0 record suggests a very limited sample despite his 3.32 ERA",
-      "Davis Martin (3.62 ERA, 9-5) has a fuller, more proven track record"
-    ],
-    "reasoning": "Boston's current form (5-0, 5-game win streak) and a clean 3-0 season sweep of Chicago both point strongly to the Red Sox. The one thing holding this back from a higher grade is the pitching matchup: Sandoval's 0-0 record alongside his 3.32 ERA suggests very few innings this season (likely a rehab or spot start), while Chicago's Davis Martin has a much larger, more reliable sample at 9-5. That uncertainty is enough to keep this as a lean rather than a strong pick."
+    "predicted_against_spread": "Boston Red Sox [-1.5]",
+    "confidence": 85,
+    "key_factors": ["Red Sox 5-0 L5, W7 streak", "5-0 h2h vs White Sox", "White Sox L2 with 0-5 h2h", "Suarez (3.15) >> Castillo (5.06)"],
+    "reasoning": "Boston is rolling—perfect 5-0 in last five games with a seven-game winning streak, and they've dominated Chicago 5-0 this season. The White Sox are 0-5 against Boston and on a two-game slide. Pitcher matchup heavily favors Boston (Suarez's 3.15 ERA vs Castillo's 5.06). This is a high-confidence Red Sox win."
   },
-  "baseball_mlb_2026-08-04_miami-marlins_at_atlanta-braves": {
+  "baseball_mlb_2026-08-06_miami-marlins_at_atlanta-braves": {
     "predicted_winner": "Atlanta Braves",
-    "predicted_against_spread": "Atlanta Braves",
+    "predicted_against_spread": "Atlanta Braves [-1.5]",
+    "confidence": 78,
+    "key_factors": ["Braves 5-0 L5, W7 streak", "Braves 7-2 h2h dominance", "Marlins L2 with 2-7 h2h", "Record gap 69-45 vs 58-57"],
+    "reasoning": "Atlanta is one of the hottest teams in baseball (5-0 L5, W7 streak) with a dominant 7-2 series record over Miami. The Marlins are in a two-game skid and have consistently lost to Atlanta. Home advantage + Perez's solid ERA (3.24) vs Junk's weaker 4.58 ERA solidifies this pick."
+  },
+  "baseball_mlb_2026-08-06_minnesota-twins_at_kansas-city-royals": {
+    "predicted_winner": "Kansas City Royals",
+    "predicted_against_spread": "Kansas City Royals [-1.5]",
     "confidence": 68,
-    "key_factors": [
-      "Braves have MLB-caliber form: 5-0 over last 5, 5-game win streak, 67-45 record",
-      "Braves lead the season series 5-2 and won the last meeting 9-3",
-      "Miami's starter unannounced, a minor gap given the team-quality edge"
-    ],
-    "reasoning": "Atlanta is playing as well as any team in the sample right now -- a perfect 5-0 over the last five games on top of the best overall record here (67-45) -- and has beaten Miami soundly in the season series (5-2, including a 9-3 win last time out). Miami is also playing well (W3) but is a clear tier below. Not knowing Miami's starter is a minor gap, not enough to offset the size of the overall edge."
+    "key_factors": ["Twins L4 streak, 1-4 L5", "Royals W2 streak, 8-4 h2h dominance", "Royals up 4-8 h2h despite worse record", "Wacha (3.51) > Ober (4.45)"],
+    "reasoning": "The Royals' surprising dominance over Minnesota (8-4 h2h despite inferior overall record) is the key data point. Minnesota is spiraling (L4 streak) while Kansas City has won two straight. Home field matters here, and the pitcher matchup favors Kansas City slightly. The head-to-head pattern is too strong to ignore."
   },
-  "baseball_mlb_2026-08-04_pittsburgh-pirates_at_milwaukee-brewers": {
-    "predicted_winner": "Milwaukee Brewers",
-    "predicted_against_spread": "Milwaukee Brewers",
-    "confidence": 56,
-    "key_factors": [
-      "Brewers have MLB-best-caliber record (69-42) and a strong starter, Logan Henderson (2.66 ERA, 5-1)",
-      "But Pittsburgh has won the season series 5-1, including a 14-5 blowout last time",
-      "That head-to-head split is a real red flag against an otherwise strong Brewers case"
-    ],
-    "reasoning": "On paper this should be a comfortable Brewers pick -- best record in the sample (69-42) and an excellent starter in Logan Henderson (2.66 ERA, 5-1). But Pittsburgh has flipped the script on Milwaukee specifically this year, winning the season series 5-1 with a 14-5 blowout in the last meeting, which is too large a sample to wave off. That conflict between team quality and head-to-head history is exactly the kind of thing that should cap confidence rather than default to the better overall team, so this lands just above the threshold as a lean, not a strong pick."
+  "baseball_mlb_2026-08-07_san-diego-padres_at_arizona-diamondbacks": {
+    "predicted_winner": "Arizona Diamondbacks",
+    "predicted_against_spread": "Arizona Diamondbacks [-0.2]",
+    "confidence": 52,
+    "key_factors": ["Both teams 3-2 L5", "Diamondbacks W1 vs Padres L1", "Close h2h (4-5 Padres)", "Similar records 61-54 DBacks vs 59-56 Padres"],
+    "reasoning": "This is a near-pick matchup—both teams are evenly matched with 3-2 recent records. Arizona's W1 streak edges out San Diego's L1, and the Diamondbacks' slightly better overall record (61-54) and home field give them a marginal advantage. Pitcher matchup is unknown; this is a low-confidence lean on the home team."
   },
-  "baseball_mlb_2026-08-04_minnesota-twins_at_kansas-city-royals": {
-    "predicted_winner": "Minnesota Twins",
-    "predicted_against_spread": "Minnesota Twins",
-    "confidence": 50,
-    "key_factors": [
-      "Royals are worse overall (46-67) and on a 4-game skid",
-      "But Royals have won the season series 6-4 and just beat Minnesota 4 days ago",
-      "Kansas City's Randy Dobnak has a 1.04 ERA but only a 1-0 record -- too small a sample to trust"
-    ],
-    "reasoning": "Team quality favors Minnesota (56-57 vs 46-67, and Kansas City is mired in a 4-game losing streak), but Kansas City has actually won the season series 6-4 and beat the Twins just five days ago. Kansas City's starter shows a tiny 1.04 ERA, but with only a 1-0 record behind it that's far too small a sample to weight heavily. With team form and head-to-head trends pointing in opposite directions and no reliable pitching signal to break the tie, this doesn't clear a confident bar either way."
+  "baseball_mlb_2026-08-07_new-york-mets_at_pittsburgh-pirates": {
+    "predicted_winner": "New York Mets",
+    "predicted_against_spread": "New York Mets [+1.5]",
+    "confidence": 63,
+    "key_factors": ["Mets W3 streak, 3-2 L5", "Pirates L3 with 1-4 L5", "Mets 2-1 h2h despite worse record", "Thornton solid (2.88 ERA)"],
+    "reasoning": "The Mets are in much better form (W3 streak vs Pirates' L3 slide) and have a 2-1 head-to-head edge despite having a worse overall record. New York's recent momentum and Thornton's solid ERA as an away starter suggest the Mets can steal this one against the market's underdog pricing."
   },
-  "baseball_mlb_2026-08-05_los-angeles-dodgers_at_chicago-cubs": {
-    "predicted_winner": "Los Angeles Dodgers",
-    "predicted_against_spread": "Chicago Cubs",
-    "confidence": 50,
-    "key_factors": [
-      "Both teams are cold: Dodgers on a 3-game skid, Cubs on a 1-game skid, similar last-5 records",
-      "Shota Imanaga (3.67 ERA) actually outpitching LA's Eric Lauer (4.50 ERA) on paper",
-      "Rain in the forecast (1.6in) adds uncertainty to scoring",
-      "Market prices Dodgers as a heavy -202 favorite based on season-long roster strength"
-    ],
-    "reasoning": "The Dodgers' -202 price reflects their overall roster quality (66-46), but neither team's recent form supports a lopsided result right now -- both are cold, and the pitching matchup on paper actually favors Chicago's Imanaga (3.67 ERA) over LA's Lauer (4.50 ERA). A meaningful rain forecast adds further uncertainty. There isn't enough here to back the Dodgers at that price, but not enough to confidently back Chicago outright either, so this stays below the confidence bar."
+  "baseball_mlb_2026-08-07_toronto-blue-jays_at_philadelphia-phillies": {
+    "predicted_winner": "Philadelphia Phillies",
+    "predicted_against_spread": "Philadelphia Phillies [-1.5]",
+    "confidence": 75,
+    "key_factors": ["Phillies 4-1 L5 vs Jays 2-3", "Wheeler elite (2.49 ERA, 10-2) vs Soriano (3.29)", "Phillies 2-1 h2h", "Phillies 61-54 vs Jays 54-62"],
+    "reasoning": "Philadelphia is on strong form (4-1 L5) with only one loss, and the pitcher matchup is decisively in their favor—Wheeler is having an elite season (10-2) with a sub-2.50 ERA. The Phillies' 2-1 series edge and superior record (61-54) reinforce this pick. Toronto is L1 and outmatched."
   },
-  "baseball_mlb_2026-08-05_toronto-blue-jays_at_houston-astros": {
+  "baseball_mlb_2026-08-07_atlanta-braves_at_new-york-yankees": {
+    "predicted_winner": "Atlanta Braves",
+    "predicted_against_spread": "Atlanta Braves [+1.5]",
+    "confidence": 61,
+    "key_factors": ["Braves 5-0 L5, W7 streak", "Braves 69-45 elite record vs Yankees 65-50", "Sale elite (2.08 ERA, 12-6)", "Yankees L1, 2-3 L5"],
+    "reasoning": "Despite Atlanta being the road team as underdog, their dominant form (5-0 L5, W7 streak) and elite record (69-45) trump New York's home advantage. Chris Sale is pitching lights out with a 2.08 ERA and 12-6 record—that's the difference maker here. The Yankees are in a slump (L1, 2-3 L5), making Atlanta the pick despite +1.5 odds."
+  },
+  "baseball_mlb_2026-08-07_los-angeles-angels_at_miami-marlins": {
+    "predicted_winner": "Miami Marlins",
+    "predicted_against_spread": "Miami Marlins [-1.5]",
+    "confidence": 66,
+    "key_factors": ["Angels 45-70 record (worst matchup)", "George Klassen 11.57 ERA disaster", "Marlins 3-2 L5 despite L2 streak", "Phillips (3.53) > Klassen (11.57)"],
+    "reasoning": "Los Angeles's pitching situation is catastrophic—George Klassen has an 11.57 ERA. Even though Miami is in a two-game slide, they're the far superior team with a much better record and bullpen depth. Miami's Tyler Phillips is light years ahead of Klassen. This should be a comfortable home win despite recent struggles."
+  },
+  "baseball_mlb_2026-08-07_cleveland-guardians_at_chicago-white-sox": {
+    "predicted_winner": "Chicago White Sox",
+    "predicted_against_spread": "Chicago White Sox [+1.5]",
+    "confidence": 58,
+    "key_factors": ["Guardians L3 with 1-4 L5", "White Sox 4-3 h2h and home field", "Messick (2.57) > Schultz (5.82) ERA gap large", "White Sox W1, slightly better recent"],
+    "reasoning": "Despite being underdog in the market, Chicago's 4-3 head-to-head edge at home and massive pitcher advantage (Parker Messick's 2.57 ERA vs Cleveland's Noah Schultz at 5.82) make this a lean on the Sox. Cleveland is in freefall (L3), and Chicago just won. Home field + pitching advantage supports the underdog pick."
+  },
+  "baseball_mlb_2026-08-08_baltimore-orioles_at_texas-rangers": {
+    "predicted_winner": "Texas Rangers",
+    "predicted_against_spread": "Texas Rangers [-1.5]",
+    "confidence": 62,
+    "key_factors": ["Rangers W2 with 2-1 h2h", "Orioles L1 with 1-2 h2h", "Pitcher matchup similar", "Rangers home, better h2h edge"],
+    "reasoning": "Texas has home-field advantage with a two-game winning streak and a 2-1 head-to-head edge over Baltimore. While the overall records are similar and pitcher matchup is roughly even, the Rangers' recent momentum and head-to-head dominance (especially the recent 8-3 win) give them a slight edge in a close game."
+  },
+  "baseball_mlb_2026-08-08_colorado-rockies_at_st.-louis-cardinals": {
+    "predicted_winner": "St. Louis Cardinals",
+    "predicted_against_spread": "St. Louis Cardinals [-1.5]",
+    "confidence": 72,
+    "key_factors": ["Cardinals W1, 3-2 L5 vs Rockies L3", "Record gap 57-58 vs 45-70", "Liberatore (4.97) > Freeland (6.81) ERA", "Rockies in free fall"],
+    "reasoning": "St. Louis has clear advantages: home field, a one-game winning streak vs Colorado's three-game slide, and a significant record gap (57-58 vs 45-70). The pitcher matchup also favors the Cardinals—Liberatore's 4.97 ERA beats Freeland's poor 6.81 ERA. This is a comfortable home win."
+  },
+  "baseball_mlb_2026-08-08_houston-astros_at_san-diego-padres": {
     "predicted_winner": "Houston Astros",
-    "predicted_against_spread": "Houston Astros",
-    "confidence": 54,
-    "key_factors": [
-      "Astros are on a 6-game win streak, 5-0 over their last 5",
-      "Astros lead the season series 2-1 and won the last meeting",
-      "But Toronto's Dylan Cease (2.41 ERA, 7-5) is a clear step above Houston's Hunter Brown (3.42 ERA, 3-1)"
-    ],
-    "reasoning": "Houston's momentum is real -- a 6-game win streak and a season-series edge over Toronto -- but Toronto is sending out the better arm tonight: Dylan Cease's 2.41 ERA and 7-5 record clearly outclass Hunter Brown's 3.42 ERA and thin 3-1 sample. An ace-caliber start is exactly the kind of thing that can halt a hot streak, so this stays a marginal lean toward Houston rather than a confident pick."
+    "predicted_against_spread": "Houston Astros [-1.5]",
+    "confidence": 56,
+    "key_factors": ["Both teams 3-2 L5 with L1 streak", "Astros 59-57 vs Padres 59-56 similar", "Lambert (3.06) slight edge over King (3.45)", "Road team underdog"],
+    "reasoning": "This is a near-pick game between evenly matched teams. Both went 3-2 in their last five with recent losses. Houston's slight pitcher advantage (Peter Lambert 3.06 ERA vs Michael King 3.45) and marginally better record (59-57) edge them, but San Diego's home field provides counterbalance. Slight lean on Astros despite road underdog status."
+  },
+  "baseball_mlb_2026-08-08_tampa-bay-rays_at_seattle-mariners": {
+    "predicted_winner": "Tampa Bay Rays",
+    "predicted_against_spread": "Tampa Bay Rays [-1.5]",
+    "confidence": 68,
+    "key_factors": ["Rays 4-1 L5, W3 streak, elite 68-46 record", "Rays 2-1 h2h", "Mariners 3-2 L5 at 56-59", "Kirby (3.76) vs Jax (3.63) even"],
+    "reasoning": "Tampa Bay is a far superior team—68-46 elite record, W3 streak, and 4-1 last five. They also have a 2-1 head-to-head edge over Seattle. Though the Mariners have home field and the pitcher matchup is essentially even, Tampa's talent gap and momentum make them the pick despite being slight underdogs on the moneyline."
   }
 }
