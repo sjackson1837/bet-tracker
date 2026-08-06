@@ -1,10 +1,11 @@
-name: Publish Bet Tracker site to GitHub Pages
+name: Publish site (manual)
 
+# The daily workflow builds AND deploys on its own schedule. This one exists
+# only for when you've changed site/ or the templates by hand and want to
+# publish immediately without burning Odds API calls on a full refresh.
+#
+# Run it from the Actions tab -> "Publish site (manual)" -> Run workflow.
 on:
-  push:
-    branches: [main]
-    paths:
-      - "site/**"
   workflow_dispatch:
 
 permissions:
@@ -12,9 +13,10 @@ permissions:
   pages: write
   id-token: write
 
+# Shared with the daily workflow so the two can never publish at once.
 concurrency:
   group: pages
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 jobs:
   deploy:

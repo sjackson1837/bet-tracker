@@ -1,0 +1,11 @@
+name = "bet-tracker-picks"
+main = "picks-worker.js"
+compatibility_date = "2024-11-01"
+
+# The KV namespace that stores which games you've bet on.
+# Create it once with:
+#   npx wrangler kv namespace create PICKS
+# then paste the returned id below, replacing PASTE_KV_NAMESPACE_ID_HERE.
+[[kv_namespaces]]
+binding = "PICKS"
+id = "97c4bf829a5b43d0a9954185add81188"

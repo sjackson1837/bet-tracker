@@ -85,6 +85,9 @@
     "track_record_window_days": 7,
     "claude_model": "claude-sonnet-5",
     "site_title": "Steven's Bet Tracker",
-    "timezone": "America/New_York"
+    "short_title": "Bet Tracker",
+    "timezone": "America/New_York",
+    "_picks_api_comment": "Base URL of the Cloudflare Worker that stores your bet selections. Replace with the URL wrangler prints after 'npx wrangler deploy'. Until it's set, the checkboxes fall back to the local pick server.",
+    "picks_api_base": "https://bet-tracker-picks.example.workers.dev"
   }
 }

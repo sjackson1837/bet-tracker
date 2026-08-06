@@ -17407,7 +17407,8 @@
         "num_bookmakers": 9
       }
     },
-    "actual": null
+    "actual": null,
+    "user_selected": true
   },
   "baseball_mlb_2026-08-06_miami-marlins_at_atlanta-braves": {
     "league": "MLB",
@@ -17840,7 +17841,8 @@
         "num_bookmakers": 2
       }
     },
-    "actual": null
+    "actual": null,
+    "user_selected": false
   },
   "baseball_mlb_2026-08-07_atlanta-braves_at_new-york-yankees": {
     "league": "MLB",
