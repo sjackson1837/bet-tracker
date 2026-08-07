@@ -1,59 +1,257 @@
 {
   "instructions": "For each game below, act as a sharp, disciplined sports betting analyst. Do NOT simply pick whichever side the betting market favors -- weigh the actual trend data provided (recent form, streaks, head-to-head history, starting pitcher matchups where given, and weather where relevant) and form an independent judgment. It's fine, and expected, to disagree with the market when the trends support it. If trend data is sparse for a game, say so and let that lower your confidence rather than defaulting to the favorite. For each game_id, produce: predicted_winner (exact team name), predicted_against_spread (exact team name), confidence (integer 1-100), key_factors (2-4 short strings), and reasoning (2-4 sentences referencing the specific trend data given).",
   "games": {
-    "baseball_mlb_2026-08-07_athletics_at_boston-red-sox": {
+    "baseball_mlb_2026-08-07_cincinnati-reds_at_washington-nationals": {
       "league": "MLB",
-      "away_team": "Athletics",
-      "home_team": "Boston Red Sox",
-      "commence_time": "2026-08-07T23:11:00Z",
+      "away_team": "Cincinnati Reds",
+      "home_team": "Washington Nationals",
+      "commence_time": "2026-08-07T22:46:00Z",
       "market_line": {
         "moneyline": {
-          "Athletics": 211,
-          "Boston Red Sox": -252
+          "Cincinnati Reds": 61,
+          "Washington Nationals": -116
         },
         "spread": {
-          "Athletics": 1.5,
-          "Boston Red Sox": -1.5
+          "Cincinnati Reds": -1.5,
+          "Washington Nationals": 1.5
         },
         "total": 9.0,
-        "num_bookmakers": 8
+        "num_bookmakers": 5
       },
       "away_team_trends": {
-        "team": "Athletics",
-        "last5": "0-5",
-        "streak": "L8",
-        "record": "45-70",
+        "team": "Cincinnati Reds",
+        "last5": "4-1",
+        "streak": "W4",
+        "record": "56-58",
         "h2h_vs_opponent": {
-          "record_this_season": "1-3",
-          "last_meeting_result": "lost 4-5 on 2026-07-31"
+          "record_this_season": "1-2",
+          "last_meeting_result": "won 15-1 on 2026-05-14"
         }
       },
       "home_team_trends": {
-        "team": "Boston Red Sox",
-        "last5": "5-0",
-        "streak": "W7",
-        "record": "62-51",
+        "team": "Washington Nationals",
+        "last5": "1-4",
+        "streak": "L1",
+        "record": "56-61",
         "h2h_vs_opponent": {
-          "record_this_season": "3-1",
-          "last_meeting_result": "won 5-4 on 2026-07-31"
+          "record_this_season": "2-1",
+          "last_meeting_result": "lost 1-15 on 2026-05-14"
         }
       },
       "weather_at_kickoff": {
-        "high_f": 94.8,
-        "low_f": 76.0,
-        "precipitation_in": 0.0,
-        "wind_mph": 8.4
+        "high_f": 93.6,
+        "low_f": 73.1,
+        "precipitation_in": 1.091,
+        "wind_mph": 11.6
       },
       "probable_pitchers": {
         "home": {
-          "name": "Payton Tolle",
-          "era": "3.30",
-          "record": "(6-6, 3.30)"
+          "name": "Cade Cavalli",
+          "era": "3.52",
+          "record": "(8-5, 3.52)"
+        },
+        "away": null
+      }
+    },
+    "baseball_mlb_2026-08-07_minnesota-twins_at_milwaukee-brewers": {
+      "league": "MLB",
+      "away_team": "Minnesota Twins",
+      "home_team": "Milwaukee Brewers",
+      "commence_time": "2026-08-07T23:41:00Z",
+      "market_line": {
+        "moneyline": {
+          "Milwaukee Brewers": -171,
+          "Minnesota Twins": 150
+        },
+        "spread": {
+          "Milwaukee Brewers": -1.5,
+          "Minnesota Twins": 1.5
+        },
+        "total": 8.0,
+        "num_bookmakers": 9
+      },
+      "away_team_trends": {
+        "team": "Minnesota Twins",
+        "last5": "1-4",
+        "streak": "W1",
+        "record": "57-59",
+        "h2h_vs_opponent": {
+          "record_this_season": "1-2",
+          "last_meeting_result": "won 5-4 on 2026-05-17"
+        }
+      },
+      "home_team_trends": {
+        "team": "Milwaukee Brewers",
+        "last5": "3-2",
+        "streak": "W3",
+        "record": "72-43",
+        "h2h_vs_opponent": {
+          "record_this_season": "2-1",
+          "last_meeting_result": "lost 4-5 on 2026-05-17"
+        }
+      },
+      "weather_at_kickoff": null,
+      "probable_pitchers": {
+        "home": {
+          "name": "Shane Drohan",
+          "era": "3.48",
+          "record": "(6-4, 3.48)"
         },
         "away": {
-          "name": "Jack Perkins",
-          "era": "6.72",
-          "record": "(2-7, 6.72)"
+          "name": "Zebby Matthews",
+          "era": "5.22",
+          "record": "(4-8, 5.22)"
+        }
+      }
+    },
+    "baseball_mlb_2026-08-08_chicago-cubs_at_kansas-city-royals": {
+      "league": "MLB",
+      "away_team": "Chicago Cubs",
+      "home_team": "Kansas City Royals",
+      "commence_time": "2026-08-08T00:11:00Z",
+      "market_line": {
+        "moneyline": {
+          "Chicago Cubs": -167,
+          "Kansas City Royals": 143
+        },
+        "spread": {
+          "Chicago Cubs": -1.5,
+          "Kansas City Royals": 1.5
+        },
+        "total": 9.5,
+        "num_bookmakers": 9
+      },
+      "away_team_trends": {
+        "team": "Chicago Cubs",
+        "last5": "4-1",
+        "streak": "W4",
+        "record": "67-49",
+        "h2h_vs_opponent": null
+      },
+      "home_team_trends": {
+        "team": "Kansas City Royals",
+        "last5": "2-3",
+        "streak": "L1",
+        "record": "48-68",
+        "h2h_vs_opponent": null
+      },
+      "weather_at_kickoff": {
+        "high_f": 99.1,
+        "low_f": 72.3,
+        "precipitation_in": 0.0,
+        "wind_mph": 11.5
+      },
+      "probable_pitchers": {
+        "home": {
+          "name": "Seth Lugo",
+          "era": "4.41",
+          "record": "(4-7, 4.41)"
+        },
+        "away": {
+          "name": "Clay Holmes",
+          "era": "2.39",
+          "record": "(4-4, 2.39)"
+        }
+      }
+    },
+    "baseball_mlb_2026-08-08_los-angeles-dodgers_at_arizona-diamondbacks": {
+      "league": "MLB",
+      "away_team": "Los Angeles Dodgers",
+      "home_team": "Arizona Diamondbacks",
+      "commence_time": "2026-08-08T01:41:00Z",
+      "market_line": {
+        "moneyline": {
+          "Arizona Diamondbacks": 148,
+          "Los Angeles Dodgers": -175
+        },
+        "spread": {
+          "Arizona Diamondbacks": 1.5,
+          "Los Angeles Dodgers": -1.5
+        },
+        "total": 9.0,
+        "num_bookmakers": 9
+      },
+      "away_team_trends": {
+        "team": "Los Angeles Dodgers",
+        "last5": "0-5",
+        "streak": "L6",
+        "record": "66-49",
+        "h2h_vs_opponent": {
+          "record_this_season": "5-5",
+          "last_meeting_result": "lost 3-5 on 2026-07-12"
+        }
+      },
+      "home_team_trends": {
+        "team": "Arizona Diamondbacks",
+        "last5": "2-3",
+        "streak": "L1",
+        "record": "61-55",
+        "h2h_vs_opponent": {
+          "record_this_season": "5-5",
+          "last_meeting_result": "won 5-3 on 2026-07-12"
+        }
+      },
+      "weather_at_kickoff": null,
+      "probable_pitchers": {
+        "home": {
+          "name": "Brandon Pfaadt",
+          "era": "3.66",
+          "record": "(6-1, 3.66)"
+        },
+        "away": {
+          "name": "Yoshinobu Yamamoto",
+          "era": "2.76",
+          "record": "(11-7, 2.76)"
+        }
+      }
+    },
+    "baseball_mlb_2026-08-08_detroit-tigers_at_san-francisco-giants": {
+      "league": "MLB",
+      "away_team": "Detroit Tigers",
+      "home_team": "San Francisco Giants",
+      "commence_time": "2026-08-08T02:16:00Z",
+      "market_line": {
+        "moneyline": {
+          "Detroit Tigers": -123,
+          "San Francisco Giants": 104
+        },
+        "spread": {
+          "Detroit Tigers": -1.5,
+          "San Francisco Giants": 1.5
+        },
+        "total": 8.4,
+        "num_bookmakers": 6
+      },
+      "away_team_trends": {
+        "team": "Detroit Tigers",
+        "last5": "4-1",
+        "streak": "W1",
+        "record": "56-59",
+        "h2h_vs_opponent": null
+      },
+      "home_team_trends": {
+        "team": "San Francisco Giants",
+        "last5": "1-4",
+        "streak": "L2",
+        "record": "48-67",
+        "h2h_vs_opponent": null
+      },
+      "weather_at_kickoff": {
+        "high_f": 66.3,
+        "low_f": 55.7,
+        "precipitation_in": 0.0,
+        "wind_mph": 15.3
+      },
+      "probable_pitchers": {
+        "home": {
+          "name": "Landen Roupp",
+          "era": "4.34",
+          "record": "(7-10, 4.34)"
+        },
+        "away": {
+          "name": "Jackson Jobe",
+          "era": null,
+          "record": ""
         }
       }
     }

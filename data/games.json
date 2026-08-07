@@ -419,7 +419,7 @@
         "Buffalo Bills": -3.0,
         "Detroit Lions": 3.0
       },
-      "total": 53.0,
+      "total": 52.0,
       "num_bookmakers": 4
     },
     "prediction": null,
@@ -444,7 +444,7 @@
         "Atlanta Falcons": -1.5,
         "Carolina Panthers": 1.5
       },
-      "total": 43.5,
+      "total": 44.0,
       "num_bookmakers": 2
     },
     "prediction": null,
@@ -2087,8 +2087,8 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Carolina Panthers": 220,
-        "Philadelphia Eagles": -270
+        "Carolina Panthers": 225,
+        "Philadelphia Eagles": -278
       },
       "spread": {
         "Carolina Panthers": 6.5,
@@ -2562,8 +2562,8 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Arizona Cardinals": 295,
-        "Denver Broncos": -375
+        "Arizona Cardinals": 285,
+        "Denver Broncos": -360
       },
       "spread": {
         "Arizona Cardinals": 7.5,
@@ -3087,8 +3087,8 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Carolina Panthers": 140,
-        "Denver Broncos": -166
+        "Carolina Panthers": 136,
+        "Denver Broncos": -162
       },
       "spread": {
         "Carolina Panthers": 3.0,
@@ -3312,8 +3312,8 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Arizona Cardinals": 550,
-        "Seattle Seahawks": -800
+        "Arizona Cardinals": 525,
+        "Seattle Seahawks": -750
       },
       "spread": {
         "Arizona Cardinals": 13.5,
@@ -3587,8 +3587,8 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Indianapolis Colts": -285,
-        "Miami Dolphins": 230
+        "Indianapolis Colts": -290,
+        "Miami Dolphins": 235
       },
       "spread": {
         "Indianapolis Colts": -6.5,
@@ -5491,8 +5491,8 @@
         "New York Jets": -110
       },
       "spread": {
-        "Arizona Cardinals": -1.5,
-        "New York Jets": 1.5
+        "Arizona Cardinals": 1.5,
+        "New York Jets": -1.5
       },
       "total": 41.5,
       "num_bookmakers": 1
@@ -5787,8 +5787,8 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Carolina Panthers": 154,
-        "Pittsburgh Steelers": -185
+        "Carolina Panthers": 160,
+        "Pittsburgh Steelers": -192
       },
       "spread": {
         "Carolina Panthers": 3.5,
@@ -5812,8 +5812,8 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Cincinnati Bengals": -122,
-        "Indianapolis Colts": 102
+        "Cincinnati Bengals": -125,
+        "Indianapolis Colts": 105
       },
       "spread": {
         "Cincinnati Bengals": -1.5,
@@ -6637,8 +6637,8 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Indianapolis Colts": -122,
-        "Jacksonville Jaguars": 102
+        "Indianapolis Colts": -125,
+        "Jacksonville Jaguars": 105
       },
       "spread": {
         "Indianapolis Colts": -1.5,
@@ -6962,8 +6962,8 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Hawaii Rainbow Warriors": 173,
-        "Stanford Cardinal": -214
+        "Hawaii Rainbow Warriors": 170,
+        "Stanford Cardinal": -210
       },
       "spread": {
         "Hawaii Rainbow Warriors": 4.5,
@@ -7281,8 +7281,8 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Eastern Michigan Eagles": -204,
-        "San Jose State Spartans": 165
+        "Eastern Michigan Eagles": -200,
+        "San Jose State Spartans": 163
       },
       "spread": {
         "Eastern Michigan Eagles": -4.5,
@@ -7378,8 +7378,8 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Michigan State Spartans": -482,
-        "Toledo Rockets": 353
+        "Michigan State Spartans": -478,
+        "Toledo Rockets": 350
       },
       "spread": {
         "Michigan State Spartans": -11.4,
@@ -7623,11 +7623,11 @@
     "odds": {
       "moneyline": {
         "Indiana Hoosiers": -100000,
-        "North Texas Mean Green": 1550
+        "North Texas Mean Green": 1575
       },
       "spread": {
-        "Indiana Hoosiers": -40.8,
-        "North Texas Mean Green": 40.8
+        "Indiana Hoosiers": -40.9,
+        "North Texas Mean Green": 40.9
       },
       "total": 55.5,
       "num_bookmakers": 9
@@ -7722,12 +7722,12 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Nebraska Cornhuskers": -3550,
-        "Ohio Bobcats": 1262
+        "Nebraska Cornhuskers": -3175,
+        "Ohio Bobcats": 1238
       },
       "spread": {
-        "Nebraska Cornhuskers": -23.9,
-        "Ohio Bobcats": 23.9
+        "Nebraska Cornhuskers": -23.8,
+        "Ohio Bobcats": 23.8
       },
       "total": 47.6,
       "num_bookmakers": 9
@@ -8195,7 +8195,7 @@
         "Texas Longhorns": -30.6,
         "Texas State Bobcats": 30.6
       },
-      "total": 60.0,
+      "total": 60.1,
       "num_bookmakers": 9
     },
     "prediction": null,
@@ -8382,12 +8382,12 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Arkansas State Red Wolves": 308,
-        "Memphis Tigers": -408
+        "Arkansas State Red Wolves": 301,
+        "Memphis Tigers": -398
       },
       "spread": {
-        "Arkansas State Red Wolves": 9.7,
-        "Memphis Tigers": -9.7
+        "Arkansas State Red Wolves": 9.8,
+        "Memphis Tigers": -9.8
       },
       "total": 55.5,
       "num_bookmakers": 9
@@ -9068,8 +9068,8 @@
         "UCLA Bruins": -112
       },
       "spread": {
-        "California Golden Bears": 0.8,
-        "UCLA Bruins": -0.8
+        "California Golden Bears": 0.6,
+        "UCLA Bruins": -0.6
       },
       "total": 54.8,
       "num_bookmakers": 9
@@ -10786,7 +10786,7 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Arsenal": -615,
+        "Arsenal": -618,
         "Coventry City": 1415,
         "Draw": 640
       },
@@ -10840,7 +10840,7 @@
       "moneyline": {
         "Crystal Palace": 236,
         "Everton": 113,
-        "Draw": 243
+        "Draw": 242
       },
       "spread": {
         "Crystal Palace": 0.4,
@@ -10917,7 +10917,7 @@
     "odds": {
       "moneyline": {
         "Brentford": 139,
-        "Tottenham Hotspur": 177,
+        "Tottenham Hotspur": 178,
         "Draw": 256
       },
       "spread": {
@@ -10942,7 +10942,7 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Aston Villa": 189,
+        "Aston Villa": 190,
         "Brighton and Hove Albion": 129,
         "Draw": 262
       },
@@ -11125,8 +11125,8 @@
     "odds": {
       "moneyline": {
         "Espanyol": 78,
-        "Levante": 287,
-        "Draw": 230
+        "Levante": 288,
+        "Draw": 231
       },
       "spread": {
         "Espanyol": -0.5,
@@ -11177,7 +11177,7 @@
     "odds": {
       "moneyline": {
         "Deportivo La Coru\u00f1a": 136,
-        "Elche CF": 216,
+        "Elche CF": 218,
         "Draw": 218
       },
       "spread": {
@@ -11690,9 +11690,9 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Frosinone": 571,
-        "Juventus": -221,
-        "Draw": 338
+        "Frosinone": 581,
+        "Juventus": -223,
+        "Draw": 340
       },
       "spread": {
         "Frosinone": 1.1,
@@ -11846,13 +11846,13 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Marseille": -161,
-        "Strasbourg": 367,
-        "Draw": 334
+        "Marseille": -158,
+        "Strasbourg": 359,
+        "Draw": 329
       },
       "spread": {
-        "Marseille": -1.0,
-        "Strasbourg": 1.0
+        "Marseille": -0.9,
+        "Strasbourg": 0.9
       },
       "total": 3.2,
       "num_bookmakers": 8
@@ -11872,9 +11872,9 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Auxerre": 416,
-        "RC Lens": -169,
-        "Draw": 319
+        "Auxerre": 423,
+        "RC Lens": -174,
+        "Draw": 321
       },
       "spread": {
         "Auxerre": 1.0,
@@ -11898,9 +11898,9 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Brest": 172,
-        "Le Mans FC": 148,
-        "Draw": 248
+        "Brest": 171,
+        "Le Mans FC": 147,
+        "Draw": 247
       },
       "spread": {
         "Brest": 0.0,
@@ -11924,9 +11924,9 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Lorient": 219,
+        "Lorient": 218,
         "Nice": 116,
-        "Draw": 253
+        "Draw": 252
       },
       "spread": {
         "Lorient": 0.4,
@@ -11952,7 +11952,7 @@
       "moneyline": {
         "Lyon": 77,
         "Toulouse": 241,
-        "Draw": 272
+        "Draw": 271
       },
       "spread": {
         "Lyon": -0.5,
@@ -11976,9 +11976,9 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Paris FC": 146,
+        "Paris FC": 145,
         "Troyes": 173,
-        "Draw": 248
+        "Draw": 247
       },
       "spread": {
         "Paris FC": 0.0,
@@ -12002,9 +12002,9 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Angers": 403,
-        "Lille": -148,
-        "Draw": 279
+        "Angers": 402,
+        "Lille": -150,
+        "Draw": 278
       },
       "spread": {
         "Angers": 0.6,
@@ -12030,7 +12030,7 @@
       "moneyline": {
         "AS Monaco": 51,
         "Le Havre": 231,
-        "Draw": 286
+        "Draw": 285
       },
       "spread": {
         "AS Monaco": -0.5,
@@ -12054,7 +12054,7 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Paris Saint Germain": -266,
+        "Paris Saint Germain": -269,
         "Rennes": 575,
         "Draw": 436
       },
@@ -13058,16 +13058,16 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Atlanta United FC": -126,
-        "New York Red Bulls": 274,
-        "Draw": 305
+        "Atlanta United FC": -125,
+        "New York Red Bulls": 268,
+        "Draw": 303
       },
       "spread": {
         "Atlanta United FC": -0.5,
         "New York Red Bulls": 0.5
       },
       "total": 3.5,
-      "num_bookmakers": 4
+      "num_bookmakers": 5
     },
     "prediction": null,
     "actual": null
@@ -13084,16 +13084,16 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "CF Montreal": 119,
-        "D.C. United": 197,
-        "Draw": 256
+        "CF Montreal": 117,
+        "D.C. United": 199,
+        "Draw": 252
       },
       "spread": {
         "CF Montreal": -0.5,
         "D.C. United": 0.5
       },
       "total": 2.5,
-      "num_bookmakers": 4
+      "num_bookmakers": 5
     },
     "prediction": null,
     "actual": null
@@ -13110,16 +13110,16 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Charlotte FC": 109,
-        "Columbus Crew SC": 213,
-        "Draw": 265
+        "Charlotte FC": 118,
+        "Columbus Crew SC": 194,
+        "Draw": 256
       },
       "spread": {
         "Charlotte FC": -0.5,
         "Columbus Crew SC": 0.5
       },
       "total": 2.5,
-      "num_bookmakers": 4
+      "num_bookmakers": 5
     },
     "prediction": null,
     "actual": null
@@ -13136,16 +13136,16 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "FC Cincinnati": 161,
-        "Orlando City SC": 126,
-        "Draw": 310
+        "FC Cincinnati": 166,
+        "Orlando City SC": 120,
+        "Draw": 302
       },
       "spread": {
         "FC Cincinnati": 0.5,
         "Orlando City SC": -0.5
       },
       "total": 3.5,
-      "num_bookmakers": 4
+      "num_bookmakers": 5
     },
     "prediction": null,
     "actual": null
@@ -13214,16 +13214,16 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Inter Miami CF": 193,
-        "Nashville SC": 110,
-        "Draw": 291
+        "Inter Miami CF": 170,
+        "Nashville SC": 134,
+        "Draw": 259
       },
       "spread": {
         "Inter Miami CF": 0.5,
         "Nashville SC": -0.5
       },
       "total": 3.5,
-      "num_bookmakers": 4
+      "num_bookmakers": 5
     },
     "prediction": null,
     "actual": null
@@ -13240,16 +13240,16 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Colorado Rapids": -282,
-        "Sporting Kansas City": 578,
-        "Draw": 419
+        "Colorado Rapids": -230,
+        "Sporting Kansas City": 482,
+        "Draw": 366
       },
       "spread": {
         "Colorado Rapids": -1.5,
         "Sporting Kansas City": 1.5
       },
       "total": 3.5,
-      "num_bookmakers": 4
+      "num_bookmakers": 5
     },
     "prediction": null,
     "actual": null
@@ -13266,16 +13266,16 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Minnesota United FC": 312,
-        "Real Salt Lake": -139,
-        "Draw": 299
+        "Minnesota United FC": 313,
+        "Real Salt Lake": -134,
+        "Draw": 278
       },
       "spread": {
         "Minnesota United FC": 0.5,
         "Real Salt Lake": -0.5
       },
-      "total": 2.8,
-      "num_bookmakers": 4
+      "total": 2.5,
+      "num_bookmakers": 5
     },
     "prediction": null,
     "actual": null
@@ -13292,16 +13292,16 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Los Angeles FC": -204,
-        "San Diego FC": 435,
-        "Draw": 365
+        "Los Angeles FC": -198,
+        "San Diego FC": 408,
+        "Draw": 360
       },
       "spread": {
         "Los Angeles FC": -1.5,
         "San Diego FC": 1.5
       },
       "total": 3.5,
-      "num_bookmakers": 4
+      "num_bookmakers": 5
     },
     "prediction": null,
     "actual": null
@@ -13318,16 +13318,16 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "San Jose Earthquakes": -135,
-        "St. Louis City SC": 296,
-        "Draw": 298
+        "San Jose Earthquakes": -24,
+        "St. Louis City SC": 226,
+        "Draw": 282
       },
       "spread": {
         "San Jose Earthquakes": -0.5,
         "St. Louis City SC": 0.5
       },
       "total": 3.5,
-      "num_bookmakers": 4
+      "num_bookmakers": 5
     },
     "prediction": null,
     "actual": null
@@ -13344,16 +13344,16 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Chicago Fire": -165,
-        "Portland Timbers": 342,
-        "Draw": 340
+        "Chicago Fire": -184,
+        "Portland Timbers": 378,
+        "Draw": 350
       },
       "spread": {
-        "Chicago Fire": -0.5,
-        "Portland Timbers": 0.5
+        "Chicago Fire": -1.5,
+        "Portland Timbers": 1.5
       },
       "total": 3.5,
-      "num_bookmakers": 4
+      "num_bookmakers": 5
     },
     "prediction": null,
     "actual": null
@@ -13370,16 +13370,16 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "New York City FC": -138,
-        "Philadelphia Union": 315,
-        "Draw": 292
+        "New York City FC": 106,
+        "Philadelphia Union": 213,
+        "Draw": 264
       },
       "spread": {
         "New York City FC": -0.5,
         "Philadelphia Union": 0.5
       },
       "total": 2.5,
-      "num_bookmakers": 4
+      "num_bookmakers": 5
     },
     "prediction": null,
     "actual": null
@@ -13396,16 +13396,16 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Austin FC": 180,
+        "Austin FC": 178,
         "FC Dallas": 126,
-        "Draw": 266
+        "Draw": 259
       },
       "spread": {
         "Austin FC": 0.5,
         "FC Dallas": -0.5
       },
       "total": 2.5,
-      "num_bookmakers": 4
+      "num_bookmakers": 5
     },
     "prediction": null,
     "actual": null
@@ -13423,15 +13423,15 @@
     "odds": {
       "moneyline": {
         "Seattle Sounders FC": 220,
-        "Vancouver Whitecaps FC": 2,
-        "Draw": 280
+        "Vancouver Whitecaps FC": 21,
+        "Draw": 272
       },
       "spread": {
         "Seattle Sounders FC": 0.5,
         "Vancouver Whitecaps FC": -0.5
       },
       "total": 2.8,
-      "num_bookmakers": 4
+      "num_bookmakers": 5
     },
     "prediction": null,
     "actual": null
@@ -15647,9 +15647,9 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Alav\u00e9s": 320,
+        "Alav\u00e9s": 310,
         "Rayo Vallecano": 100,
-        "Draw": 210
+        "Draw": 220
       },
       "spread": {},
       "total": null,
@@ -15877,13 +15877,13 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "CF Montreal": 415,
-        "Columbus Crew SC": -191,
-        "Draw": 335
+        "CF Montreal": 425,
+        "Columbus Crew SC": -192,
+        "Draw": 330
       },
       "spread": {
-        "CF Montreal": 0.5,
-        "Columbus Crew SC": -0.5
+        "CF Montreal": 1.5,
+        "Columbus Crew SC": -1.5
       },
       "total": 3.5,
       "num_bookmakers": 2
@@ -15929,8 +15929,8 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Chicago Fire": 116,
-        "Orlando City SC": 178,
+        "Chicago Fire": 121,
+        "Orlando City SC": 170,
         "Draw": 300
       },
       "spread": {
@@ -17238,7 +17238,7 @@
     "espn_sport": "baseball",
     "espn_league": "mlb",
     "outdoor": true,
-    "status": "predicted",
+    "status": "graded",
     "odds": {
       "moneyline": {
         "Philadelphia Phillies": -331,
@@ -17317,7 +17317,17 @@
         "num_bookmakers": 9
       }
     },
-    "actual": null
+    "actual": {
+      "home_score": 7,
+      "away_score": 3,
+      "actual_winner": "Philadelphia Phillies",
+      "straight_up_correct": true,
+      "against_the_spread": {
+        "actual_ats_winner": "Philadelphia Phillies",
+        "correct": false
+      },
+      "graded_at": "2026-08-07T12:07:55.813711+00:00"
+    }
   },
   "baseball_mlb_2026-08-06_chicago-white-sox_at_boston-red-sox": {
     "league": "MLB",
@@ -17328,7 +17338,7 @@
     "espn_sport": "baseball",
     "espn_league": "mlb",
     "outdoor": true,
-    "status": "predicted",
+    "status": "graded",
     "odds": {
       "moneyline": {
         "Boston Red Sox": -191,
@@ -17407,7 +17417,17 @@
         "num_bookmakers": 9
       }
     },
-    "actual": null,
+    "actual": {
+      "home_score": 12,
+      "away_score": 11,
+      "actual_winner": "Boston Red Sox",
+      "straight_up_correct": true,
+      "against_the_spread": {
+        "actual_ats_winner": "Chicago White Sox",
+        "correct": false
+      },
+      "graded_at": "2026-08-07T12:07:55.813740+00:00"
+    },
     "user_selected": true
   },
   "baseball_mlb_2026-08-06_miami-marlins_at_atlanta-braves": {
@@ -17509,7 +17529,7 @@
     "espn_sport": "baseball",
     "espn_league": "mlb",
     "outdoor": true,
-    "status": "predicted",
+    "status": "graded",
     "odds": {
       "moneyline": {
         "Kansas City Royals": -130,
@@ -17588,7 +17608,17 @@
         "num_bookmakers": 9
       }
     },
-    "actual": null
+    "actual": {
+      "home_score": 3,
+      "away_score": 4,
+      "actual_winner": "Minnesota Twins",
+      "straight_up_correct": false,
+      "against_the_spread": {
+        "actual_ats_winner": "Minnesota Twins",
+        "correct": false
+      },
+      "graded_at": "2026-08-07T12:07:55.813763+00:00"
+    }
   },
   "baseball_mlb_2026-08-07_san-diego-padres_at_arizona-diamondbacks": {
     "league": "MLB",
@@ -17599,7 +17629,7 @@
     "espn_sport": "baseball",
     "espn_league": "mlb",
     "outdoor": true,
-    "status": "predicted",
+    "status": "graded",
     "odds": {
       "moneyline": {
         "Arizona Diamondbacks": -109,
@@ -17665,7 +17695,17 @@
         "num_bookmakers": 9
       }
     },
-    "actual": null
+    "actual": {
+      "home_score": 1,
+      "away_score": 5,
+      "actual_winner": "San Diego Padres",
+      "straight_up_correct": false,
+      "against_the_spread": {
+        "actual_ats_winner": "San Diego Padres",
+        "correct": false
+      },
+      "graded_at": "2026-08-07T12:07:55.813774+00:00"
+    }
   },
   "baseball_mlb_2026-08-07_new-york-mets_at_pittsburgh-pirates": {
     "league": "MLB",
@@ -18521,6 +18561,430 @@
         },
         "total": 9.0,
         "num_bookmakers": 8
+      }
+    },
+    "actual": null
+  },
+  "baseball_mlb_2026-08-07_cincinnati-reds_at_washington-nationals": {
+    "league": "MLB",
+    "sport_key": "baseball_mlb",
+    "home_team": "Washington Nationals",
+    "away_team": "Cincinnati Reds",
+    "commence_time": "2026-08-07T22:46:00Z",
+    "espn_sport": "baseball",
+    "espn_league": "mlb",
+    "outdoor": true,
+    "status": "predicted",
+    "odds": {
+      "moneyline": {
+        "Cincinnati Reds": 61,
+        "Washington Nationals": -116
+      },
+      "spread": {
+        "Cincinnati Reds": -1.5,
+        "Washington Nationals": 1.5
+      },
+      "total": 9.0,
+      "num_bookmakers": 5
+    },
+    "prediction": {
+      "predicted_winner": "Cincinnati Reds",
+      "predicted_against_spread": "Cincinnati Reds",
+      "confidence": 56,
+      "key_factors": [
+        "Reds riding W4 streak, 4-1 last 5",
+        "Nationals L1 streak, 1-4 last 5",
+        "Reds crushed Nationals 15-1 in last meeting",
+        "Market favors Nationals despite worse recent form"
+      ],
+      "reasoning": "Cincinnati is hot (W4, 4-1 in last five) while Washington is cold (1-4, L1), and the two teams' last head-to-head was a 15-1 Reds blowout. The market still favors the Nationals slightly, but the recent form and head-to-head trend both lean Reds, making them value on both the moneyline and the small spread.",
+      "context_used": {
+        "away_trends": {
+          "team": "Cincinnati Reds",
+          "last5": "4-1",
+          "streak": "W4",
+          "record": "56-58",
+          "h2h_vs_opponent": {
+            "record_this_season": "1-2",
+            "last_meeting_result": "won 15-1 on 2026-05-14"
+          }
+        },
+        "home_trends": {
+          "team": "Washington Nationals",
+          "last5": "1-4",
+          "streak": "L1",
+          "record": "56-61",
+          "h2h_vs_opponent": {
+            "record_this_season": "2-1",
+            "last_meeting_result": "lost 1-15 on 2026-05-14"
+          }
+        },
+        "weather": {
+          "high_f": 93.6,
+          "low_f": 73.1,
+          "precipitation_in": 1.091,
+          "wind_mph": 11.6
+        },
+        "probable_pitchers": {
+          "home": {
+            "name": "Cade Cavalli",
+            "era": "3.52",
+            "record": "(8-5, 3.52)"
+          },
+          "away": null
+        }
+      },
+      "generated_at": "2026-08-07T12:08:26.985540+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "Cincinnati Reds": 61,
+          "Washington Nationals": -116
+        },
+        "spread": {
+          "Cincinnati Reds": -1.5,
+          "Washington Nationals": 1.5
+        },
+        "total": 9.0,
+        "num_bookmakers": 5
+      }
+    },
+    "actual": null
+  },
+  "baseball_mlb_2026-08-07_minnesota-twins_at_milwaukee-brewers": {
+    "league": "MLB",
+    "sport_key": "baseball_mlb",
+    "home_team": "Milwaukee Brewers",
+    "away_team": "Minnesota Twins",
+    "commence_time": "2026-08-07T23:41:00Z",
+    "espn_sport": "baseball",
+    "espn_league": "mlb",
+    "outdoor": true,
+    "status": "predicted",
+    "odds": {
+      "moneyline": {
+        "Milwaukee Brewers": -171,
+        "Minnesota Twins": 150
+      },
+      "spread": {
+        "Milwaukee Brewers": -1.5,
+        "Minnesota Twins": 1.5
+      },
+      "total": 8.0,
+      "num_bookmakers": 9
+    },
+    "prediction": {
+      "predicted_winner": "Milwaukee Brewers",
+      "predicted_against_spread": "Milwaukee Brewers",
+      "confidence": 72,
+      "key_factors": [
+        "Brewers elite record 72-43 with W3 streak",
+        "Twins mediocre 1-4 in last 5 despite W1",
+        "Pitching mismatch: Drohan 3.48 ERA vs Matthews 5.22 ERA",
+        "Brewers won season series 2-1"
+      ],
+      "reasoning": "Milwaukee's superior overall record, current win streak, and home-field edge combine with a clear pitching advantage (Drohan 3.48 vs Matthews 5.22) to strongly favor the Brewers. Minnesota's underlying form (1-4 in last five) doesn't match their single-game win streak, reinforcing the Brewers as the play both straight up and against the spread.",
+      "context_used": {
+        "away_trends": {
+          "team": "Minnesota Twins",
+          "last5": "1-4",
+          "streak": "W1",
+          "record": "57-59",
+          "h2h_vs_opponent": {
+            "record_this_season": "1-2",
+            "last_meeting_result": "won 5-4 on 2026-05-17"
+          }
+        },
+        "home_trends": {
+          "team": "Milwaukee Brewers",
+          "last5": "3-2",
+          "streak": "W3",
+          "record": "72-43",
+          "h2h_vs_opponent": {
+            "record_this_season": "2-1",
+            "last_meeting_result": "lost 4-5 on 2026-05-17"
+          }
+        },
+        "weather": null,
+        "probable_pitchers": {
+          "home": {
+            "name": "Shane Drohan",
+            "era": "3.48",
+            "record": "(6-4, 3.48)"
+          },
+          "away": {
+            "name": "Zebby Matthews",
+            "era": "5.22",
+            "record": "(4-8, 5.22)"
+          }
+        }
+      },
+      "generated_at": "2026-08-07T12:08:26.985540+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "Milwaukee Brewers": -171,
+          "Minnesota Twins": 150
+        },
+        "spread": {
+          "Milwaukee Brewers": -1.5,
+          "Minnesota Twins": 1.5
+        },
+        "total": 8.0,
+        "num_bookmakers": 9
+      }
+    },
+    "actual": null
+  },
+  "baseball_mlb_2026-08-08_chicago-cubs_at_kansas-city-royals": {
+    "league": "MLB",
+    "sport_key": "baseball_mlb",
+    "home_team": "Kansas City Royals",
+    "away_team": "Chicago Cubs",
+    "commence_time": "2026-08-08T00:11:00Z",
+    "espn_sport": "baseball",
+    "espn_league": "mlb",
+    "outdoor": true,
+    "status": "predicted",
+    "odds": {
+      "moneyline": {
+        "Chicago Cubs": -167,
+        "Kansas City Royals": 143
+      },
+      "spread": {
+        "Chicago Cubs": -1.5,
+        "Kansas City Royals": 1.5
+      },
+      "total": 9.5,
+      "num_bookmakers": 9
+    },
+    "prediction": {
+      "predicted_winner": "Chicago Cubs",
+      "predicted_against_spread": "Chicago Cubs",
+      "confidence": 74,
+      "key_factors": [
+        "Cubs W4 streak, 4-1 last 5, strong 67-49 record",
+        "Royals L1 streak, weak 48-68 record",
+        "Pitching mismatch: Holmes 2.39 ERA vs Lugo 4.41 ERA",
+        "Hot weather (99F) could favor better-conditioned Cubs offense"
+      ],
+      "reasoning": "Chicago is playing excellent baseball (W4, 4-1) and holds a significant record advantage over a struggling Royals team on a mini-slide. Clay Holmes' dominant 2.39 ERA versus Seth Lugo's shaky 4.41 ERA is a decisive edge that should carry over into run prevention and win probability for the Cubs.",
+      "context_used": {
+        "away_trends": {
+          "team": "Chicago Cubs",
+          "last5": "4-1",
+          "streak": "W4",
+          "record": "67-49",
+          "h2h_vs_opponent": null
+        },
+        "home_trends": {
+          "team": "Kansas City Royals",
+          "last5": "2-3",
+          "streak": "L1",
+          "record": "48-68",
+          "h2h_vs_opponent": null
+        },
+        "weather": {
+          "high_f": 99.1,
+          "low_f": 72.3,
+          "precipitation_in": 0.0,
+          "wind_mph": 11.5
+        },
+        "probable_pitchers": {
+          "home": {
+            "name": "Seth Lugo",
+            "era": "4.41",
+            "record": "(4-7, 4.41)"
+          },
+          "away": {
+            "name": "Clay Holmes",
+            "era": "2.39",
+            "record": "(4-4, 2.39)"
+          }
+        }
+      },
+      "generated_at": "2026-08-07T12:08:26.985540+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "Chicago Cubs": -167,
+          "Kansas City Royals": 143
+        },
+        "spread": {
+          "Chicago Cubs": -1.5,
+          "Kansas City Royals": 1.5
+        },
+        "total": 9.5,
+        "num_bookmakers": 9
+      }
+    },
+    "actual": null
+  },
+  "baseball_mlb_2026-08-08_los-angeles-dodgers_at_arizona-diamondbacks": {
+    "league": "MLB",
+    "sport_key": "baseball_mlb",
+    "home_team": "Arizona Diamondbacks",
+    "away_team": "Los Angeles Dodgers",
+    "commence_time": "2026-08-08T01:41:00Z",
+    "espn_sport": "baseball",
+    "espn_league": "mlb",
+    "outdoor": true,
+    "status": "predicted",
+    "odds": {
+      "moneyline": {
+        "Arizona Diamondbacks": 148,
+        "Los Angeles Dodgers": -175
+      },
+      "spread": {
+        "Arizona Diamondbacks": 1.5,
+        "Los Angeles Dodgers": -1.5
+      },
+      "total": 9.0,
+      "num_bookmakers": 9
+    },
+    "prediction": {
+      "predicted_winner": "Arizona Diamondbacks",
+      "predicted_against_spread": "Arizona Diamondbacks",
+      "confidence": 55,
+      "key_factors": [
+        "Dodgers on brutal L6 streak, 0-5 in last 5 games",
+        "Diamondbacks won last head-to-head meeting 5-3",
+        "Season series even at 5-5",
+        "Yamamoto (2.76 ERA) elite but team form is alarmingly poor"
+      ],
+      "reasoning": "Despite the Dodgers being heavily favored by the market and having the better starting pitcher in Yamamoto, their current form (0-5 last five, six-game losing streak) is a major red flag that outweighs pitching quality in a single-game sample. Arizona has split the season series evenly and beat LA in the most recent meeting, making them a live underdog value on both the moneyline and spread given the Dodgers' slump.",
+      "context_used": {
+        "away_trends": {
+          "team": "Los Angeles Dodgers",
+          "last5": "0-5",
+          "streak": "L6",
+          "record": "66-49",
+          "h2h_vs_opponent": {
+            "record_this_season": "5-5",
+            "last_meeting_result": "lost 3-5 on 2026-07-12"
+          }
+        },
+        "home_trends": {
+          "team": "Arizona Diamondbacks",
+          "last5": "2-3",
+          "streak": "L1",
+          "record": "61-55",
+          "h2h_vs_opponent": {
+            "record_this_season": "5-5",
+            "last_meeting_result": "won 5-3 on 2026-07-12"
+          }
+        },
+        "weather": null,
+        "probable_pitchers": {
+          "home": {
+            "name": "Brandon Pfaadt",
+            "era": "3.66",
+            "record": "(6-1, 3.66)"
+          },
+          "away": {
+            "name": "Yoshinobu Yamamoto",
+            "era": "2.76",
+            "record": "(11-7, 2.76)"
+          }
+        }
+      },
+      "generated_at": "2026-08-07T12:08:26.985540+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "Arizona Diamondbacks": 148,
+          "Los Angeles Dodgers": -175
+        },
+        "spread": {
+          "Arizona Diamondbacks": 1.5,
+          "Los Angeles Dodgers": -1.5
+        },
+        "total": 9.0,
+        "num_bookmakers": 9
+      }
+    },
+    "actual": null
+  },
+  "baseball_mlb_2026-08-08_detroit-tigers_at_san-francisco-giants": {
+    "league": "MLB",
+    "sport_key": "baseball_mlb",
+    "home_team": "San Francisco Giants",
+    "away_team": "Detroit Tigers",
+    "commence_time": "2026-08-08T02:16:00Z",
+    "espn_sport": "baseball",
+    "espn_league": "mlb",
+    "outdoor": true,
+    "status": "predicted",
+    "odds": {
+      "moneyline": {
+        "Detroit Tigers": -123,
+        "San Francisco Giants": 104
+      },
+      "spread": {
+        "Detroit Tigers": -1.5,
+        "San Francisco Giants": 1.5
+      },
+      "total": 8.4,
+      "num_bookmakers": 6
+    },
+    "prediction": {
+      "predicted_winner": "Detroit Tigers",
+      "predicted_against_spread": "Detroit Tigers",
+      "confidence": 57,
+      "key_factors": [
+        "Tigers 4-1 in last 5, Giants 1-4 with L2 streak",
+        "Giants starter Roupp has a mediocre 4.34 ERA",
+        "Tigers pitcher Jobe has no ERA data, adding uncertainty",
+        "Cool, windy conditions at Oracle Park could suppress scoring"
+      ],
+      "reasoning": "Detroit's recent form is markedly better than San Francisco's (4-1 vs 1-4, with the Giants on a two-game skid), and Roupp's 4.34 ERA is unimpressive for a home favorite line spot. However, the lack of any track record for Detroit's starter Jackson Jobe introduces real uncertainty, tempering confidence despite the favorable trend data for the Tigers.",
+      "context_used": {
+        "away_trends": {
+          "team": "Detroit Tigers",
+          "last5": "4-1",
+          "streak": "W1",
+          "record": "56-59",
+          "h2h_vs_opponent": null
+        },
+        "home_trends": {
+          "team": "San Francisco Giants",
+          "last5": "1-4",
+          "streak": "L2",
+          "record": "48-67",
+          "h2h_vs_opponent": null
+        },
+        "weather": {
+          "high_f": 66.3,
+          "low_f": 55.7,
+          "precipitation_in": 0.0,
+          "wind_mph": 15.3
+        },
+        "probable_pitchers": {
+          "home": {
+            "name": "Landen Roupp",
+            "era": "4.34",
+            "record": "(7-10, 4.34)"
+          },
+          "away": {
+            "name": "Jackson Jobe",
+            "era": null,
+            "record": ""
+          }
+        }
+      },
+      "generated_at": "2026-08-07T12:08:26.985540+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "Detroit Tigers": -123,
+          "San Francisco Giants": 104
+        },
+        "spread": {
+          "Detroit Tigers": -1.5,
+          "San Francisco Giants": 1.5
+        },
+        "total": 8.4,
+        "num_bookmakers": 6
       }
     },
     "actual": null

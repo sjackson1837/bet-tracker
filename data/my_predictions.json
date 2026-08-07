@@ -1,14 +1,62 @@
 {
-  "baseball_mlb_2026-08-07_athletics_at_boston-red-sox": {
-    "predicted_winner": "Boston Red Sox",
-    "predicted_against_spread": "Boston Red Sox",
-    "confidence": 78,
+  "baseball_mlb_2026-08-07_cincinnati-reds_at_washington-nationals": {
+    "predicted_winner": "Cincinnati Reds",
+    "predicted_against_spread": "Cincinnati Reds",
+    "confidence": 56,
     "key_factors": [
-      "Red Sox W7 streak vs Athletics L8 streak",
-      "Pitching mismatch: Tolle 3.30 ERA vs Perkins 6.72 ERA",
-      "Red Sox lead season series 3-1 and won last meeting",
-      "Athletics 0-5 in last five games, poor recent offense"
+      "Reds riding W4 streak, 4-1 last 5",
+      "Nationals L1 streak, 1-4 last 5",
+      "Reds crushed Nationals 15-1 in last meeting",
+      "Market favors Nationals despite worse recent form"
     ],
-    "reasoning": "Boston is red-hot (5-0 last five, W7) with a clear starting pitching edge (3.30 vs 6.72 ERA), while Oakland is mired in an 8-game losing streak and has been shut down recently. The head-to-head history this season favors Boston 3-1, including the last meeting. Given the large talent and momentum gap, Boston should cover the -1.5 spread comfortably in a game projected to go over a modest total."
+    "reasoning": "Cincinnati is hot (W4, 4-1 in last five) while Washington is cold (1-4, L1), and the two teams' last head-to-head was a 15-1 Reds blowout. The market still favors the Nationals slightly, but the recent form and head-to-head trend both lean Reds, making them value on both the moneyline and the small spread."
+  },
+  "baseball_mlb_2026-08-07_minnesota-twins_at_milwaukee-brewers": {
+    "predicted_winner": "Milwaukee Brewers",
+    "predicted_against_spread": "Milwaukee Brewers",
+    "confidence": 72,
+    "key_factors": [
+      "Brewers elite record 72-43 with W3 streak",
+      "Twins mediocre 1-4 in last 5 despite W1",
+      "Pitching mismatch: Drohan 3.48 ERA vs Matthews 5.22 ERA",
+      "Brewers won season series 2-1"
+    ],
+    "reasoning": "Milwaukee's superior overall record, current win streak, and home-field edge combine with a clear pitching advantage (Drohan 3.48 vs Matthews 5.22) to strongly favor the Brewers. Minnesota's underlying form (1-4 in last five) doesn't match their single-game win streak, reinforcing the Brewers as the play both straight up and against the spread."
+  },
+  "baseball_mlb_2026-08-08_chicago-cubs_at_kansas-city-royals": {
+    "predicted_winner": "Chicago Cubs",
+    "predicted_against_spread": "Chicago Cubs",
+    "confidence": 74,
+    "key_factors": [
+      "Cubs W4 streak, 4-1 last 5, strong 67-49 record",
+      "Royals L1 streak, weak 48-68 record",
+      "Pitching mismatch: Holmes 2.39 ERA vs Lugo 4.41 ERA",
+      "Hot weather (99F) could favor better-conditioned Cubs offense"
+    ],
+    "reasoning": "Chicago is playing excellent baseball (W4, 4-1) and holds a significant record advantage over a struggling Royals team on a mini-slide. Clay Holmes' dominant 2.39 ERA versus Seth Lugo's shaky 4.41 ERA is a decisive edge that should carry over into run prevention and win probability for the Cubs."
+  },
+  "baseball_mlb_2026-08-08_los-angeles-dodgers_at_arizona-diamondbacks": {
+    "predicted_winner": "Arizona Diamondbacks",
+    "predicted_against_spread": "Arizona Diamondbacks",
+    "confidence": 55,
+    "key_factors": [
+      "Dodgers on brutal L6 streak, 0-5 in last 5 games",
+      "Diamondbacks won last head-to-head meeting 5-3",
+      "Season series even at 5-5",
+      "Yamamoto (2.76 ERA) elite but team form is alarmingly poor"
+    ],
+    "reasoning": "Despite the Dodgers being heavily favored by the market and having the better starting pitcher in Yamamoto, their current form (0-5 last five, six-game losing streak) is a major red flag that outweighs pitching quality in a single-game sample. Arizona has split the season series evenly and beat LA in the most recent meeting, making them a live underdog value on both the moneyline and spread given the Dodgers' slump."
+  },
+  "baseball_mlb_2026-08-08_detroit-tigers_at_san-francisco-giants": {
+    "predicted_winner": "Detroit Tigers",
+    "predicted_against_spread": "Detroit Tigers",
+    "confidence": 57,
+    "key_factors": [
+      "Tigers 4-1 in last 5, Giants 1-4 with L2 streak",
+      "Giants starter Roupp has a mediocre 4.34 ERA",
+      "Tigers pitcher Jobe has no ERA data, adding uncertainty",
+      "Cool, windy conditions at Oracle Park could suppress scoring"
+    ],
+    "reasoning": "Detroit's recent form is markedly better than San Francisco's (4-1 vs 1-4, with the Giants on a two-game skid), and Roupp's 4.34 ERA is unimpressive for a home favorite line spot. However, the lack of any track record for Detroit's starter Jackson Jobe introduces real uncertainty, tempering confidence despite the favorable trend data for the Tigers."
   }
 }
