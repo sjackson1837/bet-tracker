@@ -38,7 +38,7 @@
     "odds": {
       "moneyline": {
         "Los Angeles Rams": -192,
-        "San Francisco 49ers": 160
+        "San Francisco 49ers": 159
       },
       "spread": {
         "Los Angeles Rams": -3.5,
@@ -87,7 +87,7 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Baltimore Ravens": -189,
+        "Baltimore Ravens": -188,
         "Indianapolis Colts": 157
       },
       "spread": {
@@ -112,8 +112,8 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Buffalo Bills": -113,
-        "Houston Texans": -108
+        "Buffalo Bills": -114,
+        "Houston Texans": -74
       },
       "spread": {
         "Buffalo Bills": -0.2,
@@ -187,8 +187,8 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Cleveland Browns": 299,
-        "Jacksonville Jaguars": -386
+        "Cleveland Browns": 301,
+        "Jacksonville Jaguars": -389
       },
       "spread": {
         "Cleveland Browns": 7.5,
@@ -219,7 +219,7 @@
         "Detroit Lions": -6.9,
         "New Orleans Saints": 6.9
       },
-      "total": 48.9,
+      "total": 48.8,
       "num_bookmakers": 9
     },
     "prediction": null,
@@ -287,7 +287,7 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Green Bay Packers": -76,
+        "Green Bay Packers": -77,
         "Minnesota Vikings": -111
       },
       "spread": {
@@ -337,8 +337,8 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Philadelphia Eagles": -212,
-        "Washington Commanders": 175
+        "Philadelphia Eagles": -213,
+        "Washington Commanders": 177
       },
       "spread": {
         "Philadelphia Eagles": -4.2,
@@ -412,8 +412,8 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Buffalo Bills": -160,
-        "Detroit Lions": 132
+        "Buffalo Bills": -164,
+        "Detroit Lions": 134
       },
       "spread": {
         "Buffalo Bills": -3.0,
@@ -444,7 +444,7 @@
         "Atlanta Falcons": -1.5,
         "Carolina Panthers": 1.5
       },
-      "total": 44.0,
+      "total": 43.5,
       "num_bookmakers": 2
     },
     "prediction": null,
@@ -537,8 +537,8 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Cleveland Browns": 195,
-        "Tampa Bay Buccaneers": -238
+        "Cleveland Browns": 200,
+        "Tampa Bay Buccaneers": -245
       },
       "spread": {
         "Cleveland Browns": 6.0,
@@ -562,8 +562,8 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Green Bay Packers": -250,
-        "New York Jets": 205
+        "Green Bay Packers": -245,
+        "New York Jets": 200
       },
       "spread": {
         "Green Bay Packers": -5.5,
@@ -687,8 +687,8 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Arizona Cardinals": 380,
-        "Seattle Seahawks": -500
+        "Arizona Cardinals": 370,
+        "Seattle Seahawks": -485
       },
       "spread": {
         "Arizona Cardinals": 10.0,
@@ -712,8 +712,8 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Dallas Cowboys": -192,
-        "Washington Commanders": 160
+        "Dallas Cowboys": -198,
+        "Washington Commanders": 164
       },
       "spread": {
         "Dallas Cowboys": -4.5,
@@ -762,8 +762,8 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Indianapolis Colts": 225,
-        "Kansas City Chiefs": -278
+        "Indianapolis Colts": 230,
+        "Kansas City Chiefs": -285
       },
       "spread": {
         "Indianapolis Colts": 6.0,
@@ -787,8 +787,8 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Los Angeles Rams": -380,
-        "New York Giants": 300
+        "Los Angeles Rams": -375,
+        "New York Giants": 295
       },
       "spread": {
         "Los Angeles Rams": -9.0,
@@ -812,8 +812,8 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Atlanta Falcons": 285,
-        "Green Bay Packers": -360
+        "Atlanta Falcons": 295,
+        "Green Bay Packers": -375
       },
       "spread": {
         "Atlanta Falcons": 7.5,
@@ -912,8 +912,8 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Detroit Lions": -440,
-        "New York Jets": 340
+        "Detroit Lions": -470,
+        "New York Jets": 360
       },
       "spread": {
         "Detroit Lions": -9.5,
@@ -1162,8 +1162,8 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Denver Broncos": 130,
-        "Los Angeles Rams": -155
+        "Denver Broncos": 136,
+        "Los Angeles Rams": -162
       },
       "spread": {
         "Denver Broncos": 3.0,
@@ -1262,8 +1262,8 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Arizona Cardinals": 245,
-        "New York Giants": -305
+        "Arizona Cardinals": 250,
+        "New York Giants": -310
       },
       "spread": {
         "Arizona Cardinals": 7.0,
@@ -1287,8 +1287,8 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Baltimore Ravens": -395,
-        "Tennessee Titans": 310
+        "Baltimore Ravens": -380,
+        "Tennessee Titans": 300
       },
       "spread": {
         "Baltimore Ravens": -8.5,
@@ -1337,8 +1337,8 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Chicago Bears": -410,
-        "New York Jets": 320
+        "Chicago Bears": -395,
+        "New York Jets": 310
       },
       "spread": {
         "Chicago Bears": -8.5,
@@ -1362,8 +1362,8 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Cincinnati Bengals": -142,
-        "Jacksonville Jaguars": 120
+        "Cincinnati Bengals": -135,
+        "Jacksonville Jaguars": 114
       },
       "spread": {
         "Cincinnati Bengals": -2.5,
@@ -1462,8 +1462,8 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Miami Dolphins": 295,
-        "Minnesota Vikings": -375
+        "Miami Dolphins": 285,
+        "Minnesota Vikings": -360
       },
       "spread": {
         "Miami Dolphins": 7.5,
@@ -1512,8 +1512,8 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Kansas City Chiefs": -230,
-        "Las Vegas Raiders": 190
+        "Kansas City Chiefs": -245,
+        "Las Vegas Raiders": 200
       },
       "spread": {
         "Kansas City Chiefs": -5.5,
@@ -1587,8 +1587,8 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Atlanta Falcons": 114,
-        "New Orleans Saints": -135
+        "Atlanta Falcons": 120,
+        "New Orleans Saints": -142
       },
       "spread": {
         "Atlanta Falcons": 2.5,
@@ -1662,8 +1662,8 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Cincinnati Bengals": -258,
-        "Miami Dolphins": 210
+        "Cincinnati Bengals": -250,
+        "Miami Dolphins": 205
       },
       "spread": {
         "Cincinnati Bengals": -5.8,
@@ -1737,8 +1737,8 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Indianapolis Colts": 114,
-        "Pittsburgh Steelers": -135
+        "Indianapolis Colts": 120,
+        "Pittsburgh Steelers": -142
       },
       "spread": {
         "Indianapolis Colts": 2.5,
@@ -1816,8 +1816,8 @@
         "Washington Commanders": -130
       },
       "spread": {
-        "New York Giants": 2.5,
-        "Washington Commanders": -2.5
+        "New York Giants": 2.0,
+        "Washington Commanders": -2.0
       },
       "total": 48.5,
       "num_bookmakers": 2
@@ -1991,8 +1991,8 @@
         "Seattle Seahawks": -130
       },
       "spread": {
-        "Denver Broncos": 2.0,
-        "Seattle Seahawks": -2.0
+        "Denver Broncos": 2.5,
+        "Seattle Seahawks": -2.5
       },
       "total": 43.5,
       "num_bookmakers": 2
@@ -2037,8 +2037,8 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Atlanta Falcons": 130,
-        "Chicago Bears": -155
+        "Atlanta Falcons": 136,
+        "Chicago Bears": -162
       },
       "spread": {
         "Atlanta Falcons": 3.0,
@@ -2087,8 +2087,8 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Carolina Panthers": 225,
-        "Philadelphia Eagles": -278
+        "Carolina Panthers": 220,
+        "Philadelphia Eagles": -270
       },
       "spread": {
         "Carolina Panthers": 6.5,
@@ -2112,8 +2112,8 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Indianapolis Colts": -192,
-        "Tennessee Titans": 160
+        "Indianapolis Colts": -198,
+        "Tennessee Titans": 164
       },
       "spread": {
         "Indianapolis Colts": -3.5,
@@ -2137,8 +2137,8 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "New England Patriots": -470,
-        "New York Jets": 360
+        "New England Patriots": -455,
+        "New York Jets": 350
       },
       "spread": {
         "New England Patriots": -9.5,
@@ -2312,8 +2312,8 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "San Francisco 49ers": -250,
-        "Washington Commanders": 205
+        "San Francisco 49ers": -245,
+        "Washington Commanders": 200
       },
       "spread": {
         "San Francisco 49ers": -5.5,
@@ -2487,8 +2487,8 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Houston Texans": -238,
-        "New York Giants": 195
+        "Houston Texans": -230,
+        "New York Giants": 190
       },
       "spread": {
         "Houston Texans": -5.5,
@@ -2512,8 +2512,8 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Indianapolis Colts": 114,
-        "Minnesota Vikings": -135
+        "Indianapolis Colts": 120,
+        "Minnesota Vikings": -142
       },
       "spread": {
         "Indianapolis Colts": 2.8,
@@ -2587,8 +2587,8 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Detroit Lions": -135,
-        "Green Bay Packers": 114
+        "Detroit Lions": -142,
+        "Green Bay Packers": 120
       },
       "spread": {
         "Detroit Lions": -2.5,
@@ -2612,8 +2612,8 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Las Vegas Raiders": 270,
-        "Los Angeles Rams": -340
+        "Las Vegas Raiders": 275,
+        "Los Angeles Rams": -345
       },
       "spread": {
         "Las Vegas Raiders": 7.5,
@@ -2737,8 +2737,8 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Atlanta Falcons": 180,
-        "Tampa Bay Buccaneers": -218
+        "Atlanta Falcons": 185,
+        "Tampa Bay Buccaneers": -225
       },
       "spread": {
         "Atlanta Falcons": 4.5,
@@ -2762,8 +2762,8 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Baltimore Ravens": 120,
-        "Buffalo Bills": -142
+        "Baltimore Ravens": 114,
+        "Buffalo Bills": -135
       },
       "spread": {
         "Baltimore Ravens": 2.5,
@@ -2787,8 +2787,8 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Cincinnati Bengals": -270,
-        "Tennessee Titans": 220
+        "Cincinnati Bengals": -278,
+        "Tennessee Titans": 225
       },
       "spread": {
         "Cincinnati Bengals": -6.5,
@@ -2862,8 +2862,8 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Indianapolis Colts": 170,
-        "Jacksonville Jaguars": -205
+        "Indianapolis Colts": 180,
+        "Jacksonville Jaguars": -218
       },
       "spread": {
         "Indianapolis Colts": 4.5,
@@ -2912,12 +2912,12 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Los Angeles Chargers": 170,
-        "Los Angeles Rams": -205
+        "Los Angeles Chargers": 164,
+        "Los Angeles Rams": -198
       },
       "spread": {
-        "Los Angeles Chargers": 3.5,
-        "Los Angeles Rams": -3.5
+        "Los Angeles Chargers": 4.5,
+        "Los Angeles Rams": -4.5
       },
       "total": 48.5,
       "num_bookmakers": 1
@@ -3012,8 +3012,8 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Chicago Bears": 180,
-        "Seattle Seahawks": -218
+        "Chicago Bears": 185,
+        "Seattle Seahawks": -225
       },
       "spread": {
         "Chicago Bears": 4.5,
@@ -3087,8 +3087,8 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Carolina Panthers": 136,
-        "Denver Broncos": -162
+        "Carolina Panthers": 140,
+        "Denver Broncos": -166
       },
       "spread": {
         "Carolina Panthers": 3.0,
@@ -3162,8 +3162,8 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Detroit Lions": -258,
-        "Miami Dolphins": 210
+        "Detroit Lions": -265,
+        "Miami Dolphins": 215
       },
       "spread": {
         "Detroit Lions": -6.5,
@@ -3187,8 +3187,8 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Kansas City Chiefs": -455,
-        "New York Jets": 350
+        "Kansas City Chiefs": -440,
+        "New York Jets": 340
       },
       "spread": {
         "Kansas City Chiefs": -9.5,
@@ -3212,12 +3212,12 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Los Angeles Rams": -205,
-        "Washington Commanders": 170
+        "Los Angeles Rams": -218,
+        "Washington Commanders": 180
       },
       "spread": {
-        "Los Angeles Rams": -5.5,
-        "Washington Commanders": 5.5
+        "Los Angeles Rams": -4.5,
+        "Washington Commanders": 4.5
       },
       "total": 50.5,
       "num_bookmakers": 1
@@ -3237,8 +3237,8 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "New York Giants": 190,
-        "Philadelphia Eagles": -230
+        "New York Giants": 185,
+        "Philadelphia Eagles": -225
       },
       "spread": {
         "New York Giants": 5.5,
@@ -3287,8 +3287,8 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Las Vegas Raiders": 330,
-        "San Francisco 49ers": -425
+        "Las Vegas Raiders": 310,
+        "San Francisco 49ers": -395
       },
       "spread": {
         "Las Vegas Raiders": 8.5,
@@ -3312,8 +3312,8 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Arizona Cardinals": 525,
-        "Seattle Seahawks": -750
+        "Arizona Cardinals": 550,
+        "Seattle Seahawks": -800
       },
       "spread": {
         "Arizona Cardinals": 13.5,
@@ -3362,8 +3362,8 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Chicago Bears": -192,
-        "Tampa Bay Buccaneers": 160
+        "Chicago Bears": -185,
+        "Tampa Bay Buccaneers": 154
       },
       "spread": {
         "Chicago Bears": -3.5,
@@ -3412,8 +3412,8 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "New York Giants": -122,
-        "Washington Commanders": 102
+        "New York Giants": -125,
+        "Washington Commanders": 105
       },
       "spread": {
         "New York Giants": -1.5,
@@ -3487,8 +3487,8 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Buffalo Bills": -340,
-        "New York Jets": 270
+        "Buffalo Bills": -325,
+        "New York Jets": 260
       },
       "spread": {
         "Buffalo Bills": -7.0,
@@ -3562,8 +3562,8 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Green Bay Packers": -225,
-        "Minnesota Vikings": 185
+        "Green Bay Packers": -230,
+        "Minnesota Vikings": 190
       },
       "spread": {
         "Green Bay Packers": -4.5,
@@ -3587,8 +3587,8 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Indianapolis Colts": -270,
-        "Miami Dolphins": 220
+        "Indianapolis Colts": -285,
+        "Miami Dolphins": 230
       },
       "spread": {
         "Indianapolis Colts": -6.5,
@@ -3612,8 +3612,8 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Jacksonville Jaguars": -142,
-        "Tennessee Titans": 120
+        "Jacksonville Jaguars": -135,
+        "Tennessee Titans": 114
       },
       "spread": {
         "Jacksonville Jaguars": -2.5,
@@ -3687,8 +3687,8 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Dallas Cowboys": -118,
-        "San Francisco 49ers": -102
+        "Dallas Cowboys": -120,
+        "San Francisco 49ers": 100
       },
       "spread": {
         "Dallas Cowboys": -1.5,
@@ -3712,8 +3712,8 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Cincinnati Bengals": -185,
-        "Pittsburgh Steelers": 154
+        "Cincinnati Bengals": -192,
+        "Pittsburgh Steelers": 160
       },
       "spread": {
         "Cincinnati Bengals": -3.5,
@@ -3762,8 +3762,8 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Houston Texans": -245,
-        "Indianapolis Colts": 200
+        "Houston Texans": -238,
+        "Indianapolis Colts": 195
       },
       "spread": {
         "Houston Texans": -5.5,
@@ -3887,8 +3887,8 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Dallas Cowboys": -285,
-        "Tennessee Titans": 230
+        "Dallas Cowboys": -278,
+        "Tennessee Titans": 225
       },
       "spread": {
         "Dallas Cowboys": -6.5,
@@ -3937,8 +3937,8 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Jacksonville Jaguars": -125,
-        "New York Giants": 105
+        "Jacksonville Jaguars": -122,
+        "New York Giants": 102
       },
       "spread": {
         "Jacksonville Jaguars": -1.5,
@@ -4012,8 +4012,8 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Philadelphia Eagles": -250,
-        "Pittsburgh Steelers": 205
+        "Philadelphia Eagles": -245,
+        "Pittsburgh Steelers": 200
       },
       "spread": {
         "Philadelphia Eagles": -5.5,
@@ -4262,8 +4262,8 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Cincinnati Bengals": -270,
-        "New Orleans Saints": 220
+        "Cincinnati Bengals": -278,
+        "New Orleans Saints": 225
       },
       "spread": {
         "Cincinnati Bengals": -6.5,
@@ -4491,8 +4491,8 @@
         "Los Angeles Rams": -205
       },
       "spread": {
-        "Kansas City Chiefs": 3.5,
-        "Los Angeles Rams": -3.5
+        "Kansas City Chiefs": 4.5,
+        "Los Angeles Rams": -4.5
       },
       "total": 47.5,
       "num_bookmakers": 1
@@ -4587,8 +4587,8 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Denver Broncos": -455,
-        "Miami Dolphins": 350
+        "Denver Broncos": -440,
+        "Miami Dolphins": 340
       },
       "spread": {
         "Denver Broncos": -9.5,
@@ -4637,8 +4637,8 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Los Angeles Chargers": -142,
-        "Tampa Bay Buccaneers": 120
+        "Los Angeles Chargers": -135,
+        "Tampa Bay Buccaneers": 114
       },
       "spread": {
         "Los Angeles Chargers": -2.0,
@@ -4837,8 +4837,8 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Minnesota Vikings": 185,
-        "New England Patriots": -225
+        "Minnesota Vikings": 180,
+        "New England Patriots": -218
       },
       "spread": {
         "Minnesota Vikings": 4.5,
@@ -4862,8 +4862,8 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Atlanta Falcons": 102,
-        "Cleveland Browns": -122
+        "Atlanta Falcons": 105,
+        "Cleveland Browns": -125
       },
       "spread": {
         "Atlanta Falcons": 1.5,
@@ -4937,8 +4937,8 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Chicago Bears": -238,
-        "Miami Dolphins": 195
+        "Chicago Bears": -245,
+        "Miami Dolphins": 200
       },
       "spread": {
         "Chicago Bears": -5.5,
@@ -4962,8 +4962,8 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Denver Broncos": -245,
-        "New York Jets": 200
+        "Denver Broncos": -238,
+        "New York Jets": 195
       },
       "spread": {
         "Denver Broncos": -5.5,
@@ -5137,8 +5137,8 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "New York Giants": 275,
-        "Seattle Seahawks": -345
+        "New York Giants": 280,
+        "Seattle Seahawks": -355
       },
       "spread": {
         "New York Giants": 7.5,
@@ -5187,8 +5187,8 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Jacksonville Jaguars": -166,
-        "Pittsburgh Steelers": 140
+        "Jacksonville Jaguars": -162,
+        "Pittsburgh Steelers": 136
       },
       "spread": {
         "Jacksonville Jaguars": -3.0,
@@ -5212,8 +5212,8 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Los Angeles Chargers": -142,
-        "San Francisco 49ers": 120
+        "Los Angeles Chargers": -135,
+        "San Francisco 49ers": 114
       },
       "spread": {
         "Los Angeles Chargers": -2.5,
@@ -5287,8 +5287,8 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Atlanta Falcons": 160,
-        "Washington Commanders": -192
+        "Atlanta Falcons": 154,
+        "Washington Commanders": -185
       },
       "spread": {
         "Atlanta Falcons": 3.5,
@@ -5362,8 +5362,8 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Cleveland Browns": 180,
-        "New York Giants": -218
+        "Cleveland Browns": 185,
+        "New York Giants": -225
       },
       "spread": {
         "Cleveland Browns": 4.5,
@@ -5512,8 +5512,8 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Dallas Cowboys": 210,
-        "Los Angeles Rams": -258
+        "Dallas Cowboys": 205,
+        "Los Angeles Rams": -250
       },
       "spread": {
         "Dallas Cowboys": 6.0,
@@ -5562,8 +5562,8 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Detroit Lions": -125,
-        "Minnesota Vikings": 105
+        "Detroit Lions": -122,
+        "Minnesota Vikings": 102
       },
       "spread": {
         "Detroit Lions": -1.5,
@@ -5787,8 +5787,8 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Carolina Panthers": 160,
-        "Pittsburgh Steelers": -192
+        "Carolina Panthers": 154,
+        "Pittsburgh Steelers": -185
       },
       "spread": {
         "Carolina Panthers": 3.5,
@@ -5912,8 +5912,8 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "New England Patriots": -278,
-        "New York Jets": 225
+        "New England Patriots": -285,
+        "New York Jets": 230
       },
       "spread": {
         "New England Patriots": -6.5,
@@ -5987,8 +5987,8 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Detroit Lions": -205,
-        "New York Giants": 170
+        "Detroit Lions": -218,
+        "New York Giants": 180
       },
       "spread": {
         "Detroit Lions": -4.5,
@@ -6037,8 +6037,8 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Atlanta Falcons": -122,
-        "New Orleans Saints": 102
+        "Atlanta Falcons": -125,
+        "New Orleans Saints": 105
       },
       "spread": {
         "Atlanta Falcons": -1.5,
@@ -6062,8 +6062,8 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Buffalo Bills": -340,
-        "Miami Dolphins": 270
+        "Buffalo Bills": -355,
+        "Miami Dolphins": 280
       },
       "spread": {
         "Buffalo Bills": -7.5,
@@ -6087,8 +6087,8 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Carolina Panthers": 190,
-        "Seattle Seahawks": -230
+        "Carolina Panthers": 195,
+        "Seattle Seahawks": -238
       },
       "spread": {
         "Carolina Panthers": 5.5,
@@ -6237,8 +6237,8 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Minnesota Vikings": -192,
-        "New York Jets": 160
+        "Minnesota Vikings": -185,
+        "New York Jets": 154
       },
       "spread": {
         "Minnesota Vikings": -3.5,
@@ -6262,8 +6262,8 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Pittsburgh Steelers": -125,
-        "Tennessee Titans": 105
+        "Pittsburgh Steelers": -122,
+        "Tennessee Titans": 102
       },
       "spread": {
         "Pittsburgh Steelers": -1.5,
@@ -6387,8 +6387,8 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Green Bay Packers": -142,
-        "Houston Texans": 120
+        "Green Bay Packers": -135,
+        "Houston Texans": 114
       },
       "spread": {
         "Green Bay Packers": -2.5,
@@ -6512,8 +6512,8 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Cincinnati Bengals": -345,
-        "Cleveland Browns": 275
+        "Cincinnati Bengals": -355,
+        "Cleveland Browns": 280
       },
       "spread": {
         "Cincinnati Bengals": -7.5,
@@ -6537,8 +6537,8 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Dallas Cowboys": -125,
-        "Washington Commanders": 105
+        "Dallas Cowboys": -122,
+        "Washington Commanders": 102
       },
       "spread": {
         "Dallas Cowboys": -1.5,
@@ -6562,8 +6562,8 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Denver Broncos": -122,
-        "Los Angeles Chargers": 102
+        "Denver Broncos": -125,
+        "Los Angeles Chargers": 105
       },
       "spread": {
         "Denver Broncos": -1.5,
@@ -6637,8 +6637,8 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Indianapolis Colts": -125,
-        "Jacksonville Jaguars": 105
+        "Indianapolis Colts": -122,
+        "Jacksonville Jaguars": 102
       },
       "spread": {
         "Indianapolis Colts": -1.5,
@@ -6662,8 +6662,8 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Kansas City Chiefs": -395,
-        "Las Vegas Raiders": 310
+        "Kansas City Chiefs": -410,
+        "Las Vegas Raiders": 320
       },
       "spread": {
         "Kansas City Chiefs": -8.5,
@@ -6687,8 +6687,8 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Miami Dolphins": 425,
-        "New England Patriots": -575
+        "Miami Dolphins": 410,
+        "New England Patriots": -550
       },
       "spread": {
         "Miami Dolphins": 10.5,
@@ -6812,14 +6812,14 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "North Carolina Tar Heels": 240,
-        "TCU Horned Frogs": -304
+        "North Carolina Tar Heels": 241,
+        "TCU Horned Frogs": -306
       },
       "spread": {
         "North Carolina Tar Heels": 7.4,
         "TCU Horned Frogs": -7.4
       },
-      "total": 48.7,
+      "total": 48.6,
       "num_bookmakers": 9
     },
     "prediction": null,
@@ -7432,8 +7432,8 @@
         "USC Trojans": -3407
       },
       "spread": {
-        "Fresno State Bulldogs": 23.3,
-        "USC Trojans": -23.3
+        "Fresno State Bulldogs": 23.1,
+        "USC Trojans": -23.1
       },
       "total": 51.5,
       "num_bookmakers": 9
@@ -10916,9 +10916,9 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Brentford": 137,
-        "Tottenham Hotspur": 178,
-        "Draw": 257
+        "Brentford": 139,
+        "Tottenham Hotspur": 177,
+        "Draw": 256
       },
       "spread": {
         "Brentford": -0.1,
@@ -11099,7 +11099,7 @@
     "odds": {
       "moneyline": {
         "Real Racing Club de Santander": 212,
-        "Villarreal": 123,
+        "Villarreal": 124,
         "Draw": 249
       },
       "spread": {
@@ -11176,8 +11176,8 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Deportivo La Coru\u00f1a": 135,
-        "Elche CF": 220,
+        "Deportivo La Coru\u00f1a": 136,
+        "Elche CF": 216,
         "Draw": 218
       },
       "spread": {
@@ -12054,8 +12054,8 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Paris Saint Germain": -267,
-        "Rennes": 578,
+        "Paris Saint Germain": -266,
+        "Rennes": 575,
         "Draw": 436
       },
       "spread": {
@@ -15647,9 +15647,9 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Alav\u00e9s": 310,
+        "Alav\u00e9s": 320,
         "Rayo Vallecano": 100,
-        "Draw": 220
+        "Draw": 210
       },
       "spread": {},
       "total": null,
@@ -15877,13 +15877,13 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "CF Montreal": 425,
-        "Columbus Crew SC": -192,
-        "Draw": 330
+        "CF Montreal": 415,
+        "Columbus Crew SC": -191,
+        "Draw": 335
       },
       "spread": {
-        "CF Montreal": 1.5,
-        "Columbus Crew SC": -1.5
+        "CF Montreal": 0.5,
+        "Columbus Crew SC": -0.5
       },
       "total": 3.5,
       "num_bookmakers": 2
@@ -15929,9 +15929,9 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Chicago Fire": 114,
-        "Orlando City SC": 183,
-        "Draw": 305
+        "Chicago Fire": 116,
+        "Orlando City SC": 178,
+        "Draw": 300
       },
       "spread": {
         "Chicago Fire": -0.5,
@@ -18431,6 +18431,96 @@
         },
         "total": 7.0,
         "num_bookmakers": 2
+      }
+    },
+    "actual": null
+  },
+  "baseball_mlb_2026-08-07_athletics_at_boston-red-sox": {
+    "league": "MLB",
+    "sport_key": "baseball_mlb",
+    "home_team": "Boston Red Sox",
+    "away_team": "Athletics",
+    "commence_time": "2026-08-07T23:11:00Z",
+    "espn_sport": "baseball",
+    "espn_league": "mlb",
+    "outdoor": true,
+    "status": "predicted",
+    "odds": {
+      "moneyline": {
+        "Athletics": 211,
+        "Boston Red Sox": -252
+      },
+      "spread": {
+        "Athletics": 1.5,
+        "Boston Red Sox": -1.5
+      },
+      "total": 9.0,
+      "num_bookmakers": 8
+    },
+    "prediction": {
+      "predicted_winner": "Boston Red Sox",
+      "predicted_against_spread": "Boston Red Sox",
+      "confidence": 78,
+      "key_factors": [
+        "Red Sox W7 streak vs Athletics L8 streak",
+        "Pitching mismatch: Tolle 3.30 ERA vs Perkins 6.72 ERA",
+        "Red Sox lead season series 3-1 and won last meeting",
+        "Athletics 0-5 in last five games, poor recent offense"
+      ],
+      "reasoning": "Boston is red-hot (5-0 last five, W7) with a clear starting pitching edge (3.30 vs 6.72 ERA), while Oakland is mired in an 8-game losing streak and has been shut down recently. The head-to-head history this season favors Boston 3-1, including the last meeting. Given the large talent and momentum gap, Boston should cover the -1.5 spread comfortably in a game projected to go over a modest total.",
+      "context_used": {
+        "away_trends": {
+          "team": "Athletics",
+          "last5": "0-5",
+          "streak": "L8",
+          "record": "45-70",
+          "h2h_vs_opponent": {
+            "record_this_season": "1-3",
+            "last_meeting_result": "lost 4-5 on 2026-07-31"
+          }
+        },
+        "home_trends": {
+          "team": "Boston Red Sox",
+          "last5": "5-0",
+          "streak": "W7",
+          "record": "62-51",
+          "h2h_vs_opponent": {
+            "record_this_season": "3-1",
+            "last_meeting_result": "won 5-4 on 2026-07-31"
+          }
+        },
+        "weather": {
+          "high_f": 94.8,
+          "low_f": 76.0,
+          "precipitation_in": 0.0,
+          "wind_mph": 8.4
+        },
+        "probable_pitchers": {
+          "home": {
+            "name": "Payton Tolle",
+            "era": "3.30",
+            "record": "(6-6, 3.30)"
+          },
+          "away": {
+            "name": "Jack Perkins",
+            "era": "6.72",
+            "record": "(2-7, 6.72)"
+          }
+        }
+      },
+      "generated_at": "2026-08-07T00:41:49.951711+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "Athletics": 211,
+          "Boston Red Sox": -252
+        },
+        "spread": {
+          "Athletics": 1.5,
+          "Boston Red Sox": -1.5
+        },
+        "total": 9.0,
+        "num_bookmakers": 8
       }
     },
     "actual": null

@@ -2,8 +2,16 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 <title>Steven's Bet Tracker</title>
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#0f1115">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Steven's Bet Tracker">
+<link rel="apple-touch-icon" href="icon-192.png">
+<link rel="icon" type="image/png" href="icon-192.png">
 <style>
 :root {
   --bg: #0f1115; --card: #171a21; --border: #262b36; --text: #e8eaed;
@@ -48,9 +56,32 @@ th { color: var(--muted); font-weight: 500; font-size: 0.78rem; text-transform: 
 .result-good { color: var(--good); font-weight: 600; }
 .result-bad { color: var(--bad); font-weight: 600; }
 .result-push { color: var(--push); font-weight: 600; }
-.pick-toggle { display: inline-flex; align-items: center; gap: 6px; margin-top: 10px; font-size: 0.85rem; color: var(--muted); cursor: pointer; user-select: none; }
-.pick-toggle input { cursor: pointer; }
+.pick-toggle { display: inline-flex; align-items: center; gap: 8px; margin-top: 10px; font-size: 0.9rem; color: var(--muted); cursor: pointer; user-select: none; -webkit-tap-highlight-color: transparent; }
+.pick-toggle input { cursor: pointer; width: 20px; height: 20px; accent-color: var(--good); }
 .pick-status { margin-top: 6px; font-size: 0.78rem; color: var(--bad); display: none; }
+
+/* Phone layout: stack the sidebar into a horizontal scroller and give the
+   cards the full width. Also respects the iPhone home indicator inset. */
+@media (max-width: 720px) {
+  body { padding-bottom: env(safe-area-inset-bottom); }
+  header { padding: 16px 16px; }
+  header h1 { font-size: 1.15rem; }
+  nav a { margin-left: 0; margin-right: 16px; }
+  .layout { display: block; }
+  .sidebar {
+    width: auto; position: static; padding: 12px 12px 4px;
+    display: flex; gap: 8px; overflow-x: auto; -webkit-overflow-scrolling: touch;
+    border-bottom: 1px solid var(--border);
+  }
+  .sidebar h3 { display: none; }
+  .sidebar button { width: auto; white-space: nowrap; flex: 0 0 auto; margin-bottom: 0; }
+  main { padding: 16px 14px 48px; }
+  .card { padding: 14px; }
+  .odds-row { gap: 14px; }
+  .stat-box { flex: 1 1 40%; min-width: 0; padding: 14px; }
+  table { font-size: 0.8rem; }
+  th, td { padding: 7px 6px; }
+}
 </style>
 </head>
 <body>
@@ -64,7 +95,7 @@ th { color: var(--muted); font-weight: 500; font-size: 0.78rem; text-transform: 
 <div class="layout">
 <div class="sidebar"><h3>Sports</h3><button class="league-btn active" data-league="all" onclick="filterLeague('all', this)">All Sports</button><button class="league-btn" data-league="MLB" onclick="filterLeague('MLB', this)">MLB</button><button class="league-btn" data-league="MLS" onclick="filterLeague('MLS', this)">MLS</button></div>
 <main>
-<p class="updated">Last updated 2026-08-06 UTC</p><div class="league-group filterable-item" data-league="MLS"><h2>MLS</h2>
+<p class="updated">Last updated Aug 06, 2026 at 08:41 PM EDT</p><div class="league-group filterable-item" data-league="MLS"><h2>MLS</h2>
 <div class="card">
   <div class="matchup">Houston Dynamo @ New England Revolution <span class="your-pick-badge" id="badge-soccer_usa_mls_2026-08-08_houston-dynamo_at_new-england-revolution" style="display:none;">&#10003; Your pick</span></div>
   <div class="meta">Sat Aug 08, 04:30 PM EDT</div>
@@ -77,43 +108,27 @@ th { color: var(--muted); font-weight: 500; font-size: 0.78rem; text-transform: 
   <ul class="factors"><li>Houston 3-2 last 5 vs NE 2-3</li><li>Houston W2 streak vs NE L1</li><li>Form advantage Houston</li></ul>
   <div class="reasoning">Houston shows better recent form (3-2 L5, W2 streak) compared to New England's 2-3 record with a loss streak. While the matchup is fairly even by the odds, Houston's momentum gives them a slight edge in this road game.</div>
   <label class="pick-toggle">
-    <input type="checkbox" id="chk-soccer_usa_mls_2026-08-08_houston-dynamo_at_new-england-revolution"  onchange="togglePick('soccer_usa_mls_2026-08-08_houston-dynamo_at_new-england-revolution', this)"> I bet on this
+    <input type="checkbox" id="chk-soccer_usa_mls_2026-08-08_houston-dynamo_at_new-england-revolution" data-game-id="soccer_usa_mls_2026-08-08_houston-dynamo_at_new-england-revolution"  onchange="togglePick('soccer_usa_mls_2026-08-08_houston-dynamo_at_new-england-revolution', this)"> I bet on this
   </label>
-  <div class="pick-status" id="status-soccer_usa_mls_2026-08-08_houston-dynamo_at_new-england-revolution">Couldn't reach the local pick server &mdash; run <code>python3 scripts/pick_server.py</code> on your machine, then try again.</div>
+  <div class="pick-status" id="status-soccer_usa_mls_2026-08-08_houston-dynamo_at_new-england-revolution">Couldn't save that pick &mdash; check your connection and try again.</div>
 </div>
 </div>
 <div class="league-group filterable-item" data-league="MLB"><h2>MLB</h2>
 <div class="card">
-  <div class="matchup">Chicago White Sox @ Boston Red Sox <span class="your-pick-badge" id="badge-baseball_mlb_2026-08-06_chicago-white-sox_at_boston-red-sox" style="display:inline-flex;">&#10003; Your pick</span></div>
-  <div class="meta">Thu Aug 06, 07:11 PM EDT</div>
-  <div class="odds-row"><div class="odds-item"><div class="odds-label">Moneyline</div><div class="odds-value">Boston Red Sox -191 &middot; Chicago White Sox +167</div></div><div class="odds-item"><div class="odds-label">Spread</div><div class="odds-value">Boston Red Sox -1.5 &middot; Chicago White Sox +1.5</div></div><div class="odds-item"><div class="odds-label">Total (O/U)</div><div class="odds-value">8.5</div></div><div class="odds-item"><div class="odds-label">Books</div><div class="odds-value">9</div></div></div>
+  <div class="matchup">Athletics @ Boston Red Sox <span class="your-pick-badge" id="badge-baseball_mlb_2026-08-07_athletics_at_boston-red-sox" style="display:none;">&#10003; Your pick</span></div>
+  <div class="meta">Fri Aug 07, 07:11 PM EDT</div>
+  <div class="odds-row"><div class="odds-item"><div class="odds-label">Moneyline</div><div class="odds-value">Athletics +211 &middot; Boston Red Sox -252</div></div><div class="odds-item"><div class="odds-label">Spread</div><div class="odds-value">Athletics +1.5 &middot; Boston Red Sox -1.5</div></div><div class="odds-item"><div class="odds-label">Total (O/U)</div><div class="odds-value">9.0</div></div><div class="odds-item"><div class="odds-label">Books</div><div class="odds-value">8</div></div></div>
   <div class="pick-row">
     <span>Pick:</span> <span class="pick">Boston Red Sox</span>
-    <span class="confidence">85% confidence</span>
-  </div>
-  <div class="pick-row"><span>Against the spread:</span> <span class="pick">Boston Red Sox [-1.5]</span></div>
-  <ul class="factors"><li>Red Sox 5-0 L5, W7 streak</li><li>5-0 h2h vs White Sox</li><li>White Sox L2 with 0-5 h2h</li><li>Suarez (3.15) >> Castillo (5.06)</li></ul>
-  <div class="reasoning">Boston is rolling—perfect 5-0 in last five games with a seven-game winning streak, and they've dominated Chicago 5-0 this season. The White Sox are 0-5 against Boston and on a two-game slide. Pitcher matchup heavily favors Boston (Suarez's 3.15 ERA vs Castillo's 5.06). This is a high-confidence Red Sox win.</div>
-  <label class="pick-toggle">
-    <input type="checkbox" id="chk-baseball_mlb_2026-08-06_chicago-white-sox_at_boston-red-sox" checked onchange="togglePick('baseball_mlb_2026-08-06_chicago-white-sox_at_boston-red-sox', this)"> I bet on this
-  </label>
-  <div class="pick-status" id="status-baseball_mlb_2026-08-06_chicago-white-sox_at_boston-red-sox">Couldn't reach the local pick server &mdash; run <code>python3 scripts/pick_server.py</code> on your machine, then try again.</div>
-</div>
-<div class="card">
-  <div class="matchup">Miami Marlins @ Atlanta Braves <span class="your-pick-badge" id="badge-baseball_mlb_2026-08-06_miami-marlins_at_atlanta-braves" style="display:none;">&#10003; Your pick</span></div>
-  <div class="meta">Thu Aug 06, 07:16 PM EDT</div>
-  <div class="odds-row"><div class="odds-item"><div class="odds-label">Moneyline</div><div class="odds-value">Atlanta Braves -161 &middot; Miami Marlins +142</div></div><div class="odds-item"><div class="odds-label">Spread</div><div class="odds-value">Atlanta Braves -1.5 &middot; Miami Marlins +1.5</div></div><div class="odds-item"><div class="odds-label">Total (O/U)</div><div class="odds-value">9.0</div></div><div class="odds-item"><div class="odds-label">Books</div><div class="odds-value">9</div></div></div>
-  <div class="pick-row">
-    <span>Pick:</span> <span class="pick">Atlanta Braves</span>
     <span class="confidence">78% confidence</span>
   </div>
-  <div class="pick-row"><span>Against the spread:</span> <span class="pick">Atlanta Braves [-1.5]</span></div>
-  <ul class="factors"><li>Braves 5-0 L5, W7 streak</li><li>Braves 7-2 h2h dominance</li><li>Marlins L2 with 2-7 h2h</li><li>Record gap 69-45 vs 58-57</li></ul>
-  <div class="reasoning">Atlanta is one of the hottest teams in baseball (5-0 L5, W7 streak) with a dominant 7-2 series record over Miami. The Marlins are in a two-game skid and have consistently lost to Atlanta. Home advantage + Perez's solid ERA (3.24) vs Junk's weaker 4.58 ERA solidifies this pick.</div>
+  <div class="pick-row"><span>Against the spread:</span> <span class="pick">Boston Red Sox</span></div>
+  <ul class="factors"><li>Red Sox W7 streak vs Athletics L8 streak</li><li>Pitching mismatch: Tolle 3.30 ERA vs Perkins 6.72 ERA</li><li>Red Sox lead season series 3-1 and won last meeting</li><li>Athletics 0-5 in last five games, poor recent offense</li></ul>
+  <div class="reasoning">Boston is red-hot (5-0 last five, W7) with a clear starting pitching edge (3.30 vs 6.72 ERA), while Oakland is mired in an 8-game losing streak and has been shut down recently. The head-to-head history this season favors Boston 3-1, including the last meeting. Given the large talent and momentum gap, Boston should cover the -1.5 spread comfortably in a game projected to go over a modest total.</div>
   <label class="pick-toggle">
-    <input type="checkbox" id="chk-baseball_mlb_2026-08-06_miami-marlins_at_atlanta-braves"  onchange="togglePick('baseball_mlb_2026-08-06_miami-marlins_at_atlanta-braves', this)"> I bet on this
+    <input type="checkbox" id="chk-baseball_mlb_2026-08-07_athletics_at_boston-red-sox" data-game-id="baseball_mlb_2026-08-07_athletics_at_boston-red-sox"  onchange="togglePick('baseball_mlb_2026-08-07_athletics_at_boston-red-sox', this)"> I bet on this
   </label>
-  <div class="pick-status" id="status-baseball_mlb_2026-08-06_miami-marlins_at_atlanta-braves">Couldn't reach the local pick server &mdash; run <code>python3 scripts/pick_server.py</code> on your machine, then try again.</div>
+  <div class="pick-status" id="status-baseball_mlb_2026-08-07_athletics_at_boston-red-sox">Couldn't save that pick &mdash; check your connection and try again.</div>
 </div>
 <div class="card">
   <div class="matchup">Toronto Blue Jays @ Philadelphia Phillies <span class="your-pick-badge" id="badge-baseball_mlb_2026-08-07_toronto-blue-jays_at_philadelphia-phillies" style="display:none;">&#10003; Your pick</span></div>
@@ -127,9 +142,9 @@ th { color: var(--muted); font-weight: 500; font-size: 0.78rem; text-transform: 
   <ul class="factors"><li>Phillies 4-1 L5 vs Jays 2-3</li><li>Wheeler elite (2.49 ERA, 10-2) vs Soriano (3.29)</li><li>Phillies 2-1 h2h</li><li>Phillies 61-54 vs Jays 54-62</li></ul>
   <div class="reasoning">Philadelphia is on strong form (4-1 L5) with only one loss, and the pitcher matchup is decisively in their favor—Wheeler is having an elite season (10-2) with a sub-2.50 ERA. The Phillies' 2-1 series edge and superior record (61-54) reinforce this pick. Toronto is L1 and outmatched.</div>
   <label class="pick-toggle">
-    <input type="checkbox" id="chk-baseball_mlb_2026-08-07_toronto-blue-jays_at_philadelphia-phillies"  onchange="togglePick('baseball_mlb_2026-08-07_toronto-blue-jays_at_philadelphia-phillies', this)"> I bet on this
+    <input type="checkbox" id="chk-baseball_mlb_2026-08-07_toronto-blue-jays_at_philadelphia-phillies" data-game-id="baseball_mlb_2026-08-07_toronto-blue-jays_at_philadelphia-phillies"  onchange="togglePick('baseball_mlb_2026-08-07_toronto-blue-jays_at_philadelphia-phillies', this)"> I bet on this
   </label>
-  <div class="pick-status" id="status-baseball_mlb_2026-08-07_toronto-blue-jays_at_philadelphia-phillies">Couldn't reach the local pick server &mdash; run <code>python3 scripts/pick_server.py</code> on your machine, then try again.</div>
+  <div class="pick-status" id="status-baseball_mlb_2026-08-07_toronto-blue-jays_at_philadelphia-phillies">Couldn't save that pick &mdash; check your connection and try again.</div>
 </div>
 <div class="card">
   <div class="matchup">Colorado Rockies @ St. Louis Cardinals <span class="your-pick-badge" id="badge-baseball_mlb_2026-08-08_colorado-rockies_at_st.-louis-cardinals" style="display:none;">&#10003; Your pick</span></div>
@@ -143,25 +158,9 @@ th { color: var(--muted); font-weight: 500; font-size: 0.78rem; text-transform: 
   <ul class="factors"><li>Cardinals W1, 3-2 L5 vs Rockies L3</li><li>Record gap 57-58 vs 45-70</li><li>Liberatore (4.97) > Freeland (6.81) ERA</li><li>Rockies in free fall</li></ul>
   <div class="reasoning">St. Louis has clear advantages: home field, a one-game winning streak vs Colorado's three-game slide, and a significant record gap (57-58 vs 45-70). The pitcher matchup also favors the Cardinals—Liberatore's 4.97 ERA beats Freeland's poor 6.81 ERA. This is a comfortable home win.</div>
   <label class="pick-toggle">
-    <input type="checkbox" id="chk-baseball_mlb_2026-08-08_colorado-rockies_at_st.-louis-cardinals"  onchange="togglePick('baseball_mlb_2026-08-08_colorado-rockies_at_st.-louis-cardinals', this)"> I bet on this
+    <input type="checkbox" id="chk-baseball_mlb_2026-08-08_colorado-rockies_at_st.-louis-cardinals" data-game-id="baseball_mlb_2026-08-08_colorado-rockies_at_st.-louis-cardinals"  onchange="togglePick('baseball_mlb_2026-08-08_colorado-rockies_at_st.-louis-cardinals', this)"> I bet on this
   </label>
-  <div class="pick-status" id="status-baseball_mlb_2026-08-08_colorado-rockies_at_st.-louis-cardinals">Couldn't reach the local pick server &mdash; run <code>python3 scripts/pick_server.py</code> on your machine, then try again.</div>
-</div>
-<div class="card">
-  <div class="matchup">Minnesota Twins @ Kansas City Royals <span class="your-pick-badge" id="badge-baseball_mlb_2026-08-06_minnesota-twins_at_kansas-city-royals" style="display:none;">&#10003; Your pick</span></div>
-  <div class="meta">Thu Aug 06, 07:41 PM EDT</div>
-  <div class="odds-row"><div class="odds-item"><div class="odds-label">Moneyline</div><div class="odds-value">Kansas City Royals -130 &middot; Minnesota Twins +115</div></div><div class="odds-item"><div class="odds-label">Spread</div><div class="odds-value">Kansas City Royals -1.5 &middot; Minnesota Twins +1.5</div></div><div class="odds-item"><div class="odds-label">Total (O/U)</div><div class="odds-value">8.7</div></div><div class="odds-item"><div class="odds-label">Books</div><div class="odds-value">9</div></div></div>
-  <div class="pick-row">
-    <span>Pick:</span> <span class="pick">Kansas City Royals</span>
-    <span class="confidence">68% confidence</span>
-  </div>
-  <div class="pick-row"><span>Against the spread:</span> <span class="pick">Kansas City Royals [-1.5]</span></div>
-  <ul class="factors"><li>Twins L4 streak, 1-4 L5</li><li>Royals W2 streak, 8-4 h2h dominance</li><li>Royals up 4-8 h2h despite worse record</li><li>Wacha (3.51) > Ober (4.45)</li></ul>
-  <div class="reasoning">The Royals' surprising dominance over Minnesota (8-4 h2h despite inferior overall record) is the key data point. Minnesota is spiraling (L4 streak) while Kansas City has won two straight. Home field matters here, and the pitcher matchup favors Kansas City slightly. The head-to-head pattern is too strong to ignore.</div>
-  <label class="pick-toggle">
-    <input type="checkbox" id="chk-baseball_mlb_2026-08-06_minnesota-twins_at_kansas-city-royals"  onchange="togglePick('baseball_mlb_2026-08-06_minnesota-twins_at_kansas-city-royals', this)"> I bet on this
-  </label>
-  <div class="pick-status" id="status-baseball_mlb_2026-08-06_minnesota-twins_at_kansas-city-royals">Couldn't reach the local pick server &mdash; run <code>python3 scripts/pick_server.py</code> on your machine, then try again.</div>
+  <div class="pick-status" id="status-baseball_mlb_2026-08-08_colorado-rockies_at_st.-louis-cardinals">Couldn't save that pick &mdash; check your connection and try again.</div>
 </div>
 <div class="card">
   <div class="matchup">Tampa Bay Rays @ Seattle Mariners <span class="your-pick-badge" id="badge-baseball_mlb_2026-08-08_tampa-bay-rays_at_seattle-mariners" style="display:none;">&#10003; Your pick</span></div>
@@ -175,9 +174,9 @@ th { color: var(--muted); font-weight: 500; font-size: 0.78rem; text-transform: 
   <ul class="factors"><li>Rays 4-1 L5, W3 streak, elite 68-46 record</li><li>Rays 2-1 h2h</li><li>Mariners 3-2 L5 at 56-59</li><li>Kirby (3.76) vs Jax (3.63) even</li></ul>
   <div class="reasoning">Tampa Bay is a far superior team—68-46 elite record, W3 streak, and 4-1 last five. They also have a 2-1 head-to-head edge over Seattle. Though the Mariners have home field and the pitcher matchup is essentially even, Tampa's talent gap and momentum make them the pick despite being slight underdogs on the moneyline.</div>
   <label class="pick-toggle">
-    <input type="checkbox" id="chk-baseball_mlb_2026-08-08_tampa-bay-rays_at_seattle-mariners"  onchange="togglePick('baseball_mlb_2026-08-08_tampa-bay-rays_at_seattle-mariners', this)"> I bet on this
+    <input type="checkbox" id="chk-baseball_mlb_2026-08-08_tampa-bay-rays_at_seattle-mariners" data-game-id="baseball_mlb_2026-08-08_tampa-bay-rays_at_seattle-mariners"  onchange="togglePick('baseball_mlb_2026-08-08_tampa-bay-rays_at_seattle-mariners', this)"> I bet on this
   </label>
-  <div class="pick-status" id="status-baseball_mlb_2026-08-08_tampa-bay-rays_at_seattle-mariners">Couldn't reach the local pick server &mdash; run <code>python3 scripts/pick_server.py</code> on your machine, then try again.</div>
+  <div class="pick-status" id="status-baseball_mlb_2026-08-08_tampa-bay-rays_at_seattle-mariners">Couldn't save that pick &mdash; check your connection and try again.</div>
 </div>
 <div class="card">
   <div class="matchup">Los Angeles Angels @ Miami Marlins <span class="your-pick-badge" id="badge-baseball_mlb_2026-08-07_los-angeles-angels_at_miami-marlins" style="display:none;">&#10003; Your pick</span></div>
@@ -191,9 +190,9 @@ th { color: var(--muted); font-weight: 500; font-size: 0.78rem; text-transform: 
   <ul class="factors"><li>Angels 45-70 record (worst matchup)</li><li>George Klassen 11.57 ERA disaster</li><li>Marlins 3-2 L5 despite L2 streak</li><li>Phillips (3.53) > Klassen (11.57)</li></ul>
   <div class="reasoning">Los Angeles's pitching situation is catastrophic—George Klassen has an 11.57 ERA. Even though Miami is in a two-game slide, they're the far superior team with a much better record and bullpen depth. Miami's Tyler Phillips is light years ahead of Klassen. This should be a comfortable home win despite recent struggles.</div>
   <label class="pick-toggle">
-    <input type="checkbox" id="chk-baseball_mlb_2026-08-07_los-angeles-angels_at_miami-marlins"  onchange="togglePick('baseball_mlb_2026-08-07_los-angeles-angels_at_miami-marlins', this)"> I bet on this
+    <input type="checkbox" id="chk-baseball_mlb_2026-08-07_los-angeles-angels_at_miami-marlins" data-game-id="baseball_mlb_2026-08-07_los-angeles-angels_at_miami-marlins"  onchange="togglePick('baseball_mlb_2026-08-07_los-angeles-angels_at_miami-marlins', this)"> I bet on this
   </label>
-  <div class="pick-status" id="status-baseball_mlb_2026-08-07_los-angeles-angels_at_miami-marlins">Couldn't reach the local pick server &mdash; run <code>python3 scripts/pick_server.py</code> on your machine, then try again.</div>
+  <div class="pick-status" id="status-baseball_mlb_2026-08-07_los-angeles-angels_at_miami-marlins">Couldn't save that pick &mdash; check your connection and try again.</div>
 </div>
 <div class="card">
   <div class="matchup">New York Mets @ Pittsburgh Pirates <span class="your-pick-badge" id="badge-baseball_mlb_2026-08-07_new-york-mets_at_pittsburgh-pirates" style="display:none;">&#10003; Your pick</span></div>
@@ -207,9 +206,9 @@ th { color: var(--muted); font-weight: 500; font-size: 0.78rem; text-transform: 
   <ul class="factors"><li>Mets W3 streak, 3-2 L5</li><li>Pirates L3 with 1-4 L5</li><li>Mets 2-1 h2h despite worse record</li><li>Thornton solid (2.88 ERA)</li></ul>
   <div class="reasoning">The Mets are in much better form (W3 streak vs Pirates' L3 slide) and have a 2-1 head-to-head edge despite having a worse overall record. New York's recent momentum and Thornton's solid ERA as an away starter suggest the Mets can steal this one against the market's underdog pricing.</div>
   <label class="pick-toggle">
-    <input type="checkbox" id="chk-baseball_mlb_2026-08-07_new-york-mets_at_pittsburgh-pirates"  onchange="togglePick('baseball_mlb_2026-08-07_new-york-mets_at_pittsburgh-pirates', this)"> I bet on this
+    <input type="checkbox" id="chk-baseball_mlb_2026-08-07_new-york-mets_at_pittsburgh-pirates" data-game-id="baseball_mlb_2026-08-07_new-york-mets_at_pittsburgh-pirates"  onchange="togglePick('baseball_mlb_2026-08-07_new-york-mets_at_pittsburgh-pirates', this)"> I bet on this
   </label>
-  <div class="pick-status" id="status-baseball_mlb_2026-08-07_new-york-mets_at_pittsburgh-pirates">Couldn't reach the local pick server &mdash; run <code>python3 scripts/pick_server.py</code> on your machine, then try again.</div>
+  <div class="pick-status" id="status-baseball_mlb_2026-08-07_new-york-mets_at_pittsburgh-pirates">Couldn't save that pick &mdash; check your connection and try again.</div>
 </div>
 <div class="card">
   <div class="matchup">Baltimore Orioles @ Texas Rangers <span class="your-pick-badge" id="badge-baseball_mlb_2026-08-08_baltimore-orioles_at_texas-rangers" style="display:none;">&#10003; Your pick</span></div>
@@ -223,9 +222,9 @@ th { color: var(--muted); font-weight: 500; font-size: 0.78rem; text-transform: 
   <ul class="factors"><li>Rangers W2 with 2-1 h2h</li><li>Orioles L1 with 1-2 h2h</li><li>Pitcher matchup similar</li><li>Rangers home, better h2h edge</li></ul>
   <div class="reasoning">Texas has home-field advantage with a two-game winning streak and a 2-1 head-to-head edge over Baltimore. While the overall records are similar and pitcher matchup is roughly even, the Rangers' recent momentum and head-to-head dominance (especially the recent 8-3 win) give them a slight edge in a close game.</div>
   <label class="pick-toggle">
-    <input type="checkbox" id="chk-baseball_mlb_2026-08-08_baltimore-orioles_at_texas-rangers"  onchange="togglePick('baseball_mlb_2026-08-08_baltimore-orioles_at_texas-rangers', this)"> I bet on this
+    <input type="checkbox" id="chk-baseball_mlb_2026-08-08_baltimore-orioles_at_texas-rangers" data-game-id="baseball_mlb_2026-08-08_baltimore-orioles_at_texas-rangers"  onchange="togglePick('baseball_mlb_2026-08-08_baltimore-orioles_at_texas-rangers', this)"> I bet on this
   </label>
-  <div class="pick-status" id="status-baseball_mlb_2026-08-08_baltimore-orioles_at_texas-rangers">Couldn't reach the local pick server &mdash; run <code>python3 scripts/pick_server.py</code> on your machine, then try again.</div>
+  <div class="pick-status" id="status-baseball_mlb_2026-08-08_baltimore-orioles_at_texas-rangers">Couldn't save that pick &mdash; check your connection and try again.</div>
 </div>
 <div class="card">
   <div class="matchup">Atlanta Braves @ New York Yankees <span class="your-pick-badge" id="badge-baseball_mlb_2026-08-07_atlanta-braves_at_new-york-yankees" style="display:none;">&#10003; Your pick</span></div>
@@ -239,9 +238,9 @@ th { color: var(--muted); font-weight: 500; font-size: 0.78rem; text-transform: 
   <ul class="factors"><li>Braves 5-0 L5, W7 streak</li><li>Braves 69-45 elite record vs Yankees 65-50</li><li>Sale elite (2.08 ERA, 12-6)</li><li>Yankees L1, 2-3 L5</li></ul>
   <div class="reasoning">Despite Atlanta being the road team as underdog, their dominant form (5-0 L5, W7 streak) and elite record (69-45) trump New York's home advantage. Chris Sale is pitching lights out with a 2.08 ERA and 12-6 record—that's the difference maker here. The Yankees are in a slump (L1, 2-3 L5), making Atlanta the pick despite +1.5 odds.</div>
   <label class="pick-toggle">
-    <input type="checkbox" id="chk-baseball_mlb_2026-08-07_atlanta-braves_at_new-york-yankees"  onchange="togglePick('baseball_mlb_2026-08-07_atlanta-braves_at_new-york-yankees', this)"> I bet on this
+    <input type="checkbox" id="chk-baseball_mlb_2026-08-07_atlanta-braves_at_new-york-yankees" data-game-id="baseball_mlb_2026-08-07_atlanta-braves_at_new-york-yankees"  onchange="togglePick('baseball_mlb_2026-08-07_atlanta-braves_at_new-york-yankees', this)"> I bet on this
   </label>
-  <div class="pick-status" id="status-baseball_mlb_2026-08-07_atlanta-braves_at_new-york-yankees">Couldn't reach the local pick server &mdash; run <code>python3 scripts/pick_server.py</code> on your machine, then try again.</div>
+  <div class="pick-status" id="status-baseball_mlb_2026-08-07_atlanta-braves_at_new-york-yankees">Couldn't save that pick &mdash; check your connection and try again.</div>
 </div>
 <div class="card">
   <div class="matchup">Cleveland Guardians @ Chicago White Sox <span class="your-pick-badge" id="badge-baseball_mlb_2026-08-07_cleveland-guardians_at_chicago-white-sox" style="display:none;">&#10003; Your pick</span></div>
@@ -255,9 +254,9 @@ th { color: var(--muted); font-weight: 500; font-size: 0.78rem; text-transform: 
   <ul class="factors"><li>Guardians L3 with 1-4 L5</li><li>White Sox 4-3 h2h and home field</li><li>Messick (2.57) > Schultz (5.82) ERA gap large</li><li>White Sox W1, slightly better recent</li></ul>
   <div class="reasoning">Despite being underdog in the market, Chicago's 4-3 head-to-head edge at home and massive pitcher advantage (Parker Messick's 2.57 ERA vs Cleveland's Noah Schultz at 5.82) make this a lean on the Sox. Cleveland is in freefall (L3), and Chicago just won. Home field + pitching advantage supports the underdog pick.</div>
   <label class="pick-toggle">
-    <input type="checkbox" id="chk-baseball_mlb_2026-08-07_cleveland-guardians_at_chicago-white-sox"  onchange="togglePick('baseball_mlb_2026-08-07_cleveland-guardians_at_chicago-white-sox', this)"> I bet on this
+    <input type="checkbox" id="chk-baseball_mlb_2026-08-07_cleveland-guardians_at_chicago-white-sox" data-game-id="baseball_mlb_2026-08-07_cleveland-guardians_at_chicago-white-sox"  onchange="togglePick('baseball_mlb_2026-08-07_cleveland-guardians_at_chicago-white-sox', this)"> I bet on this
   </label>
-  <div class="pick-status" id="status-baseball_mlb_2026-08-07_cleveland-guardians_at_chicago-white-sox">Couldn't reach the local pick server &mdash; run <code>python3 scripts/pick_server.py</code> on your machine, then try again.</div>
+  <div class="pick-status" id="status-baseball_mlb_2026-08-07_cleveland-guardians_at_chicago-white-sox">Couldn't save that pick &mdash; check your connection and try again.</div>
 </div>
 <div class="card">
   <div class="matchup">Houston Astros @ San Diego Padres <span class="your-pick-badge" id="badge-baseball_mlb_2026-08-08_houston-astros_at_san-diego-padres" style="display:none;">&#10003; Your pick</span></div>
@@ -271,9 +270,9 @@ th { color: var(--muted); font-weight: 500; font-size: 0.78rem; text-transform: 
   <ul class="factors"><li>Both teams 3-2 L5 with L1 streak</li><li>Astros 59-57 vs Padres 59-56 similar</li><li>Lambert (3.06) slight edge over King (3.45)</li><li>Road team underdog</li></ul>
   <div class="reasoning">This is a near-pick game between evenly matched teams. Both went 3-2 in their last five with recent losses. Houston's slight pitcher advantage (Peter Lambert 3.06 ERA vs Michael King 3.45) and marginally better record (59-57) edge them, but San Diego's home field provides counterbalance. Slight lean on Astros despite road underdog status.</div>
   <label class="pick-toggle">
-    <input type="checkbox" id="chk-baseball_mlb_2026-08-08_houston-astros_at_san-diego-padres"  onchange="togglePick('baseball_mlb_2026-08-08_houston-astros_at_san-diego-padres', this)"> I bet on this
+    <input type="checkbox" id="chk-baseball_mlb_2026-08-08_houston-astros_at_san-diego-padres" data-game-id="baseball_mlb_2026-08-08_houston-astros_at_san-diego-padres"  onchange="togglePick('baseball_mlb_2026-08-08_houston-astros_at_san-diego-padres', this)"> I bet on this
   </label>
-  <div class="pick-status" id="status-baseball_mlb_2026-08-08_houston-astros_at_san-diego-padres">Couldn't reach the local pick server &mdash; run <code>python3 scripts/pick_server.py</code> on your machine, then try again.</div>
+  <div class="pick-status" id="status-baseball_mlb_2026-08-08_houston-astros_at_san-diego-padres">Couldn't save that pick &mdash; check your connection and try again.</div>
 </div>
 </div>
 </main>
@@ -291,11 +290,30 @@ function filterLeague(league, btn) {
 
 
 <script>
+var PICKS_API = "https://bet-tracker-picks.sjackson1837.workers.dev";
+
+// Pull current selections on load so the phone and the laptop agree.
+document.addEventListener('DOMContentLoaded', function() {
+  fetch(PICKS_API + '/picks', {cache: 'no-store'})
+    .then(function(res) { if (!res.ok) throw new Error('bad response'); return res.json(); })
+    .then(function(data) {
+      var picks = (data && data.picks) || {};
+      document.querySelectorAll('input[data-game-id]').forEach(function(box) {
+        var gid = box.dataset.gameId;
+        var selected = !!picks[gid];
+        box.checked = selected;
+        var badge = document.getElementById('badge-' + gid);
+        if (badge) badge.style.display = selected ? 'inline-flex' : 'none';
+      });
+    })
+    .catch(function() { /* offline or not configured yet -- leave rendered state */ });
+});
+
 function togglePick(gameId, checkbox) {
   var badge = document.getElementById('badge-' + gameId);
   var status = document.getElementById('status-' + gameId);
   checkbox.disabled = true;
-  fetch('http://127.0.0.1:8934/toggle-pick', {
+  fetch(PICKS_API + '/toggle-pick', {
     method: 'POST',
     headers: {'Content-Type': 'application/json'},
     body: JSON.stringify({game_id: gameId})
@@ -311,6 +329,12 @@ function togglePick(gameId, checkbox) {
     if (status) status.style.display = 'block';
   })
   .finally(function() { checkbox.disabled = false; });
+}
+
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', function() {
+    navigator.serviceWorker.register('sw.js').catch(function() {});
+  });
 }
 </script>
 

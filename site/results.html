@@ -2,8 +2,16 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 <title>Steven's Bet Tracker - Track Record</title>
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#0f1115">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Steven's Bet Tracker">
+<link rel="apple-touch-icon" href="icon-192.png">
+<link rel="icon" type="image/png" href="icon-192.png">
 <style>
 :root {
   --bg: #0f1115; --card: #171a21; --border: #262b36; --text: #e8eaed;
@@ -48,9 +56,32 @@ th { color: var(--muted); font-weight: 500; font-size: 0.78rem; text-transform: 
 .result-good { color: var(--good); font-weight: 600; }
 .result-bad { color: var(--bad); font-weight: 600; }
 .result-push { color: var(--push); font-weight: 600; }
-.pick-toggle { display: inline-flex; align-items: center; gap: 6px; margin-top: 10px; font-size: 0.85rem; color: var(--muted); cursor: pointer; user-select: none; }
-.pick-toggle input { cursor: pointer; }
+.pick-toggle { display: inline-flex; align-items: center; gap: 8px; margin-top: 10px; font-size: 0.9rem; color: var(--muted); cursor: pointer; user-select: none; -webkit-tap-highlight-color: transparent; }
+.pick-toggle input { cursor: pointer; width: 20px; height: 20px; accent-color: var(--good); }
 .pick-status { margin-top: 6px; font-size: 0.78rem; color: var(--bad); display: none; }
+
+/* Phone layout: stack the sidebar into a horizontal scroller and give the
+   cards the full width. Also respects the iPhone home indicator inset. */
+@media (max-width: 720px) {
+  body { padding-bottom: env(safe-area-inset-bottom); }
+  header { padding: 16px 16px; }
+  header h1 { font-size: 1.15rem; }
+  nav a { margin-left: 0; margin-right: 16px; }
+  .layout { display: block; }
+  .sidebar {
+    width: auto; position: static; padding: 12px 12px 4px;
+    display: flex; gap: 8px; overflow-x: auto; -webkit-overflow-scrolling: touch;
+    border-bottom: 1px solid var(--border);
+  }
+  .sidebar h3 { display: none; }
+  .sidebar button { width: auto; white-space: nowrap; flex: 0 0 auto; margin-bottom: 0; }
+  main { padding: 16px 14px 48px; }
+  .card { padding: 14px; }
+  .odds-row { gap: 14px; }
+  .stat-box { flex: 1 1 40%; min-width: 0; padding: 14px; }
+  table { font-size: 0.8rem; }
+  th, td { padding: 7px 6px; }
+}
 </style>
 </head>
 <body>
@@ -64,7 +95,7 @@ th { color: var(--muted); font-weight: 500; font-size: 0.78rem; text-transform: 
 <div class="layout">
 <div class="sidebar"><h3>Sports</h3><button class="league-btn active" data-league="all" onclick="filterLeague('all', this)">All Sports</button><button class="league-btn" data-league="MLB" onclick="filterLeague('MLB', this)">MLB</button><button class="league-btn" data-league="MLS" onclick="filterLeague('MLS', this)">MLS</button></div>
 <main>
-<p class="updated">Last updated 2026-08-06 UTC</p><h3 style="color:var(--muted);font-size:0.8rem;text-transform:uppercase;letter-spacing:0.04em;margin:20px 0 8px;">Your picks</h3>
+<p class="updated">Last updated Aug 06, 2026 at 08:41 PM EDT</p><h3 style="color:var(--muted);font-size:0.8rem;text-transform:uppercase;letter-spacing:0.04em;margin:20px 0 8px;">Your picks</h3>
 <div class="stats-row">
   <div class="stat-box"><div class="num">5-0</div><div class="label">Straight-up (100%)</div></div>
   <div class="stat-box"><div class="num">5-0</div><div class="label">Against the spread (100%)</div></div>
@@ -417,11 +448,30 @@ function filterLeague(league, btn) {
 
 
 <script>
+var PICKS_API = "https://bet-tracker-picks.sjackson1837.workers.dev";
+
+// Pull current selections on load so the phone and the laptop agree.
+document.addEventListener('DOMContentLoaded', function() {
+  fetch(PICKS_API + '/picks', {cache: 'no-store'})
+    .then(function(res) { if (!res.ok) throw new Error('bad response'); return res.json(); })
+    .then(function(data) {
+      var picks = (data && data.picks) || {};
+      document.querySelectorAll('input[data-game-id]').forEach(function(box) {
+        var gid = box.dataset.gameId;
+        var selected = !!picks[gid];
+        box.checked = selected;
+        var badge = document.getElementById('badge-' + gid);
+        if (badge) badge.style.display = selected ? 'inline-flex' : 'none';
+      });
+    })
+    .catch(function() { /* offline or not configured yet -- leave rendered state */ });
+});
+
 function togglePick(gameId, checkbox) {
   var badge = document.getElementById('badge-' + gameId);
   var status = document.getElementById('status-' + gameId);
   checkbox.disabled = true;
-  fetch('http://127.0.0.1:8934/toggle-pick', {
+  fetch(PICKS_API + '/toggle-pick', {
     method: 'POST',
     headers: {'Content-Type': 'application/json'},
     body: JSON.stringify({game_id: gameId})
@@ -437,6 +487,12 @@ function togglePick(gameId, checkbox) {
     if (status) status.style.display = 'block';
   })
   .finally(function() { checkbox.disabled = false; });
+}
+
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', function() {
+    navigator.serviceWorker.register('sw.js').catch(function() {});
+  });
 }
 </script>
 
