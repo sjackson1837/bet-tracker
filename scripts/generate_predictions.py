@@ -50,14 +50,53 @@ Calibration rules, which matter more than being interesting:
   50-55. Use 75+ only when multiple independent signals agree.
 - Do not cluster everything in the 60s. Spread your confidences honestly.
 
-Return ONLY a single JSON object. No markdown fences, no commentary before or
-after. The object maps each game_id to an object with exactly these keys:
-  "predicted_winner": exact team name as given
-  "predicted_against_spread": exact team name as given
-  "confidence": integer 1-100
-  "key_factors": array of 2-4 short strings
-  "reasoning": 2-4 sentences citing the specific trend data provided
-Every game_id you were given must appear exactly once in the output."""
+For each game_id you're given, submit a prediction via the submit_predictions
+tool. Every game_id you were given must appear exactly once."""
+
+TOOL_NAME = "submit_predictions"
+TOOL = {
+    "name": TOOL_NAME,
+    "description": "Submit a prediction for every game_id provided.",
+    "input_schema": {
+        "type": "object",
+        "properties": {
+            "predictions": {
+                "type": "object",
+                "description": "Maps each game_id to its prediction.",
+                "additionalProperties": {
+                    "type": "object",
+                    "properties": {
+                        "predicted_winner": {
+                            "type": "string",
+                            "description": "Exact team name as given",
+                        },
+                        "predicted_against_spread": {
+                            "type": "string",
+                            "description": "Exact team name as given",
+                        },
+                        "confidence": {
+                            "type": "integer",
+                            "minimum": 1,
+                            "maximum": 100,
+                        },
+                        "key_factors": {
+                            "type": "array",
+                            "items": {"type": "string"},
+                            "minItems": 2,
+                            "maxItems": 4,
+                        },
+                        "reasoning": {
+                            "type": "string",
+                            "description": "2-4 sentences citing the specific trend data provided",
+                        },
+                    },
+                    "required": list(REQUIRED_FIELDS),
+                },
+            },
+        },
+        "required": ["predictions"],
+    },
+}
 
 
 def call_claude(model, payload_text, max_tokens):
@@ -66,6 +105,8 @@ def call_claude(model, payload_text, max_tokens):
         "max_tokens": max_tokens,
         "system": SYSTEM_PROMPT,
         "messages": [{"role": "user", "content": payload_text}],
+        "tools": [TOOL],
+        "tool_choice": {"type": "tool", "name": TOOL_NAME},
     }).encode("utf-8")
 
     req = urllib.request.Request(
@@ -84,11 +125,10 @@ def call_claude(model, payload_text, max_tokens):
         try:
             with urllib.request.urlopen(req, timeout=300) as resp:
                 data = json.load(resp)
-            return "".join(
-                block.get("text", "")
-                for block in data.get("content", [])
-                if block.get("type") == "text"
-            )
+            for block in data.get("content", []):
+                if block.get("type") == "tool_use" and block.get("name") == TOOL_NAME:
+                    return block.get("input", {}).get("predictions", {})
+            last_error = f"no {TOOL_NAME} tool call in response: {json.dumps(data)[:500]}"
         except urllib.error.HTTPError as e:
             detail = e.read().decode("utf-8", "replace")[:500]
             last_error = f"HTTP {e.code}: {detail}"
@@ -104,19 +144,6 @@ def call_claude(model, payload_text, max_tokens):
             time.sleep(wait)
 
     raise RuntimeError(f"Claude API call failed after {attempt} attempt(s): {last_error}")
-
-
-def extract_json(text):
-    """Claude is told to return bare JSON, but strip fences just in case."""
-    text = text.strip()
-    if text.startswith("```"):
-        text = text.split("\n", 1)[1] if "\n" in text else text
-        if text.rstrip().endswith("```"):
-            text = text.rstrip()[:-3]
-    start, end = text.find("{"), text.rfind("}")
-    if start == -1 or end == -1:
-        raise ValueError(f"No JSON object found in model response: {text[:300]}")
-    return json.loads(text[start:end + 1])
 
 
 def main():
@@ -145,8 +172,7 @@ def main():
     # Roughly 700 output tokens per game, with generous headroom.
     max_tokens = min(32000, 1500 + 900 * len(games))
 
-    raw = call_claude(model, payload_text, max_tokens)
-    predictions = extract_json(raw)
+    predictions = call_claude(model, payload_text, max_tokens)
 
     # Drop anything malformed rather than letting apply_predictions.py choke.
     clean = {}

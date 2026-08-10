@@ -39,6 +39,10 @@ nav a.active, nav a:hover { color: var(--text); }
 main { flex: 1; min-width: 0; padding: 24px 20px 60px; }
 .updated { color: var(--muted); font-size: 0.85rem; margin-bottom: 24px; }
 .league-group h2 { font-size: 1.1rem; color: var(--accent); margin-bottom: 12px; }
+.top-picks { border: 1px solid var(--accent); border-radius: 12px; padding: 16px 18px 4px; margin-bottom: 28px; background: rgba(79,140,255,0.06); }
+.top-picks h2 { font-size: 1.1rem; color: var(--accent); margin: 0 0 12px; }
+.top-picks-grid { display: flex; flex-wrap: wrap; gap: 12px; }
+.top-picks-grid .card { flex: 1 1 320px; margin-bottom: 12px; }
 .card { background: var(--card); border: 1px solid var(--border); border-radius: 10px; padding: 16px 18px; margin-bottom: 12px; }
 .matchup { font-size: 1.05rem; font-weight: 600; margin-bottom: 4px; }
 .meta { color: var(--muted); font-size: 0.85rem; margin-bottom: 10px; }
@@ -115,27 +119,37 @@ def pick_script(picks_api_base):
 <script>
 var PICKS_API = "{base}";
 
+// A game can appear twice on the page (Top picks + its league group), so
+// every lookup below is by data-game-id across *all* matching elements
+// rather than a single unique id, to keep both copies in sync.
+function picksFor(gameId) {{
+  return document.querySelectorAll('input.pick-checkbox[data-game-id="' + gameId + '"]');
+}}
+function badgesFor(gameId) {{
+  return document.querySelectorAll('.your-pick-badge[data-game-id="' + gameId + '"]');
+}}
+function statusesFor(gameId) {{
+  return document.querySelectorAll('.pick-status[data-game-id="' + gameId + '"]');
+}}
+
 // Pull current selections on load so the phone and the laptop agree.
 document.addEventListener('DOMContentLoaded', function() {{
   fetch(PICKS_API + '/picks', {{cache: 'no-store'}})
     .then(function(res) {{ if (!res.ok) throw new Error('bad response'); return res.json(); }})
     .then(function(data) {{
       var picks = (data && data.picks) || {{}};
-      document.querySelectorAll('input[data-game-id]').forEach(function(box) {{
-        var gid = box.dataset.gameId;
-        var selected = !!picks[gid];
-        box.checked = selected;
-        var badge = document.getElementById('badge-' + gid);
-        if (badge) badge.style.display = selected ? 'inline-flex' : 'none';
+      document.querySelectorAll('input.pick-checkbox[data-game-id]').forEach(function(box) {{
+        box.checked = !!picks[box.dataset.gameId];
+      }});
+      document.querySelectorAll('.your-pick-badge[data-game-id]').forEach(function(badge) {{
+        badge.style.display = picks[badge.dataset.gameId] ? 'inline-flex' : 'none';
       }});
     }})
     .catch(function() {{ /* offline or not configured yet -- leave rendered state */ }});
 }});
 
 function togglePick(gameId, checkbox) {{
-  var badge = document.getElementById('badge-' + gameId);
-  var status = document.getElementById('status-' + gameId);
-  checkbox.disabled = true;
+  picksFor(gameId).forEach(function(box) {{ box.disabled = true; }});
   fetch(PICKS_API + '/toggle-pick', {{
     method: 'POST',
     headers: {{'Content-Type': 'application/json'}},
@@ -143,15 +157,15 @@ function togglePick(gameId, checkbox) {{
   }})
   .then(function(res) {{ if (!res.ok) throw new Error('bad response'); return res.json(); }})
   .then(function(data) {{
-    if (badge) badge.style.display = data.user_selected ? 'inline-flex' : 'none';
-    checkbox.checked = data.user_selected;
-    if (status) status.style.display = 'none';
+    picksFor(gameId).forEach(function(box) {{ box.checked = data.user_selected; }});
+    badgesFor(gameId).forEach(function(badge) {{ badge.style.display = data.user_selected ? 'inline-flex' : 'none'; }});
+    statusesFor(gameId).forEach(function(status) {{ status.style.display = 'none'; }});
   }})
   .catch(function(err) {{
     checkbox.checked = !checkbox.checked;
-    if (status) status.style.display = 'block';
+    statusesFor(gameId).forEach(function(status) {{ status.style.display = 'block'; }});
   }})
-  .finally(function() {{ checkbox.disabled = false; }});
+  .finally(function() {{ picksFor(gameId).forEach(function(box) {{ box.disabled = false; }}); }});
 }}
 
 if ('serviceWorker' in navigator) {{
@@ -389,7 +403,7 @@ def page_shell(title, active, body, site_title, sidebar_html="", picks_script=""
 """
 
 
-def render_upcoming(games, tz_name, window_days, min_confidence):
+def collect_upcoming(games, window_days, min_confidence):
     now = datetime.now(timezone.utc)
     cutoff = now + timedelta(days=window_days)
     upcoming = []
@@ -412,20 +426,34 @@ def render_upcoming(games, tz_name, window_days, min_confidence):
         g = dict(g)
         g["id"] = gid
         upcoming.append(g)
+    return upcoming
 
+
+def confidence_sort_key(g):
+    pred = g.get("prediction")
+    confidence = pred.get("confidence", -1) if pred else -1
+    # Highest confidence first; games without a prediction yet sink to the
+    # bottom; ties broken by soonest kickoff.
+    return (-confidence, g["commence_time"])
+
+
+def render_top_picks(upcoming, tz_name, n=5):
+    """A cross-league "best bets" shortlist for people who only bet a handful
+    of games a day and don't want to scan every league group for it."""
+    if not upcoming:
+        return ""
+    top = sorted(upcoming, key=confidence_sort_key)[:n]
+    cards = "".join(render_game_card(g, tz_name) for g in top)
+    return f'<div class="top-picks"><h2>Top {len(top)} by Confidence</h2><div class="top-picks-grid">{cards}</div></div>'
+
+
+def render_upcoming(upcoming, tz_name):
     if not upcoming:
         return "", []
 
     by_league = {}
     for g in upcoming:
         by_league.setdefault(g["league"], []).append(g)
-
-    def confidence_sort_key(g):
-        pred = g.get("prediction")
-        confidence = pred.get("confidence", -1) if pred else -1
-        # Highest confidence first; games without a prediction yet sink to the
-        # bottom; ties broken by soonest kickoff.
-        return (-confidence, g["commence_time"])
 
     html = []
     for league, glist in by_league.items():
@@ -439,12 +467,16 @@ def render_upcoming(games, tz_name, window_days, min_confidence):
 
 def render_pick_toggle(gid, selected):
     """Checkbox that lets you mark a game as one you actually bet on, straight
-    from the site (talks to scripts/pick_server.py running locally)."""
+    from the site (talks to scripts/pick_server.py running locally).
+
+    Uses data-game-id rather than a unique element id: the same game can now
+    appear twice on the page (once in "Top picks", once in its league group),
+    and both copies need to stay in sync when either is toggled."""
     checked = "checked" if selected else ""
     return f"""<label class="pick-toggle">
-    <input type="checkbox" id="chk-{gid}" data-game-id="{gid}" {checked} onchange="togglePick('{gid}', this)"> I bet on this
+    <input type="checkbox" class="pick-checkbox" data-game-id="{gid}" {checked} onchange="togglePick('{gid}', this)"> I bet on this
   </label>
-  <div class="pick-status" id="status-{gid}">Couldn't save that pick &mdash; check your connection and try again.</div>"""
+  <div class="pick-status" data-game-id="{gid}">Couldn't save that pick &mdash; check your connection and try again.</div>"""
 
 
 def render_game_card(g, tz_name):
@@ -453,7 +485,7 @@ def render_game_card(g, tz_name):
     pred = g["prediction"]
     gid = g.get("id", "")
     display = "inline-flex" if g.get("user_selected") else "none"
-    badge = f' <span class="your-pick-badge" id="badge-{gid}" style="display:{display};">&#10003; Your pick</span>'
+    badge = f' <span class="your-pick-badge" data-game-id="{gid}" style="display:{display};">&#10003; Your pick</span>'
 
     pick_toggle = render_pick_toggle(gid, g.get("user_selected", False))
 
@@ -575,13 +607,15 @@ def main():
     # when you're reading it at 9pm Eastern the night before.
     stamp = datetime.now(timezone.utc).astimezone(ZoneInfo(tz_name)).strftime("%b %d, %Y at %I:%M %p %Z")
 
-    upcoming_html, upcoming_leagues = render_upcoming(games, tz_name, upcoming_window_days, min_confidence)
+    upcoming = collect_upcoming(games, upcoming_window_days, min_confidence)
+    top_picks_html = render_top_picks(upcoming, tz_name, n=5)
+    upcoming_html, upcoming_leagues = render_upcoming(upcoming, tz_name)
     if not upcoming_html:
         upcoming_html = '<p class="empty">No upcoming games right now. Check back after the next data refresh.</p>'
         upcoming_sidebar = ""
     else:
         upcoming_sidebar = render_sidebar(upcoming_leagues, league_order)
-    index_body = f'<p class="updated">Last updated {stamp}</p>' + upcoming_html
+    index_body = f'<p class="updated">Last updated {stamp}</p>' + top_picks_html + upcoming_html
     with open(SITE_DIR / "index.html", "w") as f:
         f.write(page_shell(site_title, "home", index_body, site_title, upcoming_sidebar, picks_script))
 
