@@ -32,6 +32,10 @@ nav a.active, nav a:hover { color: var(--text); }
 main { flex: 1; min-width: 0; padding: 24px 20px 60px; }
 .updated { color: var(--muted); font-size: 0.85rem; margin-bottom: 24px; }
 .league-group h2 { font-size: 1.1rem; color: var(--accent); margin-bottom: 12px; }
+.top-picks { border: 1px solid var(--accent); border-radius: 12px; padding: 16px 18px 4px; margin-bottom: 28px; background: rgba(79,140,255,0.06); }
+.top-picks h2 { font-size: 1.1rem; color: var(--accent); margin: 0 0 12px; }
+.top-picks-grid { display: flex; flex-wrap: wrap; gap: 12px; }
+.top-picks-grid .card { flex: 1 1 320px; margin-bottom: 12px; }
 .card { background: var(--card); border: 1px solid var(--border); border-radius: 10px; padding: 16px 18px; margin-bottom: 12px; }
 .matchup { font-size: 1.05rem; font-weight: 600; margin-bottom: 4px; }
 .meta { color: var(--muted); font-size: 0.85rem; margin-bottom: 10px; }
@@ -93,18 +97,18 @@ th { color: var(--muted); font-weight: 500; font-size: 0.78rem; text-transform: 
   </nav>
 </header>
 <div class="layout">
-<div class="sidebar"><h3>Sports</h3><button class="league-btn active" data-league="all" onclick="filterLeague('all', this)">All Sports</button><button class="league-btn" data-league="MLB" onclick="filterLeague('MLB', this)">MLB</button><button class="league-btn" data-league="MLS" onclick="filterLeague('MLS', this)">MLS</button></div>
+<div class="sidebar"><h3>Sports</h3><button class="league-btn active" data-league="all" onclick="filterLeague('all', this)">All Sports</button><button class="league-btn" data-league="MLB" onclick="filterLeague('MLB', this)">MLB</button></div>
 <main>
-<p class="updated">Last updated Aug 08, 2026 at 07:54 AM EDT</p><h3 style="color:var(--muted);font-size:0.8rem;text-transform:uppercase;letter-spacing:0.04em;margin:20px 0 8px;">Your picks</h3>
+<p class="updated">Last updated Aug 11, 2026 at 08:08 AM EDT</p><h3 style="color:var(--muted);font-size:0.8rem;text-transform:uppercase;letter-spacing:0.04em;margin:20px 0 8px;">Your picks</h3>
 <div class="stats-row">
-  <div class="stat-box"><div class="num">5-0</div><div class="label">Straight-up (100%)</div></div>
-  <div class="stat-box"><div class="num">4-1</div><div class="label">Against the spread (80%)</div></div>
-  <div class="stat-box"><div class="num">5</div><div class="label">Games graded</div></div>
+  <div class="stat-box"><div class="num">3-0</div><div class="label">Straight-up (100%)</div></div>
+  <div class="stat-box"><div class="num">2-1</div><div class="label">Against the spread (67%)</div></div>
+  <div class="stat-box"><div class="num">3</div><div class="label">Games graded</div></div>
 </div><h3 style="color:var(--muted);font-size:0.8rem;text-transform:uppercase;letter-spacing:0.04em;margin:20px 0 8px;">Model overall (55%+ confidence)</h3>
 <div class="stats-row">
-  <div class="stat-box"><div class="num">22-8</div><div class="label">Straight-up (73%)</div></div>
-  <div class="stat-box"><div class="num">14-17</div><div class="label">Against the spread (45%)</div></div>
-  <div class="stat-box"><div class="num">31</div><div class="label">Games graded</div></div>
+  <div class="stat-box"><div class="num">12-6</div><div class="label">Straight-up (67%)</div></div>
+  <div class="stat-box"><div class="num">6-12</div><div class="label">Against the spread (33%)</div></div>
+  <div class="stat-box"><div class="num">18</div><div class="label">Games graded</div></div>
 </div><table>
 <thead><tr><th>Your Pick</th><th>Kickoff</th><th>League</th><th>Matchup</th><th>Final</th><th>Predicted Winner</th><th>Straight-up</th><th>ATS</th></tr></thead>
 <tbody><tr class="filterable-item" data-league="MLB">
@@ -332,159 +336,6 @@ th { color: var(--muted); font-weight: 500; font-size: 0.78rem; text-transform: 
   <td>Baltimore Orioles</td>
   <td class="result-good">correct</td>
   <td class="result-bad">wrong</td>
-</tr><tr class="filterable-item" data-league="MLB">
-  <td><span class="result-good">&#10003;</span></td>
-  <td>Mon Aug 03, 09:41 PM EDT</td>
-  <td>MLB</td>
-  <td>San Diego Padres @ Arizona Diamondbacks</td>
-  <td>1-5</td>
-  <td>Arizona Diamondbacks</td>
-  <td class="result-good">correct</td>
-  <td class="result-good">correct</td>
-</tr><tr class="filterable-item" data-league="MLB">
-  <td></td>
-  <td>Mon Aug 03, 08:41 PM EDT</td>
-  <td>MLB</td>
-  <td>Tampa Bay Rays @ Colorado Rockies</td>
-  <td>13-9</td>
-  <td>Tampa Bay Rays</td>
-  <td class="result-good">correct</td>
-  <td class="result-good">correct</td>
-</tr><tr class="filterable-item" data-league="MLS">
-  <td></td>
-  <td>Sat Aug 01, 10:30 PM EDT</td>
-  <td>MLS</td>
-  <td>FC Dallas @ LA Galaxy</td>
-  <td>0-0</td>
-  <td>FC Dallas</td>
-  <td class="result-push">push</td>
-  <td class="result-good">correct</td>
-</tr><tr class="filterable-item" data-league="MLB">
-  <td><span class="result-good">&#10003;</span></td>
-  <td>Sat Aug 01, 09:41 PM EDT</td>
-  <td>MLB</td>
-  <td>Detroit Tigers @ Athletics</td>
-  <td>8-6</td>
-  <td>Detroit Tigers</td>
-  <td class="result-good">correct</td>
-  <td class="result-good">correct</td>
-</tr><tr class="filterable-item" data-league="MLB">
-  <td></td>
-  <td>Sat Aug 01, 09:39 PM EDT</td>
-  <td>MLB</td>
-  <td>Milwaukee Brewers @ Los Angeles Angels</td>
-  <td>3-1</td>
-  <td>Milwaukee Brewers</td>
-  <td class="result-good">correct</td>
-  <td class="result-good">correct</td>
-</tr><tr class="filterable-item" data-league="MLS">
-  <td></td>
-  <td>Sat Aug 01, 09:30 PM EDT</td>
-  <td>MLS</td>
-  <td>Austin FC @ Colorado Rapids</td>
-  <td>0-1</td>
-  <td>Colorado Rapids</td>
-  <td class="result-good">correct</td>
-  <td class="result-good">correct</td>
-</tr><tr class="filterable-item" data-league="MLB">
-  <td></td>
-  <td>Sat Aug 01, 09:11 PM EDT</td>
-  <td>MLB</td>
-  <td>Boston Red Sox @ Los Angeles Dodgers</td>
-  <td>3-2</td>
-  <td>Los Angeles Dodgers</td>
-  <td class="result-bad">wrong</td>
-  <td class="result-good">correct</td>
-</tr><tr class="filterable-item" data-league="MLB">
-  <td></td>
-  <td>Sat Aug 01, 08:41 PM EDT</td>
-  <td>MLB</td>
-  <td>San Francisco Giants @ San Diego Padres</td>
-  <td>5-6</td>
-  <td>San Diego Padres</td>
-  <td class="result-good">correct</td>
-  <td class="result-bad">wrong</td>
-</tr><tr class="filterable-item" data-league="MLS">
-  <td></td>
-  <td>Sat Aug 01, 08:30 PM EDT</td>
-  <td>MLS</td>
-  <td>San Diego FC @ Minnesota United FC</td>
-  <td>1-1</td>
-  <td>San Diego FC</td>
-  <td class="result-push">push</td>
-  <td class="result-good">correct</td>
-</tr><tr class="filterable-item" data-league="MLS">
-  <td></td>
-  <td>Sat Aug 01, 07:30 PM EDT</td>
-  <td>MLS</td>
-  <td>New England Revolution @ CF Montreal</td>
-  <td>2-2</td>
-  <td>New England Revolution</td>
-  <td class="result-push">push</td>
-  <td class="result-good">correct</td>
-</tr><tr class="filterable-item" data-league="MLS">
-  <td></td>
-  <td>Sat Aug 01, 07:30 PM EDT</td>
-  <td>MLS</td>
-  <td>Los Angeles FC @ Vancouver Whitecaps FC</td>
-  <td>1-1</td>
-  <td>Vancouver Whitecaps FC</td>
-  <td class="result-push">push</td>
-  <td class="result-bad">wrong</td>
-</tr><tr class="filterable-item" data-league="MLB">
-  <td></td>
-  <td>Sat Aug 01, 07:16 PM EDT</td>
-  <td>MLB</td>
-  <td>Arizona Diamondbacks @ Cleveland Guardians</td>
-  <td>12-8</td>
-  <td>Arizona Diamondbacks</td>
-  <td class="result-good">correct</td>
-  <td class="result-good">correct</td>
-</tr><tr class="filterable-item" data-league="MLB">
-  <td></td>
-  <td>Sat Aug 01, 07:16 PM EDT</td>
-  <td>MLB</td>
-  <td>Washington Nationals @ Atlanta Braves</td>
-  <td>3-8</td>
-  <td>Atlanta Braves</td>
-  <td class="result-good">correct</td>
-  <td class="result-good">correct</td>
-</tr><tr class="filterable-item" data-league="MLB">
-  <td></td>
-  <td>Sat Aug 01, 07:16 PM EDT</td>
-  <td>MLB</td>
-  <td>New York Yankees @ Chicago Cubs</td>
-  <td>2-5</td>
-  <td>Chicago Cubs</td>
-  <td class="result-good">correct</td>
-  <td class="result-bad">wrong</td>
-</tr><tr class="filterable-item" data-league="MLB">
-  <td></td>
-  <td>Sat Aug 01, 07:06 PM EDT</td>
-  <td>MLB</td>
-  <td>Philadelphia Phillies @ Baltimore Orioles</td>
-  <td>5-0</td>
-  <td>Baltimore Orioles</td>
-  <td class="result-bad">wrong</td>
-  <td class="result-bad">wrong</td>
-</tr><tr class="filterable-item" data-league="MLB">
-  <td></td>
-  <td>Sat Aug 01, 04:11 PM EDT</td>
-  <td>MLB</td>
-  <td>Chicago White Sox @ Tampa Bay Rays</td>
-  <td>0-1</td>
-  <td>Tampa Bay Rays</td>
-  <td class="result-good">correct</td>
-  <td class="result-bad">wrong</td>
-</tr><tr class="filterable-item" data-league="MLB">
-  <td></td>
-  <td>Sat Aug 01, 03:08 PM EDT</td>
-  <td>MLB</td>
-  <td>St. Louis Cardinals @ Toronto Blue Jays</td>
-  <td>1-5</td>
-  <td>Toronto Blue Jays</td>
-  <td class="result-good">correct</td>
-  <td class="result-bad">wrong</td>
 </tr></tbody>
 </table>
 </main>
@@ -504,27 +355,37 @@ function filterLeague(league, btn) {
 <script>
 var PICKS_API = "https://bet-tracker-picks.sjackson1837.workers.dev";
 
+// A game can appear twice on the page (Top picks + its league group), so
+// every lookup below is by data-game-id across *all* matching elements
+// rather than a single unique id, to keep both copies in sync.
+function picksFor(gameId) {
+  return document.querySelectorAll('input.pick-checkbox[data-game-id="' + gameId + '"]');
+}
+function badgesFor(gameId) {
+  return document.querySelectorAll('.your-pick-badge[data-game-id="' + gameId + '"]');
+}
+function statusesFor(gameId) {
+  return document.querySelectorAll('.pick-status[data-game-id="' + gameId + '"]');
+}
+
 // Pull current selections on load so the phone and the laptop agree.
 document.addEventListener('DOMContentLoaded', function() {
   fetch(PICKS_API + '/picks', {cache: 'no-store'})
     .then(function(res) { if (!res.ok) throw new Error('bad response'); return res.json(); })
     .then(function(data) {
       var picks = (data && data.picks) || {};
-      document.querySelectorAll('input[data-game-id]').forEach(function(box) {
-        var gid = box.dataset.gameId;
-        var selected = !!picks[gid];
-        box.checked = selected;
-        var badge = document.getElementById('badge-' + gid);
-        if (badge) badge.style.display = selected ? 'inline-flex' : 'none';
+      document.querySelectorAll('input.pick-checkbox[data-game-id]').forEach(function(box) {
+        box.checked = !!picks[box.dataset.gameId];
+      });
+      document.querySelectorAll('.your-pick-badge[data-game-id]').forEach(function(badge) {
+        badge.style.display = picks[badge.dataset.gameId] ? 'inline-flex' : 'none';
       });
     })
     .catch(function() { /* offline or not configured yet -- leave rendered state */ });
 });
 
 function togglePick(gameId, checkbox) {
-  var badge = document.getElementById('badge-' + gameId);
-  var status = document.getElementById('status-' + gameId);
-  checkbox.disabled = true;
+  picksFor(gameId).forEach(function(box) { box.disabled = true; });
   fetch(PICKS_API + '/toggle-pick', {
     method: 'POST',
     headers: {'Content-Type': 'application/json'},
@@ -532,15 +393,15 @@ function togglePick(gameId, checkbox) {
   })
   .then(function(res) { if (!res.ok) throw new Error('bad response'); return res.json(); })
   .then(function(data) {
-    if (badge) badge.style.display = data.user_selected ? 'inline-flex' : 'none';
-    checkbox.checked = data.user_selected;
-    if (status) status.style.display = 'none';
+    picksFor(gameId).forEach(function(box) { box.checked = data.user_selected; });
+    badgesFor(gameId).forEach(function(badge) { badge.style.display = data.user_selected ? 'inline-flex' : 'none'; });
+    statusesFor(gameId).forEach(function(status) { status.style.display = 'none'; });
   })
   .catch(function(err) {
     checkbox.checked = !checkbox.checked;
-    if (status) status.style.display = 'block';
+    statusesFor(gameId).forEach(function(status) { status.style.display = 'block'; });
   })
-  .finally(function() { checkbox.disabled = false; });
+  .finally(function() { picksFor(gameId).forEach(function(box) { box.disabled = false; }); });
 }
 
 if ('serviceWorker' in navigator) {

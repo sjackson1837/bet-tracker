@@ -32,6 +32,10 @@ nav a.active, nav a:hover { color: var(--text); }
 main { flex: 1; min-width: 0; padding: 24px 20px 60px; }
 .updated { color: var(--muted); font-size: 0.85rem; margin-bottom: 24px; }
 .league-group h2 { font-size: 1.1rem; color: var(--accent); margin-bottom: 12px; }
+.top-picks { border: 1px solid var(--accent); border-radius: 12px; padding: 16px 18px 4px; margin-bottom: 28px; background: rgba(79,140,255,0.06); }
+.top-picks h2 { font-size: 1.1rem; color: var(--accent); margin: 0 0 12px; }
+.top-picks-grid { display: flex; flex-wrap: wrap; gap: 12px; }
+.top-picks-grid .card { flex: 1 1 320px; margin-bottom: 12px; }
 .card { background: var(--card); border: 1px solid var(--border); border-radius: 10px; padding: 16px 18px; margin-bottom: 12px; }
 .matchup { font-size: 1.05rem; font-weight: 600; margin-bottom: 4px; }
 .meta { color: var(--muted); font-size: 0.85rem; margin-bottom: 10px; }
@@ -93,140 +97,9 @@ th { color: var(--muted); font-weight: 500; font-size: 0.78rem; text-transform: 
   </nav>
 </header>
 <div class="layout">
-<div class="sidebar"><h3>Sports</h3><button class="league-btn active" data-league="all" onclick="filterLeague('all', this)">All Sports</button><button class="league-btn" data-league="MLB" onclick="filterLeague('MLB', this)">MLB</button><button class="league-btn" data-league="MLS" onclick="filterLeague('MLS', this)">MLS</button></div>
+
 <main>
-<p class="updated">Last updated Aug 08, 2026 at 07:54 AM EDT</p><div class="league-group filterable-item" data-league="MLS"><h2>MLS</h2>
-<div class="card">
-  <div class="matchup">Houston Dynamo @ New England Revolution <span class="your-pick-badge" id="badge-soccer_usa_mls_2026-08-08_houston-dynamo_at_new-england-revolution" style="display:none;">&#10003; Your pick</span></div>
-  <div class="meta">Sat Aug 08, 04:30 PM EDT</div>
-  <div class="odds-row"><div class="odds-item"><div class="odds-label">Moneyline</div><div class="odds-value">Houston Dynamo +177 &middot; New England Revolution +141 &middot; Draw +243</div></div><div class="odds-item"><div class="odds-label">Spread</div><div class="odds-value">Houston Dynamo +0.1 &middot; New England Revolution -0.1</div></div><div class="odds-item"><div class="odds-label">Total (O/U)</div><div class="odds-value">2.5</div></div><div class="odds-item"><div class="odds-label">Books</div><div class="odds-value">9</div></div></div>
-  <div class="pick-row">
-    <span>Pick:</span> <span class="pick">Houston Dynamo</span>
-    <span class="confidence">58% confidence</span>
-  </div>
-  <div class="pick-row"><span>Against the spread:</span> <span class="pick">Houston Dynamo [+0.1]</span></div>
-  <ul class="factors"><li>Houston 3-2 last 5 vs NE 2-3</li><li>Houston W2 streak vs NE L1</li><li>Form advantage Houston</li></ul>
-  <div class="reasoning">Houston shows better recent form (3-2 L5, W2 streak) compared to New England's 2-3 record with a loss streak. While the matchup is fairly even by the odds, Houston's momentum gives them a slight edge in this road game.</div>
-  <label class="pick-toggle">
-    <input type="checkbox" id="chk-soccer_usa_mls_2026-08-08_houston-dynamo_at_new-england-revolution" data-game-id="soccer_usa_mls_2026-08-08_houston-dynamo_at_new-england-revolution"  onchange="togglePick('soccer_usa_mls_2026-08-08_houston-dynamo_at_new-england-revolution', this)"> I bet on this
-  </label>
-  <div class="pick-status" id="status-soccer_usa_mls_2026-08-08_houston-dynamo_at_new-england-revolution">Couldn't save that pick &mdash; check your connection and try again.</div>
-</div>
-</div>
-<div class="league-group filterable-item" data-league="MLB"><h2>MLB</h2>
-<div class="card">
-  <div class="matchup">Athletics @ Boston Red Sox <span class="your-pick-badge" id="badge-baseball_mlb_2026-08-08_athletics_at_boston-red-sox" style="display:none;">&#10003; Your pick</span></div>
-  <div class="meta">Sat Aug 08, 04:11 PM EDT</div>
-  <div class="odds-row"><div class="odds-item"><div class="odds-label">Moneyline</div><div class="odds-value">Athletics +218 &middot; Boston Red Sox -254</div></div><div class="odds-item"><div class="odds-label">Spread</div><div class="odds-value">Athletics +1.5 &middot; Boston Red Sox -1.5</div></div><div class="odds-item"><div class="odds-label">Total (O/U)</div><div class="odds-value">9.0</div></div><div class="odds-item"><div class="odds-label">Books</div><div class="odds-value">9</div></div></div>
-  <div class="pick-row">
-    <span>Pick:</span> <span class="pick">Boston Red Sox</span>
-    <span class="confidence">78% confidence</span>
-  </div>
-  <div class="pick-row"><span>Against the spread:</span> <span class="pick">Boston Red Sox</span></div>
-  <ul class="factors"><li>Red Sox riding a 9-game win streak, 5-0 last5</li><li>Athletics on a brutal 9-game losing streak, 0-5 last5</li><li>H2H dominance 4-1 including a 13-1 blowout last meeting</li><li>Bennett (2.90 ERA) vs Jump (4.59 ERA) favors Boston</li></ul>
-  <div class="reasoning">This is about as lopsided as trend data gets: Boston is white-hot (W9) while Oakland is ice cold (L9) and was just blown out 13-1 in the last meeting. The pitching matchup and season h2h record both reinforce Boston, making the 1.5 run spread very reasonable to cover.</div>
-  <label class="pick-toggle">
-    <input type="checkbox" id="chk-baseball_mlb_2026-08-08_athletics_at_boston-red-sox" data-game-id="baseball_mlb_2026-08-08_athletics_at_boston-red-sox"  onchange="togglePick('baseball_mlb_2026-08-08_athletics_at_boston-red-sox', this)"> I bet on this
-  </label>
-  <div class="pick-status" id="status-baseball_mlb_2026-08-08_athletics_at_boston-red-sox">Couldn't save that pick &mdash; check your connection and try again.</div>
-</div>
-<div class="card">
-  <div class="matchup">Cincinnati Reds @ Washington Nationals <span class="your-pick-badge" id="badge-baseball_mlb_2026-08-08_cincinnati-reds_at_washington-nationals" style="display:none;">&#10003; Your pick</span></div>
-  <div class="meta">Sat Aug 08, 06:46 PM EDT</div>
-  <div class="odds-row"><div class="odds-item"><div class="odds-label">Moneyline</div><div class="odds-value">Cincinnati Reds -144 &middot; Washington Nationals +127</div></div><div class="odds-item"><div class="odds-label">Spread</div><div class="odds-value">Cincinnati Reds -1.5 &middot; Washington Nationals +1.5</div></div><div class="odds-item"><div class="odds-label">Total (O/U)</div><div class="odds-value">8.5</div></div><div class="odds-item"><div class="odds-label">Books</div><div class="odds-value">9</div></div></div>
-  <div class="pick-row">
-    <span>Pick:</span> <span class="pick">Cincinnati Reds</span>
-    <span class="confidence">63% confidence</span>
-  </div>
-  <div class="pick-row"><span>Against the spread:</span> <span class="pick">Cincinnati Reds</span></div>
-  <ul class="factors"><li>Chase Burns elite 2.35 ERA, 13-1 record</li><li>Reds 4-1 in last5 games</li><li>Nationals hold season h2h edge 3-1 and won last meeting</li></ul>
-  <div class="reasoning">While Washington has won the season series and the last meeting, Cincinnati's ace Chase Burns is having a standout season (13-1, 2.35 ERA) and should neutralize that recent h2h edge. Combined with Cincinnati's strong recent form (4-1 last5), I favor the Reds to bounce back and cover.</div>
-  <label class="pick-toggle">
-    <input type="checkbox" id="chk-baseball_mlb_2026-08-08_cincinnati-reds_at_washington-nationals" data-game-id="baseball_mlb_2026-08-08_cincinnati-reds_at_washington-nationals"  onchange="togglePick('baseball_mlb_2026-08-08_cincinnati-reds_at_washington-nationals', this)"> I bet on this
-  </label>
-  <div class="pick-status" id="status-baseball_mlb_2026-08-08_cincinnati-reds_at_washington-nationals">Couldn't save that pick &mdash; check your connection and try again.</div>
-</div>
-<div class="card">
-  <div class="matchup">New York Mets @ Pittsburgh Pirates <span class="your-pick-badge" id="badge-baseball_mlb_2026-08-08_new-york-mets_at_pittsburgh-pirates" style="display:none;">&#10003; Your pick</span></div>
-  <div class="meta">Sat Aug 08, 06:41 PM EDT</div>
-  <div class="odds-row"><div class="odds-item"><div class="odds-label">Moneyline</div><div class="odds-value">New York Mets +121 &middot; Pittsburgh Pirates -137</div></div><div class="odds-item"><div class="odds-label">Spread</div><div class="odds-value">New York Mets +1.5 &middot; Pittsburgh Pirates -1.5</div></div><div class="odds-item"><div class="odds-label">Total (O/U)</div><div class="odds-value">8.5</div></div><div class="odds-item"><div class="odds-label">Books</div><div class="odds-value">9</div></div></div>
-  <div class="pick-row">
-    <span>Pick:</span> <span class="pick">New York Mets</span>
-    <span class="confidence">62% confidence</span>
-  </div>
-  <div class="pick-row"><span>Against the spread:</span> <span class="pick">New York Mets</span></div>
-  <ul class="factors"><li>Mets riding a 4-game win streak, 4-1 last5</li><li>Pirates on a 4-game skid, 1-4 last5</li><li>Mets dominate h2h this season 3-1 and won last meeting</li><li>Stock's 1.80 ERA vs Chandler's 4.49</li></ul>
-  <div class="reasoning">New York is clearly the hotter team right now and has already beaten Pittsburgh three times this season, including last night. Pittsburgh's four-game losing streak combined with a shakier starter in Chandler makes the Mets a strong value play as underdogs.</div>
-  <label class="pick-toggle">
-    <input type="checkbox" id="chk-baseball_mlb_2026-08-08_new-york-mets_at_pittsburgh-pirates" data-game-id="baseball_mlb_2026-08-08_new-york-mets_at_pittsburgh-pirates"  onchange="togglePick('baseball_mlb_2026-08-08_new-york-mets_at_pittsburgh-pirates', this)"> I bet on this
-  </label>
-  <div class="pick-status" id="status-baseball_mlb_2026-08-08_new-york-mets_at_pittsburgh-pirates">Couldn't save that pick &mdash; check your connection and try again.</div>
-</div>
-<div class="card">
-  <div class="matchup">Cleveland Guardians @ Chicago White Sox <span class="your-pick-badge" id="badge-baseball_mlb_2026-08-08_cleveland-guardians_at_chicago-white-sox" style="display:none;">&#10003; Your pick</span></div>
-  <div class="meta">Sat Aug 08, 07:16 PM EDT</div>
-  <div class="odds-row"><div class="odds-item"><div class="odds-label">Moneyline</div><div class="odds-value">Chicago White Sox +114 &middot; Cleveland Guardians -130</div></div><div class="odds-item"><div class="odds-label">Spread</div><div class="odds-value">Chicago White Sox +1.5 &middot; Cleveland Guardians -1.5</div></div><div class="odds-item"><div class="odds-label">Total (O/U)</div><div class="odds-value">7.9</div></div><div class="odds-item"><div class="odds-label">Books</div><div class="odds-value">9</div></div></div>
-  <div class="pick-row">
-    <span>Pick:</span> <span class="pick">Cleveland Guardians</span>
-    <span class="confidence">60% confidence</span>
-  </div>
-  <div class="pick-row"><span>Against the spread:</span> <span class="pick">Cleveland Guardians</span></div>
-  <ul class="factors"><li>Guardians blew out White Sox 8-2 in last meeting</li><li>White Sox on a 4-game losing streak, 1-4 last5</li><li>Williams (3.56 ERA) outpitches Kay (4.01 ERA)</li></ul>
-  <div class="reasoning">Cleveland has the recent momentum (W1) and just dominated Chicago 8-2, while the White Sox are mired in a four-game slide. The pitching matchup also favors Cleveland, supporting a cover of the modest 1.5 spread.</div>
-  <label class="pick-toggle">
-    <input type="checkbox" id="chk-baseball_mlb_2026-08-08_cleveland-guardians_at_chicago-white-sox" data-game-id="baseball_mlb_2026-08-08_cleveland-guardians_at_chicago-white-sox"  onchange="togglePick('baseball_mlb_2026-08-08_cleveland-guardians_at_chicago-white-sox', this)"> I bet on this
-  </label>
-  <div class="pick-status" id="status-baseball_mlb_2026-08-08_cleveland-guardians_at_chicago-white-sox">Couldn't save that pick &mdash; check your connection and try again.</div>
-</div>
-<div class="card">
-  <div class="matchup">Los Angeles Dodgers @ Arizona Diamondbacks <span class="your-pick-badge" id="badge-baseball_mlb_2026-08-09_los-angeles-dodgers_at_arizona-diamondbacks" style="display:none;">&#10003; Your pick</span></div>
-  <div class="meta">Sat Aug 08, 08:11 PM EDT</div>
-  <div class="odds-row"><div class="odds-item"><div class="odds-label">Moneyline</div><div class="odds-value">Arizona Diamondbacks +152 &middot; Los Angeles Dodgers -179</div></div><div class="odds-item"><div class="odds-label">Spread</div><div class="odds-value">Arizona Diamondbacks +1.5 &middot; Los Angeles Dodgers -1.5</div></div><div class="odds-item"><div class="odds-label">Total (O/U)</div><div class="odds-value">8.3</div></div><div class="odds-item"><div class="odds-label">Books</div><div class="odds-value">9</div></div></div>
-  <div class="pick-row">
-    <span>Pick:</span> <span class="pick">Arizona Diamondbacks</span>
-    <span class="confidence">60% confidence</span>
-  </div>
-  <div class="pick-row"><span>Against the spread:</span> <span class="pick">Arizona Diamondbacks</span></div>
-  <ul class="factors"><li>Dodgers mired in a brutal 7-game losing streak, 0-5 last5</li><li>Diamondbacks hold h2h edge 6-5 and won last two meetings</li><li>Arizona is 3-2 in last5 with positive momentum</li></ul>
-  <div class="reasoning">The Dodgers being heavily favored on the moneyline ignores their alarming 0-5/L7 collapse, while Arizona has won consecutive meetings and holds the season series edge. Wrobleski's strong record (11-3) combined with Arizona's home form makes this a legitimate upset spot against a struggling LA club.</div>
-  <label class="pick-toggle">
-    <input type="checkbox" id="chk-baseball_mlb_2026-08-09_los-angeles-dodgers_at_arizona-diamondbacks" data-game-id="baseball_mlb_2026-08-09_los-angeles-dodgers_at_arizona-diamondbacks"  onchange="togglePick('baseball_mlb_2026-08-09_los-angeles-dodgers_at_arizona-diamondbacks', this)"> I bet on this
-  </label>
-  <div class="pick-status" id="status-baseball_mlb_2026-08-09_los-angeles-dodgers_at_arizona-diamondbacks">Couldn't save that pick &mdash; check your connection and try again.</div>
-</div>
-<div class="card">
-  <div class="matchup">Tampa Bay Rays @ Seattle Mariners <span class="your-pick-badge" id="badge-baseball_mlb_2026-08-09_tampa-bay-rays_at_seattle-mariners" style="display:none;">&#10003; Your pick</span></div>
-  <div class="meta">Sat Aug 08, 09:50 PM EDT</div>
-  <div class="odds-row"><div class="odds-item"><div class="odds-label">Moneyline</div><div class="odds-value">Seattle Mariners -118 &middot; Tampa Bay Rays +57</div></div><div class="odds-item"><div class="odds-label">Spread</div><div class="odds-value">Seattle Mariners -0.8 &middot; Tampa Bay Rays +0.8</div></div><div class="odds-item"><div class="odds-label">Total (O/U)</div><div class="odds-value">7.0</div></div><div class="odds-item"><div class="odds-label">Books</div><div class="odds-value">9</div></div></div>
-  <div class="pick-row">
-    <span>Pick:</span> <span class="pick">Tampa Bay Rays</span>
-    <span class="confidence">60% confidence</span>
-  </div>
-  <div class="pick-row"><span>Against the spread:</span> <span class="pick">Tampa Bay Rays</span></div>
-  <ul class="factors"><li>Rays riding a 4-game win streak, 4-1 last5</li><li>Rays dominate h2h season series 3-1 and won last meeting</li><li>Rays' overall record (69-46) far superior to Seattle's (56-61)</li></ul>
-  <div class="reasoning">Despite Seattle being installed as a slight home favorite, Tampa Bay is clearly the better team by record and is riding a hot streak while dominating this season series 3-1. The narrow spread makes the Rays a solid value pick given their superior form and head-to-head success.</div>
-  <label class="pick-toggle">
-    <input type="checkbox" id="chk-baseball_mlb_2026-08-09_tampa-bay-rays_at_seattle-mariners" data-game-id="baseball_mlb_2026-08-09_tampa-bay-rays_at_seattle-mariners"  onchange="togglePick('baseball_mlb_2026-08-09_tampa-bay-rays_at_seattle-mariners', this)"> I bet on this
-  </label>
-  <div class="pick-status" id="status-baseball_mlb_2026-08-09_tampa-bay-rays_at_seattle-mariners">Couldn't save that pick &mdash; check your connection and try again.</div>
-</div>
-<div class="card">
-  <div class="matchup">Atlanta Braves @ New York Yankees <span class="your-pick-badge" id="badge-baseball_mlb_2026-08-08_atlanta-braves_at_new-york-yankees" style="display:none;">&#10003; Your pick</span></div>
-  <div class="meta">Sat Aug 08, 03:05 PM EDT</div>
-  <div class="odds-row"><div class="odds-item"><div class="odds-label">Moneyline</div><div class="odds-value">Atlanta Braves -141 &middot; New York Yankees +124</div></div><div class="odds-item"><div class="odds-label">Spread</div><div class="odds-value">Atlanta Braves -1.5 &middot; New York Yankees +1.5</div></div><div class="odds-item"><div class="odds-label">Total (O/U)</div><div class="odds-value">7.4</div></div><div class="odds-item"><div class="odds-label">Books</div><div class="odds-value">9</div></div></div>
-  <div class="pick-row">
-    <span>Pick:</span> <span class="pick">Atlanta Braves</span>
-    <span class="confidence">58% confidence</span>
-  </div>
-  <div class="pick-row"><span>Against the spread:</span> <span class="pick">Atlanta Braves</span></div>
-  <ul class="factors"><li>Chris Sale (2.08 ERA, 12-6) dominant vs Cole (3.42 ERA)</li><li>Braves 4-1 last5 despite minor 1-game skid</li><li>Yankees won last h2h meeting but overall Braves are the stronger club</li></ul>
-  <div class="reasoning">Chris Sale's elite 2.08 ERA gives Atlanta a clear pitching edge over Cole's more middling 3.42 mark. Atlanta's 70-46 record and strong recent form support them covering the modest 1.5 run spread, though the Yankees' home win streak and h2h win last night injects some uncertainty.</div>
-  <label class="pick-toggle">
-    <input type="checkbox" id="chk-baseball_mlb_2026-08-08_atlanta-braves_at_new-york-yankees" data-game-id="baseball_mlb_2026-08-08_atlanta-braves_at_new-york-yankees"  onchange="togglePick('baseball_mlb_2026-08-08_atlanta-braves_at_new-york-yankees', this)"> I bet on this
-  </label>
-  <div class="pick-status" id="status-baseball_mlb_2026-08-08_atlanta-braves_at_new-york-yankees">Couldn't save that pick &mdash; check your connection and try again.</div>
-</div>
-</div>
+<p class="updated">Last updated Aug 11, 2026 at 08:08 AM EDT</p><p class="empty">No upcoming games right now. Check back after the next data refresh.</p>
 </main>
 </div>
 
@@ -244,27 +117,37 @@ function filterLeague(league, btn) {
 <script>
 var PICKS_API = "https://bet-tracker-picks.sjackson1837.workers.dev";
 
+// A game can appear twice on the page (Top picks + its league group), so
+// every lookup below is by data-game-id across *all* matching elements
+// rather than a single unique id, to keep both copies in sync.
+function picksFor(gameId) {
+  return document.querySelectorAll('input.pick-checkbox[data-game-id="' + gameId + '"]');
+}
+function badgesFor(gameId) {
+  return document.querySelectorAll('.your-pick-badge[data-game-id="' + gameId + '"]');
+}
+function statusesFor(gameId) {
+  return document.querySelectorAll('.pick-status[data-game-id="' + gameId + '"]');
+}
+
 // Pull current selections on load so the phone and the laptop agree.
 document.addEventListener('DOMContentLoaded', function() {
   fetch(PICKS_API + '/picks', {cache: 'no-store'})
     .then(function(res) { if (!res.ok) throw new Error('bad response'); return res.json(); })
     .then(function(data) {
       var picks = (data && data.picks) || {};
-      document.querySelectorAll('input[data-game-id]').forEach(function(box) {
-        var gid = box.dataset.gameId;
-        var selected = !!picks[gid];
-        box.checked = selected;
-        var badge = document.getElementById('badge-' + gid);
-        if (badge) badge.style.display = selected ? 'inline-flex' : 'none';
+      document.querySelectorAll('input.pick-checkbox[data-game-id]').forEach(function(box) {
+        box.checked = !!picks[box.dataset.gameId];
+      });
+      document.querySelectorAll('.your-pick-badge[data-game-id]').forEach(function(badge) {
+        badge.style.display = picks[badge.dataset.gameId] ? 'inline-flex' : 'none';
       });
     })
     .catch(function() { /* offline or not configured yet -- leave rendered state */ });
 });
 
 function togglePick(gameId, checkbox) {
-  var badge = document.getElementById('badge-' + gameId);
-  var status = document.getElementById('status-' + gameId);
-  checkbox.disabled = true;
+  picksFor(gameId).forEach(function(box) { box.disabled = true; });
   fetch(PICKS_API + '/toggle-pick', {
     method: 'POST',
     headers: {'Content-Type': 'application/json'},
@@ -272,15 +155,15 @@ function togglePick(gameId, checkbox) {
   })
   .then(function(res) { if (!res.ok) throw new Error('bad response'); return res.json(); })
   .then(function(data) {
-    if (badge) badge.style.display = data.user_selected ? 'inline-flex' : 'none';
-    checkbox.checked = data.user_selected;
-    if (status) status.style.display = 'none';
+    picksFor(gameId).forEach(function(box) { box.checked = data.user_selected; });
+    badgesFor(gameId).forEach(function(badge) { badge.style.display = data.user_selected ? 'inline-flex' : 'none'; });
+    statusesFor(gameId).forEach(function(status) { status.style.display = 'none'; });
   })
   .catch(function(err) {
     checkbox.checked = !checkbox.checked;
-    if (status) status.style.display = 'block';
+    statusesFor(gameId).forEach(function(status) { status.style.display = 'block'; });
   })
-  .finally(function() { checkbox.disabled = false; });
+  .finally(function() { picksFor(gameId).forEach(function(box) { box.disabled = false; }); });
 }
 
 if ('serviceWorker' in navigator) {
