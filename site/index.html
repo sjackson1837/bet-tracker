@@ -97,9 +97,229 @@ th { color: var(--muted); font-weight: 500; font-size: 0.78rem; text-transform: 
   </nav>
 </header>
 <div class="layout">
-
+<div class="sidebar"><h3>Sports</h3><button class="league-btn active" data-league="all" onclick="filterLeague('all', this)">All Sports</button><button class="league-btn" data-league="MLS" onclick="filterLeague('MLS', this)">MLS</button></div>
 <main>
-<p class="updated">Last updated Aug 12, 2026 at 08:08 AM EDT</p><p class="empty">No upcoming games right now. Check back after the next data refresh.</p>
+<p class="updated">Last updated Aug 13, 2026 at 08:09 AM EDT</p><div class="top-picks"><h2>Top 5 by Confidence</h2><div class="top-picks-grid"><div class="card">
+  <div class="matchup">LA Galaxy @ Houston Dynamo <span class="your-pick-badge" data-game-id="soccer_usa_mls_2026-08-16_la-galaxy_at_houston-dynamo" style="display:none;">&#10003; Your pick</span></div>
+  <div class="meta">Sat Aug 15, 08:30 PM EDT</div>
+  <div class="odds-row"><div class="odds-item"><div class="odds-label">Moneyline</div><div class="odds-value">Houston Dynamo -150 &middot; LA Galaxy +346 &middot; Draw +299</div></div><div class="odds-item"><div class="odds-label">Spread</div><div class="odds-value">Houston Dynamo -0.5 &middot; LA Galaxy +0.5</div></div><div class="odds-item"><div class="odds-label">Total (O/U)</div><div class="odds-value">2.5</div></div><div class="odds-item"><div class="odds-label">Books</div><div class="odds-value">4</div></div></div>
+  <div class="pick-row">
+    <span>Pick:</span> <span class="pick">Houston Dynamo</span>
+    <span class="confidence">70% confidence</span>
+  </div>
+  <div class="pick-row"><span>Against the spread:</span> <span class="pick">Houston Dynamo</span></div>
+  <ul class="factors"><li>Houston W3 streak</li><li>Galaxy L5 streak, 0-5 last 5</li><li>Houston much better record 10-8 vs 5-14</li></ul>
+  <div class="reasoning">Houston is red hot with a 3-game win streak and 3-2 in last five, holding a solid 10-8 record, while LA Galaxy is in freefall with a 5-game losing streak and 0-5 in last five games. This is a clear case where form strongly aligns with the market favorite.</div>
+  <label class="pick-toggle">
+    <input type="checkbox" class="pick-checkbox" data-game-id="soccer_usa_mls_2026-08-16_la-galaxy_at_houston-dynamo"  onchange="togglePick('soccer_usa_mls_2026-08-16_la-galaxy_at_houston-dynamo', this)"> I bet on this
+  </label>
+  <div class="pick-status" data-game-id="soccer_usa_mls_2026-08-16_la-galaxy_at_houston-dynamo">Couldn't save that pick &mdash; check your connection and try again.</div>
+</div><div class="card">
+  <div class="matchup">Sporting Kansas City @ Colorado Rapids <span class="your-pick-badge" data-game-id="soccer_usa_mls_2026-08-16_sporting-kansas-city_at_colorado-rapids" style="display:none;">&#10003; Your pick</span></div>
+  <div class="meta">Sat Aug 15, 09:30 PM EDT</div>
+  <div class="odds-row"><div class="odds-item"><div class="odds-label">Moneyline</div><div class="odds-value">Colorado Rapids -218 &middot; Sporting Kansas City +460 &middot; Draw +367</div></div><div class="odds-item"><div class="odds-label">Spread</div><div class="odds-value">Colorado Rapids -1.2 &middot; Sporting Kansas City +1.2</div></div><div class="odds-item"><div class="odds-label">Total (O/U)</div><div class="odds-value">3.4</div></div><div class="odds-item"><div class="odds-label">Books</div><div class="odds-value">6</div></div></div>
+  <div class="pick-row">
+    <span>Pick:</span> <span class="pick">Colorado Rapids</span>
+    <span class="confidence">66% confidence</span>
+  </div>
+  <div class="pick-row"><span>Against the spread:</span> <span class="pick">Colorado Rapids</span></div>
+  <ul class="factors"><li>H2H Colorado won 4-1 this season</li><li>Colorado W1 streak vs KC L2</li><li>KC has league-worst 4-14 record</li></ul>
+  <div class="reasoning">Colorado is on a win streak and beat Sporting KC 4-1 in their only meeting this season, while KC continues to struggle with a poor 4-14 record and L2 streak. All signals point to Colorado extending their dominance in this matchup.</div>
+  <label class="pick-toggle">
+    <input type="checkbox" class="pick-checkbox" data-game-id="soccer_usa_mls_2026-08-16_sporting-kansas-city_at_colorado-rapids"  onchange="togglePick('soccer_usa_mls_2026-08-16_sporting-kansas-city_at_colorado-rapids', this)"> I bet on this
+  </label>
+  <div class="pick-status" data-game-id="soccer_usa_mls_2026-08-16_sporting-kansas-city_at_colorado-rapids">Couldn't save that pick &mdash; check your connection and try again.</div>
+</div><div class="card">
+  <div class="matchup">New England Revolution @ Toronto FC <span class="your-pick-badge" data-game-id="soccer_usa_mls_2026-08-15_new-england-revolution_at_toronto-fc" style="display:none;">&#10003; Your pick</span></div>
+  <div class="meta">Sat Aug 15, 07:30 PM EDT</div>
+  <div class="odds-row"><div class="odds-item"><div class="odds-label">Moneyline</div><div class="odds-value">New England Revolution +181 &middot; Toronto FC +129 &middot; Draw +256</div></div><div class="odds-item"><div class="odds-label">Spread</div><div class="odds-value">New England Revolution +0.5 &middot; Toronto FC -0.5</div></div><div class="odds-item"><div class="odds-label">Total (O/U)</div><div class="odds-value">2.5</div></div><div class="odds-item"><div class="odds-label">Books</div><div class="odds-value">4</div></div></div>
+  <div class="pick-row">
+    <span>Pick:</span> <span class="pick">New England Revolution</span>
+    <span class="confidence">64% confidence</span>
+  </div>
+  <div class="pick-row"><span>Against the spread:</span> <span class="pick">New England Revolution</span></div>
+  <ul class="factors"><li>Toronto L12 streak - extreme</li><li>Toronto 0-5 last 5</li><li>New England much better overall record 9-9 vs 3-15</li></ul>
+  <div class="reasoning">Toronto is in an alarming 12-game losing streak and 0-5 in their last five games with a poor 3-15 record - among the worst form in the dataset. New England, despite their own struggles (1-4 last 5, L2), is far superior in overall record (9-9) and should be able to exploit Toronto's collapse.</div>
+  <label class="pick-toggle">
+    <input type="checkbox" class="pick-checkbox" data-game-id="soccer_usa_mls_2026-08-15_new-england-revolution_at_toronto-fc"  onchange="togglePick('soccer_usa_mls_2026-08-15_new-england-revolution_at_toronto-fc', this)"> I bet on this
+  </label>
+  <div class="pick-status" data-game-id="soccer_usa_mls_2026-08-15_new-england-revolution_at_toronto-fc">Couldn't save that pick &mdash; check your connection and try again.</div>
+</div><div class="card">
+  <div class="matchup">FC Cincinnati @ Orlando City SC <span class="your-pick-badge" data-game-id="soccer_usa_mls_2026-08-15_fc-cincinnati_at_orlando-city-sc" style="display:none;">&#10003; Your pick</span></div>
+  <div class="meta">Sat Aug 15, 07:30 PM EDT</div>
+  <div class="odds-row"><div class="odds-item"><div class="odds-label">Moneyline</div><div class="odds-value">FC Cincinnati +168 &middot; Orlando City SC +121 &middot; Draw +302</div></div><div class="odds-item"><div class="odds-label">Spread</div><div class="odds-value">FC Cincinnati +0.4 &middot; Orlando City SC -0.4</div></div><div class="odds-item"><div class="odds-label">Total (O/U)</div><div class="odds-value">3.6</div></div><div class="odds-item"><div class="odds-label">Books</div><div class="odds-value">6</div></div></div>
+  <div class="pick-row">
+    <span>Pick:</span> <span class="pick">FC Cincinnati</span>
+    <span class="confidence">62% confidence</span>
+  </div>
+  <div class="pick-row"><span>Against the spread:</span> <span class="pick">FC Cincinnati</span></div>
+  <ul class="factors"><li>Cincinnati W1 streak vs Orlando L1</li><li>H2H Cincinnati won 6-2 last meeting</li><li>Cincinnati better recent form</li></ul>
+  <div class="reasoning">Cincinnati is on a winning streak and won the last head-to-head meeting convincingly 6-2, while Orlando is on a 1-game losing streak. Cincinnati's better recent form (3-2, W1) and dominant head-to-head history make them a strong value pick against the market underdog price.</div>
+  <label class="pick-toggle">
+    <input type="checkbox" class="pick-checkbox" data-game-id="soccer_usa_mls_2026-08-15_fc-cincinnati_at_orlando-city-sc"  onchange="togglePick('soccer_usa_mls_2026-08-15_fc-cincinnati_at_orlando-city-sc', this)"> I bet on this
+  </label>
+  <div class="pick-status" data-game-id="soccer_usa_mls_2026-08-15_fc-cincinnati_at_orlando-city-sc">Couldn't save that pick &mdash; check your connection and try again.</div>
+</div><div class="card">
+  <div class="matchup">New York Red Bulls @ Atlanta United FC <span class="your-pick-badge" data-game-id="soccer_usa_mls_2026-08-15_new-york-red-bulls_at_atlanta-united-fc" style="display:none;">&#10003; Your pick</span></div>
+  <div class="meta">Sat Aug 15, 07:30 PM EDT</div>
+  <div class="odds-row"><div class="odds-item"><div class="odds-label">Moneyline</div><div class="odds-value">Atlanta United FC -124 &middot; New York Red Bulls +268 &middot; Draw +304</div></div><div class="odds-item"><div class="odds-label">Spread</div><div class="odds-value">Atlanta United FC -0.5 &middot; New York Red Bulls +0.5</div></div><div class="odds-item"><div class="odds-label">Total (O/U)</div><div class="odds-value">3.4</div></div><div class="odds-item"><div class="odds-label">Books</div><div class="odds-value">6</div></div></div>
+  <div class="pick-row">
+    <span>Pick:</span> <span class="pick">New York Red Bulls</span>
+    <span class="confidence">58% confidence</span>
+  </div>
+  <div class="pick-row"><span>Against the spread:</span> <span class="pick">New York Red Bulls</span></div>
+  <ul class="factors"><li>Atlanta L7 streak</li><li>Atlanta 0-5 last 5</li><li>Atlanta 3-15 record - one of league's worst</li></ul>
+  <div class="reasoning">Atlanta is in horrific form: 0-5 in last five, on a 7-game losing streak, with a dismal 3-15 record. Even without specific data on NYRB, fading a team in this level of collapse against market pricing makes sense as a contrarian value play.</div>
+  <label class="pick-toggle">
+    <input type="checkbox" class="pick-checkbox" data-game-id="soccer_usa_mls_2026-08-15_new-york-red-bulls_at_atlanta-united-fc"  onchange="togglePick('soccer_usa_mls_2026-08-15_new-york-red-bulls_at_atlanta-united-fc', this)"> I bet on this
+  </label>
+  <div class="pick-status" data-game-id="soccer_usa_mls_2026-08-15_new-york-red-bulls_at_atlanta-united-fc">Couldn't save that pick &mdash; check your connection and try again.</div>
+</div></div></div><div class="league-group filterable-item" data-league="MLS"><h2>MLS</h2>
+<div class="card">
+  <div class="matchup">LA Galaxy @ Houston Dynamo <span class="your-pick-badge" data-game-id="soccer_usa_mls_2026-08-16_la-galaxy_at_houston-dynamo" style="display:none;">&#10003; Your pick</span></div>
+  <div class="meta">Sat Aug 15, 08:30 PM EDT</div>
+  <div class="odds-row"><div class="odds-item"><div class="odds-label">Moneyline</div><div class="odds-value">Houston Dynamo -150 &middot; LA Galaxy +346 &middot; Draw +299</div></div><div class="odds-item"><div class="odds-label">Spread</div><div class="odds-value">Houston Dynamo -0.5 &middot; LA Galaxy +0.5</div></div><div class="odds-item"><div class="odds-label">Total (O/U)</div><div class="odds-value">2.5</div></div><div class="odds-item"><div class="odds-label">Books</div><div class="odds-value">4</div></div></div>
+  <div class="pick-row">
+    <span>Pick:</span> <span class="pick">Houston Dynamo</span>
+    <span class="confidence">70% confidence</span>
+  </div>
+  <div class="pick-row"><span>Against the spread:</span> <span class="pick">Houston Dynamo</span></div>
+  <ul class="factors"><li>Houston W3 streak</li><li>Galaxy L5 streak, 0-5 last 5</li><li>Houston much better record 10-8 vs 5-14</li></ul>
+  <div class="reasoning">Houston is red hot with a 3-game win streak and 3-2 in last five, holding a solid 10-8 record, while LA Galaxy is in freefall with a 5-game losing streak and 0-5 in last five games. This is a clear case where form strongly aligns with the market favorite.</div>
+  <label class="pick-toggle">
+    <input type="checkbox" class="pick-checkbox" data-game-id="soccer_usa_mls_2026-08-16_la-galaxy_at_houston-dynamo"  onchange="togglePick('soccer_usa_mls_2026-08-16_la-galaxy_at_houston-dynamo', this)"> I bet on this
+  </label>
+  <div class="pick-status" data-game-id="soccer_usa_mls_2026-08-16_la-galaxy_at_houston-dynamo">Couldn't save that pick &mdash; check your connection and try again.</div>
+</div>
+<div class="card">
+  <div class="matchup">Sporting Kansas City @ Colorado Rapids <span class="your-pick-badge" data-game-id="soccer_usa_mls_2026-08-16_sporting-kansas-city_at_colorado-rapids" style="display:none;">&#10003; Your pick</span></div>
+  <div class="meta">Sat Aug 15, 09:30 PM EDT</div>
+  <div class="odds-row"><div class="odds-item"><div class="odds-label">Moneyline</div><div class="odds-value">Colorado Rapids -218 &middot; Sporting Kansas City +460 &middot; Draw +367</div></div><div class="odds-item"><div class="odds-label">Spread</div><div class="odds-value">Colorado Rapids -1.2 &middot; Sporting Kansas City +1.2</div></div><div class="odds-item"><div class="odds-label">Total (O/U)</div><div class="odds-value">3.4</div></div><div class="odds-item"><div class="odds-label">Books</div><div class="odds-value">6</div></div></div>
+  <div class="pick-row">
+    <span>Pick:</span> <span class="pick">Colorado Rapids</span>
+    <span class="confidence">66% confidence</span>
+  </div>
+  <div class="pick-row"><span>Against the spread:</span> <span class="pick">Colorado Rapids</span></div>
+  <ul class="factors"><li>H2H Colorado won 4-1 this season</li><li>Colorado W1 streak vs KC L2</li><li>KC has league-worst 4-14 record</li></ul>
+  <div class="reasoning">Colorado is on a win streak and beat Sporting KC 4-1 in their only meeting this season, while KC continues to struggle with a poor 4-14 record and L2 streak. All signals point to Colorado extending their dominance in this matchup.</div>
+  <label class="pick-toggle">
+    <input type="checkbox" class="pick-checkbox" data-game-id="soccer_usa_mls_2026-08-16_sporting-kansas-city_at_colorado-rapids"  onchange="togglePick('soccer_usa_mls_2026-08-16_sporting-kansas-city_at_colorado-rapids', this)"> I bet on this
+  </label>
+  <div class="pick-status" data-game-id="soccer_usa_mls_2026-08-16_sporting-kansas-city_at_colorado-rapids">Couldn't save that pick &mdash; check your connection and try again.</div>
+</div>
+<div class="card">
+  <div class="matchup">New England Revolution @ Toronto FC <span class="your-pick-badge" data-game-id="soccer_usa_mls_2026-08-15_new-england-revolution_at_toronto-fc" style="display:none;">&#10003; Your pick</span></div>
+  <div class="meta">Sat Aug 15, 07:30 PM EDT</div>
+  <div class="odds-row"><div class="odds-item"><div class="odds-label">Moneyline</div><div class="odds-value">New England Revolution +181 &middot; Toronto FC +129 &middot; Draw +256</div></div><div class="odds-item"><div class="odds-label">Spread</div><div class="odds-value">New England Revolution +0.5 &middot; Toronto FC -0.5</div></div><div class="odds-item"><div class="odds-label">Total (O/U)</div><div class="odds-value">2.5</div></div><div class="odds-item"><div class="odds-label">Books</div><div class="odds-value">4</div></div></div>
+  <div class="pick-row">
+    <span>Pick:</span> <span class="pick">New England Revolution</span>
+    <span class="confidence">64% confidence</span>
+  </div>
+  <div class="pick-row"><span>Against the spread:</span> <span class="pick">New England Revolution</span></div>
+  <ul class="factors"><li>Toronto L12 streak - extreme</li><li>Toronto 0-5 last 5</li><li>New England much better overall record 9-9 vs 3-15</li></ul>
+  <div class="reasoning">Toronto is in an alarming 12-game losing streak and 0-5 in their last five games with a poor 3-15 record - among the worst form in the dataset. New England, despite their own struggles (1-4 last 5, L2), is far superior in overall record (9-9) and should be able to exploit Toronto's collapse.</div>
+  <label class="pick-toggle">
+    <input type="checkbox" class="pick-checkbox" data-game-id="soccer_usa_mls_2026-08-15_new-england-revolution_at_toronto-fc"  onchange="togglePick('soccer_usa_mls_2026-08-15_new-england-revolution_at_toronto-fc', this)"> I bet on this
+  </label>
+  <div class="pick-status" data-game-id="soccer_usa_mls_2026-08-15_new-england-revolution_at_toronto-fc">Couldn't save that pick &mdash; check your connection and try again.</div>
+</div>
+<div class="card">
+  <div class="matchup">FC Cincinnati @ Orlando City SC <span class="your-pick-badge" data-game-id="soccer_usa_mls_2026-08-15_fc-cincinnati_at_orlando-city-sc" style="display:none;">&#10003; Your pick</span></div>
+  <div class="meta">Sat Aug 15, 07:30 PM EDT</div>
+  <div class="odds-row"><div class="odds-item"><div class="odds-label">Moneyline</div><div class="odds-value">FC Cincinnati +168 &middot; Orlando City SC +121 &middot; Draw +302</div></div><div class="odds-item"><div class="odds-label">Spread</div><div class="odds-value">FC Cincinnati +0.4 &middot; Orlando City SC -0.4</div></div><div class="odds-item"><div class="odds-label">Total (O/U)</div><div class="odds-value">3.6</div></div><div class="odds-item"><div class="odds-label">Books</div><div class="odds-value">6</div></div></div>
+  <div class="pick-row">
+    <span>Pick:</span> <span class="pick">FC Cincinnati</span>
+    <span class="confidence">62% confidence</span>
+  </div>
+  <div class="pick-row"><span>Against the spread:</span> <span class="pick">FC Cincinnati</span></div>
+  <ul class="factors"><li>Cincinnati W1 streak vs Orlando L1</li><li>H2H Cincinnati won 6-2 last meeting</li><li>Cincinnati better recent form</li></ul>
+  <div class="reasoning">Cincinnati is on a winning streak and won the last head-to-head meeting convincingly 6-2, while Orlando is on a 1-game losing streak. Cincinnati's better recent form (3-2, W1) and dominant head-to-head history make them a strong value pick against the market underdog price.</div>
+  <label class="pick-toggle">
+    <input type="checkbox" class="pick-checkbox" data-game-id="soccer_usa_mls_2026-08-15_fc-cincinnati_at_orlando-city-sc"  onchange="togglePick('soccer_usa_mls_2026-08-15_fc-cincinnati_at_orlando-city-sc', this)"> I bet on this
+  </label>
+  <div class="pick-status" data-game-id="soccer_usa_mls_2026-08-15_fc-cincinnati_at_orlando-city-sc">Couldn't save that pick &mdash; check your connection and try again.</div>
+</div>
+<div class="card">
+  <div class="matchup">New York Red Bulls @ Atlanta United FC <span class="your-pick-badge" data-game-id="soccer_usa_mls_2026-08-15_new-york-red-bulls_at_atlanta-united-fc" style="display:none;">&#10003; Your pick</span></div>
+  <div class="meta">Sat Aug 15, 07:30 PM EDT</div>
+  <div class="odds-row"><div class="odds-item"><div class="odds-label">Moneyline</div><div class="odds-value">Atlanta United FC -124 &middot; New York Red Bulls +268 &middot; Draw +304</div></div><div class="odds-item"><div class="odds-label">Spread</div><div class="odds-value">Atlanta United FC -0.5 &middot; New York Red Bulls +0.5</div></div><div class="odds-item"><div class="odds-label">Total (O/U)</div><div class="odds-value">3.4</div></div><div class="odds-item"><div class="odds-label">Books</div><div class="odds-value">6</div></div></div>
+  <div class="pick-row">
+    <span>Pick:</span> <span class="pick">New York Red Bulls</span>
+    <span class="confidence">58% confidence</span>
+  </div>
+  <div class="pick-row"><span>Against the spread:</span> <span class="pick">New York Red Bulls</span></div>
+  <ul class="factors"><li>Atlanta L7 streak</li><li>Atlanta 0-5 last 5</li><li>Atlanta 3-15 record - one of league's worst</li></ul>
+  <div class="reasoning">Atlanta is in horrific form: 0-5 in last five, on a 7-game losing streak, with a dismal 3-15 record. Even without specific data on NYRB, fading a team in this level of collapse against market pricing makes sense as a contrarian value play.</div>
+  <label class="pick-toggle">
+    <input type="checkbox" class="pick-checkbox" data-game-id="soccer_usa_mls_2026-08-15_new-york-red-bulls_at_atlanta-united-fc"  onchange="togglePick('soccer_usa_mls_2026-08-15_new-york-red-bulls_at_atlanta-united-fc', this)"> I bet on this
+  </label>
+  <div class="pick-status" data-game-id="soccer_usa_mls_2026-08-15_new-york-red-bulls_at_atlanta-united-fc">Couldn't save that pick &mdash; check your connection and try again.</div>
+</div>
+<div class="card">
+  <div class="matchup">San Diego FC @ Los Angeles FC <span class="your-pick-badge" data-game-id="soccer_usa_mls_2026-08-16_san-diego-fc_at_los-angeles-fc" style="display:none;">&#10003; Your pick</span></div>
+  <div class="meta">Sat Aug 15, 10:30 PM EDT</div>
+  <div class="odds-row"><div class="odds-item"><div class="odds-label">Moneyline</div><div class="odds-value">Los Angeles FC -187 &middot; San Diego FC +392 &middot; Draw +352</div></div><div class="odds-item"><div class="odds-label">Spread</div><div class="odds-value">Los Angeles FC -1.2 &middot; San Diego FC +1.2</div></div><div class="odds-item"><div class="odds-label">Total (O/U)</div><div class="odds-value">3.4</div></div><div class="odds-item"><div class="odds-label">Books</div><div class="odds-value">6</div></div></div>
+  <div class="pick-row">
+    <span>Pick:</span> <span class="pick">Los Angeles FC</span>
+    <span class="confidence">58% confidence</span>
+  </div>
+  <div class="pick-row"><span>Against the spread:</span> <span class="pick">Los Angeles FC</span></div>
+  <ul class="factors"><li>San Diego poor 1-4 last 5 form</li><li>San Diego L1 streak</li><li>No trend data for LAFC - lower confidence</li></ul>
+  <div class="reasoning">San Diego is struggling with a 1-4 last five record while LAFC has no listed trend data, but the market prices LAFC as a strong home favorite. With San Diego's poor recent form as the only concrete signal, siding with the home favorite is reasonable, though confidence is tempered by missing LAFC data.</div>
+  <label class="pick-toggle">
+    <input type="checkbox" class="pick-checkbox" data-game-id="soccer_usa_mls_2026-08-16_san-diego-fc_at_los-angeles-fc"  onchange="togglePick('soccer_usa_mls_2026-08-16_san-diego-fc_at_los-angeles-fc', this)"> I bet on this
+  </label>
+  <div class="pick-status" data-game-id="soccer_usa_mls_2026-08-16_san-diego-fc_at_los-angeles-fc">Couldn't save that pick &mdash; check your connection and try again.</div>
+</div>
+<div class="card">
+  <div class="matchup">St. Louis City SC @ San Jose Earthquakes <span class="your-pick-badge" data-game-id="soccer_usa_mls_2026-08-16_st.-louis-city-sc_at_san-jose-earthquakes" style="display:none;">&#10003; Your pick</span></div>
+  <div class="meta">Sat Aug 15, 10:30 PM EDT</div>
+  <div class="odds-row"><div class="odds-item"><div class="odds-label">Moneyline</div><div class="odds-value">San Jose Earthquakes -2 &middot; St. Louis City SC +224 &middot; Draw +284</div></div><div class="odds-item"><div class="odds-label">Spread</div><div class="odds-value">San Jose Earthquakes -0.4 &middot; St. Louis City SC +0.4</div></div><div class="odds-item"><div class="odds-label">Total (O/U)</div><div class="odds-value">3.4</div></div><div class="odds-item"><div class="odds-label">Books</div><div class="odds-value">6</div></div></div>
+  <div class="pick-row">
+    <span>Pick:</span> <span class="pick">St. Louis City SC</span>
+    <span class="confidence">58% confidence</span>
+  </div>
+  <div class="pick-row"><span>Against the spread:</span> <span class="pick">St. Louis City SC</span></div>
+  <ul class="factors"><li>St. Louis 4-1 last 5 vs San Jose 1-4</li><li>San Jose L3 streak</li><li>H2H split - San Jose won earlier meeting</li></ul>
+  <div class="reasoning">St. Louis has excellent recent form (4-1 last 5) compared to San Jose's poor form (1-4 last 5, L3 streak), despite San Jose having a better overall record and winning the head-to-head meeting earlier this season. The recent form disparity is significant enough to favor the road side against the market's slight home favorite pricing.</div>
+  <label class="pick-toggle">
+    <input type="checkbox" class="pick-checkbox" data-game-id="soccer_usa_mls_2026-08-16_st.-louis-city-sc_at_san-jose-earthquakes"  onchange="togglePick('soccer_usa_mls_2026-08-16_st.-louis-city-sc_at_san-jose-earthquakes', this)"> I bet on this
+  </label>
+  <div class="pick-status" data-game-id="soccer_usa_mls_2026-08-16_st.-louis-city-sc_at_san-jose-earthquakes">Couldn't save that pick &mdash; check your connection and try again.</div>
+</div>
+<div class="card">
+  <div class="matchup">Columbus Crew SC @ Charlotte FC <span class="your-pick-badge" data-game-id="soccer_usa_mls_2026-08-15_columbus-crew-sc_at_charlotte-fc" style="display:none;">&#10003; Your pick</span></div>
+  <div class="meta">Sat Aug 15, 07:30 PM EDT</div>
+  <div class="odds-row"><div class="odds-item"><div class="odds-label">Moneyline</div><div class="odds-value">Charlotte FC +122 &middot; Columbus Crew SC +191 &middot; Draw +257</div></div><div class="odds-item"><div class="odds-label">Spread</div><div class="odds-value">Charlotte FC -0.4 &middot; Columbus Crew SC +0.4</div></div><div class="odds-item"><div class="odds-label">Total (O/U)</div><div class="odds-value">2.6</div></div><div class="odds-item"><div class="odds-label">Books</div><div class="odds-value">6</div></div></div>
+  <div class="pick-row">
+    <span>Pick:</span> <span class="pick">Charlotte FC</span>
+    <span class="confidence">57% confidence</span>
+  </div>
+  <div class="pick-row"><span>Against the spread:</span> <span class="pick">Charlotte FC</span></div>
+  <ul class="factors"><li>Charlotte better last5 form</li><li>Charlotte better overall record</li><li>Home field advantage</li></ul>
+  <div class="reasoning">Charlotte is in better recent form (3-2 last 5) compared to Columbus (2-3 last 5), and has a superior overall record (7-11 vs 5-13). Home field plus better recent form supports the market favorite here.</div>
+  <label class="pick-toggle">
+    <input type="checkbox" class="pick-checkbox" data-game-id="soccer_usa_mls_2026-08-15_columbus-crew-sc_at_charlotte-fc"  onchange="togglePick('soccer_usa_mls_2026-08-15_columbus-crew-sc_at_charlotte-fc', this)"> I bet on this
+  </label>
+  <div class="pick-status" data-game-id="soccer_usa_mls_2026-08-15_columbus-crew-sc_at_charlotte-fc">Couldn't save that pick &mdash; check your connection and try again.</div>
+</div>
+<div class="card">
+  <div class="matchup">D.C. United @ CF Montreal <span class="your-pick-badge" data-game-id="soccer_usa_mls_2026-08-15_d.c.-united_at_cf-montreal" style="display:none;">&#10003; Your pick</span></div>
+  <div class="meta">Sat Aug 15, 07:30 PM EDT</div>
+  <div class="odds-row"><div class="odds-item"><div class="odds-label">Moneyline</div><div class="odds-value">CF Montreal +120 &middot; D.C. United +197 &middot; Draw +251</div></div><div class="odds-item"><div class="odds-label">Spread</div><div class="odds-value">CF Montreal -0.4 &middot; D.C. United +0.4</div></div><div class="odds-item"><div class="odds-label">Total (O/U)</div><div class="odds-value">2.6</div></div><div class="odds-item"><div class="odds-label">Books</div><div class="odds-value">6</div></div></div>
+  <div class="pick-row">
+    <span>Pick:</span> <span class="pick">D.C. United</span>
+    <span class="confidence">56% confidence</span>
+  </div>
+  <div class="pick-row"><span>Against the spread:</span> <span class="pick">D.C. United</span></div>
+  <ul class="factors"><li>Montreal L7 streak</li><li>Montreal 0-5 last 5</li><li>H2H D.C. did not lose outright this season</li></ul>
+  <div class="reasoning">CF Montreal is in freefall with a 7-game losing streak and 0-5 in last five games, and lost the head-to-head meeting this season 4-4 (via shootout/penalties implied). D.C. United, while also struggling (1-4 last 5), has a less severe skid and the market underrates them given Montreal's collapse.</div>
+  <label class="pick-toggle">
+    <input type="checkbox" class="pick-checkbox" data-game-id="soccer_usa_mls_2026-08-15_d.c.-united_at_cf-montreal"  onchange="togglePick('soccer_usa_mls_2026-08-15_d.c.-united_at_cf-montreal', this)"> I bet on this
+  </label>
+  <div class="pick-status" data-game-id="soccer_usa_mls_2026-08-15_d.c.-united_at_cf-montreal">Couldn't save that pick &mdash; check your connection and try again.</div>
+</div>
+</div>
 </main>
 </div>
 

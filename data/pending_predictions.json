@@ -1,4 +1,538 @@
 {
   "instructions": "For each game below, act as a sharp, disciplined sports betting analyst. Do NOT simply pick whichever side the betting market favors -- weigh the actual trend data provided (recent form, streaks, head-to-head history, starting pitcher matchups where given, and weather where relevant) and form an independent judgment. It's fine, and expected, to disagree with the market when the trends support it. If trend data is sparse for a game, say so and let that lower your confidence rather than defaulting to the favorite. For each game_id, produce: predicted_winner (exact team name), predicted_against_spread (exact team name), confidence (integer 1-100), key_factors (2-4 short strings), and reasoning (2-4 sentences referencing the specific trend data given).",
-  "games": {}
+  "games": {
+    "soccer_spain_la_liga_2026-08-15_getafe_at_alav\u00e9s": {
+      "league": "La Liga",
+      "away_team": "Getafe",
+      "home_team": "Alav\u00e9s",
+      "commence_time": "2026-08-15T17:30:00Z",
+      "market_line": {
+        "moneyline": {
+          "Alav\u00e9s": 140,
+          "Getafe": 260,
+          "Draw": 179
+        },
+        "spread": {
+          "Alav\u00e9s": -0.1,
+          "Getafe": 0.1
+        },
+        "total": 1.6,
+        "num_bookmakers": 7
+      },
+      "away_team_trends": {
+        "team": "Getafe",
+        "last5": null,
+        "streak": null,
+        "record": null,
+        "h2h_vs_opponent": null
+      },
+      "home_team_trends": {
+        "team": "Alav\u00e9s",
+        "last5": null,
+        "streak": null,
+        "record": null,
+        "h2h_vs_opponent": null
+      },
+      "weather_at_kickoff": null,
+      "probable_pitchers": {
+        "home": null,
+        "away": null
+      }
+    },
+    "soccer_spain_la_liga_2026-08-15_rayo-vallecano_at_sevilla": {
+      "league": "La Liga",
+      "away_team": "Rayo Vallecano",
+      "home_team": "Sevilla",
+      "commence_time": "2026-08-15T19:30:00Z",
+      "market_line": {
+        "moneyline": {
+          "Rayo Vallecano": 238,
+          "Sevilla": 123,
+          "Draw": 223
+        },
+        "spread": {
+          "Rayo Vallecano": 0.4,
+          "Sevilla": -0.4
+        },
+        "total": 2.2,
+        "num_bookmakers": 8
+      },
+      "away_team_trends": {
+        "team": "Rayo Vallecano",
+        "last5": null,
+        "streak": null,
+        "record": null,
+        "h2h_vs_opponent": null
+      },
+      "home_team_trends": {
+        "team": "Sevilla",
+        "last5": null,
+        "streak": null,
+        "record": null,
+        "h2h_vs_opponent": null
+      },
+      "weather_at_kickoff": null,
+      "probable_pitchers": {
+        "home": null,
+        "away": null
+      }
+    },
+    "soccer_usa_mls_2026-08-15_new-york-red-bulls_at_atlanta-united-fc": {
+      "league": "MLS",
+      "away_team": "New York Red Bulls",
+      "home_team": "Atlanta United FC",
+      "commence_time": "2026-08-15T23:30:00Z",
+      "market_line": {
+        "moneyline": {
+          "Atlanta United FC": -124,
+          "New York Red Bulls": 268,
+          "Draw": 304
+        },
+        "spread": {
+          "Atlanta United FC": -0.5,
+          "New York Red Bulls": 0.5
+        },
+        "total": 3.4,
+        "num_bookmakers": 6
+      },
+      "away_team_trends": {
+        "team": "New York Red Bulls",
+        "last5": null,
+        "streak": null,
+        "record": null,
+        "h2h_vs_opponent": null
+      },
+      "home_team_trends": {
+        "team": "Atlanta United FC",
+        "last5": "0-5",
+        "streak": "L7",
+        "record": "3-15",
+        "h2h_vs_opponent": null
+      },
+      "weather_at_kickoff": null,
+      "probable_pitchers": {
+        "home": null,
+        "away": null
+      }
+    },
+    "soccer_usa_mls_2026-08-15_d.c.-united_at_cf-montreal": {
+      "league": "MLS",
+      "away_team": "D.C. United",
+      "home_team": "CF Montreal",
+      "commence_time": "2026-08-15T23:30:00Z",
+      "market_line": {
+        "moneyline": {
+          "CF Montreal": 120,
+          "D.C. United": 197,
+          "Draw": 251
+        },
+        "spread": {
+          "CF Montreal": -0.4,
+          "D.C. United": 0.4
+        },
+        "total": 2.6,
+        "num_bookmakers": 6
+      },
+      "away_team_trends": {
+        "team": "D.C. United",
+        "last5": "1-4",
+        "streak": "L1",
+        "record": "5-13",
+        "h2h_vs_opponent": null
+      },
+      "home_team_trends": {
+        "team": "CF Montreal",
+        "last5": "0-5",
+        "streak": "L7",
+        "record": "4-14",
+        "h2h_vs_opponent": {
+          "record_this_season": "0-1",
+          "last_meeting_result": "lost 4-4 on 2026-05-23"
+        }
+      },
+      "weather_at_kickoff": null,
+      "probable_pitchers": {
+        "home": null,
+        "away": null
+      }
+    },
+    "soccer_usa_mls_2026-08-15_columbus-crew-sc_at_charlotte-fc": {
+      "league": "MLS",
+      "away_team": "Columbus Crew SC",
+      "home_team": "Charlotte FC",
+      "commence_time": "2026-08-15T23:30:00Z",
+      "market_line": {
+        "moneyline": {
+          "Charlotte FC": 122,
+          "Columbus Crew SC": 191,
+          "Draw": 257
+        },
+        "spread": {
+          "Charlotte FC": -0.4,
+          "Columbus Crew SC": 0.4
+        },
+        "total": 2.6,
+        "num_bookmakers": 6
+      },
+      "away_team_trends": {
+        "team": "Columbus Crew SC",
+        "last5": "2-3",
+        "streak": "L1",
+        "record": "5-13",
+        "h2h_vs_opponent": null
+      },
+      "home_team_trends": {
+        "team": "Charlotte FC",
+        "last5": "3-2",
+        "streak": "L1",
+        "record": "7-11",
+        "h2h_vs_opponent": null
+      },
+      "weather_at_kickoff": null,
+      "probable_pitchers": {
+        "home": null,
+        "away": null
+      }
+    },
+    "soccer_usa_mls_2026-08-15_fc-cincinnati_at_orlando-city-sc": {
+      "league": "MLS",
+      "away_team": "FC Cincinnati",
+      "home_team": "Orlando City SC",
+      "commence_time": "2026-08-15T23:30:00Z",
+      "market_line": {
+        "moneyline": {
+          "FC Cincinnati": 168,
+          "Orlando City SC": 121,
+          "Draw": 302
+        },
+        "spread": {
+          "FC Cincinnati": 0.4,
+          "Orlando City SC": -0.4
+        },
+        "total": 3.6,
+        "num_bookmakers": 6
+      },
+      "away_team_trends": {
+        "team": "FC Cincinnati",
+        "last5": "3-2",
+        "streak": "W1",
+        "record": "7-11",
+        "h2h_vs_opponent": {
+          "record_this_season": "1-0",
+          "last_meeting_result": "won 6-2 on 2026-05-23"
+        }
+      },
+      "home_team_trends": {
+        "team": "Orlando City SC",
+        "last5": "2-3",
+        "streak": "L1",
+        "record": "6-12",
+        "h2h_vs_opponent": {
+          "record_this_season": "0-1",
+          "last_meeting_result": "lost 2-6 on 2026-05-23"
+        }
+      },
+      "weather_at_kickoff": null,
+      "probable_pitchers": {
+        "home": null,
+        "away": null
+      }
+    },
+    "soccer_usa_mls_2026-08-15_new-england-revolution_at_toronto-fc": {
+      "league": "MLS",
+      "away_team": "New England Revolution",
+      "home_team": "Toronto FC",
+      "commence_time": "2026-08-15T23:30:00Z",
+      "market_line": {
+        "moneyline": {
+          "New England Revolution": 181,
+          "Toronto FC": 129,
+          "Draw": 256
+        },
+        "spread": {
+          "New England Revolution": 0.5,
+          "Toronto FC": -0.5
+        },
+        "total": 2.5,
+        "num_bookmakers": 4
+      },
+      "away_team_trends": {
+        "team": "New England Revolution",
+        "last5": "1-4",
+        "streak": "L2",
+        "record": "9-9",
+        "h2h_vs_opponent": {
+          "record_this_season": "0-1",
+          "last_meeting_result": "lost 0-0 on 2026-07-22"
+        }
+      },
+      "home_team_trends": {
+        "team": "Toronto FC",
+        "last5": "0-5",
+        "streak": "L12",
+        "record": "3-15",
+        "h2h_vs_opponent": {
+          "record_this_season": "0-1",
+          "last_meeting_result": "lost 0-0 on 2026-07-22"
+        }
+      },
+      "weather_at_kickoff": null,
+      "probable_pitchers": {
+        "home": null,
+        "away": null
+      }
+    },
+    "soccer_usa_mls_2026-08-16_la-galaxy_at_houston-dynamo": {
+      "league": "MLS",
+      "away_team": "LA Galaxy",
+      "home_team": "Houston Dynamo",
+      "commence_time": "2026-08-16T00:30:00Z",
+      "market_line": {
+        "moneyline": {
+          "Houston Dynamo": -150,
+          "LA Galaxy": 346,
+          "Draw": 299
+        },
+        "spread": {
+          "Houston Dynamo": -0.5,
+          "LA Galaxy": 0.5
+        },
+        "total": 2.5,
+        "num_bookmakers": 4
+      },
+      "away_team_trends": {
+        "team": "LA Galaxy",
+        "last5": "0-5",
+        "streak": "L5",
+        "record": "5-14",
+        "h2h_vs_opponent": {
+          "record_this_season": "0-1",
+          "last_meeting_result": "lost 1-1 on 2026-05-24"
+        }
+      },
+      "home_team_trends": {
+        "team": "Houston Dynamo",
+        "last5": "3-2",
+        "streak": "W3",
+        "record": "10-8",
+        "h2h_vs_opponent": {
+          "record_this_season": "0-1",
+          "last_meeting_result": "lost 1-1 on 2026-05-24"
+        }
+      },
+      "weather_at_kickoff": null,
+      "probable_pitchers": {
+        "home": null,
+        "away": null
+      }
+    },
+    "soccer_usa_mls_2026-08-16_inter-miami-cf_at_nashville-sc": {
+      "league": "MLS",
+      "away_team": "Inter Miami CF",
+      "home_team": "Nashville SC",
+      "commence_time": "2026-08-16T00:30:00Z",
+      "market_line": {
+        "moneyline": {
+          "Inter Miami CF": 181,
+          "Nashville SC": 127,
+          "Draw": 263
+        },
+        "spread": {
+          "Inter Miami CF": 0.4,
+          "Nashville SC": -0.4
+        },
+        "total": 3.4,
+        "num_bookmakers": 6
+      },
+      "away_team_trends": {
+        "team": "Inter Miami CF",
+        "last5": "4-1",
+        "streak": "L1",
+        "record": "11-7",
+        "h2h_vs_opponent": null
+      },
+      "home_team_trends": {
+        "team": "Nashville SC",
+        "last5": "3-2",
+        "streak": "L2",
+        "record": "12-6",
+        "h2h_vs_opponent": null
+      },
+      "weather_at_kickoff": null,
+      "probable_pitchers": {
+        "home": null,
+        "away": null
+      }
+    },
+    "soccer_usa_mls_2026-08-16_sporting-kansas-city_at_colorado-rapids": {
+      "league": "MLS",
+      "away_team": "Sporting Kansas City",
+      "home_team": "Colorado Rapids",
+      "commence_time": "2026-08-16T01:30:00Z",
+      "market_line": {
+        "moneyline": {
+          "Colorado Rapids": -218,
+          "Sporting Kansas City": 460,
+          "Draw": 367
+        },
+        "spread": {
+          "Colorado Rapids": -1.2,
+          "Sporting Kansas City": 1.2
+        },
+        "total": 3.4,
+        "num_bookmakers": 6
+      },
+      "away_team_trends": {
+        "team": "Sporting Kansas City",
+        "last5": "1-4",
+        "streak": "L2",
+        "record": "4-14",
+        "h2h_vs_opponent": {
+          "record_this_season": "0-1",
+          "last_meeting_result": "lost 1-4 on 2026-03-22"
+        }
+      },
+      "home_team_trends": {
+        "team": "Colorado Rapids",
+        "last5": "2-3",
+        "streak": "W1",
+        "record": "7-11",
+        "h2h_vs_opponent": {
+          "record_this_season": "1-0",
+          "last_meeting_result": "won 4-1 on 2026-03-22"
+        }
+      },
+      "weather_at_kickoff": null,
+      "probable_pitchers": {
+        "home": null,
+        "away": null
+      }
+    },
+    "soccer_usa_mls_2026-08-16_minnesota-united-fc_at_real-salt-lake": {
+      "league": "MLS",
+      "away_team": "Minnesota United FC",
+      "home_team": "Real Salt Lake",
+      "commence_time": "2026-08-16T01:30:00Z",
+      "market_line": {
+        "moneyline": {
+          "Minnesota United FC": 321,
+          "Real Salt Lake": -135,
+          "Draw": 279
+        },
+        "spread": {
+          "Minnesota United FC": 0.5,
+          "Real Salt Lake": -0.5
+        },
+        "total": 2.6,
+        "num_bookmakers": 6
+      },
+      "away_team_trends": {
+        "team": "Minnesota United FC",
+        "last5": "0-5",
+        "streak": "L7",
+        "record": "6-12",
+        "h2h_vs_opponent": {
+          "record_this_season": "0-1",
+          "last_meeting_result": "lost 1-1 on 2026-05-23"
+        }
+      },
+      "home_team_trends": {
+        "team": "Real Salt Lake",
+        "last5": "1-4",
+        "streak": "L4",
+        "record": "8-9",
+        "h2h_vs_opponent": {
+          "record_this_season": "0-1",
+          "last_meeting_result": "lost 1-1 on 2026-05-23"
+        }
+      },
+      "weather_at_kickoff": null,
+      "probable_pitchers": {
+        "home": null,
+        "away": null
+      }
+    },
+    "soccer_usa_mls_2026-08-16_san-diego-fc_at_los-angeles-fc": {
+      "league": "MLS",
+      "away_team": "San Diego FC",
+      "home_team": "Los Angeles FC",
+      "commence_time": "2026-08-16T02:30:00Z",
+      "market_line": {
+        "moneyline": {
+          "Los Angeles FC": -187,
+          "San Diego FC": 392,
+          "Draw": 352
+        },
+        "spread": {
+          "Los Angeles FC": -1.2,
+          "San Diego FC": 1.2
+        },
+        "total": 3.4,
+        "num_bookmakers": 6
+      },
+      "away_team_trends": {
+        "team": "San Diego FC",
+        "last5": "1-4",
+        "streak": "L1",
+        "record": "5-13",
+        "h2h_vs_opponent": null
+      },
+      "home_team_trends": {
+        "team": "Los Angeles FC",
+        "last5": null,
+        "streak": null,
+        "record": null,
+        "h2h_vs_opponent": null
+      },
+      "weather_at_kickoff": null,
+      "probable_pitchers": {
+        "home": null,
+        "away": null
+      }
+    },
+    "soccer_usa_mls_2026-08-16_st.-louis-city-sc_at_san-jose-earthquakes": {
+      "league": "MLS",
+      "away_team": "St. Louis City SC",
+      "home_team": "San Jose Earthquakes",
+      "commence_time": "2026-08-16T02:30:00Z",
+      "market_line": {
+        "moneyline": {
+          "San Jose Earthquakes": -2,
+          "St. Louis City SC": 224,
+          "Draw": 284
+        },
+        "spread": {
+          "San Jose Earthquakes": -0.4,
+          "St. Louis City SC": 0.4
+        },
+        "total": 3.4,
+        "num_bookmakers": 6
+      },
+      "away_team_trends": {
+        "team": "St. Louis City SC",
+        "last5": "4-1",
+        "streak": "L1",
+        "record": "7-11",
+        "h2h_vs_opponent": {
+          "record_this_season": "0-1",
+          "last_meeting_result": "lost 2-3 on 2026-04-26"
+        }
+      },
+      "home_team_trends": {
+        "team": "San Jose Earthquakes",
+        "last5": "1-4",
+        "streak": "L3",
+        "record": "10-8",
+        "h2h_vs_opponent": {
+          "record_this_season": "1-0",
+          "last_meeting_result": "won 3-2 on 2026-04-26"
+        }
+      },
+      "weather_at_kickoff": null,
+      "probable_pitchers": {
+        "home": null,
+        "away": null
+      }
+    }
+  }
 }
