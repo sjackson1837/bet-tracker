@@ -11186,7 +11186,7 @@
     "espn_sport": "soccer",
     "espn_league": "esp.1",
     "outdoor": true,
-    "status": "scheduled",
+    "status": "predicted",
     "odds": {
       "moneyline": {
         "Real Racing Club de Santander": 199,
@@ -11200,7 +11200,53 @@
       "total": 2.5,
       "num_bookmakers": 8
     },
-    "prediction": null,
+    "prediction": {
+      "predicted_winner": "Villarreal",
+      "predicted_against_spread": "Villarreal",
+      "confidence": 55,
+      "key_factors": [
+        "Villarreal favored by market (moneyline +132 vs +199)",
+        "No recent form data available for either side",
+        "Villarreal generally stronger squad on paper as established La Liga side"
+      ],
+      "reasoning": "No trend data is provided for either team, so this is essentially a market-based lean. Villarreal is the clear market favorite and is historically the stronger club compared to newly-promoted Racing Santander, so we side with the market here given the lack of contradicting data.",
+      "context_used": {
+        "away_trends": {
+          "team": "Villarreal",
+          "last5": null,
+          "streak": null,
+          "record": null,
+          "h2h_vs_opponent": null
+        },
+        "home_trends": {
+          "team": "Real Racing Club de Santander",
+          "last5": null,
+          "streak": null,
+          "record": null,
+          "h2h_vs_opponent": null
+        },
+        "weather": null,
+        "probable_pitchers": {
+          "home": null,
+          "away": null
+        }
+      },
+      "generated_at": "2026-08-14T12:07:01.657934+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "Real Racing Club de Santander": 199,
+          "Villarreal": 132,
+          "Draw": 248
+        },
+        "spread": {
+          "Real Racing Club de Santander": 0.1,
+          "Villarreal": -0.1
+        },
+        "total": 2.5,
+        "num_bookmakers": 8
+      }
+    },
     "actual": null
   },
   "soccer_spain_la_liga_2026-08-16_levante_at_espanyol": {
@@ -11212,7 +11258,7 @@
     "espn_sport": "soccer",
     "espn_league": "esp.1",
     "outdoor": true,
-    "status": "scheduled",
+    "status": "predicted",
     "odds": {
       "moneyline": {
         "Espanyol": 78,
@@ -11226,7 +11272,53 @@
       "total": 2.3,
       "num_bookmakers": 8
     },
-    "prediction": null,
+    "prediction": {
+      "predicted_winner": "Espanyol",
+      "predicted_against_spread": "Espanyol",
+      "confidence": 58,
+      "key_factors": [
+        "Espanyol heavily favored on moneyline (-0.5 spread favorite)",
+        "No recent form/streak data provided for either team",
+        "Home advantage typically significant in La Liga"
+      ],
+      "reasoning": "Lack of trend data limits confidence, but the market gives Espanyol a strong home favorite status (implied ~70% win probability) which aligns with typical home-field strength in La Liga. Absent any contradicting signals, we lean with Espanyol but keep confidence moderate due to data sparsity.",
+      "context_used": {
+        "away_trends": {
+          "team": "Levante",
+          "last5": null,
+          "streak": null,
+          "record": null,
+          "h2h_vs_opponent": null
+        },
+        "home_trends": {
+          "team": "Espanyol",
+          "last5": null,
+          "streak": null,
+          "record": null,
+          "h2h_vs_opponent": null
+        },
+        "weather": null,
+        "probable_pitchers": {
+          "home": null,
+          "away": null
+        }
+      },
+      "generated_at": "2026-08-14T12:07:01.657934+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "Espanyol": 78,
+          "Levante": 288,
+          "Draw": 231
+        },
+        "spread": {
+          "Espanyol": -0.5,
+          "Levante": 0.5
+        },
+        "total": 2.3,
+        "num_bookmakers": 8
+      }
+    },
     "actual": null
   },
   "soccer_spain_la_liga_2026-08-16_ca-osasuna_at_celta-vigo": {
@@ -11238,7 +11330,7 @@
     "espn_sport": "soccer",
     "espn_league": "esp.1",
     "outdoor": true,
-    "status": "scheduled",
+    "status": "predicted",
     "odds": {
       "moneyline": {
         "CA Osasuna": 273,
@@ -11252,7 +11344,53 @@
       "total": 2.4,
       "num_bookmakers": 8
     },
-    "prediction": null,
+    "prediction": {
+      "predicted_winner": "Celta Vigo",
+      "predicted_against_spread": "Celta Vigo",
+      "confidence": 58,
+      "key_factors": [
+        "Celta Vigo strong home favorite (-0.5 spread)",
+        "No recent form data for either club",
+        "Home advantage in La Liga favors Celta"
+      ],
+      "reasoning": "No specific trend data is available, so we rely primarily on market pricing which shows Celta Vigo as a heavy home favorite. Given the sparse data, confidence is only moderate despite the lopsided odds.",
+      "context_used": {
+        "away_trends": {
+          "team": "CA Osasuna",
+          "last5": null,
+          "streak": null,
+          "record": null,
+          "h2h_vs_opponent": null
+        },
+        "home_trends": {
+          "team": "Celta Vigo",
+          "last5": null,
+          "streak": null,
+          "record": null,
+          "h2h_vs_opponent": null
+        },
+        "weather": null,
+        "probable_pitchers": {
+          "home": null,
+          "away": null
+        }
+      },
+      "generated_at": "2026-08-14T12:07:01.657934+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "CA Osasuna": 273,
+          "Celta Vigo": 78,
+          "Draw": 244
+        },
+        "spread": {
+          "CA Osasuna": 0.5,
+          "Celta Vigo": -0.5
+        },
+        "total": 2.4,
+        "num_bookmakers": 8
+      }
+    },
     "actual": null
   },
   "soccer_spain_la_liga_2026-08-17_elche-cf_at_deportivo-la-coru\u00f1a": {
@@ -13977,7 +14115,7 @@
     "espn_sport": "soccer",
     "espn_league": "usa.1",
     "outdoor": true,
-    "status": "scheduled",
+    "status": "predicted",
     "odds": {
       "moneyline": {
         "Chicago Fire": -191,
@@ -13991,7 +14129,54 @@
       "total": 3.5,
       "num_bookmakers": 6
     },
-    "prediction": null,
+    "prediction": {
+      "predicted_winner": "Chicago Fire",
+      "predicted_against_spread": "Chicago Fire",
+      "confidence": 60,
+      "key_factors": [
+        "Both teams on winning streaks (Chicago W1, Portland W2)",
+        "Chicago has better overall record (9-8 vs 7-11)",
+        "Home field advantage for Chicago",
+        "Both last5 records identical at 3-2"
+      ],
+      "reasoning": "Chicago Fire has a superior overall record (9-8) compared to Portland (7-11) and holds home advantage, which typically matters in MLS. Both teams have similar recent form (3-2 in last 5) and are on modest winning streaks, but Chicago's home edge and better season-long record tip the scale toward the hosts covering the -1.2 spread.",
+      "context_used": {
+        "away_trends": {
+          "team": "Portland Timbers",
+          "last5": "3-2",
+          "streak": "W2",
+          "record": "7-11",
+          "h2h_vs_opponent": null
+        },
+        "home_trends": {
+          "team": "Chicago Fire",
+          "last5": "3-2",
+          "streak": "W1",
+          "record": "9-8",
+          "h2h_vs_opponent": null
+        },
+        "weather": null,
+        "probable_pitchers": {
+          "home": null,
+          "away": null
+        }
+      },
+      "generated_at": "2026-08-14T12:07:01.657934+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "Chicago Fire": -191,
+          "Portland Timbers": 394,
+          "Draw": 357
+        },
+        "spread": {
+          "Chicago Fire": -1.2,
+          "Portland Timbers": 1.2
+        },
+        "total": 3.5,
+        "num_bookmakers": 6
+      }
+    },
     "actual": null
   },
   "soccer_usa_mls_2026-08-16_philadelphia-union_at_new-york-city-fc": {
@@ -14003,7 +14188,7 @@
     "espn_sport": "soccer",
     "espn_league": "usa.1",
     "outdoor": true,
-    "status": "scheduled",
+    "status": "predicted",
     "odds": {
       "moneyline": {
         "New York City FC": 111,
@@ -14017,7 +14202,60 @@
       "total": 2.6,
       "num_bookmakers": 6
     },
-    "prediction": null,
+    "prediction": {
+      "predicted_winner": "New York City FC",
+      "predicted_against_spread": "Philadelphia Union",
+      "confidence": 52,
+      "key_factors": [
+        "Philadelphia on W3 streak despite poor 4-14 record",
+        "NYC on L1 streak but better overall record (7-11)",
+        "NYCFC won head-to-head meeting this season 2-1",
+        "Philadelphia's underlying record is much worse despite hot streak"
+      ],
+      "reasoning": "This is a close call: NYCFC has the better overall record and head-to-head edge (won 2-1 earlier this season), supporting them as the moneyline pick, but Philadelphia's current W3 streak signals real momentum that could keep the game tight and let them cover the generous +0.4 spread. We lean NYCFC to win outright but expect Philadelphia to keep it close given their hot streak.",
+      "context_used": {
+        "away_trends": {
+          "team": "Philadelphia Union",
+          "last5": "3-2",
+          "streak": "W3",
+          "record": "4-14",
+          "h2h_vs_opponent": {
+            "record_this_season": "0-1",
+            "last_meeting_result": "lost 1-2 on 2026-03-01"
+          }
+        },
+        "home_trends": {
+          "team": "New York City FC",
+          "last5": "2-3",
+          "streak": "L1",
+          "record": "7-11",
+          "h2h_vs_opponent": {
+            "record_this_season": "1-0",
+            "last_meeting_result": "won 2-1 on 2026-03-01"
+          }
+        },
+        "weather": null,
+        "probable_pitchers": {
+          "home": null,
+          "away": null
+        }
+      },
+      "generated_at": "2026-08-14T12:07:01.657934+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "New York City FC": 111,
+          "Philadelphia Union": 207,
+          "Draw": 262
+        },
+        "spread": {
+          "New York City FC": -0.4,
+          "Philadelphia Union": 0.4
+        },
+        "total": 2.6,
+        "num_bookmakers": 6
+      }
+    },
     "actual": null
   },
   "soccer_usa_mls_2026-08-17_fc-dallas_at_austin-fc": {
@@ -14029,7 +14267,7 @@
     "espn_sport": "soccer",
     "espn_league": "usa.1",
     "outdoor": true,
-    "status": "scheduled",
+    "status": "predicted",
     "odds": {
       "moneyline": {
         "Austin FC": 178,
@@ -14043,7 +14281,54 @@
       "total": 2.6,
       "num_bookmakers": 6
     },
-    "prediction": null,
+    "prediction": {
+      "predicted_winner": "FC Dallas",
+      "predicted_against_spread": "FC Dallas",
+      "confidence": 57,
+      "key_factors": [
+        "FC Dallas has better overall record (7-11 vs 4-14)",
+        "Austin FC in worse recent form (1-4 last5, L2 streak)",
+        "FC Dallas on L3 streak but still statistically stronger club this season",
+        "Market favors Austin at home despite weaker underlying numbers"
+      ],
+      "reasoning": "Despite FC Dallas's current 3-game losing streak, their season-long record (7-11) is notably better than Austin's dismal 4-14, and Austin's recent form (1-4 in last5, L2) is even worse than Dallas's. We fade the market's home-field lean toward Austin and back Dallas given the clear quality gap reflected in both season records and recent form.",
+      "context_used": {
+        "away_trends": {
+          "team": "FC Dallas",
+          "last5": "2-3",
+          "streak": "L3",
+          "record": "7-11",
+          "h2h_vs_opponent": null
+        },
+        "home_trends": {
+          "team": "Austin FC",
+          "last5": "1-4",
+          "streak": "L2",
+          "record": "4-14",
+          "h2h_vs_opponent": null
+        },
+        "weather": null,
+        "probable_pitchers": {
+          "home": null,
+          "away": null
+        }
+      },
+      "generated_at": "2026-08-14T12:07:01.657934+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "Austin FC": 178,
+          "FC Dallas": 128,
+          "Draw": 258
+        },
+        "spread": {
+          "Austin FC": 0.2,
+          "FC Dallas": -0.2
+        },
+        "total": 2.6,
+        "num_bookmakers": 6
+      }
+    },
     "actual": null
   },
   "soccer_usa_mls_2026-08-17_vancouver-whitecaps-fc_at_seattle-sounders-fc": {
@@ -14055,7 +14340,7 @@
     "espn_sport": "soccer",
     "espn_league": "usa.1",
     "outdoor": true,
-    "status": "scheduled",
+    "status": "predicted",
     "odds": {
       "moneyline": {
         "Seattle Sounders FC": 234,
@@ -14069,7 +14354,54 @@
       "total": 2.9,
       "num_bookmakers": 6
     },
-    "prediction": null,
+    "prediction": {
+      "predicted_winner": "Vancouver Whitecaps FC",
+      "predicted_against_spread": "Vancouver Whitecaps FC",
+      "confidence": 66,
+      "key_factors": [
+        "Vancouver has far superior record (10-7 vs 7-10)",
+        "Seattle on brutal L6 streak with 0-5 in last5",
+        "Vancouver's L3 streak still better than Seattle's total collapse",
+        "Market correctly favors Vancouver despite away status"
+      ],
+      "reasoning": "Seattle is in a severe slump with an L6 streak and 0-5 in their last five matches, a much worse trend than Vancouver's L3 streak. Vancouver's overall record (10-7) is clearly superior to Seattle's (7-10), and the market's strong lean toward Vancouver (-70 moneyline) aligns with these trends, giving us solid confidence in the away side.",
+      "context_used": {
+        "away_trends": {
+          "team": "Vancouver Whitecaps FC",
+          "last5": "1-4",
+          "streak": "L3",
+          "record": "10-7",
+          "h2h_vs_opponent": null
+        },
+        "home_trends": {
+          "team": "Seattle Sounders FC",
+          "last5": "0-5",
+          "streak": "L6",
+          "record": "7-10",
+          "h2h_vs_opponent": null
+        },
+        "weather": null,
+        "probable_pitchers": {
+          "home": null,
+          "away": null
+        }
+      },
+      "generated_at": "2026-08-14T12:07:01.657934+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "Seattle Sounders FC": 234,
+          "Vancouver Whitecaps FC": -70,
+          "Draw": 270
+        },
+        "spread": {
+          "Seattle Sounders FC": 0.5,
+          "Vancouver Whitecaps FC": -0.5
+        },
+        "total": 2.9,
+        "num_bookmakers": 6
+      }
+    },
     "actual": null
   },
   "baseball_mlb_2026-08-01_st.-louis-cardinals_at_toronto-blue-jays": {
