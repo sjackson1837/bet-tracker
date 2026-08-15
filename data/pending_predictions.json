@@ -1,270 +1,36 @@
 {
   "instructions": "For each game below, act as a sharp, disciplined sports betting analyst. Do NOT simply pick whichever side the betting market favors -- weigh the actual trend data provided (recent form, streaks, head-to-head history, starting pitcher matchups where given, and weather where relevant) and form an independent judgment. It's fine, and expected, to disagree with the market when the trends support it. If trend data is sparse for a game, say so and let that lower your confidence rather than defaulting to the favorite. For each game_id, produce: predicted_winner (exact team name), predicted_against_spread (exact team name), confidence (integer 1-100), key_factors (2-4 short strings), and reasoning (2-4 sentences referencing the specific trend data given).",
   "games": {
-    "soccer_spain_la_liga_2026-08-16_villarreal_at_real-racing-club-de-santander": {
+    "soccer_spain_la_liga_2026-08-17_elche-cf_at_deportivo-la-coru\u00f1a": {
       "league": "La Liga",
-      "away_team": "Villarreal",
-      "home_team": "Real Racing Club de Santander",
-      "commence_time": "2026-08-16T15:00:00Z",
+      "away_team": "Elche CF",
+      "home_team": "Deportivo La Coru\u00f1a",
+      "commence_time": "2026-08-17T19:00:00Z",
       "market_line": {
         "moneyline": {
-          "Real Racing Club de Santander": 199,
-          "Villarreal": 132,
-          "Draw": 248
+          "Deportivo La Coru\u00f1a": 140,
+          "Elche CF": 221,
+          "Draw": 206
         },
         "spread": {
-          "Real Racing Club de Santander": 0.1,
-          "Villarreal": -0.1
+          "Deportivo La Coru\u00f1a": -0.1,
+          "Elche CF": 0.1
         },
-        "total": 2.5,
-        "num_bookmakers": 8
+        "total": 2.2,
+        "num_bookmakers": 7
       },
       "away_team_trends": {
-        "team": "Villarreal",
+        "team": "Elche CF",
         "last5": null,
         "streak": null,
         "record": null,
         "h2h_vs_opponent": null
       },
       "home_team_trends": {
-        "team": "Real Racing Club de Santander",
+        "team": "Deportivo La Coru\u00f1a",
         "last5": null,
         "streak": null,
         "record": null,
-        "h2h_vs_opponent": null
-      },
-      "weather_at_kickoff": null,
-      "probable_pitchers": {
-        "home": null,
-        "away": null
-      }
-    },
-    "soccer_spain_la_liga_2026-08-16_levante_at_espanyol": {
-      "league": "La Liga",
-      "away_team": "Levante",
-      "home_team": "Espanyol",
-      "commence_time": "2026-08-16T17:00:00Z",
-      "market_line": {
-        "moneyline": {
-          "Espanyol": 78,
-          "Levante": 288,
-          "Draw": 231
-        },
-        "spread": {
-          "Espanyol": -0.5,
-          "Levante": 0.5
-        },
-        "total": 2.3,
-        "num_bookmakers": 8
-      },
-      "away_team_trends": {
-        "team": "Levante",
-        "last5": null,
-        "streak": null,
-        "record": null,
-        "h2h_vs_opponent": null
-      },
-      "home_team_trends": {
-        "team": "Espanyol",
-        "last5": null,
-        "streak": null,
-        "record": null,
-        "h2h_vs_opponent": null
-      },
-      "weather_at_kickoff": null,
-      "probable_pitchers": {
-        "home": null,
-        "away": null
-      }
-    },
-    "soccer_spain_la_liga_2026-08-16_ca-osasuna_at_celta-vigo": {
-      "league": "La Liga",
-      "away_team": "CA Osasuna",
-      "home_team": "Celta Vigo",
-      "commence_time": "2026-08-16T19:30:00Z",
-      "market_line": {
-        "moneyline": {
-          "CA Osasuna": 273,
-          "Celta Vigo": 78,
-          "Draw": 244
-        },
-        "spread": {
-          "CA Osasuna": 0.5,
-          "Celta Vigo": -0.5
-        },
-        "total": 2.4,
-        "num_bookmakers": 8
-      },
-      "away_team_trends": {
-        "team": "CA Osasuna",
-        "last5": null,
-        "streak": null,
-        "record": null,
-        "h2h_vs_opponent": null
-      },
-      "home_team_trends": {
-        "team": "Celta Vigo",
-        "last5": null,
-        "streak": null,
-        "record": null,
-        "h2h_vs_opponent": null
-      },
-      "weather_at_kickoff": null,
-      "probable_pitchers": {
-        "home": null,
-        "away": null
-      }
-    },
-    "soccer_usa_mls_2026-08-16_portland-timbers_at_chicago-fire": {
-      "league": "MLS",
-      "away_team": "Portland Timbers",
-      "home_team": "Chicago Fire",
-      "commence_time": "2026-08-16T22:00:00Z",
-      "market_line": {
-        "moneyline": {
-          "Chicago Fire": -191,
-          "Portland Timbers": 394,
-          "Draw": 357
-        },
-        "spread": {
-          "Chicago Fire": -1.2,
-          "Portland Timbers": 1.2
-        },
-        "total": 3.5,
-        "num_bookmakers": 6
-      },
-      "away_team_trends": {
-        "team": "Portland Timbers",
-        "last5": "3-2",
-        "streak": "W2",
-        "record": "7-11",
-        "h2h_vs_opponent": null
-      },
-      "home_team_trends": {
-        "team": "Chicago Fire",
-        "last5": "3-2",
-        "streak": "W1",
-        "record": "9-8",
-        "h2h_vs_opponent": null
-      },
-      "weather_at_kickoff": null,
-      "probable_pitchers": {
-        "home": null,
-        "away": null
-      }
-    },
-    "soccer_usa_mls_2026-08-16_philadelphia-union_at_new-york-city-fc": {
-      "league": "MLS",
-      "away_team": "Philadelphia Union",
-      "home_team": "New York City FC",
-      "commence_time": "2026-08-16T22:00:00Z",
-      "market_line": {
-        "moneyline": {
-          "New York City FC": 111,
-          "Philadelphia Union": 207,
-          "Draw": 262
-        },
-        "spread": {
-          "New York City FC": -0.4,
-          "Philadelphia Union": 0.4
-        },
-        "total": 2.6,
-        "num_bookmakers": 6
-      },
-      "away_team_trends": {
-        "team": "Philadelphia Union",
-        "last5": "3-2",
-        "streak": "W3",
-        "record": "4-14",
-        "h2h_vs_opponent": {
-          "record_this_season": "0-1",
-          "last_meeting_result": "lost 1-2 on 2026-03-01"
-        }
-      },
-      "home_team_trends": {
-        "team": "New York City FC",
-        "last5": "2-3",
-        "streak": "L1",
-        "record": "7-11",
-        "h2h_vs_opponent": {
-          "record_this_season": "1-0",
-          "last_meeting_result": "won 2-1 on 2026-03-01"
-        }
-      },
-      "weather_at_kickoff": null,
-      "probable_pitchers": {
-        "home": null,
-        "away": null
-      }
-    },
-    "soccer_usa_mls_2026-08-17_fc-dallas_at_austin-fc": {
-      "league": "MLS",
-      "away_team": "FC Dallas",
-      "home_team": "Austin FC",
-      "commence_time": "2026-08-17T00:30:00Z",
-      "market_line": {
-        "moneyline": {
-          "Austin FC": 178,
-          "FC Dallas": 128,
-          "Draw": 258
-        },
-        "spread": {
-          "Austin FC": 0.2,
-          "FC Dallas": -0.2
-        },
-        "total": 2.6,
-        "num_bookmakers": 6
-      },
-      "away_team_trends": {
-        "team": "FC Dallas",
-        "last5": "2-3",
-        "streak": "L3",
-        "record": "7-11",
-        "h2h_vs_opponent": null
-      },
-      "home_team_trends": {
-        "team": "Austin FC",
-        "last5": "1-4",
-        "streak": "L2",
-        "record": "4-14",
-        "h2h_vs_opponent": null
-      },
-      "weather_at_kickoff": null,
-      "probable_pitchers": {
-        "home": null,
-        "away": null
-      }
-    },
-    "soccer_usa_mls_2026-08-17_vancouver-whitecaps-fc_at_seattle-sounders-fc": {
-      "league": "MLS",
-      "away_team": "Vancouver Whitecaps FC",
-      "home_team": "Seattle Sounders FC",
-      "commence_time": "2026-08-17T02:30:00Z",
-      "market_line": {
-        "moneyline": {
-          "Seattle Sounders FC": 234,
-          "Vancouver Whitecaps FC": -70,
-          "Draw": 270
-        },
-        "spread": {
-          "Seattle Sounders FC": 0.5,
-          "Vancouver Whitecaps FC": -0.5
-        },
-        "total": 2.9,
-        "num_bookmakers": 6
-      },
-      "away_team_trends": {
-        "team": "Vancouver Whitecaps FC",
-        "last5": "1-4",
-        "streak": "L3",
-        "record": "10-7",
-        "h2h_vs_opponent": null
-      },
-      "home_team_trends": {
-        "team": "Seattle Sounders FC",
-        "last5": "0-5",
-        "streak": "L6",
-        "record": "7-10",
         "h2h_vs_opponent": null
       },
       "weather_at_kickoff": null,

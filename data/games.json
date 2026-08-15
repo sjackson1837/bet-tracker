@@ -11402,7 +11402,7 @@
     "espn_sport": "soccer",
     "espn_league": "esp.1",
     "outdoor": true,
-    "status": "scheduled",
+    "status": "predicted",
     "odds": {
       "moneyline": {
         "Deportivo La Coru\u00f1a": 140,
@@ -11416,7 +11416,54 @@
       "total": 2.2,
       "num_bookmakers": 7
     },
-    "prediction": null,
+    "prediction": {
+      "predicted_winner": "Deportivo La Coru\u00f1a",
+      "reasoning": "No specific recent-form, streak, or head-to-head data is provided for either club, so this pick leans heavily on market pricing and home-field advantage. Deportivo is favored on the moneyline (+140 vs +221 for Elche) and gets a slight home edge on the spread, suggesting bookmakers view them as the stronger side in this matchup. Given the total lack of trend data, confidence is kept low and closer to a coin-flip than a strong lean.",
+      "key_factors": [
+        "No trend/form data available for either team",
+        "Deportivo favored on moneyline (+140 vs +221)",
+        "Home-field advantage for Deportivo",
+        "Small spread (-0.1/+0.1) indicates a near pick'em game"
+      ],
+      "confidence": 53,
+      "predicted_against_spread": "Deportivo La Coru\u00f1a",
+      "context_used": {
+        "away_trends": {
+          "team": "Elche CF",
+          "last5": null,
+          "streak": null,
+          "record": null,
+          "h2h_vs_opponent": null
+        },
+        "home_trends": {
+          "team": "Deportivo La Coru\u00f1a",
+          "last5": null,
+          "streak": null,
+          "record": null,
+          "h2h_vs_opponent": null
+        },
+        "weather": null,
+        "probable_pitchers": {
+          "home": null,
+          "away": null
+        }
+      },
+      "generated_at": "2026-08-15T11:44:02.740767+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "Deportivo La Coru\u00f1a": 140,
+          "Elche CF": 221,
+          "Draw": 206
+        },
+        "spread": {
+          "Deportivo La Coru\u00f1a": -0.1,
+          "Elche CF": 0.1
+        },
+        "total": 2.2,
+        "num_bookmakers": 7
+      }
+    },
     "actual": null
   },
   "soccer_spain_la_liga_2026-08-19_m\u00e1laga_at_atl\u00e9tico-madrid": {
