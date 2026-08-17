@@ -11475,7 +11475,7 @@
     "espn_sport": "soccer",
     "espn_league": "esp.1",
     "outdoor": true,
-    "status": "scheduled",
+    "status": "predicted",
     "odds": {
       "moneyline": {
         "Atl\u00e9tico Madrid": -334,
@@ -11489,7 +11489,53 @@
       "total": 2.5,
       "num_bookmakers": 8
     },
-    "prediction": null,
+    "prediction": {
+      "predicted_winner": "Atl\u00e9tico Madrid",
+      "predicted_against_spread": "Atl\u00e9tico Madrid",
+      "confidence": 68,
+      "key_factors": [
+        "Heavy market favorite (-334 ML)",
+        "M\u00e1laga lacks trend data, likely lower division/weaker side",
+        "Home advantage at Atl\u00e9tico"
+      ],
+      "reasoning": "No detailed trend data is provided for either side, but the market's strong lean toward Atl\u00e9tico Madrid (-334 ML, -1.5 spread) reflects a substantial talent gap likely due to M\u00e1laga being a lower-tier opponent. Lacking contradicting data, we defer to this large market gap but temper confidence given the sparse trends.",
+      "context_used": {
+        "away_trends": {
+          "team": "M\u00e1laga",
+          "last5": null,
+          "streak": null,
+          "record": null,
+          "h2h_vs_opponent": null
+        },
+        "home_trends": {
+          "team": "Atl\u00e9tico Madrid",
+          "last5": null,
+          "streak": null,
+          "record": null,
+          "h2h_vs_opponent": null
+        },
+        "weather": null,
+        "probable_pitchers": {
+          "home": null,
+          "away": null
+        }
+      },
+      "generated_at": "2026-08-17T11:50:30.214582+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "Atl\u00e9tico Madrid": -334,
+          "M\u00e1laga": 913,
+          "Draw": 444
+        },
+        "spread": {
+          "Atl\u00e9tico Madrid": -1.5,
+          "M\u00e1laga": 1.5
+        },
+        "total": 2.5,
+        "num_bookmakers": 8
+      }
+    },
     "actual": null
   },
   "soccer_spain_la_liga_2026-08-25_real-betis_at_valencia": {
@@ -16889,7 +16935,7 @@
     "espn_sport": "soccer",
     "espn_league": "usa.1",
     "outdoor": true,
-    "status": "scheduled",
+    "status": "predicted",
     "odds": {
       "moneyline": {
         "CF Montreal": 425,
@@ -16903,7 +16949,53 @@
       "total": 3.5,
       "num_bookmakers": 2
     },
-    "prediction": null,
+    "prediction": {
+      "predicted_winner": "Columbus Crew SC",
+      "predicted_against_spread": "Columbus Crew SC",
+      "confidence": 72,
+      "key_factors": [
+        "Montreal on L8 skid, 0-5 last5",
+        "Columbus 2-3 last5, much better recent form",
+        "Home field advantage"
+      ],
+      "reasoning": "CF Montreal is in freefall with an 8-game losing streak and winless in their last 5, while Columbus has managed 2 wins in their last 5 despite a rough season overall. The gap in recent form heavily favors Columbus at home to cover the spread.",
+      "context_used": {
+        "away_trends": {
+          "team": "CF Montreal",
+          "last5": "0-5",
+          "streak": "L8",
+          "record": "4-15",
+          "h2h_vs_opponent": null
+        },
+        "home_trends": {
+          "team": "Columbus Crew SC",
+          "last5": "2-3",
+          "streak": "L2",
+          "record": "5-14",
+          "h2h_vs_opponent": null
+        },
+        "weather": null,
+        "probable_pitchers": {
+          "home": null,
+          "away": null
+        }
+      },
+      "generated_at": "2026-08-17T11:50:30.214582+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "CF Montreal": 425,
+          "Columbus Crew SC": -192,
+          "Draw": 330
+        },
+        "spread": {
+          "CF Montreal": 1.5,
+          "Columbus Crew SC": -1.5
+        },
+        "total": 3.5,
+        "num_bookmakers": 2
+      }
+    },
     "actual": null
   },
   "soccer_usa_mls_2026-08-19_charlotte-fc_at_toronto-fc": {
@@ -16915,7 +17007,7 @@
     "espn_sport": "soccer",
     "espn_league": "usa.1",
     "outdoor": true,
-    "status": "scheduled",
+    "status": "predicted",
     "odds": {
       "moneyline": {
         "Charlotte FC": 174,
@@ -16929,7 +17021,59 @@
       "total": 2.5,
       "num_bookmakers": 2
     },
-    "prediction": null,
+    "prediction": {
+      "predicted_winner": "Charlotte FC",
+      "predicted_against_spread": "Charlotte FC",
+      "confidence": 62,
+      "key_factors": [
+        "Charlotte better record (8-11) and recent form (3-2)",
+        "Charlotte swept H2H this season, won 3-1 last meeting",
+        "Toronto struggling overall (4-15) despite W1"
+      ],
+      "reasoning": "Charlotte has the superior season record and recent form (3-2 last5) and has dominated the head-to-head this year, including a 3-1 win. Toronto's W1 streak is thin cover against a team that's clearly better across the board this season.",
+      "context_used": {
+        "away_trends": {
+          "team": "Charlotte FC",
+          "last5": "3-2",
+          "streak": "W1",
+          "record": "8-11",
+          "h2h_vs_opponent": {
+            "record_this_season": "1-0",
+            "last_meeting_result": "won 3-1 on 2026-05-16"
+          }
+        },
+        "home_trends": {
+          "team": "Toronto FC",
+          "last5": "1-4",
+          "streak": "W1",
+          "record": "4-15",
+          "h2h_vs_opponent": {
+            "record_this_season": "0-1",
+            "last_meeting_result": "lost 1-3 on 2026-05-16"
+          }
+        },
+        "weather": null,
+        "probable_pitchers": {
+          "home": null,
+          "away": null
+        }
+      },
+      "generated_at": "2026-08-17T11:50:30.214582+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "Charlotte FC": 174,
+          "Toronto FC": 130,
+          "Draw": 265
+        },
+        "spread": {
+          "Charlotte FC": 0.5,
+          "Toronto FC": -0.5
+        },
+        "total": 2.5,
+        "num_bookmakers": 2
+      }
+    },
     "actual": null
   },
   "soccer_usa_mls_2026-08-19_chicago-fire_at_orlando-city-sc": {
@@ -16941,7 +17085,7 @@
     "espn_sport": "soccer",
     "espn_league": "usa.1",
     "outdoor": true,
-    "status": "scheduled",
+    "status": "predicted",
     "odds": {
       "moneyline": {
         "Chicago Fire": 121,
@@ -16955,7 +17099,53 @@
       "total": 3.5,
       "num_bookmakers": 2
     },
-    "prediction": null,
+    "prediction": {
+      "predicted_winner": "Chicago Fire",
+      "predicted_against_spread": "Chicago Fire",
+      "confidence": 66,
+      "key_factors": [
+        "Chicago on W2 streak with strong 10-8 record",
+        "Orlando struggling with L2 and weak 6-13 record",
+        "Market agrees with Chicago as narrow favorite"
+      ],
+      "reasoning": "Chicago Fire has a much stronger season record (10-8 vs 6-13) and carries positive momentum with a 2-game win streak, while Orlando is mired in a losing streak. The form and record disparity supports Chicago covering the small spread.",
+      "context_used": {
+        "away_trends": {
+          "team": "Chicago Fire",
+          "last5": "3-2",
+          "streak": "W2",
+          "record": "10-8",
+          "h2h_vs_opponent": null
+        },
+        "home_trends": {
+          "team": "Orlando City SC",
+          "last5": "2-3",
+          "streak": "L2",
+          "record": "6-13",
+          "h2h_vs_opponent": null
+        },
+        "weather": null,
+        "probable_pitchers": {
+          "home": null,
+          "away": null
+        }
+      },
+      "generated_at": "2026-08-17T11:50:30.214582+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "Chicago Fire": 121,
+          "Orlando City SC": 170,
+          "Draw": 300
+        },
+        "spread": {
+          "Chicago Fire": -0.5,
+          "Orlando City SC": 0.5
+        },
+        "total": 3.5,
+        "num_bookmakers": 2
+      }
+    },
     "actual": null
   },
   "soccer_usa_mls_2026-08-19_new-england-revolution_at_d.c.-united": {
@@ -16967,7 +17157,7 @@
     "espn_sport": "soccer",
     "espn_league": "usa.1",
     "outdoor": true,
-    "status": "scheduled",
+    "status": "predicted",
     "odds": {
       "moneyline": {
         "D.C. United": -2,
@@ -16981,7 +17171,59 @@
       "total": 2.5,
       "num_bookmakers": 2
     },
-    "prediction": null,
+    "prediction": {
+      "predicted_winner": "D.C. United",
+      "predicted_against_spread": "D.C. United",
+      "confidence": 52,
+      "key_factors": [
+        "Both teams struggling recently (1-4 last5 each)",
+        "Revolution lead H2H this season 1-0",
+        "D.C. United home advantage despite weak overall record"
+      ],
+      "reasoning": "Both teams are in poor form with identical 1-4 last5 records, making this a close, low-confidence read. Home field tips this slightly to D.C. United despite New England's head-to-head edge, but the shallow -0.5 spread reflects a coin-flip matchup.",
+      "context_used": {
+        "away_trends": {
+          "team": "New England Revolution",
+          "last5": "1-4",
+          "streak": "L3",
+          "record": "9-10",
+          "h2h_vs_opponent": {
+            "record_this_season": "1-0",
+            "last_meeting_result": "won 1-0 on 2026-04-11"
+          }
+        },
+        "home_trends": {
+          "team": "D.C. United",
+          "last5": "1-4",
+          "streak": "L2",
+          "record": "5-14",
+          "h2h_vs_opponent": {
+            "record_this_season": "0-1",
+            "last_meeting_result": "lost 0-1 on 2026-04-11"
+          }
+        },
+        "weather": null,
+        "probable_pitchers": {
+          "home": null,
+          "away": null
+        }
+      },
+      "generated_at": "2026-08-17T11:50:30.214582+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "D.C. United": -2,
+          "New England Revolution": 240,
+          "Draw": 265
+        },
+        "spread": {
+          "D.C. United": -0.5,
+          "New England Revolution": 0.5
+        },
+        "total": 2.5,
+        "num_bookmakers": 2
+      }
+    },
     "actual": null
   },
   "soccer_usa_mls_2026-08-19_new-york-city-fc_at_fc-cincinnati": {
@@ -16993,7 +17235,7 @@
     "espn_sport": "soccer",
     "espn_league": "usa.1",
     "outdoor": true,
-    "status": "scheduled",
+    "status": "predicted",
     "odds": {
       "moneyline": {
         "FC Cincinnati": 106,
@@ -17007,7 +17249,59 @@
       "total": 3.5,
       "num_bookmakers": 2
     },
-    "prediction": null,
+    "prediction": {
+      "predicted_winner": "FC Cincinnati",
+      "predicted_against_spread": "FC Cincinnati",
+      "confidence": 57,
+      "key_factors": [
+        "Cincinnati better recent form (3-2 vs 2-3)",
+        "Identical season records (7-12 each)",
+        "Last meeting ended in a 4-4 draw, high-scoring trend"
+      ],
+      "reasoning": "Both clubs share the same overall record, but Cincinnati enters with better recent form (3-2 last5) than NYCFC (2-3) and gets home field. The previous meeting was a wild 4-4 draw, suggesting this could again be tight and goal-heavy, favoring the home side on a small margin.",
+      "context_used": {
+        "away_trends": {
+          "team": "New York City FC",
+          "last5": "2-3",
+          "streak": "L2",
+          "record": "7-12",
+          "h2h_vs_opponent": {
+            "record_this_season": "0-1",
+            "last_meeting_result": "lost 4-4 on 2026-04-22"
+          }
+        },
+        "home_trends": {
+          "team": "FC Cincinnati",
+          "last5": "3-2",
+          "streak": "L1",
+          "record": "7-12",
+          "h2h_vs_opponent": {
+            "record_this_season": "0-1",
+            "last_meeting_result": "lost 4-4 on 2026-04-22"
+          }
+        },
+        "weather": null,
+        "probable_pitchers": {
+          "home": null,
+          "away": null
+        }
+      },
+      "generated_at": "2026-08-17T11:50:30.214582+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "FC Cincinnati": 106,
+          "New York City FC": 202,
+          "Draw": 292
+        },
+        "spread": {
+          "FC Cincinnati": -0.5,
+          "New York City FC": 0.5
+        },
+        "total": 3.5,
+        "num_bookmakers": 2
+      }
+    },
     "actual": null
   },
   "soccer_usa_mls_2026-08-19_inter-miami-cf_at_philadelphia-union": {
@@ -17019,7 +17313,7 @@
     "espn_sport": "soccer",
     "espn_league": "usa.1",
     "outdoor": true,
-    "status": "scheduled",
+    "status": "predicted",
     "odds": {
       "moneyline": {
         "Inter Miami CF": 141,
@@ -17033,7 +17327,59 @@
       "total": 3.5,
       "num_bookmakers": 2
     },
-    "prediction": null,
+    "prediction": {
+      "predicted_winner": "Philadelphia Union",
+      "predicted_against_spread": "Philadelphia Union",
+      "confidence": 60,
+      "key_factors": [
+        "Philadelphia on hot W4 streak, 4-1 last5",
+        "Miami on L2 skid despite better overall record",
+        "Union lost H2H meeting earlier this season but form has since improved"
+      ],
+      "reasoning": "Philadelphia's blistering current form (W4, 4-1 last5) stands in sharp contrast to Miami's L2 streak, even though Miami holds the better overall record and head-to-head edge. Recent momentum favors the Union at home in this tight matchup.",
+      "context_used": {
+        "away_trends": {
+          "team": "Inter Miami CF",
+          "last5": "3-2",
+          "streak": "L2",
+          "record": "11-8",
+          "h2h_vs_opponent": {
+            "record_this_season": "1-0",
+            "last_meeting_result": "won 6-4 on 2026-05-24"
+          }
+        },
+        "home_trends": {
+          "team": "Philadelphia Union",
+          "last5": "4-1",
+          "streak": "W4",
+          "record": "5-14",
+          "h2h_vs_opponent": {
+            "record_this_season": "0-1",
+            "last_meeting_result": "lost 4-6 on 2026-05-24"
+          }
+        },
+        "weather": null,
+        "probable_pitchers": {
+          "home": null,
+          "away": null
+        }
+      },
+      "generated_at": "2026-08-17T11:50:30.214582+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "Inter Miami CF": 141,
+          "Philadelphia Union": 148,
+          "Draw": 298
+        },
+        "spread": {
+          "Inter Miami CF": -0.5,
+          "Philadelphia Union": 0.5
+        },
+        "total": 3.5,
+        "num_bookmakers": 2
+      }
+    },
     "actual": null
   },
   "soccer_usa_mls_2026-08-19_nashville-sc_at_new-york-red-bulls": {
@@ -17045,7 +17391,7 @@
     "espn_sport": "soccer",
     "espn_league": "usa.1",
     "outdoor": true,
-    "status": "scheduled",
+    "status": "predicted",
     "odds": {
       "moneyline": {
         "Nashville SC": 122,
@@ -17059,7 +17405,53 @@
       "total": 3.5,
       "num_bookmakers": 2
     },
-    "prediction": null,
+    "prediction": {
+      "predicted_winner": "Nashville SC",
+      "predicted_against_spread": "Nashville SC",
+      "confidence": 63,
+      "key_factors": [
+        "Nashville strong record (13-6) and W1 streak",
+        "No trend data available for Red Bulls",
+        "Market slightly favors Red Bulls despite Nashville's superior form"
+      ],
+      "reasoning": "Nashville boasts one of the best records in the sample (13-6) with positive momentum, while there's no data available on the Red Bulls to counter that strength. Given the information gap favoring Nashville and the market underrating them, we lean Nashville on the road despite lower total confidence due to missing home team data.",
+      "context_used": {
+        "away_trends": {
+          "team": "Nashville SC",
+          "last5": "3-2",
+          "streak": "W1",
+          "record": "13-6",
+          "h2h_vs_opponent": null
+        },
+        "home_trends": {
+          "team": "New York Red Bulls",
+          "last5": null,
+          "streak": null,
+          "record": null,
+          "h2h_vs_opponent": null
+        },
+        "weather": null,
+        "probable_pitchers": {
+          "home": null,
+          "away": null
+        }
+      },
+      "generated_at": "2026-08-17T11:50:30.214582+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "Nashville SC": 122,
+          "New York Red Bulls": 178,
+          "Draw": 282
+        },
+        "spread": {
+          "Nashville SC": -0.5,
+          "New York Red Bulls": 0.5
+        },
+        "total": 3.5,
+        "num_bookmakers": 2
+      }
+    },
     "actual": null
   },
   "soccer_usa_mls_2026-08-20_st.-louis-city-sc_at_sporting-kansas-city": {
@@ -17071,7 +17463,7 @@
     "espn_sport": "soccer",
     "espn_league": "usa.1",
     "outdoor": true,
-    "status": "scheduled",
+    "status": "predicted",
     "odds": {
       "moneyline": {
         "Sporting Kansas City": 223,
@@ -17085,7 +17477,59 @@
       "total": 3.5,
       "num_bookmakers": 2
     },
-    "prediction": null,
+    "prediction": {
+      "predicted_winner": "St. Louis City SC",
+      "predicted_against_spread": "St. Louis City SC",
+      "confidence": 70,
+      "key_factors": [
+        "St. Louis on W1 with strong 4-1 last5",
+        "Sporting KC on L3 skid with poor 4-15 record",
+        "St. Louis won H2H meeting 3-2 recently"
+      ],
+      "reasoning": "St. Louis City enters with excellent recent form (4-1 last5) compared to Sporting KC's brutal 1-4 stretch and 3-game losing streak. They also beat KC in their last meeting, reinforcing the pick to win outright as favorites here despite being on the road.",
+      "context_used": {
+        "away_trends": {
+          "team": "St. Louis City SC",
+          "last5": "4-1",
+          "streak": "W1",
+          "record": "8-11",
+          "h2h_vs_opponent": {
+            "record_this_season": "1-0",
+            "last_meeting_result": "won 3-2 on 2026-07-17"
+          }
+        },
+        "home_trends": {
+          "team": "Sporting Kansas City",
+          "last5": "1-4",
+          "streak": "L3",
+          "record": "4-15",
+          "h2h_vs_opponent": {
+            "record_this_season": "0-1",
+            "last_meeting_result": "lost 2-3 on 2026-07-17"
+          }
+        },
+        "weather": null,
+        "probable_pitchers": {
+          "home": null,
+          "away": null
+        }
+      },
+      "generated_at": "2026-08-17T11:50:30.214582+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "Sporting Kansas City": 223,
+          "St. Louis City SC": 0,
+          "Draw": 285
+        },
+        "spread": {
+          "Sporting Kansas City": 0.5,
+          "St. Louis City SC": -0.5
+        },
+        "total": 3.5,
+        "num_bookmakers": 2
+      }
+    },
     "actual": null
   },
   "soccer_usa_mls_2026-08-20_atlanta-united-fc_at_minnesota-united-fc": {
@@ -17097,7 +17541,7 @@
     "espn_sport": "soccer",
     "espn_league": "usa.1",
     "outdoor": true,
-    "status": "scheduled",
+    "status": "predicted",
     "odds": {
       "moneyline": {
         "Atlanta United FC": 350,
@@ -17111,7 +17555,53 @@
       "total": 2.5,
       "num_bookmakers": 2
     },
-    "prediction": null,
+    "prediction": {
+      "predicted_winner": "Atlanta United FC",
+      "predicted_against_spread": "Atlanta United FC",
+      "confidence": 58,
+      "key_factors": [
+        "Minnesota on brutal L8 streak, 0-5 last5",
+        "Atlanta has W1 momentum despite poor 4-15 record",
+        "Both teams struggling overall this season"
+      ],
+      "reasoning": "While both clubs have poor season records, Minnesota's 8-game losing streak and winless last 5 is far more alarming than Atlanta's single-game win streak. This is a fade of Minnesota's market favoritism given their catastrophic recent form.",
+      "context_used": {
+        "away_trends": {
+          "team": "Atlanta United FC",
+          "last5": "1-4",
+          "streak": "W1",
+          "record": "4-15",
+          "h2h_vs_opponent": null
+        },
+        "home_trends": {
+          "team": "Minnesota United FC",
+          "last5": "0-5",
+          "streak": "L8",
+          "record": "6-13",
+          "h2h_vs_opponent": null
+        },
+        "weather": null,
+        "probable_pitchers": {
+          "home": null,
+          "away": null
+        }
+      },
+      "generated_at": "2026-08-17T11:50:30.214582+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "Atlanta United FC": 350,
+          "Minnesota United FC": -150,
+          "Draw": 292
+        },
+        "spread": {
+          "Atlanta United FC": 0.5,
+          "Minnesota United FC": -0.5
+        },
+        "total": 2.5,
+        "num_bookmakers": 2
+      }
+    },
     "actual": null
   },
   "soccer_usa_mls_2026-08-20_austin-fc_at_seattle-sounders-fc": {
@@ -17123,7 +17613,7 @@
     "espn_sport": "soccer",
     "espn_league": "usa.1",
     "outdoor": true,
-    "status": "scheduled",
+    "status": "predicted",
     "odds": {
       "moneyline": {
         "Austin FC": 395,
@@ -17137,7 +17627,59 @@
       "total": 2.5,
       "num_bookmakers": 2
     },
-    "prediction": null,
+    "prediction": {
+      "predicted_winner": "Austin FC",
+      "predicted_against_spread": "Austin FC",
+      "confidence": 61,
+      "key_factors": [
+        "Seattle on brutal L7 streak, winless in last 5",
+        "Austin beat Seattle in last meeting (3-1)",
+        "Austin also struggling (L3) but less severely"
+      ],
+      "reasoning": "Seattle's form is disastrous with a 7-game losing streak and 0-5 in their last five, while Austin, despite their own struggles, has the head-to-head edge including a recent 3-1 win over Seattle. This is a fade of the home favorite given Seattle's alarming skid.",
+      "context_used": {
+        "away_trends": {
+          "team": "Austin FC",
+          "last5": "1-4",
+          "streak": "L3",
+          "record": "4-15",
+          "h2h_vs_opponent": {
+            "record_this_season": "1-0",
+            "last_meeting_result": "won 3-1 on 2026-07-23"
+          }
+        },
+        "home_trends": {
+          "team": "Seattle Sounders FC",
+          "last5": "0-5",
+          "streak": "L7",
+          "record": "7-11",
+          "h2h_vs_opponent": {
+            "record_this_season": "0-1",
+            "last_meeting_result": "lost 1-3 on 2026-07-23"
+          }
+        },
+        "weather": null,
+        "probable_pitchers": {
+          "home": null,
+          "away": null
+        }
+      },
+      "generated_at": "2026-08-17T11:50:30.214582+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "Austin FC": 395,
+          "Seattle Sounders FC": -166,
+          "Draw": 310
+        },
+        "spread": {
+          "Austin FC": 0.5,
+          "Seattle Sounders FC": -0.5
+        },
+        "total": 2.5,
+        "num_bookmakers": 2
+      }
+    },
     "actual": null
   },
   "soccer_usa_mls_2026-08-20_los-angeles-fc_at_colorado-rapids": {
@@ -17149,7 +17691,7 @@
     "espn_sport": "soccer",
     "espn_league": "usa.1",
     "outdoor": true,
-    "status": "scheduled",
+    "status": "predicted",
     "odds": {
       "moneyline": {
         "Colorado Rapids": 172,
@@ -17163,7 +17705,53 @@
       "total": 2.5,
       "num_bookmakers": 2
     },
-    "prediction": null,
+    "prediction": {
+      "predicted_winner": "Colorado Rapids",
+      "predicted_against_spread": "Colorado Rapids",
+      "confidence": 55,
+      "key_factors": [
+        "Colorado on W2 streak with solid recent form",
+        "No trend data available for LAFC",
+        "Market favors LAFC as away side despite Colorado's positive form"
+      ],
+      "reasoning": "Colorado enters on a two-game winning streak with a respectable 8-11 record, while there is no data available on LAFC to assess their current form. Given the information gap and Colorado's positive momentum at home, we lean toward the Rapids with modest confidence.",
+      "context_used": {
+        "away_trends": {
+          "team": "Los Angeles FC",
+          "last5": null,
+          "streak": null,
+          "record": null,
+          "h2h_vs_opponent": null
+        },
+        "home_trends": {
+          "team": "Colorado Rapids",
+          "last5": "3-2",
+          "streak": "W2",
+          "record": "8-11",
+          "h2h_vs_opponent": null
+        },
+        "weather": null,
+        "probable_pitchers": {
+          "home": null,
+          "away": null
+        }
+      },
+      "generated_at": "2026-08-17T11:50:30.214582+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "Colorado Rapids": 172,
+          "Los Angeles FC": 132,
+          "Draw": 268
+        },
+        "spread": {
+          "Colorado Rapids": 0.5,
+          "Los Angeles FC": -0.5
+        },
+        "total": 2.5,
+        "num_bookmakers": 2
+      }
+    },
     "actual": null
   },
   "soccer_usa_mls_2026-08-20_fc-dallas_at_real-salt-lake": {
@@ -17175,7 +17763,7 @@
     "espn_sport": "soccer",
     "espn_league": "usa.1",
     "outdoor": true,
-    "status": "scheduled",
+    "status": "predicted",
     "odds": {
       "moneyline": {
         "FC Dallas": 280,
@@ -17189,7 +17777,59 @@
       "total": 3.5,
       "num_bookmakers": 2
     },
-    "prediction": null,
+    "prediction": {
+      "predicted_winner": "FC Dallas",
+      "predicted_against_spread": "FC Dallas",
+      "confidence": 63,
+      "key_factors": [
+        "Real Salt Lake on brutal L5 skid, winless in last 5",
+        "Dallas has W1 streak and won H2H meeting 3-1",
+        "Dallas has been the better team in recent head-to-head"
+      ],
+      "reasoning": "Real Salt Lake's 5-game losing streak and 0-5 last5 record is a major red flag, while Dallas comes in with momentum (W1) and a head-to-head win earlier this season. This supports fading Salt Lake as home favorites given their poor current form.",
+      "context_used": {
+        "away_trends": {
+          "team": "FC Dallas",
+          "last5": "2-3",
+          "streak": "W1",
+          "record": "8-11",
+          "h2h_vs_opponent": {
+            "record_this_season": "1-0",
+            "last_meeting_result": "won 3-1 on 2026-05-10"
+          }
+        },
+        "home_trends": {
+          "team": "Real Salt Lake",
+          "last5": "0-5",
+          "streak": "L5",
+          "record": "8-10",
+          "h2h_vs_opponent": {
+            "record_this_season": "0-1",
+            "last_meeting_result": "lost 1-3 on 2026-05-10"
+          }
+        },
+        "weather": null,
+        "probable_pitchers": {
+          "home": null,
+          "away": null
+        }
+      },
+      "generated_at": "2026-08-17T11:50:30.214582+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "FC Dallas": 280,
+          "Real Salt Lake": -128,
+          "Draw": 298
+        },
+        "spread": {
+          "FC Dallas": 0.5,
+          "Real Salt Lake": -0.5
+        },
+        "total": 3.5,
+        "num_bookmakers": 2
+      }
+    },
     "actual": null
   },
   "soccer_usa_mls_2026-08-20_houston-dynamo_at_vancouver-whitecaps-fc": {
@@ -17201,7 +17841,7 @@
     "espn_sport": "soccer",
     "espn_league": "usa.1",
     "outdoor": true,
-    "status": "scheduled",
+    "status": "predicted",
     "odds": {
       "moneyline": {
         "Houston Dynamo": 485,
@@ -17215,7 +17855,59 @@
       "total": 3.5,
       "num_bookmakers": 2
     },
-    "prediction": null,
+    "prediction": {
+      "predicted_winner": "Houston Dynamo",
+      "predicted_against_spread": "Vancouver Whitecaps FC",
+      "confidence": 58,
+      "key_factors": [
+        "Houston on hot W4 streak, 4-1 last5",
+        "Houston won H2H meeting 1-0 earlier this season",
+        "Vancouver still has solid 11-7 record and W1 momentum at home"
+      ],
+      "reasoning": "Houston's superior recent form (W4, 4-1 last5) and head-to-head win give them a real shot to win outright, but Vancouver's strong home record and current win streak make the 1.5 goal spread tough for Houston to cover. We lean Houston to win but Vancouver to cover given the large spread cushion.",
+      "context_used": {
+        "away_trends": {
+          "team": "Houston Dynamo",
+          "last5": "4-1",
+          "streak": "W4",
+          "record": "11-8",
+          "h2h_vs_opponent": {
+            "record_this_season": "1-0",
+            "last_meeting_result": "won 1-0 on 2026-05-17"
+          }
+        },
+        "home_trends": {
+          "team": "Vancouver Whitecaps FC",
+          "last5": "2-3",
+          "streak": "W1",
+          "record": "11-7",
+          "h2h_vs_opponent": {
+            "record_this_season": "0-1",
+            "last_meeting_result": "lost 0-1 on 2026-05-17"
+          }
+        },
+        "weather": null,
+        "probable_pitchers": {
+          "home": null,
+          "away": null
+        }
+      },
+      "generated_at": "2026-08-17T11:50:30.214582+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "Houston Dynamo": 485,
+          "Vancouver Whitecaps FC": -229,
+          "Draw": 365
+        },
+        "spread": {
+          "Houston Dynamo": 1.5,
+          "Vancouver Whitecaps FC": -1.5
+        },
+        "total": 3.5,
+        "num_bookmakers": 2
+      }
+    },
     "actual": null
   },
   "soccer_usa_mls_2026-08-20_san-jose-earthquakes_at_la-galaxy": {
@@ -17227,7 +17919,7 @@
     "espn_sport": "soccer",
     "espn_league": "usa.1",
     "outdoor": true,
-    "status": "scheduled",
+    "status": "predicted",
     "odds": {
       "moneyline": {
         "LA Galaxy": 142,
@@ -17241,7 +17933,59 @@
       "total": 3.5,
       "num_bookmakers": 2
     },
-    "prediction": null,
+    "prediction": {
+      "predicted_winner": "San Jose Earthquakes",
+      "predicted_against_spread": "San Jose Earthquakes",
+      "confidence": 56,
+      "key_factors": [
+        "LA Galaxy on brutal L6 streak, 0-5 last5",
+        "San Jose has better overall record (10-9 vs 5-15)",
+        "Previous meeting ended in a 1-1 draw"
+      ],
+      "reasoning": "Despite San Jose's own L4 skid, LA Galaxy's situation is far worse with a 6-game losing streak and the league's worst recent form (0-5). San Jose's significantly better season record (10-9 vs 5-15) tips this matchup in their favor even on the road.",
+      "context_used": {
+        "away_trends": {
+          "team": "San Jose Earthquakes",
+          "last5": "1-4",
+          "streak": "L4",
+          "record": "10-9",
+          "h2h_vs_opponent": {
+            "record_this_season": "0-1",
+            "last_meeting_result": "lost 1-1 on 2026-07-26"
+          }
+        },
+        "home_trends": {
+          "team": "LA Galaxy",
+          "last5": "0-5",
+          "streak": "L6",
+          "record": "5-15",
+          "h2h_vs_opponent": {
+            "record_this_season": "0-1",
+            "last_meeting_result": "lost 1-1 on 2026-07-26"
+          }
+        },
+        "weather": null,
+        "probable_pitchers": {
+          "home": null,
+          "away": null
+        }
+      },
+      "generated_at": "2026-08-17T11:50:30.214582+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "LA Galaxy": 142,
+          "San Jose Earthquakes": 152,
+          "Draw": 282
+        },
+        "spread": {
+          "LA Galaxy": -0.5,
+          "San Jose Earthquakes": 0.5
+        },
+        "total": 3.5,
+        "num_bookmakers": 2
+      }
+    },
     "actual": null
   },
   "soccer_usa_mls_2026-08-20_san-diego-fc_at_portland-timbers": {
@@ -17253,7 +17997,7 @@
     "espn_sport": "soccer",
     "espn_league": "usa.1",
     "outdoor": true,
-    "status": "scheduled",
+    "status": "predicted",
     "odds": {
       "moneyline": {
         "Portland Timbers": -4,
@@ -17267,7 +18011,59 @@
       "total": 3.5,
       "num_bookmakers": 2
     },
-    "prediction": null,
+    "prediction": {
+      "predicted_winner": "Portland Timbers",
+      "predicted_against_spread": "Portland Timbers",
+      "confidence": 59,
+      "key_factors": [
+        "Portland won H2H meeting 2-1 this season",
+        "Portland has better recent form (3-2 vs 2-3)",
+        "Portland slightly better overall record (7-12 vs 6-13)"
+      ],
+      "reasoning": "Portland holds the head-to-head edge this season with a 2-1 win over San Diego and has marginally better recent form and season record. Home field advantage combined with these modest edges supports the market favorite here.",
+      "context_used": {
+        "away_trends": {
+          "team": "San Diego FC",
+          "last5": "2-3",
+          "streak": "W1",
+          "record": "6-13",
+          "h2h_vs_opponent": {
+            "record_this_season": "0-1",
+            "last_meeting_result": "lost 1-2 on 2026-04-26"
+          }
+        },
+        "home_trends": {
+          "team": "Portland Timbers",
+          "last5": "3-2",
+          "streak": "L1",
+          "record": "7-12",
+          "h2h_vs_opponent": {
+            "record_this_season": "1-0",
+            "last_meeting_result": "won 2-1 on 2026-04-26"
+          }
+        },
+        "weather": null,
+        "probable_pitchers": {
+          "home": null,
+          "away": null
+        }
+      },
+      "generated_at": "2026-08-17T11:50:30.214582+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "Portland Timbers": -4,
+          "San Diego FC": 216,
+          "Draw": 315
+        },
+        "spread": {
+          "Portland Timbers": -0.5,
+          "San Diego FC": 0.5
+        },
+        "total": 3.5,
+        "num_bookmakers": 2
+      }
+    },
     "actual": null
   },
   "baseball_mlb_2026-08-04_los-angeles-angels_at_baltimore-orioles": {

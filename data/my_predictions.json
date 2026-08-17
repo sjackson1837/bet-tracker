@@ -1,1 +1,178 @@
-{}
+{
+  "soccer_spain_la_liga_2026-08-19_m\u00e1laga_at_atl\u00e9tico-madrid": {
+    "predicted_winner": "Atl\u00e9tico Madrid",
+    "predicted_against_spread": "Atl\u00e9tico Madrid",
+    "confidence": 68,
+    "key_factors": [
+      "Heavy market favorite (-334 ML)",
+      "M\u00e1laga lacks trend data, likely lower division/weaker side",
+      "Home advantage at Atl\u00e9tico"
+    ],
+    "reasoning": "No detailed trend data is provided for either side, but the market's strong lean toward Atl\u00e9tico Madrid (-334 ML, -1.5 spread) reflects a substantial talent gap likely due to M\u00e1laga being a lower-tier opponent. Lacking contradicting data, we defer to this large market gap but temper confidence given the sparse trends."
+  },
+  "soccer_usa_mls_2026-08-19_cf-montreal_at_columbus-crew-sc": {
+    "predicted_winner": "Columbus Crew SC",
+    "predicted_against_spread": "Columbus Crew SC",
+    "confidence": 72,
+    "key_factors": [
+      "Montreal on L8 skid, 0-5 last5",
+      "Columbus 2-3 last5, much better recent form",
+      "Home field advantage"
+    ],
+    "reasoning": "CF Montreal is in freefall with an 8-game losing streak and winless in their last 5, while Columbus has managed 2 wins in their last 5 despite a rough season overall. The gap in recent form heavily favors Columbus at home to cover the spread."
+  },
+  "soccer_usa_mls_2026-08-19_charlotte-fc_at_toronto-fc": {
+    "predicted_winner": "Charlotte FC",
+    "predicted_against_spread": "Charlotte FC",
+    "confidence": 62,
+    "key_factors": [
+      "Charlotte better record (8-11) and recent form (3-2)",
+      "Charlotte swept H2H this season, won 3-1 last meeting",
+      "Toronto struggling overall (4-15) despite W1"
+    ],
+    "reasoning": "Charlotte has the superior season record and recent form (3-2 last5) and has dominated the head-to-head this year, including a 3-1 win. Toronto's W1 streak is thin cover against a team that's clearly better across the board this season."
+  },
+  "soccer_usa_mls_2026-08-19_chicago-fire_at_orlando-city-sc": {
+    "predicted_winner": "Chicago Fire",
+    "predicted_against_spread": "Chicago Fire",
+    "confidence": 66,
+    "key_factors": [
+      "Chicago on W2 streak with strong 10-8 record",
+      "Orlando struggling with L2 and weak 6-13 record",
+      "Market agrees with Chicago as narrow favorite"
+    ],
+    "reasoning": "Chicago Fire has a much stronger season record (10-8 vs 6-13) and carries positive momentum with a 2-game win streak, while Orlando is mired in a losing streak. The form and record disparity supports Chicago covering the small spread."
+  },
+  "soccer_usa_mls_2026-08-19_new-england-revolution_at_d.c.-united": {
+    "predicted_winner": "D.C. United",
+    "predicted_against_spread": "D.C. United",
+    "confidence": 52,
+    "key_factors": [
+      "Both teams struggling recently (1-4 last5 each)",
+      "Revolution lead H2H this season 1-0",
+      "D.C. United home advantage despite weak overall record"
+    ],
+    "reasoning": "Both teams are in poor form with identical 1-4 last5 records, making this a close, low-confidence read. Home field tips this slightly to D.C. United despite New England's head-to-head edge, but the shallow -0.5 spread reflects a coin-flip matchup."
+  },
+  "soccer_usa_mls_2026-08-19_new-york-city-fc_at_fc-cincinnati": {
+    "predicted_winner": "FC Cincinnati",
+    "predicted_against_spread": "FC Cincinnati",
+    "confidence": 57,
+    "key_factors": [
+      "Cincinnati better recent form (3-2 vs 2-3)",
+      "Identical season records (7-12 each)",
+      "Last meeting ended in a 4-4 draw, high-scoring trend"
+    ],
+    "reasoning": "Both clubs share the same overall record, but Cincinnati enters with better recent form (3-2 last5) than NYCFC (2-3) and gets home field. The previous meeting was a wild 4-4 draw, suggesting this could again be tight and goal-heavy, favoring the home side on a small margin."
+  },
+  "soccer_usa_mls_2026-08-19_inter-miami-cf_at_philadelphia-union": {
+    "predicted_winner": "Philadelphia Union",
+    "predicted_against_spread": "Philadelphia Union",
+    "confidence": 60,
+    "key_factors": [
+      "Philadelphia on hot W4 streak, 4-1 last5",
+      "Miami on L2 skid despite better overall record",
+      "Union lost H2H meeting earlier this season but form has since improved"
+    ],
+    "reasoning": "Philadelphia's blistering current form (W4, 4-1 last5) stands in sharp contrast to Miami's L2 streak, even though Miami holds the better overall record and head-to-head edge. Recent momentum favors the Union at home in this tight matchup."
+  },
+  "soccer_usa_mls_2026-08-19_nashville-sc_at_new-york-red-bulls": {
+    "predicted_winner": "Nashville SC",
+    "predicted_against_spread": "Nashville SC",
+    "confidence": 63,
+    "key_factors": [
+      "Nashville strong record (13-6) and W1 streak",
+      "No trend data available for Red Bulls",
+      "Market slightly favors Red Bulls despite Nashville's superior form"
+    ],
+    "reasoning": "Nashville boasts one of the best records in the sample (13-6) with positive momentum, while there's no data available on the Red Bulls to counter that strength. Given the information gap favoring Nashville and the market underrating them, we lean Nashville on the road despite lower total confidence due to missing home team data."
+  },
+  "soccer_usa_mls_2026-08-20_st.-louis-city-sc_at_sporting-kansas-city": {
+    "predicted_winner": "St. Louis City SC",
+    "predicted_against_spread": "St. Louis City SC",
+    "confidence": 70,
+    "key_factors": [
+      "St. Louis on W1 with strong 4-1 last5",
+      "Sporting KC on L3 skid with poor 4-15 record",
+      "St. Louis won H2H meeting 3-2 recently"
+    ],
+    "reasoning": "St. Louis City enters with excellent recent form (4-1 last5) compared to Sporting KC's brutal 1-4 stretch and 3-game losing streak. They also beat KC in their last meeting, reinforcing the pick to win outright as favorites here despite being on the road."
+  },
+  "soccer_usa_mls_2026-08-20_atlanta-united-fc_at_minnesota-united-fc": {
+    "predicted_winner": "Atlanta United FC",
+    "predicted_against_spread": "Atlanta United FC",
+    "confidence": 58,
+    "key_factors": [
+      "Minnesota on brutal L8 streak, 0-5 last5",
+      "Atlanta has W1 momentum despite poor 4-15 record",
+      "Both teams struggling overall this season"
+    ],
+    "reasoning": "While both clubs have poor season records, Minnesota's 8-game losing streak and winless last 5 is far more alarming than Atlanta's single-game win streak. This is a fade of Minnesota's market favoritism given their catastrophic recent form."
+  },
+  "soccer_usa_mls_2026-08-20_austin-fc_at_seattle-sounders-fc": {
+    "predicted_winner": "Austin FC",
+    "predicted_against_spread": "Austin FC",
+    "confidence": 61,
+    "key_factors": [
+      "Seattle on brutal L7 streak, winless in last 5",
+      "Austin beat Seattle in last meeting (3-1)",
+      "Austin also struggling (L3) but less severely"
+    ],
+    "reasoning": "Seattle's form is disastrous with a 7-game losing streak and 0-5 in their last five, while Austin, despite their own struggles, has the head-to-head edge including a recent 3-1 win over Seattle. This is a fade of the home favorite given Seattle's alarming skid."
+  },
+  "soccer_usa_mls_2026-08-20_los-angeles-fc_at_colorado-rapids": {
+    "predicted_winner": "Colorado Rapids",
+    "predicted_against_spread": "Colorado Rapids",
+    "confidence": 55,
+    "key_factors": [
+      "Colorado on W2 streak with solid recent form",
+      "No trend data available for LAFC",
+      "Market favors LAFC as away side despite Colorado's positive form"
+    ],
+    "reasoning": "Colorado enters on a two-game winning streak with a respectable 8-11 record, while there is no data available on LAFC to assess their current form. Given the information gap and Colorado's positive momentum at home, we lean toward the Rapids with modest confidence."
+  },
+  "soccer_usa_mls_2026-08-20_fc-dallas_at_real-salt-lake": {
+    "predicted_winner": "FC Dallas",
+    "predicted_against_spread": "FC Dallas",
+    "confidence": 63,
+    "key_factors": [
+      "Real Salt Lake on brutal L5 skid, winless in last 5",
+      "Dallas has W1 streak and won H2H meeting 3-1",
+      "Dallas has been the better team in recent head-to-head"
+    ],
+    "reasoning": "Real Salt Lake's 5-game losing streak and 0-5 last5 record is a major red flag, while Dallas comes in with momentum (W1) and a head-to-head win earlier this season. This supports fading Salt Lake as home favorites given their poor current form."
+  },
+  "soccer_usa_mls_2026-08-20_houston-dynamo_at_vancouver-whitecaps-fc": {
+    "predicted_winner": "Houston Dynamo",
+    "predicted_against_spread": "Vancouver Whitecaps FC",
+    "confidence": 58,
+    "key_factors": [
+      "Houston on hot W4 streak, 4-1 last5",
+      "Houston won H2H meeting 1-0 earlier this season",
+      "Vancouver still has solid 11-7 record and W1 momentum at home"
+    ],
+    "reasoning": "Houston's superior recent form (W4, 4-1 last5) and head-to-head win give them a real shot to win outright, but Vancouver's strong home record and current win streak make the 1.5 goal spread tough for Houston to cover. We lean Houston to win but Vancouver to cover given the large spread cushion."
+  },
+  "soccer_usa_mls_2026-08-20_san-jose-earthquakes_at_la-galaxy": {
+    "predicted_winner": "San Jose Earthquakes",
+    "predicted_against_spread": "San Jose Earthquakes",
+    "confidence": 56,
+    "key_factors": [
+      "LA Galaxy on brutal L6 streak, 0-5 last5",
+      "San Jose has better overall record (10-9 vs 5-15)",
+      "Previous meeting ended in a 1-1 draw"
+    ],
+    "reasoning": "Despite San Jose's own L4 skid, LA Galaxy's situation is far worse with a 6-game losing streak and the league's worst recent form (0-5). San Jose's significantly better season record (10-9 vs 5-15) tips this matchup in their favor even on the road."
+  },
+  "soccer_usa_mls_2026-08-20_san-diego-fc_at_portland-timbers": {
+    "predicted_winner": "Portland Timbers",
+    "predicted_against_spread": "Portland Timbers",
+    "confidence": 59,
+    "key_factors": [
+      "Portland won H2H meeting 2-1 this season",
+      "Portland has better recent form (3-2 vs 2-3)",
+      "Portland slightly better overall record (7-12 vs 6-13)"
+    ],
+    "reasoning": "Portland holds the head-to-head edge this season with a 2-1 win over San Diego and has marginally better recent form and season record. Home field advantage combined with these modest edges supports the market favorite here."
+  }
+}
