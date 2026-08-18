@@ -16705,7 +16705,7 @@
     "espn_sport": "soccer",
     "espn_league": "esp.1",
     "outdoor": true,
-    "status": "scheduled",
+    "status": "predicted",
     "odds": {
       "moneyline": {
         "Alav\u00e9s": 320,
@@ -16716,7 +16716,51 @@
       "total": null,
       "num_bookmakers": 1
     },
-    "prediction": null,
+    "prediction": {
+      "predicted_winner": "Rayo Vallecano",
+      "predicted_against_spread": "Rayo Vallecano",
+      "confidence": 42,
+      "key_factors": [
+        "Very early season sample (1 game each) limits trend reliability",
+        "Alav\u00e9s won its opener while Rayo lost, but home advantage matters in La Liga",
+        "Market heavily favors Rayo Vallecano (-100 ML) despite their L1 streak",
+        "No head-to-head data provided to inform matchup history"
+      ],
+      "reasoning": "Data is extremely sparse with only one match played by each side this season, so confidence should be tempered rather than high. Alav\u00e9s enters on a W1 streak and Rayo on an L1 streak, which slightly favors Alav\u00e9s form-wise, but home-field advantage and the market's strong lean toward Rayo (implied ~50% vs Alav\u00e9s' ~24%) suggest bookmakers see quality gap favoring the hosts. Given the coin-flip nature of early-season form signals versus market pricing, I lean toward Rayo Vallecano at home but with modest confidence.",
+      "context_used": {
+        "away_trends": {
+          "team": "Alav\u00e9s",
+          "last5": "1-0",
+          "streak": "W1",
+          "record": "1-0",
+          "h2h_vs_opponent": null
+        },
+        "home_trends": {
+          "team": "Rayo Vallecano",
+          "last5": "0-1",
+          "streak": "L1",
+          "record": "0-1",
+          "h2h_vs_opponent": null
+        },
+        "weather": null,
+        "probable_pitchers": {
+          "home": null,
+          "away": null
+        }
+      },
+      "generated_at": "2026-08-18T11:50:51.896849+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "Alav\u00e9s": 320,
+          "Rayo Vallecano": 100,
+          "Draw": 210
+        },
+        "spread": {},
+        "total": null,
+        "num_bookmakers": 1
+      }
+    },
     "actual": null
   },
   "soccer_spain_la_liga_2026-08-21_real-sociedad_at_real-betis": {
