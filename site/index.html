@@ -97,9 +97,24 @@ th { color: var(--muted); font-weight: 500; font-size: 0.78rem; text-transform: 
   </nav>
 </header>
 <div class="layout">
-<div class="sidebar"><h3>Sports</h3><button class="league-btn active" data-league="all" onclick="filterLeague('all', this)">All Sports</button><button class="league-btn" data-league="La Liga" onclick="filterLeague('La Liga', this)">La Liga</button><button class="league-btn" data-league="MLS" onclick="filterLeague('MLS', this)">MLS</button></div>
+<div class="sidebar"><h3>Sports</h3><button class="league-btn active" data-league="all" onclick="filterLeague('all', this)">All Sports</button><button class="league-btn" data-league="Premier League" onclick="filterLeague('Premier League', this)">Premier League</button><button class="league-btn" data-league="La Liga" onclick="filterLeague('La Liga', this)">La Liga</button><button class="league-btn" data-league="Ligue 1" onclick="filterLeague('Ligue 1', this)">Ligue 1</button><button class="league-btn" data-league="MLS" onclick="filterLeague('MLS', this)">MLS</button></div>
 <main>
-<p class="updated">Last updated Aug 18, 2026 at 07:50 AM EDT</p><div class="top-picks"><h2>Top 5 by Confidence</h2><div class="top-picks-grid"><div class="card">
+<p class="updated">Last updated Aug 19, 2026 at 07:50 AM EDT</p><div class="top-picks"><h2>Top 5 by Confidence</h2><div class="top-picks-grid"><div class="card">
+  <div class="matchup">Coventry City @ Arsenal <span class="your-pick-badge" data-game-id="soccer_epl_2026-08-21_coventry-city_at_arsenal" style="display:none;">&#10003; Your pick</span></div>
+  <div class="meta">Fri Aug 21, 03:00 PM EDT</div>
+  <div class="odds-row"><div class="odds-item"><div class="odds-label">Moneyline</div><div class="odds-value">Arsenal -618 &middot; Coventry City +1421 &middot; Draw +647</div></div><div class="odds-item"><div class="odds-label">Spread</div><div class="odds-value">Arsenal -1.9 &middot; Coventry City +1.9</div></div><div class="odds-item"><div class="odds-label">Total (O/U)</div><div class="odds-value">2.9</div></div><div class="odds-item"><div class="odds-label">Books</div><div class="odds-value">9</div></div></div>
+  <div class="pick-row">
+    <span>Pick:</span> <span class="pick">Arsenal</span>
+    <span class="confidence">78% confidence</span>
+  </div>
+  <div class="pick-row"><span>Against the spread:</span> <span class="pick">Arsenal</span></div>
+  <ul class="factors"><li>Massive quality gap between Premier League Arsenal and Championship-level Coventry City</li><li>Market prices Arsenal as an overwhelming favorite (-618) reflecting large class difference</li><li>No trend data available to contradict the clear talent disparity</li></ul>
+  <div class="reasoning">Arsenal is a top-tier Premier League club facing a lower-division side, and while no specific recent-form data was given, the enormous market disparity (-618 vs +1421) is consistent with a huge quality gap. Without contradicting trend data, there's no reason to fade the heavy favorite here, though covering a nearly 2-goal spread against a lower side always carries some risk. I'll back Arsenal to win and cover.</div>
+  <label class="pick-toggle">
+    <input type="checkbox" class="pick-checkbox" data-game-id="soccer_epl_2026-08-21_coventry-city_at_arsenal"  onchange="togglePick('soccer_epl_2026-08-21_coventry-city_at_arsenal', this)"> I bet on this
+  </label>
+  <div class="pick-status" data-game-id="soccer_epl_2026-08-21_coventry-city_at_arsenal">Couldn't save that pick &mdash; check your connection and try again.</div>
+</div><div class="card">
   <div class="matchup">CF Montreal @ Columbus Crew SC <span class="your-pick-badge" data-game-id="soccer_usa_mls_2026-08-19_cf-montreal_at_columbus-crew-sc" style="display:none;">&#10003; Your pick</span></div>
   <div class="meta">Wed Aug 19, 07:30 PM EDT</div>
   <div class="odds-row"><div class="odds-item"><div class="odds-label">Moneyline</div><div class="odds-value">CF Montreal +425 &middot; Columbus Crew SC -192 &middot; Draw +330</div></div><div class="odds-item"><div class="odds-label">Spread</div><div class="odds-value">CF Montreal +1.5 &middot; Columbus Crew SC -1.5</div></div><div class="odds-item"><div class="odds-label">Total (O/U)</div><div class="odds-value">3.5</div></div><div class="odds-item"><div class="odds-label">Books</div><div class="odds-value">2</div></div></div>
@@ -159,22 +174,41 @@ th { color: var(--muted); font-weight: 500; font-size: 0.78rem; text-transform: 
     <input type="checkbox" class="pick-checkbox" data-game-id="soccer_usa_mls_2026-08-19_chicago-fire_at_orlando-city-sc"  onchange="togglePick('soccer_usa_mls_2026-08-19_chicago-fire_at_orlando-city-sc', this)"> I bet on this
   </label>
   <div class="pick-status" data-game-id="soccer_usa_mls_2026-08-19_chicago-fire_at_orlando-city-sc">Couldn't save that pick &mdash; check your connection and try again.</div>
-</div><div class="card">
-  <div class="matchup">Nashville SC @ New York Red Bulls <span class="your-pick-badge" data-game-id="soccer_usa_mls_2026-08-19_nashville-sc_at_new-york-red-bulls" style="display:none;">&#10003; Your pick</span></div>
-  <div class="meta">Wed Aug 19, 07:30 PM EDT</div>
-  <div class="odds-row"><div class="odds-item"><div class="odds-label">Moneyline</div><div class="odds-value">Nashville SC +122 &middot; New York Red Bulls +178 &middot; Draw +282</div></div><div class="odds-item"><div class="odds-label">Spread</div><div class="odds-value">Nashville SC -0.5 &middot; New York Red Bulls +0.5</div></div><div class="odds-item"><div class="odds-label">Total (O/U)</div><div class="odds-value">3.5</div></div><div class="odds-item"><div class="odds-label">Books</div><div class="odds-value">2</div></div></div>
+</div></div></div><div class="league-group filterable-item" data-league="Premier League"><h2>Premier League</h2>
+<div class="card">
+  <div class="matchup">Coventry City @ Arsenal <span class="your-pick-badge" data-game-id="soccer_epl_2026-08-21_coventry-city_at_arsenal" style="display:none;">&#10003; Your pick</span></div>
+  <div class="meta">Fri Aug 21, 03:00 PM EDT</div>
+  <div class="odds-row"><div class="odds-item"><div class="odds-label">Moneyline</div><div class="odds-value">Arsenal -618 &middot; Coventry City +1421 &middot; Draw +647</div></div><div class="odds-item"><div class="odds-label">Spread</div><div class="odds-value">Arsenal -1.9 &middot; Coventry City +1.9</div></div><div class="odds-item"><div class="odds-label">Total (O/U)</div><div class="odds-value">2.9</div></div><div class="odds-item"><div class="odds-label">Books</div><div class="odds-value">9</div></div></div>
   <div class="pick-row">
-    <span>Pick:</span> <span class="pick">Nashville SC</span>
-    <span class="confidence">63% confidence</span>
+    <span>Pick:</span> <span class="pick">Arsenal</span>
+    <span class="confidence">78% confidence</span>
   </div>
-  <div class="pick-row"><span>Against the spread:</span> <span class="pick">Nashville SC</span></div>
-  <ul class="factors"><li>Nashville strong record (13-6) and W1 streak</li><li>No trend data available for Red Bulls</li><li>Market slightly favors Red Bulls despite Nashville's superior form</li></ul>
-  <div class="reasoning">Nashville boasts one of the best records in the sample (13-6) with positive momentum, while there's no data available on the Red Bulls to counter that strength. Given the information gap favoring Nashville and the market underrating them, we lean Nashville on the road despite lower total confidence due to missing home team data.</div>
+  <div class="pick-row"><span>Against the spread:</span> <span class="pick">Arsenal</span></div>
+  <ul class="factors"><li>Massive quality gap between Premier League Arsenal and Championship-level Coventry City</li><li>Market prices Arsenal as an overwhelming favorite (-618) reflecting large class difference</li><li>No trend data available to contradict the clear talent disparity</li></ul>
+  <div class="reasoning">Arsenal is a top-tier Premier League club facing a lower-division side, and while no specific recent-form data was given, the enormous market disparity (-618 vs +1421) is consistent with a huge quality gap. Without contradicting trend data, there's no reason to fade the heavy favorite here, though covering a nearly 2-goal spread against a lower side always carries some risk. I'll back Arsenal to win and cover.</div>
   <label class="pick-toggle">
-    <input type="checkbox" class="pick-checkbox" data-game-id="soccer_usa_mls_2026-08-19_nashville-sc_at_new-york-red-bulls"  onchange="togglePick('soccer_usa_mls_2026-08-19_nashville-sc_at_new-york-red-bulls', this)"> I bet on this
+    <input type="checkbox" class="pick-checkbox" data-game-id="soccer_epl_2026-08-21_coventry-city_at_arsenal"  onchange="togglePick('soccer_epl_2026-08-21_coventry-city_at_arsenal', this)"> I bet on this
   </label>
-  <div class="pick-status" data-game-id="soccer_usa_mls_2026-08-19_nashville-sc_at_new-york-red-bulls">Couldn't save that pick &mdash; check your connection and try again.</div>
-</div></div></div><div class="league-group filterable-item" data-league="La Liga"><h2>La Liga</h2>
+  <div class="pick-status" data-game-id="soccer_epl_2026-08-21_coventry-city_at_arsenal">Couldn't save that pick &mdash; check your connection and try again.</div>
+</div>
+<div class="card">
+  <div class="matchup">Manchester United @ Hull City <span class="your-pick-badge" data-game-id="soccer_epl_2026-08-22_manchester-united_at_hull-city" style="display:none;">&#10003; Your pick</span></div>
+  <div class="meta">Sat Aug 22, 07:30 AM EDT</div>
+  <div class="odds-row"><div class="odds-item"><div class="odds-label">Moneyline</div><div class="odds-value">Hull City +621 &middot; Manchester United -226 &middot; Draw +350</div></div><div class="odds-item"><div class="odds-label">Spread</div><div class="odds-value">Hull City +1.1 &middot; Manchester United -1.1</div></div><div class="odds-item"><div class="odds-label">Total (O/U)</div><div class="odds-value">2.5</div></div><div class="odds-item"><div class="odds-label">Books</div><div class="odds-value">9</div></div></div>
+  <div class="pick-row">
+    <span>Pick:</span> <span class="pick">Manchester United</span>
+    <span class="confidence">65% confidence</span>
+  </div>
+  <div class="pick-row"><span>Against the spread:</span> <span class="pick">Manchester United</span></div>
+  <ul class="factors"><li>Manchester United is a top-flight club against Championship-level Hull City</li><li>Moneyline (-226) reflects a clear but not overwhelming favorite status</li><li>Lack of specific recent form data reduces certainty despite the class gap</li></ul>
+  <div class="reasoning">Manchester United, even in a down period historically, still holds a significant class advantage over Hull City, supported by the -226 moneyline. However, with no recent form, streak, or head-to-head data provided, confidence is tempered compared to a game with fuller context. United should still be favored to win and likely cover a modest -1.1 spread against a lower-division opponent.</div>
+  <label class="pick-toggle">
+    <input type="checkbox" class="pick-checkbox" data-game-id="soccer_epl_2026-08-22_manchester-united_at_hull-city"  onchange="togglePick('soccer_epl_2026-08-22_manchester-united_at_hull-city', this)"> I bet on this
+  </label>
+  <div class="pick-status" data-game-id="soccer_epl_2026-08-22_manchester-united_at_hull-city">Couldn't save that pick &mdash; check your connection and try again.</div>
+</div>
+</div>
+<div class="league-group filterable-item" data-league="La Liga"><h2>La Liga</h2>
 <div class="card">
   <div class="matchup">Málaga @ Atlético Madrid <span class="your-pick-badge" data-game-id="soccer_spain_la_liga_2026-08-19_málaga_at_atlético-madrid" style="display:none;">&#10003; Your pick</span></div>
   <div class="meta">Wed Aug 19, 03:00 PM EDT</div>
@@ -190,6 +224,24 @@ th { color: var(--muted); font-weight: 500; font-size: 0.78rem; text-transform: 
     <input type="checkbox" class="pick-checkbox" data-game-id="soccer_spain_la_liga_2026-08-19_málaga_at_atlético-madrid"  onchange="togglePick('soccer_spain_la_liga_2026-08-19_málaga_at_atlético-madrid', this)"> I bet on this
   </label>
   <div class="pick-status" data-game-id="soccer_spain_la_liga_2026-08-19_málaga_at_atlético-madrid">Couldn't save that pick &mdash; check your connection and try again.</div>
+</div>
+</div>
+<div class="league-group filterable-item" data-league="Ligue 1"><h2>Ligue 1</h2>
+<div class="card">
+  <div class="matchup">Strasbourg @ Marseille <span class="your-pick-badge" data-game-id="soccer_france_ligue_one_2026-08-21_strasbourg_at_marseille" style="display:none;">&#10003; Your pick</span></div>
+  <div class="meta">Fri Aug 21, 02:45 PM EDT</div>
+  <div class="odds-row"><div class="odds-item"><div class="odds-label">Moneyline</div><div class="odds-value">Marseille -155 &middot; Strasbourg +352 &middot; Draw +328</div></div><div class="odds-item"><div class="odds-label">Spread</div><div class="odds-value">Marseille -0.9 &middot; Strasbourg +0.9</div></div><div class="odds-item"><div class="odds-label">Total (O/U)</div><div class="odds-value">3.2</div></div><div class="odds-item"><div class="odds-label">Books</div><div class="odds-value">8</div></div></div>
+  <div class="pick-row">
+    <span>Pick:</span> <span class="pick">Marseille</span>
+    <span class="confidence">60% confidence</span>
+  </div>
+  <div class="pick-row"><span>Against the spread:</span> <span class="pick">Marseille</span></div>
+  <ul class="factors"><li>Marseille is the home favorite per market moneyline (-155)</li><li>No recent form or head-to-head data provided to adjust from market baseline</li><li>Ligue 1 home advantage typically favors the stronger side in such matchups</li></ul>
+  <div class="reasoning">With no specific trend data such as recent form or head-to-head history, the analysis leans on market pricing and typical home-field advantage in Ligue 1. Marseille as the moneyline favorite at home against Strasbourg is a reasonable pick, but the lack of trend data limits confidence to a moderate level. This is closer to a coin-flip than the market's price suggests, given the absence of corroborating trends.</div>
+  <label class="pick-toggle">
+    <input type="checkbox" class="pick-checkbox" data-game-id="soccer_france_ligue_one_2026-08-21_strasbourg_at_marseille"  onchange="togglePick('soccer_france_ligue_one_2026-08-21_strasbourg_at_marseille', this)"> I bet on this
+  </label>
+  <div class="pick-status" data-game-id="soccer_france_ligue_one_2026-08-21_strasbourg_at_marseille">Couldn't save that pick &mdash; check your connection and try again.</div>
 </div>
 </div>
 <div class="league-group filterable-item" data-league="MLS"><h2>MLS</h2>

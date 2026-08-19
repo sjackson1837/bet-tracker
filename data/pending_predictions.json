@@ -1,33 +1,147 @@
 {
   "instructions": "For each game below, act as a sharp, disciplined sports betting analyst. Do NOT simply pick whichever side the betting market favors -- weigh the actual trend data provided (recent form, streaks, head-to-head history, starting pitcher matchups where given, and weather where relevant) and form an independent judgment. It's fine, and expected, to disagree with the market when the trends support it. If trend data is sparse for a game, say so and let that lower your confidence rather than defaulting to the favorite. For each game_id, produce: predicted_winner (exact team name), predicted_against_spread (exact team name), confidence (integer 1-100), key_factors (2-4 short strings), and reasoning (2-4 sentences referencing the specific trend data given).",
   "games": {
-    "soccer_spain_la_liga_2026-08-20_alav\u00e9s_at_rayo-vallecano": {
-      "league": "La Liga",
-      "away_team": "Alav\u00e9s",
-      "home_team": "Rayo Vallecano",
-      "commence_time": "2026-08-20T19:00:00Z",
+    "soccer_epl_2026-08-21_coventry-city_at_arsenal": {
+      "league": "Premier League",
+      "away_team": "Coventry City",
+      "home_team": "Arsenal",
+      "commence_time": "2026-08-21T19:00:00Z",
       "market_line": {
         "moneyline": {
-          "Alav\u00e9s": 320,
-          "Rayo Vallecano": 100,
-          "Draw": 210
+          "Arsenal": -618,
+          "Coventry City": 1421,
+          "Draw": 647
         },
-        "spread": {},
-        "total": null,
-        "num_bookmakers": 1
+        "spread": {
+          "Arsenal": -1.9,
+          "Coventry City": 1.9
+        },
+        "total": 2.9,
+        "num_bookmakers": 9
       },
       "away_team_trends": {
-        "team": "Alav\u00e9s",
-        "last5": "1-0",
-        "streak": "W1",
-        "record": "1-0",
+        "team": "Coventry City",
+        "last5": null,
+        "streak": null,
+        "record": null,
         "h2h_vs_opponent": null
       },
       "home_team_trends": {
-        "team": "Rayo Vallecano",
-        "last5": "0-1",
-        "streak": "L1",
-        "record": "0-1",
+        "team": "Arsenal",
+        "last5": null,
+        "streak": null,
+        "record": null,
+        "h2h_vs_opponent": null
+      },
+      "weather_at_kickoff": null,
+      "probable_pitchers": {
+        "home": null,
+        "away": null
+      }
+    },
+    "soccer_epl_2026-08-22_manchester-united_at_hull-city": {
+      "league": "Premier League",
+      "away_team": "Manchester United",
+      "home_team": "Hull City",
+      "commence_time": "2026-08-22T11:30:00Z",
+      "market_line": {
+        "moneyline": {
+          "Hull City": 621,
+          "Manchester United": -226,
+          "Draw": 350
+        },
+        "spread": {
+          "Hull City": 1.1,
+          "Manchester United": -1.1
+        },
+        "total": 2.5,
+        "num_bookmakers": 9
+      },
+      "away_team_trends": {
+        "team": "Manchester United",
+        "last5": null,
+        "streak": null,
+        "record": null,
+        "h2h_vs_opponent": null
+      },
+      "home_team_trends": {
+        "team": "Hull City",
+        "last5": null,
+        "streak": null,
+        "record": null,
+        "h2h_vs_opponent": null
+      },
+      "weather_at_kickoff": null,
+      "probable_pitchers": {
+        "home": null,
+        "away": null
+      }
+    },
+    "soccer_france_ligue_one_2026-08-21_strasbourg_at_marseille": {
+      "league": "Ligue 1",
+      "away_team": "Strasbourg",
+      "home_team": "Marseille",
+      "commence_time": "2026-08-21T18:45:00Z",
+      "market_line": {
+        "moneyline": {
+          "Marseille": -155,
+          "Strasbourg": 352,
+          "Draw": 328
+        },
+        "spread": {
+          "Marseille": -0.9,
+          "Strasbourg": 0.9
+        },
+        "total": 3.2,
+        "num_bookmakers": 8
+      },
+      "away_team_trends": {
+        "team": "Strasbourg",
+        "last5": null,
+        "streak": null,
+        "record": null,
+        "h2h_vs_opponent": null
+      },
+      "home_team_trends": {
+        "team": "Marseille",
+        "last5": null,
+        "streak": null,
+        "record": null,
+        "h2h_vs_opponent": null
+      },
+      "weather_at_kickoff": null,
+      "probable_pitchers": {
+        "home": null,
+        "away": null
+      }
+    },
+    "soccer_spain_la_liga_2026-08-21_real-sociedad_at_real-betis": {
+      "league": "La Liga",
+      "away_team": "Real Sociedad",
+      "home_team": "Real Betis",
+      "commence_time": "2026-08-21T19:00:00Z",
+      "market_line": {
+        "moneyline": {
+          "Real Betis": 112,
+          "Real Sociedad": 245,
+          "Draw": 235
+        },
+        "spread": {},
+        "total": 2.5,
+        "num_bookmakers": 2
+      },
+      "away_team_trends": {
+        "team": "Real Sociedad",
+        "last5": null,
+        "streak": null,
+        "record": null,
+        "h2h_vs_opponent": null
+      },
+      "home_team_trends": {
+        "team": "Real Betis",
+        "last5": null,
+        "streak": null,
+        "record": null,
         "h2h_vs_opponent": null
       },
       "weather_at_kickoff": null,

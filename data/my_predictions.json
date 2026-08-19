@@ -1,14 +1,50 @@
 {
-  "soccer_spain_la_liga_2026-08-20_alav\u00e9s_at_rayo-vallecano": {
-    "predicted_winner": "Rayo Vallecano",
-    "predicted_against_spread": "Rayo Vallecano",
-    "confidence": 42,
+  "soccer_epl_2026-08-21_coventry-city_at_arsenal": {
+    "predicted_winner": "Arsenal",
+    "predicted_against_spread": "Arsenal",
+    "confidence": 78,
     "key_factors": [
-      "Very early season sample (1 game each) limits trend reliability",
-      "Alav\u00e9s won its opener while Rayo lost, but home advantage matters in La Liga",
-      "Market heavily favors Rayo Vallecano (-100 ML) despite their L1 streak",
-      "No head-to-head data provided to inform matchup history"
+      "Massive quality gap between Premier League Arsenal and Championship-level Coventry City",
+      "Market prices Arsenal as an overwhelming favorite (-618) reflecting large class difference",
+      "No trend data available to contradict the clear talent disparity"
     ],
-    "reasoning": "Data is extremely sparse with only one match played by each side this season, so confidence should be tempered rather than high. Alav\u00e9s enters on a W1 streak and Rayo on an L1 streak, which slightly favors Alav\u00e9s form-wise, but home-field advantage and the market's strong lean toward Rayo (implied ~50% vs Alav\u00e9s' ~24%) suggest bookmakers see quality gap favoring the hosts. Given the coin-flip nature of early-season form signals versus market pricing, I lean toward Rayo Vallecano at home but with modest confidence."
+    "reasoning": "Arsenal is a top-tier Premier League club facing a lower-division side, and while no specific recent-form data was given, the enormous market disparity (-618 vs +1421) is consistent with a huge quality gap. Without contradicting trend data, there's no reason to fade the heavy favorite here, though covering a nearly 2-goal spread against a lower side always carries some risk. I'll back Arsenal to win and cover.",
+    "confidence_note": ""
+  },
+  "soccer_epl_2026-08-22_manchester-united_at_hull-city": {
+    "predicted_winner": "Manchester United",
+    "predicted_against_spread": "Manchester United",
+    "confidence": 65,
+    "key_factors": [
+      "Manchester United is a top-flight club against Championship-level Hull City",
+      "Moneyline (-226) reflects a clear but not overwhelming favorite status",
+      "Lack of specific recent form data reduces certainty despite the class gap"
+    ],
+    "reasoning": "Manchester United, even in a down period historically, still holds a significant class advantage over Hull City, supported by the -226 moneyline. However, with no recent form, streak, or head-to-head data provided, confidence is tempered compared to a game with fuller context. United should still be favored to win and likely cover a modest -1.1 spread against a lower-division opponent.",
+    "confidence_note": ""
+  },
+  "soccer_france_ligue_one_2026-08-21_strasbourg_at_marseille": {
+    "predicted_winner": "Marseille",
+    "predicted_against_spread": "Marseille",
+    "confidence": 60,
+    "key_factors": [
+      "Marseille is the home favorite per market moneyline (-155)",
+      "No recent form or head-to-head data provided to adjust from market baseline",
+      "Ligue 1 home advantage typically favors the stronger side in such matchups"
+    ],
+    "reasoning": "With no specific trend data such as recent form or head-to-head history, the analysis leans on market pricing and typical home-field advantage in Ligue 1. Marseille as the moneyline favorite at home against Strasbourg is a reasonable pick, but the lack of trend data limits confidence to a moderate level. This is closer to a coin-flip than the market's price suggests, given the absence of corroborating trends.",
+    "confidence_note": ""
+  },
+  "soccer_spain_la_liga_2026-08-21_real-sociedad_at_real-betis": {
+    "predicted_winner": "Real Betis",
+    "predicted_against_spread": "Real Betis",
+    "confidence": 55,
+    "key_factors": [
+      "Real Betis favored at home per moneyline (+112 vs +245 for Sociedad)",
+      "Very limited market data (only 2 bookmakers) and no spread offered",
+      "No trend or recent form data available to strengthen conviction"
+    ],
+    "reasoning": "This game has the thinnest market coverage (only 2 bookmakers, no spread), and no trend data on either team's recent form or head-to-head history was provided. Real Betis is a slight home favorite by moneyline, which combined with typical home-field advantage in La Liga nudges the pick their way, but this is close to a coin-flip given the sparse data. Confidence is kept low to reflect the genuine uncertainty here.",
+    "confidence_note": ""
   }
 }
