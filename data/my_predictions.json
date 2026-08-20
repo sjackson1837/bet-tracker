@@ -1,50 +1,194 @@
 {
-  "soccer_epl_2026-08-21_coventry-city_at_arsenal": {
-    "predicted_winner": "Arsenal",
-    "predicted_against_spread": "Arsenal",
-    "confidence": 78,
-    "key_factors": [
-      "Massive quality gap between Premier League Arsenal and Championship-level Coventry City",
-      "Market prices Arsenal as an overwhelming favorite (-618) reflecting large class difference",
-      "No trend data available to contradict the clear talent disparity"
-    ],
-    "reasoning": "Arsenal is a top-tier Premier League club facing a lower-division side, and while no specific recent-form data was given, the enormous market disparity (-618 vs +1421) is consistent with a huge quality gap. Without contradicting trend data, there's no reason to fade the heavy favorite here, though covering a nearly 2-goal spread against a lower side always carries some risk. I'll back Arsenal to win and cover.",
-    "confidence_note": ""
-  },
-  "soccer_epl_2026-08-22_manchester-united_at_hull-city": {
-    "predicted_winner": "Manchester United",
-    "predicted_against_spread": "Manchester United",
-    "confidence": 65,
-    "key_factors": [
-      "Manchester United is a top-flight club against Championship-level Hull City",
-      "Moneyline (-226) reflects a clear but not overwhelming favorite status",
-      "Lack of specific recent form data reduces certainty despite the class gap"
-    ],
-    "reasoning": "Manchester United, even in a down period historically, still holds a significant class advantage over Hull City, supported by the -226 moneyline. However, with no recent form, streak, or head-to-head data provided, confidence is tempered compared to a game with fuller context. United should still be favored to win and likely cover a modest -1.1 spread against a lower-division opponent.",
-    "confidence_note": ""
-  },
-  "soccer_france_ligue_one_2026-08-21_strasbourg_at_marseille": {
-    "predicted_winner": "Marseille",
-    "predicted_against_spread": "Marseille",
-    "confidence": 60,
-    "key_factors": [
-      "Marseille is the home favorite per market moneyline (-155)",
-      "No recent form or head-to-head data provided to adjust from market baseline",
-      "Ligue 1 home advantage typically favors the stronger side in such matchups"
-    ],
-    "reasoning": "With no specific trend data such as recent form or head-to-head history, the analysis leans on market pricing and typical home-field advantage in Ligue 1. Marseille as the moneyline favorite at home against Strasbourg is a reasonable pick, but the lack of trend data limits confidence to a moderate level. This is closer to a coin-flip than the market's price suggests, given the absence of corroborating trends.",
-    "confidence_note": ""
-  },
-  "soccer_spain_la_liga_2026-08-21_real-sociedad_at_real-betis": {
-    "predicted_winner": "Real Betis",
-    "predicted_against_spread": "Real Betis",
+  "soccer_epl_2026-08-22_crystal-palace_at_everton": {
+    "predicted_winner": "Everton",
+    "predicted_against_spread": "Everton",
     "confidence": 55,
     "key_factors": [
-      "Real Betis favored at home per moneyline (+112 vs +245 for Sociedad)",
-      "Very limited market data (only 2 bookmakers) and no spread offered",
-      "No trend or recent form data available to strengthen conviction"
+      "Everton favored at home per moneyline",
+      "No detailed form data available",
+      "Market implies clear edge for Everton"
     ],
-    "reasoning": "This game has the thinnest market coverage (only 2 bookmakers, no spread), and no trend data on either team's recent form or head-to-head history was provided. Real Betis is a slight home favorite by moneyline, which combined with typical home-field advantage in La Liga nudges the pick their way, but this is close to a coin-flip given the sparse data. Confidence is kept low to reflect the genuine uncertainty here.",
-    "confidence_note": ""
+    "reasoning": "With no specific trend data provided, we rely on the market's implied probabilities, which favor Everton clearly (113 vs 236). Home advantage and betting market consensus support Everton covering the small spread.",
+    "confidence_note": "Low data availability reduces certainty"
+  },
+  "soccer_epl_2026-08-22_sunderland_at_ipswich-town": {
+    "predicted_winner": "Ipswich Town",
+    "predicted_against_spread": "Ipswich Town",
+    "confidence": 51,
+    "key_factors": [
+      "Odds nearly even (170 vs 158)",
+      "No trend data provided",
+      "Marginal home edge"
+    ],
+    "reasoning": "This is essentially a coin-flip matchup based on odds alone since no team-specific trends are available. Slight home-field edge for Ipswich Town nudges the pick, but confidence remains low due to lack of data.",
+    "confidence_note": "n/a"
+  },
+  "soccer_epl_2026-08-22_leeds-united_at_nottingham-forest": {
+    "predicted_winner": "Leeds United",
+    "predicted_against_spread": "Leeds United",
+    "confidence": 57,
+    "key_factors": [
+      "Leeds favored by market (218 vs 122)",
+      "No specific trend data",
+      "Away side priced as stronger side"
+    ],
+    "reasoning": "Market odds strongly favor Leeds United winning outright despite being away, suggesting bookmakers see a quality gap. Without additional trend data, we defer to this pricing signal for a moderate-confidence pick.",
+    "confidence_note": "n/a"
+  },
+  "soccer_epl_2026-08-22_tottenham-hotspur_at_brentford": {
+    "predicted_winner": "Tottenham Hotspur",
+    "predicted_against_spread": "Tottenham Hotspur",
+    "confidence": 56,
+    "key_factors": [
+      "Spurs favored on moneyline (178 vs 138)",
+      "Higher total suggests attacking game",
+      "No trend data available"
+    ],
+    "reasoning": "Tottenham is priced as the favorite despite playing away, which typically signals a talent gap recognized by the market. Lacking specific trend data, we lean on this pricing with moderate confidence.",
+    "confidence_note": "n/a"
+  },
+  "soccer_italy_serie_a_2026-08-22_como_at_udinese": {
+    "predicted_winner": "Como",
+    "predicted_against_spread": "Como",
+    "confidence": 60,
+    "key_factors": [
+      "Como favored despite being away (-121 vs 344)",
+      "Large moneyline gap indicates quality difference",
+      "No trend data to contradict market signal"
+    ],
+    "reasoning": "The moneyline strongly favors Como even on the road, a significant signal of quality disparity. With no contradicting trend data, we back Como to win and cover the small road spread.",
+    "confidence_note": "n/a"
+  },
+  "soccer_italy_serie_a_2026-08-22_monza_at_inter-milan": {
+    "predicted_winner": "Inter Milan",
+    "predicted_against_spread": "Monza",
+    "confidence": 78,
+    "key_factors": [
+      "Inter Milan heavily favored (-475)",
+      "Large spread of -1.6 goals",
+      "Monza as significant underdog may keep game closer than spread"
+    ],
+    "reasoning": "Inter Milan is a massive favorite reflecting a huge talent gap, making them clear winners. However, a -1.6 goal spread is a tall order for cover; Monza, as heavy underdogs, often find ways to lose by a manageable margin, so we lean toward Monza covering the generous spread.",
+    "confidence_note": "n/a"
+  },
+  "soccer_italy_serie_a_2026-08-22_cagliari_at_parma": {
+    "predicted_winner": "Parma",
+    "predicted_against_spread": "Parma",
+    "confidence": 53,
+    "key_factors": [
+      "Parma slightly favored at home (160 vs 182)",
+      "Pick'em spread signals close matchup",
+      "No trend data available"
+    ],
+    "reasoning": "The odds are tightly clustered, indicating a close matchup with only a slight home-field tilt toward Parma. Lacking any trend data, we assign low-moderate confidence to the marginal favorite.",
+    "confidence_note": "n/a"
+  },
+  "soccer_italy_serie_a_2026-08-22_napoli_at_genoa": {
+    "predicted_winner": "Napoli",
+    "predicted_against_spread": "Napoli",
+    "confidence": 65,
+    "key_factors": [
+      "Napoli strongly favored despite road trip (-122 vs 360)",
+      "Significant moneyline gap suggests quality edge",
+      "No trend data to contradict"
+    ],
+    "reasoning": "Napoli's clear favorite status on the road against Genoa points to a quality gap recognized by the market. With no contrary trend information, we back Napoli to win and cover the modest spread.",
+    "confidence_note": "n/a"
+  },
+  "soccer_france_ligue_one_2026-08-22_auxerre_at_rc-lens": {
+    "predicted_winner": "RC Lens",
+    "predicted_against_spread": "RC Lens",
+    "confidence": 68,
+    "key_factors": [
+      "RC Lens heavily favored at home (-168 vs 411)",
+      "Large -1.0 spread reflects expected dominance",
+      "No trend data to contradict market"
+    ],
+    "reasoning": "RC Lens is priced as a strong home favorite against Auxerre, suggesting a clear quality and form advantage. The market's confidence combined with home advantage supports RC Lens covering the -1.0 spread.",
+    "confidence_note": "n/a"
+  },
+  "soccer_france_ligue_one_2026-08-22_brest_at_le-mans-fc": {
+    "predicted_winner": "Le Mans FC",
+    "predicted_against_spread": "Le Mans FC",
+    "confidence": 52,
+    "key_factors": [
+      "Odds close (171 vs 147)",
+      "Slight home favorite edge",
+      "No trend data available"
+    ],
+    "reasoning": "This matchup is close to a coin flip based on odds, with Le Mans FC holding a marginal home advantage. Without trend data, confidence remains low but leans toward the home side.",
+    "confidence_note": "n/a"
+  },
+  "soccer_france_ligue_one_2026-08-22_lorient_at_nice": {
+    "predicted_winner": "Nice",
+    "predicted_against_spread": "Nice",
+    "confidence": 62,
+    "key_factors": [
+      "Nice favored at home (116 vs 218)",
+      "Reasonable moneyline gap indicates edge",
+      "No trend data to override market signal"
+    ],
+    "reasoning": "Nice is a clear favorite at home against Lorient per the market pricing. Lacking additional trend data, we follow this signal with moderate confidence for both the win and spread cover.",
+    "confidence_note": "n/a"
+  },
+  "soccer_france_ligue_one_2026-08-22_lyon_at_toulouse": {
+    "predicted_winner": "Lyon",
+    "predicted_against_spread": "Toulouse",
+    "confidence": 70,
+    "key_factors": [
+      "Lyon heavily favored on the road (77 vs 241)",
+      "Large -0.5 spread despite away status",
+      "Strong quality gap implied by odds"
+    ],
+    "reasoning": "Lyon's strong favorite pricing even away from home signals a significant quality gap over Toulouse. However, with just a -0.5 spread, Toulouse as home underdogs have a reasonable chance to keep it within a goal, so we lean Toulouse on the spread while backing Lyon to win outright.",
+    "confidence_note": "n/a"
+  },
+  "soccer_france_ligue_one_2026-08-22_paris-fc_at_troyes": {
+    "predicted_winner": "Paris FC",
+    "predicted_against_spread": "Paris FC",
+    "confidence": 54,
+    "key_factors": [
+      "Paris FC slightly favored (145 vs 173)",
+      "Close odds signal tight matchup",
+      "No trend data available"
+    ],
+    "reasoning": "The moneyline gives Paris FC a modest edge despite playing away, which is a mild signal worth following. Without further trend data, confidence stays close to a coin flip.",
+    "confidence_note": "n/a"
+  },
+  "soccer_spain_la_liga_2026-08-22_sevilla_at_athletic-bilbao": {
+    "predicted_winner": "Athletic Bilbao",
+    "predicted_against_spread": "Athletic Bilbao",
+    "confidence": 66,
+    "key_factors": [
+      "Athletic Bilbao strong home favorite (-190)",
+      "Sevilla riding a W1 streak from a 1-0 start",
+      "Home advantage typically significant in La Liga openers"
+    ],
+    "reasoning": "Athletic Bilbao is priced as a solid home favorite, and despite Sevilla's positive early-season form (1-0, W1), the market still clearly favors the hosts. We back Bilbao given the strength of the home odds and lack of head-to-head data to contradict it.",
+    "confidence_note": "n/a"
+  },
+  "soccer_spain_la_liga_2026-08-22_celta-vigo_at_valencia": {
+    "predicted_winner": "Valencia",
+    "predicted_against_spread": "Valencia",
+    "confidence": 58,
+    "key_factors": [
+      "Valencia favored at home (135 vs 200)",
+      "No trend data available for either side",
+      "Moderate moneyline gap suggests mild edge"
+    ],
+    "reasoning": "Valencia holds a moderate home-field pricing advantage over Celta Vigo per the market. With no additional trend data to weigh, we side with the moneyline favorite at a moderate confidence level.",
+    "confidence_note": "n/a"
+  },
+  "soccer_spain_la_liga_2026-08-22_real-madrid_at_espanyol": {
+    "predicted_winner": "Real Madrid",
+    "predicted_against_spread": "Real Madrid",
+    "confidence": 72,
+    "key_factors": [
+      "Real Madrid strongly favored on road (-170)",
+      "Espanyol on a W1 streak from opening 1-0 win",
+      "Class gap typically favors Madrid despite Espanyol's positive start"
+    ],
+    "reasoning": "Real Madrid's significant road favorite status (-170) reflects their overall squad quality advantage over Espanyol. While Espanyol enters with a positive early streak (1-0, W1), this is insufficient to offset the wide talent gap typically seen in this matchup, so we back Madrid with solid confidence.",
+    "confidence_note": "n/a"
   }
 }
