@@ -11221,7 +11221,7 @@
     "espn_sport": "soccer",
     "espn_league": "eng.1",
     "outdoor": true,
-    "status": "scheduled",
+    "status": "predicted",
     "odds": {
       "moneyline": {
         "Aston Villa": 189,
@@ -11235,7 +11235,53 @@
       "total": 2.8,
       "num_bookmakers": 9
     },
-    "prediction": null,
+    "prediction": {
+      "predicted_winner": "Brighton and Hove Albion",
+      "predicted_against_spread": "Brighton and Hove Albion",
+      "confidence": 55,
+      "key_factors": [
+        "Home advantage",
+        "Market favors Brighton clearly (-0.5 line, -129 vs +189 ML)",
+        "No detailed trend data available"
+      ],
+      "reasoning": "With no recent form data provided, we default to the market's implied favorite, Brighton at home, which is priced with a healthy home-field edge. Lack of trend data lowers our confidence to a modest level.",
+      "context_used": {
+        "away_trends": {
+          "team": "Aston Villa",
+          "last5": null,
+          "streak": null,
+          "record": null,
+          "h2h_vs_opponent": null
+        },
+        "home_trends": {
+          "team": "Brighton and Hove Albion",
+          "last5": null,
+          "streak": null,
+          "record": null,
+          "h2h_vs_opponent": null
+        },
+        "weather": null,
+        "probable_pitchers": {
+          "home": null,
+          "away": null
+        }
+      },
+      "generated_at": "2026-08-21T11:52:11.856288+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "Aston Villa": 189,
+          "Brighton and Hove Albion": 129,
+          "Draw": 262
+        },
+        "spread": {
+          "Aston Villa": 0.5,
+          "Brighton and Hove Albion": -0.5
+        },
+        "total": 2.8,
+        "num_bookmakers": 9
+      }
+    },
     "actual": null
   },
   "soccer_epl_2026-08-23_bournemouth_at_manchester-city": {
@@ -11247,7 +11293,7 @@
     "espn_sport": "soccer",
     "espn_league": "eng.1",
     "outdoor": true,
-    "status": "scheduled",
+    "status": "predicted",
     "odds": {
       "moneyline": {
         "Bournemouth": 505,
@@ -11261,7 +11307,53 @@
       "total": 3.5,
       "num_bookmakers": 9
     },
-    "prediction": null,
+    "prediction": {
+      "predicted_winner": "Manchester City",
+      "predicted_against_spread": "Manchester City",
+      "confidence": 78,
+      "key_factors": [
+        "Heavy market favorite (-228 ML)",
+        "Man City historically dominant at home vs newly promoted/mid-table sides",
+        "No contradicting trend data"
+      ],
+      "reasoning": "Manchester City is a massive home favorite against Bournemouth with no data suggesting an upset. Historical class gap and home advantage support City covering.",
+      "context_used": {
+        "away_trends": {
+          "team": "Bournemouth",
+          "last5": null,
+          "streak": null,
+          "record": null,
+          "h2h_vs_opponent": null
+        },
+        "home_trends": {
+          "team": "Manchester City",
+          "last5": null,
+          "streak": null,
+          "record": null,
+          "h2h_vs_opponent": null
+        },
+        "weather": null,
+        "probable_pitchers": {
+          "home": null,
+          "away": null
+        }
+      },
+      "generated_at": "2026-08-21T11:52:11.856288+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "Bournemouth": 505,
+          "Manchester City": -228,
+          "Draw": 398
+        },
+        "spread": {
+          "Bournemouth": 1.4,
+          "Manchester City": -1.4
+        },
+        "total": 3.5,
+        "num_bookmakers": 9
+      }
+    },
     "actual": null
   },
   "soccer_epl_2026-08-23_liverpool_at_newcastle-united": {
@@ -11273,7 +11365,7 @@
     "espn_sport": "soccer",
     "espn_league": "eng.1",
     "outdoor": true,
-    "status": "scheduled",
+    "status": "predicted",
     "odds": {
       "moneyline": {
         "Liverpool": 83,
@@ -11287,7 +11379,53 @@
       "total": 3.2,
       "num_bookmakers": 9
     },
-    "prediction": null,
+    "prediction": {
+      "predicted_winner": "Liverpool",
+      "predicted_against_spread": "Liverpool",
+      "confidence": 68,
+      "key_factors": [
+        "Liverpool heavily favored on road (-0.5 line, -1200ish ML equivalent of 83)",
+        "No trend data to counter market",
+        "Newcastle at home could keep it close"
+      ],
+      "reasoning": "Liverpool is priced as a strong favorite even away from home, suggesting significant quality gap. Without specific trend data to contradict, we lean Liverpool but temper confidence given road trip uncertainty.",
+      "context_used": {
+        "away_trends": {
+          "team": "Liverpool",
+          "last5": null,
+          "streak": null,
+          "record": null,
+          "h2h_vs_opponent": null
+        },
+        "home_trends": {
+          "team": "Newcastle United",
+          "last5": null,
+          "streak": null,
+          "record": null,
+          "h2h_vs_opponent": null
+        },
+        "weather": null,
+        "probable_pitchers": {
+          "home": null,
+          "away": null
+        }
+      },
+      "generated_at": "2026-08-21T11:52:11.856288+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "Liverpool": 83,
+          "Newcastle United": 225,
+          "Draw": 278
+        },
+        "spread": {
+          "Liverpool": -0.5,
+          "Newcastle United": 0.5
+        },
+        "total": 3.2,
+        "num_bookmakers": 9
+      }
+    },
     "actual": null
   },
   "soccer_epl_2026-08-24_chelsea_at_fulham": {
@@ -12479,7 +12617,7 @@
     "espn_sport": "soccer",
     "espn_league": "ita.1",
     "outdoor": true,
-    "status": "scheduled",
+    "status": "predicted",
     "odds": {
       "moneyline": {
         "Frosinone": 590,
@@ -12493,7 +12631,53 @@
       "total": 2.5,
       "num_bookmakers": 8
     },
-    "prediction": null,
+    "prediction": {
+      "predicted_winner": "Juventus",
+      "predicted_against_spread": "Juventus",
+      "confidence": 70,
+      "key_factors": [
+        "Juventus strong favorite (-224 ML)",
+        "Frosinone lower-tier squad",
+        "No trend data available to contradict market"
+      ],
+      "reasoning": "Juventus is a significant favorite over newly-promoted Frosinone, consistent with a large class gap in Serie A. Absent trend data, we align with the market's clear signal here.",
+      "context_used": {
+        "away_trends": {
+          "team": "Juventus",
+          "last5": null,
+          "streak": null,
+          "record": null,
+          "h2h_vs_opponent": null
+        },
+        "home_trends": {
+          "team": "Frosinone",
+          "last5": null,
+          "streak": null,
+          "record": null,
+          "h2h_vs_opponent": null
+        },
+        "weather": null,
+        "probable_pitchers": {
+          "home": null,
+          "away": null
+        }
+      },
+      "generated_at": "2026-08-21T11:52:11.856288+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "Frosinone": 590,
+          "Juventus": -224,
+          "Draw": 340
+        },
+        "spread": {
+          "Frosinone": 1.1,
+          "Juventus": -1.1
+        },
+        "total": 2.5,
+        "num_bookmakers": 8
+      }
+    },
     "actual": null
   },
   "soccer_italy_serie_a_2026-08-23_lecce_at_venezia": {
@@ -12505,7 +12689,7 @@
     "espn_sport": "soccer",
     "espn_league": "ita.1",
     "outdoor": true,
-    "status": "scheduled",
+    "status": "predicted",
     "odds": {
       "moneyline": {
         "Lecce": 212,
@@ -12519,7 +12703,53 @@
       "total": 2.4,
       "num_bookmakers": 8
     },
-    "prediction": null,
+    "prediction": {
+      "predicted_winner": "Venezia",
+      "predicted_against_spread": "Venezia",
+      "confidence": 52,
+      "key_factors": [
+        "Slight home favorite (Venezia -0.1 spread)",
+        "Very tight moneyline gap (134 vs 212)",
+        "No trend data provided"
+      ],
+      "reasoning": "This is close to a pick'em with only a marginal home edge for Venezia. Lack of any trend data keeps confidence near a coin flip.",
+      "context_used": {
+        "away_trends": {
+          "team": "Lecce",
+          "last5": null,
+          "streak": null,
+          "record": null,
+          "h2h_vs_opponent": null
+        },
+        "home_trends": {
+          "team": "Venezia",
+          "last5": null,
+          "streak": null,
+          "record": null,
+          "h2h_vs_opponent": null
+        },
+        "weather": null,
+        "probable_pitchers": {
+          "home": null,
+          "away": null
+        }
+      },
+      "generated_at": "2026-08-21T11:52:11.856288+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "Lecce": 212,
+          "Venezia": 134,
+          "Draw": 220
+        },
+        "spread": {
+          "Lecce": 0.1,
+          "Venezia": -0.1
+        },
+        "total": 2.4,
+        "num_bookmakers": 8
+      }
+    },
     "actual": null
   },
   "soccer_italy_serie_a_2026-08-23_ac-milan_at_torino": {
@@ -12531,7 +12761,7 @@
     "espn_sport": "soccer",
     "espn_league": "ita.1",
     "outdoor": true,
-    "status": "scheduled",
+    "status": "predicted",
     "odds": {
       "moneyline": {
         "AC Milan": -129,
@@ -12545,7 +12775,53 @@
       "total": 2.5,
       "num_bookmakers": 8
     },
-    "prediction": null,
+    "prediction": {
+      "predicted_winner": "AC Milan",
+      "predicted_against_spread": "AC Milan",
+      "confidence": 60,
+      "key_factors": [
+        "AC Milan favored on road (-129 ML)",
+        "Torino generally mid/lower table",
+        "No trend data to override market signal"
+      ],
+      "reasoning": "AC Milan being favored even away from home suggests a quality gap over Torino. Without additional trend data, we side with the market but keep confidence moderate given away form uncertainty.",
+      "context_used": {
+        "away_trends": {
+          "team": "AC Milan",
+          "last5": null,
+          "streak": null,
+          "record": null,
+          "h2h_vs_opponent": null
+        },
+        "home_trends": {
+          "team": "Torino",
+          "last5": null,
+          "streak": null,
+          "record": null,
+          "h2h_vs_opponent": null
+        },
+        "weather": null,
+        "probable_pitchers": {
+          "home": null,
+          "away": null
+        }
+      },
+      "generated_at": "2026-08-21T11:52:11.856288+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "AC Milan": -129,
+          "Torino": 335,
+          "Draw": 268
+        },
+        "spread": {
+          "AC Milan": -0.6,
+          "Torino": 0.6
+        },
+        "total": 2.5,
+        "num_bookmakers": 8
+      }
+    },
     "actual": null
   },
   "soccer_italy_serie_a_2026-08-23_sassuolo_at_atalanta-bc": {
@@ -12557,7 +12833,7 @@
     "espn_sport": "soccer",
     "espn_league": "ita.1",
     "outdoor": true,
-    "status": "scheduled",
+    "status": "predicted",
     "odds": {
       "moneyline": {
         "Atalanta BC": -195,
@@ -12571,7 +12847,53 @@
       "total": 2.8,
       "num_bookmakers": 8
     },
-    "prediction": null,
+    "prediction": {
+      "predicted_winner": "Atalanta BC",
+      "predicted_against_spread": "Atalanta BC",
+      "confidence": 72,
+      "key_factors": [
+        "Atalanta heavy home favorite (-195 ML)",
+        "Sassuolo recently promoted/weaker squad",
+        "No contradicting trend data"
+      ],
+      "reasoning": "Atalanta's strong home odds against Sassuolo reflect a clear talent and form gap typical of this matchup. We follow the market signal given no data to suggest otherwise.",
+      "context_used": {
+        "away_trends": {
+          "team": "Sassuolo",
+          "last5": null,
+          "streak": null,
+          "record": null,
+          "h2h_vs_opponent": null
+        },
+        "home_trends": {
+          "team": "Atalanta BC",
+          "last5": null,
+          "streak": null,
+          "record": null,
+          "h2h_vs_opponent": null
+        },
+        "weather": null,
+        "probable_pitchers": {
+          "home": null,
+          "away": null
+        }
+      },
+      "generated_at": "2026-08-21T11:52:11.856288+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "Atalanta BC": -195,
+          "Sassuolo": 480,
+          "Draw": 335
+        },
+        "spread": {
+          "Atalanta BC": -1.0,
+          "Sassuolo": 1.0
+        },
+        "total": 2.8,
+        "num_bookmakers": 8
+      }
+    },
     "actual": null
   },
   "soccer_italy_serie_a_2026-08-24_lazio_at_bologna": {
@@ -13073,7 +13395,7 @@
     "espn_sport": "soccer",
     "espn_league": "fra.1",
     "outdoor": true,
-    "status": "scheduled",
+    "status": "predicted",
     "odds": {
       "moneyline": {
         "Angers": 402,
@@ -13087,7 +13409,53 @@
       "total": 2.5,
       "num_bookmakers": 8
     },
-    "prediction": null,
+    "prediction": {
+      "predicted_winner": "Lille",
+      "predicted_against_spread": "Lille",
+      "confidence": 65,
+      "key_factors": [
+        "Lille solid road favorite (-150 ML)",
+        "Angers historically weaker Ligue 1 side",
+        "No trend data to counter market"
+      ],
+      "reasoning": "Lille is priced as a clear favorite on the road against Angers, consistent with typical form gaps in this fixture. We follow the market lean given lack of specific trend data.",
+      "context_used": {
+        "away_trends": {
+          "team": "Lille",
+          "last5": null,
+          "streak": null,
+          "record": null,
+          "h2h_vs_opponent": null
+        },
+        "home_trends": {
+          "team": "Angers",
+          "last5": null,
+          "streak": null,
+          "record": null,
+          "h2h_vs_opponent": null
+        },
+        "weather": null,
+        "probable_pitchers": {
+          "home": null,
+          "away": null
+        }
+      },
+      "generated_at": "2026-08-21T11:52:11.856288+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "Angers": 402,
+          "Lille": -150,
+          "Draw": 278
+        },
+        "spread": {
+          "Angers": 0.6,
+          "Lille": -0.6
+        },
+        "total": 2.5,
+        "num_bookmakers": 8
+      }
+    },
     "actual": null
   },
   "soccer_france_ligue_one_2026-08-23_as-monaco_at_le-havre": {
@@ -13099,7 +13467,7 @@
     "espn_sport": "soccer",
     "espn_league": "fra.1",
     "outdoor": true,
-    "status": "scheduled",
+    "status": "predicted",
     "odds": {
       "moneyline": {
         "AS Monaco": 51,
@@ -13113,7 +13481,53 @@
       "total": 2.8,
       "num_bookmakers": 8
     },
-    "prediction": null,
+    "prediction": {
+      "predicted_winner": "AS Monaco",
+      "predicted_against_spread": "AS Monaco",
+      "confidence": 75,
+      "key_factors": [
+        "Monaco massive favorite (51 ML, implying ~66% win prob)",
+        "Le Havre weaker side historically",
+        "No data to contradict market"
+      ],
+      "reasoning": "Monaco's very short moneyline price indicates strong market confidence in a road win, and Le Havre is typically a lower-tier Ligue 1 club. We align with this strong signal.",
+      "context_used": {
+        "away_trends": {
+          "team": "AS Monaco",
+          "last5": null,
+          "streak": null,
+          "record": null,
+          "h2h_vs_opponent": null
+        },
+        "home_trends": {
+          "team": "Le Havre",
+          "last5": null,
+          "streak": null,
+          "record": null,
+          "h2h_vs_opponent": null
+        },
+        "weather": null,
+        "probable_pitchers": {
+          "home": null,
+          "away": null
+        }
+      },
+      "generated_at": "2026-08-21T11:52:11.856288+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "AS Monaco": 51,
+          "Le Havre": 231,
+          "Draw": 284
+        },
+        "spread": {
+          "AS Monaco": -0.5,
+          "Le Havre": 0.5
+        },
+        "total": 2.8,
+        "num_bookmakers": 8
+      }
+    },
     "actual": null
   },
   "soccer_france_ligue_one_2026-08-23_rennes_at_paris-saint-germain": {
@@ -13125,7 +13539,7 @@
     "espn_sport": "soccer",
     "espn_league": "fra.1",
     "outdoor": true,
-    "status": "scheduled",
+    "status": "predicted",
     "odds": {
       "moneyline": {
         "Paris Saint Germain": -269,
@@ -13139,7 +13553,53 @@
       "total": 3.5,
       "num_bookmakers": 8
     },
-    "prediction": null,
+    "prediction": {
+      "predicted_winner": "Paris Saint Germain",
+      "predicted_against_spread": "Paris Saint Germain",
+      "confidence": 80,
+      "key_factors": [
+        "PSG huge home favorite (-269 ML)",
+        "PSG's dominant historical record vs Rennes",
+        "High total (3.5) suggests expected PSG scoring output"
+      ],
+      "reasoning": "PSG at home against Rennes is one of the most lopsided matchups in Ligue 1, reflected in the -1.5 spread and short odds. We strongly back PSG here given consistent market and historical dominance.",
+      "context_used": {
+        "away_trends": {
+          "team": "Rennes",
+          "last5": null,
+          "streak": null,
+          "record": null,
+          "h2h_vs_opponent": null
+        },
+        "home_trends": {
+          "team": "Paris Saint Germain",
+          "last5": null,
+          "streak": null,
+          "record": null,
+          "h2h_vs_opponent": null
+        },
+        "weather": null,
+        "probable_pitchers": {
+          "home": null,
+          "away": null
+        }
+      },
+      "generated_at": "2026-08-21T11:52:11.856288+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "Paris Saint Germain": -269,
+          "Rennes": 575,
+          "Draw": 436
+        },
+        "spread": {
+          "Paris Saint Germain": -1.5,
+          "Rennes": 1.5
+        },
+        "total": 3.5,
+        "num_bookmakers": 8
+      }
+    },
     "actual": null
   },
   "soccer_usa_mls_2026-07-31_toronto-fc_at_new-york-city-fc": {
@@ -17792,7 +18252,7 @@
     "espn_sport": "soccer",
     "espn_league": "esp.1",
     "outdoor": true,
-    "status": "scheduled",
+    "status": "predicted",
     "odds": {
       "moneyline": {
         "Atl\u00e9tico Madrid": -130,
@@ -17803,7 +18263,50 @@
       "total": null,
       "num_bookmakers": 1
     },
-    "prediction": null,
+    "prediction": {
+      "predicted_winner": "Atl\u00e9tico Madrid",
+      "predicted_against_spread": "Atl\u00e9tico Madrid",
+      "confidence": 70,
+      "key_factors": [
+        "Atl\u00e9tico on W1 streak, Villarreal on L1",
+        "Atl\u00e9tico favored at home (-130 ML)",
+        "Recent form clearly favors Atl\u00e9tico"
+      ],
+      "reasoning": "Atl\u00e9tico Madrid enters on a win streak while Villarreal is coming off a loss, aligning with the home team's market favorite status. Both form and market data point the same direction, supporting a confident pick.",
+      "context_used": {
+        "away_trends": {
+          "team": "Villarreal",
+          "last5": "0-1",
+          "streak": "L1",
+          "record": "0-1",
+          "h2h_vs_opponent": null
+        },
+        "home_trends": {
+          "team": "Atl\u00e9tico Madrid",
+          "last5": "1-0",
+          "streak": "W1",
+          "record": "1-0",
+          "h2h_vs_opponent": null
+        },
+        "weather": null,
+        "probable_pitchers": {
+          "home": null,
+          "away": null
+        }
+      },
+      "generated_at": "2026-08-21T11:52:11.856288+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "Atl\u00e9tico Madrid": -130,
+          "Villarreal": 330,
+          "Draw": 260
+        },
+        "spread": {},
+        "total": null,
+        "num_bookmakers": 1
+      }
+    },
     "actual": null
   },
   "soccer_spain_la_liga_2026-08-23_real-racing-club-de-santander_at_getafe": {
@@ -17815,7 +18318,7 @@
     "espn_sport": "soccer",
     "espn_league": "esp.1",
     "outdoor": true,
-    "status": "scheduled",
+    "status": "predicted",
     "odds": {
       "moneyline": {
         "Getafe": -120,
@@ -17826,7 +18329,50 @@
       "total": null,
       "num_bookmakers": 1
     },
-    "prediction": null,
+    "prediction": {
+      "predicted_winner": "Getafe",
+      "predicted_against_spread": "Getafe",
+      "confidence": 55,
+      "key_factors": [
+        "Both teams on L1 streak after 0-1 starts",
+        "Getafe modest home favorite (-120 ML)",
+        "Minimal differentiating data between the two"
+      ],
+      "reasoning": "Both sides are coming off opening losses, making this a close matchup, but Getafe's slight home-field edge and modest market favorite status tip the scale marginally. Confidence stays low given similar recent form for both teams.",
+      "context_used": {
+        "away_trends": {
+          "team": "Real Racing Club de Santander",
+          "last5": "0-1",
+          "streak": "L1",
+          "record": "0-1",
+          "h2h_vs_opponent": null
+        },
+        "home_trends": {
+          "team": "Getafe",
+          "last5": "0-1",
+          "streak": "L1",
+          "record": "0-1",
+          "h2h_vs_opponent": null
+        },
+        "weather": null,
+        "probable_pitchers": {
+          "home": null,
+          "away": null
+        }
+      },
+      "generated_at": "2026-08-21T11:52:11.856288+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "Getafe": -120,
+          "Real Racing Club de Santander": 410,
+          "Draw": 200
+        },
+        "spread": {},
+        "total": null,
+        "num_bookmakers": 1
+      }
+    },
     "actual": null
   },
   "soccer_spain_la_liga_2026-08-23_barcelona_at_elche-cf": {
@@ -17838,7 +18384,7 @@
     "espn_sport": "soccer",
     "espn_league": "esp.1",
     "outdoor": true,
-    "status": "scheduled",
+    "status": "predicted",
     "odds": {
       "moneyline": {
         "Barcelona": -350,
@@ -17849,7 +18395,50 @@
       "total": null,
       "num_bookmakers": 1
     },
-    "prediction": null,
+    "prediction": {
+      "predicted_winner": "Barcelona",
+      "predicted_against_spread": "Barcelona",
+      "confidence": 82,
+      "key_factors": [
+        "Barcelona huge road favorite (-350 ML)",
+        "Elche coming off a loss (L1)",
+        "Significant class gap between clubs"
+      ],
+      "reasoning": "Barcelona is priced as an overwhelming favorite against Elche, who are already on a losing streak to start the season. The class and form gap strongly favor Barcelona covering here.",
+      "context_used": {
+        "away_trends": {
+          "team": "Barcelona",
+          "last5": null,
+          "streak": null,
+          "record": null,
+          "h2h_vs_opponent": null
+        },
+        "home_trends": {
+          "team": "Elche CF",
+          "last5": "0-1",
+          "streak": "L1",
+          "record": "0-1",
+          "h2h_vs_opponent": null
+        },
+        "weather": null,
+        "probable_pitchers": {
+          "home": null,
+          "away": null
+        }
+      },
+      "generated_at": "2026-08-21T11:52:11.856288+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "Barcelona": -350,
+          "Elche CF": 750,
+          "Draw": 470
+        },
+        "spread": {},
+        "total": null,
+        "num_bookmakers": 1
+      }
+    },
     "actual": null
   },
   "soccer_spain_la_liga_2026-08-24_levante_at_ca-osasuna": {
