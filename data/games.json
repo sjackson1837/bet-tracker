@@ -11437,7 +11437,7 @@
     "espn_sport": "soccer",
     "espn_league": "eng.1",
     "outdoor": true,
-    "status": "scheduled",
+    "status": "predicted",
     "odds": {
       "moneyline": {
         "Chelsea": 116,
@@ -11451,7 +11451,53 @@
       "total": 2.8,
       "num_bookmakers": 9
     },
-    "prediction": null,
+    "prediction": {
+      "predicted_winner": "Chelsea",
+      "reasoning": "Market prices Chelsea as a clear favorite (-0.5 spread, +116 ML) reflecting a significant quality gap between the two squads. With no trend data available to contradict this, the pricing itself is the best available signal, though lack of recent form data limits confidence.",
+      "key_factors": [
+        "Chelsea favored on moneyline and spread",
+        "No trend data available to contradict market",
+        "Historically stronger squad depth"
+      ],
+      "confidence": 58,
+      "predicted_against_spread": "Chelsea",
+      "context_used": {
+        "away_trends": {
+          "team": "Chelsea",
+          "last5": null,
+          "streak": null,
+          "record": null,
+          "h2h_vs_opponent": null
+        },
+        "home_trends": {
+          "team": "Fulham",
+          "last5": null,
+          "streak": null,
+          "record": null,
+          "h2h_vs_opponent": null
+        },
+        "weather": null,
+        "probable_pitchers": {
+          "home": null,
+          "away": null
+        }
+      },
+      "generated_at": "2026-08-22T11:44:41.740698+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "Chelsea": 116,
+          "Fulham": 211,
+          "Draw": 267
+        },
+        "spread": {
+          "Chelsea": -0.5,
+          "Fulham": 0.5
+        },
+        "total": 2.8,
+        "num_bookmakers": 9
+      }
+    },
     "actual": null
   },
   "soccer_spain_la_liga_2026-08-15_getafe_at_alav\u00e9s": {
@@ -12905,7 +12951,7 @@
     "espn_sport": "soccer",
     "espn_league": "ita.1",
     "outdoor": true,
-    "status": "scheduled",
+    "status": "predicted",
     "odds": {
       "moneyline": {
         "Bologna": 113,
@@ -12919,7 +12965,53 @@
       "total": 2.5,
       "num_bookmakers": 8
     },
-    "prediction": null,
+    "prediction": {
+      "predicted_winner": "Bologna",
+      "reasoning": "Bologna is a heavy home favorite (-0.4 spread, 113 ML) against a Lazio side priced at long odds, suggesting bookmakers see a clear talent/form gap. Absent any trend data to counter this, the market pricing is the primary basis for the pick, tempering confidence given lack of corroborating stats.",
+      "key_factors": [
+        "Bologna strong home favorite",
+        "Lazio priced at long odds (+253)",
+        "No trend data to contradict market view"
+      ],
+      "confidence": 57,
+      "predicted_against_spread": "Bologna",
+      "context_used": {
+        "away_trends": {
+          "team": "Lazio",
+          "last5": null,
+          "streak": null,
+          "record": null,
+          "h2h_vs_opponent": null
+        },
+        "home_trends": {
+          "team": "Bologna",
+          "last5": null,
+          "streak": null,
+          "record": null,
+          "h2h_vs_opponent": null
+        },
+        "weather": null,
+        "probable_pitchers": {
+          "home": null,
+          "away": null
+        }
+      },
+      "generated_at": "2026-08-22T11:44:41.740698+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "Bologna": 113,
+          "Lazio": 253,
+          "Draw": 223
+        },
+        "spread": {
+          "Bologna": -0.4,
+          "Lazio": 0.4
+        },
+        "total": 2.5,
+        "num_bookmakers": 8
+      }
+    },
     "actual": null
   },
   "soccer_italy_serie_a_2026-08-24_fiorentina_at_as-roma": {
@@ -12931,7 +13023,7 @@
     "espn_sport": "soccer",
     "espn_league": "ita.1",
     "outdoor": true,
-    "status": "scheduled",
+    "status": "predicted",
     "odds": {
       "moneyline": {
         "AS Roma": -189,
@@ -12945,7 +13037,53 @@
       "total": 2.5,
       "num_bookmakers": 8
     },
-    "prediction": null,
+    "prediction": {
+      "predicted_winner": "AS Roma",
+      "reasoning": "AS Roma is a substantial favorite (-189 ML, -1.0 spread) at home against Fiorentina priced near 5/1, indicating a wide perceived quality gap. With no additional trend data, this large market gap itself is a reasonably strong signal for a Roma win, though the -1.0 spread cover is less certain in a low-scoring 2.5-total match.",
+      "key_factors": [
+        "Roma heavy home favorite",
+        "Fiorentina long moneyline underdog",
+        "Low total (2.5) suggests tight, low-scoring affair complicating spread cover"
+      ],
+      "confidence": 62,
+      "predicted_against_spread": "Fiorentina",
+      "context_used": {
+        "away_trends": {
+          "team": "Fiorentina",
+          "last5": null,
+          "streak": null,
+          "record": null,
+          "h2h_vs_opponent": null
+        },
+        "home_trends": {
+          "team": "AS Roma",
+          "last5": null,
+          "streak": null,
+          "record": null,
+          "h2h_vs_opponent": null
+        },
+        "weather": null,
+        "probable_pitchers": {
+          "home": null,
+          "away": null
+        }
+      },
+      "generated_at": "2026-08-22T11:44:41.740698+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "AS Roma": -189,
+          "Fiorentina": 498,
+          "Draw": 313
+        },
+        "spread": {
+          "AS Roma": -1.0,
+          "Fiorentina": 1.0
+        },
+        "total": 2.5,
+        "num_bookmakers": 8
+      }
+    },
     "actual": null
   },
   "soccer_france_ligue_one_2026-08-21_strasbourg_at_marseille": {
@@ -18450,7 +18588,7 @@
     "espn_sport": "soccer",
     "espn_league": "esp.1",
     "outdoor": true,
-    "status": "scheduled",
+    "status": "predicted",
     "odds": {
       "moneyline": {
         "CA Osasuna": -150,
@@ -18461,7 +18599,50 @@
       "total": null,
       "num_bookmakers": 1
     },
-    "prediction": null,
+    "prediction": {
+      "predicted_winner": "CA Osasuna",
+      "reasoning": "Levante enters on a losing streak (L1, 0-1) and is priced as a big underdog (+380) while Osasuna is favored at home (-150) with no negative trend signals shown. The combination of Levante's poor recent form and market favoritism for Osasuna supports the home side.",
+      "key_factors": [
+        "Levante on L1 streak with 0-1 record",
+        "Osasuna favored at home (-150)",
+        "Sparse trend data overall lowers certainty"
+      ],
+      "confidence": 60,
+      "predicted_against_spread": "CA Osasuna",
+      "context_used": {
+        "away_trends": {
+          "team": "Levante",
+          "last5": "0-1",
+          "streak": "L1",
+          "record": "0-1",
+          "h2h_vs_opponent": null
+        },
+        "home_trends": {
+          "team": "CA Osasuna",
+          "last5": null,
+          "streak": null,
+          "record": null,
+          "h2h_vs_opponent": null
+        },
+        "weather": null,
+        "probable_pitchers": {
+          "home": null,
+          "away": null
+        }
+      },
+      "generated_at": "2026-08-22T11:44:41.740698+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "CA Osasuna": -150,
+          "Levante": 380,
+          "Draw": 280
+        },
+        "spread": {},
+        "total": null,
+        "num_bookmakers": 1
+      }
+    },
     "actual": null
   },
   "soccer_spain_la_liga_2026-08-24_deportivo-la-coru\u00f1a_at_m\u00e1laga": {
@@ -18473,7 +18654,7 @@
     "espn_sport": "soccer",
     "espn_league": "esp.1",
     "outdoor": true,
-    "status": "scheduled",
+    "status": "predicted",
     "odds": {
       "moneyline": {
         "Deportivo La Coru\u00f1a": 195,
@@ -18484,7 +18665,50 @@
       "total": null,
       "num_bookmakers": 1
     },
-    "prediction": null,
+    "prediction": {
+      "predicted_winner": "M\u00e1laga",
+      "reasoning": "Both teams are on L1 streaks with identical 0-1 records, making recent form a wash, but M\u00e1laga's home-field edge and slightly shorter moneyline (150 vs 195) reflect a modest market preference. Given the near-equal underlying trends, this is close to a coin-flip leaning slightly to the home side.",
+      "key_factors": [
+        "Both teams on L1 streak, 0-1 records",
+        "M\u00e1laga favored at home per moneyline",
+        "Very limited trend/spread data available"
+      ],
+      "confidence": 53,
+      "predicted_against_spread": "M\u00e1laga",
+      "context_used": {
+        "away_trends": {
+          "team": "Deportivo La Coru\u00f1a",
+          "last5": "0-1",
+          "streak": "L1",
+          "record": "0-1",
+          "h2h_vs_opponent": null
+        },
+        "home_trends": {
+          "team": "M\u00e1laga",
+          "last5": "0-1",
+          "streak": "L1",
+          "record": "0-1",
+          "h2h_vs_opponent": null
+        },
+        "weather": null,
+        "probable_pitchers": {
+          "home": null,
+          "away": null
+        }
+      },
+      "generated_at": "2026-08-22T11:44:41.740698+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "Deportivo La Coru\u00f1a": 195,
+          "M\u00e1laga": 150,
+          "Draw": 210
+        },
+        "spread": {},
+        "total": null,
+        "num_bookmakers": 1
+      }
+    },
     "actual": null
   },
   "soccer_usa_mls_2026-08-19_cf-montreal_at_columbus-crew-sc": {

@@ -1,33 +1,33 @@
 {
   "instructions": "For each game below, act as a sharp, disciplined sports betting analyst. Do NOT simply pick whichever side the betting market favors -- weigh the actual trend data provided (recent form, streaks, head-to-head history, starting pitcher matchups where given, and weather where relevant) and form an independent judgment. It's fine, and expected, to disagree with the market when the trends support it. If trend data is sparse for a game, say so and let that lower your confidence rather than defaulting to the favorite. For each game_id, produce: predicted_winner (exact team name), predicted_against_spread (exact team name), confidence (integer 1-100), key_factors (2-4 short strings), and reasoning (2-4 sentences referencing the specific trend data given).",
   "games": {
-    "soccer_epl_2026-08-23_aston-villa_at_brighton-and-hove-albion": {
+    "soccer_epl_2026-08-24_chelsea_at_fulham": {
       "league": "Premier League",
-      "away_team": "Aston Villa",
-      "home_team": "Brighton and Hove Albion",
-      "commence_time": "2026-08-23T13:00:00Z",
+      "away_team": "Chelsea",
+      "home_team": "Fulham",
+      "commence_time": "2026-08-24T19:00:00Z",
       "market_line": {
         "moneyline": {
-          "Aston Villa": 189,
-          "Brighton and Hove Albion": 129,
-          "Draw": 262
+          "Chelsea": 116,
+          "Fulham": 211,
+          "Draw": 267
         },
         "spread": {
-          "Aston Villa": 0.5,
-          "Brighton and Hove Albion": -0.5
+          "Chelsea": -0.5,
+          "Fulham": 0.5
         },
         "total": 2.8,
         "num_bookmakers": 9
       },
       "away_team_trends": {
-        "team": "Aston Villa",
+        "team": "Chelsea",
         "last5": null,
         "streak": null,
         "record": null,
         "h2h_vs_opponent": null
       },
       "home_team_trends": {
-        "team": "Brighton and Hove Albion",
+        "team": "Fulham",
         "last5": null,
         "streak": null,
         "record": null,
@@ -39,109 +39,33 @@
         "away": null
       }
     },
-    "soccer_epl_2026-08-23_bournemouth_at_manchester-city": {
-      "league": "Premier League",
-      "away_team": "Bournemouth",
-      "home_team": "Manchester City",
-      "commence_time": "2026-08-23T13:00:00Z",
-      "market_line": {
-        "moneyline": {
-          "Bournemouth": 505,
-          "Manchester City": -228,
-          "Draw": 398
-        },
-        "spread": {
-          "Bournemouth": 1.4,
-          "Manchester City": -1.4
-        },
-        "total": 3.5,
-        "num_bookmakers": 9
-      },
-      "away_team_trends": {
-        "team": "Bournemouth",
-        "last5": null,
-        "streak": null,
-        "record": null,
-        "h2h_vs_opponent": null
-      },
-      "home_team_trends": {
-        "team": "Manchester City",
-        "last5": null,
-        "streak": null,
-        "record": null,
-        "h2h_vs_opponent": null
-      },
-      "weather_at_kickoff": null,
-      "probable_pitchers": {
-        "home": null,
-        "away": null
-      }
-    },
-    "soccer_epl_2026-08-23_liverpool_at_newcastle-united": {
-      "league": "Premier League",
-      "away_team": "Liverpool",
-      "home_team": "Newcastle United",
-      "commence_time": "2026-08-23T15:30:00Z",
-      "market_line": {
-        "moneyline": {
-          "Liverpool": 83,
-          "Newcastle United": 225,
-          "Draw": 278
-        },
-        "spread": {
-          "Liverpool": -0.5,
-          "Newcastle United": 0.5
-        },
-        "total": 3.2,
-        "num_bookmakers": 9
-      },
-      "away_team_trends": {
-        "team": "Liverpool",
-        "last5": null,
-        "streak": null,
-        "record": null,
-        "h2h_vs_opponent": null
-      },
-      "home_team_trends": {
-        "team": "Newcastle United",
-        "last5": null,
-        "streak": null,
-        "record": null,
-        "h2h_vs_opponent": null
-      },
-      "weather_at_kickoff": null,
-      "probable_pitchers": {
-        "home": null,
-        "away": null
-      }
-    },
-    "soccer_italy_serie_a_2026-08-23_juventus_at_frosinone": {
+    "soccer_italy_serie_a_2026-08-24_lazio_at_bologna": {
       "league": "Serie A",
-      "away_team": "Juventus",
-      "home_team": "Frosinone",
-      "commence_time": "2026-08-23T16:30:00Z",
+      "away_team": "Lazio",
+      "home_team": "Bologna",
+      "commence_time": "2026-08-24T16:30:00Z",
       "market_line": {
         "moneyline": {
-          "Frosinone": 590,
-          "Juventus": -224,
-          "Draw": 340
+          "Bologna": 113,
+          "Lazio": 253,
+          "Draw": 223
         },
         "spread": {
-          "Frosinone": 1.1,
-          "Juventus": -1.1
+          "Bologna": -0.4,
+          "Lazio": 0.4
         },
         "total": 2.5,
         "num_bookmakers": 8
       },
       "away_team_trends": {
-        "team": "Juventus",
+        "team": "Lazio",
         "last5": null,
         "streak": null,
         "record": null,
         "h2h_vs_opponent": null
       },
       "home_team_trends": {
-        "team": "Frosinone",
+        "team": "Bologna",
         "last5": null,
         "streak": null,
         "record": null,
@@ -153,71 +77,33 @@
         "away": null
       }
     },
-    "soccer_italy_serie_a_2026-08-23_lecce_at_venezia": {
+    "soccer_italy_serie_a_2026-08-24_fiorentina_at_as-roma": {
       "league": "Serie A",
-      "away_team": "Lecce",
-      "home_team": "Venezia",
-      "commence_time": "2026-08-23T16:30:00Z",
+      "away_team": "Fiorentina",
+      "home_team": "AS Roma",
+      "commence_time": "2026-08-24T18:45:00Z",
       "market_line": {
         "moneyline": {
-          "Lecce": 212,
-          "Venezia": 134,
-          "Draw": 220
+          "AS Roma": -189,
+          "Fiorentina": 498,
+          "Draw": 313
         },
         "spread": {
-          "Lecce": 0.1,
-          "Venezia": -0.1
-        },
-        "total": 2.4,
-        "num_bookmakers": 8
-      },
-      "away_team_trends": {
-        "team": "Lecce",
-        "last5": null,
-        "streak": null,
-        "record": null,
-        "h2h_vs_opponent": null
-      },
-      "home_team_trends": {
-        "team": "Venezia",
-        "last5": null,
-        "streak": null,
-        "record": null,
-        "h2h_vs_opponent": null
-      },
-      "weather_at_kickoff": null,
-      "probable_pitchers": {
-        "home": null,
-        "away": null
-      }
-    },
-    "soccer_italy_serie_a_2026-08-23_ac-milan_at_torino": {
-      "league": "Serie A",
-      "away_team": "AC Milan",
-      "home_team": "Torino",
-      "commence_time": "2026-08-23T18:45:00Z",
-      "market_line": {
-        "moneyline": {
-          "AC Milan": -129,
-          "Torino": 335,
-          "Draw": 268
-        },
-        "spread": {
-          "AC Milan": -0.6,
-          "Torino": 0.6
+          "AS Roma": -1.0,
+          "Fiorentina": 1.0
         },
         "total": 2.5,
         "num_bookmakers": 8
       },
       "away_team_trends": {
-        "team": "AC Milan",
+        "team": "Fiorentina",
         "last5": null,
         "streak": null,
         "record": null,
         "h2h_vs_opponent": null
       },
       "home_team_trends": {
-        "team": "Torino",
+        "team": "AS Roma",
         "last5": null,
         "streak": null,
         "record": null,
@@ -229,252 +115,65 @@
         "away": null
       }
     },
-    "soccer_italy_serie_a_2026-08-23_sassuolo_at_atalanta-bc": {
-      "league": "Serie A",
-      "away_team": "Sassuolo",
-      "home_team": "Atalanta BC",
-      "commence_time": "2026-08-23T18:45:00Z",
-      "market_line": {
-        "moneyline": {
-          "Atalanta BC": -195,
-          "Sassuolo": 480,
-          "Draw": 335
-        },
-        "spread": {
-          "Atalanta BC": -1.0,
-          "Sassuolo": 1.0
-        },
-        "total": 2.8,
-        "num_bookmakers": 8
-      },
-      "away_team_trends": {
-        "team": "Sassuolo",
-        "last5": null,
-        "streak": null,
-        "record": null,
-        "h2h_vs_opponent": null
-      },
-      "home_team_trends": {
-        "team": "Atalanta BC",
-        "last5": null,
-        "streak": null,
-        "record": null,
-        "h2h_vs_opponent": null
-      },
-      "weather_at_kickoff": null,
-      "probable_pitchers": {
-        "home": null,
-        "away": null
-      }
-    },
-    "soccer_france_ligue_one_2026-08-23_lille_at_angers": {
-      "league": "Ligue 1",
-      "away_team": "Lille",
-      "home_team": "Angers",
-      "commence_time": "2026-08-23T13:00:00Z",
-      "market_line": {
-        "moneyline": {
-          "Angers": 402,
-          "Lille": -150,
-          "Draw": 278
-        },
-        "spread": {
-          "Angers": 0.6,
-          "Lille": -0.6
-        },
-        "total": 2.5,
-        "num_bookmakers": 8
-      },
-      "away_team_trends": {
-        "team": "Lille",
-        "last5": null,
-        "streak": null,
-        "record": null,
-        "h2h_vs_opponent": null
-      },
-      "home_team_trends": {
-        "team": "Angers",
-        "last5": null,
-        "streak": null,
-        "record": null,
-        "h2h_vs_opponent": null
-      },
-      "weather_at_kickoff": null,
-      "probable_pitchers": {
-        "home": null,
-        "away": null
-      }
-    },
-    "soccer_france_ligue_one_2026-08-23_as-monaco_at_le-havre": {
-      "league": "Ligue 1",
-      "away_team": "AS Monaco",
-      "home_team": "Le Havre",
-      "commence_time": "2026-08-23T15:15:00Z",
-      "market_line": {
-        "moneyline": {
-          "AS Monaco": 51,
-          "Le Havre": 231,
-          "Draw": 284
-        },
-        "spread": {
-          "AS Monaco": -0.5,
-          "Le Havre": 0.5
-        },
-        "total": 2.8,
-        "num_bookmakers": 8
-      },
-      "away_team_trends": {
-        "team": "AS Monaco",
-        "last5": null,
-        "streak": null,
-        "record": null,
-        "h2h_vs_opponent": null
-      },
-      "home_team_trends": {
-        "team": "Le Havre",
-        "last5": null,
-        "streak": null,
-        "record": null,
-        "h2h_vs_opponent": null
-      },
-      "weather_at_kickoff": null,
-      "probable_pitchers": {
-        "home": null,
-        "away": null
-      }
-    },
-    "soccer_france_ligue_one_2026-08-23_rennes_at_paris-saint-germain": {
-      "league": "Ligue 1",
-      "away_team": "Rennes",
-      "home_team": "Paris Saint Germain",
-      "commence_time": "2026-08-23T18:45:00Z",
-      "market_line": {
-        "moneyline": {
-          "Paris Saint Germain": -269,
-          "Rennes": 575,
-          "Draw": 436
-        },
-        "spread": {
-          "Paris Saint Germain": -1.5,
-          "Rennes": 1.5
-        },
-        "total": 3.5,
-        "num_bookmakers": 8
-      },
-      "away_team_trends": {
-        "team": "Rennes",
-        "last5": null,
-        "streak": null,
-        "record": null,
-        "h2h_vs_opponent": null
-      },
-      "home_team_trends": {
-        "team": "Paris Saint Germain",
-        "last5": null,
-        "streak": null,
-        "record": null,
-        "h2h_vs_opponent": null
-      },
-      "weather_at_kickoff": null,
-      "probable_pitchers": {
-        "home": null,
-        "away": null
-      }
-    },
-    "soccer_spain_la_liga_2026-08-23_villarreal_at_atl\u00e9tico-madrid": {
+    "soccer_spain_la_liga_2026-08-24_levante_at_ca-osasuna": {
       "league": "La Liga",
-      "away_team": "Villarreal",
-      "home_team": "Atl\u00e9tico Madrid",
-      "commence_time": "2026-08-23T15:00:00Z",
+      "away_team": "Levante",
+      "home_team": "CA Osasuna",
+      "commence_time": "2026-08-24T17:30:00Z",
       "market_line": {
         "moneyline": {
-          "Atl\u00e9tico Madrid": -130,
-          "Villarreal": 330,
-          "Draw": 260
+          "CA Osasuna": -150,
+          "Levante": 380,
+          "Draw": 280
         },
         "spread": {},
         "total": null,
         "num_bookmakers": 1
       },
       "away_team_trends": {
-        "team": "Villarreal",
+        "team": "Levante",
         "last5": "0-1",
         "streak": "L1",
         "record": "0-1",
         "h2h_vs_opponent": null
       },
       "home_team_trends": {
-        "team": "Atl\u00e9tico Madrid",
-        "last5": "1-0",
-        "streak": "W1",
-        "record": "1-0",
-        "h2h_vs_opponent": null
-      },
-      "weather_at_kickoff": null,
-      "probable_pitchers": {
-        "home": null,
-        "away": null
-      }
-    },
-    "soccer_spain_la_liga_2026-08-23_real-racing-club-de-santander_at_getafe": {
-      "league": "La Liga",
-      "away_team": "Real Racing Club de Santander",
-      "home_team": "Getafe",
-      "commence_time": "2026-08-23T17:30:00Z",
-      "market_line": {
-        "moneyline": {
-          "Getafe": -120,
-          "Real Racing Club de Santander": 410,
-          "Draw": 200
-        },
-        "spread": {},
-        "total": null,
-        "num_bookmakers": 1
-      },
-      "away_team_trends": {
-        "team": "Real Racing Club de Santander",
-        "last5": "0-1",
-        "streak": "L1",
-        "record": "0-1",
-        "h2h_vs_opponent": null
-      },
-      "home_team_trends": {
-        "team": "Getafe",
-        "last5": "0-1",
-        "streak": "L1",
-        "record": "0-1",
-        "h2h_vs_opponent": null
-      },
-      "weather_at_kickoff": null,
-      "probable_pitchers": {
-        "home": null,
-        "away": null
-      }
-    },
-    "soccer_spain_la_liga_2026-08-23_barcelona_at_elche-cf": {
-      "league": "La Liga",
-      "away_team": "Barcelona",
-      "home_team": "Elche CF",
-      "commence_time": "2026-08-23T19:30:00Z",
-      "market_line": {
-        "moneyline": {
-          "Barcelona": -350,
-          "Elche CF": 750,
-          "Draw": 470
-        },
-        "spread": {},
-        "total": null,
-        "num_bookmakers": 1
-      },
-      "away_team_trends": {
-        "team": "Barcelona",
+        "team": "CA Osasuna",
         "last5": null,
         "streak": null,
         "record": null,
         "h2h_vs_opponent": null
       },
+      "weather_at_kickoff": null,
+      "probable_pitchers": {
+        "home": null,
+        "away": null
+      }
+    },
+    "soccer_spain_la_liga_2026-08-24_deportivo-la-coru\u00f1a_at_m\u00e1laga": {
+      "league": "La Liga",
+      "away_team": "Deportivo La Coru\u00f1a",
+      "home_team": "M\u00e1laga",
+      "commence_time": "2026-08-24T19:30:00Z",
+      "market_line": {
+        "moneyline": {
+          "Deportivo La Coru\u00f1a": 195,
+          "M\u00e1laga": 150,
+          "Draw": 210
+        },
+        "spread": {},
+        "total": null,
+        "num_bookmakers": 1
+      },
+      "away_team_trends": {
+        "team": "Deportivo La Coru\u00f1a",
+        "last5": "0-1",
+        "streak": "L1",
+        "record": "0-1",
+        "h2h_vs_opponent": null
+      },
       "home_team_trends": {
-        "team": "Elche CF",
+        "team": "M\u00e1laga",
         "last5": "0-1",
         "streak": "L1",
         "record": "0-1",

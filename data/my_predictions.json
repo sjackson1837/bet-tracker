@@ -1,145 +1,57 @@
 {
-  "soccer_epl_2026-08-23_aston-villa_at_brighton-and-hove-albion": {
-    "predicted_winner": "Brighton and Hove Albion",
-    "predicted_against_spread": "Brighton and Hove Albion",
-    "confidence": 55,
+  "soccer_epl_2026-08-24_chelsea_at_fulham": {
+    "predicted_winner": "Chelsea",
+    "reasoning": "Market prices Chelsea as a clear favorite (-0.5 spread, +116 ML) reflecting a significant quality gap between the two squads. With no trend data available to contradict this, the pricing itself is the best available signal, though lack of recent form data limits confidence.",
     "key_factors": [
-      "Home advantage",
-      "Market favors Brighton clearly (-0.5 line, -129 vs +189 ML)",
-      "No detailed trend data available"
+      "Chelsea favored on moneyline and spread",
+      "No trend data available to contradict market",
+      "Historically stronger squad depth"
     ],
-    "reasoning": "With no recent form data provided, we default to the market's implied favorite, Brighton at home, which is priced with a healthy home-field edge. Lack of trend data lowers our confidence to a modest level."
+    "confidence": 58,
+    "predicted_against_spread": "Chelsea"
   },
-  "soccer_epl_2026-08-23_bournemouth_at_manchester-city": {
-    "predicted_winner": "Manchester City",
-    "predicted_against_spread": "Manchester City",
-    "confidence": 78,
+  "soccer_italy_serie_a_2026-08-24_lazio_at_bologna": {
+    "predicted_winner": "Bologna",
+    "reasoning": "Bologna is a heavy home favorite (-0.4 spread, 113 ML) against a Lazio side priced at long odds, suggesting bookmakers see a clear talent/form gap. Absent any trend data to counter this, the market pricing is the primary basis for the pick, tempering confidence given lack of corroborating stats.",
     "key_factors": [
-      "Heavy market favorite (-228 ML)",
-      "Man City historically dominant at home vs newly promoted/mid-table sides",
-      "No contradicting trend data"
+      "Bologna strong home favorite",
+      "Lazio priced at long odds (+253)",
+      "No trend data to contradict market view"
     ],
-    "reasoning": "Manchester City is a massive home favorite against Bournemouth with no data suggesting an upset. Historical class gap and home advantage support City covering."
+    "confidence": 57,
+    "predicted_against_spread": "Bologna"
   },
-  "soccer_epl_2026-08-23_liverpool_at_newcastle-united": {
-    "predicted_winner": "Liverpool",
-    "predicted_against_spread": "Liverpool",
-    "confidence": 68,
+  "soccer_italy_serie_a_2026-08-24_fiorentina_at_as-roma": {
+    "predicted_winner": "AS Roma",
+    "reasoning": "AS Roma is a substantial favorite (-189 ML, -1.0 spread) at home against Fiorentina priced near 5/1, indicating a wide perceived quality gap. With no additional trend data, this large market gap itself is a reasonably strong signal for a Roma win, though the -1.0 spread cover is less certain in a low-scoring 2.5-total match.",
     "key_factors": [
-      "Liverpool heavily favored on road (-0.5 line, -1200ish ML equivalent of 83)",
-      "No trend data to counter market",
-      "Newcastle at home could keep it close"
+      "Roma heavy home favorite",
+      "Fiorentina long moneyline underdog",
+      "Low total (2.5) suggests tight, low-scoring affair complicating spread cover"
     ],
-    "reasoning": "Liverpool is priced as a strong favorite even away from home, suggesting significant quality gap. Without specific trend data to contradict, we lean Liverpool but temper confidence given road trip uncertainty."
+    "confidence": 62,
+    "predicted_against_spread": "Fiorentina"
   },
-  "soccer_italy_serie_a_2026-08-23_juventus_at_frosinone": {
-    "predicted_winner": "Juventus",
-    "predicted_against_spread": "Juventus",
-    "confidence": 70,
+  "soccer_spain_la_liga_2026-08-24_levante_at_ca-osasuna": {
+    "predicted_winner": "CA Osasuna",
+    "reasoning": "Levante enters on a losing streak (L1, 0-1) and is priced as a big underdog (+380) while Osasuna is favored at home (-150) with no negative trend signals shown. The combination of Levante's poor recent form and market favoritism for Osasuna supports the home side.",
     "key_factors": [
-      "Juventus strong favorite (-224 ML)",
-      "Frosinone lower-tier squad",
-      "No trend data available to contradict market"
+      "Levante on L1 streak with 0-1 record",
+      "Osasuna favored at home (-150)",
+      "Sparse trend data overall lowers certainty"
     ],
-    "reasoning": "Juventus is a significant favorite over newly-promoted Frosinone, consistent with a large class gap in Serie A. Absent trend data, we align with the market's clear signal here."
-  },
-  "soccer_italy_serie_a_2026-08-23_lecce_at_venezia": {
-    "predicted_winner": "Venezia",
-    "predicted_against_spread": "Venezia",
-    "confidence": 52,
-    "key_factors": [
-      "Slight home favorite (Venezia -0.1 spread)",
-      "Very tight moneyline gap (134 vs 212)",
-      "No trend data provided"
-    ],
-    "reasoning": "This is close to a pick'em with only a marginal home edge for Venezia. Lack of any trend data keeps confidence near a coin flip."
-  },
-  "soccer_italy_serie_a_2026-08-23_ac-milan_at_torino": {
-    "predicted_winner": "AC Milan",
-    "predicted_against_spread": "AC Milan",
     "confidence": 60,
-    "key_factors": [
-      "AC Milan favored on road (-129 ML)",
-      "Torino generally mid/lower table",
-      "No trend data to override market signal"
-    ],
-    "reasoning": "AC Milan being favored even away from home suggests a quality gap over Torino. Without additional trend data, we side with the market but keep confidence moderate given away form uncertainty."
+    "predicted_against_spread": "CA Osasuna"
   },
-  "soccer_italy_serie_a_2026-08-23_sassuolo_at_atalanta-bc": {
-    "predicted_winner": "Atalanta BC",
-    "predicted_against_spread": "Atalanta BC",
-    "confidence": 72,
+  "soccer_spain_la_liga_2026-08-24_deportivo-la-coru\u00f1a_at_m\u00e1laga": {
+    "predicted_winner": "M\u00e1laga",
+    "reasoning": "Both teams are on L1 streaks with identical 0-1 records, making recent form a wash, but M\u00e1laga's home-field edge and slightly shorter moneyline (150 vs 195) reflect a modest market preference. Given the near-equal underlying trends, this is close to a coin-flip leaning slightly to the home side.",
     "key_factors": [
-      "Atalanta heavy home favorite (-195 ML)",
-      "Sassuolo recently promoted/weaker squad",
-      "No contradicting trend data"
+      "Both teams on L1 streak, 0-1 records",
+      "M\u00e1laga favored at home per moneyline",
+      "Very limited trend/spread data available"
     ],
-    "reasoning": "Atalanta's strong home odds against Sassuolo reflect a clear talent and form gap typical of this matchup. We follow the market signal given no data to suggest otherwise."
-  },
-  "soccer_france_ligue_one_2026-08-23_lille_at_angers": {
-    "predicted_winner": "Lille",
-    "predicted_against_spread": "Lille",
-    "confidence": 65,
-    "key_factors": [
-      "Lille solid road favorite (-150 ML)",
-      "Angers historically weaker Ligue 1 side",
-      "No trend data to counter market"
-    ],
-    "reasoning": "Lille is priced as a clear favorite on the road against Angers, consistent with typical form gaps in this fixture. We follow the market lean given lack of specific trend data."
-  },
-  "soccer_france_ligue_one_2026-08-23_as-monaco_at_le-havre": {
-    "predicted_winner": "AS Monaco",
-    "predicted_against_spread": "AS Monaco",
-    "confidence": 75,
-    "key_factors": [
-      "Monaco massive favorite (51 ML, implying ~66% win prob)",
-      "Le Havre weaker side historically",
-      "No data to contradict market"
-    ],
-    "reasoning": "Monaco's very short moneyline price indicates strong market confidence in a road win, and Le Havre is typically a lower-tier Ligue 1 club. We align with this strong signal."
-  },
-  "soccer_france_ligue_one_2026-08-23_rennes_at_paris-saint-germain": {
-    "predicted_winner": "Paris Saint Germain",
-    "predicted_against_spread": "Paris Saint Germain",
-    "confidence": 80,
-    "key_factors": [
-      "PSG huge home favorite (-269 ML)",
-      "PSG's dominant historical record vs Rennes",
-      "High total (3.5) suggests expected PSG scoring output"
-    ],
-    "reasoning": "PSG at home against Rennes is one of the most lopsided matchups in Ligue 1, reflected in the -1.5 spread and short odds. We strongly back PSG here given consistent market and historical dominance."
-  },
-  "soccer_spain_la_liga_2026-08-23_villarreal_at_atl\u00e9tico-madrid": {
-    "predicted_winner": "Atl\u00e9tico Madrid",
-    "predicted_against_spread": "Atl\u00e9tico Madrid",
-    "confidence": 70,
-    "key_factors": [
-      "Atl\u00e9tico on W1 streak, Villarreal on L1",
-      "Atl\u00e9tico favored at home (-130 ML)",
-      "Recent form clearly favors Atl\u00e9tico"
-    ],
-    "reasoning": "Atl\u00e9tico Madrid enters on a win streak while Villarreal is coming off a loss, aligning with the home team's market favorite status. Both form and market data point the same direction, supporting a confident pick."
-  },
-  "soccer_spain_la_liga_2026-08-23_real-racing-club-de-santander_at_getafe": {
-    "predicted_winner": "Getafe",
-    "predicted_against_spread": "Getafe",
-    "confidence": 55,
-    "key_factors": [
-      "Both teams on L1 streak after 0-1 starts",
-      "Getafe modest home favorite (-120 ML)",
-      "Minimal differentiating data between the two"
-    ],
-    "reasoning": "Both sides are coming off opening losses, making this a close matchup, but Getafe's slight home-field edge and modest market favorite status tip the scale marginally. Confidence stays low given similar recent form for both teams."
-  },
-  "soccer_spain_la_liga_2026-08-23_barcelona_at_elche-cf": {
-    "predicted_winner": "Barcelona",
-    "predicted_against_spread": "Barcelona",
-    "confidence": 82,
-    "key_factors": [
-      "Barcelona huge road favorite (-350 ML)",
-      "Elche coming off a loss (L1)",
-      "Significant class gap between clubs"
-    ],
-    "reasoning": "Barcelona is priced as an overwhelming favorite against Elche, who are already on a losing streak to start the season. The class and form gap strongly favor Barcelona covering here."
+    "confidence": 53,
+    "predicted_against_spread": "M\u00e1laga"
   }
 }
