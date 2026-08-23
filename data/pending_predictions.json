@@ -1,179 +1,33 @@
 {
   "instructions": "For each game below, act as a sharp, disciplined sports betting analyst. Do NOT simply pick whichever side the betting market favors -- weigh the actual trend data provided (recent form, streaks, head-to-head history, starting pitcher matchups where given, and weather where relevant) and form an independent judgment. It's fine, and expected, to disagree with the market when the trends support it. If trend data is sparse for a game, say so and let that lower your confidence rather than defaulting to the favorite. For each game_id, produce: predicted_winner (exact team name), predicted_against_spread (exact team name), confidence (integer 1-100), key_factors (2-4 short strings), and reasoning (2-4 sentences referencing the specific trend data given).",
   "games": {
-    "soccer_epl_2026-08-24_chelsea_at_fulham": {
-      "league": "Premier League",
-      "away_team": "Chelsea",
-      "home_team": "Fulham",
-      "commence_time": "2026-08-24T19:00:00Z",
+    "soccer_spain_la_liga_2026-08-25_real-betis_at_valencia": {
+      "league": "La Liga",
+      "away_team": "Real Betis",
+      "home_team": "Valencia",
+      "commence_time": "2026-08-25T19:00:00Z",
       "market_line": {
         "moneyline": {
-          "Chelsea": 116,
-          "Fulham": 211,
-          "Draw": 267
+          "Real Betis": 168,
+          "Valencia": 169,
+          "Draw": 227
         },
         "spread": {
-          "Chelsea": -0.5,
-          "Fulham": 0.5
-        },
-        "total": 2.8,
-        "num_bookmakers": 9
-      },
-      "away_team_trends": {
-        "team": "Chelsea",
-        "last5": null,
-        "streak": null,
-        "record": null,
-        "h2h_vs_opponent": null
-      },
-      "home_team_trends": {
-        "team": "Fulham",
-        "last5": null,
-        "streak": null,
-        "record": null,
-        "h2h_vs_opponent": null
-      },
-      "weather_at_kickoff": null,
-      "probable_pitchers": {
-        "home": null,
-        "away": null
-      }
-    },
-    "soccer_italy_serie_a_2026-08-24_lazio_at_bologna": {
-      "league": "Serie A",
-      "away_team": "Lazio",
-      "home_team": "Bologna",
-      "commence_time": "2026-08-24T16:30:00Z",
-      "market_line": {
-        "moneyline": {
-          "Bologna": 113,
-          "Lazio": 253,
-          "Draw": 223
-        },
-        "spread": {
-          "Bologna": -0.4,
-          "Lazio": 0.4
+          "Real Betis": 0.0,
+          "Valencia": 0.0
         },
         "total": 2.5,
-        "num_bookmakers": 8
+        "num_bookmakers": 6
       },
       "away_team_trends": {
-        "team": "Lazio",
-        "last5": null,
-        "streak": null,
-        "record": null,
+        "team": "Real Betis",
+        "last5": "1-0",
+        "streak": "W1",
+        "record": "1-0",
         "h2h_vs_opponent": null
       },
       "home_team_trends": {
-        "team": "Bologna",
-        "last5": null,
-        "streak": null,
-        "record": null,
-        "h2h_vs_opponent": null
-      },
-      "weather_at_kickoff": null,
-      "probable_pitchers": {
-        "home": null,
-        "away": null
-      }
-    },
-    "soccer_italy_serie_a_2026-08-24_fiorentina_at_as-roma": {
-      "league": "Serie A",
-      "away_team": "Fiorentina",
-      "home_team": "AS Roma",
-      "commence_time": "2026-08-24T18:45:00Z",
-      "market_line": {
-        "moneyline": {
-          "AS Roma": -189,
-          "Fiorentina": 498,
-          "Draw": 313
-        },
-        "spread": {
-          "AS Roma": -1.0,
-          "Fiorentina": 1.0
-        },
-        "total": 2.5,
-        "num_bookmakers": 8
-      },
-      "away_team_trends": {
-        "team": "Fiorentina",
-        "last5": null,
-        "streak": null,
-        "record": null,
-        "h2h_vs_opponent": null
-      },
-      "home_team_trends": {
-        "team": "AS Roma",
-        "last5": null,
-        "streak": null,
-        "record": null,
-        "h2h_vs_opponent": null
-      },
-      "weather_at_kickoff": null,
-      "probable_pitchers": {
-        "home": null,
-        "away": null
-      }
-    },
-    "soccer_spain_la_liga_2026-08-24_levante_at_ca-osasuna": {
-      "league": "La Liga",
-      "away_team": "Levante",
-      "home_team": "CA Osasuna",
-      "commence_time": "2026-08-24T17:30:00Z",
-      "market_line": {
-        "moneyline": {
-          "CA Osasuna": -150,
-          "Levante": 380,
-          "Draw": 280
-        },
-        "spread": {},
-        "total": null,
-        "num_bookmakers": 1
-      },
-      "away_team_trends": {
-        "team": "Levante",
-        "last5": "0-1",
-        "streak": "L1",
-        "record": "0-1",
-        "h2h_vs_opponent": null
-      },
-      "home_team_trends": {
-        "team": "CA Osasuna",
-        "last5": null,
-        "streak": null,
-        "record": null,
-        "h2h_vs_opponent": null
-      },
-      "weather_at_kickoff": null,
-      "probable_pitchers": {
-        "home": null,
-        "away": null
-      }
-    },
-    "soccer_spain_la_liga_2026-08-24_deportivo-la-coru\u00f1a_at_m\u00e1laga": {
-      "league": "La Liga",
-      "away_team": "Deportivo La Coru\u00f1a",
-      "home_team": "M\u00e1laga",
-      "commence_time": "2026-08-24T19:30:00Z",
-      "market_line": {
-        "moneyline": {
-          "Deportivo La Coru\u00f1a": 195,
-          "M\u00e1laga": 150,
-          "Draw": 210
-        },
-        "spread": {},
-        "total": null,
-        "num_bookmakers": 1
-      },
-      "away_team_trends": {
-        "team": "Deportivo La Coru\u00f1a",
-        "last5": "0-1",
-        "streak": "L1",
-        "record": "0-1",
-        "h2h_vs_opponent": null
-      },
-      "home_team_trends": {
-        "team": "M\u00e1laga",
+        "team": "Valencia",
         "last5": "0-1",
         "streak": "L1",
         "record": "0-1",

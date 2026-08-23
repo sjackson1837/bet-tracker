@@ -1,57 +1,14 @@
 {
-  "soccer_epl_2026-08-24_chelsea_at_fulham": {
-    "predicted_winner": "Chelsea",
-    "reasoning": "Market prices Chelsea as a clear favorite (-0.5 spread, +116 ML) reflecting a significant quality gap between the two squads. With no trend data available to contradict this, the pricing itself is the best available signal, though lack of recent form data limits confidence.",
-    "key_factors": [
-      "Chelsea favored on moneyline and spread",
-      "No trend data available to contradict market",
-      "Historically stronger squad depth"
-    ],
-    "confidence": 58,
-    "predicted_against_spread": "Chelsea"
-  },
-  "soccer_italy_serie_a_2026-08-24_lazio_at_bologna": {
-    "predicted_winner": "Bologna",
-    "reasoning": "Bologna is a heavy home favorite (-0.4 spread, 113 ML) against a Lazio side priced at long odds, suggesting bookmakers see a clear talent/form gap. Absent any trend data to counter this, the market pricing is the primary basis for the pick, tempering confidence given lack of corroborating stats.",
-    "key_factors": [
-      "Bologna strong home favorite",
-      "Lazio priced at long odds (+253)",
-      "No trend data to contradict market view"
-    ],
-    "confidence": 57,
-    "predicted_against_spread": "Bologna"
-  },
-  "soccer_italy_serie_a_2026-08-24_fiorentina_at_as-roma": {
-    "predicted_winner": "AS Roma",
-    "reasoning": "AS Roma is a substantial favorite (-189 ML, -1.0 spread) at home against Fiorentina priced near 5/1, indicating a wide perceived quality gap. With no additional trend data, this large market gap itself is a reasonably strong signal for a Roma win, though the -1.0 spread cover is less certain in a low-scoring 2.5-total match.",
-    "key_factors": [
-      "Roma heavy home favorite",
-      "Fiorentina long moneyline underdog",
-      "Low total (2.5) suggests tight, low-scoring affair complicating spread cover"
-    ],
-    "confidence": 62,
-    "predicted_against_spread": "Fiorentina"
-  },
-  "soccer_spain_la_liga_2026-08-24_levante_at_ca-osasuna": {
-    "predicted_winner": "CA Osasuna",
-    "reasoning": "Levante enters on a losing streak (L1, 0-1) and is priced as a big underdog (+380) while Osasuna is favored at home (-150) with no negative trend signals shown. The combination of Levante's poor recent form and market favoritism for Osasuna supports the home side.",
-    "key_factors": [
-      "Levante on L1 streak with 0-1 record",
-      "Osasuna favored at home (-150)",
-      "Sparse trend data overall lowers certainty"
-    ],
-    "confidence": 60,
-    "predicted_against_spread": "CA Osasuna"
-  },
-  "soccer_spain_la_liga_2026-08-24_deportivo-la-coru\u00f1a_at_m\u00e1laga": {
-    "predicted_winner": "M\u00e1laga",
-    "reasoning": "Both teams are on L1 streaks with identical 0-1 records, making recent form a wash, but M\u00e1laga's home-field edge and slightly shorter moneyline (150 vs 195) reflect a modest market preference. Given the near-equal underlying trends, this is close to a coin-flip leaning slightly to the home side.",
-    "key_factors": [
-      "Both teams on L1 streak, 0-1 records",
-      "M\u00e1laga favored at home per moneyline",
-      "Very limited trend/spread data available"
-    ],
+  "soccer_spain_la_liga_2026-08-25_real-betis_at_valencia": {
+    "predicted_winner": "Real Betis",
+    "predicted_against_spread": "Real Betis",
     "confidence": 53,
-    "predicted_against_spread": "M\u00e1laga"
+    "key_factors": [
+      "Betis opened season with a win (1-0), Valencia opened with a loss (0-1)",
+      "Betis on a 1-game win streak while Valencia on a 1-game losing streak",
+      "Market lines nearly even (168 vs 169) reflecting a true toss-up",
+      "Very early season sample size (only 1 match each) limits confidence"
+    ],
+    "reasoning": "Both teams have only played one match, but Betis won theirs while Valencia lost, giving Betis a slight edge in early-season form and momentum. The market treats this as essentially a coin flip with near-identical moneyline odds, and with no head-to-head data or pitcher/weather context to lean on, the sample is too thin for high confidence. I'll lean slightly toward Betis given their positive result and streak direction versus Valencia's negative one."
   }
 }

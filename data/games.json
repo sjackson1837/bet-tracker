@@ -12013,7 +12013,7 @@
     "espn_sport": "soccer",
     "espn_league": "esp.1",
     "outdoor": true,
-    "status": "scheduled",
+    "status": "predicted",
     "odds": {
       "moneyline": {
         "Real Betis": 168,
@@ -12027,7 +12027,54 @@
       "total": 2.5,
       "num_bookmakers": 6
     },
-    "prediction": null,
+    "prediction": {
+      "predicted_winner": "Real Betis",
+      "predicted_against_spread": "Real Betis",
+      "confidence": 53,
+      "key_factors": [
+        "Betis opened season with a win (1-0), Valencia opened with a loss (0-1)",
+        "Betis on a 1-game win streak while Valencia on a 1-game losing streak",
+        "Market lines nearly even (168 vs 169) reflecting a true toss-up",
+        "Very early season sample size (only 1 match each) limits confidence"
+      ],
+      "reasoning": "Both teams have only played one match, but Betis won theirs while Valencia lost, giving Betis a slight edge in early-season form and momentum. The market treats this as essentially a coin flip with near-identical moneyline odds, and with no head-to-head data or pitcher/weather context to lean on, the sample is too thin for high confidence. I'll lean slightly toward Betis given their positive result and streak direction versus Valencia's negative one.",
+      "context_used": {
+        "away_trends": {
+          "team": "Real Betis",
+          "last5": "1-0",
+          "streak": "W1",
+          "record": "1-0",
+          "h2h_vs_opponent": null
+        },
+        "home_trends": {
+          "team": "Valencia",
+          "last5": "0-1",
+          "streak": "L1",
+          "record": "0-1",
+          "h2h_vs_opponent": null
+        },
+        "weather": null,
+        "probable_pitchers": {
+          "home": null,
+          "away": null
+        }
+      },
+      "generated_at": "2026-08-23T11:45:30.442722+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "Real Betis": 168,
+          "Valencia": 169,
+          "Draw": 227
+        },
+        "spread": {
+          "Real Betis": 0.0,
+          "Valencia": 0.0
+        },
+        "total": 2.5,
+        "num_bookmakers": 6
+      }
+    },
     "actual": null
   },
   "soccer_spain_la_liga_2026-08-26_real-sociedad_at_real-madrid": {
