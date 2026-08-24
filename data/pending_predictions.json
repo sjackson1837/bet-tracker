@@ -1,36 +1,36 @@
 {
   "instructions": "For each game below, act as a sharp, disciplined sports betting analyst. Do NOT simply pick whichever side the betting market favors -- weigh the actual trend data provided (recent form, streaks, head-to-head history, starting pitcher matchups where given, and weather where relevant) and form an independent judgment. It's fine, and expected, to disagree with the market when the trends support it. If trend data is sparse for a game, say so and let that lower your confidence rather than defaulting to the favorite. For each game_id, produce: predicted_winner (exact team name), predicted_against_spread (exact team name), confidence (integer 1-100), key_factors (2-4 short strings), and reasoning (2-4 sentences referencing the specific trend data given).",
   "games": {
-    "soccer_spain_la_liga_2026-08-25_real-betis_at_valencia": {
+    "soccer_spain_la_liga_2026-08-26_real-sociedad_at_real-madrid": {
       "league": "La Liga",
-      "away_team": "Real Betis",
-      "home_team": "Valencia",
-      "commence_time": "2026-08-25T19:00:00Z",
+      "away_team": "Real Sociedad",
+      "home_team": "Real Madrid",
+      "commence_time": "2026-08-26T19:00:00Z",
       "market_line": {
         "moneyline": {
-          "Real Betis": 168,
-          "Valencia": 169,
-          "Draw": 227
+          "Real Madrid": -262,
+          "Real Sociedad": 621,
+          "Draw": 408
         },
         "spread": {
-          "Real Betis": 0.0,
-          "Valencia": 0.0
+          "Real Madrid": -1.5,
+          "Real Sociedad": 1.5
         },
-        "total": 2.5,
+        "total": 3.1,
         "num_bookmakers": 6
       },
       "away_team_trends": {
-        "team": "Real Betis",
-        "last5": "1-0",
-        "streak": "W1",
-        "record": "1-0",
-        "h2h_vs_opponent": null
-      },
-      "home_team_trends": {
-        "team": "Valencia",
+        "team": "Real Sociedad",
         "last5": "0-1",
         "streak": "L1",
         "record": "0-1",
+        "h2h_vs_opponent": null
+      },
+      "home_team_trends": {
+        "team": "Real Madrid",
+        "last5": "1-0",
+        "streak": "W1",
+        "record": "1-0",
         "h2h_vs_opponent": null
       },
       "weather_at_kickoff": null,

@@ -1,14 +1,14 @@
 {
-  "soccer_spain_la_liga_2026-08-25_real-betis_at_valencia": {
-    "predicted_winner": "Real Betis",
-    "predicted_against_spread": "Real Betis",
-    "confidence": 53,
+  "soccer_spain_la_liga_2026-08-26_real-sociedad_at_real-madrid": {
+    "predicted_winner": "Real Madrid",
+    "predicted_against_spread": "Real Sociedad",
+    "confidence": 62,
     "key_factors": [
-      "Betis opened season with a win (1-0), Valencia opened with a loss (0-1)",
-      "Betis on a 1-game win streak while Valencia on a 1-game losing streak",
-      "Market lines nearly even (168 vs 169) reflecting a true toss-up",
-      "Very early season sample size (only 1 match each) limits confidence"
+      "Real Madrid opened season with a win (W1) while Real Sociedad lost (L1)",
+      "Home field advantage at Santiago Bernabeu",
+      "Real Madrid heavily favored (-262 ML) suggesting squad quality gap",
+      "Early season sample size is very small, limiting confidence"
     ],
-    "reasoning": "Both teams have only played one match, but Betis won theirs while Valencia lost, giving Betis a slight edge in early-season form and momentum. The market treats this as essentially a coin flip with near-identical moneyline odds, and with no head-to-head data or pitcher/weather context to lean on, the sample is too thin for high confidence. I'll lean slightly toward Betis given their positive result and streak direction versus Valencia's negative one."
+    "reasoning": "Real Madrid's early form (1-0, W1) and home advantage make them the clear favorite over a Real Sociedad side that lost their opener. However, a -1.5 spread against a divisional side with no historical head-to-head data provided is a tall order this early in the season, so we lean toward Real Sociedad covering the spread while Madrid still wins outright. Confidence is moderate given the extremely limited sample size (1 game each) for both clubs."
   }
 }
