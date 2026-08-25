@@ -12159,7 +12159,7 @@
     "espn_sport": "soccer",
     "espn_league": "esp.1",
     "outdoor": true,
-    "status": "scheduled",
+    "status": "predicted",
     "odds": {
       "moneyline": {
         "Athletic Bilbao": 608,
@@ -12173,7 +12173,54 @@
       "total": 3.1,
       "num_bookmakers": 6
     },
-    "prediction": null,
+    "prediction": {
+      "predicted_winner": "Barcelona",
+      "reasoning": "Barcelona is unbeaten to start the season with a win in their opener, while Athletic Bilbao dropped their first match. Home advantage at Camp Nou combined with Barcelona's typically stronger squad depth supports the favorite here, though the sample size (1 game each) is very small early in the season.",
+      "confidence": 62,
+      "predicted_against_spread": "Athletic Bilbao",
+      "key_factors": [
+        "Barcelona W1 streak vs Athletic Bilbao L1 streak",
+        "Home field advantage for Barcelona",
+        "Early season sample size is minimal (1 game each)",
+        "-1.5 spread is a tough cover for Barcelona against a mid-table opponent"
+      ],
+      "context_used": {
+        "away_trends": {
+          "team": "Athletic Bilbao",
+          "last5": "0-1",
+          "streak": "L1",
+          "record": "0-1",
+          "h2h_vs_opponent": null
+        },
+        "home_trends": {
+          "team": "Barcelona",
+          "last5": "1-0",
+          "streak": "W1",
+          "record": "1-0",
+          "h2h_vs_opponent": null
+        },
+        "weather": null,
+        "probable_pitchers": {
+          "home": null,
+          "away": null
+        }
+      },
+      "generated_at": "2026-08-25T11:54:05.923885+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "Athletic Bilbao": 608,
+          "Barcelona": -250,
+          "Draw": 405
+        },
+        "spread": {
+          "Athletic Bilbao": 1.5,
+          "Barcelona": -1.5
+        },
+        "total": 3.1,
+        "num_bookmakers": 6
+      }
+    },
     "actual": null
   },
   "soccer_germany_bundesliga_2026-08-28_vfb-stuttgart_at_bayern-munich": {

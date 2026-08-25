@@ -1,14 +1,14 @@
 {
-  "soccer_spain_la_liga_2026-08-26_real-sociedad_at_real-madrid": {
-    "predicted_winner": "Real Madrid",
-    "predicted_against_spread": "Real Sociedad",
+  "soccer_spain_la_liga_2026-08-27_athletic-bilbao_at_barcelona": {
+    "predicted_winner": "Barcelona",
+    "reasoning": "Barcelona is unbeaten to start the season with a win in their opener, while Athletic Bilbao dropped their first match. Home advantage at Camp Nou combined with Barcelona's typically stronger squad depth supports the favorite here, though the sample size (1 game each) is very small early in the season.",
     "confidence": 62,
+    "predicted_against_spread": "Athletic Bilbao",
     "key_factors": [
-      "Real Madrid opened season with a win (W1) while Real Sociedad lost (L1)",
-      "Home field advantage at Santiago Bernabeu",
-      "Real Madrid heavily favored (-262 ML) suggesting squad quality gap",
-      "Early season sample size is very small, limiting confidence"
-    ],
-    "reasoning": "Real Madrid's early form (1-0, W1) and home advantage make them the clear favorite over a Real Sociedad side that lost their opener. However, a -1.5 spread against a divisional side with no historical head-to-head data provided is a tall order this early in the season, so we lean toward Real Sociedad covering the spread while Madrid still wins outright. Confidence is moderate given the extremely limited sample size (1 game each) for both clubs."
+      "Barcelona W1 streak vs Athletic Bilbao L1 streak",
+      "Home field advantage for Barcelona",
+      "Early season sample size is minimal (1 game each)",
+      "-1.5 spread is a tough cover for Barcelona against a mid-table opponent"
+    ]
   }
 }
