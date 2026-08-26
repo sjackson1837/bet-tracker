@@ -1,14 +1,14 @@
 {
-  "soccer_spain_la_liga_2026-08-27_athletic-bilbao_at_barcelona": {
-    "predicted_winner": "Barcelona",
-    "reasoning": "Barcelona is unbeaten to start the season with a win in their opener, while Athletic Bilbao dropped their first match. Home advantage at Camp Nou combined with Barcelona's typically stronger squad depth supports the favorite here, though the sample size (1 game each) is very small early in the season.",
+  "soccer_germany_bundesliga_2026-08-28_vfb-stuttgart_at_bayern-munich": {
+    "predicted_winner": "Bayern Munich",
+    "predicted_against_spread": "Bayern Munich",
     "confidence": 62,
-    "predicted_against_spread": "Athletic Bilbao",
     "key_factors": [
-      "Barcelona W1 streak vs Athletic Bilbao L1 streak",
-      "Home field advantage for Barcelona",
-      "Early season sample size is minimal (1 game each)",
-      "-1.5 spread is a tough cover for Barcelona against a mid-table opponent"
-    ]
+      "Market heavily favors Bayern Munich (-352 ML)",
+      "No specific recent form/trend data provided for either team",
+      "Bayern's historical home dominance over Stuttgart",
+      "Lack of granular data lowers confidence despite lopsided odds"
+    ],
+    "reasoning": "With no last5, streak, or h2h data supplied, this pick leans primarily on market pricing and Bayern's well-established home strength in the Bundesliga. The steep moneyline gap (-352 vs +672) reflects a significant talent and historical disparity, supporting Bayern to win outright. However, covering a -1.6 goal spread is less certain without concrete recent form, so confidence is moderated rather than high."
   }
 }

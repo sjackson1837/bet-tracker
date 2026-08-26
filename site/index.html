@@ -97,9 +97,9 @@ th { color: var(--muted); font-weight: 500; font-size: 0.78rem; text-transform: 
   </nav>
 </header>
 <div class="layout">
-<div class="sidebar"><h3>Sports</h3><button class="league-btn active" data-league="all" onclick="filterLeague('all', this)">All Sports</button><button class="league-btn" data-league="La Liga" onclick="filterLeague('La Liga', this)">La Liga</button></div>
+<div class="sidebar"><h3>Sports</h3><button class="league-btn active" data-league="all" onclick="filterLeague('all', this)">All Sports</button><button class="league-btn" data-league="La Liga" onclick="filterLeague('La Liga', this)">La Liga</button><button class="league-btn" data-league="Bundesliga" onclick="filterLeague('Bundesliga', this)">Bundesliga</button></div>
 <main>
-<p class="updated">Last updated Aug 25, 2026 at 07:54 AM EDT</p><div class="top-picks"><h2>Top 2 by Confidence</h2><div class="top-picks-grid"><div class="card">
+<p class="updated">Last updated Aug 26, 2026 at 07:55 AM EDT</p><div class="top-picks"><h2>Top 3 by Confidence</h2><div class="top-picks-grid"><div class="card">
   <div class="matchup">Real Sociedad @ Real Madrid <span class="your-pick-badge" data-game-id="soccer_spain_la_liga_2026-08-26_real-sociedad_at_real-madrid" style="display:none;">&#10003; Your pick</span></div>
   <div class="meta">Wed Aug 26, 03:00 PM EDT</div>
   <div class="odds-row"><div class="odds-item"><div class="odds-label">Moneyline</div><div class="odds-value">Real Madrid -262 &middot; Real Sociedad +621 &middot; Draw +408</div></div><div class="odds-item"><div class="odds-label">Spread</div><div class="odds-value">Real Madrid -1.5 &middot; Real Sociedad +1.5</div></div><div class="odds-item"><div class="odds-label">Total (O/U)</div><div class="odds-value">3.1</div></div><div class="odds-item"><div class="odds-label">Books</div><div class="odds-value">6</div></div></div>
@@ -129,6 +129,21 @@ th { color: var(--muted); font-weight: 500; font-size: 0.78rem; text-transform: 
     <input type="checkbox" class="pick-checkbox" data-game-id="soccer_spain_la_liga_2026-08-27_athletic-bilbao_at_barcelona"  onchange="togglePick('soccer_spain_la_liga_2026-08-27_athletic-bilbao_at_barcelona', this)"> I bet on this
   </label>
   <div class="pick-status" data-game-id="soccer_spain_la_liga_2026-08-27_athletic-bilbao_at_barcelona">Couldn't save that pick &mdash; check your connection and try again.</div>
+</div><div class="card">
+  <div class="matchup">VfB Stuttgart @ Bayern Munich <span class="your-pick-badge" data-game-id="soccer_germany_bundesliga_2026-08-28_vfb-stuttgart_at_bayern-munich" style="display:none;">&#10003; Your pick</span></div>
+  <div class="meta">Fri Aug 28, 02:30 PM EDT</div>
+  <div class="odds-row"><div class="odds-item"><div class="odds-label">Moneyline</div><div class="odds-value">Bayern Munich -352 &middot; VfB Stuttgart +672 &middot; Draw +531</div></div><div class="odds-item"><div class="odds-label">Spread</div><div class="odds-value">Bayern Munich -1.6 &middot; VfB Stuttgart +1.6</div></div><div class="odds-item"><div class="odds-label">Total (O/U)</div><div class="odds-value">3.8</div></div><div class="odds-item"><div class="odds-label">Books</div><div class="odds-value">8</div></div></div>
+  <div class="pick-row">
+    <span>Pick:</span> <span class="pick">Bayern Munich</span>
+    <span class="confidence">62% confidence</span>
+  </div>
+  <div class="pick-row"><span>Against the spread:</span> <span class="pick">Bayern Munich</span></div>
+  <ul class="factors"><li>Market heavily favors Bayern Munich (-352 ML)</li><li>No specific recent form/trend data provided for either team</li><li>Bayern's historical home dominance over Stuttgart</li><li>Lack of granular data lowers confidence despite lopsided odds</li></ul>
+  <div class="reasoning">With no last5, streak, or h2h data supplied, this pick leans primarily on market pricing and Bayern's well-established home strength in the Bundesliga. The steep moneyline gap (-352 vs +672) reflects a significant talent and historical disparity, supporting Bayern to win outright. However, covering a -1.6 goal spread is less certain without concrete recent form, so confidence is moderated rather than high.</div>
+  <label class="pick-toggle">
+    <input type="checkbox" class="pick-checkbox" data-game-id="soccer_germany_bundesliga_2026-08-28_vfb-stuttgart_at_bayern-munich"  onchange="togglePick('soccer_germany_bundesliga_2026-08-28_vfb-stuttgart_at_bayern-munich', this)"> I bet on this
+  </label>
+  <div class="pick-status" data-game-id="soccer_germany_bundesliga_2026-08-28_vfb-stuttgart_at_bayern-munich">Couldn't save that pick &mdash; check your connection and try again.</div>
 </div></div></div><div class="league-group filterable-item" data-league="La Liga"><h2>La Liga</h2>
 <div class="card">
   <div class="matchup">Real Sociedad @ Real Madrid <span class="your-pick-badge" data-game-id="soccer_spain_la_liga_2026-08-26_real-sociedad_at_real-madrid" style="display:none;">&#10003; Your pick</span></div>
@@ -161,6 +176,24 @@ th { color: var(--muted); font-weight: 500; font-size: 0.78rem; text-transform: 
     <input type="checkbox" class="pick-checkbox" data-game-id="soccer_spain_la_liga_2026-08-27_athletic-bilbao_at_barcelona"  onchange="togglePick('soccer_spain_la_liga_2026-08-27_athletic-bilbao_at_barcelona', this)"> I bet on this
   </label>
   <div class="pick-status" data-game-id="soccer_spain_la_liga_2026-08-27_athletic-bilbao_at_barcelona">Couldn't save that pick &mdash; check your connection and try again.</div>
+</div>
+</div>
+<div class="league-group filterable-item" data-league="Bundesliga"><h2>Bundesliga</h2>
+<div class="card">
+  <div class="matchup">VfB Stuttgart @ Bayern Munich <span class="your-pick-badge" data-game-id="soccer_germany_bundesliga_2026-08-28_vfb-stuttgart_at_bayern-munich" style="display:none;">&#10003; Your pick</span></div>
+  <div class="meta">Fri Aug 28, 02:30 PM EDT</div>
+  <div class="odds-row"><div class="odds-item"><div class="odds-label">Moneyline</div><div class="odds-value">Bayern Munich -352 &middot; VfB Stuttgart +672 &middot; Draw +531</div></div><div class="odds-item"><div class="odds-label">Spread</div><div class="odds-value">Bayern Munich -1.6 &middot; VfB Stuttgart +1.6</div></div><div class="odds-item"><div class="odds-label">Total (O/U)</div><div class="odds-value">3.8</div></div><div class="odds-item"><div class="odds-label">Books</div><div class="odds-value">8</div></div></div>
+  <div class="pick-row">
+    <span>Pick:</span> <span class="pick">Bayern Munich</span>
+    <span class="confidence">62% confidence</span>
+  </div>
+  <div class="pick-row"><span>Against the spread:</span> <span class="pick">Bayern Munich</span></div>
+  <ul class="factors"><li>Market heavily favors Bayern Munich (-352 ML)</li><li>No specific recent form/trend data provided for either team</li><li>Bayern's historical home dominance over Stuttgart</li><li>Lack of granular data lowers confidence despite lopsided odds</li></ul>
+  <div class="reasoning">With no last5, streak, or h2h data supplied, this pick leans primarily on market pricing and Bayern's well-established home strength in the Bundesliga. The steep moneyline gap (-352 vs +672) reflects a significant talent and historical disparity, supporting Bayern to win outright. However, covering a -1.6 goal spread is less certain without concrete recent form, so confidence is moderated rather than high.</div>
+  <label class="pick-toggle">
+    <input type="checkbox" class="pick-checkbox" data-game-id="soccer_germany_bundesliga_2026-08-28_vfb-stuttgart_at_bayern-munich"  onchange="togglePick('soccer_germany_bundesliga_2026-08-28_vfb-stuttgart_at_bayern-munich', this)"> I bet on this
+  </label>
+  <div class="pick-status" data-game-id="soccer_germany_bundesliga_2026-08-28_vfb-stuttgart_at_bayern-munich">Couldn't save that pick &mdash; check your connection and try again.</div>
 </div>
 </div>
 </main>

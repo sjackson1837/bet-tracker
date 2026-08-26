@@ -1,36 +1,36 @@
 {
   "instructions": "For each game below, act as a sharp, disciplined sports betting analyst. Do NOT simply pick whichever side the betting market favors -- weigh the actual trend data provided (recent form, streaks, head-to-head history, starting pitcher matchups where given, and weather where relevant) and form an independent judgment. It's fine, and expected, to disagree with the market when the trends support it. If trend data is sparse for a game, say so and let that lower your confidence rather than defaulting to the favorite. For each game_id, produce: predicted_winner (exact team name), predicted_against_spread (exact team name), confidence (integer 1-100), key_factors (2-4 short strings), and reasoning (2-4 sentences referencing the specific trend data given).",
   "games": {
-    "soccer_spain_la_liga_2026-08-27_athletic-bilbao_at_barcelona": {
-      "league": "La Liga",
-      "away_team": "Athletic Bilbao",
-      "home_team": "Barcelona",
-      "commence_time": "2026-08-27T19:00:00Z",
+    "soccer_germany_bundesliga_2026-08-28_vfb-stuttgart_at_bayern-munich": {
+      "league": "Bundesliga",
+      "away_team": "VfB Stuttgart",
+      "home_team": "Bayern Munich",
+      "commence_time": "2026-08-28T18:30:00Z",
       "market_line": {
         "moneyline": {
-          "Athletic Bilbao": 608,
-          "Barcelona": -250,
-          "Draw": 405
+          "Bayern Munich": -352,
+          "VfB Stuttgart": 672,
+          "Draw": 531
         },
         "spread": {
-          "Athletic Bilbao": 1.5,
-          "Barcelona": -1.5
+          "Bayern Munich": -1.6,
+          "VfB Stuttgart": 1.6
         },
-        "total": 3.1,
-        "num_bookmakers": 6
+        "total": 3.8,
+        "num_bookmakers": 8
       },
       "away_team_trends": {
-        "team": "Athletic Bilbao",
-        "last5": "0-1",
-        "streak": "L1",
-        "record": "0-1",
+        "team": "VfB Stuttgart",
+        "last5": null,
+        "streak": null,
+        "record": null,
         "h2h_vs_opponent": null
       },
       "home_team_trends": {
-        "team": "Barcelona",
-        "last5": "1-0",
-        "streak": "W1",
-        "record": "1-0",
+        "team": "Bayern Munich",
+        "last5": null,
+        "streak": null,
+        "record": null,
         "h2h_vs_opponent": null
       },
       "weather_at_kickoff": null,

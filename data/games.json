@@ -12232,7 +12232,7 @@
     "espn_sport": "soccer",
     "espn_league": "ger.1",
     "outdoor": true,
-    "status": "scheduled",
+    "status": "predicted",
     "odds": {
       "moneyline": {
         "Bayern Munich": -352,
@@ -12246,7 +12246,54 @@
       "total": 3.8,
       "num_bookmakers": 8
     },
-    "prediction": null,
+    "prediction": {
+      "predicted_winner": "Bayern Munich",
+      "predicted_against_spread": "Bayern Munich",
+      "confidence": 62,
+      "key_factors": [
+        "Market heavily favors Bayern Munich (-352 ML)",
+        "No specific recent form/trend data provided for either team",
+        "Bayern's historical home dominance over Stuttgart",
+        "Lack of granular data lowers confidence despite lopsided odds"
+      ],
+      "reasoning": "With no last5, streak, or h2h data supplied, this pick leans primarily on market pricing and Bayern's well-established home strength in the Bundesliga. The steep moneyline gap (-352 vs +672) reflects a significant talent and historical disparity, supporting Bayern to win outright. However, covering a -1.6 goal spread is less certain without concrete recent form, so confidence is moderated rather than high.",
+      "context_used": {
+        "away_trends": {
+          "team": "VfB Stuttgart",
+          "last5": null,
+          "streak": null,
+          "record": null,
+          "h2h_vs_opponent": null
+        },
+        "home_trends": {
+          "team": "Bayern Munich",
+          "last5": null,
+          "streak": null,
+          "record": null,
+          "h2h_vs_opponent": null
+        },
+        "weather": null,
+        "probable_pitchers": {
+          "home": null,
+          "away": null
+        }
+      },
+      "generated_at": "2026-08-26T11:55:43.037867+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "Bayern Munich": -352,
+          "VfB Stuttgart": 672,
+          "Draw": 531
+        },
+        "spread": {
+          "Bayern Munich": -1.6,
+          "VfB Stuttgart": 1.6
+        },
+        "total": 3.8,
+        "num_bookmakers": 8
+      }
+    },
     "actual": null
   },
   "soccer_germany_bundesliga_2026-08-29_tsg-hoffenheim_at_1.-fc-k\u00f6ln": {
