@@ -1,14 +1,200 @@
 {
-  "soccer_germany_bundesliga_2026-08-28_vfb-stuttgart_at_bayern-munich": {
-    "predicted_winner": "Bayern Munich",
-    "predicted_against_spread": "Bayern Munich",
+  "americanfootball_ncaaf_2026-08-29_north-carolina-tar-heels_at_tcu-horned-frogs": {
+    "predicted_winner": "TCU Horned Frogs",
+    "predicted_against_spread": "TCU Horned Frogs",
+    "confidence": 58,
+    "key_factors": [
+      "No trend data provided",
+      "Market favors TCU by 7.4",
+      "Home field advantage"
+    ],
+    "reasoning": "No specific trend data is available for either team, so this leans heavily on the market line which favors TCU by a solid margin at home. Without contradicting data, I'll side with the market but keep confidence modest given the lack of substantive trend information."
+  },
+  "americanfootball_ncaaf_2026-08-29_san-jose-state-spartans_at_usc-trojans": {
+    "predicted_winner": "USC Trojans",
+    "predicted_against_spread": "San Jose State Spartans",
+    "confidence": 55,
+    "key_factors": [
+      "Extreme spread (38.8) suggests major mismatch",
+      "No trend data available",
+      "Large spreads are prone to backdoor cover risk"
+    ],
+    "reasoning": "USC is a massive favorite with no trend data to override the market's assessment, so USC should win comfortably. However, a nearly 39-point spread is historically difficult to cover fully, especially in a season-opening blowout scenario where backups often play in garbage time, so I lean toward the underdog covering."
+  },
+  "americanfootball_ncaaf_2026-08-29_nc-state-wolfpack_at_virginia-cavaliers": {
+    "predicted_winner": "Virginia Cavaliers",
+    "predicted_against_spread": "Virginia Cavaliers",
+    "confidence": 56,
+    "key_factors": [
+      "No trend data provided",
+      "Market favors Virginia by 5.5 at home",
+      "High total suggests competitive offense expected"
+    ],
+    "reasoning": "With no specific trend data for either team, I default cautiously to the market's assessment of Virginia as a moderate home favorite. Confidence is limited due to the absence of recent form or head-to-head data."
+  },
+  "americanfootball_ncaaf_2026-08-29_jacksonville-state-gamecocks_at_north-dakota-state-bison": {
+    "predicted_winner": "North Dakota State Bison",
+    "predicted_against_spread": "North Dakota State Bison",
+    "confidence": 60,
+    "key_factors": [
+      "No trend data provided",
+      "NDSU historically strong FCS program at home",
+      "Market favors NDSU by 7.3"
+    ],
+    "reasoning": "North Dakota State has a strong historical pedigree as a top FCS/lower-tier program and is favored at home; absent contrary data, I'll trust the market slightly more here given NDSU's reputation for consistency. Confidence is moderate due to lack of current season trend data."
+  },
+  "americanfootball_ncaaf_2026-08-29_sacramento-state-hornets_at_eastern-michigan-eagles": {
+    "predicted_winner": "Eastern Michigan Eagles",
+    "predicted_against_spread": "Sacramento State Hornets",
+    "confidence": 52,
+    "key_factors": [
+      "No trend data available",
+      "Moderate spread of 8.6",
+      "Total suggests competitive scoring game"
+    ],
+    "reasoning": "No trend data is provided for either team, making this essentially a coin-flip against the spread despite Eastern Michigan being favored to win outright. Given the uncertainty, I lean toward the points with Sacramento State rather than trusting a nearly 9-point home favorite blindly."
+  },
+  "americanfootball_ncaaf_2026-08-29_new-mexico-state-aggies_at_florida-state-seminoles": {
+    "predicted_winner": "Florida State Seminoles",
+    "predicted_against_spread": "New Mexico State Aggies",
     "confidence": 62,
     "key_factors": [
-      "Market heavily favors Bayern Munich (-352 ML)",
-      "No specific recent form/trend data provided for either team",
-      "Bayern's historical home dominance over Stuttgart",
-      "Lack of granular data lowers confidence despite lopsided odds"
+      "Extreme 31.3 point spread",
+      "No trend data provided",
+      "Large spreads often see backdoor covers"
     ],
-    "reasoning": "With no last5, streak, or h2h data supplied, this pick leans primarily on market pricing and Bayern's well-established home strength in the Bundesliga. The steep moneyline gap (-352 vs +672) reflects a significant talent and historical disparity, supporting Bayern to win outright. However, covering a -1.6 goal spread is less certain without concrete recent form, so confidence is moderated rather than high."
+    "reasoning": "Florida State is an overwhelming favorite with essentially no realistic chance of losing outright given the moneyline of -10625. However, spreads this large (31.3) are historically difficult to cover in full, especially once starters are pulled in the second half, so I favor the Aggies against the number."
+  },
+  "americanfootball_ncaaf_2026-08-29_hawaii-rainbow-warriors_at_stanford-cardinal": {
+    "predicted_winner": "Stanford Cardinal",
+    "predicted_against_spread": "Stanford Cardinal",
+    "confidence": 57,
+    "key_factors": [
+      "No trend data provided",
+      "Market favors Stanford by 4.5 at home",
+      "Moderate total suggests balanced game"
+    ],
+    "reasoning": "Without specific trend data, I default cautiously to the market line favoring Stanford at home by a modest margin. Confidence remains limited given the total absence of recent form or head-to-head data for either team."
+  },
+  "americanfootball_ncaaf_2026-08-30_memphis-tigers_at_unlv-rebels": {
+    "predicted_winner": "UNLV Rebels",
+    "predicted_against_spread": "UNLV Rebels",
+    "confidence": 55,
+    "key_factors": [
+      "No trend data provided",
+      "Market favors UNLV by 5.7 at home",
+      "High total of 57.2 suggests high-scoring affair"
+    ],
+    "reasoning": "With no trend data available, I lean cautiously with the market favoring UNLV at home. The high total suggests both offenses could be effective, but insufficient data limits confidence in either direction."
+  },
+  "soccer_germany_bundesliga_2026-08-29_tsg-hoffenheim_at_1.-fc-k\u00f6ln": {
+    "predicted_winner": "1. FC K\u00f6ln",
+    "predicted_against_spread": "1. FC K\u00f6ln",
+    "confidence": 52,
+    "key_factors": [
+      "No trend data provided",
+      "Close moneyline odds (181 vs 130)",
+      "Draw priced competitively at 265"
+    ],
+    "reasoning": "The moneyline odds suggest Hoffenheim is actually slightly favored by the market despite K\u00f6ln being at home, indicating a fairly even matchup. Without trend data, this is close to a coin flip, but I'll slightly favor the home side given typical home advantage in the Bundesliga."
+  },
+  "soccer_germany_bundesliga_2026-08-29_fc-schalke-04_at_augsburg": {
+    "predicted_winner": "Augsburg",
+    "predicted_against_spread": "Augsburg",
+    "confidence": 62,
+    "key_factors": [
+      "Strong home moneyline favorite (102)",
+      "No trend data provided",
+      "Limited bookmaker consensus (1 book)"
+    ],
+    "reasoning": "Augsburg is a solid favorite at home per the market, and with no data to contradict this, I'll lean with the home side. However, confidence is tempered since only one bookmaker's line is available, reducing line reliability."
+  },
+  "soccer_germany_bundesliga_2026-08-29_bayer-leverkusen_at_elversberg": {
+    "predicted_winner": "Bayer Leverkusen",
+    "predicted_against_spread": "Bayer Leverkusen",
+    "confidence": 68,
+    "key_factors": [
+      "Leverkusen strongly favored on road (-187)",
+      "Elversberg is a newly promoted/lower-tier side historically",
+      "No trend data but large odds gap"
+    ],
+    "reasoning": "Bayer Leverkusen is a significant favorite on the road, suggesting a substantial class gap between the two sides. Absent contrary trend data, the sizable odds gap (-187 vs +414) strongly supports Leverkusen both to win and cover the modest -1.0 spread."
+  },
+  "soccer_germany_bundesliga_2026-08-29_borussia-monchengladbach_at_rb-leipzig": {
+    "predicted_winner": "RB Leipzig",
+    "predicted_against_spread": "RB Leipzig",
+    "confidence": 70,
+    "key_factors": [
+      "Leipzig heavily favored at home (-191)",
+      "Gladbach priced as significant underdog (431)",
+      "Large implied class gap"
+    ],
+    "reasoning": "RB Leipzig is a strong favorite at home with a wide gap in moneyline odds versus Gladbach, indicating a clear talent and form advantage. Without contrary trend data, the market's confidence in Leipzig appears well justified given typical squad strength disparities in recent Bundesliga seasons."
+  },
+  "soccer_germany_bundesliga_2026-08-29_eintracht-frankfurt_at_union-berlin": {
+    "predicted_winner": "Union Berlin",
+    "predicted_against_spread": "Union Berlin",
+    "confidence": 53,
+    "key_factors": [
+      "Union Berlin favored at home despite modest odds",
+      "Close moneyline gap (183 vs 136)",
+      "No trend data available"
+    ],
+    "reasoning": "The market gives Union Berlin a slight edge at home over Frankfurt, though the odds are fairly close, indicating a competitive matchup. Lacking trend data, I'll side with the modest home favorite but with low confidence given how tight the line is."
+  },
+  "soccer_germany_bundesliga_2026-08-29_sc-paderborn_at_fsv-mainz-05": {
+    "predicted_winner": "FSV Mainz 05",
+    "predicted_against_spread": "FSV Mainz 05",
+    "confidence": 65,
+    "key_factors": [
+      "Mainz solid home favorite (-148)",
+      "Paderborn a promoted/lower-tier side historically",
+      "Meaningful odds gap favors home side"
+    ],
+    "reasoning": "Mainz is favored comfortably at home against Paderborn, which is consistent with typical class differences between an established Bundesliga side and a newly promoted club. Absent contrary data, I'll back the home favorite here with moderate-high confidence."
+  },
+  "soccer_germany_bundesliga_2026-08-29_werder-bremen_at_sc-freiburg": {
+    "predicted_winner": "SC Freiburg",
+    "predicted_against_spread": "SC Freiburg",
+    "confidence": 54,
+    "key_factors": [
+      "Freiburg slight home favorite (-106)",
+      "Limited bookmaker data (1 book)",
+      "No trend data provided"
+    ],
+    "reasoning": "Freiburg is only a marginal favorite at home over Bremen, indicating a close matchup. With just one bookmaker's line and no trend data, confidence is low, but I'll lean slightly toward the home side."
+  },
+  "soccer_germany_bundesliga_2026-08-29_hamburger-sv_at_borussia-dortmund": {
+    "predicted_winner": "Borussia Dortmund",
+    "predicted_against_spread": "Borussia Dortmund",
+    "confidence": 72,
+    "key_factors": [
+      "Dortmund heavily favored at home (-307)",
+      "Hamburg a newly promoted underdog (713)",
+      "Large class gap implied by odds"
+    ],
+    "reasoning": "Borussia Dortmund is a substantial favorite at home against newly promoted Hamburger SV, with the odds reflecting a clear quality gap. Without contradicting trend data, this level of market conviction across 8 bookmakers supports a confident pick on Dortmund both to win and cover -1.5."
+  },
+  "soccer_germany_bundesliga_2026-08-30_werder-bremen_at_sc-freiburg": {
+    "predicted_winner": "SC Freiburg",
+    "predicted_against_spread": "SC Freiburg",
+    "confidence": 58,
+    "key_factors": [
+      "Freiburg favored at home (102 implied ~50%)",
+      "Different odds than earlier Aug 29 listing for same matchup",
+      "No trend data provided"
+    ],
+    "reasoning": "This appears to be a re-listing of the Bremen-Freiburg fixture with slightly different odds, still favoring Freiburg at home. I'll maintain a modest lean toward the home side given the consistent market signal across both listings."
+  },
+  "soccer_germany_bundesliga_2026-08-30_fc-schalke-04_at_augsburg": {
+    "predicted_winner": "Augsburg",
+    "predicted_against_spread": "Augsburg",
+    "confidence": 60,
+    "key_factors": [
+      "Augsburg favored at home in updated line",
+      "Consistent with earlier Aug 29 Schalke-Augsburg listing",
+      "No trend data provided"
+    ],
+    "reasoning": "This is a similar Schalke-Augsburg matchup listing with Augsburg favored at home, consistent with the earlier version of this fixture. I'll maintain confidence in the home favorite given the repeated market signal, though absolute trend data remains absent."
   }
 }

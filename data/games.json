@@ -6809,7 +6809,7 @@
     "espn_sport": "football",
     "espn_league": "college-football",
     "outdoor": true,
-    "status": "scheduled",
+    "status": "predicted",
     "odds": {
       "moneyline": {
         "North Carolina Tar Heels": 242,
@@ -6822,7 +6822,52 @@
       "total": 48.6,
       "num_bookmakers": 9
     },
-    "prediction": null,
+    "prediction": {
+      "predicted_winner": "TCU Horned Frogs",
+      "predicted_against_spread": "TCU Horned Frogs",
+      "confidence": 58,
+      "key_factors": [
+        "No trend data provided",
+        "Market favors TCU by 7.4",
+        "Home field advantage"
+      ],
+      "reasoning": "No specific trend data is available for either team, so this leans heavily on the market line which favors TCU by a solid margin at home. Without contradicting data, I'll side with the market but keep confidence modest given the lack of substantive trend information.",
+      "context_used": {
+        "away_trends": {
+          "team": "North Carolina Tar Heels",
+          "last5": null,
+          "streak": null,
+          "record": null,
+          "h2h_vs_opponent": null
+        },
+        "home_trends": {
+          "team": "TCU Horned Frogs",
+          "last5": null,
+          "streak": null,
+          "record": null,
+          "h2h_vs_opponent": null
+        },
+        "weather": null,
+        "probable_pitchers": {
+          "home": null,
+          "away": null
+        }
+      },
+      "generated_at": "2026-08-27T21:05:29.766402+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "North Carolina Tar Heels": 242,
+          "TCU Horned Frogs": -307
+        },
+        "spread": {
+          "North Carolina Tar Heels": 7.4,
+          "TCU Horned Frogs": -7.4
+        },
+        "total": 48.6,
+        "num_bookmakers": 9
+      }
+    },
     "actual": null
   },
   "americanfootball_ncaaf_2026-08-29_san-jose-state-spartans_at_usc-trojans": {
@@ -6834,7 +6879,7 @@
     "espn_sport": "football",
     "espn_league": "college-football",
     "outdoor": true,
-    "status": "scheduled",
+    "status": "predicted",
     "odds": {
       "moneyline": {
         "San Jose State Spartans": 1525,
@@ -6847,7 +6892,52 @@
       "total": 59.9,
       "num_bookmakers": 9
     },
-    "prediction": null,
+    "prediction": {
+      "predicted_winner": "USC Trojans",
+      "predicted_against_spread": "San Jose State Spartans",
+      "confidence": 55,
+      "key_factors": [
+        "Extreme spread (38.8) suggests major mismatch",
+        "No trend data available",
+        "Large spreads are prone to backdoor cover risk"
+      ],
+      "reasoning": "USC is a massive favorite with no trend data to override the market's assessment, so USC should win comfortably. However, a nearly 39-point spread is historically difficult to cover fully, especially in a season-opening blowout scenario where backups often play in garbage time, so I lean toward the underdog covering.",
+      "context_used": {
+        "away_trends": {
+          "team": "San Jose State Spartans",
+          "last5": null,
+          "streak": null,
+          "record": null,
+          "h2h_vs_opponent": null
+        },
+        "home_trends": {
+          "team": "USC Trojans",
+          "last5": null,
+          "streak": null,
+          "record": null,
+          "h2h_vs_opponent": null
+        },
+        "weather": null,
+        "probable_pitchers": {
+          "home": null,
+          "away": null
+        }
+      },
+      "generated_at": "2026-08-27T21:05:29.766402+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "San Jose State Spartans": 1525,
+          "USC Trojans": -100000
+        },
+        "spread": {
+          "San Jose State Spartans": 38.8,
+          "USC Trojans": -38.8
+        },
+        "total": 59.9,
+        "num_bookmakers": 9
+      }
+    },
     "actual": null
   },
   "americanfootball_ncaaf_2026-08-29_nc-state-wolfpack_at_virginia-cavaliers": {
@@ -6859,7 +6949,7 @@
     "espn_sport": "football",
     "espn_league": "college-football",
     "outdoor": true,
-    "status": "scheduled",
+    "status": "predicted",
     "odds": {
       "moneyline": {
         "NC State Wolfpack": 173,
@@ -6872,7 +6962,52 @@
       "total": 54.3,
       "num_bookmakers": 9
     },
-    "prediction": null,
+    "prediction": {
+      "predicted_winner": "Virginia Cavaliers",
+      "predicted_against_spread": "Virginia Cavaliers",
+      "confidence": 56,
+      "key_factors": [
+        "No trend data provided",
+        "Market favors Virginia by 5.5 at home",
+        "High total suggests competitive offense expected"
+      ],
+      "reasoning": "With no specific trend data for either team, I default cautiously to the market's assessment of Virginia as a moderate home favorite. Confidence is limited due to the absence of recent form or head-to-head data.",
+      "context_used": {
+        "away_trends": {
+          "team": "NC State Wolfpack",
+          "last5": null,
+          "streak": null,
+          "record": null,
+          "h2h_vs_opponent": null
+        },
+        "home_trends": {
+          "team": "Virginia Cavaliers",
+          "last5": null,
+          "streak": null,
+          "record": null,
+          "h2h_vs_opponent": null
+        },
+        "weather": null,
+        "probable_pitchers": {
+          "home": null,
+          "away": null
+        }
+      },
+      "generated_at": "2026-08-27T21:05:29.766402+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "NC State Wolfpack": 173,
+          "Virginia Cavaliers": -216
+        },
+        "spread": {
+          "NC State Wolfpack": 5.5,
+          "Virginia Cavaliers": -5.5
+        },
+        "total": 54.3,
+        "num_bookmakers": 9
+      }
+    },
     "actual": null
   },
   "americanfootball_ncaaf_2026-08-29_jacksonville-state-gamecocks_at_north-dakota-state-bison": {
@@ -6884,7 +7019,7 @@
     "espn_sport": "football",
     "espn_league": "college-football",
     "outdoor": true,
-    "status": "scheduled",
+    "status": "predicted",
     "odds": {
       "moneyline": {
         "Jacksonville State Gamecocks": 232,
@@ -6897,7 +7032,52 @@
       "total": 48.3,
       "num_bookmakers": 9
     },
-    "prediction": null,
+    "prediction": {
+      "predicted_winner": "North Dakota State Bison",
+      "predicted_against_spread": "North Dakota State Bison",
+      "confidence": 60,
+      "key_factors": [
+        "No trend data provided",
+        "NDSU historically strong FCS program at home",
+        "Market favors NDSU by 7.3"
+      ],
+      "reasoning": "North Dakota State has a strong historical pedigree as a top FCS/lower-tier program and is favored at home; absent contrary data, I'll trust the market slightly more here given NDSU's reputation for consistency. Confidence is moderate due to lack of current season trend data.",
+      "context_used": {
+        "away_trends": {
+          "team": "Jacksonville State Gamecocks",
+          "last5": null,
+          "streak": null,
+          "record": null,
+          "h2h_vs_opponent": null
+        },
+        "home_trends": {
+          "team": "North Dakota State Bison",
+          "last5": null,
+          "streak": null,
+          "record": null,
+          "h2h_vs_opponent": null
+        },
+        "weather": null,
+        "probable_pitchers": {
+          "home": null,
+          "away": null
+        }
+      },
+      "generated_at": "2026-08-27T21:05:29.766402+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "Jacksonville State Gamecocks": 232,
+          "North Dakota State Bison": -298
+        },
+        "spread": {
+          "Jacksonville State Gamecocks": 7.3,
+          "North Dakota State Bison": -7.3
+        },
+        "total": 48.3,
+        "num_bookmakers": 9
+      }
+    },
     "actual": null
   },
   "americanfootball_ncaaf_2026-08-29_sacramento-state-hornets_at_eastern-michigan-eagles": {
@@ -6909,7 +7089,7 @@
     "espn_sport": "football",
     "espn_league": "college-football",
     "outdoor": true,
-    "status": "scheduled",
+    "status": "predicted",
     "odds": {
       "moneyline": {
         "Eastern Michigan Eagles": -327,
@@ -6922,7 +7102,52 @@
       "total": 53.2,
       "num_bookmakers": 9
     },
-    "prediction": null,
+    "prediction": {
+      "predicted_winner": "Eastern Michigan Eagles",
+      "predicted_against_spread": "Sacramento State Hornets",
+      "confidence": 52,
+      "key_factors": [
+        "No trend data available",
+        "Moderate spread of 8.6",
+        "Total suggests competitive scoring game"
+      ],
+      "reasoning": "No trend data is provided for either team, making this essentially a coin-flip against the spread despite Eastern Michigan being favored to win outright. Given the uncertainty, I lean toward the points with Sacramento State rather than trusting a nearly 9-point home favorite blindly.",
+      "context_used": {
+        "away_trends": {
+          "team": "Sacramento State Hornets",
+          "last5": null,
+          "streak": null,
+          "record": null,
+          "h2h_vs_opponent": null
+        },
+        "home_trends": {
+          "team": "Eastern Michigan Eagles",
+          "last5": null,
+          "streak": null,
+          "record": null,
+          "h2h_vs_opponent": null
+        },
+        "weather": null,
+        "probable_pitchers": {
+          "home": null,
+          "away": null
+        }
+      },
+      "generated_at": "2026-08-27T21:05:29.766402+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "Eastern Michigan Eagles": -327,
+          "Sacramento State Hornets": 254
+        },
+        "spread": {
+          "Eastern Michigan Eagles": -8.6,
+          "Sacramento State Hornets": 8.6
+        },
+        "total": 53.2,
+        "num_bookmakers": 9
+      }
+    },
     "actual": null
   },
   "americanfootball_ncaaf_2026-08-29_new-mexico-state-aggies_at_florida-state-seminoles": {
@@ -6934,7 +7159,7 @@
     "espn_sport": "football",
     "espn_league": "college-football",
     "outdoor": true,
-    "status": "scheduled",
+    "status": "predicted",
     "odds": {
       "moneyline": {
         "Florida State Seminoles": -10625,
@@ -6947,7 +7172,52 @@
       "total": 52.9,
       "num_bookmakers": 9
     },
-    "prediction": null,
+    "prediction": {
+      "predicted_winner": "Florida State Seminoles",
+      "predicted_against_spread": "New Mexico State Aggies",
+      "confidence": 62,
+      "key_factors": [
+        "Extreme 31.3 point spread",
+        "No trend data provided",
+        "Large spreads often see backdoor covers"
+      ],
+      "reasoning": "Florida State is an overwhelming favorite with essentially no realistic chance of losing outright given the moneyline of -10625. However, spreads this large (31.3) are historically difficult to cover in full, especially once starters are pulled in the second half, so I favor the Aggies against the number.",
+      "context_used": {
+        "away_trends": {
+          "team": "New Mexico State Aggies",
+          "last5": null,
+          "streak": null,
+          "record": null,
+          "h2h_vs_opponent": null
+        },
+        "home_trends": {
+          "team": "Florida State Seminoles",
+          "last5": null,
+          "streak": null,
+          "record": null,
+          "h2h_vs_opponent": null
+        },
+        "weather": null,
+        "probable_pitchers": {
+          "home": null,
+          "away": null
+        }
+      },
+      "generated_at": "2026-08-27T21:05:29.766402+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "Florida State Seminoles": -10625,
+          "New Mexico State Aggies": 2150
+        },
+        "spread": {
+          "Florida State Seminoles": -31.3,
+          "New Mexico State Aggies": 31.3
+        },
+        "total": 52.9,
+        "num_bookmakers": 9
+      }
+    },
     "actual": null
   },
   "americanfootball_ncaaf_2026-08-29_hawaii-rainbow-warriors_at_stanford-cardinal": {
@@ -6959,7 +7229,7 @@
     "espn_sport": "football",
     "espn_league": "college-football",
     "outdoor": true,
-    "status": "scheduled",
+    "status": "predicted",
     "odds": {
       "moneyline": {
         "Hawaii Rainbow Warriors": 170,
@@ -6972,7 +7242,52 @@
       "total": 50.3,
       "num_bookmakers": 9
     },
-    "prediction": null,
+    "prediction": {
+      "predicted_winner": "Stanford Cardinal",
+      "predicted_against_spread": "Stanford Cardinal",
+      "confidence": 57,
+      "key_factors": [
+        "No trend data provided",
+        "Market favors Stanford by 4.5 at home",
+        "Moderate total suggests balanced game"
+      ],
+      "reasoning": "Without specific trend data, I default cautiously to the market line favoring Stanford at home by a modest margin. Confidence remains limited given the total absence of recent form or head-to-head data for either team.",
+      "context_used": {
+        "away_trends": {
+          "team": "Hawaii Rainbow Warriors",
+          "last5": null,
+          "streak": null,
+          "record": null,
+          "h2h_vs_opponent": null
+        },
+        "home_trends": {
+          "team": "Stanford Cardinal",
+          "last5": null,
+          "streak": null,
+          "record": null,
+          "h2h_vs_opponent": null
+        },
+        "weather": null,
+        "probable_pitchers": {
+          "home": null,
+          "away": null
+        }
+      },
+      "generated_at": "2026-08-27T21:05:29.766402+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "Hawaii Rainbow Warriors": 170,
+          "Stanford Cardinal": -210
+        },
+        "spread": {
+          "Hawaii Rainbow Warriors": 4.5,
+          "Stanford Cardinal": -4.5
+        },
+        "total": 50.3,
+        "num_bookmakers": 9
+      }
+    },
     "actual": null
   },
   "americanfootball_ncaaf_2026-08-30_memphis-tigers_at_unlv-rebels": {
@@ -6984,7 +7299,7 @@
     "espn_sport": "football",
     "espn_league": "college-football",
     "outdoor": true,
-    "status": "scheduled",
+    "status": "predicted",
     "odds": {
       "moneyline": {
         "Memphis Tigers": 182,
@@ -6997,7 +7312,52 @@
       "total": 57.2,
       "num_bookmakers": 9
     },
-    "prediction": null,
+    "prediction": {
+      "predicted_winner": "UNLV Rebels",
+      "predicted_against_spread": "UNLV Rebels",
+      "confidence": 55,
+      "key_factors": [
+        "No trend data provided",
+        "Market favors UNLV by 5.7 at home",
+        "High total of 57.2 suggests high-scoring affair"
+      ],
+      "reasoning": "With no trend data available, I lean cautiously with the market favoring UNLV at home. The high total suggests both offenses could be effective, but insufficient data limits confidence in either direction.",
+      "context_used": {
+        "away_trends": {
+          "team": "Memphis Tigers",
+          "last5": null,
+          "streak": null,
+          "record": null,
+          "h2h_vs_opponent": null
+        },
+        "home_trends": {
+          "team": "UNLV Rebels",
+          "last5": null,
+          "streak": null,
+          "record": null,
+          "h2h_vs_opponent": null
+        },
+        "weather": null,
+        "probable_pitchers": {
+          "home": null,
+          "away": null
+        }
+      },
+      "generated_at": "2026-08-27T21:05:29.766402+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "Memphis Tigers": 182,
+          "UNLV Rebels": -227
+        },
+        "spread": {
+          "Memphis Tigers": 5.7,
+          "UNLV Rebels": -5.7
+        },
+        "total": 57.2,
+        "num_bookmakers": 9
+      }
+    },
     "actual": null
   },
   "americanfootball_ncaaf_2026-09-03_umass-minutemen_at_rutgers-scarlet-knights": {
@@ -12305,7 +12665,7 @@
     "espn_sport": "soccer",
     "espn_league": "ger.1",
     "outdoor": true,
-    "status": "scheduled",
+    "status": "predicted",
     "odds": {
       "moneyline": {
         "1. FC K\u00f6ln": 181,
@@ -12319,7 +12679,53 @@
       "total": 3.2,
       "num_bookmakers": 8
     },
-    "prediction": null,
+    "prediction": {
+      "predicted_winner": "1. FC K\u00f6ln",
+      "predicted_against_spread": "1. FC K\u00f6ln",
+      "confidence": 52,
+      "key_factors": [
+        "No trend data provided",
+        "Close moneyline odds (181 vs 130)",
+        "Draw priced competitively at 265"
+      ],
+      "reasoning": "The moneyline odds suggest Hoffenheim is actually slightly favored by the market despite K\u00f6ln being at home, indicating a fairly even matchup. Without trend data, this is close to a coin flip, but I'll slightly favor the home side given typical home advantage in the Bundesliga.",
+      "context_used": {
+        "away_trends": {
+          "team": "TSG Hoffenheim",
+          "last5": null,
+          "streak": null,
+          "record": null,
+          "h2h_vs_opponent": null
+        },
+        "home_trends": {
+          "team": "1. FC K\u00f6ln",
+          "last5": null,
+          "streak": null,
+          "record": null,
+          "h2h_vs_opponent": null
+        },
+        "weather": null,
+        "probable_pitchers": {
+          "home": null,
+          "away": null
+        }
+      },
+      "generated_at": "2026-08-27T21:05:29.766402+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "1. FC K\u00f6ln": 181,
+          "TSG Hoffenheim": 130,
+          "Draw": 265
+        },
+        "spread": {
+          "1. FC K\u00f6ln": 0.1,
+          "TSG Hoffenheim": -0.1
+        },
+        "total": 3.2,
+        "num_bookmakers": 8
+      }
+    },
     "actual": null
   },
   "soccer_germany_bundesliga_2026-08-29_fc-schalke-04_at_augsburg": {
@@ -12331,7 +12737,7 @@
     "espn_sport": "soccer",
     "espn_league": "ger.1",
     "outdoor": true,
-    "status": "scheduled",
+    "status": "predicted",
     "odds": {
       "moneyline": {
         "Augsburg": 102,
@@ -12342,7 +12748,50 @@
       "total": 3.5,
       "num_bookmakers": 1
     },
-    "prediction": null,
+    "prediction": {
+      "predicted_winner": "Augsburg",
+      "predicted_against_spread": "Augsburg",
+      "confidence": 62,
+      "key_factors": [
+        "Strong home moneyline favorite (102)",
+        "No trend data provided",
+        "Limited bookmaker consensus (1 book)"
+      ],
+      "reasoning": "Augsburg is a solid favorite at home per the market, and with no data to contradict this, I'll lean with the home side. However, confidence is tempered since only one bookmaker's line is available, reducing line reliability.",
+      "context_used": {
+        "away_trends": {
+          "team": "FC Schalke 04",
+          "last5": null,
+          "streak": null,
+          "record": null,
+          "h2h_vs_opponent": null
+        },
+        "home_trends": {
+          "team": "Augsburg",
+          "last5": null,
+          "streak": null,
+          "record": null,
+          "h2h_vs_opponent": null
+        },
+        "weather": null,
+        "probable_pitchers": {
+          "home": null,
+          "away": null
+        }
+      },
+      "generated_at": "2026-08-27T21:05:29.766402+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "Augsburg": 102,
+          "FC Schalke 04": 225,
+          "Draw": 265
+        },
+        "spread": {},
+        "total": 3.5,
+        "num_bookmakers": 1
+      }
+    },
     "actual": null
   },
   "soccer_germany_bundesliga_2026-08-29_bayer-leverkusen_at_elversberg": {
@@ -12354,7 +12803,7 @@
     "espn_sport": "soccer",
     "espn_league": "ger.1",
     "outdoor": true,
-    "status": "scheduled",
+    "status": "predicted",
     "odds": {
       "moneyline": {
         "Bayer Leverkusen": -187,
@@ -12368,7 +12817,53 @@
       "total": 3.2,
       "num_bookmakers": 8
     },
-    "prediction": null,
+    "prediction": {
+      "predicted_winner": "Bayer Leverkusen",
+      "predicted_against_spread": "Bayer Leverkusen",
+      "confidence": 68,
+      "key_factors": [
+        "Leverkusen strongly favored on road (-187)",
+        "Elversberg is a newly promoted/lower-tier side historically",
+        "No trend data but large odds gap"
+      ],
+      "reasoning": "Bayer Leverkusen is a significant favorite on the road, suggesting a substantial class gap between the two sides. Absent contrary trend data, the sizable odds gap (-187 vs +414) strongly supports Leverkusen both to win and cover the modest -1.0 spread.",
+      "context_used": {
+        "away_trends": {
+          "team": "Bayer Leverkusen",
+          "last5": null,
+          "streak": null,
+          "record": null,
+          "h2h_vs_opponent": null
+        },
+        "home_trends": {
+          "team": "Elversberg",
+          "last5": null,
+          "streak": null,
+          "record": null,
+          "h2h_vs_opponent": null
+        },
+        "weather": null,
+        "probable_pitchers": {
+          "home": null,
+          "away": null
+        }
+      },
+      "generated_at": "2026-08-27T21:05:29.766402+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "Bayer Leverkusen": -187,
+          "Elversberg": 414,
+          "Draw": 354
+        },
+        "spread": {
+          "Bayer Leverkusen": -1.0,
+          "Elversberg": 1.0
+        },
+        "total": 3.2,
+        "num_bookmakers": 8
+      }
+    },
     "actual": null
   },
   "soccer_germany_bundesliga_2026-08-29_borussia-monchengladbach_at_rb-leipzig": {
@@ -12380,7 +12875,7 @@
     "espn_sport": "soccer",
     "espn_league": "ger.1",
     "outdoor": true,
-    "status": "scheduled",
+    "status": "predicted",
     "odds": {
       "moneyline": {
         "Borussia Monchengladbach": 431,
@@ -12394,7 +12889,53 @@
       "total": 3.2,
       "num_bookmakers": 8
     },
-    "prediction": null,
+    "prediction": {
+      "predicted_winner": "RB Leipzig",
+      "predicted_against_spread": "RB Leipzig",
+      "confidence": 70,
+      "key_factors": [
+        "Leipzig heavily favored at home (-191)",
+        "Gladbach priced as significant underdog (431)",
+        "Large implied class gap"
+      ],
+      "reasoning": "RB Leipzig is a strong favorite at home with a wide gap in moneyline odds versus Gladbach, indicating a clear talent and form advantage. Without contrary trend data, the market's confidence in Leipzig appears well justified given typical squad strength disparities in recent Bundesliga seasons.",
+      "context_used": {
+        "away_trends": {
+          "team": "Borussia Monchengladbach",
+          "last5": null,
+          "streak": null,
+          "record": null,
+          "h2h_vs_opponent": null
+        },
+        "home_trends": {
+          "team": "RB Leipzig",
+          "last5": null,
+          "streak": null,
+          "record": null,
+          "h2h_vs_opponent": null
+        },
+        "weather": null,
+        "probable_pitchers": {
+          "home": null,
+          "away": null
+        }
+      },
+      "generated_at": "2026-08-27T21:05:29.766402+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "Borussia Monchengladbach": 431,
+          "RB Leipzig": -191,
+          "Draw": 352
+        },
+        "spread": {
+          "Borussia Monchengladbach": 1.0,
+          "RB Leipzig": -1.0
+        },
+        "total": 3.2,
+        "num_bookmakers": 8
+      }
+    },
     "actual": null
   },
   "soccer_germany_bundesliga_2026-08-29_eintracht-frankfurt_at_union-berlin": {
@@ -12406,7 +12947,7 @@
     "espn_sport": "soccer",
     "espn_league": "ger.1",
     "outdoor": true,
-    "status": "scheduled",
+    "status": "predicted",
     "odds": {
       "moneyline": {
         "Eintracht Frankfurt": 183,
@@ -12420,7 +12961,53 @@
       "total": 2.5,
       "num_bookmakers": 8
     },
-    "prediction": null,
+    "prediction": {
+      "predicted_winner": "Union Berlin",
+      "predicted_against_spread": "Union Berlin",
+      "confidence": 53,
+      "key_factors": [
+        "Union Berlin favored at home despite modest odds",
+        "Close moneyline gap (183 vs 136)",
+        "No trend data available"
+      ],
+      "reasoning": "The market gives Union Berlin a slight edge at home over Frankfurt, though the odds are fairly close, indicating a competitive matchup. Lacking trend data, I'll side with the modest home favorite but with low confidence given how tight the line is.",
+      "context_used": {
+        "away_trends": {
+          "team": "Eintracht Frankfurt",
+          "last5": null,
+          "streak": null,
+          "record": null,
+          "h2h_vs_opponent": null
+        },
+        "home_trends": {
+          "team": "Union Berlin",
+          "last5": null,
+          "streak": null,
+          "record": null,
+          "h2h_vs_opponent": null
+        },
+        "weather": null,
+        "probable_pitchers": {
+          "home": null,
+          "away": null
+        }
+      },
+      "generated_at": "2026-08-27T21:05:29.766402+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "Eintracht Frankfurt": 183,
+          "Union Berlin": 136,
+          "Draw": 249
+        },
+        "spread": {
+          "Eintracht Frankfurt": 0.1,
+          "Union Berlin": -0.1
+        },
+        "total": 2.5,
+        "num_bookmakers": 8
+      }
+    },
     "actual": null
   },
   "soccer_germany_bundesliga_2026-08-29_sc-paderborn_at_fsv-mainz-05": {
@@ -12432,7 +13019,7 @@
     "espn_sport": "soccer",
     "espn_league": "ger.1",
     "outdoor": true,
-    "status": "scheduled",
+    "status": "predicted",
     "odds": {
       "moneyline": {
         "FSV Mainz 05": -148,
@@ -12446,7 +13033,53 @@
       "total": 2.8,
       "num_bookmakers": 8
     },
-    "prediction": null,
+    "prediction": {
+      "predicted_winner": "FSV Mainz 05",
+      "predicted_against_spread": "FSV Mainz 05",
+      "confidence": 65,
+      "key_factors": [
+        "Mainz solid home favorite (-148)",
+        "Paderborn a promoted/lower-tier side historically",
+        "Meaningful odds gap favors home side"
+      ],
+      "reasoning": "Mainz is favored comfortably at home against Paderborn, which is consistent with typical class differences between an established Bundesliga side and a newly promoted club. Absent contrary data, I'll back the home favorite here with moderate-high confidence.",
+      "context_used": {
+        "away_trends": {
+          "team": "SC Paderborn",
+          "last5": null,
+          "streak": null,
+          "record": null,
+          "h2h_vs_opponent": null
+        },
+        "home_trends": {
+          "team": "FSV Mainz 05",
+          "last5": null,
+          "streak": null,
+          "record": null,
+          "h2h_vs_opponent": null
+        },
+        "weather": null,
+        "probable_pitchers": {
+          "home": null,
+          "away": null
+        }
+      },
+      "generated_at": "2026-08-27T21:05:29.766402+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "FSV Mainz 05": -148,
+          "SC Paderborn": 355,
+          "Draw": 296
+        },
+        "spread": {
+          "FSV Mainz 05": -0.6,
+          "SC Paderborn": 0.6
+        },
+        "total": 2.8,
+        "num_bookmakers": 8
+      }
+    },
     "actual": null
   },
   "soccer_germany_bundesliga_2026-08-29_werder-bremen_at_sc-freiburg": {
@@ -12458,7 +13091,7 @@
     "espn_sport": "soccer",
     "espn_league": "ger.1",
     "outdoor": true,
-    "status": "scheduled",
+    "status": "predicted",
     "odds": {
       "moneyline": {
         "SC Freiburg": -106,
@@ -12469,7 +13102,50 @@
       "total": 2.5,
       "num_bookmakers": 1
     },
-    "prediction": null,
+    "prediction": {
+      "predicted_winner": "SC Freiburg",
+      "predicted_against_spread": "SC Freiburg",
+      "confidence": 54,
+      "key_factors": [
+        "Freiburg slight home favorite (-106)",
+        "Limited bookmaker data (1 book)",
+        "No trend data provided"
+      ],
+      "reasoning": "Freiburg is only a marginal favorite at home over Bremen, indicating a close matchup. With just one bookmaker's line and no trend data, confidence is low, but I'll lean slightly toward the home side.",
+      "context_used": {
+        "away_trends": {
+          "team": "Werder Bremen",
+          "last5": null,
+          "streak": null,
+          "record": null,
+          "h2h_vs_opponent": null
+        },
+        "home_trends": {
+          "team": "SC Freiburg",
+          "last5": null,
+          "streak": null,
+          "record": null,
+          "h2h_vs_opponent": null
+        },
+        "weather": null,
+        "probable_pitchers": {
+          "home": null,
+          "away": null
+        }
+      },
+      "generated_at": "2026-08-27T21:05:29.766402+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "SC Freiburg": -106,
+          "Werder Bremen": 265,
+          "Draw": 250
+        },
+        "spread": {},
+        "total": 2.5,
+        "num_bookmakers": 1
+      }
+    },
     "actual": null
   },
   "soccer_germany_bundesliga_2026-08-29_hamburger-sv_at_borussia-dortmund": {
@@ -12481,7 +13157,7 @@
     "espn_sport": "soccer",
     "espn_league": "ger.1",
     "outdoor": true,
-    "status": "scheduled",
+    "status": "predicted",
     "odds": {
       "moneyline": {
         "Borussia Dortmund": -307,
@@ -12495,7 +13171,53 @@
       "total": 3.0,
       "num_bookmakers": 8
     },
-    "prediction": null,
+    "prediction": {
+      "predicted_winner": "Borussia Dortmund",
+      "predicted_against_spread": "Borussia Dortmund",
+      "confidence": 72,
+      "key_factors": [
+        "Dortmund heavily favored at home (-307)",
+        "Hamburg a newly promoted underdog (713)",
+        "Large class gap implied by odds"
+      ],
+      "reasoning": "Borussia Dortmund is a substantial favorite at home against newly promoted Hamburger SV, with the odds reflecting a clear quality gap. Without contradicting trend data, this level of market conviction across 8 bookmakers supports a confident pick on Dortmund both to win and cover -1.5.",
+      "context_used": {
+        "away_trends": {
+          "team": "Hamburger SV",
+          "last5": null,
+          "streak": null,
+          "record": null,
+          "h2h_vs_opponent": null
+        },
+        "home_trends": {
+          "team": "Borussia Dortmund",
+          "last5": null,
+          "streak": null,
+          "record": null,
+          "h2h_vs_opponent": null
+        },
+        "weather": null,
+        "probable_pitchers": {
+          "home": null,
+          "away": null
+        }
+      },
+      "generated_at": "2026-08-27T21:05:29.766402+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "Borussia Dortmund": -307,
+          "Hamburger SV": 713,
+          "Draw": 438
+        },
+        "spread": {
+          "Borussia Dortmund": -1.5,
+          "Hamburger SV": 1.5
+        },
+        "total": 3.0,
+        "num_bookmakers": 8
+      }
+    },
     "actual": null
   },
   "soccer_germany_bundesliga_2026-08-30_werder-bremen_at_sc-freiburg": {
@@ -12507,7 +13229,7 @@
     "espn_sport": "soccer",
     "espn_league": "ger.1",
     "outdoor": true,
-    "status": "scheduled",
+    "status": "predicted",
     "odds": {
       "moneyline": {
         "SC Freiburg": 102,
@@ -12521,7 +13243,53 @@
       "total": 2.5,
       "num_bookmakers": 8
     },
-    "prediction": null,
+    "prediction": {
+      "predicted_winner": "SC Freiburg",
+      "predicted_against_spread": "SC Freiburg",
+      "confidence": 58,
+      "key_factors": [
+        "Freiburg favored at home (102 implied ~50%)",
+        "Different odds than earlier Aug 29 listing for same matchup",
+        "No trend data provided"
+      ],
+      "reasoning": "This appears to be a re-listing of the Bremen-Freiburg fixture with slightly different odds, still favoring Freiburg at home. I'll maintain a modest lean toward the home side given the consistent market signal across both listings.",
+      "context_used": {
+        "away_trends": {
+          "team": "Werder Bremen",
+          "last5": null,
+          "streak": null,
+          "record": null,
+          "h2h_vs_opponent": null
+        },
+        "home_trends": {
+          "team": "SC Freiburg",
+          "last5": null,
+          "streak": null,
+          "record": null,
+          "h2h_vs_opponent": null
+        },
+        "weather": null,
+        "probable_pitchers": {
+          "home": null,
+          "away": null
+        }
+      },
+      "generated_at": "2026-08-27T21:05:29.766402+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "SC Freiburg": 102,
+          "Werder Bremen": 248,
+          "Draw": 258
+        },
+        "spread": {
+          "SC Freiburg": -0.5,
+          "Werder Bremen": 0.5
+        },
+        "total": 2.5,
+        "num_bookmakers": 8
+      }
+    },
     "actual": null
   },
   "soccer_germany_bundesliga_2026-08-30_fc-schalke-04_at_augsburg": {
@@ -12533,7 +13301,7 @@
     "espn_sport": "soccer",
     "espn_league": "ger.1",
     "outdoor": true,
-    "status": "scheduled",
+    "status": "predicted",
     "odds": {
       "moneyline": {
         "Augsburg": 110,
@@ -12547,7 +13315,53 @@
       "total": 2.8,
       "num_bookmakers": 8
     },
-    "prediction": null,
+    "prediction": {
+      "predicted_winner": "Augsburg",
+      "predicted_against_spread": "Augsburg",
+      "confidence": 60,
+      "key_factors": [
+        "Augsburg favored at home in updated line",
+        "Consistent with earlier Aug 29 Schalke-Augsburg listing",
+        "No trend data provided"
+      ],
+      "reasoning": "This is a similar Schalke-Augsburg matchup listing with Augsburg favored at home, consistent with the earlier version of this fixture. I'll maintain confidence in the home favorite given the repeated market signal, though absolute trend data remains absent.",
+      "context_used": {
+        "away_trends": {
+          "team": "FC Schalke 04",
+          "last5": null,
+          "streak": null,
+          "record": null,
+          "h2h_vs_opponent": null
+        },
+        "home_trends": {
+          "team": "Augsburg",
+          "last5": null,
+          "streak": null,
+          "record": null,
+          "h2h_vs_opponent": null
+        },
+        "weather": null,
+        "probable_pitchers": {
+          "home": null,
+          "away": null
+        }
+      },
+      "generated_at": "2026-08-27T21:05:29.766402+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "Augsburg": 110,
+          "FC Schalke 04": 218,
+          "Draw": 269
+        },
+        "spread": {
+          "Augsburg": -0.4,
+          "FC Schalke 04": 0.4
+        },
+        "total": 2.8,
+        "num_bookmakers": 8
+      }
+    },
     "actual": null
   },
   "soccer_italy_serie_a_2026-08-22_como_at_udinese": {

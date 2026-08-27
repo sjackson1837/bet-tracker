@@ -1,33 +1,665 @@
 {
   "instructions": "For each game below, act as a sharp, disciplined sports betting analyst. Do NOT simply pick whichever side the betting market favors -- weigh the actual trend data provided (recent form, streaks, head-to-head history, starting pitcher matchups where given, and weather where relevant) and form an independent judgment. It's fine, and expected, to disagree with the market when the trends support it. If trend data is sparse for a game, say so and let that lower your confidence rather than defaulting to the favorite. For each game_id, produce: predicted_winner (exact team name), predicted_against_spread (exact team name), confidence (integer 1-100), key_factors (2-4 short strings), and reasoning (2-4 sentences referencing the specific trend data given).",
   "games": {
-    "soccer_germany_bundesliga_2026-08-28_vfb-stuttgart_at_bayern-munich": {
-      "league": "Bundesliga",
-      "away_team": "VfB Stuttgart",
-      "home_team": "Bayern Munich",
-      "commence_time": "2026-08-28T18:30:00Z",
+    "americanfootball_ncaaf_2026-08-29_north-carolina-tar-heels_at_tcu-horned-frogs": {
+      "league": "NCAAF",
+      "away_team": "North Carolina Tar Heels",
+      "home_team": "TCU Horned Frogs",
+      "commence_time": "2026-08-29T16:00:00Z",
       "market_line": {
         "moneyline": {
-          "Bayern Munich": -352,
-          "VfB Stuttgart": 672,
-          "Draw": 531
+          "North Carolina Tar Heels": 242,
+          "TCU Horned Frogs": -307
         },
         "spread": {
-          "Bayern Munich": -1.6,
-          "VfB Stuttgart": 1.6
+          "North Carolina Tar Heels": 7.4,
+          "TCU Horned Frogs": -7.4
         },
-        "total": 3.8,
-        "num_bookmakers": 8
+        "total": 48.6,
+        "num_bookmakers": 9
       },
       "away_team_trends": {
-        "team": "VfB Stuttgart",
+        "team": "North Carolina Tar Heels",
         "last5": null,
         "streak": null,
         "record": null,
         "h2h_vs_opponent": null
       },
       "home_team_trends": {
-        "team": "Bayern Munich",
+        "team": "TCU Horned Frogs",
+        "last5": null,
+        "streak": null,
+        "record": null,
+        "h2h_vs_opponent": null
+      },
+      "weather_at_kickoff": null,
+      "probable_pitchers": {
+        "home": null,
+        "away": null
+      }
+    },
+    "americanfootball_ncaaf_2026-08-29_san-jose-state-spartans_at_usc-trojans": {
+      "league": "NCAAF",
+      "away_team": "San Jose State Spartans",
+      "home_team": "USC Trojans",
+      "commence_time": "2026-08-29T19:00:00Z",
+      "market_line": {
+        "moneyline": {
+          "San Jose State Spartans": 1525,
+          "USC Trojans": -100000
+        },
+        "spread": {
+          "San Jose State Spartans": 38.8,
+          "USC Trojans": -38.8
+        },
+        "total": 59.9,
+        "num_bookmakers": 9
+      },
+      "away_team_trends": {
+        "team": "San Jose State Spartans",
+        "last5": null,
+        "streak": null,
+        "record": null,
+        "h2h_vs_opponent": null
+      },
+      "home_team_trends": {
+        "team": "USC Trojans",
+        "last5": null,
+        "streak": null,
+        "record": null,
+        "h2h_vs_opponent": null
+      },
+      "weather_at_kickoff": null,
+      "probable_pitchers": {
+        "home": null,
+        "away": null
+      }
+    },
+    "americanfootball_ncaaf_2026-08-29_nc-state-wolfpack_at_virginia-cavaliers": {
+      "league": "NCAAF",
+      "away_team": "NC State Wolfpack",
+      "home_team": "Virginia Cavaliers",
+      "commence_time": "2026-08-29T19:30:00Z",
+      "market_line": {
+        "moneyline": {
+          "NC State Wolfpack": 173,
+          "Virginia Cavaliers": -216
+        },
+        "spread": {
+          "NC State Wolfpack": 5.5,
+          "Virginia Cavaliers": -5.5
+        },
+        "total": 54.3,
+        "num_bookmakers": 9
+      },
+      "away_team_trends": {
+        "team": "NC State Wolfpack",
+        "last5": null,
+        "streak": null,
+        "record": null,
+        "h2h_vs_opponent": null
+      },
+      "home_team_trends": {
+        "team": "Virginia Cavaliers",
+        "last5": null,
+        "streak": null,
+        "record": null,
+        "h2h_vs_opponent": null
+      },
+      "weather_at_kickoff": null,
+      "probable_pitchers": {
+        "home": null,
+        "away": null
+      }
+    },
+    "americanfootball_ncaaf_2026-08-29_jacksonville-state-gamecocks_at_north-dakota-state-bison": {
+      "league": "NCAAF",
+      "away_team": "Jacksonville State Gamecocks",
+      "home_team": "North Dakota State Bison",
+      "commence_time": "2026-08-29T21:30:00Z",
+      "market_line": {
+        "moneyline": {
+          "Jacksonville State Gamecocks": 232,
+          "North Dakota State Bison": -298
+        },
+        "spread": {
+          "Jacksonville State Gamecocks": 7.3,
+          "North Dakota State Bison": -7.3
+        },
+        "total": 48.3,
+        "num_bookmakers": 9
+      },
+      "away_team_trends": {
+        "team": "Jacksonville State Gamecocks",
+        "last5": null,
+        "streak": null,
+        "record": null,
+        "h2h_vs_opponent": null
+      },
+      "home_team_trends": {
+        "team": "North Dakota State Bison",
+        "last5": null,
+        "streak": null,
+        "record": null,
+        "h2h_vs_opponent": null
+      },
+      "weather_at_kickoff": null,
+      "probable_pitchers": {
+        "home": null,
+        "away": null
+      }
+    },
+    "americanfootball_ncaaf_2026-08-29_sacramento-state-hornets_at_eastern-michigan-eagles": {
+      "league": "NCAAF",
+      "away_team": "Sacramento State Hornets",
+      "home_team": "Eastern Michigan Eagles",
+      "commence_time": "2026-08-29T22:30:00Z",
+      "market_line": {
+        "moneyline": {
+          "Eastern Michigan Eagles": -327,
+          "Sacramento State Hornets": 254
+        },
+        "spread": {
+          "Eastern Michigan Eagles": -8.6,
+          "Sacramento State Hornets": 8.6
+        },
+        "total": 53.2,
+        "num_bookmakers": 9
+      },
+      "away_team_trends": {
+        "team": "Sacramento State Hornets",
+        "last5": null,
+        "streak": null,
+        "record": null,
+        "h2h_vs_opponent": null
+      },
+      "home_team_trends": {
+        "team": "Eastern Michigan Eagles",
+        "last5": null,
+        "streak": null,
+        "record": null,
+        "h2h_vs_opponent": null
+      },
+      "weather_at_kickoff": null,
+      "probable_pitchers": {
+        "home": null,
+        "away": null
+      }
+    },
+    "americanfootball_ncaaf_2026-08-29_new-mexico-state-aggies_at_florida-state-seminoles": {
+      "league": "NCAAF",
+      "away_team": "New Mexico State Aggies",
+      "home_team": "Florida State Seminoles",
+      "commence_time": "2026-08-29T23:00:00Z",
+      "market_line": {
+        "moneyline": {
+          "Florida State Seminoles": -10625,
+          "New Mexico State Aggies": 2150
+        },
+        "spread": {
+          "Florida State Seminoles": -31.3,
+          "New Mexico State Aggies": 31.3
+        },
+        "total": 52.9,
+        "num_bookmakers": 9
+      },
+      "away_team_trends": {
+        "team": "New Mexico State Aggies",
+        "last5": null,
+        "streak": null,
+        "record": null,
+        "h2h_vs_opponent": null
+      },
+      "home_team_trends": {
+        "team": "Florida State Seminoles",
+        "last5": null,
+        "streak": null,
+        "record": null,
+        "h2h_vs_opponent": null
+      },
+      "weather_at_kickoff": null,
+      "probable_pitchers": {
+        "home": null,
+        "away": null
+      }
+    },
+    "americanfootball_ncaaf_2026-08-29_hawaii-rainbow-warriors_at_stanford-cardinal": {
+      "league": "NCAAF",
+      "away_team": "Hawaii Rainbow Warriors",
+      "home_team": "Stanford Cardinal",
+      "commence_time": "2026-08-29T23:00:00Z",
+      "market_line": {
+        "moneyline": {
+          "Hawaii Rainbow Warriors": 170,
+          "Stanford Cardinal": -210
+        },
+        "spread": {
+          "Hawaii Rainbow Warriors": 4.5,
+          "Stanford Cardinal": -4.5
+        },
+        "total": 50.3,
+        "num_bookmakers": 9
+      },
+      "away_team_trends": {
+        "team": "Hawaii Rainbow Warriors",
+        "last5": null,
+        "streak": null,
+        "record": null,
+        "h2h_vs_opponent": null
+      },
+      "home_team_trends": {
+        "team": "Stanford Cardinal",
+        "last5": null,
+        "streak": null,
+        "record": null,
+        "h2h_vs_opponent": null
+      },
+      "weather_at_kickoff": null,
+      "probable_pitchers": {
+        "home": null,
+        "away": null
+      }
+    },
+    "americanfootball_ncaaf_2026-08-30_memphis-tigers_at_unlv-rebels": {
+      "league": "NCAAF",
+      "away_team": "Memphis Tigers",
+      "home_team": "UNLV Rebels",
+      "commence_time": "2026-08-30T02:00:00Z",
+      "market_line": {
+        "moneyline": {
+          "Memphis Tigers": 182,
+          "UNLV Rebels": -227
+        },
+        "spread": {
+          "Memphis Tigers": 5.7,
+          "UNLV Rebels": -5.7
+        },
+        "total": 57.2,
+        "num_bookmakers": 9
+      },
+      "away_team_trends": {
+        "team": "Memphis Tigers",
+        "last5": null,
+        "streak": null,
+        "record": null,
+        "h2h_vs_opponent": null
+      },
+      "home_team_trends": {
+        "team": "UNLV Rebels",
+        "last5": null,
+        "streak": null,
+        "record": null,
+        "h2h_vs_opponent": null
+      },
+      "weather_at_kickoff": null,
+      "probable_pitchers": {
+        "home": null,
+        "away": null
+      }
+    },
+    "soccer_germany_bundesliga_2026-08-29_tsg-hoffenheim_at_1.-fc-k\u00f6ln": {
+      "league": "Bundesliga",
+      "away_team": "TSG Hoffenheim",
+      "home_team": "1. FC K\u00f6ln",
+      "commence_time": "2026-08-29T13:30:00Z",
+      "market_line": {
+        "moneyline": {
+          "1. FC K\u00f6ln": 181,
+          "TSG Hoffenheim": 130,
+          "Draw": 265
+        },
+        "spread": {
+          "1. FC K\u00f6ln": 0.1,
+          "TSG Hoffenheim": -0.1
+        },
+        "total": 3.2,
+        "num_bookmakers": 8
+      },
+      "away_team_trends": {
+        "team": "TSG Hoffenheim",
+        "last5": null,
+        "streak": null,
+        "record": null,
+        "h2h_vs_opponent": null
+      },
+      "home_team_trends": {
+        "team": "1. FC K\u00f6ln",
+        "last5": null,
+        "streak": null,
+        "record": null,
+        "h2h_vs_opponent": null
+      },
+      "weather_at_kickoff": null,
+      "probable_pitchers": {
+        "home": null,
+        "away": null
+      }
+    },
+    "soccer_germany_bundesliga_2026-08-29_fc-schalke-04_at_augsburg": {
+      "league": "Bundesliga",
+      "away_team": "FC Schalke 04",
+      "home_team": "Augsburg",
+      "commence_time": "2026-08-29T13:30:00Z",
+      "market_line": {
+        "moneyline": {
+          "Augsburg": 102,
+          "FC Schalke 04": 225,
+          "Draw": 265
+        },
+        "spread": {},
+        "total": 3.5,
+        "num_bookmakers": 1
+      },
+      "away_team_trends": {
+        "team": "FC Schalke 04",
+        "last5": null,
+        "streak": null,
+        "record": null,
+        "h2h_vs_opponent": null
+      },
+      "home_team_trends": {
+        "team": "Augsburg",
+        "last5": null,
+        "streak": null,
+        "record": null,
+        "h2h_vs_opponent": null
+      },
+      "weather_at_kickoff": null,
+      "probable_pitchers": {
+        "home": null,
+        "away": null
+      }
+    },
+    "soccer_germany_bundesliga_2026-08-29_bayer-leverkusen_at_elversberg": {
+      "league": "Bundesliga",
+      "away_team": "Bayer Leverkusen",
+      "home_team": "Elversberg",
+      "commence_time": "2026-08-29T13:30:00Z",
+      "market_line": {
+        "moneyline": {
+          "Bayer Leverkusen": -187,
+          "Elversberg": 414,
+          "Draw": 354
+        },
+        "spread": {
+          "Bayer Leverkusen": -1.0,
+          "Elversberg": 1.0
+        },
+        "total": 3.2,
+        "num_bookmakers": 8
+      },
+      "away_team_trends": {
+        "team": "Bayer Leverkusen",
+        "last5": null,
+        "streak": null,
+        "record": null,
+        "h2h_vs_opponent": null
+      },
+      "home_team_trends": {
+        "team": "Elversberg",
+        "last5": null,
+        "streak": null,
+        "record": null,
+        "h2h_vs_opponent": null
+      },
+      "weather_at_kickoff": null,
+      "probable_pitchers": {
+        "home": null,
+        "away": null
+      }
+    },
+    "soccer_germany_bundesliga_2026-08-29_borussia-monchengladbach_at_rb-leipzig": {
+      "league": "Bundesliga",
+      "away_team": "Borussia Monchengladbach",
+      "home_team": "RB Leipzig",
+      "commence_time": "2026-08-29T13:30:00Z",
+      "market_line": {
+        "moneyline": {
+          "Borussia Monchengladbach": 431,
+          "RB Leipzig": -191,
+          "Draw": 352
+        },
+        "spread": {
+          "Borussia Monchengladbach": 1.0,
+          "RB Leipzig": -1.0
+        },
+        "total": 3.2,
+        "num_bookmakers": 8
+      },
+      "away_team_trends": {
+        "team": "Borussia Monchengladbach",
+        "last5": null,
+        "streak": null,
+        "record": null,
+        "h2h_vs_opponent": null
+      },
+      "home_team_trends": {
+        "team": "RB Leipzig",
+        "last5": null,
+        "streak": null,
+        "record": null,
+        "h2h_vs_opponent": null
+      },
+      "weather_at_kickoff": null,
+      "probable_pitchers": {
+        "home": null,
+        "away": null
+      }
+    },
+    "soccer_germany_bundesliga_2026-08-29_eintracht-frankfurt_at_union-berlin": {
+      "league": "Bundesliga",
+      "away_team": "Eintracht Frankfurt",
+      "home_team": "Union Berlin",
+      "commence_time": "2026-08-29T13:30:00Z",
+      "market_line": {
+        "moneyline": {
+          "Eintracht Frankfurt": 183,
+          "Union Berlin": 136,
+          "Draw": 249
+        },
+        "spread": {
+          "Eintracht Frankfurt": 0.1,
+          "Union Berlin": -0.1
+        },
+        "total": 2.5,
+        "num_bookmakers": 8
+      },
+      "away_team_trends": {
+        "team": "Eintracht Frankfurt",
+        "last5": null,
+        "streak": null,
+        "record": null,
+        "h2h_vs_opponent": null
+      },
+      "home_team_trends": {
+        "team": "Union Berlin",
+        "last5": null,
+        "streak": null,
+        "record": null,
+        "h2h_vs_opponent": null
+      },
+      "weather_at_kickoff": null,
+      "probable_pitchers": {
+        "home": null,
+        "away": null
+      }
+    },
+    "soccer_germany_bundesliga_2026-08-29_sc-paderborn_at_fsv-mainz-05": {
+      "league": "Bundesliga",
+      "away_team": "SC Paderborn",
+      "home_team": "FSV Mainz 05",
+      "commence_time": "2026-08-29T13:30:00Z",
+      "market_line": {
+        "moneyline": {
+          "FSV Mainz 05": -148,
+          "SC Paderborn": 355,
+          "Draw": 296
+        },
+        "spread": {
+          "FSV Mainz 05": -0.6,
+          "SC Paderborn": 0.6
+        },
+        "total": 2.8,
+        "num_bookmakers": 8
+      },
+      "away_team_trends": {
+        "team": "SC Paderborn",
+        "last5": null,
+        "streak": null,
+        "record": null,
+        "h2h_vs_opponent": null
+      },
+      "home_team_trends": {
+        "team": "FSV Mainz 05",
+        "last5": null,
+        "streak": null,
+        "record": null,
+        "h2h_vs_opponent": null
+      },
+      "weather_at_kickoff": null,
+      "probable_pitchers": {
+        "home": null,
+        "away": null
+      }
+    },
+    "soccer_germany_bundesliga_2026-08-29_werder-bremen_at_sc-freiburg": {
+      "league": "Bundesliga",
+      "away_team": "Werder Bremen",
+      "home_team": "SC Freiburg",
+      "commence_time": "2026-08-29T13:30:00Z",
+      "market_line": {
+        "moneyline": {
+          "SC Freiburg": -106,
+          "Werder Bremen": 265,
+          "Draw": 250
+        },
+        "spread": {},
+        "total": 2.5,
+        "num_bookmakers": 1
+      },
+      "away_team_trends": {
+        "team": "Werder Bremen",
+        "last5": null,
+        "streak": null,
+        "record": null,
+        "h2h_vs_opponent": null
+      },
+      "home_team_trends": {
+        "team": "SC Freiburg",
+        "last5": null,
+        "streak": null,
+        "record": null,
+        "h2h_vs_opponent": null
+      },
+      "weather_at_kickoff": null,
+      "probable_pitchers": {
+        "home": null,
+        "away": null
+      }
+    },
+    "soccer_germany_bundesliga_2026-08-29_hamburger-sv_at_borussia-dortmund": {
+      "league": "Bundesliga",
+      "away_team": "Hamburger SV",
+      "home_team": "Borussia Dortmund",
+      "commence_time": "2026-08-29T16:30:00Z",
+      "market_line": {
+        "moneyline": {
+          "Borussia Dortmund": -307,
+          "Hamburger SV": 713,
+          "Draw": 438
+        },
+        "spread": {
+          "Borussia Dortmund": -1.5,
+          "Hamburger SV": 1.5
+        },
+        "total": 3.0,
+        "num_bookmakers": 8
+      },
+      "away_team_trends": {
+        "team": "Hamburger SV",
+        "last5": null,
+        "streak": null,
+        "record": null,
+        "h2h_vs_opponent": null
+      },
+      "home_team_trends": {
+        "team": "Borussia Dortmund",
+        "last5": null,
+        "streak": null,
+        "record": null,
+        "h2h_vs_opponent": null
+      },
+      "weather_at_kickoff": null,
+      "probable_pitchers": {
+        "home": null,
+        "away": null
+      }
+    },
+    "soccer_germany_bundesliga_2026-08-30_werder-bremen_at_sc-freiburg": {
+      "league": "Bundesliga",
+      "away_team": "Werder Bremen",
+      "home_team": "SC Freiburg",
+      "commence_time": "2026-08-30T13:30:00Z",
+      "market_line": {
+        "moneyline": {
+          "SC Freiburg": 102,
+          "Werder Bremen": 248,
+          "Draw": 258
+        },
+        "spread": {
+          "SC Freiburg": -0.5,
+          "Werder Bremen": 0.5
+        },
+        "total": 2.5,
+        "num_bookmakers": 8
+      },
+      "away_team_trends": {
+        "team": "Werder Bremen",
+        "last5": null,
+        "streak": null,
+        "record": null,
+        "h2h_vs_opponent": null
+      },
+      "home_team_trends": {
+        "team": "SC Freiburg",
+        "last5": null,
+        "streak": null,
+        "record": null,
+        "h2h_vs_opponent": null
+      },
+      "weather_at_kickoff": null,
+      "probable_pitchers": {
+        "home": null,
+        "away": null
+      }
+    },
+    "soccer_germany_bundesliga_2026-08-30_fc-schalke-04_at_augsburg": {
+      "league": "Bundesliga",
+      "away_team": "FC Schalke 04",
+      "home_team": "Augsburg",
+      "commence_time": "2026-08-30T15:30:00Z",
+      "market_line": {
+        "moneyline": {
+          "Augsburg": 110,
+          "FC Schalke 04": 218,
+          "Draw": 269
+        },
+        "spread": {
+          "Augsburg": -0.4,
+          "FC Schalke 04": 0.4
+        },
+        "total": 2.8,
+        "num_bookmakers": 8
+      },
+      "away_team_trends": {
+        "team": "FC Schalke 04",
+        "last5": null,
+        "streak": null,
+        "record": null,
+        "h2h_vs_opponent": null
+      },
+      "home_team_trends": {
+        "team": "Augsburg",
         "last5": null,
         "streak": null,
         "record": null,
