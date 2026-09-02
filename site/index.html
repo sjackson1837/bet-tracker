@@ -97,9 +97,375 @@ th { color: var(--muted); font-weight: 500; font-size: 0.78rem; text-transform: 
   </nav>
 </header>
 <div class="layout">
-
+<div class="sidebar"><h3>Sports</h3><button class="league-btn active" data-league="all" onclick="filterLeague('all', this)">All Sports</button><button class="league-btn" data-league="NCAAF" onclick="filterLeague('NCAAF', this)">NCAAF</button><button class="league-btn" data-league="MLB" onclick="filterLeague('MLB', this)">MLB</button></div>
 <main>
-<p class="updated">Last updated Aug 31, 2026 at 02:03 PM EDT</p><p class="empty">No upcoming games right now. Check back after the next data refresh.</p>
+<p class="updated">Last updated Sep 02, 2026 at 11:15 AM EDT</p><div class="top-picks"><h2>Top 5 by Confidence</h2><div class="top-picks-grid"><div class="card">
+  <div class="matchup">Milwaukee Brewers @ Chicago Cubs <span class="your-pick-badge" data-game-id="baseball_mlb_2026-09-02_milwaukee-brewers_at_chicago-cubs" style="display:none;">&#10003; Your pick</span></div>
+  <div class="meta">Wed Sep 02, 07:41 PM EDT</div>
+  <div class="odds-row"><div class="odds-item"><div class="odds-label">Moneyline</div><div class="odds-value">Chicago Cubs +135 &middot; Milwaukee Brewers -157</div></div><div class="odds-item"><div class="odds-label">Spread</div><div class="odds-value">Chicago Cubs +1.5 &middot; Milwaukee Brewers -1.5</div></div><div class="odds-item"><div class="odds-label">Total (O/U)</div><div class="odds-value">8.4</div></div><div class="odds-item"><div class="odds-label">Books</div><div class="odds-value">9</div></div></div>
+  <div class="pick-row">
+    <span>Pick:</span> <span class="pick">Milwaukee Brewers</span>
+    <span class="confidence">78% confidence</span>
+  </div>
+  <div class="pick-row"><span>Against the spread:</span> <span class="pick">Milwaukee Brewers</span></div>
+  <ul class="factors"><li>Jacob Misiorowski elite ERA (1.73) vs David Peterson's 5.11</li><li>Brewers dominant record (86-53) and h2h edge (5-3)</li><li>Brewers won last meeting 9-4 and are on W1 while Cubs are L1</li></ul>
+  <div class="reasoning">Milwaukee has the best record in this matchup by a wide margin and a dominant pitching matchup with Misiorowski's sub-2 ERA against Peterson's mediocre 5.11. Combined with the season series edge and recent form, this is one of the clearer plays on the slate favoring the Brewers even at -1.5.</div>
+  <label class="pick-toggle">
+    <input type="checkbox" class="pick-checkbox" data-game-id="baseball_mlb_2026-09-02_milwaukee-brewers_at_chicago-cubs"  onchange="togglePick('baseball_mlb_2026-09-02_milwaukee-brewers_at_chicago-cubs', this)"> I bet on this
+  </label>
+  <div class="pick-status" data-game-id="baseball_mlb_2026-09-02_milwaukee-brewers_at_chicago-cubs">Couldn't save that pick &mdash; check your connection and try again.</div>
+</div><div class="card">
+  <div class="matchup">Detroit Tigers @ Minnesota Twins <span class="your-pick-badge" data-game-id="baseball_mlb_2026-09-02_detroit-tigers_at_minnesota-twins" style="display:none;">&#10003; Your pick</span></div>
+  <div class="meta">Wed Sep 02, 07:41 PM EDT</div>
+  <div class="odds-row"><div class="odds-item"><div class="odds-label">Moneyline</div><div class="odds-value">Detroit Tigers -81 &middot; Minnesota Twins -113</div></div><div class="odds-item"><div class="odds-label">Spread</div><div class="odds-value">Detroit Tigers 0.0 &middot; Minnesota Twins 0.0</div></div><div class="odds-item"><div class="odds-label">Total (O/U)</div><div class="odds-value">8.5</div></div><div class="odds-item"><div class="odds-label">Books</div><div class="odds-value">9</div></div></div>
+  <div class="pick-row">
+    <span>Pick:</span> <span class="pick">Minnesota Twins</span>
+    <span class="confidence">74% confidence</span>
+  </div>
+  <div class="pick-row"><span>Against the spread:</span> <span class="pick">Minnesota Twins</span></div>
+  <ul class="factors"><li>Twins dominant h2h season series (7-2), including 15-2 last meeting</li><li>Twins on W3 streak vs Tigers L3</li><li>Drew Anderson (3.87) outperforming Dean Kremer (5.60) despite home Kremer start</li></ul>
+  <div class="reasoning">Minnesota has crushed Detroit this season (7-2 h2h) including a blowout 15-2 win in the last meeting, and enters this game red hot on a 3-game win streak while Detroit is mired in a 3-game skid. Even with Kremer starting at home, the overwhelming recent trend and h2h dominance favor the Twins.</div>
+  <label class="pick-toggle">
+    <input type="checkbox" class="pick-checkbox" data-game-id="baseball_mlb_2026-09-02_detroit-tigers_at_minnesota-twins"  onchange="togglePick('baseball_mlb_2026-09-02_detroit-tigers_at_minnesota-twins', this)"> I bet on this
+  </label>
+  <div class="pick-status" data-game-id="baseball_mlb_2026-09-02_detroit-tigers_at_minnesota-twins">Couldn't save that pick &mdash; check your connection and try again.</div>
+</div><div class="card">
+  <div class="matchup">Philadelphia Phillies @ Arizona Diamondbacks <span class="your-pick-badge" data-game-id="baseball_mlb_2026-09-02_philadelphia-phillies_at_arizona-diamondbacks" style="display:none;">&#10003; Your pick</span></div>
+  <div class="meta">Wed Sep 02, 03:41 PM EDT</div>
+  <div class="odds-row"><div class="odds-item"><div class="odds-label">Moneyline</div><div class="odds-value">Arizona Diamondbacks +112 &middot; Philadelphia Phillies -130</div></div><div class="odds-item"><div class="odds-label">Spread</div><div class="odds-value">Arizona Diamondbacks +1.5 &middot; Philadelphia Phillies -1.5</div></div><div class="odds-item"><div class="odds-label">Total (O/U)</div><div class="odds-value">9.1</div></div><div class="odds-item"><div class="odds-label">Books</div><div class="odds-value">9</div></div></div>
+  <div class="pick-row">
+    <span>Pick:</span> <span class="pick">Philadelphia Phillies</span>
+    <span class="confidence">72% confidence</span>
+  </div>
+  <div class="pick-row"><span>Against the spread:</span> <span class="pick">Philadelphia Phillies</span></div>
+  <ul class="factors"><li>Phillies on scorching W6 streak, 5-0 last 5</li><li>Diamondbacks on L3 streak, 2-3 last 5</li><li>Phillies won last h2h meeting 7-1 and lead season series 3-2</li></ul>
+  <div class="reasoning">Philadelphia is red hot with a 6-game winning streak and dominant recent form, while Arizona is struggling with a 3-game skid. Despite a favorable Arizona starter ERA (2.60 vs Painter's 5.95), the overwhelming momentum and h2h dominance favor the Phillies covering the modest -1.5 line.</div>
+  <label class="pick-toggle">
+    <input type="checkbox" class="pick-checkbox" data-game-id="baseball_mlb_2026-09-02_philadelphia-phillies_at_arizona-diamondbacks"  onchange="togglePick('baseball_mlb_2026-09-02_philadelphia-phillies_at_arizona-diamondbacks', this)"> I bet on this
+  </label>
+  <div class="pick-status" data-game-id="baseball_mlb_2026-09-02_philadelphia-phillies_at_arizona-diamondbacks">Couldn't save that pick &mdash; check your connection and try again.</div>
+</div><div class="card">
+  <div class="matchup">New York Mets @ Tampa Bay Rays <span class="your-pick-badge" data-game-id="baseball_mlb_2026-09-02_new-york-mets_at_tampa-bay-rays" style="display:none;">&#10003; Your pick</span></div>
+  <div class="meta">Wed Sep 02, 06:41 PM EDT</div>
+  <div class="odds-row"><div class="odds-item"><div class="odds-label">Moneyline</div><div class="odds-value">New York Mets +151 &middot; Tampa Bay Rays -177</div></div><div class="odds-item"><div class="odds-label">Spread</div><div class="odds-value">New York Mets +1.4 &middot; Tampa Bay Rays -1.4</div></div><div class="odds-item"><div class="odds-label">Total (O/U)</div><div class="odds-value">8.1</div></div><div class="odds-item"><div class="odds-label">Books</div><div class="odds-value">9</div></div></div>
+  <div class="pick-row">
+    <span>Pick:</span> <span class="pick">Tampa Bay Rays</span>
+    <span class="confidence">70% confidence</span>
+  </div>
+  <div class="pick-row"><span>Against the spread:</span> <span class="pick">Tampa Bay Rays</span></div>
+  <ul class="factors"><li>Rays dominant record (83-55) and recent form (4-1)</li><li>Mets struggling record (62-77) and L1 streak</li><li>Mets starter Justin Hagenman has no established ERA/record, adding uncertainty</li></ul>
+  <div class="reasoning">Tampa Bay is one of the best teams in baseball with a strong recent 4-1 stretch, while the Mets are well below .500 and enter on a losing note. The unproven Mets starter versus Griffin Jax further tilts this decisively toward the Rays both straight up and against the modest run line.</div>
+  <label class="pick-toggle">
+    <input type="checkbox" class="pick-checkbox" data-game-id="baseball_mlb_2026-09-02_new-york-mets_at_tampa-bay-rays"  onchange="togglePick('baseball_mlb_2026-09-02_new-york-mets_at_tampa-bay-rays', this)"> I bet on this
+  </label>
+  <div class="pick-status" data-game-id="baseball_mlb_2026-09-02_new-york-mets_at_tampa-bay-rays">Couldn't save that pick &mdash; check your connection and try again.</div>
+</div><div class="card">
+  <div class="matchup">Athletics @ Texas Rangers <span class="your-pick-badge" data-game-id="baseball_mlb_2026-09-02_athletics_at_texas-rangers" style="display:none;">&#10003; Your pick</span></div>
+  <div class="meta">Wed Sep 02, 02:36 PM EDT</div>
+  <div class="odds-row"><div class="odds-item"><div class="odds-label">Moneyline</div><div class="odds-value">Athletics +137 &middot; Texas Rangers -160</div></div><div class="odds-item"><div class="odds-label">Spread</div><div class="odds-value">Athletics +1.5 &middot; Texas Rangers -1.5</div></div><div class="odds-item"><div class="odds-label">Total (O/U)</div><div class="odds-value">7.9</div></div><div class="odds-item"><div class="odds-label">Books</div><div class="odds-value">9</div></div></div>
+  <div class="pick-row">
+    <span>Pick:</span> <span class="pick">Texas Rangers</span>
+    <span class="confidence">68% confidence</span>
+  </div>
+  <div class="pick-row"><span>Against the spread:</span> <span class="pick">Texas Rangers</span></div>
+  <ul class="factors"><li>Athletics on brutal 0-5 losing streak</li><li>Rangers on W3 streak with better recent form</li><li>Cody Bradford (3.42 ERA) outperforming Jacob Lopez (4.82 ERA)</li></ul>
+  <div class="reasoning">Texas is red hot (W3) while Oakland is ice cold (L5), and the pitching matchup favors the Rangers as well. Combined with home field and recent momentum, this is a solid lean toward Texas both straight up and against the modest run line.</div>
+  <label class="pick-toggle">
+    <input type="checkbox" class="pick-checkbox" data-game-id="baseball_mlb_2026-09-02_athletics_at_texas-rangers"  onchange="togglePick('baseball_mlb_2026-09-02_athletics_at_texas-rangers', this)"> I bet on this
+  </label>
+  <div class="pick-status" data-game-id="baseball_mlb_2026-09-02_athletics_at_texas-rangers">Couldn't save that pick &mdash; check your connection and try again.</div>
+</div></div></div><div class="league-group filterable-item" data-league="NCAAF"><h2>NCAAF</h2>
+<div class="card">
+  <div class="matchup">Albany @ Buffalo Bulls <span class="your-pick-badge" data-game-id="americanfootball_ncaaf_2026-09-03_albany_at_buffalo-bulls" style="display:none;">&#10003; Your pick</span></div>
+  <div class="meta">Thu Sep 03, 07:00 PM EDT</div>
+  <div class="odds-row"><div class="odds-item"><div class="odds-label">Moneyline</div><div class="odds-value">Albany +848 &middot; Buffalo Bulls -1575</div></div><div class="odds-item"><div class="odds-label">Spread</div><div class="odds-value">Albany +19.2 &middot; Buffalo Bulls -19.2</div></div><div class="odds-item"><div class="odds-label">Total (O/U)</div><div class="odds-value">48.1</div></div><div class="odds-item"><div class="odds-label">Books</div><div class="odds-value">6</div></div></div>
+  <div class="pick-row">
+    <span>Pick:</span> <span class="pick">Buffalo Bulls</span>
+    <span class="confidence">58% confidence</span>
+  </div>
+  <div class="pick-row"><span>Against the spread:</span> <span class="pick">Buffalo Bulls</span></div>
+  <ul class="factors"><li>Buffalo big home favorite vs FCS opponent</li><li>19.2 spread more reasonable/coverable than other games</li><li>No trend data available</li></ul>
+  <div class="reasoning">Buffalo should handle Albany comfortably as a G5 team against FCS competition, and the spread here is more moderate making a cover plausible. Confidence remains moderate due to lack of specific trend data.</div>
+  <label class="pick-toggle">
+    <input type="checkbox" class="pick-checkbox" data-game-id="americanfootball_ncaaf_2026-09-03_albany_at_buffalo-bulls"  onchange="togglePick('americanfootball_ncaaf_2026-09-03_albany_at_buffalo-bulls', this)"> I bet on this
+  </label>
+  <div class="pick-status" data-game-id="americanfootball_ncaaf_2026-09-03_albany_at_buffalo-bulls">Couldn't save that pick &mdash; check your connection and try again.</div>
+</div>
+<div class="card">
+  <div class="matchup">Colorado Buffaloes @ Georgia Tech Yellow Jackets <span class="your-pick-badge" data-game-id="americanfootball_ncaaf_2026-09-04_colorado-buffaloes_at_georgia-tech-yellow-jackets" style="display:none;">&#10003; Your pick</span></div>
+  <div class="meta">Thu Sep 03, 08:00 PM EDT</div>
+  <div class="odds-row"><div class="odds-item"><div class="odds-label">Moneyline</div><div class="odds-value">Colorado Buffaloes +201 &middot; Georgia Tech Yellow Jackets -246</div></div><div class="odds-item"><div class="odds-label">Spread</div><div class="odds-value">Colorado Buffaloes +6.5 &middot; Georgia Tech Yellow Jackets -6.5</div></div><div class="odds-item"><div class="odds-label">Total (O/U)</div><div class="odds-value">50.8</div></div><div class="odds-item"><div class="odds-label">Books</div><div class="odds-value">9</div></div></div>
+  <div class="pick-row">
+    <span>Pick:</span> <span class="pick">Georgia Tech Yellow Jackets</span>
+    <span class="confidence">58% confidence</span>
+  </div>
+  <div class="pick-row"><span>Against the spread:</span> <span class="pick">Georgia Tech Yellow Jackets</span></div>
+  <ul class="factors"><li>Moderate spread (6.5) suggests competitive game</li><li>Georgia Tech favored at home</li><li>No trend/form data given, limiting confidence</li></ul>
+  <div class="reasoning">Georgia Tech is a modest home favorite in a matchup between two power conference teams, and the moderate spread suggests oddsmakers expect a competitive game. Without specific trend data we lean toward the market favorite given home field advantage.</div>
+  <label class="pick-toggle">
+    <input type="checkbox" class="pick-checkbox" data-game-id="americanfootball_ncaaf_2026-09-04_colorado-buffaloes_at_georgia-tech-yellow-jackets"  onchange="togglePick('americanfootball_ncaaf_2026-09-04_colorado-buffaloes_at_georgia-tech-yellow-jackets', this)"> I bet on this
+  </label>
+  <div class="pick-status" data-game-id="americanfootball_ncaaf_2026-09-04_colorado-buffaloes_at_georgia-tech-yellow-jackets">Couldn't save that pick &mdash; check your connection and try again.</div>
+</div>
+<div class="card">
+  <div class="matchup">San Jose State Spartans @ Eastern Michigan Eagles <span class="your-pick-badge" data-game-id="americanfootball_ncaaf_2026-09-04_san-jose-state-spartans_at_eastern-michigan-eagles" style="display:none;">&#10003; Your pick</span></div>
+  <div class="meta">Fri Sep 04, 06:30 PM EDT</div>
+  <div class="odds-row"><div class="odds-item"><div class="odds-label">Moneyline</div><div class="odds-value">Eastern Michigan Eagles -153 &middot; San Jose State Spartans +128</div></div><div class="odds-item"><div class="odds-label">Spread</div><div class="odds-value">Eastern Michigan Eagles -2.9 &middot; San Jose State Spartans +2.9</div></div><div class="odds-item"><div class="odds-label">Total (O/U)</div><div class="odds-value">56.1</div></div><div class="odds-item"><div class="odds-label">Books</div><div class="odds-value">9</div></div></div>
+  <div class="pick-row">
+    <span>Pick:</span> <span class="pick">Eastern Michigan Eagles</span>
+    <span class="confidence">58% confidence</span>
+  </div>
+  <div class="pick-row"><span>Against the spread:</span> <span class="pick">Eastern Michigan Eagles</span></div>
+  <ul class="factors"><li>San Jose State coming off a loss (0-1, L1)</li><li>Eastern Michigan modest home favorite</li><li>Close spread (2.9) suggests genuinely competitive game</li></ul>
+  <div class="reasoning">San Jose State enters on a losing note (0-1) while Eastern Michigan is favored at home in a tight spread game, suggesting the market sees this as competitive but leaning home. We favor the home team both straight up and against the modest spread given SJSU's early-season struggles.</div>
+  <label class="pick-toggle">
+    <input type="checkbox" class="pick-checkbox" data-game-id="americanfootball_ncaaf_2026-09-04_san-jose-state-spartans_at_eastern-michigan-eagles"  onchange="togglePick('americanfootball_ncaaf_2026-09-04_san-jose-state-spartans_at_eastern-michigan-eagles', this)"> I bet on this
+  </label>
+  <div class="pick-status" data-game-id="americanfootball_ncaaf_2026-09-04_san-jose-state-spartans_at_eastern-michigan-eagles">Couldn't save that pick &mdash; check your connection and try again.</div>
+</div>
+<div class="card">
+  <div class="matchup">West Georgia Wolves @ Kennesaw State Owls <span class="your-pick-badge" data-game-id="americanfootball_ncaaf_2026-09-03_west-georgia-wolves_at_kennesaw-state-owls" style="display:none;">&#10003; Your pick</span></div>
+  <div class="meta">Thu Sep 03, 07:00 PM EDT</div>
+  <div class="odds-row"><div class="odds-item"><div class="odds-label">Moneyline</div><div class="odds-value">Kennesaw State Owls -3333 &middot; West Georgia Wolves +1433</div></div><div class="odds-item"><div class="odds-label">Spread</div><div class="odds-value">Kennesaw State Owls -23.0 &middot; West Georgia Wolves +23.0</div></div><div class="odds-item"><div class="odds-label">Total (O/U)</div><div class="odds-value">51.5</div></div><div class="odds-item"><div class="odds-label">Books</div><div class="odds-value">6</div></div></div>
+  <div class="pick-row">
+    <span>Pick:</span> <span class="pick">Kennesaw State Owls</span>
+    <span class="confidence">57% confidence</span>
+  </div>
+  <div class="pick-row"><span>Against the spread:</span> <span class="pick">Kennesaw State Owls</span></div>
+  <ul class="factors"><li>Kennesaw State strong favorite at home</li><li>23 point spread moderate for this tier matchup</li><li>No specific trend data provided</li></ul>
+  <div class="reasoning">Kennesaw State should win at home against West Georgia, and the spread, while large, is within a plausible covering range for a home favorite of this caliber. Confidence is moderate due to absence of recent form data.</div>
+  <label class="pick-toggle">
+    <input type="checkbox" class="pick-checkbox" data-game-id="americanfootball_ncaaf_2026-09-03_west-georgia-wolves_at_kennesaw-state-owls"  onchange="togglePick('americanfootball_ncaaf_2026-09-03_west-georgia-wolves_at_kennesaw-state-owls', this)"> I bet on this
+  </label>
+  <div class="pick-status" data-game-id="americanfootball_ncaaf_2026-09-03_west-georgia-wolves_at_kennesaw-state-owls">Couldn't save that pick &mdash; check your connection and try again.</div>
+</div>
+<div class="card">
+  <div class="matchup">Fresno State Bulldogs @ USC Trojans <span class="your-pick-badge" data-game-id="americanfootball_ncaaf_2026-09-05_fresno-state-bulldogs_at_usc-trojans" style="display:none;">&#10003; Your pick</span></div>
+  <div class="meta">Fri Sep 04, 09:00 PM EDT</div>
+  <div class="odds-row"><div class="odds-item"><div class="odds-label">Moneyline</div><div class="odds-value">Fresno State Bulldogs +1122 &middot; USC Trojans -2543</div></div><div class="odds-item"><div class="odds-label">Spread</div><div class="odds-value">Fresno State Bulldogs +21.9 &middot; USC Trojans -21.9</div></div><div class="odds-item"><div class="odds-label">Total (O/U)</div><div class="odds-value">51.7</div></div><div class="odds-item"><div class="odds-label">Books</div><div class="odds-value">9</div></div></div>
+  <div class="pick-row">
+    <span>Pick:</span> <span class="pick">USC Trojans</span>
+    <span class="confidence">56% confidence</span>
+  </div>
+  <div class="pick-row"><span>Against the spread:</span> <span class="pick">Fresno State Bulldogs</span></div>
+  <ul class="factors"><li>USC coming off a win (1-0, W1)</li><li>Large 21.9 point spread difficult to cover</li><li>No specific data on Fresno State form</li></ul>
+  <div class="reasoning">USC is off to a winning start and heavily favored at home, but a near-22 point spread against a competent G5 program like Fresno State is a tough cover. We lean toward Fresno State keeping it closer than the spread implies.</div>
+  <label class="pick-toggle">
+    <input type="checkbox" class="pick-checkbox" data-game-id="americanfootball_ncaaf_2026-09-05_fresno-state-bulldogs_at_usc-trojans"  onchange="togglePick('americanfootball_ncaaf_2026-09-05_fresno-state-bulldogs_at_usc-trojans', this)"> I bet on this
+  </label>
+  <div class="pick-status" data-game-id="americanfootball_ncaaf_2026-09-05_fresno-state-bulldogs_at_usc-trojans">Couldn't save that pick &mdash; check your connection and try again.</div>
+</div>
+<div class="card">
+  <div class="matchup">Miami Hurricanes @ Stanford Cardinal <span class="your-pick-badge" data-game-id="americanfootball_ncaaf_2026-09-05_miami-hurricanes_at_stanford-cardinal" style="display:none;">&#10003; Your pick</span></div>
+  <div class="meta">Fri Sep 04, 09:00 PM EDT</div>
+  <div class="odds-row"><div class="odds-item"><div class="odds-label">Moneyline</div><div class="odds-value">Miami Hurricanes -3761 &middot; Stanford Cardinal +1362</div></div><div class="odds-item"><div class="odds-label">Spread</div><div class="odds-value">Miami Hurricanes -24.5 &middot; Stanford Cardinal +24.5</div></div><div class="odds-item"><div class="odds-label">Total (O/U)</div><div class="odds-value">47.8</div></div><div class="odds-item"><div class="odds-label">Books</div><div class="odds-value">9</div></div></div>
+  <div class="pick-row">
+    <span>Pick:</span> <span class="pick">Miami Hurricanes</span>
+    <span class="confidence">56% confidence</span>
+  </div>
+  <div class="pick-row"><span>Against the spread:</span> <span class="pick">Stanford Cardinal</span></div>
+  <ul class="factors"><li>Miami massive favorite (moneyline -3761)</li><li>Stanford off to a win (1-0, W1) showing some positive form</li><li>24.5 point spread very large and hard to cover</li></ul>
+  <div class="reasoning">Miami is a huge favorite on the road, but Stanford enters with a win under its belt showing some competence, and the 24.5 point spread is a lot to cover on the road even for a strong team. Lean toward Stanford covering given the extreme number.</div>
+  <label class="pick-toggle">
+    <input type="checkbox" class="pick-checkbox" data-game-id="americanfootball_ncaaf_2026-09-05_miami-hurricanes_at_stanford-cardinal"  onchange="togglePick('americanfootball_ncaaf_2026-09-05_miami-hurricanes_at_stanford-cardinal', this)"> I bet on this
+  </label>
+  <div class="pick-status" data-game-id="americanfootball_ncaaf_2026-09-05_miami-hurricanes_at_stanford-cardinal">Couldn't save that pick &mdash; check your connection and try again.</div>
+</div>
+</div>
+<div class="league-group filterable-item" data-league="MLB"><h2>MLB</h2>
+<div class="card">
+  <div class="matchup">Milwaukee Brewers @ Chicago Cubs <span class="your-pick-badge" data-game-id="baseball_mlb_2026-09-02_milwaukee-brewers_at_chicago-cubs" style="display:none;">&#10003; Your pick</span></div>
+  <div class="meta">Wed Sep 02, 07:41 PM EDT</div>
+  <div class="odds-row"><div class="odds-item"><div class="odds-label">Moneyline</div><div class="odds-value">Chicago Cubs +135 &middot; Milwaukee Brewers -157</div></div><div class="odds-item"><div class="odds-label">Spread</div><div class="odds-value">Chicago Cubs +1.5 &middot; Milwaukee Brewers -1.5</div></div><div class="odds-item"><div class="odds-label">Total (O/U)</div><div class="odds-value">8.4</div></div><div class="odds-item"><div class="odds-label">Books</div><div class="odds-value">9</div></div></div>
+  <div class="pick-row">
+    <span>Pick:</span> <span class="pick">Milwaukee Brewers</span>
+    <span class="confidence">78% confidence</span>
+  </div>
+  <div class="pick-row"><span>Against the spread:</span> <span class="pick">Milwaukee Brewers</span></div>
+  <ul class="factors"><li>Jacob Misiorowski elite ERA (1.73) vs David Peterson's 5.11</li><li>Brewers dominant record (86-53) and h2h edge (5-3)</li><li>Brewers won last meeting 9-4 and are on W1 while Cubs are L1</li></ul>
+  <div class="reasoning">Milwaukee has the best record in this matchup by a wide margin and a dominant pitching matchup with Misiorowski's sub-2 ERA against Peterson's mediocre 5.11. Combined with the season series edge and recent form, this is one of the clearer plays on the slate favoring the Brewers even at -1.5.</div>
+  <label class="pick-toggle">
+    <input type="checkbox" class="pick-checkbox" data-game-id="baseball_mlb_2026-09-02_milwaukee-brewers_at_chicago-cubs"  onchange="togglePick('baseball_mlb_2026-09-02_milwaukee-brewers_at_chicago-cubs', this)"> I bet on this
+  </label>
+  <div class="pick-status" data-game-id="baseball_mlb_2026-09-02_milwaukee-brewers_at_chicago-cubs">Couldn't save that pick &mdash; check your connection and try again.</div>
+</div>
+<div class="card">
+  <div class="matchup">Detroit Tigers @ Minnesota Twins <span class="your-pick-badge" data-game-id="baseball_mlb_2026-09-02_detroit-tigers_at_minnesota-twins" style="display:none;">&#10003; Your pick</span></div>
+  <div class="meta">Wed Sep 02, 07:41 PM EDT</div>
+  <div class="odds-row"><div class="odds-item"><div class="odds-label">Moneyline</div><div class="odds-value">Detroit Tigers -81 &middot; Minnesota Twins -113</div></div><div class="odds-item"><div class="odds-label">Spread</div><div class="odds-value">Detroit Tigers 0.0 &middot; Minnesota Twins 0.0</div></div><div class="odds-item"><div class="odds-label">Total (O/U)</div><div class="odds-value">8.5</div></div><div class="odds-item"><div class="odds-label">Books</div><div class="odds-value">9</div></div></div>
+  <div class="pick-row">
+    <span>Pick:</span> <span class="pick">Minnesota Twins</span>
+    <span class="confidence">74% confidence</span>
+  </div>
+  <div class="pick-row"><span>Against the spread:</span> <span class="pick">Minnesota Twins</span></div>
+  <ul class="factors"><li>Twins dominant h2h season series (7-2), including 15-2 last meeting</li><li>Twins on W3 streak vs Tigers L3</li><li>Drew Anderson (3.87) outperforming Dean Kremer (5.60) despite home Kremer start</li></ul>
+  <div class="reasoning">Minnesota has crushed Detroit this season (7-2 h2h) including a blowout 15-2 win in the last meeting, and enters this game red hot on a 3-game win streak while Detroit is mired in a 3-game skid. Even with Kremer starting at home, the overwhelming recent trend and h2h dominance favor the Twins.</div>
+  <label class="pick-toggle">
+    <input type="checkbox" class="pick-checkbox" data-game-id="baseball_mlb_2026-09-02_detroit-tigers_at_minnesota-twins"  onchange="togglePick('baseball_mlb_2026-09-02_detroit-tigers_at_minnesota-twins', this)"> I bet on this
+  </label>
+  <div class="pick-status" data-game-id="baseball_mlb_2026-09-02_detroit-tigers_at_minnesota-twins">Couldn't save that pick &mdash; check your connection and try again.</div>
+</div>
+<div class="card">
+  <div class="matchup">Philadelphia Phillies @ Arizona Diamondbacks <span class="your-pick-badge" data-game-id="baseball_mlb_2026-09-02_philadelphia-phillies_at_arizona-diamondbacks" style="display:none;">&#10003; Your pick</span></div>
+  <div class="meta">Wed Sep 02, 03:41 PM EDT</div>
+  <div class="odds-row"><div class="odds-item"><div class="odds-label">Moneyline</div><div class="odds-value">Arizona Diamondbacks +112 &middot; Philadelphia Phillies -130</div></div><div class="odds-item"><div class="odds-label">Spread</div><div class="odds-value">Arizona Diamondbacks +1.5 &middot; Philadelphia Phillies -1.5</div></div><div class="odds-item"><div class="odds-label">Total (O/U)</div><div class="odds-value">9.1</div></div><div class="odds-item"><div class="odds-label">Books</div><div class="odds-value">9</div></div></div>
+  <div class="pick-row">
+    <span>Pick:</span> <span class="pick">Philadelphia Phillies</span>
+    <span class="confidence">72% confidence</span>
+  </div>
+  <div class="pick-row"><span>Against the spread:</span> <span class="pick">Philadelphia Phillies</span></div>
+  <ul class="factors"><li>Phillies on scorching W6 streak, 5-0 last 5</li><li>Diamondbacks on L3 streak, 2-3 last 5</li><li>Phillies won last h2h meeting 7-1 and lead season series 3-2</li></ul>
+  <div class="reasoning">Philadelphia is red hot with a 6-game winning streak and dominant recent form, while Arizona is struggling with a 3-game skid. Despite a favorable Arizona starter ERA (2.60 vs Painter's 5.95), the overwhelming momentum and h2h dominance favor the Phillies covering the modest -1.5 line.</div>
+  <label class="pick-toggle">
+    <input type="checkbox" class="pick-checkbox" data-game-id="baseball_mlb_2026-09-02_philadelphia-phillies_at_arizona-diamondbacks"  onchange="togglePick('baseball_mlb_2026-09-02_philadelphia-phillies_at_arizona-diamondbacks', this)"> I bet on this
+  </label>
+  <div class="pick-status" data-game-id="baseball_mlb_2026-09-02_philadelphia-phillies_at_arizona-diamondbacks">Couldn't save that pick &mdash; check your connection and try again.</div>
+</div>
+<div class="card">
+  <div class="matchup">New York Mets @ Tampa Bay Rays <span class="your-pick-badge" data-game-id="baseball_mlb_2026-09-02_new-york-mets_at_tampa-bay-rays" style="display:none;">&#10003; Your pick</span></div>
+  <div class="meta">Wed Sep 02, 06:41 PM EDT</div>
+  <div class="odds-row"><div class="odds-item"><div class="odds-label">Moneyline</div><div class="odds-value">New York Mets +151 &middot; Tampa Bay Rays -177</div></div><div class="odds-item"><div class="odds-label">Spread</div><div class="odds-value">New York Mets +1.4 &middot; Tampa Bay Rays -1.4</div></div><div class="odds-item"><div class="odds-label">Total (O/U)</div><div class="odds-value">8.1</div></div><div class="odds-item"><div class="odds-label">Books</div><div class="odds-value">9</div></div></div>
+  <div class="pick-row">
+    <span>Pick:</span> <span class="pick">Tampa Bay Rays</span>
+    <span class="confidence">70% confidence</span>
+  </div>
+  <div class="pick-row"><span>Against the spread:</span> <span class="pick">Tampa Bay Rays</span></div>
+  <ul class="factors"><li>Rays dominant record (83-55) and recent form (4-1)</li><li>Mets struggling record (62-77) and L1 streak</li><li>Mets starter Justin Hagenman has no established ERA/record, adding uncertainty</li></ul>
+  <div class="reasoning">Tampa Bay is one of the best teams in baseball with a strong recent 4-1 stretch, while the Mets are well below .500 and enter on a losing note. The unproven Mets starter versus Griffin Jax further tilts this decisively toward the Rays both straight up and against the modest run line.</div>
+  <label class="pick-toggle">
+    <input type="checkbox" class="pick-checkbox" data-game-id="baseball_mlb_2026-09-02_new-york-mets_at_tampa-bay-rays"  onchange="togglePick('baseball_mlb_2026-09-02_new-york-mets_at_tampa-bay-rays', this)"> I bet on this
+  </label>
+  <div class="pick-status" data-game-id="baseball_mlb_2026-09-02_new-york-mets_at_tampa-bay-rays">Couldn't save that pick &mdash; check your connection and try again.</div>
+</div>
+<div class="card">
+  <div class="matchup">Athletics @ Texas Rangers <span class="your-pick-badge" data-game-id="baseball_mlb_2026-09-02_athletics_at_texas-rangers" style="display:none;">&#10003; Your pick</span></div>
+  <div class="meta">Wed Sep 02, 02:36 PM EDT</div>
+  <div class="odds-row"><div class="odds-item"><div class="odds-label">Moneyline</div><div class="odds-value">Athletics +137 &middot; Texas Rangers -160</div></div><div class="odds-item"><div class="odds-label">Spread</div><div class="odds-value">Athletics +1.5 &middot; Texas Rangers -1.5</div></div><div class="odds-item"><div class="odds-label">Total (O/U)</div><div class="odds-value">7.9</div></div><div class="odds-item"><div class="odds-label">Books</div><div class="odds-value">9</div></div></div>
+  <div class="pick-row">
+    <span>Pick:</span> <span class="pick">Texas Rangers</span>
+    <span class="confidence">68% confidence</span>
+  </div>
+  <div class="pick-row"><span>Against the spread:</span> <span class="pick">Texas Rangers</span></div>
+  <ul class="factors"><li>Athletics on brutal 0-5 losing streak</li><li>Rangers on W3 streak with better recent form</li><li>Cody Bradford (3.42 ERA) outperforming Jacob Lopez (4.82 ERA)</li></ul>
+  <div class="reasoning">Texas is red hot (W3) while Oakland is ice cold (L5), and the pitching matchup favors the Rangers as well. Combined with home field and recent momentum, this is a solid lean toward Texas both straight up and against the modest run line.</div>
+  <label class="pick-toggle">
+    <input type="checkbox" class="pick-checkbox" data-game-id="baseball_mlb_2026-09-02_athletics_at_texas-rangers"  onchange="togglePick('baseball_mlb_2026-09-02_athletics_at_texas-rangers', this)"> I bet on this
+  </label>
+  <div class="pick-status" data-game-id="baseball_mlb_2026-09-02_athletics_at_texas-rangers">Couldn't save that pick &mdash; check your connection and try again.</div>
+</div>
+<div class="card">
+  <div class="matchup">New York Yankees @ Los Angeles Angels <span class="your-pick-badge" data-game-id="baseball_mlb_2026-09-03_new-york-yankees_at_los-angeles-angels" style="display:none;">&#10003; Your pick</span></div>
+  <div class="meta">Wed Sep 02, 09:39 PM EDT</div>
+  <div class="odds-row"><div class="odds-item"><div class="odds-label">Moneyline</div><div class="odds-value">Los Angeles Angels +140 &middot; New York Yankees -163</div></div><div class="odds-item"><div class="odds-label">Spread</div><div class="odds-value">Los Angeles Angels +1.5 &middot; New York Yankees -1.5</div></div><div class="odds-item"><div class="odds-label">Total (O/U)</div><div class="odds-value">6.8</div></div><div class="odds-item"><div class="odds-label">Books</div><div class="odds-value">9</div></div></div>
+  <div class="pick-row">
+    <span>Pick:</span> <span class="pick">New York Yankees</span>
+    <span class="confidence">66% confidence</span>
+  </div>
+  <div class="pick-row"><span>Against the spread:</span> <span class="pick">New York Yankees</span></div>
+  <ul class="factors"><li>Yankees much better record (80-59) and on W1 vs Angels L1 (1-4 last5)</li><li>Yankees won last h2h meeting 7-3</li><li>No probable pitcher data available for either team</li></ul>
+  <div class="reasoning">New York has a significant overall record advantage and better recent form than a struggling Angels team (1-4 in last five), plus won the most recent head-to-head matchup convincingly. Lacking starting pitcher info lowers certainty somewhat, but the team-level trends strongly favor the Yankees.</div>
+  <label class="pick-toggle">
+    <input type="checkbox" class="pick-checkbox" data-game-id="baseball_mlb_2026-09-03_new-york-yankees_at_los-angeles-angels"  onchange="togglePick('baseball_mlb_2026-09-03_new-york-yankees_at_los-angeles-angels', this)"> I bet on this
+  </label>
+  <div class="pick-status" data-game-id="baseball_mlb_2026-09-03_new-york-yankees_at_los-angeles-angels">Couldn't save that pick &mdash; check your connection and try again.</div>
+</div>
+<div class="card">
+  <div class="matchup">San Diego Padres @ Cincinnati Reds <span class="your-pick-badge" data-game-id="baseball_mlb_2026-09-02_san-diego-padres_at_cincinnati-reds" style="display:none;">&#10003; Your pick</span></div>
+  <div class="meta">Wed Sep 02, 12:41 PM EDT</div>
+  <div class="odds-row"><div class="odds-item"><div class="odds-label">Moneyline</div><div class="odds-value">Cincinnati Reds +133 &middot; San Diego Padres -155</div></div><div class="odds-item"><div class="odds-label">Spread</div><div class="odds-value">Cincinnati Reds +1.5 &middot; San Diego Padres -1.5</div></div><div class="odds-item"><div class="odds-label">Total (O/U)</div><div class="odds-value">9.5</div></div><div class="odds-item"><div class="odds-label">Books</div><div class="odds-value">9</div></div></div>
+  <div class="pick-row">
+    <span>Pick:</span> <span class="pick">San Diego Padres</span>
+    <span class="confidence">62% confidence</span>
+  </div>
+  <div class="pick-row"><span>Against the spread:</span> <span class="pick">San Diego Padres</span></div>
+  <ul class="factors"><li>Casey Mize (3.45 ERA) significantly outperforms Brandon Williamson (6.11 ERA)</li><li>Padres better overall record (73-66 vs 66-73)</li><li>Padres lead season series 3-2 h2h</li></ul>
+  <div class="reasoning">The pitching matchup heavily favors San Diego with Mize's much better ERA against Williamson's struggles this year. Despite a minor L1 skid, Padres' superior record and h2h edge support them as the pick, and their -1.5 run line is reasonable given the pitching gap.</div>
+  <label class="pick-toggle">
+    <input type="checkbox" class="pick-checkbox" data-game-id="baseball_mlb_2026-09-02_san-diego-padres_at_cincinnati-reds"  onchange="togglePick('baseball_mlb_2026-09-02_san-diego-padres_at_cincinnati-reds', this)"> I bet on this
+  </label>
+  <div class="pick-status" data-game-id="baseball_mlb_2026-09-02_san-diego-padres_at_cincinnati-reds">Couldn't save that pick &mdash; check your connection and try again.</div>
+</div>
+<div class="card">
+  <div class="matchup">Baltimore Orioles @ Colorado Rockies <span class="your-pick-badge" data-game-id="baseball_mlb_2026-09-02_baltimore-orioles_at_colorado-rockies" style="display:none;">&#10003; Your pick</span></div>
+  <div class="meta">Wed Sep 02, 03:11 PM EDT</div>
+  <div class="odds-row"><div class="odds-item"><div class="odds-label">Moneyline</div><div class="odds-value">Baltimore Orioles -162 &middot; Colorado Rockies +139</div></div><div class="odds-item"><div class="odds-label">Spread</div><div class="odds-value">Baltimore Orioles -1.5 &middot; Colorado Rockies +1.5</div></div><div class="odds-item"><div class="odds-label">Total (O/U)</div><div class="odds-value">11.4</div></div><div class="odds-item"><div class="odds-label">Books</div><div class="odds-value">9</div></div></div>
+  <div class="pick-row">
+    <span>Pick:</span> <span class="pick">Baltimore Orioles</span>
+    <span class="confidence">60% confidence</span>
+  </div>
+  <div class="pick-row"><span>Against the spread:</span> <span class="pick">Baltimore Orioles</span></div>
+  <ul class="factors"><li>Orioles strong recent form (4-1 last 5) despite L1</li><li>Rockies much worse overall record (53-86) despite recent W1</li><li>Trevor Rogers (4.38) vs Tomoyuki Sugano (5.23) favors Orioles slightly</li></ul>
+  <div class="reasoning">Baltimore has been much better recently (4-1 in last 5) and has a significantly better overall record than Colorado. The pitching matchup slightly favors the Orioles as well, and Coors Field's high-scoring environment (total 11.4) doesn't change our lean toward the road favorite.</div>
+  <label class="pick-toggle">
+    <input type="checkbox" class="pick-checkbox" data-game-id="baseball_mlb_2026-09-02_baltimore-orioles_at_colorado-rockies"  onchange="togglePick('baseball_mlb_2026-09-02_baltimore-orioles_at_colorado-rockies', this)"> I bet on this
+  </label>
+  <div class="pick-status" data-game-id="baseball_mlb_2026-09-02_baltimore-orioles_at_colorado-rockies">Couldn't save that pick &mdash; check your connection and try again.</div>
+</div>
+<div class="card">
+  <div class="matchup">Atlanta Braves @ Washington Nationals <span class="your-pick-badge" data-game-id="baseball_mlb_2026-09-02_atlanta-braves_at_washington-nationals" style="display:none;">&#10003; Your pick</span></div>
+  <div class="meta">Wed Sep 02, 01:06 PM EDT</div>
+  <div class="odds-row"><div class="odds-item"><div class="odds-label">Moneyline</div><div class="odds-value">Atlanta Braves -143 &middot; Washington Nationals +123</div></div><div class="odds-item"><div class="odds-label">Spread</div><div class="odds-value">Atlanta Braves -1.4 &middot; Washington Nationals +1.4</div></div><div class="odds-item"><div class="odds-label">Total (O/U)</div><div class="odds-value">9.4</div></div><div class="odds-item"><div class="odds-label">Books</div><div class="odds-value">9</div></div></div>
+  <div class="pick-row">
+    <span>Pick:</span> <span class="pick">Atlanta Braves</span>
+    <span class="confidence">58% confidence</span>
+  </div>
+  <div class="pick-row"><span>Against the spread:</span> <span class="pick">Atlanta Braves</span></div>
+  <ul class="factors"><li>Grant Holmes (3.71 ERA, 9-5) solid form vs Brad Lord (3.75 ERA)</li><li>Braves dominant h2h season series (8-4)</li><li>Braves much better overall record (82-57) despite L2 streak</li></ul>
+  <div class="reasoning">Atlanta has a big season-long edge in this matchup (8-4 h2h) and a superior overall record, plus a slightly better starting pitcher performance-wise. The Nationals' recent hot streak (W2) and last meeting win are noted, but Atlanta's larger sample size advantages tip the balance in their favor.</div>
+  <label class="pick-toggle">
+    <input type="checkbox" class="pick-checkbox" data-game-id="baseball_mlb_2026-09-02_atlanta-braves_at_washington-nationals"  onchange="togglePick('baseball_mlb_2026-09-02_atlanta-braves_at_washington-nationals', this)"> I bet on this
+  </label>
+  <div class="pick-status" data-game-id="baseball_mlb_2026-09-02_atlanta-braves_at_washington-nationals">Couldn't save that pick &mdash; check your connection and try again.</div>
+</div>
+<div class="card">
+  <div class="matchup">San Francisco Giants @ Pittsburgh Pirates <span class="your-pick-badge" data-game-id="baseball_mlb_2026-09-02_san-francisco-giants_at_pittsburgh-pirates" style="display:none;">&#10003; Your pick</span></div>
+  <div class="meta">Wed Sep 02, 06:41 PM EDT</div>
+  <div class="odds-row"><div class="odds-item"><div class="odds-label">Moneyline</div><div class="odds-value">Pittsburgh Pirates -152 &middot; San Francisco Giants +130</div></div><div class="odds-item"><div class="odds-label">Spread</div><div class="odds-value">Pittsburgh Pirates -1.5 &middot; San Francisco Giants +1.5</div></div><div class="odds-item"><div class="odds-label">Total (O/U)</div><div class="odds-value">8.6</div></div><div class="odds-item"><div class="odds-label">Books</div><div class="odds-value">9</div></div></div>
+  <div class="pick-row">
+    <span>Pick:</span> <span class="pick">Pittsburgh Pirates</span>
+    <span class="confidence">58% confidence</span>
+  </div>
+  <div class="pick-row"><span>Against the spread:</span> <span class="pick">Pittsburgh Pirates</span></div>
+  <ul class="factors"><li>Pirates on W3 streak vs Giants L1</li><li>Even h2h season series (2-2), Pirates won last meeting 13-12</li><li>Bubba Chandler (4.26) vs Landen Roupp (4.25) essentially even pitching matchup</li></ul>
+  <div class="reasoning">Pittsburgh has the better recent momentum with a 3-game win streak compared to San Francisco's 1-game skid, and won the last head-to-head meeting in a high-scoring affair. The pitching matchup is essentially a wash, so recent form and home field give the Pirates a modest edge.</div>
+  <label class="pick-toggle">
+    <input type="checkbox" class="pick-checkbox" data-game-id="baseball_mlb_2026-09-02_san-francisco-giants_at_pittsburgh-pirates"  onchange="togglePick('baseball_mlb_2026-09-02_san-francisco-giants_at_pittsburgh-pirates', this)"> I bet on this
+  </label>
+  <div class="pick-status" data-game-id="baseball_mlb_2026-09-02_san-francisco-giants_at_pittsburgh-pirates">Couldn't save that pick &mdash; check your connection and try again.</div>
+</div>
+<div class="card">
+  <div class="matchup">Chicago White Sox @ Houston Astros <span class="your-pick-badge" data-game-id="baseball_mlb_2026-09-03_chicago-white-sox_at_houston-astros" style="display:none;">&#10003; Your pick</span></div>
+  <div class="meta">Wed Sep 02, 08:11 PM EDT</div>
+  <div class="odds-row"><div class="odds-item"><div class="odds-label">Moneyline</div><div class="odds-value">Chicago White Sox +119 &middot; Houston Astros -138</div></div><div class="odds-item"><div class="odds-label">Spread</div><div class="odds-value">Chicago White Sox +1.5 &middot; Houston Astros -1.5</div></div><div class="odds-item"><div class="odds-label">Total (O/U)</div><div class="odds-value">8.5</div></div><div class="odds-item"><div class="odds-label">Books</div><div class="odds-value">9</div></div></div>
+  <div class="pick-row">
+    <span>Pick:</span> <span class="pick">Chicago White Sox</span>
+    <span class="confidence">58% confidence</span>
+  </div>
+  <div class="pick-row"><span>Against the spread:</span> <span class="pick">Chicago White Sox</span></div>
+  <ul class="factors"><li>White Sox won last h2h meeting 5-1 on W1 streak</li><li>Astros L1 despite similar overall record</li><li>Hunter Brown (3.33) much better than Luis Castillo (5.31), favoring Astros pitching-wise</li></ul>
+  <div class="reasoning">While Houston's starter Hunter Brown has a clear ERA advantage over Castillo, Chicago has better recent momentum (W1) and just beat Houston in the last meeting. Given the close records and mixed signals, we lean slightly toward the White Sox given their positive recent trend and h2h edge, tempering confidence due to the pitching mismatch.</div>
+  <label class="pick-toggle">
+    <input type="checkbox" class="pick-checkbox" data-game-id="baseball_mlb_2026-09-03_chicago-white-sox_at_houston-astros"  onchange="togglePick('baseball_mlb_2026-09-03_chicago-white-sox_at_houston-astros', this)"> I bet on this
+  </label>
+  <div class="pick-status" data-game-id="baseball_mlb_2026-09-03_chicago-white-sox_at_houston-astros">Couldn't save that pick &mdash; check your connection and try again.</div>
+</div>
+<div class="card">
+  <div class="matchup">Seattle Mariners @ Boston Red Sox <span class="your-pick-badge" data-game-id="baseball_mlb_2026-09-02_seattle-mariners_at_boston-red-sox" style="display:none;">&#10003; Your pick</span></div>
+  <div class="meta">Wed Sep 02, 04:11 PM EDT</div>
+  <div class="odds-row"><div class="odds-item"><div class="odds-label">Moneyline</div><div class="odds-value">Boston Red Sox -136 &middot; Seattle Mariners +118</div></div><div class="odds-item"><div class="odds-label">Spread</div><div class="odds-value">Boston Red Sox -1.5 &middot; Seattle Mariners +1.5</div></div><div class="odds-item"><div class="odds-label">Total (O/U)</div><div class="odds-value">8.5</div></div><div class="odds-item"><div class="odds-label">Books</div><div class="odds-value">9</div></div></div>
+  <div class="pick-row">
+    <span>Pick:</span> <span class="pick">Boston Red Sox</span>
+    <span class="confidence">56% confidence</span>
+  </div>
+  <div class="pick-row"><span>Against the spread:</span> <span class="pick">Boston Red Sox</span></div>
+  <ul class="factors"><li>Red Sox better overall record (75-64 vs 65-74)</li><li>Mariners recent form modestly better (1-4 but W1) with h2h edge (3-2 last meeting win)</li><li>Patrick Sandoval (4.20) vs Bryce Miller (4.12) roughly even matchup</li></ul>
+  <div class="reasoning">Boston has the better overall record and home field, though Seattle enters with a series edge and a win in the last meeting. The pitching matchup is fairly even, so we lean slightly toward the home favorite Red Sox given the overall season quality gap.</div>
+  <label class="pick-toggle">
+    <input type="checkbox" class="pick-checkbox" data-game-id="baseball_mlb_2026-09-02_seattle-mariners_at_boston-red-sox"  onchange="togglePick('baseball_mlb_2026-09-02_seattle-mariners_at_boston-red-sox', this)"> I bet on this
+  </label>
+  <div class="pick-status" data-game-id="baseball_mlb_2026-09-02_seattle-mariners_at_boston-red-sox">Couldn't save that pick &mdash; check your connection and try again.</div>
+</div>
+</div>
 </main>
 </div>
 

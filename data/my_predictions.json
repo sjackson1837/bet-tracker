@@ -1,1 +1,410 @@
-{}
+{
+  "americanfootball_ncaaf_2026-09-03_umass-minutemen_at_rutgers-scarlet-knights": {
+    "predicted_winner": "Rutgers Scarlet Knights",
+    "predicted_against_spread": "UMass Minutemen",
+    "confidence": 55,
+    "key_factors": [
+      "Massive talent gap between P5 and FCS/G5 opponent",
+      "No trend data available, relying on market implied strength",
+      "Large spread (30.7) hard for favorite to consistently cover"
+    ],
+    "reasoning": "Rutgers should win easily given the enormous moneyline gap, but a 30.7 point spread is very difficult to cover consistently in blowout games due to garbage time and backup usage. With no additional trend data, we lean toward the underdog covering.",
+    "confidence_reasoning": null
+  },
+  "americanfootball_ncaaf_2026-09-03_akron-zips_at_wake-forest-demon-deacons": {
+    "predicted_winner": "Wake Forest Demon Deacons",
+    "predicted_against_spread": "Akron Zips",
+    "confidence": 55,
+    "key_factors": [
+      "Huge favorite at home vs G5 opponent",
+      "24.3 point spread is large and hard to cover",
+      "No trend data provided"
+    ],
+    "reasoning": "Wake Forest is heavily favored and should win, but large spreads like 24.3 are frequently not covered by favorites in season openers. Lack of trend data limits confidence in a strong side pick beyond the obvious moneyline winner.",
+    "confidence_reasoning": null
+  },
+  "americanfootball_ncaaf_2026-09-03_albany_at_buffalo-bulls": {
+    "predicted_winner": "Buffalo Bulls",
+    "predicted_against_spread": "Buffalo Bulls",
+    "confidence": 58,
+    "key_factors": [
+      "Buffalo big home favorite vs FCS opponent",
+      "19.2 spread more reasonable/coverable than other games",
+      "No trend data available"
+    ],
+    "reasoning": "Buffalo should handle Albany comfortably as a G5 team against FCS competition, and the spread here is more moderate making a cover plausible. Confidence remains moderate due to lack of specific trend data.",
+    "confidence_reasoning": null
+  },
+  "americanfootball_ncaaf_2026-09-03_bethune-cookman-wildcats_at_ucf-knights": {
+    "predicted_winner": "UCF Knights",
+    "predicted_against_spread": "Bethune-Cookman Wildcats",
+    "confidence": 55,
+    "key_factors": [
+      "UCF major favorite vs FCS opponent",
+      "42.5 spread extremely large, hard to cover",
+      "High total suggests shootout potential favoring backdoor cover"
+    ],
+    "reasoning": "UCF is expected to dominate an FCS opponent, but a 42.5 point spread is exceptionally difficult to cover, especially with backups playing in the second half. Take the underdog against a spread this extreme.",
+    "confidence_reasoning": null
+  },
+  "americanfootball_ncaaf_2026-09-03_merrimack-warriors_at_delaware-blue-hens": {
+    "predicted_winner": "Delaware Blue Hens",
+    "predicted_against_spread": "Merrimack Warriors",
+    "confidence": 55,
+    "key_factors": [
+      "Delaware huge favorite vs FCS-level Merrimack",
+      "28.6 spread very large",
+      "No trend data"
+    ],
+    "reasoning": "Delaware should win comfortably, but a near-30 point spread against a lower-tier opponent is tough to cover consistently. Lean toward the underdog covering given typical garbage-time dynamics in such mismatches.",
+    "confidence_reasoning": null
+  },
+  "americanfootball_ncaaf_2026-09-03_west-georgia-wolves_at_kennesaw-state-owls": {
+    "predicted_winner": "Kennesaw State Owls",
+    "predicted_against_spread": "Kennesaw State Owls",
+    "confidence": 57,
+    "key_factors": [
+      "Kennesaw State strong favorite at home",
+      "23 point spread moderate for this tier matchup",
+      "No specific trend data provided"
+    ],
+    "reasoning": "Kennesaw State should win at home against West Georgia, and the spread, while large, is within a plausible covering range for a home favorite of this caliber. Confidence is moderate due to absence of recent form data.",
+    "confidence_reasoning": null
+  },
+  "americanfootball_ncaaf_2026-09-04_arkansas-pine-bluff-golden-lions_at_missouri-tigers": {
+    "predicted_winner": "Missouri Tigers",
+    "predicted_against_spread": "Arkansas Pine Bluff Golden Lions",
+    "confidence": 55,
+    "key_factors": [
+      "Missouri massive favorite vs FCS opponent",
+      "54.5 spread is extremely large, hardest to cover",
+      "High total (60.6) suggests some offensive output allowed"
+    ],
+    "reasoning": "Missouri will win easily against an FCS opponent, but a 54.5 point spread is nearly impossible to reliably cover due to backup rotations and clock management in the second half. Take the extreme underdog against the number.",
+    "confidence_reasoning": null
+  },
+  "americanfootball_ncaaf_2026-09-04_colorado-buffaloes_at_georgia-tech-yellow-jackets": {
+    "predicted_winner": "Georgia Tech Yellow Jackets",
+    "predicted_against_spread": "Georgia Tech Yellow Jackets",
+    "confidence": 58,
+    "key_factors": [
+      "Moderate spread (6.5) suggests competitive game",
+      "Georgia Tech favored at home",
+      "No trend/form data given, limiting confidence"
+    ],
+    "reasoning": "Georgia Tech is a modest home favorite in a matchup between two power conference teams, and the moderate spread suggests oddsmakers expect a competitive game. Without specific trend data we lean toward the market favorite given home field advantage.",
+    "confidence_reasoning": null
+  },
+  "americanfootball_ncaaf_2026-09-04_eastern-illinois-panthers_at_minnesota-golden-gophers": {
+    "predicted_winner": "Minnesota Golden Gophers",
+    "predicted_against_spread": "Eastern Illinois Panthers",
+    "confidence": 55,
+    "key_factors": [
+      "Minnesota huge favorite vs FCS opponent",
+      "42.4 spread very large, difficult to cover",
+      "No trend data available"
+    ],
+    "reasoning": "Minnesota should dominate this FCS opponent, but the extremely large spread makes a cover unlikely due to typical blowout dynamics including backup snaps. Favor the underdog against the number.",
+    "confidence_reasoning": null
+  },
+  "americanfootball_ncaaf_2026-09-04_idaho-vandals_at_utah-utes": {
+    "predicted_winner": "Utah Utes",
+    "predicted_against_spread": "Idaho Vandals",
+    "confidence": 55,
+    "key_factors": [
+      "Idaho coming off a loss (L1, 0-1)",
+      "Utah massive favorite with 34.8 spread",
+      "Extreme spread historically hard to cover"
+    ],
+    "reasoning": "Utah should win comfortably against an FCS opponent that is already 0-1, but the enormous 34.8 spread is very difficult for any favorite to consistently cover. We lean toward Idaho covering given typical blowout garbage-time scoring.",
+    "confidence_reasoning": null
+  },
+  "americanfootball_ncaaf_2026-09-04_uab-blazers_at_illinois-fighting-illini": {
+    "predicted_winner": "Illinois Fighting Illini",
+    "predicted_against_spread": "UAB Blazers",
+    "confidence": 55,
+    "key_factors": [
+      "Illinois large favorite over G5 opponent",
+      "27.6 spread large and difficult to cover",
+      "No trend data provided"
+    ],
+    "reasoning": "Illinois should win at home against UAB, but a spread near 28 points is a tough ask for consistent covering. Lean toward the underdog against the number given typical variance in lopsided matchups.",
+    "confidence_reasoning": null
+  },
+  "americanfootball_ncaaf_2026-09-04_san-jose-state-spartans_at_eastern-michigan-eagles": {
+    "predicted_winner": "Eastern Michigan Eagles",
+    "predicted_against_spread": "Eastern Michigan Eagles",
+    "confidence": 58,
+    "key_factors": [
+      "San Jose State coming off a loss (0-1, L1)",
+      "Eastern Michigan modest home favorite",
+      "Close spread (2.9) suggests genuinely competitive game"
+    ],
+    "reasoning": "San Jose State enters on a losing note (0-1) while Eastern Michigan is favored at home in a tight spread game, suggesting the market sees this as competitive but leaning home. We favor the home team both straight up and against the modest spread given SJSU's early-season struggles.",
+    "confidence_reasoning": null
+  },
+  "americanfootball_ncaaf_2026-09-04_north-carolina-a&t-aggies_at_georgia-state-panthers": {
+    "predicted_winner": "Georgia State Panthers",
+    "predicted_against_spread": "North Carolina A&T Aggies",
+    "confidence": 55,
+    "key_factors": [
+      "Georgia State massive favorite vs FCS opponent",
+      "28.5 spread large and hard to cover consistently",
+      "High total (62.8) suggests shootout potential"
+    ],
+    "reasoning": "Georgia State should win comfortably against an FCS opponent, but nearly a 30-point spread combined with a high total suggests some scoring leakage that could help the underdog cover. Lean toward NC A&T against the number.",
+    "confidence_reasoning": null
+  },
+  "americanfootball_ncaaf_2026-09-04_indiana-state-sycamores_at_purdue-boilermakers": {
+    "predicted_winner": "Purdue Boilermakers",
+    "predicted_against_spread": "Indiana State Sycamores",
+    "confidence": 55,
+    "key_factors": [
+      "Purdue big favorite vs FCS opponent",
+      "35.9 spread extremely large",
+      "No trend data available"
+    ],
+    "reasoning": "Purdue should win easily against an FCS opponent, but a nearly 36-point spread is very difficult to cover consistently. Favor the underdog against such an extreme number.",
+    "confidence_reasoning": null
+  },
+  "americanfootball_ncaaf_2026-09-05_liu-sharks_at_kansas-jayhawks": {
+    "predicted_winner": "Kansas Jayhawks",
+    "predicted_against_spread": "LIU Sharks",
+    "confidence": 55,
+    "key_factors": [
+      "Kansas massive favorite vs FCS opponent",
+      "41.6 spread extremely large",
+      "No trend data provided"
+    ],
+    "reasoning": "Kansas should dominate LIU as expected, but a spread over 40 points is nearly impossible to reliably cover. Take the extreme underdog against the number.",
+    "confidence_reasoning": null
+  },
+  "americanfootball_ncaaf_2026-09-05_toledo-rockets_at_michigan-state-spartans": {
+    "predicted_winner": "Michigan State Spartans",
+    "predicted_against_spread": "Toledo Rockets",
+    "confidence": 52,
+    "key_factors": [
+      "Michigan State coming off a loss (0-1, L1)",
+      "Moderate 9.5 point spread suggests competitive game",
+      "Total relatively low (46.8) implying defensive/grind game"
+    ],
+    "reasoning": "Michigan State is favored at home but enters off a loss, which introduces some uncertainty about form. The moderate spread and low total suggest a closer game than the market's home favorite tag implies, so we lean toward Toledo covering.",
+    "confidence_reasoning": null
+  },
+  "americanfootball_ncaaf_2026-09-05_utep-miners_at_oklahoma-sooners": {
+    "predicted_winner": "Oklahoma Sooners",
+    "predicted_against_spread": "UTEP Miners",
+    "confidence": 55,
+    "key_factors": [
+      "Oklahoma massive favorite vs G5 opponent",
+      "41.4 spread extremely large",
+      "No trend data available"
+    ],
+    "reasoning": "Oklahoma should win comfortably against UTEP, but the spread of over 41 points is exceedingly difficult to cover in a full game. Lean toward the underdog against such an extreme number.",
+    "confidence_reasoning": null
+  },
+  "americanfootball_ncaaf_2026-09-05_fresno-state-bulldogs_at_usc-trojans": {
+    "predicted_winner": "USC Trojans",
+    "predicted_against_spread": "Fresno State Bulldogs",
+    "confidence": 56,
+    "key_factors": [
+      "USC coming off a win (1-0, W1)",
+      "Large 21.9 point spread difficult to cover",
+      "No specific data on Fresno State form"
+    ],
+    "reasoning": "USC is off to a winning start and heavily favored at home, but a near-22 point spread against a competent G5 program like Fresno State is a tough cover. We lean toward Fresno State keeping it closer than the spread implies.",
+    "confidence_reasoning": null
+  },
+  "americanfootball_ncaaf_2026-09-05_miami-hurricanes_at_stanford-cardinal": {
+    "predicted_winner": "Miami Hurricanes",
+    "predicted_against_spread": "Stanford Cardinal",
+    "confidence": 56,
+    "key_factors": [
+      "Miami massive favorite (moneyline -3761)",
+      "Stanford off to a win (1-0, W1) showing some positive form",
+      "24.5 point spread very large and hard to cover"
+    ],
+    "reasoning": "Miami is a huge favorite on the road, but Stanford enters with a win under its belt showing some competence, and the 24.5 point spread is a lot to cover on the road even for a strong team. Lean toward Stanford covering given the extreme number.",
+    "confidence_reasoning": null
+  },
+  "baseball_mlb_2026-09-02_san-diego-padres_at_cincinnati-reds": {
+    "predicted_winner": "San Diego Padres",
+    "predicted_against_spread": "San Diego Padres",
+    "confidence": 62,
+    "key_factors": [
+      "Casey Mize (3.45 ERA) significantly outperforms Brandon Williamson (6.11 ERA)",
+      "Padres better overall record (73-66 vs 66-73)",
+      "Padres lead season series 3-2 h2h"
+    ],
+    "reasoning": "The pitching matchup heavily favors San Diego with Mize's much better ERA against Williamson's struggles this year. Despite a minor L1 skid, Padres' superior record and h2h edge support them as the pick, and their -1.5 run line is reasonable given the pitching gap.",
+    "confidence_reasoning": null
+  },
+  "baseball_mlb_2026-09-02_atlanta-braves_at_washington-nationals": {
+    "predicted_winner": "Atlanta Braves",
+    "predicted_against_spread": "Atlanta Braves",
+    "confidence": 58,
+    "key_factors": [
+      "Grant Holmes (3.71 ERA, 9-5) solid form vs Brad Lord (3.75 ERA)",
+      "Braves dominant h2h season series (8-4)",
+      "Braves much better overall record (82-57) despite L2 streak"
+    ],
+    "reasoning": "Atlanta has a big season-long edge in this matchup (8-4 h2h) and a superior overall record, plus a slightly better starting pitcher performance-wise. The Nationals' recent hot streak (W2) and last meeting win are noted, but Atlanta's larger sample size advantages tip the balance in their favor.",
+    "confidence_reasoning": null
+  },
+  "baseball_mlb_2026-09-02_athletics_at_texas-rangers": {
+    "predicted_winner": "Texas Rangers",
+    "predicted_against_spread": "Texas Rangers",
+    "confidence": 68,
+    "key_factors": [
+      "Athletics on brutal 0-5 losing streak",
+      "Rangers on W3 streak with better recent form",
+      "Cody Bradford (3.42 ERA) outperforming Jacob Lopez (4.82 ERA)"
+    ],
+    "reasoning": "Texas is red hot (W3) while Oakland is ice cold (L5), and the pitching matchup favors the Rangers as well. Combined with home field and recent momentum, this is a solid lean toward Texas both straight up and against the modest run line.",
+    "confidence_reasoning": null
+  },
+  "baseball_mlb_2026-09-02_baltimore-orioles_at_colorado-rockies": {
+    "predicted_winner": "Baltimore Orioles",
+    "predicted_against_spread": "Baltimore Orioles",
+    "confidence": 60,
+    "key_factors": [
+      "Orioles strong recent form (4-1 last 5) despite L1",
+      "Rockies much worse overall record (53-86) despite recent W1",
+      "Trevor Rogers (4.38) vs Tomoyuki Sugano (5.23) favors Orioles slightly"
+    ],
+    "reasoning": "Baltimore has been much better recently (4-1 in last 5) and has a significantly better overall record than Colorado. The pitching matchup slightly favors the Orioles as well, and Coors Field's high-scoring environment (total 11.4) doesn't change our lean toward the road favorite.",
+    "confidence_reasoning": null
+  },
+  "baseball_mlb_2026-09-02_philadelphia-phillies_at_arizona-diamondbacks": {
+    "predicted_winner": "Philadelphia Phillies",
+    "predicted_against_spread": "Philadelphia Phillies",
+    "confidence": 72,
+    "key_factors": [
+      "Phillies on scorching W6 streak, 5-0 last 5",
+      "Diamondbacks on L3 streak, 2-3 last 5",
+      "Phillies won last h2h meeting 7-1 and lead season series 3-2"
+    ],
+    "reasoning": "Philadelphia is red hot with a 6-game winning streak and dominant recent form, while Arizona is struggling with a 3-game skid. Despite a favorable Arizona starter ERA (2.60 vs Painter's 5.95), the overwhelming momentum and h2h dominance favor the Phillies covering the modest -1.5 line.",
+    "confidence_reasoning": null
+  },
+  "baseball_mlb_2026-09-02_seattle-mariners_at_boston-red-sox": {
+    "predicted_winner": "Boston Red Sox",
+    "predicted_against_spread": "Boston Red Sox",
+    "confidence": 56,
+    "key_factors": [
+      "Red Sox better overall record (75-64 vs 65-74)",
+      "Mariners recent form modestly better (1-4 but W1) with h2h edge (3-2 last meeting win)",
+      "Patrick Sandoval (4.20) vs Bryce Miller (4.12) roughly even matchup"
+    ],
+    "reasoning": "Boston has the better overall record and home field, though Seattle enters with a series edge and a win in the last meeting. The pitching matchup is fairly even, so we lean slightly toward the home favorite Red Sox given the overall season quality gap.",
+    "confidence_reasoning": null
+  },
+  "baseball_mlb_2026-09-02_toronto-blue-jays_at_cleveland-guardians": {
+    "predicted_winner": "Cleveland Guardians",
+    "predicted_against_spread": "Cleveland Guardians",
+    "confidence": 54,
+    "key_factors": [
+      "Guardians on W2 streak vs Blue Jays L1",
+      "Even season h2h series (2-2), Guardians won last meeting 6-1",
+      "Cease (2.33 ERA) elite but pitching for road team, Cantillo (3.70) solid at home"
+    ],
+    "reasoning": "This is a close matchup with similar records (68-71 vs 70-68) but Cleveland has the better recent momentum (W2) and won the last head-to-head meeting decisively. Despite Toronto's ace-level starter in Dylan Cease, we give a slight edge to the home team's form and situational advantage.",
+    "confidence_reasoning": null
+  },
+  "baseball_mlb_2026-09-02_new-york-mets_at_tampa-bay-rays": {
+    "predicted_winner": "Tampa Bay Rays",
+    "predicted_against_spread": "Tampa Bay Rays",
+    "confidence": 70,
+    "key_factors": [
+      "Rays dominant record (83-55) and recent form (4-1)",
+      "Mets struggling record (62-77) and L1 streak",
+      "Mets starter Justin Hagenman has no established ERA/record, adding uncertainty"
+    ],
+    "reasoning": "Tampa Bay is one of the best teams in baseball with a strong recent 4-1 stretch, while the Mets are well below .500 and enter on a losing note. The unproven Mets starter versus Griffin Jax further tilts this decisively toward the Rays both straight up and against the modest run line.",
+    "confidence_reasoning": null
+  },
+  "baseball_mlb_2026-09-02_san-francisco-giants_at_pittsburgh-pirates": {
+    "predicted_winner": "Pittsburgh Pirates",
+    "predicted_against_spread": "Pittsburgh Pirates",
+    "confidence": 58,
+    "key_factors": [
+      "Pirates on W3 streak vs Giants L1",
+      "Even h2h season series (2-2), Pirates won last meeting 13-12",
+      "Bubba Chandler (4.26) vs Landen Roupp (4.25) essentially even pitching matchup"
+    ],
+    "reasoning": "Pittsburgh has the better recent momentum with a 3-game win streak compared to San Francisco's 1-game skid, and won the last head-to-head meeting in a high-scoring affair. The pitching matchup is essentially a wash, so recent form and home field give the Pirates a modest edge.",
+    "confidence_reasoning": null
+  },
+  "baseball_mlb_2026-09-02_milwaukee-brewers_at_chicago-cubs": {
+    "predicted_winner": "Milwaukee Brewers",
+    "predicted_against_spread": "Milwaukee Brewers",
+    "confidence": 78,
+    "key_factors": [
+      "Jacob Misiorowski elite ERA (1.73) vs David Peterson's 5.11",
+      "Brewers dominant record (86-53) and h2h edge (5-3)",
+      "Brewers won last meeting 9-4 and are on W1 while Cubs are L1"
+    ],
+    "reasoning": "Milwaukee has the best record in this matchup by a wide margin and a dominant pitching matchup with Misiorowski's sub-2 ERA against Peterson's mediocre 5.11. Combined with the season series edge and recent form, this is one of the clearer plays on the slate favoring the Brewers even at -1.5.",
+    "confidence_reasoning": null
+  },
+  "baseball_mlb_2026-09-02_detroit-tigers_at_minnesota-twins": {
+    "predicted_winner": "Minnesota Twins",
+    "predicted_against_spread": "Minnesota Twins",
+    "confidence": 74,
+    "key_factors": [
+      "Twins dominant h2h season series (7-2), including 15-2 last meeting",
+      "Twins on W3 streak vs Tigers L3",
+      "Drew Anderson (3.87) outperforming Dean Kremer (5.60) despite home Kremer start"
+    ],
+    "reasoning": "Minnesota has crushed Detroit this season (7-2 h2h) including a blowout 15-2 win in the last meeting, and enters this game red hot on a 3-game win streak while Detroit is mired in a 3-game skid. Even with Kremer starting at home, the overwhelming recent trend and h2h dominance favor the Twins.",
+    "confidence_reasoning": null
+  },
+  "baseball_mlb_2026-09-02_miami-marlins_at_kansas-city-royals": {
+    "predicted_winner": "Miami Marlins",
+    "predicted_against_spread": "Miami Marlins",
+    "confidence": 55,
+    "key_factors": [
+      "Marlins won only h2h meeting this season 6-3",
+      "Marlins on W1 vs Royals L2",
+      "Eury Perez (3.44) slightly better ERA than Noah Cameron (3.98)"
+    ],
+    "reasoning": "Miami has a slight edge with better recent form (W1 vs L2) and a marginally better starting pitcher matchup. The single h2h meeting also favors the Marlins, though the sample size is small, keeping confidence moderate in this close pick'em matchup.",
+    "confidence_reasoning": null
+  },
+  "baseball_mlb_2026-09-03_chicago-white-sox_at_houston-astros": {
+    "predicted_winner": "Chicago White Sox",
+    "predicted_against_spread": "Chicago White Sox",
+    "confidence": 58,
+    "key_factors": [
+      "White Sox won last h2h meeting 5-1 on W1 streak",
+      "Astros L1 despite similar overall record",
+      "Hunter Brown (3.33) much better than Luis Castillo (5.31), favoring Astros pitching-wise"
+    ],
+    "reasoning": "While Houston's starter Hunter Brown has a clear ERA advantage over Castillo, Chicago has better recent momentum (W1) and just beat Houston in the last meeting. Given the close records and mixed signals, we lean slightly toward the White Sox given their positive recent trend and h2h edge, tempering confidence due to the pitching mismatch.",
+    "confidence_reasoning": null
+  },
+  "baseball_mlb_2026-09-03_new-york-yankees_at_los-angeles-angels": {
+    "predicted_winner": "New York Yankees",
+    "predicted_against_spread": "New York Yankees",
+    "confidence": 66,
+    "key_factors": [
+      "Yankees much better record (80-59) and on W1 vs Angels L1 (1-4 last5)",
+      "Yankees won last h2h meeting 7-3",
+      "No probable pitcher data available for either team"
+    ],
+    "reasoning": "New York has a significant overall record advantage and better recent form than a struggling Angels team (1-4 in last five), plus won the most recent head-to-head matchup convincingly. Lacking starting pitcher info lowers certainty somewhat, but the team-level trends strongly favor the Yankees.",
+    "confidence_reasoning": null
+  },
+  "baseball_mlb_2026-09-03_st.-louis-cardinals_at_los-angeles-dodgers": {
+    "predicted_winner": "Los Angeles Dodgers",
+    "predicted_against_spread": "St. Louis Cardinals",
+    "confidence": 55,
+    "key_factors": [
+      "Cardinals lead h2h series 3-1, won last meeting 13-8",
+      "Tarik Skubal elite ERA (2.84) for Dodgers vs Quinn Mathews (5.03)",
+      "Dodgers better overall record (79-59) but on L1 while Cardinals on W1"
+    ],
+    "reasoning": "The Dodgers have the far superior pitcher in Skubal, which should help control the game, supporting a moneyline pick for LA. However, given the Cardinals' recent h2h dominance (3-1, including a high-scoring win) and positive form, we lean toward St. Louis covering the generous +1.5 run line.",
+    "confidence_reasoning": null
+  }
+}

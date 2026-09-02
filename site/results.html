@@ -97,19 +97,31 @@ th { color: var(--muted); font-weight: 500; font-size: 0.78rem; text-transform: 
   </nav>
 </header>
 <div class="layout">
-
+<div class="sidebar"><h3>Sports</h3><button class="league-btn active" data-league="all" onclick="filterLeague('all', this)">All Sports</button><button class="league-btn" data-league="Bundesliga" onclick="filterLeague('Bundesliga', this)">Bundesliga</button></div>
 <main>
-<p class="updated">Last updated Aug 31, 2026 at 02:03 PM EDT</p><h3 style="color:var(--muted);font-size:0.8rem;text-transform:uppercase;letter-spacing:0.04em;margin:20px 0 8px;">Your picks</h3>
+<p class="updated">Last updated Sep 02, 2026 at 11:15 AM EDT</p><h3 style="color:var(--muted);font-size:0.8rem;text-transform:uppercase;letter-spacing:0.04em;margin:20px 0 8px;">Your picks</h3>
 <div class="stats-row">
   <div class="stat-box"><div class="num">0-0</div><div class="label">Straight-up (0%)</div></div>
   <div class="stat-box"><div class="num">0-0</div><div class="label">Against the spread (0%)</div></div>
   <div class="stat-box"><div class="num">0</div><div class="label">Games graded</div></div>
 </div><h3 style="color:var(--muted);font-size:0.8rem;text-transform:uppercase;letter-spacing:0.04em;margin:20px 0 8px;">Model overall (55%+ confidence)</h3>
 <div class="stats-row">
-  <div class="stat-box"><div class="num">0-0</div><div class="label">Straight-up (0%)</div></div>
-  <div class="stat-box"><div class="num">0-0</div><div class="label">Against the spread (0%)</div></div>
-  <div class="stat-box"><div class="num">0</div><div class="label">Games graded</div></div>
-</div><p class="empty">No graded results yet for this window.</p>
+  <div class="stat-box"><div class="num">1-0</div><div class="label">Straight-up (100%)</div></div>
+  <div class="stat-box"><div class="num">1-0</div><div class="label">Against the spread (100%)</div></div>
+  <div class="stat-box"><div class="num">1</div><div class="label">Games graded</div></div>
+</div><table>
+<thead><tr><th>Your Pick</th><th>Kickoff</th><th>League</th><th>Matchup</th><th>Final</th><th>Predicted Winner</th><th>Straight-up</th><th>ATS</th></tr></thead>
+<tbody><tr class="filterable-item" data-league="Bundesliga">
+  <td></td>
+  <td>Sun Aug 30, 11:30 AM EDT</td>
+  <td>Bundesliga</td>
+  <td>FC Schalke 04 @ Augsburg</td>
+  <td>0-3</td>
+  <td>Augsburg</td>
+  <td class="result-good">correct</td>
+  <td class="result-good">correct</td>
+</tr></tbody>
+</table>
 </main>
 </div>
 
