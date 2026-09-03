@@ -1,69 +1,32 @@
 {
   "instructions": "For each game below, act as a sharp, disciplined sports betting analyst. Do NOT simply pick whichever side the betting market favors -- weigh the actual trend data provided (recent form, streaks, head-to-head history, starting pitcher matchups where given, and weather where relevant) and form an independent judgment. It's fine, and expected, to disagree with the market when the trends support it. If trend data is sparse for a game, say so and let that lower your confidence rather than defaulting to the favorite. For each game_id, produce: predicted_winner (exact team name), predicted_against_spread (exact team name), confidence (integer 1-100), key_factors (2-4 short strings), and reasoning (2-4 sentences referencing the specific trend data given).",
   "games": {
-    "americanfootball_ncaaf_2026-09-03_umass-minutemen_at_rutgers-scarlet-knights": {
+    "americanfootball_ncaaf_2026-09-05_east-carolina-pirates_at_alabama-crimson-tide": {
       "league": "NCAAF",
-      "away_team": "UMass Minutemen",
-      "home_team": "Rutgers Scarlet Knights",
-      "commence_time": "2026-09-03T22:00:00Z",
+      "away_team": "East Carolina Pirates",
+      "home_team": "Alabama Crimson Tide",
+      "commence_time": "2026-09-05T16:00:00Z",
       "market_line": {
         "moneyline": {
-          "Rutgers Scarlet Knights": -10000,
-          "UMass Minutemen": 3000
+          "Alabama Crimson Tide": -6250,
+          "East Carolina Pirates": 1938
         },
         "spread": {
-          "Rutgers Scarlet Knights": -30.7,
-          "UMass Minutemen": 30.7
+          "Alabama Crimson Tide": -28.0,
+          "East Carolina Pirates": 28.0
         },
-        "total": 54.5,
-        "num_bookmakers": 7
-      },
-      "away_team_trends": {
-        "team": "UMass Minutemen",
-        "last5": null,
-        "streak": null,
-        "record": null,
-        "h2h_vs_opponent": null
-      },
-      "home_team_trends": {
-        "team": "Rutgers Scarlet Knights",
-        "last5": null,
-        "streak": null,
-        "record": null,
-        "h2h_vs_opponent": null
-      },
-      "weather_at_kickoff": null,
-      "probable_pitchers": {
-        "home": null,
-        "away": null
-      }
-    },
-    "americanfootball_ncaaf_2026-09-03_akron-zips_at_wake-forest-demon-deacons": {
-      "league": "NCAAF",
-      "away_team": "Akron Zips",
-      "home_team": "Wake Forest Demon Deacons",
-      "commence_time": "2026-09-03T23:00:00Z",
-      "market_line": {
-        "moneyline": {
-          "Akron Zips": 1310,
-          "Wake Forest Demon Deacons": -3913
-        },
-        "spread": {
-          "Akron Zips": 24.3,
-          "Wake Forest Demon Deacons": -24.3
-        },
-        "total": 48.4,
+        "total": 52.4,
         "num_bookmakers": 9
       },
       "away_team_trends": {
-        "team": "Akron Zips",
+        "team": "East Carolina Pirates",
         "last5": null,
         "streak": null,
         "record": null,
         "h2h_vs_opponent": null
       },
       "home_team_trends": {
-        "team": "Wake Forest Demon Deacons",
+        "team": "Alabama Crimson Tide",
         "last5": null,
         "streak": null,
         "record": null,
@@ -75,66 +38,29 @@
         "away": null
       }
     },
-    "americanfootball_ncaaf_2026-09-03_albany_at_buffalo-bulls": {
+    "americanfootball_ncaaf_2026-09-05_north-alabama-lions_at_arkansas-razorbacks": {
       "league": "NCAAF",
-      "away_team": "Albany",
-      "home_team": "Buffalo Bulls",
-      "commence_time": "2026-09-03T23:00:00Z",
-      "market_line": {
-        "moneyline": {
-          "Albany": 848,
-          "Buffalo Bulls": -1575
-        },
-        "spread": {
-          "Albany": 19.2,
-          "Buffalo Bulls": -19.2
-        },
-        "total": 48.1,
-        "num_bookmakers": 6
-      },
-      "away_team_trends": {
-        "team": "Albany",
-        "last5": null,
-        "streak": null,
-        "record": null,
-        "h2h_vs_opponent": null
-      },
-      "home_team_trends": {
-        "team": "Buffalo Bulls",
-        "last5": null,
-        "streak": null,
-        "record": null,
-        "h2h_vs_opponent": null
-      },
-      "weather_at_kickoff": null,
-      "probable_pitchers": {
-        "home": null,
-        "away": null
-      }
-    },
-    "americanfootball_ncaaf_2026-09-03_bethune-cookman-wildcats_at_ucf-knights": {
-      "league": "NCAAF",
-      "away_team": "Bethune-Cookman Wildcats",
-      "home_team": "UCF Knights",
-      "commence_time": "2026-09-03T23:00:00Z",
+      "away_team": "North Alabama Lions",
+      "home_team": "Arkansas Razorbacks",
+      "commence_time": "2026-09-05T16:00:00Z",
       "market_line": {
         "moneyline": {},
         "spread": {
-          "Bethune-Cookman Wildcats": 42.5,
-          "UCF Knights": -42.5
+          "Arkansas Razorbacks": -40.5,
+          "North Alabama Lions": 40.5
         },
-        "total": 58.8,
-        "num_bookmakers": 6
+        "total": 63.0,
+        "num_bookmakers": 4
       },
       "away_team_trends": {
-        "team": "Bethune-Cookman Wildcats",
+        "team": "North Alabama Lions",
         "last5": null,
         "streak": null,
         "record": null,
         "h2h_vs_opponent": null
       },
       "home_team_trends": {
-        "team": "UCF Knights",
+        "team": "Arkansas Razorbacks",
         "last5": null,
         "streak": null,
         "record": null,
@@ -146,174 +72,29 @@
         "away": null
       }
     },
-    "americanfootball_ncaaf_2026-09-03_merrimack-warriors_at_delaware-blue-hens": {
+    "americanfootball_ncaaf_2026-09-05_bryant-bulldogs_at_army-black-knights": {
       "league": "NCAAF",
-      "away_team": "Merrimack Warriors",
-      "home_team": "Delaware Blue Hens",
-      "commence_time": "2026-09-03T23:00:00Z",
-      "market_line": {
-        "moneyline": {
-          "Delaware Blue Hens": -10000,
-          "Merrimack Warriors": 2700
-        },
-        "spread": {
-          "Delaware Blue Hens": -28.6,
-          "Merrimack Warriors": 28.6
-        },
-        "total": 55.9,
-        "num_bookmakers": 5
-      },
-      "away_team_trends": {
-        "team": "Merrimack Warriors",
-        "last5": null,
-        "streak": null,
-        "record": null,
-        "h2h_vs_opponent": null
-      },
-      "home_team_trends": {
-        "team": "Delaware Blue Hens",
-        "last5": null,
-        "streak": null,
-        "record": null,
-        "h2h_vs_opponent": null
-      },
-      "weather_at_kickoff": null,
-      "probable_pitchers": {
-        "home": null,
-        "away": null
-      }
-    },
-    "americanfootball_ncaaf_2026-09-03_west-georgia-wolves_at_kennesaw-state-owls": {
-      "league": "NCAAF",
-      "away_team": "West Georgia Wolves",
-      "home_team": "Kennesaw State Owls",
-      "commence_time": "2026-09-03T23:00:00Z",
-      "market_line": {
-        "moneyline": {
-          "Kennesaw State Owls": -3333,
-          "West Georgia Wolves": 1433
-        },
-        "spread": {
-          "Kennesaw State Owls": -23.0,
-          "West Georgia Wolves": 23.0
-        },
-        "total": 51.5,
-        "num_bookmakers": 6
-      },
-      "away_team_trends": {
-        "team": "West Georgia Wolves",
-        "last5": null,
-        "streak": null,
-        "record": null,
-        "h2h_vs_opponent": null
-      },
-      "home_team_trends": {
-        "team": "Kennesaw State Owls",
-        "last5": null,
-        "streak": null,
-        "record": null,
-        "h2h_vs_opponent": null
-      },
-      "weather_at_kickoff": null,
-      "probable_pitchers": {
-        "home": null,
-        "away": null
-      }
-    },
-    "americanfootball_ncaaf_2026-09-04_arkansas-pine-bluff-golden-lions_at_missouri-tigers": {
-      "league": "NCAAF",
-      "away_team": "Arkansas Pine Bluff Golden Lions",
-      "home_team": "Missouri Tigers",
-      "commence_time": "2026-09-04T00:00:00Z",
+      "away_team": "Bryant Bulldogs",
+      "home_team": "Army Black Knights",
+      "commence_time": "2026-09-05T16:00:00Z",
       "market_line": {
         "moneyline": {},
         "spread": {
-          "Arkansas Pine Bluff Golden Lions": 54.5,
-          "Missouri Tigers": -54.5
+          "Army Black Knights": -36.8,
+          "Bryant Bulldogs": 36.8
         },
-        "total": 60.6,
-        "num_bookmakers": 6
-      },
-      "away_team_trends": {
-        "team": "Arkansas Pine Bluff Golden Lions",
-        "last5": null,
-        "streak": null,
-        "record": null,
-        "h2h_vs_opponent": null
-      },
-      "home_team_trends": {
-        "team": "Missouri Tigers",
-        "last5": null,
-        "streak": null,
-        "record": null,
-        "h2h_vs_opponent": null
-      },
-      "weather_at_kickoff": null,
-      "probable_pitchers": {
-        "home": null,
-        "away": null
-      }
-    },
-    "americanfootball_ncaaf_2026-09-04_colorado-buffaloes_at_georgia-tech-yellow-jackets": {
-      "league": "NCAAF",
-      "away_team": "Colorado Buffaloes",
-      "home_team": "Georgia Tech Yellow Jackets",
-      "commence_time": "2026-09-04T00:00:00Z",
-      "market_line": {
-        "moneyline": {
-          "Colorado Buffaloes": 201,
-          "Georgia Tech Yellow Jackets": -246
-        },
-        "spread": {
-          "Colorado Buffaloes": 6.5,
-          "Georgia Tech Yellow Jackets": -6.5
-        },
-        "total": 50.8,
-        "num_bookmakers": 9
-      },
-      "away_team_trends": {
-        "team": "Colorado Buffaloes",
-        "last5": null,
-        "streak": null,
-        "record": null,
-        "h2h_vs_opponent": null
-      },
-      "home_team_trends": {
-        "team": "Georgia Tech Yellow Jackets",
-        "last5": null,
-        "streak": null,
-        "record": null,
-        "h2h_vs_opponent": null
-      },
-      "weather_at_kickoff": null,
-      "probable_pitchers": {
-        "home": null,
-        "away": null
-      }
-    },
-    "americanfootball_ncaaf_2026-09-04_eastern-illinois-panthers_at_minnesota-golden-gophers": {
-      "league": "NCAAF",
-      "away_team": "Eastern Illinois Panthers",
-      "home_team": "Minnesota Golden Gophers",
-      "commence_time": "2026-09-04T00:00:00Z",
-      "market_line": {
-        "moneyline": {},
-        "spread": {
-          "Eastern Illinois Panthers": 42.4,
-          "Minnesota Golden Gophers": -42.4
-        },
-        "total": 51.4,
+        "total": 50.7,
         "num_bookmakers": 5
       },
       "away_team_trends": {
-        "team": "Eastern Illinois Panthers",
+        "team": "Bryant Bulldogs",
         "last5": null,
         "streak": null,
         "record": null,
         "h2h_vs_opponent": null
       },
       "home_team_trends": {
-        "team": "Minnesota Golden Gophers",
+        "team": "Army Black Knights",
         "last5": null,
         "streak": null,
         "record": null,
@@ -325,32 +106,32 @@
         "away": null
       }
     },
-    "americanfootball_ncaaf_2026-09-04_idaho-vandals_at_utah-utes": {
+    "americanfootball_ncaaf_2026-09-05_tarleton-state-texans_at_bowling-green-falcons": {
       "league": "NCAAF",
-      "away_team": "Idaho Vandals",
-      "home_team": "Utah Utes",
-      "commence_time": "2026-09-04T01:00:00Z",
+      "away_team": "Tarleton State Texans",
+      "home_team": "Bowling Green Falcons",
+      "commence_time": "2026-09-05T16:00:00Z",
       "market_line": {
         "moneyline": {
-          "Idaho Vandals": 5250,
-          "Utah Utes": -100000
+          "Bowling Green Falcons": -134,
+          "Tarleton State Texans": 111
         },
         "spread": {
-          "Idaho Vandals": 34.8,
-          "Utah Utes": -34.8
+          "Bowling Green Falcons": -2.5,
+          "Tarleton State Texans": 2.5
         },
-        "total": 57.5,
+        "total": 47.9,
         "num_bookmakers": 5
       },
       "away_team_trends": {
-        "team": "Idaho Vandals",
+        "team": "Tarleton State Texans",
         "last5": "0-1",
         "streak": "L1",
         "record": "0-1",
         "h2h_vs_opponent": null
       },
       "home_team_trends": {
-        "team": "Utah Utes",
+        "team": "Bowling Green Falcons",
         "last5": null,
         "streak": null,
         "record": null,
@@ -362,69 +143,1167 @@
         "away": null
       }
     },
-    "americanfootball_ncaaf_2026-09-04_uab-blazers_at_illinois-fighting-illini": {
+    "americanfootball_ncaaf_2026-09-05_coastal-carolina-chanticleers_at_west-virginia-mountaineers": {
       "league": "NCAAF",
-      "away_team": "UAB Blazers",
-      "home_team": "Illinois Fighting Illini",
-      "commence_time": "2026-09-04T01:00:00Z",
+      "away_team": "Coastal Carolina Chanticleers",
+      "home_team": "West Virginia Mountaineers",
+      "commence_time": "2026-09-05T16:00:00Z",
       "market_line": {
         "moneyline": {
-          "Illinois Fighting Illini": -5357,
-          "UAB Blazers": 1621
+          "Coastal Carolina Chanticleers": 966,
+          "West Virginia Mountaineers": -1893
         },
         "spread": {
-          "Illinois Fighting Illini": -27.6,
-          "UAB Blazers": 27.6
-        },
-        "total": 54.7,
-        "num_bookmakers": 9
-      },
-      "away_team_trends": {
-        "team": "UAB Blazers",
-        "last5": null,
-        "streak": null,
-        "record": null,
-        "h2h_vs_opponent": null
-      },
-      "home_team_trends": {
-        "team": "Illinois Fighting Illini",
-        "last5": null,
-        "streak": null,
-        "record": null,
-        "h2h_vs_opponent": null
-      },
-      "weather_at_kickoff": null,
-      "probable_pitchers": {
-        "home": null,
-        "away": null
-      }
-    },
-    "americanfootball_ncaaf_2026-09-04_san-jose-state-spartans_at_eastern-michigan-eagles": {
-      "league": "NCAAF",
-      "away_team": "San Jose State Spartans",
-      "home_team": "Eastern Michigan Eagles",
-      "commence_time": "2026-09-04T22:30:00Z",
-      "market_line": {
-        "moneyline": {
-          "Eastern Michigan Eagles": -153,
-          "San Jose State Spartans": 128
-        },
-        "spread": {
-          "Eastern Michigan Eagles": -2.9,
-          "San Jose State Spartans": 2.9
+          "Coastal Carolina Chanticleers": 21.1,
+          "West Virginia Mountaineers": -21.1
         },
         "total": 56.1,
         "num_bookmakers": 9
       },
       "away_team_trends": {
-        "team": "San Jose State Spartans",
+        "team": "Coastal Carolina Chanticleers",
+        "last5": null,
+        "streak": null,
+        "record": null,
+        "h2h_vs_opponent": null
+      },
+      "home_team_trends": {
+        "team": "West Virginia Mountaineers",
+        "last5": null,
+        "streak": null,
+        "record": null,
+        "h2h_vs_opponent": null
+      },
+      "weather_at_kickoff": null,
+      "probable_pitchers": {
+        "home": null,
+        "away": null
+      }
+    },
+    "americanfootball_ncaaf_2026-09-05_oregon-state-beavers_at_houston-cougars": {
+      "league": "NCAAF",
+      "away_team": "Oregon State Beavers",
+      "home_team": "Houston Cougars",
+      "commence_time": "2026-09-05T16:00:00Z",
+      "market_line": {
+        "moneyline": {
+          "Houston Cougars": -1693,
+          "Oregon State Beavers": 911
+        },
+        "spread": {
+          "Houston Cougars": -20.7,
+          "Oregon State Beavers": 20.7
+        },
+        "total": 49.5,
+        "num_bookmakers": 9
+      },
+      "away_team_trends": {
+        "team": "Oregon State Beavers",
+        "last5": null,
+        "streak": null,
+        "record": null,
+        "h2h_vs_opponent": null
+      },
+      "home_team_trends": {
+        "team": "Houston Cougars",
+        "last5": null,
+        "streak": null,
+        "record": null,
+        "h2h_vs_opponent": null
+      },
+      "weather_at_kickoff": null,
+      "probable_pitchers": {
+        "home": null,
+        "away": null
+      }
+    },
+    "americanfootball_ncaaf_2026-09-05_north-texas-mean-green_at_indiana-hoosiers": {
+      "league": "NCAAF",
+      "away_team": "North Texas Mean Green",
+      "home_team": "Indiana Hoosiers",
+      "commence_time": "2026-09-05T16:00:00Z",
+      "market_line": {
+        "moneyline": {
+          "Indiana Hoosiers": -100000,
+          "North Texas Mean Green": 1875
+        },
+        "spread": {
+          "Indiana Hoosiers": -40.2,
+          "North Texas Mean Green": 40.2
+        },
+        "total": 55.6,
+        "num_bookmakers": 9
+      },
+      "away_team_trends": {
+        "team": "North Texas Mean Green",
+        "last5": null,
+        "streak": null,
+        "record": null,
+        "h2h_vs_opponent": null
+      },
+      "home_team_trends": {
+        "team": "Indiana Hoosiers",
+        "last5": null,
+        "streak": null,
+        "record": null,
+        "h2h_vs_opponent": null
+      },
+      "weather_at_kickoff": null,
+      "probable_pitchers": {
+        "home": null,
+        "away": null
+      }
+    },
+    "americanfootball_ncaaf_2026-09-05_liberty-flames_at_james-madison-dukes": {
+      "league": "NCAAF",
+      "away_team": "Liberty Flames",
+      "home_team": "James Madison Dukes",
+      "commence_time": "2026-09-05T16:00:00Z",
+      "market_line": {
+        "moneyline": {
+          "James Madison Dukes": -226,
+          "Liberty Flames": 185
+        },
+        "spread": {
+          "James Madison Dukes": -6.2,
+          "Liberty Flames": 6.2
+        },
+        "total": 50.4,
+        "num_bookmakers": 9
+      },
+      "away_team_trends": {
+        "team": "Liberty Flames",
+        "last5": null,
+        "streak": null,
+        "record": null,
+        "h2h_vs_opponent": null
+      },
+      "home_team_trends": {
+        "team": "James Madison Dukes",
+        "last5": null,
+        "streak": null,
+        "record": null,
+        "h2h_vs_opponent": null
+      },
+      "weather_at_kickoff": null,
+      "probable_pitchers": {
+        "home": null,
+        "away": null
+      }
+    },
+    "americanfootball_ncaaf_2026-09-05_lafayette-leopards_at_uconn-huskies": {
+      "league": "NCAAF",
+      "away_team": "Lafayette Leopards",
+      "home_team": "UConn Huskies",
+      "commence_time": "2026-09-05T16:00:00Z",
+      "market_line": {
+        "moneyline": {
+          "Lafayette Leopards": 837,
+          "UConn Huskies": -1489
+        },
+        "spread": {
+          "Lafayette Leopards": 19.6,
+          "UConn Huskies": -19.6
+        },
+        "total": 52.3,
+        "num_bookmakers": 5
+      },
+      "away_team_trends": {
+        "team": "Lafayette Leopards",
+        "last5": null,
+        "streak": null,
+        "record": null,
+        "h2h_vs_opponent": null
+      },
+      "home_team_trends": {
+        "team": "UConn Huskies",
+        "last5": null,
+        "streak": null,
+        "record": null,
+        "h2h_vs_opponent": null
+      },
+      "weather_at_kickoff": null,
+      "probable_pitchers": {
+        "home": null,
+        "away": null
+      }
+    },
+    "americanfootball_ncaaf_2026-09-05_miami-(oh)-redhawks_at_pittsburgh-panthers": {
+      "league": "NCAAF",
+      "away_team": "Miami (OH) RedHawks",
+      "home_team": "Pittsburgh Panthers",
+      "commence_time": "2026-09-05T16:00:00Z",
+      "market_line": {
+        "moneyline": {
+          "Miami (OH) RedHawks": 584,
+          "Pittsburgh Panthers": -882
+        },
+        "spread": {
+          "Miami (OH) RedHawks": 16.5,
+          "Pittsburgh Panthers": -16.5
+        },
+        "total": 47.6,
+        "num_bookmakers": 9
+      },
+      "away_team_trends": {
+        "team": "Miami (OH) RedHawks",
+        "last5": null,
+        "streak": null,
+        "record": null,
+        "h2h_vs_opponent": null
+      },
+      "home_team_trends": {
+        "team": "Pittsburgh Panthers",
+        "last5": null,
+        "streak": null,
+        "record": null,
+        "h2h_vs_opponent": null
+      },
+      "weather_at_kickoff": null,
+      "probable_pitchers": {
+        "home": null,
+        "away": null
+      }
+    },
+    "americanfootball_ncaaf_2026-09-05_ohio-bobcats_at_nebraska-cornhuskers": {
+      "league": "NCAAF",
+      "away_team": "Ohio Bobcats",
+      "home_team": "Nebraska Cornhuskers",
+      "commence_time": "2026-09-05T16:00:00Z",
+      "market_line": {
+        "moneyline": {
+          "Nebraska Cornhuskers": -3789,
+          "Ohio Bobcats": 1254
+        },
+        "spread": {
+          "Nebraska Cornhuskers": -23.5,
+          "Ohio Bobcats": 23.5
+        },
+        "total": 46.1,
+        "num_bookmakers": 9
+      },
+      "away_team_trends": {
+        "team": "Ohio Bobcats",
+        "last5": null,
+        "streak": null,
+        "record": null,
+        "h2h_vs_opponent": null
+      },
+      "home_team_trends": {
+        "team": "Nebraska Cornhuskers",
+        "last5": null,
+        "streak": null,
+        "record": null,
+        "h2h_vs_opponent": null
+      },
+      "weather_at_kickoff": null,
+      "probable_pitchers": {
+        "home": null,
+        "away": null
+      }
+    },
+    "americanfootball_ncaaf_2026-09-05_new-hampshire-wildcats_at_syracuse-orange": {
+      "league": "NCAAF",
+      "away_team": "New Hampshire Wildcats",
+      "home_team": "Syracuse Orange",
+      "commence_time": "2026-09-05T16:00:00Z",
+      "market_line": {
+        "moneyline": {
+          "New Hampshire Wildcats": 3500,
+          "Syracuse Orange": -20000
+        },
+        "spread": {
+          "New Hampshire Wildcats": 33.9,
+          "Syracuse Orange": -33.9
+        },
+        "total": 56.1,
+        "num_bookmakers": 4
+      },
+      "away_team_trends": {
+        "team": "New Hampshire Wildcats",
+        "last5": null,
+        "streak": null,
+        "record": null,
+        "h2h_vs_opponent": null
+      },
+      "home_team_trends": {
+        "team": "Syracuse Orange",
+        "last5": null,
+        "streak": null,
+        "record": null,
+        "h2h_vs_opponent": null
+      },
+      "weather_at_kickoff": null,
+      "probable_pitchers": {
+        "home": null,
+        "away": null
+      }
+    },
+    "americanfootball_ncaaf_2026-09-05_ball-state-cardinals_at_ohio-state-buckeyes": {
+      "league": "NCAAF",
+      "away_team": "Ball State Cardinals",
+      "home_team": "Ohio State Buckeyes",
+      "commence_time": "2026-09-05T16:30:00Z",
+      "market_line": {
+        "moneyline": {
+          "Ball State Cardinals": 1900,
+          "Ohio State Buckeyes": -100000
+        },
+        "spread": {
+          "Ball State Cardinals": 50.6,
+          "Ohio State Buckeyes": -50.6
+        },
+        "total": 56.3,
+        "num_bookmakers": 9
+      },
+      "away_team_trends": {
+        "team": "Ball State Cardinals",
+        "last5": "1-0",
+        "streak": "W1",
+        "record": "1-0",
+        "h2h_vs_opponent": null
+      },
+      "home_team_trends": {
+        "team": "Ohio State Buckeyes",
+        "last5": null,
+        "streak": null,
+        "record": null,
+        "h2h_vs_opponent": null
+      },
+      "weather_at_kickoff": null,
+      "probable_pitchers": {
+        "home": null,
+        "away": null
+      }
+    },
+    "americanfootball_ncaaf_2026-09-05_kent-state-golden-flashes_at_south-carolina-gamecocks": {
+      "league": "NCAAF",
+      "away_team": "Kent State Golden Flashes",
+      "home_team": "South Carolina Gamecocks",
+      "commence_time": "2026-09-05T16:45:00Z",
+      "market_line": {
+        "moneyline": {
+          "Kent State Golden Flashes": 3425,
+          "South Carolina Gamecocks": -100000
+        },
+        "spread": {
+          "Kent State Golden Flashes": 36.0,
+          "South Carolina Gamecocks": -36.0
+        },
+        "total": 54.1,
+        "num_bookmakers": 9
+      },
+      "away_team_trends": {
+        "team": "Kent State Golden Flashes",
+        "last5": null,
+        "streak": null,
+        "record": null,
+        "h2h_vs_opponent": null
+      },
+      "home_team_trends": {
+        "team": "South Carolina Gamecocks",
+        "last5": null,
+        "streak": null,
+        "record": null,
+        "h2h_vs_opponent": null
+      },
+      "weather_at_kickoff": null,
+      "probable_pitchers": {
+        "home": null,
+        "away": null
+      }
+    },
+    "americanfootball_ncaaf_2026-09-05_duquesne-dukes_at_air-force-falcons": {
+      "league": "NCAAF",
+      "away_team": "Duquesne Dukes",
+      "home_team": "Air Force Falcons",
+      "commence_time": "2026-09-05T17:00:00Z",
+      "market_line": {
+        "moneyline": {
+          "Air Force Falcons": -9000,
+          "Duquesne Dukes": 2300
+        },
+        "spread": {
+          "Air Force Falcons": -28.8,
+          "Duquesne Dukes": 28.8
+        },
+        "total": 57.8,
+        "num_bookmakers": 5
+      },
+      "away_team_trends": {
+        "team": "Duquesne Dukes",
+        "last5": null,
+        "streak": null,
+        "record": null,
+        "h2h_vs_opponent": null
+      },
+      "home_team_trends": {
+        "team": "Air Force Falcons",
+        "last5": null,
+        "streak": null,
+        "record": null,
+        "h2h_vs_opponent": null
+      },
+      "weather_at_kickoff": null,
+      "probable_pitchers": {
+        "home": null,
+        "away": null
+      }
+    },
+    "americanfootball_ncaaf_2026-09-05_southeast-missouri-state-redhawks_at_iowa-state-cyclones": {
+      "league": "NCAAF",
+      "away_team": "Southeast Missouri State Redhawks",
+      "home_team": "Iowa State Cyclones",
+      "commence_time": "2026-09-05T17:00:00Z",
+      "market_line": {
+        "moneyline": {
+          "Iowa State Cyclones": -15000,
+          "Southeast Missouri State Redhawks": 2950
+        },
+        "spread": {
+          "Iowa State Cyclones": -30.0,
+          "Southeast Missouri State Redhawks": 30.0
+        },
+        "total": 52.7,
+        "num_bookmakers": 3
+      },
+      "away_team_trends": {
+        "team": "Southeast Missouri State Redhawks",
+        "last5": null,
+        "streak": null,
+        "record": null,
+        "h2h_vs_opponent": null
+      },
+      "home_team_trends": {
+        "team": "Iowa State Cyclones",
+        "last5": null,
+        "streak": null,
+        "record": null,
+        "h2h_vs_opponent": null
+      },
+      "weather_at_kickoff": null,
+      "probable_pitchers": {
+        "home": null,
+        "away": null
+      }
+    },
+    "americanfootball_ncaaf_2026-09-05_youngstown-st-penguins_at_kentucky-wildcats": {
+      "league": "NCAAF",
+      "away_team": "Youngstown St Penguins",
+      "home_team": "Kentucky Wildcats",
+      "commence_time": "2026-09-05T17:00:00Z",
+      "market_line": {
+        "moneyline": {
+          "Kentucky Wildcats": -3800,
+          "Youngstown St Penguins": 1353
+        },
+        "spread": {
+          "Kentucky Wildcats": -23.1,
+          "Youngstown St Penguins": 23.1
+        },
+        "total": 62.5,
+        "num_bookmakers": 4
+      },
+      "away_team_trends": {
+        "team": "Youngstown St Penguins",
+        "last5": null,
+        "streak": null,
+        "record": null,
+        "h2h_vs_opponent": null
+      },
+      "home_team_trends": {
+        "team": "Kentucky Wildcats",
+        "last5": null,
+        "streak": null,
+        "record": null,
+        "h2h_vs_opponent": null
+      },
+      "weather_at_kickoff": null,
+      "probable_pitchers": {
+        "home": null,
+        "away": null
+      }
+    },
+    "americanfootball_ncaaf_2026-09-05_rhode-island-rams_at_temple-owls": {
+      "league": "NCAAF",
+      "away_team": "Rhode Island Rams",
+      "home_team": "Temple Owls",
+      "commence_time": "2026-09-05T18:00:00Z",
+      "market_line": {
+        "moneyline": {
+          "Rhode Island Rams": 538,
+          "Temple Owls": -802
+        },
+        "spread": {
+          "Rhode Island Rams": 14.7,
+          "Temple Owls": -14.7
+        },
+        "total": 51.4,
+        "num_bookmakers": 5
+      },
+      "away_team_trends": {
+        "team": "Rhode Island Rams",
+        "last5": null,
+        "streak": null,
+        "record": null,
+        "h2h_vs_opponent": null
+      },
+      "home_team_trends": {
+        "team": "Temple Owls",
+        "last5": null,
+        "streak": null,
+        "record": null,
+        "h2h_vs_opponent": null
+      },
+      "weather_at_kickoff": null,
+      "probable_pitchers": {
+        "home": null,
+        "away": null
+      }
+    },
+    "americanfootball_ncaaf_2026-09-05_tennessee-state-tigers_at_georgia-bulldogs": {
+      "league": "NCAAF",
+      "away_team": "Tennessee State Tigers",
+      "home_team": "Georgia Bulldogs",
+      "commence_time": "2026-09-05T19:00:00Z",
+      "market_line": {
+        "moneyline": {},
+        "spread": {
+          "Georgia Bulldogs": -47.2,
+          "Tennessee State Tigers": 47.2
+        },
+        "total": 55.5,
+        "num_bookmakers": 3
+      },
+      "away_team_trends": {
+        "team": "Tennessee State Tigers",
+        "last5": null,
+        "streak": null,
+        "record": null,
+        "h2h_vs_opponent": null
+      },
+      "home_team_trends": {
+        "team": "Georgia Bulldogs",
+        "last5": null,
+        "streak": null,
+        "record": null,
+        "h2h_vs_opponent": null
+      },
+      "weather_at_kickoff": null,
+      "probable_pitchers": {
+        "home": null,
+        "away": null
+      }
+    },
+    "americanfootball_ncaaf_2026-09-05_maine-black-bears_at_appalachian-state-mountaineers": {
+      "league": "NCAAF",
+      "away_team": "Maine Black Bears",
+      "home_team": "Appalachian State Mountaineers",
+      "commence_time": "2026-09-05T19:30:00Z",
+      "market_line": {
+        "moneyline": {
+          "Appalachian State Mountaineers": -1327,
+          "Maine Black Bears": 770
+        },
+        "spread": {
+          "Appalachian State Mountaineers": -19.3,
+          "Maine Black Bears": 19.3
+        },
+        "total": 53.1,
+        "num_bookmakers": 5
+      },
+      "away_team_trends": {
+        "team": "Maine Black Bears",
+        "last5": null,
+        "streak": null,
+        "record": null,
+        "h2h_vs_opponent": null
+      },
+      "home_team_trends": {
+        "team": "Appalachian State Mountaineers",
+        "last5": null,
+        "streak": null,
+        "record": null,
+        "h2h_vs_opponent": null
+      },
+      "weather_at_kickoff": null,
+      "probable_pitchers": {
+        "home": null,
+        "away": null
+      }
+    },
+    "americanfootball_ncaaf_2026-09-05_baylor-bears_at_auburn-tigers": {
+      "league": "NCAAF",
+      "away_team": "Baylor Bears",
+      "home_team": "Auburn Tigers",
+      "commence_time": "2026-09-05T19:30:00Z",
+      "market_line": {
+        "moneyline": {
+          "Auburn Tigers": -295,
+          "Baylor Bears": 238
+        },
+        "spread": {
+          "Auburn Tigers": -7.4,
+          "Baylor Bears": 7.4
+        },
+        "total": 58.6,
+        "num_bookmakers": 9
+      },
+      "away_team_trends": {
+        "team": "Baylor Bears",
+        "last5": null,
+        "streak": null,
+        "record": null,
+        "h2h_vs_opponent": null
+      },
+      "home_team_trends": {
+        "team": "Auburn Tigers",
+        "last5": null,
+        "streak": null,
+        "record": null,
+        "h2h_vs_opponent": null
+      },
+      "weather_at_kickoff": null,
+      "probable_pitchers": {
+        "home": null,
+        "away": null
+      }
+    },
+    "americanfootball_ncaaf_2026-09-05_boise-state-broncos_at_oregon-ducks": {
+      "league": "NCAAF",
+      "away_team": "Boise State Broncos",
+      "home_team": "Oregon Ducks",
+      "commence_time": "2026-09-05T19:30:00Z",
+      "market_line": {
+        "moneyline": {
+          "Boise State Broncos": 1315,
+          "Oregon Ducks": -3859
+        },
+        "spread": {
+          "Boise State Broncos": 24.5,
+          "Oregon Ducks": -24.5
+        },
+        "total": 51.4,
+        "num_bookmakers": 9
+      },
+      "away_team_trends": {
+        "team": "Boise State Broncos",
+        "last5": null,
+        "streak": null,
+        "record": null,
+        "h2h_vs_opponent": null
+      },
+      "home_team_trends": {
+        "team": "Oregon Ducks",
+        "last5": null,
+        "streak": null,
+        "record": null,
+        "h2h_vs_opponent": null
+      },
+      "weather_at_kickoff": null,
+      "probable_pitchers": {
+        "home": null,
+        "away": null
+      }
+    },
+    "americanfootball_ncaaf_2026-09-05_boston-college-eagles_at_cincinnati-bearcats": {
+      "league": "NCAAF",
+      "away_team": "Boston College Eagles",
+      "home_team": "Cincinnati Bearcats",
+      "commence_time": "2026-09-05T19:30:00Z",
+      "market_line": {
+        "moneyline": {
+          "Boston College Eagles": 244,
+          "Cincinnati Bearcats": -305
+        },
+        "spread": {
+          "Boston College Eagles": 7.5,
+          "Cincinnati Bearcats": -7.5
+        },
+        "total": 49.7,
+        "num_bookmakers": 9
+      },
+      "away_team_trends": {
+        "team": "Boston College Eagles",
+        "last5": null,
+        "streak": null,
+        "record": null,
+        "h2h_vs_opponent": null
+      },
+      "home_team_trends": {
+        "team": "Cincinnati Bearcats",
+        "last5": null,
+        "streak": null,
+        "record": null,
+        "h2h_vs_opponent": null
+      },
+      "weather_at_kickoff": null,
+      "probable_pitchers": {
+        "home": null,
+        "away": null
+      }
+    },
+    "americanfootball_ncaaf_2026-09-05_citadel-bulldogs_at_charlotte-49ers": {
+      "league": "NCAAF",
+      "away_team": "Citadel Bulldogs",
+      "home_team": "Charlotte 49ers",
+      "commence_time": "2026-09-05T19:30:00Z",
+      "market_line": {
+        "moneyline": {
+          "Charlotte 49ers": -2050,
+          "Citadel Bulldogs": 960
+        },
+        "spread": {
+          "Charlotte 49ers": -19.6,
+          "Citadel Bulldogs": 19.6
+        },
+        "total": 46.3,
+        "num_bookmakers": 5
+      },
+      "away_team_trends": {
+        "team": "Citadel Bulldogs",
+        "last5": null,
+        "streak": null,
+        "record": null,
+        "h2h_vs_opponent": null
+      },
+      "home_team_trends": {
+        "team": "Charlotte 49ers",
+        "last5": null,
+        "streak": null,
+        "record": null,
+        "h2h_vs_opponent": null
+      },
+      "weather_at_kickoff": null,
+      "probable_pitchers": {
+        "home": null,
+        "away": null
+      }
+    },
+    "americanfootball_ncaaf_2026-09-05_tulane-green-wave_at_duke-blue-devils": {
+      "league": "NCAAF",
+      "away_team": "Tulane Green Wave",
+      "home_team": "Duke Blue Devils",
+      "commence_time": "2026-09-05T19:30:00Z",
+      "market_line": {
+        "moneyline": {
+          "Duke Blue Devils": -313,
+          "Tulane Green Wave": 250
+        },
+        "spread": {
+          "Duke Blue Devils": -7.5,
+          "Tulane Green Wave": 7.5
+        },
+        "total": 51.2,
+        "num_bookmakers": 9
+      },
+      "away_team_trends": {
+        "team": "Tulane Green Wave",
+        "last5": null,
+        "streak": null,
+        "record": null,
+        "h2h_vs_opponent": null
+      },
+      "home_team_trends": {
+        "team": "Duke Blue Devils",
+        "last5": null,
+        "streak": null,
+        "record": null,
+        "h2h_vs_opponent": null
+      },
+      "weather_at_kickoff": null,
+      "probable_pitchers": {
+        "home": null,
+        "away": null
+      }
+    },
+    "americanfootball_ncaaf_2026-09-05_fordham-rams_at_north-dakota-state-bison": {
+      "league": "NCAAF",
+      "away_team": "Fordham Rams",
+      "home_team": "North Dakota State Bison",
+      "commence_time": "2026-09-05T19:30:00Z",
+      "market_line": {
+        "moneyline": {},
+        "spread": {
+          "Fordham Rams": 41.4,
+          "North Dakota State Bison": -41.4
+        },
+        "total": 56.2,
+        "num_bookmakers": 5
+      },
+      "away_team_trends": {
+        "team": "Fordham Rams",
+        "last5": null,
+        "streak": null,
+        "record": null,
+        "h2h_vs_opponent": null
+      },
+      "home_team_trends": {
+        "team": "North Dakota State Bison",
+        "last5": null,
+        "streak": null,
+        "record": null,
+        "h2h_vs_opponent": null
+      },
+      "weather_at_kickoff": null,
+      "probable_pitchers": {
+        "home": null,
+        "away": null
+      }
+    },
+    "americanfootball_ncaaf_2026-09-05_furman-paladins_at_tennessee-volunteers": {
+      "league": "NCAAF",
+      "away_team": "Furman Paladins",
+      "home_team": "Tennessee Volunteers",
+      "commence_time": "2026-09-05T19:30:00Z",
+      "market_line": {
+        "moneyline": {},
+        "spread": {
+          "Furman Paladins": 47.2,
+          "Tennessee Volunteers": -47.2
+        },
+        "total": 66.5,
+        "num_bookmakers": 5
+      },
+      "away_team_trends": {
+        "team": "Furman Paladins",
+        "last5": null,
+        "streak": null,
+        "record": null,
+        "h2h_vs_opponent": null
+      },
+      "home_team_trends": {
+        "team": "Tennessee Volunteers",
+        "last5": null,
+        "streak": null,
+        "record": null,
+        "h2h_vs_opponent": null
+      },
+      "weather_at_kickoff": null,
+      "probable_pitchers": {
+        "home": null,
+        "away": null
+      }
+    },
+    "americanfootball_ncaaf_2026-09-05_marshall-thundering-herd_at_penn-state-nittany-lions": {
+      "league": "NCAAF",
+      "away_team": "Marshall Thundering Herd",
+      "home_team": "Penn State Nittany Lions",
+      "commence_time": "2026-09-05T19:30:00Z",
+      "market_line": {
+        "moneyline": {
+          "Marshall Thundering Herd": 1299,
+          "Penn State Nittany Lions": -3253
+        },
+        "spread": {
+          "Marshall Thundering Herd": 24.2,
+          "Penn State Nittany Lions": -24.2
+        },
+        "total": 52.2,
+        "num_bookmakers": 9
+      },
+      "away_team_trends": {
+        "team": "Marshall Thundering Herd",
+        "last5": null,
+        "streak": null,
+        "record": null,
+        "h2h_vs_opponent": null
+      },
+      "home_team_trends": {
+        "team": "Penn State Nittany Lions",
+        "last5": null,
+        "streak": null,
+        "record": null,
+        "h2h_vs_opponent": null
+      },
+      "weather_at_kickoff": null,
+      "probable_pitchers": {
+        "home": null,
+        "away": null
+      }
+    },
+    "americanfootball_ncaaf_2026-09-05_towson-tigers_at_navy-midshipmen": {
+      "league": "NCAAF",
+      "away_team": "Towson Tigers",
+      "home_team": "Navy Midshipmen",
+      "commence_time": "2026-09-05T19:30:00Z",
+      "market_line": {
+        "moneyline": {
+          "Navy Midshipmen": -30000,
+          "Towson Tigers": 3750
+        },
+        "spread": {
+          "Navy Midshipmen": -30.9,
+          "Towson Tigers": 30.9
+        },
+        "total": 50.1,
+        "num_bookmakers": 5
+      },
+      "away_team_trends": {
+        "team": "Towson Tigers",
+        "last5": null,
+        "streak": null,
+        "record": null,
+        "h2h_vs_opponent": null
+      },
+      "home_team_trends": {
+        "team": "Navy Midshipmen",
+        "last5": null,
+        "streak": null,
+        "record": null,
+        "h2h_vs_opponent": null
+      },
+      "weather_at_kickoff": null,
+      "probable_pitchers": {
+        "home": null,
+        "away": null
+      }
+    },
+    "americanfootball_ncaaf_2026-09-05_texas-state-bobcats_at_texas-longhorns": {
+      "league": "NCAAF",
+      "away_team": "Texas State Bobcats",
+      "home_team": "Texas Longhorns",
+      "commence_time": "2026-09-05T19:30:00Z",
+      "market_line": {
+        "moneyline": {
+          "Texas Longhorns": -8500,
+          "Texas State Bobcats": 2306
+        },
+        "spread": {
+          "Texas Longhorns": -29.4,
+          "Texas State Bobcats": 29.4
+        },
+        "total": 59.7,
+        "num_bookmakers": 9
+      },
+      "away_team_trends": {
+        "team": "Texas State Bobcats",
+        "last5": null,
+        "streak": null,
+        "record": null,
+        "h2h_vs_opponent": null
+      },
+      "home_team_trends": {
+        "team": "Texas Longhorns",
+        "last5": null,
+        "streak": null,
+        "record": null,
+        "h2h_vs_opponent": null
+      },
+      "weather_at_kickoff": null,
+      "probable_pitchers": {
+        "home": null,
+        "away": null
+      }
+    },
+    "americanfootball_ncaaf_2026-09-05_ut-rio-grande-valley-vaqueros_at_utsa-roadrunners": {
+      "league": "NCAAF",
+      "away_team": "UT Rio Grande Valley Vaqueros",
+      "home_team": "UTSA Roadrunners",
+      "commence_time": "2026-09-05T19:30:00Z",
+      "market_line": {
+        "moneyline": {
+          "UT Rio Grande Valley Vaqueros": 2250,
+          "UTSA Roadrunners": -8000
+        },
+        "spread": {
+          "UT Rio Grande Valley Vaqueros": 28.2,
+          "UTSA Roadrunners": -28.2
+        },
+        "total": 59.5,
+        "num_bookmakers": 4
+      },
+      "away_team_trends": {
+        "team": "UT Rio Grande Valley Vaqueros",
+        "last5": null,
+        "streak": null,
+        "record": null,
+        "h2h_vs_opponent": null
+      },
+      "home_team_trends": {
+        "team": "UTSA Roadrunners",
+        "last5": null,
+        "streak": null,
+        "record": null,
+        "h2h_vs_opponent": null
+      },
+      "weather_at_kickoff": null,
+      "probable_pitchers": {
+        "home": null,
+        "away": null
+      }
+    },
+    "americanfootball_ncaaf_2026-09-05_oklahoma-state-cowboys_at_tulsa-golden-hurricane": {
+      "league": "NCAAF",
+      "away_team": "Oklahoma State Cowboys",
+      "home_team": "Tulsa Golden Hurricane",
+      "commence_time": "2026-09-05T19:45:00Z",
+      "market_line": {
+        "moneyline": {
+          "Oklahoma State Cowboys": -571,
+          "Tulsa Golden Hurricane": 425
+        },
+        "spread": {
+          "Oklahoma State Cowboys": -13.6,
+          "Tulsa Golden Hurricane": 13.6
+        },
+        "total": 59.0,
+        "num_bookmakers": 9
+      },
+      "away_team_trends": {
+        "team": "Oklahoma State Cowboys",
+        "last5": null,
+        "streak": null,
+        "record": null,
+        "h2h_vs_opponent": null
+      },
+      "home_team_trends": {
+        "team": "Tulsa Golden Hurricane",
+        "last5": null,
+        "streak": null,
+        "record": null,
+        "h2h_vs_opponent": null
+      },
+      "weather_at_kickoff": null,
+      "probable_pitchers": {
+        "home": null,
+        "away": null
+      }
+    },
+    "americanfootball_ncaaf_2026-09-05_northern-illinois-huskies_at_iowa-hawkeyes": {
+      "league": "NCAAF",
+      "away_team": "Northern Illinois Huskies",
+      "home_team": "Iowa Hawkeyes",
+      "commence_time": "2026-09-05T20:15:00Z",
+      "market_line": {
+        "moneyline": {
+          "Iowa Hawkeyes": -75000,
+          "Northern Illinois Huskies": 3412
+        },
+        "spread": {
+          "Iowa Hawkeyes": -31.6,
+          "Northern Illinois Huskies": 31.6
+        },
+        "total": 44.4,
+        "num_bookmakers": 9
+      },
+      "away_team_trends": {
+        "team": "Northern Illinois Huskies",
+        "last5": null,
+        "streak": null,
+        "record": null,
+        "h2h_vs_opponent": null
+      },
+      "home_team_trends": {
+        "team": "Iowa Hawkeyes",
+        "last5": null,
+        "streak": null,
+        "record": null,
+        "h2h_vs_opponent": null
+      },
+      "weather_at_kickoff": null,
+      "probable_pitchers": {
+        "home": null,
+        "away": null
+      }
+    },
+    "americanfootball_ncaaf_2026-09-05_alcorn-state-braves_at_southern-mississippi-golden-eagles": {
+      "league": "NCAAF",
+      "away_team": "Alcorn State Braves",
+      "home_team": "Southern Mississippi Golden Eagles",
+      "commence_time": "2026-09-05T21:00:00Z",
+      "market_line": {
+        "moneyline": {
+          "Alcorn State Braves": 833,
+          "Southern Mississippi Golden Eagles": -1700
+        },
+        "spread": {
+          "Alcorn State Braves": 19.9,
+          "Southern Mississippi Golden Eagles": -19.9
+        },
+        "total": 50.8,
+        "num_bookmakers": 5
+      },
+      "away_team_trends": {
+        "team": "Alcorn State Braves",
+        "last5": null,
+        "streak": null,
+        "record": null,
+        "h2h_vs_opponent": null
+      },
+      "home_team_trends": {
+        "team": "Southern Mississippi Golden Eagles",
+        "last5": null,
+        "streak": null,
+        "record": null,
+        "h2h_vs_opponent": null
+      },
+      "weather_at_kickoff": null,
+      "probable_pitchers": {
+        "home": null,
+        "away": null
+      }
+    },
+    "americanfootball_ncaaf_2026-09-05_wyoming-cowboys_at_colorado-state-rams": {
+      "league": "NCAAF",
+      "away_team": "Wyoming Cowboys",
+      "home_team": "Colorado State Rams",
+      "commence_time": "2026-09-05T22:00:00Z",
+      "market_line": {
+        "moneyline": {
+          "Colorado State Rams": -162,
+          "Wyoming Cowboys": 136
+        },
+        "spread": {
+          "Colorado State Rams": -3.1,
+          "Wyoming Cowboys": 3.1
+        },
+        "total": 46.3,
+        "num_bookmakers": 9
+      },
+      "away_team_trends": {
+        "team": "Wyoming Cowboys",
+        "last5": null,
+        "streak": null,
+        "record": null,
+        "h2h_vs_opponent": null
+      },
+      "home_team_trends": {
+        "team": "Colorado State Rams",
+        "last5": null,
+        "streak": null,
+        "record": null,
+        "h2h_vs_opponent": null
+      },
+      "weather_at_kickoff": null,
+      "probable_pitchers": {
+        "home": null,
+        "away": null
+      }
+    },
+    "americanfootball_ncaaf_2026-09-05_norfolk-state-spartans_at_old-dominion-monarchs": {
+      "league": "NCAAF",
+      "away_team": "Norfolk State Spartans",
+      "home_team": "Old Dominion Monarchs",
+      "commence_time": "2026-09-05T22:00:00Z",
+      "market_line": {
+        "moneyline": {},
+        "spread": {
+          "Norfolk State Spartans": 40.7,
+          "Old Dominion Monarchs": -40.7
+        },
+        "total": 52.5,
+        "num_bookmakers": 5
+      },
+      "away_team_trends": {
+        "team": "Norfolk State Spartans",
         "last5": "0-1",
         "streak": "L1",
         "record": "0-1",
         "h2h_vs_opponent": null
       },
       "home_team_trends": {
-        "team": "Eastern Michigan Eagles",
+        "team": "Old Dominion Monarchs",
         "last5": null,
         "streak": null,
         "record": null,
@@ -436,66 +1315,29 @@
         "away": null
       }
     },
-    "americanfootball_ncaaf_2026-09-04_north-carolina-a&t-aggies_at_georgia-state-panthers": {
+    "americanfootball_ncaaf_2026-09-05_abilene-christian-wildcats_at_texas-tech-red-raiders": {
       "league": "NCAAF",
-      "away_team": "North Carolina A&T Aggies",
-      "home_team": "Georgia State Panthers",
-      "commence_time": "2026-09-04T23:00:00Z",
-      "market_line": {
-        "moneyline": {
-          "Georgia State Panthers": -8250,
-          "North Carolina A&T Aggies": 2100
-        },
-        "spread": {
-          "Georgia State Panthers": -28.5,
-          "North Carolina A&T Aggies": 28.5
-        },
-        "total": 62.8,
-        "num_bookmakers": 5
-      },
-      "away_team_trends": {
-        "team": "North Carolina A&T Aggies",
-        "last5": null,
-        "streak": null,
-        "record": null,
-        "h2h_vs_opponent": null
-      },
-      "home_team_trends": {
-        "team": "Georgia State Panthers",
-        "last5": null,
-        "streak": null,
-        "record": null,
-        "h2h_vs_opponent": null
-      },
-      "weather_at_kickoff": null,
-      "probable_pitchers": {
-        "home": null,
-        "away": null
-      }
-    },
-    "americanfootball_ncaaf_2026-09-04_indiana-state-sycamores_at_purdue-boilermakers": {
-      "league": "NCAAF",
-      "away_team": "Indiana State Sycamores",
-      "home_team": "Purdue Boilermakers",
-      "commence_time": "2026-09-04T23:00:00Z",
+      "away_team": "Abilene Christian Wildcats",
+      "home_team": "Texas Tech Red Raiders",
+      "commence_time": "2026-09-05T23:00:00Z",
       "market_line": {
         "moneyline": {},
         "spread": {
-          "Indiana State Sycamores": 35.9,
-          "Purdue Boilermakers": -35.9
+          "Abilene Christian Wildcats": 42.7,
+          "Texas Tech Red Raiders": -42.7
         },
-        "total": 56.8,
+        "total": 59.3,
         "num_bookmakers": 5
       },
       "away_team_trends": {
-        "team": "Indiana State Sycamores",
+        "team": "Abilene Christian Wildcats",
         "last5": null,
         "streak": null,
         "record": null,
         "h2h_vs_opponent": null
       },
       "home_team_trends": {
-        "team": "Purdue Boilermakers",
+        "team": "Texas Tech Red Raiders",
         "last5": null,
         "streak": null,
         "record": null,
@@ -507,66 +1349,143 @@
         "away": null
       }
     },
-    "americanfootball_ncaaf_2026-09-05_liu-sharks_at_kansas-jayhawks": {
+    "americanfootball_ncaaf_2026-09-05_arkansas-state-red-wolves_at_memphis-tigers": {
       "league": "NCAAF",
-      "away_team": "LIU Sharks",
-      "home_team": "Kansas Jayhawks",
-      "commence_time": "2026-09-05T00:00:00Z",
-      "market_line": {
-        "moneyline": {},
-        "spread": {
-          "Kansas Jayhawks": -41.6,
-          "LIU Sharks": 41.6
-        },
-        "total": 53.6,
-        "num_bookmakers": 5
-      },
-      "away_team_trends": {
-        "team": "LIU Sharks",
-        "last5": null,
-        "streak": null,
-        "record": null,
-        "h2h_vs_opponent": null
-      },
-      "home_team_trends": {
-        "team": "Kansas Jayhawks",
-        "last5": null,
-        "streak": null,
-        "record": null,
-        "h2h_vs_opponent": null
-      },
-      "weather_at_kickoff": null,
-      "probable_pitchers": {
-        "home": null,
-        "away": null
-      }
-    },
-    "americanfootball_ncaaf_2026-09-05_toledo-rockets_at_michigan-state-spartans": {
-      "league": "NCAAF",
-      "away_team": "Toledo Rockets",
-      "home_team": "Michigan State Spartans",
-      "commence_time": "2026-09-05T00:00:00Z",
+      "away_team": "Arkansas State Red Wolves",
+      "home_team": "Memphis Tigers",
+      "commence_time": "2026-09-05T23:00:00Z",
       "market_line": {
         "moneyline": {
-          "Michigan State Spartans": -388,
-          "Toledo Rockets": 300
+          "Arkansas State Red Wolves": 355,
+          "Memphis Tigers": -471
         },
         "spread": {
-          "Michigan State Spartans": -9.5,
-          "Toledo Rockets": 9.5
+          "Arkansas State Red Wolves": 11.4,
+          "Memphis Tigers": -11.4
         },
-        "total": 46.8,
+        "total": 52.2,
         "num_bookmakers": 9
       },
       "away_team_trends": {
-        "team": "Toledo Rockets",
+        "team": "Arkansas State Red Wolves",
         "last5": null,
         "streak": null,
         "record": null,
         "h2h_vs_opponent": null
       },
       "home_team_trends": {
-        "team": "Michigan State Spartans",
+        "team": "Memphis Tigers",
+        "last5": null,
+        "streak": null,
+        "record": null,
+        "h2h_vs_opponent": null
+      },
+      "weather_at_kickoff": null,
+      "probable_pitchers": {
+        "home": null,
+        "away": null
+      }
+    },
+    "americanfootball_ncaaf_2026-09-05_austin-peay-governors_at_vanderbilt-commodores": {
+      "league": "NCAAF",
+      "away_team": "Austin Peay Governors",
+      "home_team": "Vanderbilt Commodores",
+      "commence_time": "2026-09-05T23:00:00Z",
+      "market_line": {
+        "moneyline": {
+          "Austin Peay Governors": 2050,
+          "Vanderbilt Commodores": -7250
+        },
+        "spread": {
+          "Austin Peay Governors": 29.2,
+          "Vanderbilt Commodores": -29.2
+        },
+        "total": 60.5,
+        "num_bookmakers": 5
+      },
+      "away_team_trends": {
+        "team": "Austin Peay Governors",
+        "last5": null,
+        "streak": null,
+        "record": null,
+        "h2h_vs_opponent": null
+      },
+      "home_team_trends": {
+        "team": "Vanderbilt Commodores",
+        "last5": null,
+        "streak": null,
+        "record": null,
+        "h2h_vs_opponent": null
+      },
+      "weather_at_kickoff": null,
+      "probable_pitchers": {
+        "home": null,
+        "away": null
+      }
+    },
+    "americanfootball_ncaaf_2026-09-05_charleston-southern-buccaneers_at_georgia-southern-eagles": {
+      "league": "NCAAF",
+      "away_team": "Charleston Southern Buccaneers",
+      "home_team": "Georgia Southern Eagles",
+      "commence_time": "2026-09-05T23:00:00Z",
+      "market_line": {
+        "moneyline": {
+          "Charleston Southern Buccaneers": 1850,
+          "Georgia Southern Eagles": -5750
+        },
+        "spread": {
+          "Charleston Southern Buccaneers": 25.9,
+          "Georgia Southern Eagles": -25.9
+        },
+        "total": 51.5,
+        "num_bookmakers": 5
+      },
+      "away_team_trends": {
+        "team": "Charleston Southern Buccaneers",
+        "last5": null,
+        "streak": null,
+        "record": null,
+        "h2h_vs_opponent": null
+      },
+      "home_team_trends": {
+        "team": "Georgia Southern Eagles",
+        "last5": null,
+        "streak": null,
+        "record": null,
+        "h2h_vs_opponent": null
+      },
+      "weather_at_kickoff": null,
+      "probable_pitchers": {
+        "home": null,
+        "away": null
+      }
+    },
+    "americanfootball_ncaaf_2026-09-05_eastern-kentucky-colonels_at_jacksonville-state-gamecocks": {
+      "league": "NCAAF",
+      "away_team": "Eastern Kentucky Colonels",
+      "home_team": "Jacksonville State Gamecocks",
+      "commence_time": "2026-09-05T23:00:00Z",
+      "market_line": {
+        "moneyline": {
+          "Eastern Kentucky Colonels": 1040,
+          "Jacksonville State Gamecocks": -2412
+        },
+        "spread": {
+          "Eastern Kentucky Colonels": 20.5,
+          "Jacksonville State Gamecocks": -20.5
+        },
+        "total": 54.5,
+        "num_bookmakers": 4
+      },
+      "away_team_trends": {
+        "team": "Eastern Kentucky Colonels",
+        "last5": null,
+        "streak": null,
+        "record": null,
+        "h2h_vs_opponent": null
+      },
+      "home_team_trends": {
+        "team": "Jacksonville State Gamecocks",
         "last5": "0-1",
         "streak": "L1",
         "record": "0-1",
@@ -578,32 +1497,32 @@
         "away": null
       }
     },
-    "americanfootball_ncaaf_2026-09-05_utep-miners_at_oklahoma-sooners": {
+    "americanfootball_ncaaf_2026-09-05_florida-international-panthers_at_south-florida-bulls": {
       "league": "NCAAF",
-      "away_team": "UTEP Miners",
-      "home_team": "Oklahoma Sooners",
-      "commence_time": "2026-09-05T00:00:00Z",
+      "away_team": "Florida International Panthers",
+      "home_team": "South Florida Bulls",
+      "commence_time": "2026-09-05T23:00:00Z",
       "market_line": {
         "moneyline": {
-          "Oklahoma Sooners": -100000,
-          "UTEP Miners": 1900
+          "Florida International Panthers": 476,
+          "South Florida Bulls": -687
         },
         "spread": {
-          "Oklahoma Sooners": -41.4,
-          "UTEP Miners": 41.4
+          "Florida International Panthers": 14.4,
+          "South Florida Bulls": -14.4
         },
-        "total": 51.6,
+        "total": 51.8,
         "num_bookmakers": 9
       },
       "away_team_trends": {
-        "team": "UTEP Miners",
+        "team": "Florida International Panthers",
         "last5": null,
         "streak": null,
         "record": null,
         "h2h_vs_opponent": null
       },
       "home_team_trends": {
-        "team": "Oklahoma Sooners",
+        "team": "South Florida Bulls",
         "last5": null,
         "streak": null,
         "record": null,
@@ -615,32 +1534,251 @@
         "away": null
       }
     },
-    "americanfootball_ncaaf_2026-09-05_fresno-state-bulldogs_at_usc-trojans": {
+    "americanfootball_ncaaf_2026-09-05_houston-baptist-huskies_at_rice-owls": {
       "league": "NCAAF",
-      "away_team": "Fresno State Bulldogs",
-      "home_team": "USC Trojans",
-      "commence_time": "2026-09-05T01:00:00Z",
+      "away_team": "Houston Baptist Huskies",
+      "home_team": "Rice Owls",
+      "commence_time": "2026-09-05T23:00:00Z",
       "market_line": {
         "moneyline": {
-          "Fresno State Bulldogs": 1122,
-          "USC Trojans": -2543
+          "Houston Baptist Huskies": 1300,
+          "Rice Owls": -3700
         },
         "spread": {
-          "Fresno State Bulldogs": 21.9,
-          "USC Trojans": -21.9
+          "Houston Baptist Huskies": 22.5,
+          "Rice Owls": -22.5
         },
-        "total": 51.7,
-        "num_bookmakers": 9
+        "total": 47.5,
+        "num_bookmakers": 5
       },
       "away_team_trends": {
-        "team": "Fresno State Bulldogs",
+        "team": "Houston Baptist Huskies",
         "last5": null,
         "streak": null,
         "record": null,
         "h2h_vs_opponent": null
       },
       "home_team_trends": {
-        "team": "USC Trojans",
+        "team": "Rice Owls",
+        "last5": null,
+        "streak": null,
+        "record": null,
+        "h2h_vs_opponent": null
+      },
+      "weather_at_kickoff": null,
+      "probable_pitchers": {
+        "home": null,
+        "away": null
+      }
+    },
+    "americanfootball_ncaaf_2026-09-05_idaho-state-bengals_at_utah-state-aggies": {
+      "league": "NCAAF",
+      "away_team": "Idaho State Bengals",
+      "home_team": "Utah State Aggies",
+      "commence_time": "2026-09-05T23:00:00Z",
+      "market_line": {
+        "moneyline": {
+          "Idaho State Bengals": 423,
+          "Utah State Aggies": -598
+        },
+        "spread": {
+          "Idaho State Bengals": 14.0,
+          "Utah State Aggies": -14.0
+        },
+        "total": 62.1,
+        "num_bookmakers": 5
+      },
+      "away_team_trends": {
+        "team": "Idaho State Bengals",
+        "last5": "0-1",
+        "streak": "L1",
+        "record": "0-1",
+        "h2h_vs_opponent": null
+      },
+      "home_team_trends": {
+        "team": "Utah State Aggies",
+        "last5": null,
+        "streak": null,
+        "record": null,
+        "h2h_vs_opponent": null
+      },
+      "weather_at_kickoff": null,
+      "probable_pitchers": {
+        "home": null,
+        "away": null
+      }
+    },
+    "americanfootball_ncaaf_2026-09-05_nicholls-state-colonels_at_kansas-state-wildcats": {
+      "league": "NCAAF",
+      "away_team": "Nicholls State Colonels",
+      "home_team": "Kansas State Wildcats",
+      "commence_time": "2026-09-05T23:00:00Z",
+      "market_line": {
+        "moneyline": {},
+        "spread": {
+          "Kansas State Wildcats": -41.2,
+          "Nicholls State Colonels": 41.2
+        },
+        "total": 54.5,
+        "num_bookmakers": 3
+      },
+      "away_team_trends": {
+        "team": "Nicholls State Colonels",
+        "last5": null,
+        "streak": null,
+        "record": null,
+        "h2h_vs_opponent": null
+      },
+      "home_team_trends": {
+        "team": "Kansas State Wildcats",
+        "last5": null,
+        "streak": null,
+        "record": null,
+        "h2h_vs_opponent": null
+      },
+      "weather_at_kickoff": null,
+      "probable_pitchers": {
+        "home": null,
+        "away": null
+      }
+    },
+    "americanfootball_ncaaf_2026-09-05_western-michigan-broncos_at_michigan-wolverines": {
+      "league": "NCAAF",
+      "away_team": "Western Michigan Broncos",
+      "home_team": "Michigan Wolverines",
+      "commence_time": "2026-09-05T23:00:00Z",
+      "market_line": {
+        "moneyline": {
+          "Michigan Wolverines": -6312,
+          "Western Michigan Broncos": 1734
+        },
+        "spread": {
+          "Michigan Wolverines": -27.6,
+          "Western Michigan Broncos": 27.6
+        },
+        "total": 49.1,
+        "num_bookmakers": 9
+      },
+      "away_team_trends": {
+        "team": "Western Michigan Broncos",
+        "last5": null,
+        "streak": null,
+        "record": null,
+        "h2h_vs_opponent": null
+      },
+      "home_team_trends": {
+        "team": "Michigan Wolverines",
+        "last5": null,
+        "streak": null,
+        "record": null,
+        "h2h_vs_opponent": null
+      },
+      "weather_at_kickoff": null,
+      "probable_pitchers": {
+        "home": null,
+        "away": null
+      }
+    },
+    "americanfootball_ncaaf_2026-09-05_murray-state-racers_at_middle-tennessee-blue-raiders": {
+      "league": "NCAAF",
+      "away_team": "Murray State Racers",
+      "home_team": "Middle Tennessee Blue Raiders",
+      "commence_time": "2026-09-05T23:00:00Z",
+      "market_line": {
+        "moneyline": {
+          "Middle Tennessee Blue Raiders": -2033,
+          "Murray State Racers": 990
+        },
+        "spread": {
+          "Middle Tennessee Blue Raiders": -20.7,
+          "Murray State Racers": 20.7
+        },
+        "total": 58.1,
+        "num_bookmakers": 5
+      },
+      "away_team_trends": {
+        "team": "Murray State Racers",
+        "last5": null,
+        "streak": null,
+        "record": null,
+        "h2h_vs_opponent": null
+      },
+      "home_team_trends": {
+        "team": "Middle Tennessee Blue Raiders",
+        "last5": null,
+        "streak": null,
+        "record": null,
+        "h2h_vs_opponent": null
+      },
+      "weather_at_kickoff": null,
+      "probable_pitchers": {
+        "home": null,
+        "away": null
+      }
+    },
+    "americanfootball_ncaaf_2026-09-05_missouri-state-bears_at_texas-a&m-aggies": {
+      "league": "NCAAF",
+      "away_team": "Missouri State Bears",
+      "home_team": "Texas A&M Aggies",
+      "commence_time": "2026-09-05T23:00:00Z",
+      "market_line": {
+        "moneyline": {
+          "Missouri State Bears": 1900,
+          "Texas A&M Aggies": -100000
+        },
+        "spread": {
+          "Missouri State Bears": 40.4,
+          "Texas A&M Aggies": -40.4
+        },
+        "total": 53.5,
+        "num_bookmakers": 9
+      },
+      "away_team_trends": {
+        "team": "Missouri State Bears",
+        "last5": null,
+        "streak": null,
+        "record": null,
+        "h2h_vs_opponent": null
+      },
+      "home_team_trends": {
+        "team": "Texas A&M Aggies",
+        "last5": null,
+        "streak": null,
+        "record": null,
+        "h2h_vs_opponent": null
+      },
+      "weather_at_kickoff": null,
+      "probable_pitchers": {
+        "home": null,
+        "away": null
+      }
+    },
+    "americanfootball_ncaaf_2026-09-05_sam-houston-state-bearkats_at_troy-trojans": {
+      "league": "NCAAF",
+      "away_team": "Sam Houston State Bearkats",
+      "home_team": "Troy Trojans",
+      "commence_time": "2026-09-05T23:00:00Z",
+      "market_line": {
+        "moneyline": {
+          "Sam Houston State Bearkats": 580,
+          "Troy Trojans": -872
+        },
+        "spread": {
+          "Sam Houston State Bearkats": 16.6,
+          "Troy Trojans": -16.6
+        },
+        "total": 53.9,
+        "num_bookmakers": 9
+      },
+      "away_team_trends": {
+        "team": "Sam Houston State Bearkats",
+        "last5": "0-1",
+        "streak": "L1",
+        "record": "0-1",
+        "h2h_vs_opponent": null
+      },
+      "home_team_trends": {
+        "team": "Troy Trojans",
         "last5": "1-0",
         "streak": "W1",
         "record": "1-0",
@@ -652,35 +1790,35 @@
         "away": null
       }
     },
-    "americanfootball_ncaaf_2026-09-05_miami-hurricanes_at_stanford-cardinal": {
+    "americanfootball_ncaaf_2026-09-05_southeastern-louisiana-lions_at_south-alabama-jaguars": {
       "league": "NCAAF",
-      "away_team": "Miami Hurricanes",
-      "home_team": "Stanford Cardinal",
-      "commence_time": "2026-09-05T01:00:00Z",
+      "away_team": "Southeastern Louisiana Lions",
+      "home_team": "South Alabama Jaguars",
+      "commence_time": "2026-09-05T23:00:00Z",
       "market_line": {
         "moneyline": {
-          "Miami Hurricanes": -3761,
-          "Stanford Cardinal": 1362
+          "South Alabama Jaguars": -662,
+          "Southeastern Louisiana Lions": 462
         },
         "spread": {
-          "Miami Hurricanes": -24.5,
-          "Stanford Cardinal": 24.5
+          "South Alabama Jaguars": -12.9,
+          "Southeastern Louisiana Lions": 12.9
         },
-        "total": 47.8,
-        "num_bookmakers": 9
+        "total": 52.5,
+        "num_bookmakers": 5
       },
       "away_team_trends": {
-        "team": "Miami Hurricanes",
+        "team": "Southeastern Louisiana Lions",
         "last5": null,
         "streak": null,
         "record": null,
         "h2h_vs_opponent": null
       },
       "home_team_trends": {
-        "team": "Stanford Cardinal",
-        "last5": "1-0",
-        "streak": "W1",
-        "record": "1-0",
+        "team": "South Alabama Jaguars",
+        "last5": null,
+        "streak": null,
+        "record": null,
         "h2h_vs_opponent": null
       },
       "weather_at_kickoff": null,
@@ -689,791 +1827,1074 @@
         "away": null
       }
     },
-    "baseball_mlb_2026-09-02_san-diego-padres_at_cincinnati-reds": {
-      "league": "MLB",
-      "away_team": "San Diego Padres",
-      "home_team": "Cincinnati Reds",
-      "commence_time": "2026-09-02T16:41:00Z",
+    "americanfootball_ncaaf_2026-09-05_clemson-tigers_at_lsu-tigers": {
+      "league": "NCAAF",
+      "away_team": "Clemson Tigers",
+      "home_team": "LSU Tigers",
+      "commence_time": "2026-09-05T23:30:00Z",
       "market_line": {
         "moneyline": {
-          "Cincinnati Reds": 133,
-          "San Diego Padres": -155
+          "Clemson Tigers": 307,
+          "LSU Tigers": -396
         },
         "spread": {
-          "Cincinnati Reds": 1.5,
-          "San Diego Padres": -1.5
+          "Clemson Tigers": 10.1,
+          "LSU Tigers": -10.1
         },
-        "total": 9.5,
+        "total": 50.4,
         "num_bookmakers": 9
       },
       "away_team_trends": {
-        "team": "San Diego Padres",
-        "last5": "1-4",
-        "streak": "L1",
-        "record": "73-66",
-        "h2h_vs_opponent": {
-          "record_this_season": "3-2",
-          "last_meeting_result": "lost 3-4 on 2026-09-01"
-        }
+        "team": "Clemson Tigers",
+        "last5": null,
+        "streak": null,
+        "record": null,
+        "h2h_vs_opponent": null
       },
       "home_team_trends": {
-        "team": "Cincinnati Reds",
-        "last5": "3-2",
-        "streak": "W1",
-        "record": "66-73",
-        "h2h_vs_opponent": {
-          "record_this_season": "2-3",
-          "last_meeting_result": "won 4-3 on 2026-09-01"
-        }
-      },
-      "weather_at_kickoff": {
-        "high_f": 98.0,
-        "low_f": 72.0,
-        "precipitation_in": 0.0,
-        "wind_mph": 7.8
-      },
-      "probable_pitchers": {
-        "home": {
-          "name": "Brandon Williamson",
-          "era": "6.11",
-          "record": "(2-3, 6.11)"
-        },
-        "away": {
-          "name": "Casey Mize",
-          "era": "3.45",
-          "record": "(5-8, 3.45)"
-        }
-      }
-    },
-    "baseball_mlb_2026-09-02_atlanta-braves_at_washington-nationals": {
-      "league": "MLB",
-      "away_team": "Atlanta Braves",
-      "home_team": "Washington Nationals",
-      "commence_time": "2026-09-02T17:06:00Z",
-      "market_line": {
-        "moneyline": {
-          "Atlanta Braves": -143,
-          "Washington Nationals": 123
-        },
-        "spread": {
-          "Atlanta Braves": -1.4,
-          "Washington Nationals": 1.4
-        },
-        "total": 9.4,
-        "num_bookmakers": 9
-      },
-      "away_team_trends": {
-        "team": "Atlanta Braves",
-        "last5": "3-2",
-        "streak": "L2",
-        "record": "82-57",
-        "h2h_vs_opponent": {
-          "record_this_season": "8-4",
-          "last_meeting_result": "lost 5-9 on 2026-09-01"
-        }
-      },
-      "home_team_trends": {
-        "team": "Washington Nationals",
-        "last5": "4-1",
-        "streak": "W2",
-        "record": "67-74",
-        "h2h_vs_opponent": {
-          "record_this_season": "4-8",
-          "last_meeting_result": "won 9-5 on 2026-09-01"
-        }
-      },
-      "weather_at_kickoff": {
-        "high_f": 93.0,
-        "low_f": 75.7,
-        "precipitation_in": 0.283,
-        "wind_mph": 14.0
-      },
-      "probable_pitchers": {
-        "home": {
-          "name": "Brad Lord",
-          "era": "3.75",
-          "record": "(5-2, 3.75)"
-        },
-        "away": {
-          "name": "Grant Holmes",
-          "era": "3.71",
-          "record": "(9-5, 3.71)"
-        }
-      }
-    },
-    "baseball_mlb_2026-09-02_athletics_at_texas-rangers": {
-      "league": "MLB",
-      "away_team": "Athletics",
-      "home_team": "Texas Rangers",
-      "commence_time": "2026-09-02T18:36:00Z",
-      "market_line": {
-        "moneyline": {
-          "Athletics": 137,
-          "Texas Rangers": -160
-        },
-        "spread": {
-          "Athletics": 1.5,
-          "Texas Rangers": -1.5
-        },
-        "total": 7.9,
-        "num_bookmakers": 9
-      },
-      "away_team_trends": {
-        "team": "Athletics",
-        "last5": "0-5",
-        "streak": "L5",
-        "record": "53-86",
-        "h2h_vs_opponent": {
-          "record_this_season": "6-6",
-          "last_meeting_result": "lost 5-8 on 2026-09-02"
-        }
-      },
-      "home_team_trends": {
-        "team": "Texas Rangers",
-        "last5": "3-2",
-        "streak": "W3",
-        "record": "69-70",
-        "h2h_vs_opponent": {
-          "record_this_season": "6-6",
-          "last_meeting_result": "won 8-5 on 2026-09-02"
-        }
+        "team": "LSU Tigers",
+        "last5": null,
+        "streak": null,
+        "record": null,
+        "h2h_vs_opponent": null
       },
       "weather_at_kickoff": null,
       "probable_pitchers": {
-        "home": {
-          "name": "Cody Bradford",
-          "era": "3.42",
-          "record": "(0-3, 3.42)"
-        },
-        "away": {
-          "name": "Jacob Lopez",
-          "era": "4.82",
-          "record": "(5-4, 4.82)"
-        }
+        "home": null,
+        "away": null
       }
     },
-    "baseball_mlb_2026-09-02_baltimore-orioles_at_colorado-rockies": {
-      "league": "MLB",
-      "away_team": "Baltimore Orioles",
-      "home_team": "Colorado Rockies",
-      "commence_time": "2026-09-02T19:11:00Z",
+    "americanfootball_ncaaf_2026-09-05_northwestern-state-demons_at_louisiana-tech-bulldogs": {
+      "league": "NCAAF",
+      "away_team": "Northwestern State Demons",
+      "home_team": "Louisiana Tech Bulldogs",
+      "commence_time": "2026-09-05T23:30:00Z",
       "market_line": {
-        "moneyline": {
-          "Baltimore Orioles": -162,
-          "Colorado Rockies": 139
-        },
+        "moneyline": {},
         "spread": {
-          "Baltimore Orioles": -1.5,
-          "Colorado Rockies": 1.5
+          "Louisiana Tech Bulldogs": -44.5,
+          "Northwestern State Demons": 44.5
         },
-        "total": 11.4,
-        "num_bookmakers": 9
+        "total": 55.4,
+        "num_bookmakers": 4
       },
       "away_team_trends": {
-        "team": "Baltimore Orioles",
-        "last5": "4-1",
-        "streak": "L1",
-        "record": "69-70",
-        "h2h_vs_opponent": {
-          "record_this_season": "1-1",
-          "last_meeting_result": "lost 2-4 on 2026-09-02"
-        }
+        "team": "Northwestern State Demons",
+        "last5": null,
+        "streak": null,
+        "record": null,
+        "h2h_vs_opponent": null
       },
       "home_team_trends": {
-        "team": "Colorado Rockies",
-        "last5": "1-4",
-        "streak": "W1",
-        "record": "53-86",
-        "h2h_vs_opponent": {
-          "record_this_season": "1-1",
-          "last_meeting_result": "won 4-2 on 2026-09-02"
-        }
-      },
-      "weather_at_kickoff": {
-        "high_f": 90.0,
-        "low_f": 59.2,
-        "precipitation_in": 0.0,
-        "wind_mph": 14.1
-      },
-      "probable_pitchers": {
-        "home": {
-          "name": "Tomoyuki Sugano",
-          "era": "5.23",
-          "record": "(12-8, 5.23)"
-        },
-        "away": {
-          "name": "Trevor Rogers",
-          "era": "4.38",
-          "record": "(9-9, 4.38)"
-        }
-      }
-    },
-    "baseball_mlb_2026-09-02_philadelphia-phillies_at_arizona-diamondbacks": {
-      "league": "MLB",
-      "away_team": "Philadelphia Phillies",
-      "home_team": "Arizona Diamondbacks",
-      "commence_time": "2026-09-02T19:41:00Z",
-      "market_line": {
-        "moneyline": {
-          "Arizona Diamondbacks": 112,
-          "Philadelphia Phillies": -130
-        },
-        "spread": {
-          "Arizona Diamondbacks": 1.5,
-          "Philadelphia Phillies": -1.5
-        },
-        "total": 9.1,
-        "num_bookmakers": 9
-      },
-      "away_team_trends": {
-        "team": "Philadelphia Phillies",
-        "last5": "5-0",
-        "streak": "W6",
-        "record": "79-60",
-        "h2h_vs_opponent": {
-          "record_this_season": "3-2",
-          "last_meeting_result": "won 7-1 on 2026-09-02"
-        }
-      },
-      "home_team_trends": {
-        "team": "Arizona Diamondbacks",
-        "last5": "2-3",
-        "streak": "L3",
-        "record": "73-67",
-        "h2h_vs_opponent": {
-          "record_this_season": "2-3",
-          "last_meeting_result": "lost 1-7 on 2026-09-02"
-        }
+        "team": "Louisiana Tech Bulldogs",
+        "last5": null,
+        "streak": null,
+        "record": null,
+        "h2h_vs_opponent": null
       },
       "weather_at_kickoff": null,
       "probable_pitchers": {
-        "home": {
-          "name": "Taylor Clarke",
-          "era": "2.60",
-          "record": "(2-3, 2.60)"
-        },
-        "away": {
-          "name": "Andrew Painter",
-          "era": "5.95",
-          "record": "(3-8, 5.95)"
-        }
+        "home": null,
+        "away": null
       }
     },
-    "baseball_mlb_2026-09-02_seattle-mariners_at_boston-red-sox": {
-      "league": "MLB",
-      "away_team": "Seattle Mariners",
-      "home_team": "Boston Red Sox",
-      "commence_time": "2026-09-02T20:11:00Z",
+    "americanfootball_ncaaf_2026-09-05_ul-monroe-warhawks_at_mississippi-state-bulldogs": {
+      "league": "NCAAF",
+      "away_team": "UL Monroe Warhawks",
+      "home_team": "Mississippi State Bulldogs",
+      "commence_time": "2026-09-05T23:30:00Z",
       "market_line": {
         "moneyline": {
-          "Boston Red Sox": -136,
-          "Seattle Mariners": 118
+          "Mississippi State Bulldogs": -8000,
+          "UL Monroe Warhawks": 1838
         },
         "spread": {
-          "Boston Red Sox": -1.5,
-          "Seattle Mariners": 1.5
+          "Mississippi State Bulldogs": -28.6,
+          "UL Monroe Warhawks": 28.6
         },
-        "total": 8.5,
+        "total": 54.7,
         "num_bookmakers": 9
       },
       "away_team_trends": {
-        "team": "Seattle Mariners",
-        "last5": "1-4",
-        "streak": "W1",
-        "record": "65-74",
-        "h2h_vs_opponent": {
-          "record_this_season": "2-3",
-          "last_meeting_result": "won 9-6 on 2026-09-01"
-        }
+        "team": "UL Monroe Warhawks",
+        "last5": null,
+        "streak": null,
+        "record": null,
+        "h2h_vs_opponent": null
       },
       "home_team_trends": {
-        "team": "Boston Red Sox",
-        "last5": "2-3",
-        "streak": "L1",
-        "record": "75-64",
-        "h2h_vs_opponent": {
-          "record_this_season": "3-2",
-          "last_meeting_result": "lost 6-9 on 2026-09-01"
-        }
-      },
-      "weather_at_kickoff": {
-        "high_f": 72.5,
-        "low_f": 61.1,
-        "precipitation_in": 0.0,
-        "wind_mph": 11.1
-      },
-      "probable_pitchers": {
-        "home": {
-          "name": "Patrick Sandoval",
-          "era": "4.20",
-          "record": "(1-3, 4.20)"
-        },
-        "away": {
-          "name": "Bryce Miller",
-          "era": "4.12",
-          "record": "(4-8, 4.12)"
-        }
-      }
-    },
-    "baseball_mlb_2026-09-02_toronto-blue-jays_at_cleveland-guardians": {
-      "league": "MLB",
-      "away_team": "Toronto Blue Jays",
-      "home_team": "Cleveland Guardians",
-      "commence_time": "2026-09-02T22:41:00Z",
-      "market_line": {
-        "moneyline": {
-          "Cleveland Guardians": 111,
-          "Toronto Blue Jays": -128
-        },
-        "spread": {
-          "Cleveland Guardians": 1.5,
-          "Toronto Blue Jays": -1.5
-        },
-        "total": 7.1,
-        "num_bookmakers": 9
-      },
-      "away_team_trends": {
-        "team": "Toronto Blue Jays",
-        "last5": "3-2",
-        "streak": "L1",
-        "record": "68-71",
-        "h2h_vs_opponent": {
-          "record_this_season": "2-2",
-          "last_meeting_result": "lost 1-6 on 2026-09-01"
-        }
-      },
-      "home_team_trends": {
-        "team": "Cleveland Guardians",
-        "last5": "3-2",
-        "streak": "W2",
-        "record": "70-68",
-        "h2h_vs_opponent": {
-          "record_this_season": "2-2",
-          "last_meeting_result": "won 6-1 on 2026-09-01"
-        }
-      },
-      "weather_at_kickoff": {
-        "high_f": 95.0,
-        "low_f": 75.3,
-        "precipitation_in": 0.0,
-        "wind_mph": 13.2
-      },
-      "probable_pitchers": {
-        "home": {
-          "name": "Joey Cantillo",
-          "era": "3.70",
-          "record": "(9-7, 3.70)"
-        },
-        "away": {
-          "name": "Dylan Cease",
-          "era": "2.33",
-          "record": "(9-5, 2.33)"
-        }
-      }
-    },
-    "baseball_mlb_2026-09-02_new-york-mets_at_tampa-bay-rays": {
-      "league": "MLB",
-      "away_team": "New York Mets",
-      "home_team": "Tampa Bay Rays",
-      "commence_time": "2026-09-02T22:41:00Z",
-      "market_line": {
-        "moneyline": {
-          "New York Mets": 151,
-          "Tampa Bay Rays": -177
-        },
-        "spread": {
-          "New York Mets": 1.4,
-          "Tampa Bay Rays": -1.4
-        },
-        "total": 8.1,
-        "num_bookmakers": 9
-      },
-      "away_team_trends": {
-        "team": "New York Mets",
-        "last5": "2-3",
-        "streak": "L1",
-        "record": "62-77",
-        "h2h_vs_opponent": {
-          "record_this_season": "1-1",
-          "last_meeting_result": "lost 2-6 on 2026-09-01"
-        }
-      },
-      "home_team_trends": {
-        "team": "Tampa Bay Rays",
-        "last5": "4-1",
-        "streak": "W1",
-        "record": "83-55",
-        "h2h_vs_opponent": {
-          "record_this_season": "1-1",
-          "last_meeting_result": "won 6-2 on 2026-09-01"
-        }
+        "team": "Mississippi State Bulldogs",
+        "last5": null,
+        "streak": null,
+        "record": null,
+        "h2h_vs_opponent": null
       },
       "weather_at_kickoff": null,
       "probable_pitchers": {
-        "home": {
-          "name": "Griffin Jax",
-          "era": "3.63",
-          "record": "(6-9, 3.63)"
-        },
-        "away": {
-          "name": "Justin Hagenman",
-          "era": null,
-          "record": ""
-        }
+        "home": null,
+        "away": null
       }
     },
-    "baseball_mlb_2026-09-02_san-francisco-giants_at_pittsburgh-pirates": {
+    "americanfootball_ncaaf_2026-09-05_vmi-keydets_at_virginia-tech-hokies": {
+      "league": "NCAAF",
+      "away_team": "VMI Keydets",
+      "home_team": "Virginia Tech Hokies",
+      "commence_time": "2026-09-05T23:30:00Z",
+      "market_line": {
+        "moneyline": {},
+        "spread": {
+          "Virginia Tech Hokies": -55.5,
+          "VMI Keydets": 55.5
+        },
+        "total": 61.9,
+        "num_bookmakers": 5
+      },
+      "away_team_trends": {
+        "team": "VMI Keydets",
+        "last5": null,
+        "streak": null,
+        "record": null,
+        "h2h_vs_opponent": null
+      },
+      "home_team_trends": {
+        "team": "Virginia Tech Hokies",
+        "last5": null,
+        "streak": null,
+        "record": null,
+        "h2h_vs_opponent": null
+      },
+      "weather_at_kickoff": null,
+      "probable_pitchers": {
+        "home": null,
+        "away": null
+      }
+    },
+    "americanfootball_ncaaf_2026-09-05_florida-atlantic-owls_at_florida-gators": {
+      "league": "NCAAF",
+      "away_team": "Florida Atlantic Owls",
+      "home_team": "Florida Gators",
+      "commence_time": "2026-09-05T23:45:00Z",
+      "market_line": {
+        "moneyline": {
+          "Florida Atlantic Owls": 1567,
+          "Florida Gators": -5744
+        },
+        "spread": {
+          "Florida Atlantic Owls": 26.5,
+          "Florida Gators": -26.5
+        },
+        "total": 59.4,
+        "num_bookmakers": 9
+      },
+      "away_team_trends": {
+        "team": "Florida Atlantic Owls",
+        "last5": "1-0",
+        "streak": "W1",
+        "record": "1-0",
+        "h2h_vs_opponent": null
+      },
+      "home_team_trends": {
+        "team": "Florida Gators",
+        "last5": null,
+        "streak": null,
+        "record": null,
+        "h2h_vs_opponent": null
+      },
+      "weather_at_kickoff": null,
+      "probable_pitchers": {
+        "home": null,
+        "away": null
+      }
+    },
+    "americanfootball_ncaaf_2026-09-06_utah-tech-trailblazers_at_byu-cougars": {
+      "league": "NCAAF",
+      "away_team": "Utah Tech Trailblazers",
+      "home_team": "BYU Cougars",
+      "commence_time": "2026-09-06T00:00:00Z",
+      "market_line": {
+        "moneyline": {},
+        "spread": {
+          "BYU Cougars": -51.4,
+          "Utah Tech Trailblazers": 51.4
+        },
+        "total": 61.4,
+        "num_bookmakers": 5
+      },
+      "away_team_trends": {
+        "team": "Utah Tech Trailblazers",
+        "last5": null,
+        "streak": null,
+        "record": null,
+        "h2h_vs_opponent": null
+      },
+      "home_team_trends": {
+        "team": "BYU Cougars",
+        "last5": null,
+        "streak": null,
+        "record": null,
+        "h2h_vs_opponent": null
+      },
+      "weather_at_kickoff": null,
+      "probable_pitchers": {
+        "home": null,
+        "away": null
+      }
+    },
+    "americanfootball_ncaaf_2026-09-06_lamar-cardinals_at_louisiana-ragin-cajuns": {
+      "league": "NCAAF",
+      "away_team": "Lamar Cardinals",
+      "home_team": "Louisiana Ragin Cajuns",
+      "commence_time": "2026-09-06T00:00:00Z",
+      "market_line": {
+        "moneyline": {
+          "Lamar Cardinals": 930,
+          "Louisiana Ragin Cajuns": -2078
+        },
+        "spread": {
+          "Lamar Cardinals": 19.5,
+          "Louisiana Ragin Cajuns": -19.5
+        },
+        "total": 48.8,
+        "num_bookmakers": 5
+      },
+      "away_team_trends": {
+        "team": "Lamar Cardinals",
+        "last5": "1-0",
+        "streak": "W1",
+        "record": "1-0",
+        "h2h_vs_opponent": null
+      },
+      "home_team_trends": {
+        "team": "Louisiana Ragin Cajuns",
+        "last5": null,
+        "streak": null,
+        "record": null,
+        "h2h_vs_opponent": null
+      },
+      "weather_at_kickoff": null,
+      "probable_pitchers": {
+        "home": null,
+        "away": null
+      }
+    },
+    "americanfootball_ncaaf_2026-09-06_south-dakota-state-jackrabbits_at_northwestern-wildcats": {
+      "league": "NCAAF",
+      "away_team": "South Dakota State Jackrabbits",
+      "home_team": "Northwestern Wildcats",
+      "commence_time": "2026-09-06T00:00:00Z",
+      "market_line": {
+        "moneyline": {
+          "Northwestern Wildcats": -687,
+          "South Dakota State Jackrabbits": 455
+        },
+        "spread": {
+          "Northwestern Wildcats": -13.5,
+          "South Dakota State Jackrabbits": 13.5
+        },
+        "total": 46.6,
+        "num_bookmakers": 5
+      },
+      "away_team_trends": {
+        "team": "South Dakota State Jackrabbits",
+        "last5": null,
+        "streak": null,
+        "record": null,
+        "h2h_vs_opponent": null
+      },
+      "home_team_trends": {
+        "team": "Northwestern Wildcats",
+        "last5": null,
+        "streak": null,
+        "record": null,
+        "h2h_vs_opponent": null
+      },
+      "weather_at_kickoff": null,
+      "probable_pitchers": {
+        "home": null,
+        "away": null
+      }
+    },
+    "americanfootball_ncaaf_2026-09-06_unlv-rebels_at_hawaii-rainbow-warriors": {
+      "league": "NCAAF",
+      "away_team": "UNLV Rebels",
+      "home_team": "Hawaii Rainbow Warriors",
+      "commence_time": "2026-09-06T01:00:00Z",
+      "market_line": {
+        "moneyline": {
+          "Hawaii Rainbow Warriors": 127,
+          "UNLV Rebels": -151
+        },
+        "spread": {
+          "Hawaii Rainbow Warriors": 3.1,
+          "UNLV Rebels": -3.1
+        },
+        "total": 56.3,
+        "num_bookmakers": 9
+      },
+      "away_team_trends": {
+        "team": "UNLV Rebels",
+        "last5": null,
+        "streak": null,
+        "record": null,
+        "h2h_vs_opponent": null
+      },
+      "home_team_trends": {
+        "team": "Hawaii Rainbow Warriors",
+        "last5": "0-1",
+        "streak": "L1",
+        "record": "0-1",
+        "h2h_vs_opponent": null
+      },
+      "weather_at_kickoff": null,
+      "probable_pitchers": {
+        "home": null,
+        "away": null
+      }
+    },
+    "americanfootball_ncaaf_2026-09-06_mercyhurst-lakers_at_new-mexico-state-aggies": {
+      "league": "NCAAF",
+      "away_team": "Mercyhurst Lakers",
+      "home_team": "New Mexico State Aggies",
+      "commence_time": "2026-09-06T01:00:00Z",
+      "market_line": {
+        "moneyline": {
+          "Mercyhurst Lakers": 2300,
+          "New Mexico State Aggies": -9000
+        },
+        "spread": {
+          "Mercyhurst Lakers": 28.3,
+          "New Mexico State Aggies": -28.3
+        },
+        "total": 52.1,
+        "num_bookmakers": 5
+      },
+      "away_team_trends": {
+        "team": "Mercyhurst Lakers",
+        "last5": null,
+        "streak": null,
+        "record": null,
+        "h2h_vs_opponent": null
+      },
+      "home_team_trends": {
+        "team": "New Mexico State Aggies",
+        "last5": null,
+        "streak": null,
+        "record": null,
+        "h2h_vs_opponent": null
+      },
+      "weather_at_kickoff": null,
+      "probable_pitchers": {
+        "home": null,
+        "away": null
+      }
+    },
+    "americanfootball_ncaaf_2026-09-06_northern-arizona-lumberjacks_at_arizona-wildcats": {
+      "league": "NCAAF",
+      "away_team": "Northern Arizona Lumberjacks",
+      "home_team": "Arizona Wildcats",
+      "commence_time": "2026-09-06T01:30:00Z",
+      "market_line": {
+        "moneyline": {
+          "Arizona Wildcats": -8000,
+          "Northern Arizona Lumberjacks": 2200
+        },
+        "spread": {
+          "Arizona Wildcats": -31.8,
+          "Northern Arizona Lumberjacks": 31.8
+        },
+        "total": 58.0,
+        "num_bookmakers": 4
+      },
+      "away_team_trends": {
+        "team": "Northern Arizona Lumberjacks",
+        "last5": null,
+        "streak": null,
+        "record": null,
+        "h2h_vs_opponent": null
+      },
+      "home_team_trends": {
+        "team": "Arizona Wildcats",
+        "last5": null,
+        "streak": null,
+        "record": null,
+        "h2h_vs_opponent": null
+      },
+      "weather_at_kickoff": null,
+      "probable_pitchers": {
+        "home": null,
+        "away": null
+      }
+    },
+    "americanfootball_ncaaf_2026-09-06_portland-state-vikings_at_san-diego-state-aztecs": {
+      "league": "NCAAF",
+      "away_team": "Portland State Vikings",
+      "home_team": "San Diego State Aztecs",
+      "commence_time": "2026-09-06T01:30:00Z",
+      "market_line": {
+        "moneyline": {},
+        "spread": {
+          "Portland State Vikings": 40.1,
+          "San Diego State Aztecs": -40.1
+        },
+        "total": 62.0,
+        "num_bookmakers": 5
+      },
+      "away_team_trends": {
+        "team": "Portland State Vikings",
+        "last5": null,
+        "streak": null,
+        "record": null,
+        "h2h_vs_opponent": null
+      },
+      "home_team_trends": {
+        "team": "San Diego State Aztecs",
+        "last5": null,
+        "streak": null,
+        "record": null,
+        "h2h_vs_opponent": null
+      },
+      "weather_at_kickoff": null,
+      "probable_pitchers": {
+        "home": null,
+        "away": null
+      }
+    },
+    "americanfootball_ncaaf_2026-09-06_morgan-state-bears_at_arizona-state-sun-devils": {
+      "league": "NCAAF",
+      "away_team": "Morgan State Bears",
+      "home_team": "Arizona State Sun Devils",
+      "commence_time": "2026-09-06T02:00:00Z",
+      "market_line": {
+        "moneyline": {},
+        "spread": {
+          "Arizona State Sun Devils": -43.5,
+          "Morgan State Bears": 43.5
+        },
+        "total": 52.7,
+        "num_bookmakers": 5
+      },
+      "away_team_trends": {
+        "team": "Morgan State Bears",
+        "last5": null,
+        "streak": null,
+        "record": null,
+        "h2h_vs_opponent": null
+      },
+      "home_team_trends": {
+        "team": "Arizona State Sun Devils",
+        "last5": null,
+        "streak": null,
+        "record": null,
+        "h2h_vs_opponent": null
+      },
+      "weather_at_kickoff": null,
+      "probable_pitchers": {
+        "home": null,
+        "away": null
+      }
+    },
+    "americanfootball_ncaaf_2026-09-06_central-michigan-chippewas_at_new-mexico-lobos": {
+      "league": "NCAAF",
+      "away_team": "Central Michigan Chippewas",
+      "home_team": "New Mexico Lobos",
+      "commence_time": "2026-09-06T02:00:00Z",
+      "market_line": {
+        "moneyline": {
+          "Central Michigan Chippewas": 348,
+          "New Mexico Lobos": -461
+        },
+        "spread": {
+          "Central Michigan Chippewas": 10.7,
+          "New Mexico Lobos": -10.7
+        },
+        "total": 46.4,
+        "num_bookmakers": 9
+      },
+      "away_team_trends": {
+        "team": "Central Michigan Chippewas",
+        "last5": null,
+        "streak": null,
+        "record": null,
+        "h2h_vs_opponent": null
+      },
+      "home_team_trends": {
+        "team": "New Mexico Lobos",
+        "last5": null,
+        "streak": null,
+        "record": null,
+        "h2h_vs_opponent": null
+      },
+      "weather_at_kickoff": null,
+      "probable_pitchers": {
+        "home": null,
+        "away": null
+      }
+    },
+    "americanfootball_ncaaf_2026-09-06_mississippi-valley-state-delta-devils_at_sacramento-state-hornets": {
+      "league": "NCAAF",
+      "away_team": "Mississippi Valley State Delta Devils",
+      "home_team": "Sacramento State Hornets",
+      "commence_time": "2026-09-06T02:00:00Z",
+      "market_line": {
+        "moneyline": {},
+        "spread": {
+          "Mississippi Valley State Delta Devils": 37.7,
+          "Sacramento State Hornets": -37.7
+        },
+        "total": 56.7,
+        "num_bookmakers": 5
+      },
+      "away_team_trends": {
+        "team": "Mississippi Valley State Delta Devils",
+        "last5": null,
+        "streak": null,
+        "record": null,
+        "h2h_vs_opponent": null
+      },
+      "home_team_trends": {
+        "team": "Sacramento State Hornets",
+        "last5": "0-1",
+        "streak": "L1",
+        "record": "0-1",
+        "h2h_vs_opponent": null
+      },
+      "weather_at_kickoff": null,
+      "probable_pitchers": {
+        "home": null,
+        "away": null
+      }
+    },
+    "americanfootball_ncaaf_2026-09-06_ucla-bruins_at_california-golden-bears": {
+      "league": "NCAAF",
+      "away_team": "UCLA Bruins",
+      "home_team": "California Golden Bears",
+      "commence_time": "2026-09-06T02:30:00Z",
+      "market_line": {
+        "moneyline": {
+          "California Golden Bears": 107,
+          "UCLA Bruins": -128
+        },
+        "spread": {
+          "California Golden Bears": 1.8,
+          "UCLA Bruins": -1.8
+        },
+        "total": 53.4,
+        "num_bookmakers": 9
+      },
+      "away_team_trends": {
+        "team": "UCLA Bruins",
+        "last5": null,
+        "streak": null,
+        "record": null,
+        "h2h_vs_opponent": null
+      },
+      "home_team_trends": {
+        "team": "California Golden Bears",
+        "last5": null,
+        "streak": null,
+        "record": null,
+        "h2h_vs_opponent": null
+      },
+      "weather_at_kickoff": null,
+      "probable_pitchers": {
+        "home": null,
+        "away": null
+      }
+    },
+    "americanfootball_ncaaf_2026-09-06_western-kentucky-hilltoppers_at_nevada-wolf-pack": {
+      "league": "NCAAF",
+      "away_team": "Western Kentucky Hilltoppers",
+      "home_team": "Nevada Wolf Pack",
+      "commence_time": "2026-09-06T02:30:00Z",
+      "market_line": {
+        "moneyline": {
+          "Nevada Wolf Pack": -81,
+          "Western Kentucky Hilltoppers": -117
+        },
+        "spread": {
+          "Nevada Wolf Pack": 1.3,
+          "Western Kentucky Hilltoppers": -1.3
+        },
+        "total": 52.5,
+        "num_bookmakers": 9
+      },
+      "away_team_trends": {
+        "team": "Western Kentucky Hilltoppers",
+        "last5": null,
+        "streak": null,
+        "record": null,
+        "h2h_vs_opponent": null
+      },
+      "home_team_trends": {
+        "team": "Nevada Wolf Pack",
+        "last5": null,
+        "streak": null,
+        "record": null,
+        "h2h_vs_opponent": null
+      },
+      "weather_at_kickoff": null,
+      "probable_pitchers": {
+        "home": null,
+        "away": null
+      }
+    },
+    "americanfootball_ncaaf_2026-09-06_hampton-pirates_at_maryland-terrapins": {
+      "league": "NCAAF",
+      "away_team": "Hampton Pirates",
+      "home_team": "Maryland Terrapins",
+      "commence_time": "2026-09-06T00:00:00Z",
+      "market_line": {
+        "moneyline": {},
+        "spread": {
+          "Hampton Pirates": 45.5,
+          "Maryland Terrapins": -45.5
+        },
+        "total": 56.7,
+        "num_bookmakers": 5
+      },
+      "away_team_trends": {
+        "team": "Hampton Pirates",
+        "last5": null,
+        "streak": null,
+        "record": null,
+        "h2h_vs_opponent": null
+      },
+      "home_team_trends": {
+        "team": "Maryland Terrapins",
+        "last5": null,
+        "streak": null,
+        "record": null,
+        "h2h_vs_opponent": null
+      },
+      "weather_at_kickoff": null,
+      "probable_pitchers": {
+        "home": null,
+        "away": null
+      }
+    },
+    "baseball_mlb_2026-09-03_san-francisco-giants_at_pittsburgh-pirates": {
       "league": "MLB",
       "away_team": "San Francisco Giants",
       "home_team": "Pittsburgh Pirates",
-      "commence_time": "2026-09-02T22:41:00Z",
+      "commence_time": "2026-09-03T16:35:00Z",
       "market_line": {
         "moneyline": {
-          "Pittsburgh Pirates": -152,
-          "San Francisco Giants": 130
+          "Pittsburgh Pirates": -166,
+          "San Francisco Giants": 142
         },
         "spread": {
           "Pittsburgh Pirates": -1.5,
           "San Francisco Giants": 1.5
         },
-        "total": 8.6,
+        "total": 9.0,
         "num_bookmakers": 9
       },
       "away_team_trends": {
         "team": "San Francisco Giants",
-        "last5": "2-3",
-        "streak": "L1",
-        "record": "57-82",
+        "last5": "3-2",
+        "streak": "W1",
+        "record": "58-82",
         "h2h_vs_opponent": {
-          "record_this_season": "2-2",
-          "last_meeting_result": "lost 12-13 on 2026-09-01"
+          "record_this_season": "3-2",
+          "last_meeting_result": "won 5-4 on 2026-09-02"
         }
       },
       "home_team_trends": {
         "team": "Pittsburgh Pirates",
         "last5": "3-2",
-        "streak": "W3",
-        "record": "68-71",
+        "streak": "L1",
+        "record": "68-72",
         "h2h_vs_opponent": {
-          "record_this_season": "2-2",
-          "last_meeting_result": "won 13-12 on 2026-09-01"
+          "record_this_season": "2-3",
+          "last_meeting_result": "lost 4-5 on 2026-09-02"
         }
       },
       "weather_at_kickoff": {
-        "high_f": 94.6,
-        "low_f": 72.2,
+        "high_f": 93.6,
+        "low_f": 72.9,
         "precipitation_in": 0.0,
-        "wind_mph": 10.4
+        "wind_mph": 11.6
       },
       "probable_pitchers": {
         "home": {
-          "name": "Bubba Chandler",
-          "era": "4.26",
-          "record": "(6-9, 4.26)"
+          "name": "Lake Bachar",
+          "era": "3.70",
+          "record": "(1-3, 3.70)"
         },
         "away": {
-          "name": "Landen Roupp",
-          "era": "4.25",
-          "record": "(8-13, 4.25)"
+          "name": "Blade Tidwell",
+          "era": "4.54",
+          "record": "(0-1, 4.54)"
         }
       }
     },
-    "baseball_mlb_2026-09-02_milwaukee-brewers_at_chicago-cubs": {
+    "baseball_mlb_2026-09-03_toronto-blue-jays_at_cleveland-guardians": {
+      "league": "MLB",
+      "away_team": "Toronto Blue Jays",
+      "home_team": "Cleveland Guardians",
+      "commence_time": "2026-09-03T17:10:00Z",
+      "market_line": {
+        "moneyline": {
+          "Cleveland Guardians": -112,
+          "Toronto Blue Jays": -37
+        },
+        "spread": {
+          "Cleveland Guardians": 1.2,
+          "Toronto Blue Jays": -1.2
+        },
+        "total": 7.8,
+        "num_bookmakers": 9
+      },
+      "away_team_trends": {
+        "team": "Toronto Blue Jays",
+        "last5": "4-1",
+        "streak": "W1",
+        "record": "69-71",
+        "h2h_vs_opponent": {
+          "record_this_season": "3-2",
+          "last_meeting_result": "won 11-0 on 2026-09-02"
+        }
+      },
+      "home_team_trends": {
+        "team": "Cleveland Guardians",
+        "last5": "2-3",
+        "streak": "L1",
+        "record": "70-69",
+        "h2h_vs_opponent": {
+          "record_this_season": "2-3",
+          "last_meeting_result": "lost 0-11 on 2026-09-02"
+        }
+      },
+      "weather_at_kickoff": {
+        "high_f": 90.3,
+        "low_f": 71.2,
+        "precipitation_in": 0.071,
+        "wind_mph": 24.4
+      },
+      "probable_pitchers": {
+        "home": {
+          "name": "Tanner Bibee",
+          "era": "3.88",
+          "record": "(5-14, 3.88)"
+        },
+        "away": {
+          "name": "Jose Soriano",
+          "era": "3.45",
+          "record": "(11-7, 3.45)"
+        }
+      }
+    },
+    "baseball_mlb_2026-09-03_boston-red-sox_at_baltimore-orioles": {
+      "league": "MLB",
+      "away_team": "Boston Red Sox",
+      "home_team": "Baltimore Orioles",
+      "commence_time": "2026-09-03T23:15:00Z",
+      "market_line": {
+        "moneyline": {
+          "Baltimore Orioles": 106,
+          "Boston Red Sox": -123
+        },
+        "spread": {
+          "Baltimore Orioles": 1.5,
+          "Boston Red Sox": -1.5
+        },
+        "total": 8.5,
+        "num_bookmakers": 9
+      },
+      "away_team_trends": {
+        "team": "Boston Red Sox",
+        "last5": "1-4",
+        "streak": "L2",
+        "record": "75-65",
+        "h2h_vs_opponent": {
+          "record_this_season": "5-4",
+          "last_meeting_result": "lost 1-5 on 2026-07-22"
+        }
+      },
+      "home_team_trends": {
+        "team": "Baltimore Orioles",
+        "last5": "3-2",
+        "streak": "L2",
+        "record": "69-71",
+        "h2h_vs_opponent": {
+          "record_this_season": "4-5",
+          "last_meeting_result": "won 5-1 on 2026-07-22"
+        }
+      },
+      "weather_at_kickoff": {
+        "high_f": 92.9,
+        "low_f": 72.8,
+        "precipitation_in": 0.0,
+        "wind_mph": 9.0
+      },
+      "probable_pitchers": {
+        "home": {
+          "name": "Brandon Young",
+          "era": "3.38",
+          "record": "(9-3, 3.38)"
+        },
+        "away": {
+          "name": "Jake Bennett",
+          "era": "3.27",
+          "record": "(9-6, 3.27)"
+        }
+      }
+    },
+    "baseball_mlb_2026-09-03_milwaukee-brewers_at_chicago-cubs": {
       "league": "MLB",
       "away_team": "Milwaukee Brewers",
       "home_team": "Chicago Cubs",
-      "commence_time": "2026-09-02T23:41:00Z",
+      "commence_time": "2026-09-03T23:15:00Z",
       "market_line": {
         "moneyline": {
-          "Chicago Cubs": 135,
-          "Milwaukee Brewers": -157
+          "Chicago Cubs": -37,
+          "Milwaukee Brewers": -113
         },
         "spread": {
           "Chicago Cubs": 1.5,
           "Milwaukee Brewers": -1.5
         },
-        "total": 8.4,
+        "total": 8.3,
         "num_bookmakers": 9
       },
       "away_team_trends": {
         "team": "Milwaukee Brewers",
         "last5": "3-2",
-        "streak": "W1",
-        "record": "86-53",
+        "streak": "W2",
+        "record": "87-53",
         "h2h_vs_opponent": {
-          "record_this_season": "5-3",
-          "last_meeting_result": "won 9-4 on 2026-09-01"
+          "record_this_season": "6-3",
+          "last_meeting_result": "won 9-5 on 2026-09-02"
         }
       },
       "home_team_trends": {
         "team": "Chicago Cubs",
         "last5": "2-3",
-        "streak": "L1",
-        "record": "78-61",
+        "streak": "L2",
+        "record": "78-62",
         "h2h_vs_opponent": {
-          "record_this_season": "3-5",
-          "last_meeting_result": "lost 4-9 on 2026-09-01"
+          "record_this_season": "3-6",
+          "last_meeting_result": "lost 5-9 on 2026-09-02"
         }
       },
-      "weather_at_kickoff": null,
+      "weather_at_kickoff": {
+        "high_f": 86.9,
+        "low_f": 74.3,
+        "precipitation_in": 0.0,
+        "wind_mph": 14.5
+      },
       "probable_pitchers": {
         "home": {
-          "name": "David Peterson",
-          "era": "5.11",
-          "record": "(7-7, 5.11)"
+          "name": "Kevin Gausman",
+          "era": "4.52",
+          "record": "(8-11, 4.52)"
         },
         "away": {
-          "name": "Jacob Misiorowski",
-          "era": "1.73",
-          "record": "(14-5, 1.73)"
+          "name": "Logan Henderson",
+          "era": "2.48",
+          "record": "(9-2, 2.48)"
         }
       }
     },
-    "baseball_mlb_2026-09-02_detroit-tigers_at_minnesota-twins": {
-      "league": "MLB",
-      "away_team": "Detroit Tigers",
-      "home_team": "Minnesota Twins",
-      "commence_time": "2026-09-02T23:41:00Z",
-      "market_line": {
-        "moneyline": {
-          "Detroit Tigers": -81,
-          "Minnesota Twins": -113
-        },
-        "spread": {
-          "Detroit Tigers": 0.0,
-          "Minnesota Twins": 0.0
-        },
-        "total": 8.5,
-        "num_bookmakers": 9
-      },
-      "away_team_trends": {
-        "team": "Detroit Tigers",
-        "last5": "1-4",
-        "streak": "L3",
-        "record": "63-75",
-        "h2h_vs_opponent": {
-          "record_this_season": "2-7",
-          "last_meeting_result": "lost 2-15 on 2026-09-01"
-        }
-      },
-      "home_team_trends": {
-        "team": "Minnesota Twins",
-        "last5": "3-2",
-        "streak": "W3",
-        "record": "67-72",
-        "h2h_vs_opponent": {
-          "record_this_season": "7-2",
-          "last_meeting_result": "won 15-2 on 2026-09-01"
-        }
-      },
-      "weather_at_kickoff": null,
-      "probable_pitchers": {
-        "home": {
-          "name": "Dean Kremer",
-          "era": "5.60",
-          "record": "(2-5, 5.60)"
-        },
-        "away": {
-          "name": "Drew Anderson",
-          "era": "3.87",
-          "record": "(4-5, 3.87)"
-        }
-      }
-    },
-    "baseball_mlb_2026-09-02_miami-marlins_at_kansas-city-royals": {
+    "baseball_mlb_2026-09-03_miami-marlins_at_kansas-city-royals": {
       "league": "MLB",
       "away_team": "Miami Marlins",
       "home_team": "Kansas City Royals",
-      "commence_time": "2026-09-02T23:41:00Z",
+      "commence_time": "2026-09-03T23:40:00Z",
       "market_line": {
         "moneyline": {
-          "Kansas City Royals": -111,
-          "Miami Marlins": -105
+          "Kansas City Royals": -115,
+          "Miami Marlins": -34
         },
         "spread": {
-          "Kansas City Royals": 0.2,
-          "Miami Marlins": -0.2
+          "Kansas City Royals": 1.2,
+          "Miami Marlins": -1.2
         },
-        "total": 8.9,
+        "total": 9.0,
         "num_bookmakers": 9
       },
       "away_team_trends": {
         "team": "Miami Marlins",
-        "last5": "2-3",
-        "streak": "W1",
-        "record": "70-69",
+        "last5": "3-2",
+        "streak": "W2",
+        "record": "71-69",
         "h2h_vs_opponent": {
-          "record_this_season": "1-0",
-          "last_meeting_result": "won 6-3 on 2026-09-01"
+          "record_this_season": "2-0",
+          "last_meeting_result": "won 9-6 on 2026-09-02"
         }
       },
       "home_team_trends": {
         "team": "Kansas City Royals",
-        "last5": "3-2",
-        "streak": "L2",
-        "record": "62-77",
+        "last5": "2-3",
+        "streak": "L3",
+        "record": "62-78",
         "h2h_vs_opponent": {
-          "record_this_season": "0-1",
-          "last_meeting_result": "lost 3-6 on 2026-09-01"
+          "record_this_season": "0-2",
+          "last_meeting_result": "lost 6-9 on 2026-09-02"
         }
       },
-      "weather_at_kickoff": null,
+      "weather_at_kickoff": {
+        "high_f": 100.0,
+        "low_f": 79.3,
+        "precipitation_in": 0.0,
+        "wind_mph": 12.4
+      },
       "probable_pitchers": {
         "home": {
-          "name": "Noah Cameron",
-          "era": "3.98",
-          "record": "(9-8, 3.98)"
+          "name": "Michael Wacha",
+          "era": "3.32",
+          "record": "(8-8, 3.32)"
         },
         "away": {
-          "name": "Eury Perez",
-          "era": "3.44",
-          "record": "(7-10, 3.44)"
+          "name": "Sandy Alcantara",
+          "era": "3.46",
+          "record": "(13-8, 3.46)"
         }
       }
     },
-    "baseball_mlb_2026-09-03_chicago-white-sox_at_houston-astros": {
+    "baseball_mlb_2026-09-04_tampa-bay-rays_at_texas-rangers": {
       "league": "MLB",
-      "away_team": "Chicago White Sox",
-      "home_team": "Houston Astros",
-      "commence_time": "2026-09-03T00:11:00Z",
+      "away_team": "Tampa Bay Rays",
+      "home_team": "Texas Rangers",
+      "commence_time": "2026-09-04T00:05:00Z",
       "market_line": {
         "moneyline": {
-          "Chicago White Sox": 119,
-          "Houston Astros": -138
+          "Tampa Bay Rays": -126,
+          "Texas Rangers": 108
         },
         "spread": {
-          "Chicago White Sox": 1.5,
-          "Houston Astros": -1.5
+          "Tampa Bay Rays": -1.5,
+          "Texas Rangers": 1.5
         },
-        "total": 8.5,
+        "total": 7.8,
         "num_bookmakers": 9
       },
       "away_team_trends": {
-        "team": "Chicago White Sox",
-        "last5": "3-2",
-        "streak": "W1",
-        "record": "73-65",
-        "h2h_vs_opponent": {
-          "record_this_season": "2-3",
-          "last_meeting_result": "won 5-1 on 2026-09-02"
-        }
-      },
-      "home_team_trends": {
-        "team": "Houston Astros",
+        "team": "Tampa Bay Rays",
         "last5": "3-2",
         "streak": "L1",
-        "record": "70-69",
+        "record": "83-56",
         "h2h_vs_opponent": {
-          "record_this_season": "3-2",
-          "last_meeting_result": "lost 1-5 on 2026-09-02"
+          "record_this_season": "2-1",
+          "last_meeting_result": "won 3-2 on 2026-07-30"
+        }
+      },
+      "home_team_trends": {
+        "team": "Texas Rangers",
+        "last5": "3-2",
+        "streak": "L1",
+        "record": "69-71",
+        "h2h_vs_opponent": {
+          "record_this_season": "1-2",
+          "last_meeting_result": "lost 2-3 on 2026-07-30"
         }
       },
       "weather_at_kickoff": null,
       "probable_pitchers": {
         "home": {
-          "name": "Hunter Brown",
-          "era": "3.33",
-          "record": "(4-3, 3.33)"
+          "name": "Kumar Rocker",
+          "era": "4.44",
+          "record": "(5-10, 4.44)"
         },
         "away": {
-          "name": "Luis Castillo",
-          "era": "5.31",
-          "record": "(4-10, 5.31)"
+          "name": "Nick Martinez",
+          "era": "2.99",
+          "record": "(13-4, 2.99)"
         }
       }
     },
-    "baseball_mlb_2026-09-03_new-york-yankees_at_los-angeles-angels": {
+    "baseball_mlb_2026-09-04_athletics_at_seattle-mariners": {
       "league": "MLB",
-      "away_team": "New York Yankees",
-      "home_team": "Los Angeles Angels",
-      "commence_time": "2026-09-03T01:39:00Z",
+      "away_team": "Athletics",
+      "home_team": "Seattle Mariners",
+      "commence_time": "2026-09-04T01:40:00Z",
       "market_line": {
         "moneyline": {
-          "Los Angeles Angels": 140,
-          "New York Yankees": -163
+          "Athletics": 178,
+          "Seattle Mariners": -211
         },
         "spread": {
-          "Los Angeles Angels": 1.5,
-          "New York Yankees": -1.5
+          "Athletics": 1.5,
+          "Seattle Mariners": -1.5
         },
-        "total": 6.8,
+        "total": 7.0,
         "num_bookmakers": 9
       },
       "away_team_trends": {
-        "team": "New York Yankees",
-        "last5": "3-2",
-        "streak": "W1",
-        "record": "80-59",
-        "h2h_vs_opponent": {
-          "record_this_season": "3-3",
-          "last_meeting_result": "won 7-3 on 2026-09-02"
-        }
-      },
-      "home_team_trends": {
-        "team": "Los Angeles Angels",
+        "team": "Athletics",
         "last5": "1-4",
-        "streak": "L1",
-        "record": "54-85",
+        "streak": "W1",
+        "record": "54-86",
         "h2h_vs_opponent": {
-          "record_this_season": "3-3",
-          "last_meeting_result": "lost 3-7 on 2026-09-02"
+          "record_this_season": "2-4",
+          "last_meeting_result": "lost 1-9 on 2026-05-27"
+        }
+      },
+      "home_team_trends": {
+        "team": "Seattle Mariners",
+        "last5": "2-3",
+        "streak": "W2",
+        "record": "66-74",
+        "h2h_vs_opponent": {
+          "record_this_season": "4-2",
+          "last_meeting_result": "won 9-1 on 2026-05-27"
+        }
+      },
+      "weather_at_kickoff": null,
+      "probable_pitchers": {
+        "home": {
+          "name": "Logan Gilbert",
+          "era": "3.42",
+          "record": "(11-8, 3.42)"
+        },
+        "away": {
+          "name": "J.T. Ginn",
+          "era": "3.71",
+          "record": "(9-8, 3.71)"
+        }
+      }
+    },
+    "baseball_mlb_2026-09-04_st.-louis-cardinals_at_los-angeles-dodgers": {
+      "league": "MLB",
+      "away_team": "St. Louis Cardinals",
+      "home_team": "Los Angeles Dodgers",
+      "commence_time": "2026-09-04T02:10:00Z",
+      "market_line": {
+        "moneyline": {
+          "Los Angeles Dodgers": -296,
+          "St. Louis Cardinals": 246
+        },
+        "spread": {
+          "Los Angeles Dodgers": -1.6,
+          "St. Louis Cardinals": 1.6
+        },
+        "total": 7.7,
+        "num_bookmakers": 9
+      },
+      "away_team_trends": {
+        "team": "St. Louis Cardinals",
+        "last5": "3-2",
+        "streak": "W2",
+        "record": "70-70",
+        "h2h_vs_opponent": {
+          "record_this_season": "4-1",
+          "last_meeting_result": "won 8-6 on 2026-09-03"
+        }
+      },
+      "home_team_trends": {
+        "team": "Los Angeles Dodgers",
+        "last5": "2-3",
+        "streak": "L2",
+        "record": "79-60",
+        "h2h_vs_opponent": {
+          "record_this_season": "1-4",
+          "last_meeting_result": "lost 6-8 on 2026-09-03"
         }
       },
       "weather_at_kickoff": null,
       "probable_pitchers": {
         "home": null,
         "away": null
-      }
-    },
-    "baseball_mlb_2026-09-03_st.-louis-cardinals_at_los-angeles-dodgers": {
-      "league": "MLB",
-      "away_team": "St. Louis Cardinals",
-      "home_team": "Los Angeles Dodgers",
-      "commence_time": "2026-09-03T02:11:00Z",
-      "market_line": {
-        "moneyline": {
-          "Los Angeles Dodgers": -250,
-          "St. Louis Cardinals": 206
-        },
-        "spread": {
-          "Los Angeles Dodgers": -1.5,
-          "St. Louis Cardinals": 1.5
-        },
-        "total": 7.9,
-        "num_bookmakers": 7
-      },
-      "away_team_trends": {
-        "team": "St. Louis Cardinals",
-        "last5": "3-2",
-        "streak": "W1",
-        "record": "69-70",
-        "h2h_vs_opponent": {
-          "record_this_season": "3-1",
-          "last_meeting_result": "won 13-8 on 2026-09-02"
-        }
-      },
-      "home_team_trends": {
-        "team": "Los Angeles Dodgers",
-        "last5": "2-3",
-        "streak": "L1",
-        "record": "79-59",
-        "h2h_vs_opponent": {
-          "record_this_season": "1-3",
-          "last_meeting_result": "lost 8-13 on 2026-09-02"
-        }
-      },
-      "weather_at_kickoff": null,
-      "probable_pitchers": {
-        "home": {
-          "name": "Tarik Skubal",
-          "era": "2.84",
-          "record": "(8-7, 2.84)"
-        },
-        "away": {
-          "name": "Quinn Mathews",
-          "era": "5.03",
-          "record": "(1-2, 5.03)"
-        }
       }
     }
   }
