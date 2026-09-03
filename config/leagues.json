@@ -1,5 +1,5 @@
 {
-  "_comment": "One entry per league you want covered. 'odds_api_key' must match a sport key from https://api.the-odds-api.com/v4/sports (run scripts/list_sports.py with your key to double check — these change occasionally). 'espn_sport'/'espn_league' are used to pull recent form/streaks/H2H from ESPN's public scoreboard API (no key required). Set 'outdoor' to true for leagues where weather should be factored in.",
+  "_comment": "One entry per league you want covered. 'odds_api_key' must match a sport key from https://api.the-odds-api.com/v4/sports (run scripts/list_sports.py with your key to double check \u2014 these change occasionally). 'espn_sport'/'espn_league' are used to pull recent form/streaks/H2H from ESPN's public scoreboard API (no key required). Set 'outdoor' to true for leagues where weather should be factored in.",
   "leagues": [
     {
       "name": "NFL",
@@ -25,7 +25,7 @@
   ],
   "settings": {
     "min_confidence_to_show": 55,
-    "days_of_upcoming_odds": 3,
+    "days_of_upcoming_odds": 5,
     "track_record_window_days": 7,
     "claude_model": "claude-sonnet-5",
     "site_title": "Steven's Bet Tracker",

@@ -7802,14 +7802,12 @@
     "prediction": {
       "predicted_winner": "Missouri Tigers",
       "predicted_against_spread": "Arkansas Pine Bluff Golden Lions",
-      "confidence": 55,
+      "confidence": 96,
       "key_factors": [
-        "Missouri massive favorite vs FCS opponent",
-        "54.5 spread is extremely large, hardest to cover",
-        "High total (60.6) suggests some offensive output allowed"
+        "SEC host vs a SWAC (FCS) visitor; Missouri priced -100000",
+        "No trend data provided, and none is needed for the outright result"
       ],
-      "reasoning": "Missouri will win easily against an FCS opponent, but a 54.5 point spread is nearly impossible to reliably cover due to backup rotations and clock management in the second half. Take the extreme underdog against the number.",
-      "confidence_reasoning": null,
+      "reasoning": "Missouri wins this by four-plus touchdowns as a near-certainty; 55.4 is an enormous number that running clock and backups usually cap, so the sliver of value is Arkansas-Pine Bluff plus the points.",
       "context_used": {
         "away_trends": {
           "team": "Arkansas Pine Bluff Golden Lions",
@@ -7831,7 +7829,7 @@
           "away": null
         }
       },
-      "generated_at": "2026-09-02T15:15:02.125319+00:00",
+      "generated_at": "2026-09-03T22:35:41.064068+00:00",
       "model": "claude (cowork session, manual)",
       "line_at_prediction": {
         "moneyline": {},
@@ -7872,12 +7870,10 @@
       "predicted_against_spread": "Georgia Tech Yellow Jackets",
       "confidence": 58,
       "key_factors": [
-        "Moderate spread (6.5) suggests competitive game",
-        "Georgia Tech favored at home",
-        "No trend/form data given, limiting confidence"
+        "No form data supplied for either side",
+        "Georgia Tech is a modest -6.5 home favorite (-241 ML)"
       ],
-      "reasoning": "Georgia Tech is a modest home favorite in a matchup between two power conference teams, and the moderate spread suggests oddsmakers expect a competitive game. Without specific trend data we lean toward the market favorite given home field advantage.",
-      "confidence_reasoning": null,
+      "reasoning": "With no trends to lean on, this is a class-neutral spot; take Georgia Tech to win at home but Colorado plus the near-touchdown cushion against the number.",
       "context_used": {
         "away_trends": {
           "team": "Colorado Buffaloes",
@@ -7899,7 +7895,7 @@
           "away": null
         }
       },
-      "generated_at": "2026-09-02T15:15:02.125319+00:00",
+      "generated_at": "2026-09-03T22:35:41.064068+00:00",
       "model": "claude (cowork session, manual)",
       "line_at_prediction": {
         "moneyline": {
@@ -7938,14 +7934,12 @@
     "prediction": {
       "predicted_winner": "Minnesota Golden Gophers",
       "predicted_against_spread": "Eastern Illinois Panthers",
-      "confidence": 55,
+      "confidence": 95,
       "key_factors": [
-        "Minnesota huge favorite vs FCS opponent",
-        "42.4 spread very large, difficult to cover",
-        "No trend data available"
+        "Big Ten host vs an FCS visitor; Minnesota -100000",
+        "No trend data, none needed for the winner"
       ],
-      "reasoning": "Minnesota should dominate this FCS opponent, but the extremely large spread makes a cover unlikely due to typical blowout dynamics including backup snaps. Favor the underdog against the number.",
-      "confidence_reasoning": null,
+      "reasoning": "Minnesota wins going away; laying 42.7 blind against a clock-shortened second half is the risk, so the small edge is Eastern Illinois plus the points.",
       "context_used": {
         "away_trends": {
           "team": "Eastern Illinois Panthers",
@@ -7967,7 +7961,7 @@
           "away": null
         }
       },
-      "generated_at": "2026-09-02T15:15:02.125319+00:00",
+      "generated_at": "2026-09-03T22:35:41.064068+00:00",
       "model": "claude (cowork session, manual)",
       "line_at_prediction": {
         "moneyline": {},
@@ -8006,14 +8000,12 @@
     "prediction": {
       "predicted_winner": "Utah Utes",
       "predicted_against_spread": "Idaho Vandals",
-      "confidence": 55,
+      "confidence": 94,
       "key_factors": [
-        "Idaho coming off a loss (L1, 0-1)",
-        "Utah massive favorite with 34.8 spread",
-        "Extreme spread historically hard to cover"
+        "Utah is a Big 12 program hosting an FCS Idaho team that opened 0-1",
+        "Utah -83333 on the moneyline"
       ],
-      "reasoning": "Utah should win comfortably against an FCS opponent that is already 0-1, but the enormous 34.8 spread is very difficult for any favorite to consistently cover. We lean toward Idaho covering given typical blowout garbage-time scoring.",
-      "confidence_reasoning": null,
+      "reasoning": "The straight-up result is close to certain; a 37-point spread against backups and a running clock is far less so, so the lean is Idaho plus the points.",
       "context_used": {
         "away_trends": {
           "team": "Idaho Vandals",
@@ -8035,7 +8027,7 @@
           "away": null
         }
       },
-      "generated_at": "2026-09-02T15:15:02.125319+00:00",
+      "generated_at": "2026-09-03T22:35:41.064068+00:00",
       "model": "claude (cowork session, manual)",
       "line_at_prediction": {
         "moneyline": {
@@ -8077,14 +8069,12 @@
     "prediction": {
       "predicted_winner": "Illinois Fighting Illini",
       "predicted_against_spread": "UAB Blazers",
-      "confidence": 55,
+      "confidence": 84,
       "key_factors": [
-        "Illinois large favorite over G5 opponent",
-        "27.6 spread large and difficult to cover",
-        "No trend data provided"
+        "Big Ten Illinois hosts an American Conference UAB team two tiers down",
+        "Illinois -4721 on the moneyline, no form data supplied"
       ],
-      "reasoning": "Illinois should win at home against UAB, but a spread near 28 points is a tough ask for consistent covering. Lean toward the underdog against the number given typical variance in lopsided matchups.",
-      "confidence_reasoning": null,
+      "reasoning": "Illinois should win comfortably, but 26.9 is a big number with no trend support, so the spread lean is UAB plus the points while the rating rests on the outright pick.",
       "context_used": {
         "away_trends": {
           "team": "UAB Blazers",
@@ -8106,7 +8096,7 @@
           "away": null
         }
       },
-      "generated_at": "2026-09-02T15:15:02.125319+00:00",
+      "generated_at": "2026-09-03T22:35:41.064068+00:00",
       "model": "claude (cowork session, manual)",
       "line_at_prediction": {
         "moneyline": {
@@ -8148,14 +8138,12 @@
     "prediction": {
       "predicted_winner": "Eastern Michigan Eagles",
       "predicted_against_spread": "Eastern Michigan Eagles",
-      "confidence": 58,
+      "confidence": 55,
       "key_factors": [
-        "San Jose State coming off a loss (0-1, L1)",
-        "Eastern Michigan modest home favorite",
-        "Close spread (2.9) suggests genuinely competitive game"
+        "San Jose State opened 0-1; Eastern Michigan is a 2.9-point home favorite",
+        "No other trend data provided"
       ],
-      "reasoning": "San Jose State enters on a losing note (0-1) while Eastern Michigan is favored at home in a tight spread game, suggesting the market sees this as competitive but leaning home. We favor the home team both straight up and against the modest spread given SJSU's early-season struggles.",
-      "confidence_reasoning": null,
+      "reasoning": "A near coin-flip: Eastern Michigan gets home field and a small edge, and San Jose State's 0-1 start is the only trend, but it came against unknown competition. Lean the home team to win with the Spartans plus the field goal.",
       "context_used": {
         "away_trends": {
           "team": "San Jose State Spartans",
@@ -8177,7 +8165,7 @@
           "away": null
         }
       },
-      "generated_at": "2026-09-02T15:15:02.125319+00:00",
+      "generated_at": "2026-09-03T22:35:41.064068+00:00",
       "model": "claude (cowork session, manual)",
       "line_at_prediction": {
         "moneyline": {
@@ -8219,14 +8207,12 @@
     "prediction": {
       "predicted_winner": "Georgia State Panthers",
       "predicted_against_spread": "North Carolina A&T Aggies",
-      "confidence": 55,
+      "confidence": 85,
       "key_factors": [
-        "Georgia State massive favorite vs FCS opponent",
-        "28.5 spread large and hard to cover consistently",
-        "High total (62.8) suggests shootout potential"
+        "Sun Belt Georgia State hosts an FCS-caliber NC A&T program",
+        "Georgia State -8250 on the moneyline, no form data"
       ],
-      "reasoning": "Georgia State should win comfortably against an FCS opponent, but nearly a 30-point spread combined with a high total suggests some scoring leakage that could help the underdog cover. Lean toward NC A&T against the number.",
-      "confidence_reasoning": null,
+      "reasoning": "The outright result is not in question; laying 28.8 with no supporting trends is, so the spread lean is North Carolina A&T plus the points.",
       "context_used": {
         "away_trends": {
           "team": "North Carolina A&T Aggies",
@@ -8248,7 +8234,7 @@
           "away": null
         }
       },
-      "generated_at": "2026-09-02T15:15:02.125319+00:00",
+      "generated_at": "2026-09-03T22:35:41.064068+00:00",
       "model": "claude (cowork session, manual)",
       "line_at_prediction": {
         "moneyline": {
@@ -8287,14 +8273,12 @@
     "prediction": {
       "predicted_winner": "Purdue Boilermakers",
       "predicted_against_spread": "Indiana State Sycamores",
-      "confidence": 55,
+      "confidence": 89,
       "key_factors": [
-        "Purdue big favorite vs FCS opponent",
-        "35.9 spread extremely large",
+        "Big Ten Purdue hosts FCS Indiana State; books did not post a moneyline",
         "No trend data available"
       ],
-      "reasoning": "Purdue should win easily against an FCS opponent, but a nearly 36-point spread is very difficult to cover consistently. Favor the underdog against such an extreme number.",
-      "confidence_reasoning": null,
+      "reasoning": "Purdue wins this comfortably as a Power-conference team over an in-state FCS opponent. A 35.8-point spread against a running clock is the uncertain part, so the lean is Indiana State plus the points.",
       "context_used": {
         "away_trends": {
           "team": "Indiana State Sycamores",
@@ -8316,7 +8300,7 @@
           "away": null
         }
       },
-      "generated_at": "2026-09-02T15:15:02.125319+00:00",
+      "generated_at": "2026-09-03T22:35:41.064068+00:00",
       "model": "claude (cowork session, manual)",
       "line_at_prediction": {
         "moneyline": {},
@@ -8352,14 +8336,12 @@
     "prediction": {
       "predicted_winner": "Kansas Jayhawks",
       "predicted_against_spread": "LIU Sharks",
-      "confidence": 55,
+      "confidence": 91,
       "key_factors": [
-        "Kansas massive favorite vs FCS opponent",
-        "41.6 spread extremely large",
-        "No trend data provided"
+        "Big 12 Kansas hosts LIU, one of the lowest-rated FCS programs; no ML posted",
+        "No form data provided"
       ],
-      "reasoning": "Kansas should dominate LIU as expected, but a spread over 40 points is nearly impossible to reliably cover. Take the extreme underdog against the number.",
-      "confidence_reasoning": null,
+      "reasoning": "Kansas wins by a wide margin against an overmatched FCS visitor. The only live question is whether it covers 41.6 with backups in, so the spread lean is LIU plus the points.",
       "context_used": {
         "away_trends": {
           "team": "LIU Sharks",
@@ -8381,7 +8363,7 @@
           "away": null
         }
       },
-      "generated_at": "2026-09-02T15:15:02.125319+00:00",
+      "generated_at": "2026-09-03T22:35:41.064068+00:00",
       "model": "claude (cowork session, manual)",
       "line_at_prediction": {
         "moneyline": {},
@@ -8419,15 +8401,13 @@
     },
     "prediction": {
       "predicted_winner": "Michigan State Spartans",
-      "predicted_against_spread": "Toledo Rockets",
-      "confidence": 52,
+      "predicted_against_spread": "Michigan State Spartans",
+      "confidence": 58,
       "key_factors": [
-        "Michigan State coming off a loss (0-1, L1)",
-        "Moderate 9.5 point spread suggests competitive game",
-        "Total relatively low (46.8) implying defensive/grind game"
+        "Michigan State opened 0-1 (L1); Toledo is a strong MAC program",
+        "MSU is a -10.1 home favorite (-429 ML)"
       ],
-      "reasoning": "Michigan State is favored at home but enters off a loss, which introduces some uncertainty about form. The moderate spread and low total suggest a closer game than the market's home favorite tag implies, so we lean toward Toledo covering.",
-      "confidence_reasoning": null,
+      "reasoning": "Michigan State should win at home, but its 0-1 start is the only trend on the board and Toledo is a quality Group of Five team. Take the Spartans to win but Toledo plus the double-digit number.",
       "context_used": {
         "away_trends": {
           "team": "Toledo Rockets",
@@ -8449,7 +8429,7 @@
           "away": null
         }
       },
-      "generated_at": "2026-09-02T15:15:02.125319+00:00",
+      "generated_at": "2026-09-03T22:35:41.064068+00:00",
       "model": "claude (cowork session, manual)",
       "line_at_prediction": {
         "moneyline": {
@@ -8562,14 +8542,12 @@
     "prediction": {
       "predicted_winner": "USC Trojans",
       "predicted_against_spread": "Fresno State Bulldogs",
-      "confidence": 56,
+      "confidence": 84,
       "key_factors": [
-        "USC coming off a win (1-0, W1)",
-        "Large 21.9 point spread difficult to cover",
-        "No specific data on Fresno State form"
+        "USC opened 1-0 (W1) and hosts a Mountain West Fresno State team",
+        "USC -2613 on the moneyline"
       ],
-      "reasoning": "USC is off to a winning start and heavily favored at home, but a near-22 point spread against a competent G5 program like Fresno State is a tough cover. We lean toward Fresno State keeping it closer than the spread implies.",
-      "confidence_reasoning": null,
+      "reasoning": "USC's win is a near-lock as a Power program at home coming off a Week 1 victory. Laying 21.8 is less certain with no other data, so the spread lean is Fresno State plus the points.",
       "context_used": {
         "away_trends": {
           "team": "Fresno State Bulldogs",
@@ -8591,7 +8569,7 @@
           "away": null
         }
       },
-      "generated_at": "2026-09-02T15:15:02.125319+00:00",
+      "generated_at": "2026-09-03T22:35:41.064068+00:00",
       "model": "claude (cowork session, manual)",
       "line_at_prediction": {
         "moneyline": {
@@ -8633,14 +8611,12 @@
     "prediction": {
       "predicted_winner": "Miami Hurricanes",
       "predicted_against_spread": "Stanford Cardinal",
-      "confidence": 56,
+      "confidence": 85,
       "key_factors": [
-        "Miami massive favorite (moneyline -3761)",
-        "Stanford off to a win (1-0, W1) showing some positive form",
-        "24.5 point spread very large and hard to cover"
+        "Stanford opened 1-0 but Miami is a -3561 road favorite",
+        "No head-to-head or deeper form data supplied"
       ],
-      "reasoning": "Miami is a huge favorite on the road, but Stanford enters with a win under its belt showing some competence, and the 24.5 point spread is a lot to cover on the road even for a strong team. Lean toward Stanford covering given the extreme number.",
-      "confidence_reasoning": null,
+      "reasoning": "Miami is a top-tier ACC team and should win comfortably despite Stanford's 1-0 start. A 24-point road number is the shakier side, so the spread lean is Stanford plus the points.",
       "context_used": {
         "away_trends": {
           "team": "Miami Hurricanes",
@@ -8662,7 +8638,7 @@
           "away": null
         }
       },
-      "generated_at": "2026-09-02T15:15:02.125319+00:00",
+      "generated_at": "2026-09-03T22:35:41.064068+00:00",
       "model": "claude (cowork session, manual)",
       "line_at_prediction": {
         "moneyline": {
@@ -8771,13 +8747,12 @@
     "prediction": {
       "predicted_winner": "Arkansas Razorbacks",
       "predicted_against_spread": "North Alabama Lions",
-      "confidence": 58,
+      "confidence": 91,
       "key_factors": [
-        "FBS vs FCS mismatch",
-        "40.5 point spread is extreme",
-        "No trend data available"
+        "SEC Arkansas hosts FCS North Alabama; no moneyline posted",
+        "No trend data provided"
       ],
-      "reasoning": "Arkansas should win comfortably against an FCS opponent, but a 40.5-point spread is very difficult to cover in full-game action; lack of trend data lowers confidence in the exact margin. Leaning underdog against such a large number.",
+      "reasoning": "Arkansas wins this by a large margin as an SEC host against an FCS opponent. Covering 40.5 with a shortened second half is the uncertain part, so the lean is North Alabama plus the points.",
       "context_used": {
         "away_trends": {
           "team": "North Alabama Lions",
@@ -8799,7 +8774,7 @@
           "away": null
         }
       },
-      "generated_at": "2026-09-03T15:08:36.053744+00:00",
+      "generated_at": "2026-09-03T22:35:41.064068+00:00",
       "model": "claude (cowork session, manual)",
       "line_at_prediction": {
         "moneyline": {},
@@ -8835,13 +8810,12 @@
     "prediction": {
       "predicted_winner": "Army Black Knights",
       "predicted_against_spread": "Bryant Bulldogs",
-      "confidence": 58,
+      "confidence": 90,
       "key_factors": [
-        "FCS vs FBS mismatch",
-        "36.8 spread is extreme",
-        "No trend data available"
+        "Army hosts FCS Bryant; no moneyline offered",
+        "No form data available"
       ],
-      "reasoning": "Army should win outright against Bryant, but nearly 37-point spreads are hard to hit; no substantive trend data lowers confidence in exact scoring. Taking the points with Bryant against the spread.",
+      "reasoning": "Army's triple-option and roster edge make the outright result a lock against an FCS visitor. The 36.8-point number against a running clock is the risk, so the spread lean is Bryant plus the points.",
       "context_used": {
         "away_trends": {
           "team": "Bryant Bulldogs",
@@ -8863,7 +8837,7 @@
           "away": null
         }
       },
-      "generated_at": "2026-09-03T15:08:36.053744+00:00",
+      "generated_at": "2026-09-03T22:35:41.064068+00:00",
       "model": "claude (cowork session, manual)",
       "line_at_prediction": {
         "moneyline": {},
@@ -8904,11 +8878,10 @@
       "predicted_against_spread": "Bowling Green Falcons",
       "confidence": 55,
       "key_factors": [
-        "Tarleton State on L1 streak, 0-1 start",
-        "Small home favorite",
-        "Limited data on Bowling Green"
+        "Tarleton State opened 0-1 (L1); Bowling Green is a 2.3-point home favorite",
+        "No other trends provided"
       ],
-      "reasoning": "Tarleton State is coming off a loss to open the season while Bowling Green has no negative trend data, supporting the modest home favorite. The line is close so confidence is limited by sparse data on the home side.",
+      "reasoning": "A near coin-flip where the home team and Tarleton's 0-1 start are the only signals. Lean Bowling Green to win with the Texans plus the small number.",
       "context_used": {
         "away_trends": {
           "team": "Tarleton State Texans",
@@ -8930,7 +8903,7 @@
           "away": null
         }
       },
-      "generated_at": "2026-09-03T15:08:36.053744+00:00",
+      "generated_at": "2026-09-03T22:35:41.064068+00:00",
       "model": "claude (cowork session, manual)",
       "line_at_prediction": {
         "moneyline": {
@@ -8972,13 +8945,12 @@
     "prediction": {
       "predicted_winner": "West Virginia Mountaineers",
       "predicted_against_spread": "Coastal Carolina Chanticleers",
-      "confidence": 58,
+      "confidence": 80,
       "key_factors": [
-        "Large 21.1 spread",
-        "No trend data provided",
-        "Power conference vs Sun Belt mismatch"
+        "Big 12 West Virginia hosts Sun Belt Coastal Carolina",
+        "WVU -1870 on the moneyline, no form data"
       ],
-      "reasoning": "West Virginia should win outright as the much stronger program, but a 21-point spread with no trend data to confirm blowout potential leads to fading the number itself. Taking Coastal Carolina to cover.",
+      "reasoning": "West Virginia should win comfortably at home against a Group of Five opponent. With no trends to justify laying 21, the spread lean is Coastal Carolina plus the points.",
       "context_used": {
         "away_trends": {
           "team": "Coastal Carolina Chanticleers",
@@ -9000,7 +8972,7 @@
           "away": null
         }
       },
-      "generated_at": "2026-09-03T15:08:36.053744+00:00",
+      "generated_at": "2026-09-03T22:35:41.064068+00:00",
       "model": "claude (cowork session, manual)",
       "line_at_prediction": {
         "moneyline": {
@@ -9042,13 +9014,12 @@
     "prediction": {
       "predicted_winner": "Houston Cougars",
       "predicted_against_spread": "Oregon State Beavers",
-      "confidence": 57,
+      "confidence": 78,
       "key_factors": [
-        "Houston huge favorite at home",
-        "No trend data available",
-        "20.7 point spread is large"
+        "Big 12 Houston hosts a rebuilding Oregon State program now outside a power league",
+        "Houston -1749 on the moneyline, no form data"
       ],
-      "reasoning": "Houston is favored heavily at home with no trend data to lean on beyond the market price; such large spreads are frequently not fully covered even in wins. Leaning Oregon State to keep it within the number.",
+      "reasoning": "Houston is the clear side to win at home. A 20.8-point spread with no supporting trends is less reliable, so the lean is Oregon State plus the points.",
       "context_used": {
         "away_trends": {
           "team": "Oregon State Beavers",
@@ -9070,7 +9041,7 @@
           "away": null
         }
       },
-      "generated_at": "2026-09-03T15:08:36.053744+00:00",
+      "generated_at": "2026-09-03T22:35:41.064068+00:00",
       "model": "claude (cowork session, manual)",
       "line_at_prediction": {
         "moneyline": {
@@ -9112,13 +9083,12 @@
     "prediction": {
       "predicted_winner": "Indiana Hoosiers",
       "predicted_against_spread": "North Texas Mean Green",
-      "confidence": 58,
+      "confidence": 88,
       "key_factors": [
-        "Indiana massive favorite (-40.2)",
-        "No trend data",
-        "Extreme spread size"
+        "Indiana -100000 on the moneyline, hosting an American Conference North Texas team",
+        "No trend data supplied"
       ],
-      "reasoning": "Indiana is an overwhelming favorite with essentially no realistic chance to lose, but 40+ point spreads are historically difficult to consistently cover; no trend data available to confirm blowout magnitude. Taking the underdog for the cover.",
+      "reasoning": "Indiana wins this outright as a near-certainty. Laying 40.4 against a high-scoring North Texas offense and a running clock is the real question, so the spread lean is North Texas plus the points.",
       "context_used": {
         "away_trends": {
           "team": "North Texas Mean Green",
@@ -9140,7 +9110,7 @@
           "away": null
         }
       },
-      "generated_at": "2026-09-03T15:08:36.053744+00:00",
+      "generated_at": "2026-09-03T22:35:41.064068+00:00",
       "model": "claude (cowork session, manual)",
       "line_at_prediction": {
         "moneyline": {
@@ -9182,13 +9152,12 @@
     "prediction": {
       "predicted_winner": "James Madison Dukes",
       "predicted_against_spread": "James Madison Dukes",
-      "confidence": 55,
+      "confidence": 59,
       "key_factors": [
-        "Moderate home favorite",
-        "No trend data for either team",
-        "Line suggests competitive game"
+        "James Madison is a -6.2 home favorite (-230 ML) in a Sun Belt matchup",
+        "No form or head-to-head data provided"
       ],
-      "reasoning": "James Madison is favored by 6.2 at home in what the market views as a competitive Sun Belt/independent matchup; with no trend data available, confidence stays modest but the market line seems reasonable for a home favorite of this size.",
+      "reasoning": "James Madison has been the stronger program recently and gets home field, so it is the lean to win. With no trends to lean on for the number, Liberty plus the touchdown is the spread side.",
       "context_used": {
         "away_trends": {
           "team": "Liberty Flames",
@@ -9210,7 +9179,7 @@
           "away": null
         }
       },
-      "generated_at": "2026-09-03T15:08:36.053744+00:00",
+      "generated_at": "2026-09-03T22:35:41.064068+00:00",
       "model": "claude (cowork session, manual)",
       "line_at_prediction": {
         "moneyline": {
@@ -9252,13 +9221,12 @@
     "prediction": {
       "predicted_winner": "UConn Huskies",
       "predicted_against_spread": "Lafayette Leopards",
-      "confidence": 57,
+      "confidence": 80,
       "key_factors": [
-        "FCS vs FBS mismatch",
-        "19.6 point spread",
-        "No trend data"
+        "FBS independent UConn hosts FCS Lafayette",
+        "UConn -1489 on the moneyline, no form data"
       ],
-      "reasoning": "UConn should win outright against an FCS opponent, but large spreads like this are inconsistently covered; lack of trend data lowers confidence in exact margin. Taking Lafayette to cover the number.",
+      "reasoning": "UConn should win comfortably against an FCS opponent at home. The spread lean is Lafayette plus the points given no trend support for laying 19.6.",
       "context_used": {
         "away_trends": {
           "team": "Lafayette Leopards",
@@ -9280,7 +9248,7 @@
           "away": null
         }
       },
-      "generated_at": "2026-09-03T15:08:36.053744+00:00",
+      "generated_at": "2026-09-03T22:35:41.064068+00:00",
       "model": "claude (cowork session, manual)",
       "line_at_prediction": {
         "moneyline": {
@@ -9322,13 +9290,12 @@
     "prediction": {
       "predicted_winner": "Pittsburgh Panthers",
       "predicted_against_spread": "Pittsburgh Panthers",
-      "confidence": 56,
+      "confidence": 72,
       "key_factors": [
-        "Pitt sizable home favorite",
-        "No trend data for either team",
-        "16.5 spread moderate for level gap"
+        "ACC Pittsburgh hosts MAC Miami (OH)",
+        "Pitt -849 on the moneyline, no form data"
       ],
-      "reasoning": "Pittsburgh is favored by 16.5 at home, a level that suggests a real talent gap but not an extreme blowout; without trend data we rely on the market's reasonable line. Slight lean to the favorite covering given the moderate number.",
+      "reasoning": "Pittsburgh is the clear pick to win as a Power team at home. Miami (OH) is a solid MAC program, so 16.4 with no trends behind it makes the RedHawks plus the points the spread lean.",
       "context_used": {
         "away_trends": {
           "team": "Miami (OH) RedHawks",
@@ -9350,7 +9317,7 @@
           "away": null
         }
       },
-      "generated_at": "2026-09-03T15:08:36.053744+00:00",
+      "generated_at": "2026-09-03T22:35:41.064068+00:00",
       "model": "claude (cowork session, manual)",
       "line_at_prediction": {
         "moneyline": {
@@ -9392,13 +9359,12 @@
     "prediction": {
       "predicted_winner": "Nebraska Cornhuskers",
       "predicted_against_spread": "Ohio Bobcats",
-      "confidence": 57,
+      "confidence": 80,
       "key_factors": [
-        "Nebraska huge favorite (-23.5)",
-        "No trend data provided",
-        "Total is relatively low at 46.1"
+        "Big Ten Nebraska hosts a strong MAC Ohio program",
+        "Nebraska -3789 on the moneyline, no form data"
       ],
-      "reasoning": "Nebraska should win comfortably, but the low total suggests a more controlled, less explosive game, making the large spread harder to fully cover. Leaning Ohio to keep the margin under 23.5.",
+      "reasoning": "Nebraska should win at home, but Ohio has been one of the better MAC teams and 23.5 is a big number with nothing to support it, so the spread lean is Ohio plus the points.",
       "context_used": {
         "away_trends": {
           "team": "Ohio Bobcats",
@@ -9420,7 +9386,7 @@
           "away": null
         }
       },
-      "generated_at": "2026-09-03T15:08:36.053744+00:00",
+      "generated_at": "2026-09-03T22:35:41.064068+00:00",
       "model": "claude (cowork session, manual)",
       "line_at_prediction": {
         "moneyline": {
@@ -9462,13 +9428,12 @@
     "prediction": {
       "predicted_winner": "Syracuse Orange",
       "predicted_against_spread": "New Hampshire Wildcats",
-      "confidence": 58,
+      "confidence": 88,
       "key_factors": [
-        "FCS vs FBS extreme mismatch",
-        "33.9 point spread",
-        "No trend data"
+        "ACC Syracuse hosts FCS New Hampshire; no moneyline posted",
+        "No trend data provided"
       ],
-      "reasoning": "Syracuse is an overwhelming favorite against an FCS opponent, but such extreme spreads (33.9) are difficult to cover in full; taking the underdog for backdoor cover value given lack of specific trend confirmation.",
+      "reasoning": "Syracuse wins this comfortably as a Power-conference host over an FCS visitor. Covering 33.9 with backups in is the uncertain part, so the lean is New Hampshire plus the points.",
       "context_used": {
         "away_trends": {
           "team": "New Hampshire Wildcats",
@@ -9490,7 +9455,7 @@
           "away": null
         }
       },
-      "generated_at": "2026-09-03T15:08:36.053744+00:00",
+      "generated_at": "2026-09-03T22:35:41.064068+00:00",
       "model": "claude (cowork session, manual)",
       "line_at_prediction": {
         "moneyline": {
@@ -9602,13 +9567,12 @@
     "prediction": {
       "predicted_winner": "South Carolina Gamecocks",
       "predicted_against_spread": "Kent State Golden Flashes",
-      "confidence": 58,
+      "confidence": 93,
       "key_factors": [
-        "Extreme -36 spread",
-        "No trend data",
-        "SEC vs MAC mismatch"
+        "SEC South Carolina hosts Kent State, a bottom-of-FBS program; SC -100000",
+        "No trend data, none needed for the result"
       ],
-      "reasoning": "South Carolina should win easily against Kent State, but a 36-point spread is very difficult to cover consistently; lacking trend data to confirm a true blowout, leaning toward the underdog covering.",
+      "reasoning": "South Carolina wins this by a huge margin against one of the weakest teams in the FBS. The 35.9 number is the only live question, so the spread lean is Kent State plus the points.",
       "context_used": {
         "away_trends": {
           "team": "Kent State Golden Flashes",
@@ -9630,7 +9594,7 @@
           "away": null
         }
       },
-      "generated_at": "2026-09-03T15:08:36.053744+00:00",
+      "generated_at": "2026-09-03T22:35:41.064068+00:00",
       "model": "claude (cowork session, manual)",
       "line_at_prediction": {
         "moneyline": {
@@ -9672,13 +9636,12 @@
     "prediction": {
       "predicted_winner": "Air Force Falcons",
       "predicted_against_spread": "Duquesne Dukes",
-      "confidence": 57,
+      "confidence": 87,
       "key_factors": [
-        "FCS vs FBS mismatch",
-        "28.8 point spread",
-        "No trend data provided"
+        "Air Force hosts FCS Duquesne; Falcons -9000 on the moneyline",
+        "No form data provided"
       ],
-      "reasoning": "Air Force should win outright but a near-29 point spread is a lot to cover consistently; without trend data to confirm exact blowout scale, taking the underdog for value.",
+      "reasoning": "Air Force's option attack and roster edge make the win a lock against an FCS opponent. Laying 28.8 is the risk, so the spread lean is Duquesne plus the points.",
       "context_used": {
         "away_trends": {
           "team": "Duquesne Dukes",
@@ -9700,7 +9663,7 @@
           "away": null
         }
       },
-      "generated_at": "2026-09-03T15:08:36.053744+00:00",
+      "generated_at": "2026-09-03T22:35:41.064068+00:00",
       "model": "claude (cowork session, manual)",
       "line_at_prediction": {
         "moneyline": {
@@ -9742,13 +9705,12 @@
     "prediction": {
       "predicted_winner": "Iowa State Cyclones",
       "predicted_against_spread": "Southeast Missouri State Redhawks",
-      "confidence": 58,
+      "confidence": 88,
       "key_factors": [
-        "Extreme -30 spread vs FCS opponent",
-        "No trend data",
-        "Low bookmaker count (3) suggests less market confidence in exact number"
+        "Big 12 Iowa State hosts FCS Southeast Missouri State; ISU -15000",
+        "No trend data provided"
       ],
-      "reasoning": "Iowa State is heavily favored against an FCS opponent, and while an outright win is near certain, the 30-point spread combined with limited bookmaker coverage suggests uncertainty in exact number setting. Leaning the underdog for the cover.",
+      "reasoning": "Iowa State wins going away against an FCS visitor at home. Covering 30 with a running clock is less certain, so the spread lean is Southeast Missouri State plus the points.",
       "context_used": {
         "away_trends": {
           "team": "Southeast Missouri State Redhawks",
@@ -9770,7 +9732,7 @@
           "away": null
         }
       },
-      "generated_at": "2026-09-03T15:08:36.053744+00:00",
+      "generated_at": "2026-09-03T22:35:41.064068+00:00",
       "model": "claude (cowork session, manual)",
       "line_at_prediction": {
         "moneyline": {
@@ -9812,13 +9774,12 @@
     "prediction": {
       "predicted_winner": "Kentucky Wildcats",
       "predicted_against_spread": "Youngstown St Penguins",
-      "confidence": 57,
+      "confidence": 85,
       "key_factors": [
-        "Extreme spread -23.1",
-        "High total suggests offensive game",
-        "No trend data available"
+        "SEC Kentucky hosts FCS Youngstown St; Wildcats -3800",
+        "No form data provided"
       ],
-      "reasoning": "Kentucky should win comfortably against an FCS opponent, and the high total of 62.5 suggests a lot of scoring which could allow Youngstown State to stay competitive on the scoreboard at times. Taking the underdog against the spread.",
+      "reasoning": "Kentucky should win comfortably as an SEC host over an FCS opponent. With no trends to support laying 23.1, the spread lean is Youngstown St plus the points.",
       "context_used": {
         "away_trends": {
           "team": "Youngstown St Penguins",
@@ -9840,7 +9801,7 @@
           "away": null
         }
       },
-      "generated_at": "2026-09-03T15:08:36.053744+00:00",
+      "generated_at": "2026-09-03T22:35:41.064068+00:00",
       "model": "claude (cowork session, manual)",
       "line_at_prediction": {
         "moneyline": {
@@ -9882,13 +9843,12 @@
     "prediction": {
       "predicted_winner": "Temple Owls",
       "predicted_against_spread": "Temple Owls",
-      "confidence": 56,
+      "confidence": 72,
       "key_factors": [
-        "Moderate home favorite (-14.7)",
-        "No trend data for either side",
-        "FCS vs FBS mismatch"
+        "American Conference Temple hosts FCS Rhode Island",
+        "Temple -778 on the moneyline, no form data"
       ],
-      "reasoning": "Temple is favored by a moderate margin against an FCS opponent, a spread size that is more commonly covered than the extreme lines seen elsewhere on this slate. Lack of trend data limits confidence but the number seems fair.",
+      "reasoning": "Temple is the clear pick to win at home against an FCS team. A two-touchdown spread with no trend support makes Rhode Island plus the points the spread lean.",
       "context_used": {
         "away_trends": {
           "team": "Rhode Island Rams",
@@ -9910,7 +9870,7 @@
           "away": null
         }
       },
-      "generated_at": "2026-09-03T15:08:36.053744+00:00",
+      "generated_at": "2026-09-03T22:35:41.064068+00:00",
       "model": "claude (cowork session, manual)",
       "line_at_prediction": {
         "moneyline": {
@@ -10016,13 +9976,12 @@
     "prediction": {
       "predicted_winner": "Appalachian State Mountaineers",
       "predicted_against_spread": "Maine Black Bears",
-      "confidence": 57,
+      "confidence": 82,
       "key_factors": [
-        "FCS vs FBS mismatch",
-        "19.3 point spread",
-        "No trend data provided"
+        "Sun Belt Appalachian State hosts FCS Maine",
+        "App State -1327 on the moneyline, no form data"
       ],
-      "reasoning": "Appalachian State should win comfortably at home against an FCS opponent, but the near-20 point spread is a meaningful number to cover consistently; no trend data lowers confidence in the exact margin, favoring the underdog for cover.",
+      "reasoning": "Appalachian State should win comfortably at home against an FCS opponent. The spread lean is Maine plus the points given no support for laying 19.3.",
       "context_used": {
         "away_trends": {
           "team": "Maine Black Bears",
@@ -10044,7 +10003,7 @@
           "away": null
         }
       },
-      "generated_at": "2026-09-03T15:08:36.053744+00:00",
+      "generated_at": "2026-09-03T22:35:41.064068+00:00",
       "model": "claude (cowork session, manual)",
       "line_at_prediction": {
         "moneyline": {
@@ -10086,13 +10045,12 @@
     "prediction": {
       "predicted_winner": "Auburn Tigers",
       "predicted_against_spread": "Auburn Tigers",
-      "confidence": 55,
+      "confidence": 58,
       "key_factors": [
-        "Moderate home favorite (-7.4)",
-        "No specific trend data for either team",
-        "Both are Power conference teams, competitive expected"
+        "Auburn is a -7.4 home favorite (-293 ML) over Big 12 Baylor",
+        "No form or head-to-head data provided"
       ],
-      "reasoning": "Auburn is a modest home favorite in what should be a competitive SEC-Big12 crossover matchup; without trend data on recent form, the market line appears reasonable and we lean toward the home side slightly.",
+      "reasoning": "Auburn gets home field in an SEC-vs-Big 12 matchup and is the lean to win. With no trends to justify laying a touchdown-plus, Baylor plus the points is the spread side.",
       "context_used": {
         "away_trends": {
           "team": "Baylor Bears",
@@ -10114,7 +10072,7 @@
           "away": null
         }
       },
-      "generated_at": "2026-09-03T15:08:36.053744+00:00",
+      "generated_at": "2026-09-03T22:35:41.064068+00:00",
       "model": "claude (cowork session, manual)",
       "line_at_prediction": {
         "moneyline": {
@@ -10156,13 +10114,12 @@
     "prediction": {
       "predicted_winner": "Oregon Ducks",
       "predicted_against_spread": "Boise State Broncos",
-      "confidence": 58,
+      "confidence": 84,
       "key_factors": [
-        "Oregon large home favorite (-24.5)",
-        "No trend data provided",
-        "Boise State typically competitive program"
+        "Big Ten Oregon hosts Mountain West Boise State; Ducks -3803",
+        "No form data provided"
       ],
-      "reasoning": "Oregon should win at home but Boise State, historically a strong program even in weaker conferences, makes a 24.5-point spread a lot to cover fully; lacking specific trend data, we lean to the underdog for value against the spread.",
+      "reasoning": "Oregon is a playoff-caliber team at home and should win clearly. Boise State is the best Group of Five program, so 24.6 with no trend support makes the Broncos plus the points the spread lean.",
       "context_used": {
         "away_trends": {
           "team": "Boise State Broncos",
@@ -10184,7 +10141,7 @@
           "away": null
         }
       },
-      "generated_at": "2026-09-03T15:08:36.053744+00:00",
+      "generated_at": "2026-09-03T22:35:41.064068+00:00",
       "model": "claude (cowork session, manual)",
       "line_at_prediction": {
         "moneyline": {
@@ -10226,13 +10183,12 @@
     "prediction": {
       "predicted_winner": "Cincinnati Bearcats",
       "predicted_against_spread": "Cincinnati Bearcats",
-      "confidence": 55,
+      "confidence": 57,
       "key_factors": [
-        "Moderate home favorite (-7.5)",
-        "No trend data for either side",
-        "Both ACC/Big12 competitive"
+        "Cincinnati is a -7.5 home favorite (-304 ML) in a Big 12-vs-ACC matchup",
+        "No form or head-to-head data provided"
       ],
-      "reasoning": "Cincinnati is a reasonable home favorite in a competitive cross-conference matchup; with no specific trend data, we lean slightly to the market favorite given the moderate line size suggests genuine competitive balance.",
+      "reasoning": "Cincinnati gets home field and is the lean to win. With no trends behind the number, Boston College plus the touchdown-and-a-half is the spread side.",
       "context_used": {
         "away_trends": {
           "team": "Boston College Eagles",
@@ -10254,7 +10210,7 @@
           "away": null
         }
       },
-      "generated_at": "2026-09-03T15:08:36.053744+00:00",
+      "generated_at": "2026-09-03T22:35:41.064068+00:00",
       "model": "claude (cowork session, manual)",
       "line_at_prediction": {
         "moneyline": {
@@ -10296,13 +10252,12 @@
     "prediction": {
       "predicted_winner": "Charlotte 49ers",
       "predicted_against_spread": "Citadel Bulldogs",
-      "confidence": 57,
+      "confidence": 79,
       "key_factors": [
-        "FCS vs FBS mismatch",
-        "19.6 point spread",
-        "No trend data"
+        "American Conference Charlotte hosts FCS The Citadel",
+        "Charlotte -2050 on the moneyline, no form data"
       ],
-      "reasoning": "Charlotte should win outright against an FCS opponent, but the spread of nearly 20 points is a lot to cover fully without specific trend confirmation; taking the underdog for value.",
+      "reasoning": "Charlotte should win at home against an FCS opponent. The spread lean is The Citadel plus the points given no support for laying 19.6.",
       "context_used": {
         "away_trends": {
           "team": "Citadel Bulldogs",
@@ -10324,7 +10279,7 @@
           "away": null
         }
       },
-      "generated_at": "2026-09-03T15:08:36.053744+00:00",
+      "generated_at": "2026-09-03T22:35:41.064068+00:00",
       "model": "claude (cowork session, manual)",
       "line_at_prediction": {
         "moneyline": {
@@ -10366,13 +10321,12 @@
     "prediction": {
       "predicted_winner": "Duke Blue Devils",
       "predicted_against_spread": "Duke Blue Devils",
-      "confidence": 55,
+      "confidence": 58,
       "key_factors": [
-        "Moderate home favorite (-7.5)",
-        "No trend data available",
-        "Competitive matchup expected"
+        "Duke is a -7.5 home favorite (-315 ML) over American Conference Tulane",
+        "No form or head-to-head data provided"
       ],
-      "reasoning": "Duke is a modest home favorite in a competitive matchup between two decent programs; with no trend data to differentiate, we lean slightly with the market favorite given the reasonable spread size.",
+      "reasoning": "Duke gets home field against a quality Group of Five opponent and is the lean to win. With no trends behind the number, Tulane plus the points is the spread side.",
       "context_used": {
         "away_trends": {
           "team": "Tulane Green Wave",
@@ -10394,7 +10348,7 @@
           "away": null
         }
       },
-      "generated_at": "2026-09-03T15:08:36.053744+00:00",
+      "generated_at": "2026-09-03T22:35:41.064068+00:00",
       "model": "claude (cowork session, manual)",
       "line_at_prediction": {
         "moneyline": {
@@ -10433,13 +10387,12 @@
     "prediction": {
       "predicted_winner": "North Dakota State Bison",
       "predicted_against_spread": "Fordham Rams",
-      "confidence": 57,
+      "confidence": 88,
       "key_factors": [
-        "Extreme 41.4 point spread",
-        "FCS vs FCS but NDSU much stronger",
-        "No trend data provided"
+        "FCS powerhouse North Dakota State hosts Fordham; no moneyline posted",
+        "No form data provided"
       ],
-      "reasoning": "NDSU is a perennial FCS powerhouse against a weaker Fordham squad, but a 41+ point spread is extreme even in an FCS mismatch; lacking specific trend data, leaning to the underdog to keep it under the massive number.",
+      "reasoning": "North Dakota State is a perennial FCS champion and wins this comfortably. Covering 41.4 with backups is the only real question, so the spread lean is Fordham plus the points.",
       "context_used": {
         "away_trends": {
           "team": "Fordham Rams",
@@ -10461,7 +10414,7 @@
           "away": null
         }
       },
-      "generated_at": "2026-09-03T15:08:36.053744+00:00",
+      "generated_at": "2026-09-03T22:35:41.064068+00:00",
       "model": "claude (cowork session, manual)",
       "line_at_prediction": {
         "moneyline": {},
@@ -10497,13 +10450,12 @@
     "prediction": {
       "predicted_winner": "Tennessee Volunteers",
       "predicted_against_spread": "Furman Paladins",
-      "confidence": 58,
+      "confidence": 95,
       "key_factors": [
-        "Extreme 47.2 point spread",
-        "High total (66.5) implies lots of scoring",
-        "No trend data provided"
+        "SEC Tennessee hosts FCS Furman; no moneyline offered",
+        "No trend data, none needed for the outright result"
       ],
-      "reasoning": "Tennessee should dominate an FCS opponent, but the extremely high total combined with a 47-point spread is a tough combination to hit exactly; taking the underdog for backdoor cover value against the huge number.",
+      "reasoning": "Tennessee wins this by six-plus touchdowns as a near-certainty. A 47-point spread against a running clock and reserves is the risk, so the sliver of value is Furman plus the points.",
       "context_used": {
         "away_trends": {
           "team": "Furman Paladins",
@@ -10525,7 +10477,7 @@
           "away": null
         }
       },
-      "generated_at": "2026-09-03T15:08:36.053744+00:00",
+      "generated_at": "2026-09-03T22:35:41.064068+00:00",
       "model": "claude (cowork session, manual)",
       "line_at_prediction": {
         "moneyline": {},
@@ -10564,13 +10516,12 @@
     "prediction": {
       "predicted_winner": "Penn State Nittany Lions",
       "predicted_against_spread": "Marshall Thundering Herd",
-      "confidence": 57,
+      "confidence": 85,
       "key_factors": [
-        "Large 24.2 point spread",
-        "No trend data provided",
-        "Penn State a Big Ten power vs Sun Belt program"
+        "Big Ten Penn State hosts Sun Belt Marshall; Nittany Lions -3164",
+        "No form data provided"
       ],
-      "reasoning": "Penn State should win comfortably, but a 24+ point spread against a Group of Five program is a considerable number to cover consistently; lacking trend data, leaning to the underdog for value against the number.",
+      "reasoning": "Penn State is a top-tier team at home and should win clearly. With no trends to support laying 23.9, the spread lean is Marshall plus the points.",
       "context_used": {
         "away_trends": {
           "team": "Marshall Thundering Herd",
@@ -10592,7 +10543,7 @@
           "away": null
         }
       },
-      "generated_at": "2026-09-03T15:08:36.053744+00:00",
+      "generated_at": "2026-09-03T22:35:41.064068+00:00",
       "model": "claude (cowork session, manual)",
       "line_at_prediction": {
         "moneyline": {
@@ -10634,13 +10585,12 @@
     "prediction": {
       "predicted_winner": "Navy Midshipmen",
       "predicted_against_spread": "Towson Tigers",
-      "confidence": 58,
+      "confidence": 88,
       "key_factors": [
-        "FCS vs FBS mismatch",
-        "30.9 point spread",
-        "No trend data"
+        "American Conference Navy hosts FCS Towson; Midshipmen -30000",
+        "No form data provided"
       ],
-      "reasoning": "Navy should win outright against an FCS opponent, but a 30.9-point spread is a large number to cover fully; lacking specific trend confirmation, leaning to the underdog for the cover.",
+      "reasoning": "Navy's option attack and roster edge make the outright result a lock. Laying 30.9 is the uncertain part, so the spread lean is Towson plus the points.",
       "context_used": {
         "away_trends": {
           "team": "Towson Tigers",
@@ -10662,7 +10612,7 @@
           "away": null
         }
       },
-      "generated_at": "2026-09-03T15:08:36.053744+00:00",
+      "generated_at": "2026-09-03T22:35:41.064068+00:00",
       "model": "claude (cowork session, manual)",
       "line_at_prediction": {
         "moneyline": {
@@ -10704,13 +10654,12 @@
     "prediction": {
       "predicted_winner": "Texas Longhorns",
       "predicted_against_spread": "Texas State Bobcats",
-      "confidence": 57,
+      "confidence": 88,
       "key_factors": [
-        "Extreme -29.4 spread",
-        "No trend data provided",
-        "High total 59.7 suggests heavy scoring both ways"
+        "SEC Texas hosts Sun Belt Texas State; Longhorns -9775",
+        "No form data provided"
       ],
-      "reasoning": "Texas should win comfortably at home, but the large spread combined with a high total makes exact cover uncertain; lacking trend data, leaning underdog for value against the number.",
+      "reasoning": "Texas is a national-title contender at home and wins this easily. A 29.4-point number with no trend support is the shakier side, so the spread lean is Texas State plus the points.",
       "context_used": {
         "away_trends": {
           "team": "Texas State Bobcats",
@@ -10732,7 +10681,7 @@
           "away": null
         }
       },
-      "generated_at": "2026-09-03T15:08:36.053744+00:00",
+      "generated_at": "2026-09-03T22:35:41.064068+00:00",
       "model": "claude (cowork session, manual)",
       "line_at_prediction": {
         "moneyline": {
@@ -10774,13 +10723,12 @@
     "prediction": {
       "predicted_winner": "UTSA Roadrunners",
       "predicted_against_spread": "UT Rio Grande Valley Vaqueros",
-      "confidence": 57,
+      "confidence": 87,
       "key_factors": [
-        "FCS/non-FBS vs FBS mismatch",
-        "28.2 point spread",
-        "No trend data provided"
+        "American Conference UTSA hosts UT Rio Grande Valley, a brand-new program",
+        "UTSA -8000 on the moneyline, no form data"
       ],
-      "reasoning": "UTSA should win outright against a clearly weaker opponent, but the sizable spread is difficult to fully cover without specific trend confirmation; leaning underdog for value.",
+      "reasoning": "UTSA wins this comfortably against a first-year program. Covering 28.2 is the only live question, so the spread lean is UT Rio Grande Valley plus the points.",
       "context_used": {
         "away_trends": {
           "team": "UT Rio Grande Valley Vaqueros",
@@ -10802,7 +10750,7 @@
           "away": null
         }
       },
-      "generated_at": "2026-09-03T15:08:36.053744+00:00",
+      "generated_at": "2026-09-03T22:35:41.064068+00:00",
       "model": "claude (cowork session, manual)",
       "line_at_prediction": {
         "moneyline": {
@@ -10843,14 +10791,13 @@
     },
     "prediction": {
       "predicted_winner": "Oklahoma State Cowboys",
-      "predicted_against_spread": "Tulsa Golden Hurricane",
-      "confidence": 55,
+      "predicted_against_spread": "Oklahoma State Cowboys",
+      "confidence": 62,
       "key_factors": [
-        "Moderate favorite (-13.6)",
-        "High total (59.0) suggests competitive scoring",
-        "No trend data provided"
+        "Big 12 Oklahoma State visits American Conference Tulsa; Cowboys -564",
+        "No form data provided for either side"
       ],
-      "reasoning": "Oklahoma State is favored by a reasonable margin on the road against Tulsa, with a fairly high total suggesting both teams can score; without trend data we lean to the underdog covering given the number isn't extreme but road divisional-style games can be tighter than expected.",
+      "reasoning": "Oklahoma State has the class edge and is the lean to win this in-state road game. With no trends to support laying 13.5 on the road, Tulsa plus the points is the spread side.",
       "context_used": {
         "away_trends": {
           "team": "Oklahoma State Cowboys",
@@ -10872,7 +10819,7 @@
           "away": null
         }
       },
-      "generated_at": "2026-09-03T15:08:36.053744+00:00",
+      "generated_at": "2026-09-03T22:35:41.064068+00:00",
       "model": "claude (cowork session, manual)",
       "line_at_prediction": {
         "moneyline": {
@@ -10914,13 +10861,12 @@
     "prediction": {
       "predicted_winner": "Iowa Hawkeyes",
       "predicted_against_spread": "Northern Illinois Huskies",
-      "confidence": 58,
+      "confidence": 84,
       "key_factors": [
-        "Extreme -31.6 spread",
-        "Low total (44.4) suggests defensive/controlled game",
-        "No trend data provided"
+        "Big Ten Iowa hosts a competitive MAC Northern Illinois team; Iowa -66667",
+        "No form data provided"
       ],
-      "reasoning": "Iowa should win comfortably, and the low total suggests a defensive, ball-control approach that could limit the scoring margin below the large spread; taking the underdog for value against the number.",
+      "reasoning": "Iowa wins this outright as a near-certainty, but its offense has historically struggled to cover big numbers and NIU is a tough MAC out. The spread lean is Northern Illinois plus the points.",
       "context_used": {
         "away_trends": {
           "team": "Northern Illinois Huskies",
@@ -10942,7 +10888,7 @@
           "away": null
         }
       },
-      "generated_at": "2026-09-03T15:08:36.053744+00:00",
+      "generated_at": "2026-09-03T22:35:41.064068+00:00",
       "model": "claude (cowork session, manual)",
       "line_at_prediction": {
         "moneyline": {
@@ -10983,14 +10929,13 @@
     },
     "prediction": {
       "predicted_winner": "Southern Mississippi Golden Eagles",
-      "predicted_against_spread": "Southern Mississippi Golden Eagles",
-      "confidence": 55,
+      "predicted_against_spread": "Alcorn State Braves",
+      "confidence": 78,
       "key_factors": [
-        "Moderate favorite (-19.9)",
-        "No trend data for either side",
-        "FCS vs FBS mismatch"
+        "Sun Belt Southern Miss hosts FCS Alcorn State",
+        "Southern Miss -1700 on the moneyline, no form data"
       ],
-      "reasoning": "Southern Miss should win comfortably against an FCS opponent with a spread that, while sizable, is more moderate than others on the slate; lacking trend data, we slightly lean to the favorite given the more moderate number.",
+      "reasoning": "Southern Miss should win at home against an FCS opponent. The spread lean is Alcorn State plus the points given no support for laying 19.9.",
       "context_used": {
         "away_trends": {
           "team": "Alcorn State Braves",
@@ -11012,7 +10957,7 @@
           "away": null
         }
       },
-      "generated_at": "2026-09-03T15:08:36.053744+00:00",
+      "generated_at": "2026-09-03T22:35:41.064068+00:00",
       "model": "claude (cowork session, manual)",
       "line_at_prediction": {
         "moneyline": {
@@ -11053,14 +10998,13 @@
     },
     "prediction": {
       "predicted_winner": "Colorado State Rams",
-      "predicted_against_spread": "Wyoming Cowboys",
-      "confidence": 52,
+      "predicted_against_spread": "Colorado State Rams",
+      "confidence": 55,
       "key_factors": [
-        "Close spread (-3.1)",
-        "No trend data for either team",
-        "Mountain West rivalry likely competitive"
+        "Border War rivalry; Colorado State is a 3.1-point home favorite",
+        "No form or head-to-head data provided"
       ],
-      "reasoning": "This is a close spread suggesting a competitive Mountain West matchup with no data to differentiate the teams; slight lean to the home favorite but confidence is low given lack of trend information.",
+      "reasoning": "A rivalry game priced close to a field goal with no trends to separate the sides. Lean the home team, Colorado State, to win, with Wyoming plus the points in a game that rivalry history says stays tight.",
       "context_used": {
         "away_trends": {
           "team": "Wyoming Cowboys",
@@ -11082,7 +11026,7 @@
           "away": null
         }
       },
-      "generated_at": "2026-09-03T15:08:36.053744+00:00",
+      "generated_at": "2026-09-03T22:35:41.064068+00:00",
       "model": "claude (cowork session, manual)",
       "line_at_prediction": {
         "moneyline": {
@@ -11120,14 +11064,13 @@
     },
     "prediction": {
       "predicted_winner": "Old Dominion Monarchs",
-      "predicted_against_spread": "Old Dominion Monarchs",
-      "confidence": 58,
+      "predicted_against_spread": "Norfolk State Spartans",
+      "confidence": 89,
       "key_factors": [
-        "Norfolk State opened 0-1 on a losing streak",
-        "Extreme 40.7 point spread",
-        "FCS vs FBS mismatch"
+        "Sun Belt Old Dominion hosts FCS Norfolk State, which opened 0-1; no ML posted",
+        "Norfolk State is 0-1 (L1), the only trend on the board"
       ],
-      "reasoning": "Norfolk State enters on a losing streak (0-1, L1) facing a stronger FBS opponent, supporting a comfortable ODU win; the large spread is a lot to cover but the negative trend for Norfolk State slightly increases confidence in a blowout relative to other similar games.",
+      "reasoning": "Old Dominion wins this comfortably as an FBS host over an FCS team that already lost in Week 1. Covering 40.7 is the only real question, so the spread lean is Norfolk State plus the points.",
       "context_used": {
         "away_trends": {
           "team": "Norfolk State Spartans",
@@ -11149,7 +11092,7 @@
           "away": null
         }
       },
-      "generated_at": "2026-09-03T15:08:36.053744+00:00",
+      "generated_at": "2026-09-03T22:35:41.064068+00:00",
       "model": "claude (cowork session, manual)",
       "line_at_prediction": {
         "moneyline": {},
@@ -11185,13 +11128,12 @@
     "prediction": {
       "predicted_winner": "Texas Tech Red Raiders",
       "predicted_against_spread": "Abilene Christian Wildcats",
-      "confidence": 58,
+      "confidence": 90,
       "key_factors": [
-        "Extreme 42.7 point spread",
-        "High total (59.3) suggests lots of offense",
+        "Big 12 Texas Tech hosts FCS Abilene Christian; no moneyline posted",
         "No trend data provided"
       ],
-      "reasoning": "Texas Tech should dominate an FCS opponent, but the extreme 42.7-point spread combined with a high total is a difficult combination to fully cover; taking the underdog for backdoor value.",
+      "reasoning": "Texas Tech wins this by a large margin as a Power host over an FCS opponent. The 42.7 number against a running clock is the risk, so the spread lean is Abilene Christian plus the points.",
       "context_used": {
         "away_trends": {
           "team": "Abilene Christian Wildcats",
@@ -11213,7 +11155,7 @@
           "away": null
         }
       },
-      "generated_at": "2026-09-03T15:08:36.053744+00:00",
+      "generated_at": "2026-09-03T22:35:41.064068+00:00",
       "model": "claude (cowork session, manual)",
       "line_at_prediction": {
         "moneyline": {},
@@ -11252,13 +11194,12 @@
     "prediction": {
       "predicted_winner": "Memphis Tigers",
       "predicted_against_spread": "Memphis Tigers",
-      "confidence": 55,
+      "confidence": 62,
       "key_factors": [
-        "Moderate home favorite (-11.4)",
-        "No trend data for either team",
-        "Group of Five matchup, moderate spread"
+        "American Conference Memphis hosts Sun Belt Arkansas State; Tigers -466",
+        "No form data provided"
       ],
-      "reasoning": "Memphis is a reasonable home favorite in a Group of Five matchup with a moderate spread; without trend data we lean slightly to the favorite given the number isn't extreme, suggesting real perceived talent gap.",
+      "reasoning": "Memphis has been the stronger program and gets home field, so it is the lean to win. With no trends behind the number, Arkansas State plus the points is the spread side.",
       "context_used": {
         "away_trends": {
           "team": "Arkansas State Red Wolves",
@@ -11280,7 +11221,7 @@
           "away": null
         }
       },
-      "generated_at": "2026-09-03T15:08:36.053744+00:00",
+      "generated_at": "2026-09-03T22:35:41.064068+00:00",
       "model": "claude (cowork session, manual)",
       "line_at_prediction": {
         "moneyline": {
@@ -11322,13 +11263,12 @@
     "prediction": {
       "predicted_winner": "Vanderbilt Commodores",
       "predicted_against_spread": "Austin Peay Governors",
-      "confidence": 57,
+      "confidence": 87,
       "key_factors": [
-        "Extreme -29.2 spread",
-        "High total (60.5) suggests heavy scoring",
-        "No trend data provided"
+        "SEC Vanderbilt hosts FCS Austin Peay; Commodores -7250",
+        "No form data provided"
       ],
-      "reasoning": "Vanderbilt should win comfortably against an FCS opponent, but the large spread combined with a high total is difficult to hit precisely; leaning underdog for cover value.",
+      "reasoning": "Vanderbilt wins this comfortably as an SEC host over an FCS opponent. Laying 29.2 is the uncertain part, so the spread lean is Austin Peay plus the points.",
       "context_used": {
         "away_trends": {
           "team": "Austin Peay Governors",
@@ -11350,7 +11290,7 @@
           "away": null
         }
       },
-      "generated_at": "2026-09-03T15:08:36.053744+00:00",
+      "generated_at": "2026-09-03T22:35:41.064068+00:00",
       "model": "claude (cowork session, manual)",
       "line_at_prediction": {
         "moneyline": {
@@ -11392,13 +11332,12 @@
     "prediction": {
       "predicted_winner": "Georgia Southern Eagles",
       "predicted_against_spread": "Charleston Southern Buccaneers",
-      "confidence": 56,
+      "confidence": 84,
       "key_factors": [
-        "Extreme -25.9 spread",
-        "FCS vs FBS mismatch",
-        "No trend data provided"
+        "Sun Belt Georgia Southern hosts FCS Charleston Southern; Eagles -5750",
+        "No form data provided"
       ],
-      "reasoning": "Georgia Southern should win outright, but a nearly 26-point spread is a substantial number to cover fully without specific trend confirmation; leaning underdog for value against the spread.",
+      "reasoning": "Georgia Southern should win comfortably at home against an FCS opponent. With no trends to support laying 25.9, the spread lean is Charleston Southern plus the points.",
       "context_used": {
         "away_trends": {
           "team": "Charleston Southern Buccaneers",
@@ -11420,7 +11359,7 @@
           "away": null
         }
       },
-      "generated_at": "2026-09-03T15:08:36.053744+00:00",
+      "generated_at": "2026-09-03T22:35:41.064068+00:00",
       "model": "claude (cowork session, manual)",
       "line_at_prediction": {
         "moneyline": {
@@ -11462,13 +11401,12 @@
     "prediction": {
       "predicted_winner": "Jacksonville State Gamecocks",
       "predicted_against_spread": "Eastern Kentucky Colonels",
-      "confidence": 55,
+      "confidence": 76,
       "key_factors": [
-        "Jacksonville State on L1 streak (0-1)",
-        "Extreme -20.5 spread",
-        "No trend data for Eastern Kentucky"
+        "Conference USA Jacksonville State hosts FCS Eastern Kentucky; JVST opened 0-1",
+        "Jacksonville State is 0-1 (L1), the only trend provided"
       ],
-      "reasoning": "Jacksonville State should win outright as favorite, but they're coming off a loss to open the season (0-1, L1), which introduces some doubt about a dominant performance; taking Eastern Kentucky to cover the large spread.",
+      "reasoning": "Jacksonville State is the pick to win as an FBS host, though its 0-1 start tempers confidence. The spread lean is Eastern Kentucky plus the points given the number and JSU's shaky opener.",
       "context_used": {
         "away_trends": {
           "team": "Eastern Kentucky Colonels",
@@ -11490,7 +11428,7 @@
           "away": null
         }
       },
-      "generated_at": "2026-09-03T15:08:36.053744+00:00",
+      "generated_at": "2026-09-03T22:35:41.064068+00:00",
       "model": "claude (cowork session, manual)",
       "line_at_prediction": {
         "moneyline": {
@@ -11532,13 +11470,12 @@
     "prediction": {
       "predicted_winner": "South Florida Bulls",
       "predicted_against_spread": "South Florida Bulls",
-      "confidence": 56,
+      "confidence": 68,
       "key_factors": [
-        "Moderate home favorite (-14.4)",
-        "No trend data for either team",
-        "In-state Group of Five rivalry"
+        "American Conference South Florida hosts Conference USA FIU; Bulls -692",
+        "No form data provided"
       ],
-      "reasoning": "South Florida is a moderate home favorite in an in-state rivalry game; without trend data we lean slightly to the favorite given the market's reasonable line for a clear talent disparity.",
+      "reasoning": "South Florida has been the better program and gets home field, so it is the lean to win. With no trends behind the number, FIU plus the two touchdowns is the spread side.",
       "context_used": {
         "away_trends": {
           "team": "Florida International Panthers",
@@ -11560,7 +11497,7 @@
           "away": null
         }
       },
-      "generated_at": "2026-09-03T15:08:36.053744+00:00",
+      "generated_at": "2026-09-03T22:35:41.064068+00:00",
       "model": "claude (cowork session, manual)",
       "line_at_prediction": {
         "moneyline": {
@@ -11602,13 +11539,12 @@
     "prediction": {
       "predicted_winner": "Rice Owls",
       "predicted_against_spread": "Houston Baptist Huskies",
-      "confidence": 57,
+      "confidence": 82,
       "key_factors": [
-        "Extreme -22.5 spread",
-        "Non-FBS opponent",
-        "No trend data provided"
+        "American Conference Rice hosts FCS Houston Christian; Owls -4200",
+        "No form data provided"
       ],
-      "reasoning": "Rice should win comfortably against a clearly outmatched opponent, but the spread is still large enough to leave doubt on exact cover; leaning underdog for backdoor value.",
+      "reasoning": "Rice should win comfortably at home against an FCS opponent. The spread lean is Houston Baptist plus the points given no support for laying 22.5.",
       "context_used": {
         "away_trends": {
           "team": "Houston Baptist Huskies",
@@ -11630,7 +11566,7 @@
           "away": null
         }
       },
-      "generated_at": "2026-09-03T15:08:36.053744+00:00",
+      "generated_at": "2026-09-03T22:35:41.064068+00:00",
       "model": "claude (cowork session, manual)",
       "line_at_prediction": {
         "moneyline": {
@@ -11672,13 +11608,12 @@
     "prediction": {
       "predicted_winner": "Utah State Aggies",
       "predicted_against_spread": "Utah State Aggies",
-      "confidence": 56,
+      "confidence": 66,
       "key_factors": [
-        "Idaho State opened 0-1 (L1)",
-        "High total (62.1) suggests scoring",
-        "Moderate spread (-14.0)"
+        "Mountain West Utah State hosts FCS Idaho State, which opened 0-1",
+        "Idaho State is 0-1 (L1), the only trend provided"
       ],
-      "reasoning": "Idaho State enters on a losing streak having opened 0-1, and Utah State is favored by a moderate 14 points with a high total suggesting a track meet; the negative trend for the underdog slightly favors the home team covering.",
+      "reasoning": "Utah State is the clear pick to win as an FBS host over an FCS team that already lost. With the number at 13.8 and no other trends, Idaho State plus the points is the spread lean.",
       "context_used": {
         "away_trends": {
           "team": "Idaho State Bengals",
@@ -11700,7 +11635,7 @@
           "away": null
         }
       },
-      "generated_at": "2026-09-03T15:08:36.053744+00:00",
+      "generated_at": "2026-09-03T22:35:41.064068+00:00",
       "model": "claude (cowork session, manual)",
       "line_at_prediction": {
         "moneyline": {
@@ -11739,13 +11674,12 @@
     "prediction": {
       "predicted_winner": "Kansas State Wildcats",
       "predicted_against_spread": "Nicholls State Colonels",
-      "confidence": 58,
+      "confidence": 90,
       "key_factors": [
-        "Extreme -41.2 spread",
-        "FCS vs FBS mismatch",
-        "No trend data, low bookmaker count (3)"
+        "Big 12 Kansas State hosts FCS Nicholls; no moneyline posted",
+        "No trend data provided"
       ],
-      "reasoning": "Kansas State should dominate an FCS opponent, but a 41.2-point spread with limited bookmaker coverage (only 3) suggests less market certainty in the exact number; leaning underdog for cover value.",
+      "reasoning": "Kansas State wins this by a wide margin as a Power host over an FCS opponent. Covering 41.2 with a running clock is the only live question, so the spread lean is Nicholls State plus the points.",
       "context_used": {
         "away_trends": {
           "team": "Nicholls State Colonels",
@@ -11767,7 +11701,7 @@
           "away": null
         }
       },
-      "generated_at": "2026-09-03T15:08:36.053744+00:00",
+      "generated_at": "2026-09-03T22:35:41.064068+00:00",
       "model": "claude (cowork session, manual)",
       "line_at_prediction": {
         "moneyline": {},
@@ -11875,14 +11809,13 @@
     },
     "prediction": {
       "predicted_winner": "Middle Tennessee Blue Raiders",
-      "predicted_against_spread": "Middle Tennessee Blue Raiders",
-      "confidence": 55,
+      "predicted_against_spread": "Murray State Racers",
+      "confidence": 79,
       "key_factors": [
-        "Moderate home favorite (-20.7)",
-        "High total (58.1) suggests offense",
-        "No trend data provided"
+        "Conference USA Middle Tennessee hosts FCS Murray State; Blue Raiders -2033",
+        "No form data provided"
       ],
-      "reasoning": "Middle Tennessee is a solid home favorite against an FCS opponent with a high total suggesting scoring for both sides; without trend data we lean slightly to the favorite given the reasonable line for the talent gap.",
+      "reasoning": "Middle Tennessee should win at home against an FCS opponent. The spread lean is Murray State plus the points given no support for laying 20.7.",
       "context_used": {
         "away_trends": {
           "team": "Murray State Racers",
@@ -11904,7 +11837,7 @@
           "away": null
         }
       },
-      "generated_at": "2026-09-03T15:08:36.053744+00:00",
+      "generated_at": "2026-09-03T22:35:41.064068+00:00",
       "model": "claude (cowork session, manual)",
       "line_at_prediction": {
         "moneyline": {
@@ -11946,13 +11879,12 @@
     "prediction": {
       "predicted_winner": "Texas A&M Aggies",
       "predicted_against_spread": "Missouri State Bears",
-      "confidence": 58,
+      "confidence": 90,
       "key_factors": [
-        "Extreme -40.4 spread",
-        "No trend data provided",
-        "SEC power vs FCS opponent"
+        "SEC Texas A&M hosts Missouri State, a first-year FBS transition program; Aggies -100000",
+        "No trend data provided"
       ],
-      "reasoning": "Texas A&M should dominate an FCS opponent, but a 40+ point spread is one of the largest and hardest to cover consistently even for elite teams; leaning underdog for backdoor cover value.",
+      "reasoning": "Texas A&M wins this outright as a near-certainty against a team just moving up to FBS. The 40.4 number is the only live question, so the spread lean is Missouri State plus the points.",
       "context_used": {
         "away_trends": {
           "team": "Missouri State Bears",
@@ -11974,7 +11906,7 @@
           "away": null
         }
       },
-      "generated_at": "2026-09-03T15:08:36.053744+00:00",
+      "generated_at": "2026-09-03T22:35:41.064068+00:00",
       "model": "claude (cowork session, manual)",
       "line_at_prediction": {
         "moneyline": {
@@ -12016,13 +11948,12 @@
     "prediction": {
       "predicted_winner": "Troy Trojans",
       "predicted_against_spread": "Troy Trojans",
-      "confidence": 60,
+      "confidence": 70,
       "key_factors": [
-        "Troy opened 1-0 (W1)",
-        "Sam Houston State opened 0-1 (L1)",
-        "Moderate spread (-16.6) supports home favorite momentum"
+        "Troy opened 1-0 (W1); Sam Houston opened 0-1 (L1)",
+        "Troy -894 on the moneyline as a Sun Belt host"
       ],
-      "reasoning": "Troy enters with a positive trend (1-0, W1) while Sam Houston State is coming off an opening loss (0-1, L1), directly supporting the home favorite; these are the clearest divergent trend signals on the slate, boosting confidence.",
+      "reasoning": "Troy has the better Week 1 result, home field, and the class edge, so it is the pick to win. With the number at 16.7 and thin data, Sam Houston plus the points is the spread lean.",
       "context_used": {
         "away_trends": {
           "team": "Sam Houston State Bearkats",
@@ -12044,7 +11975,7 @@
           "away": null
         }
       },
-      "generated_at": "2026-09-03T15:08:36.053744+00:00",
+      "generated_at": "2026-09-03T22:35:41.064068+00:00",
       "model": "claude (cowork session, manual)",
       "line_at_prediction": {
         "moneyline": {
@@ -12086,13 +12017,12 @@
     "prediction": {
       "predicted_winner": "South Alabama Jaguars",
       "predicted_against_spread": "South Alabama Jaguars",
-      "confidence": 56,
+      "confidence": 68,
       "key_factors": [
-        "Moderate home favorite (-12.9)",
-        "No trend data for either team",
-        "FCS vs FBS mismatch"
+        "Sun Belt South Alabama hosts FCS Southeastern Louisiana; Jaguars -662",
+        "No form data provided"
       ],
-      "reasoning": "South Alabama is a reasonable home favorite against an FCS opponent with a moderate spread size; without trend data we lean slightly to the favorite given the number isn't extreme, suggesting real perceived gap.",
+      "reasoning": "South Alabama is the pick to win as an FBS host over an FCS opponent. With the number near two touchdowns and no trends behind it, Southeastern Louisiana plus the points is the spread lean.",
       "context_used": {
         "away_trends": {
           "team": "Southeastern Louisiana Lions",
@@ -12114,7 +12044,7 @@
           "away": null
         }
       },
-      "generated_at": "2026-09-03T15:08:36.053744+00:00",
+      "generated_at": "2026-09-03T22:35:41.064068+00:00",
       "model": "claude (cowork session, manual)",
       "line_at_prediction": {
         "moneyline": {
@@ -12155,14 +12085,13 @@
     },
     "prediction": {
       "predicted_winner": "LSU Tigers",
-      "predicted_against_spread": "Clemson Tigers",
-      "confidence": 55,
+      "predicted_against_spread": "LSU Tigers",
+      "confidence": 60,
       "key_factors": [
-        "Moderate home favorite (-10.1)",
-        "No specific trend data for either team",
-        "Two ranked-caliber programs, competitive expected"
+        "Top-tier non-conference matchup; LSU is a -10.1 home favorite (-390 ML)",
+        "No form or head-to-head data provided"
       ],
-      "reasoning": "LSU is favored at home against Clemson in what should be a highly competitive top-tier matchup; without trend data, the double-digit spread against a quality opponent like Clemson seems slightly generous, favoring Clemson to keep it close.",
+      "reasoning": "LSU gets a night game at home against Clemson and is the lean to win. Ten points is a lot in a game between two ranked-caliber teams with no supporting trends, so Clemson plus the points is the spread side.",
       "context_used": {
         "away_trends": {
           "team": "Clemson Tigers",
@@ -12184,7 +12113,7 @@
           "away": null
         }
       },
-      "generated_at": "2026-09-03T15:08:36.053744+00:00",
+      "generated_at": "2026-09-03T22:35:41.064068+00:00",
       "model": "claude (cowork session, manual)",
       "line_at_prediction": {
         "moneyline": {
@@ -12223,13 +12152,12 @@
     "prediction": {
       "predicted_winner": "Louisiana Tech Bulldogs",
       "predicted_against_spread": "Northwestern State Demons",
-      "confidence": 57,
+      "confidence": 90,
       "key_factors": [
-        "Extreme -44.5 spread",
-        "FCS vs FBS mismatch",
-        "Low bookmaker count (4)"
+        "Conference USA Louisiana Tech hosts FCS Northwestern State; no ML posted",
+        "No trend data provided"
       ],
-      "reasoning": "Louisiana Tech should win outright against an FCS opponent, but a 44.5-point spread with limited bookmaker consensus (4) suggests uncertainty in the exact number; leaning underdog for cover value.",
+      "reasoning": "Louisiana Tech wins this by a wide margin as an FBS host over an FCS opponent. A 44.5-point spread against a running clock is the risk, so the spread lean is Northwestern State plus the points.",
       "context_used": {
         "away_trends": {
           "team": "Northwestern State Demons",
@@ -12251,7 +12179,7 @@
           "away": null
         }
       },
-      "generated_at": "2026-09-03T15:08:36.053744+00:00",
+      "generated_at": "2026-09-03T22:35:41.064068+00:00",
       "model": "claude (cowork session, manual)",
       "line_at_prediction": {
         "moneyline": {},
@@ -12290,13 +12218,12 @@
     "prediction": {
       "predicted_winner": "Mississippi State Bulldogs",
       "predicted_against_spread": "UL Monroe Warhawks",
-      "confidence": 58,
+      "confidence": 85,
       "key_factors": [
-        "Extreme -28.6 spread",
-        "SEC power vs Sun Belt opponent",
-        "No trend data provided"
+        "SEC Mississippi State hosts Sun Belt UL Monroe; Bulldogs -6750",
+        "No form data provided"
       ],
-      "reasoning": "Mississippi State should win comfortably against a clearly outmatched Sun Belt opponent, but the 28.6-point spread is a large number to cover fully; leaning underdog for backdoor value.",
+      "reasoning": "Mississippi State should win comfortably as an SEC host. Laying 28.6 with no trend support is the shakier side, so the spread lean is UL Monroe plus the points.",
       "context_used": {
         "away_trends": {
           "team": "UL Monroe Warhawks",
@@ -12318,7 +12245,7 @@
           "away": null
         }
       },
-      "generated_at": "2026-09-03T15:08:36.053744+00:00",
+      "generated_at": "2026-09-03T22:35:41.064068+00:00",
       "model": "claude (cowork session, manual)",
       "line_at_prediction": {
         "moneyline": {
@@ -12357,13 +12284,12 @@
     "prediction": {
       "predicted_winner": "Virginia Tech Hokies",
       "predicted_against_spread": "VMI Keydets",
-      "confidence": 60,
+      "confidence": 95,
       "key_factors": [
-        "Extreme -55.5 spread, one of largest on slate",
-        "High total (61.9) suggests heavy scoring",
-        "No trend data provided"
+        "ACC Virginia Tech hosts in-state FCS VMI; no moneyline offered",
+        "No trend data, none needed for the outright result"
       ],
-      "reasoning": "Virginia Tech should dominate VMI, but a 55.5-point spread is an extraordinarily large number that is very difficult to hit exactly regardless of the outright blowout; taking the underdog for backdoor cover value given the size of the spread.",
+      "reasoning": "Virginia Tech wins this by a huge margin against an overmatched FCS opponent. A 55-point spread against reserves and a running clock is the only live question, so the sliver of value is VMI plus the points.",
       "context_used": {
         "away_trends": {
           "team": "VMI Keydets",
@@ -12385,7 +12311,7 @@
           "away": null
         }
       },
-      "generated_at": "2026-09-03T15:08:36.053744+00:00",
+      "generated_at": "2026-09-03T22:35:41.064068+00:00",
       "model": "claude (cowork session, manual)",
       "line_at_prediction": {
         "moneyline": {},
@@ -12424,13 +12350,12 @@
     "prediction": {
       "predicted_winner": "Florida Gators",
       "predicted_against_spread": "Florida Atlantic Owls",
-      "confidence": 57,
+      "confidence": 84,
       "key_factors": [
-        "FAU opened 1-0 (W1)",
-        "Extreme -26.5 spread for Florida",
-        "SEC power vs Group of Five opponent"
+        "SEC Florida hosts American Conference FAU, which opened 1-0",
+        "Florida -5133 on the moneyline"
       ],
-      "reasoning": "Florida should win comfortably as the far superior program, but FAU enters with a positive trend (1-0, W1) and the spread is sizable at 26.5; taking FAU to cover given their positive momentum against such a large number.",
+      "reasoning": "Florida is the clear pick to win at home against a Group of Five opponent. FAU's 1-0 start and the 26.6 number make the Owls plus the points the spread lean.",
       "context_used": {
         "away_trends": {
           "team": "Florida Atlantic Owls",
@@ -12452,7 +12377,7 @@
           "away": null
         }
       },
-      "generated_at": "2026-09-03T15:08:36.053744+00:00",
+      "generated_at": "2026-09-03T22:35:41.064068+00:00",
       "model": "claude (cowork session, manual)",
       "line_at_prediction": {
         "moneyline": {
@@ -12491,13 +12416,12 @@
     "prediction": {
       "predicted_winner": "BYU Cougars",
       "predicted_against_spread": "Utah Tech Trailblazers",
-      "confidence": 58,
+      "confidence": 95,
       "key_factors": [
-        "Extreme -51.4 spread, largest on slate",
-        "High total (61.4) suggests heavy scoring",
-        "No trend data provided"
+        "Big 12 BYU hosts FCS Utah Tech; no moneyline offered",
+        "No trend data, none needed for the winner"
       ],
-      "reasoning": "BYU should dominate a clearly outmatched opponent, but a 51.4-point spread is one of the largest possible spreads and extremely difficult to cover fully; taking the underdog for backdoor cover value.",
+      "reasoning": "BYU wins this by seven-plus touchdowns as a near-certainty. A 51-point spread against a running clock is the risk, so the only value is Utah Tech plus the points.",
       "context_used": {
         "away_trends": {
           "team": "Utah Tech Trailblazers",
@@ -12519,7 +12443,7 @@
           "away": null
         }
       },
-      "generated_at": "2026-09-03T15:08:36.053744+00:00",
+      "generated_at": "2026-09-03T22:35:41.064068+00:00",
       "model": "claude (cowork session, manual)",
       "line_at_prediction": {
         "moneyline": {},
@@ -12558,13 +12482,12 @@
     "prediction": {
       "predicted_winner": "Louisiana Ragin Cajuns",
       "predicted_against_spread": "Lamar Cardinals",
-      "confidence": 56,
+      "confidence": 78,
       "key_factors": [
-        "Lamar opened 1-0 (W1) with positive momentum",
-        "Extreme -19.5 spread for Louisiana",
-        "Non-FBS opponent facing FBS favorite"
+        "Sun Belt Louisiana hosts FCS Lamar, which opened 1-0",
+        "Louisiana -1633 on the moneyline"
       ],
-      "reasoning": "Louisiana should win outright as the stronger program, but Lamar enters with positive momentum from a season-opening win, and the spread of 19.5 is sizable; taking Lamar to cover given their momentum against the number.",
+      "reasoning": "Louisiana should win at home against an FCS opponent despite Lamar's 1-0 start. The spread lean is Lamar plus the points given no support for laying 19.4.",
       "context_used": {
         "away_trends": {
           "team": "Lamar Cardinals",
@@ -12586,7 +12509,7 @@
           "away": null
         }
       },
-      "generated_at": "2026-09-03T15:08:36.053744+00:00",
+      "generated_at": "2026-09-03T22:35:41.064068+00:00",
       "model": "claude (cowork session, manual)",
       "line_at_prediction": {
         "moneyline": {
@@ -12627,14 +12550,13 @@
     },
     "prediction": {
       "predicted_winner": "Northwestern Wildcats",
-      "predicted_against_spread": "South Dakota State Jackrabbits",
-      "confidence": 55,
+      "predicted_against_spread": "Northwestern Wildcats",
+      "confidence": 62,
       "key_factors": [
-        "Moderate home favorite (-13.5)",
-        "SDSU is a strong FCS program historically",
-        "No trend data provided"
+        "Big Ten Northwestern hosts South Dakota State, an elite FCS program; Wildcats -653",
+        "No form data provided"
       ],
-      "reasoning": "Northwestern is favored at home, but South Dakota State is a perennial top FCS program capable of competing with lower-tier FBS teams; without trend data, the moderate 13.5-point spread seems generous, favoring SDSU to stay within range.",
+      "reasoning": "Northwestern is the pick to win as an FBS host, but SDSU is a perennial FCS title contender and 13.3 is a large number against that quality with no trends behind it, so the spread lean is South Dakota State plus the points.",
       "context_used": {
         "away_trends": {
           "team": "South Dakota State Jackrabbits",
@@ -12656,7 +12578,7 @@
           "away": null
         }
       },
-      "generated_at": "2026-09-03T15:08:36.053744+00:00",
+      "generated_at": "2026-09-03T22:35:41.064068+00:00",
       "model": "claude (cowork session, manual)",
       "line_at_prediction": {
         "moneyline": {
@@ -12698,13 +12620,12 @@
     "prediction": {
       "predicted_winner": "UNLV Rebels",
       "predicted_against_spread": "UNLV Rebels",
-      "confidence": 57,
+      "confidence": 56,
       "key_factors": [
-        "Hawaii opened 0-1 (L1) with negative trend",
-        "Close spread (-3.1) favors road team",
-        "UNLV as modest road favorite"
+        "Hawaii opened 0-1 (L1); UNLV is a -3.1 road favorite",
+        "No other trend data provided"
       ],
-      "reasoning": "Hawaii enters on a losing streak having opened 0-1, while UNLV is favored on the road by a small margin; the negative trend for Hawaii combined with UNLV being the betting favorite supports taking UNLV both to win and cover.",
+      "reasoning": "UNLV has been the stronger Mountain West program and Hawaii already lost in Week 1, so the Rebels are the lean to win. The travel to Hawaii and a field-goal number make the Rainbow Warriors plus the points the spread side.",
       "context_used": {
         "away_trends": {
           "team": "UNLV Rebels",
@@ -12726,7 +12647,7 @@
           "away": null
         }
       },
-      "generated_at": "2026-09-03T15:08:36.053744+00:00",
+      "generated_at": "2026-09-03T22:35:41.064068+00:00",
       "model": "claude (cowork session, manual)",
       "line_at_prediction": {
         "moneyline": {
@@ -12768,13 +12689,12 @@
     "prediction": {
       "predicted_winner": "New Mexico State Aggies",
       "predicted_against_spread": "Mercyhurst Lakers",
-      "confidence": 57,
+      "confidence": 86,
       "key_factors": [
-        "Extreme -28.3 spread",
-        "Mercyhurst is a small non-FBS program",
-        "No trend data provided"
+        "Conference USA New Mexico State hosts Mercyhurst, an FCS transition program; Aggies -9000",
+        "No form data provided"
       ],
-      "reasoning": "New Mexico State should win comfortably against a much smaller program, but the 28.3-point spread is a significant number to cover fully; leaning underdog for backdoor cover value.",
+      "reasoning": "New Mexico State wins this comfortably as an FBS host over a low-level FCS opponent. Laying 28.3 is the only real question, so the spread lean is Mercyhurst plus the points.",
       "context_used": {
         "away_trends": {
           "team": "Mercyhurst Lakers",
@@ -12796,7 +12716,7 @@
           "away": null
         }
       },
-      "generated_at": "2026-09-03T15:08:36.053744+00:00",
+      "generated_at": "2026-09-03T22:35:41.064068+00:00",
       "model": "claude (cowork session, manual)",
       "line_at_prediction": {
         "moneyline": {
@@ -12838,13 +12758,12 @@
     "prediction": {
       "predicted_winner": "Arizona Wildcats",
       "predicted_against_spread": "Northern Arizona Lumberjacks",
-      "confidence": 57,
+      "confidence": 87,
       "key_factors": [
-        "Extreme -31.8 spread",
-        "FCS vs FBS mismatch",
-        "No trend data provided"
+        "Big 12 Arizona hosts in-state FCS Northern Arizona; Wildcats -8000",
+        "No form data provided"
       ],
-      "reasoning": "Arizona should win outright against an FCS opponent, but the near-32 point spread is substantial to cover consistently; lacking trend data, leaning underdog for value against the spread.",
+      "reasoning": "Arizona wins this comfortably as a Power host over an FCS opponent. Covering 31.8 with a running clock is the shakier side, so the spread lean is Northern Arizona plus the points.",
       "context_used": {
         "away_trends": {
           "team": "Northern Arizona Lumberjacks",
@@ -12866,7 +12785,7 @@
           "away": null
         }
       },
-      "generated_at": "2026-09-03T15:08:36.053744+00:00",
+      "generated_at": "2026-09-03T22:35:41.064068+00:00",
       "model": "claude (cowork session, manual)",
       "line_at_prediction": {
         "moneyline": {
@@ -12905,13 +12824,12 @@
     "prediction": {
       "predicted_winner": "San Diego State Aztecs",
       "predicted_against_spread": "Portland State Vikings",
-      "confidence": 57,
+      "confidence": 87,
       "key_factors": [
-        "Extreme -40.1 spread",
-        "High total (62.0) suggests scoring",
+        "Mountain West San Diego State hosts FCS Portland State; no moneyline posted",
         "No trend data provided"
       ],
-      "reasoning": "San Diego State should dominate an FCS opponent, but the extremely large spread combined with a high total makes exact cover uncertain; taking the underdog for backdoor value.",
+      "reasoning": "San Diego State wins this by a wide margin as an FBS host over an FCS opponent. A 40-point spread against reserves is the risk, so the spread lean is Portland State plus the points.",
       "context_used": {
         "away_trends": {
           "team": "Portland State Vikings",
@@ -12933,7 +12851,7 @@
           "away": null
         }
       },
-      "generated_at": "2026-09-03T15:08:36.053744+00:00",
+      "generated_at": "2026-09-03T22:35:41.064068+00:00",
       "model": "claude (cowork session, manual)",
       "line_at_prediction": {
         "moneyline": {},
@@ -12969,13 +12887,12 @@
     "prediction": {
       "predicted_winner": "Arizona State Sun Devils",
       "predicted_against_spread": "Morgan State Bears",
-      "confidence": 57,
+      "confidence": 91,
       "key_factors": [
-        "Extreme -43.5 spread",
-        "FCS vs FBS mismatch",
+        "Big 12 Arizona State hosts FCS Morgan State; no moneyline offered",
         "No trend data provided"
       ],
-      "reasoning": "Arizona State should win outright against an FCS opponent, but a 43.5-point spread is one of the largest on the slate and very difficult to cover fully; leaning underdog for cover value.",
+      "reasoning": "Arizona State wins this outright as a near-certainty against an FCS visitor. The 43.5 number against a running clock is the only live question, so the spread lean is Morgan State plus the points.",
       "context_used": {
         "away_trends": {
           "team": "Morgan State Bears",
@@ -12997,7 +12914,7 @@
           "away": null
         }
       },
-      "generated_at": "2026-09-03T15:08:36.053744+00:00",
+      "generated_at": "2026-09-03T22:35:41.064068+00:00",
       "model": "claude (cowork session, manual)",
       "line_at_prediction": {
         "moneyline": {},
@@ -13036,13 +12953,12 @@
     "prediction": {
       "predicted_winner": "New Mexico Lobos",
       "predicted_against_spread": "New Mexico Lobos",
-      "confidence": 55,
+      "confidence": 60,
       "key_factors": [
-        "Moderate home favorite (-10.7)",
-        "No trend data for either team",
-        "Low total (46.4) suggests controlled game"
+        "Mountain West New Mexico hosts MAC Central Michigan; Lobos -456",
+        "No form data provided"
       ],
-      "reasoning": "New Mexico is a modest home favorite with a relatively low total suggesting a more controlled contest; without trend data, we lean slightly to the favorite given the moderate line size.",
+      "reasoning": "New Mexico gets home field in a Group of Five matchup and is the lean to win. With no trends behind a double-digit number, Central Michigan plus the points is the spread side.",
       "context_used": {
         "away_trends": {
           "team": "Central Michigan Chippewas",
@@ -13064,7 +12980,7 @@
           "away": null
         }
       },
-      "generated_at": "2026-09-03T15:08:36.053744+00:00",
+      "generated_at": "2026-09-03T22:35:41.064068+00:00",
       "model": "claude (cowork session, manual)",
       "line_at_prediction": {
         "moneyline": {
@@ -13103,13 +13019,12 @@
     "prediction": {
       "predicted_winner": "Sacramento State Hornets",
       "predicted_against_spread": "Mississippi Valley State Delta Devils",
-      "confidence": 55,
+      "confidence": 89,
       "key_factors": [
-        "Sacramento State opened 0-1 (L1)",
-        "Extreme -37.7 spread",
-        "FCS vs FCS mismatch"
+        "Sacramento State hosts Mississippi Valley State, one of the weakest FCS programs; SAC opened 0-1",
+        "Sacramento State is 0-1 (L1), the only trend provided"
       ],
-      "reasoning": "Sacramento State should win outright given the significant talent gap, but they are coming off a season-opening loss (0-1, L1) which introduces some doubt about a dominant performance; taking the underdog to cover the large spread.",
+      "reasoning": "Sacramento State should win this by a large margin regardless of its 0-1 start, given how far MVSU sits at the bottom of the FCS. Covering 37.7 is the only live question, so the spread lean is Mississippi Valley State plus the points.",
       "context_used": {
         "away_trends": {
           "team": "Mississippi Valley State Delta Devils",
@@ -13131,7 +13046,7 @@
           "away": null
         }
       },
-      "generated_at": "2026-09-03T15:08:36.053744+00:00",
+      "generated_at": "2026-09-03T22:35:41.064068+00:00",
       "model": "claude (cowork session, manual)",
       "line_at_prediction": {
         "moneyline": {},
@@ -13170,13 +13085,12 @@
     "prediction": {
       "predicted_winner": "UCLA Bruins",
       "predicted_against_spread": "UCLA Bruins",
-      "confidence": 53,
+      "confidence": 54,
       "key_factors": [
-        "Very close spread (-1.8)",
-        "No trend data for either team",
-        "Pac-12 rivalry, evenly matched per market"
+        "Former Pac-12 rivals; UCLA is a -1.8 road favorite",
+        "No form or head-to-head data provided"
       ],
-      "reasoning": "This is essentially a coin-flip game per the market with UCLA a slight favorite; with no trend data to differentiate the teams, we lean marginally with the slight market favorite but confidence remains low.",
+      "reasoning": "A near coin-flip between old conference rivals with no trends to lean on. Take the slight favorite UCLA to win, with California plus the small number at home.",
       "context_used": {
         "away_trends": {
           "team": "UCLA Bruins",
@@ -13198,7 +13112,7 @@
           "away": null
         }
       },
-      "generated_at": "2026-09-03T15:08:36.053744+00:00",
+      "generated_at": "2026-09-03T22:35:41.064068+00:00",
       "model": "claude (cowork session, manual)",
       "line_at_prediction": {
         "moneyline": {
@@ -13240,13 +13154,12 @@
     "prediction": {
       "predicted_winner": "Western Kentucky Hilltoppers",
       "predicted_against_spread": "Western Kentucky Hilltoppers",
-      "confidence": 53,
+      "confidence": 54,
       "key_factors": [
-        "Very close spread, WKU actually favored on moneyline",
-        "No trend data for either team",
-        "Nevada Wolf Pack at home but small underdog by spread"
+        "Line is essentially pick'em (WKU -1.2, both around -110)",
+        "No form or head-to-head data provided"
       ],
-      "reasoning": "This is a near coin-flip with Western Kentucky actually favored on the moneyline despite spread being close; without trend data, we lean slightly toward WKU given the moneyline signal indicating market confidence in the road team.",
+      "reasoning": "The market sees this as a coin flip and there are no trends to break the tie. Lean Western Kentucky, the nominal favorite, to win, with Nevada plus the point at home.",
       "context_used": {
         "away_trends": {
           "team": "Western Kentucky Hilltoppers",
@@ -13268,7 +13181,7 @@
           "away": null
         }
       },
-      "generated_at": "2026-09-03T15:08:36.053744+00:00",
+      "generated_at": "2026-09-03T22:35:41.064068+00:00",
       "model": "claude (cowork session, manual)",
       "line_at_prediction": {
         "moneyline": {
@@ -13294,7 +13207,7 @@
     "espn_sport": "football",
     "espn_league": "college-football",
     "outdoor": true,
-    "status": "scheduled",
+    "status": "predicted",
     "odds": {
       "moneyline": {
         "Washington Huskies": -2495,
@@ -13307,7 +13220,51 @@
       "total": 50.8,
       "num_bookmakers": 9
     },
-    "prediction": null,
+    "prediction": {
+      "predicted_winner": "Washington Huskies",
+      "predicted_against_spread": "Washington State Cougars",
+      "confidence": 82,
+      "key_factors": [
+        "Apple Cup rivalry; Washington is a -23.4 home favorite (-2495 ML)",
+        "No form or head-to-head data provided"
+      ],
+      "reasoning": "Washington is clearly the stronger program now and should win the rivalry game at home. Rivalry games tend to stay closer than the number, and 23.4 is steep with no trends behind it, so Washington State plus the points is the spread lean.",
+      "context_used": {
+        "away_trends": {
+          "team": "Washington State Cougars",
+          "last5": null,
+          "streak": null,
+          "record": null,
+          "h2h_vs_opponent": null
+        },
+        "home_trends": {
+          "team": "Washington Huskies",
+          "last5": null,
+          "streak": null,
+          "record": null,
+          "h2h_vs_opponent": null
+        },
+        "weather": null,
+        "probable_pitchers": {
+          "home": null,
+          "away": null
+        }
+      },
+      "generated_at": "2026-09-03T22:35:41.064068+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "Washington Huskies": -2495,
+          "Washington State Cougars": 1097
+        },
+        "spread": {
+          "Washington Huskies": -23.4,
+          "Washington State Cougars": 23.4
+        },
+        "total": 50.8,
+        "num_bookmakers": 9
+      }
+    },
     "actual": null
   },
   "americanfootball_ncaaf_2026-09-06_louisville-cardinals_at_ole-miss-rebels": {
@@ -13319,7 +13276,7 @@
     "espn_sport": "football",
     "espn_league": "college-football",
     "outdoor": true,
-    "status": "scheduled",
+    "status": "predicted",
     "odds": {
       "moneyline": {
         "Louisville Cardinals": 217,
@@ -13332,7 +13289,51 @@
       "total": 55.3,
       "num_bookmakers": 8
     },
-    "prediction": null,
+    "prediction": {
+      "predicted_winner": "Ole Miss Rebels",
+      "predicted_against_spread": "Ole Miss Rebels",
+      "confidence": 59,
+      "key_factors": [
+        "Ole Miss is a -6.8 home favorite (-269 ML) over ACC Louisville",
+        "No form or head-to-head data provided"
+      ],
+      "reasoning": "Ole Miss gets home field in an SEC-vs-ACC matchup and is the lean to win. With no trends to justify laying a touchdown, Louisville plus the points is the spread side.",
+      "context_used": {
+        "away_trends": {
+          "team": "Louisville Cardinals",
+          "last5": null,
+          "streak": null,
+          "record": null,
+          "h2h_vs_opponent": null
+        },
+        "home_trends": {
+          "team": "Ole Miss Rebels",
+          "last5": null,
+          "streak": null,
+          "record": null,
+          "h2h_vs_opponent": null
+        },
+        "weather": null,
+        "probable_pitchers": {
+          "home": null,
+          "away": null
+        }
+      },
+      "generated_at": "2026-09-03T22:35:41.064068+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "Louisville Cardinals": 217,
+          "Ole Miss Rebels": -271
+        },
+        "spread": {
+          "Louisville Cardinals": 6.8,
+          "Ole Miss Rebels": -6.8
+        },
+        "total": 55.3,
+        "num_bookmakers": 8
+      }
+    },
     "actual": null
   },
   "americanfootball_ncaaf_2026-09-06_wisconsin-badgers_at_notre-dame-fighting-irish": {
@@ -13344,7 +13345,7 @@
     "espn_sport": "football",
     "espn_league": "college-football",
     "outdoor": true,
-    "status": "scheduled",
+    "status": "predicted",
     "odds": {
       "moneyline": {
         "Notre Dame Fighting Irish": -1741,
@@ -13357,7 +13358,51 @@
       "total": 46.7,
       "num_bookmakers": 9
     },
-    "prediction": null,
+    "prediction": {
+      "predicted_winner": "Notre Dame Fighting Irish",
+      "predicted_against_spread": "Wisconsin Badgers",
+      "confidence": 80,
+      "key_factors": [
+        "Notre Dame hosts Wisconsin as a -20.5 favorite (-1752 ML)",
+        "No form or head-to-head data provided"
+      ],
+      "reasoning": "Notre Dame is the clear pick to win at home against a Big Ten opponent. Three touchdowns is a big number between Power-conference teams with no supporting trends, so Wisconsin plus the points is the spread lean.",
+      "context_used": {
+        "away_trends": {
+          "team": "Wisconsin Badgers",
+          "last5": null,
+          "streak": null,
+          "record": null,
+          "h2h_vs_opponent": null
+        },
+        "home_trends": {
+          "team": "Notre Dame Fighting Irish",
+          "last5": null,
+          "streak": null,
+          "record": null,
+          "h2h_vs_opponent": null
+        },
+        "weather": null,
+        "probable_pitchers": {
+          "home": null,
+          "away": null
+        }
+      },
+      "generated_at": "2026-09-03T22:35:41.064068+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "Notre Dame Fighting Irish": -1741,
+          "Wisconsin Badgers": 915
+        },
+        "spread": {
+          "Notre Dame Fighting Irish": -20.4,
+          "Wisconsin Badgers": 20.4
+        },
+        "total": 46.7,
+        "num_bookmakers": 9
+      }
+    },
     "actual": null
   },
   "americanfootball_ncaaf_2026-09-07_smu-mustangs_at_florida-state-seminoles": {
@@ -13369,7 +13414,7 @@
     "espn_sport": "football",
     "espn_league": "college-football",
     "outdoor": true,
-    "status": "scheduled",
+    "status": "predicted",
     "odds": {
       "moneyline": {
         "Florida State Seminoles": 133,
@@ -13382,7 +13427,51 @@
       "total": 53.2,
       "num_bookmakers": 9
     },
-    "prediction": null,
+    "prediction": {
+      "predicted_winner": "SMU Mustangs",
+      "predicted_against_spread": "SMU Mustangs",
+      "confidence": 55,
+      "key_factors": [
+        "Both teams opened 1-0 (W1); SMU is a -2.9 road favorite",
+        "No head-to-head or deeper form data provided"
+      ],
+      "reasoning": "Both teams enter 1-0 and the market barely separates them. Take the slight favorite SMU to win on the road, with Florida State plus the field goal at home in a near coin-flip.",
+      "context_used": {
+        "away_trends": {
+          "team": "SMU Mustangs",
+          "last5": "1-0",
+          "streak": "W1",
+          "record": "1-0",
+          "h2h_vs_opponent": null
+        },
+        "home_trends": {
+          "team": "Florida State Seminoles",
+          "last5": "1-0",
+          "streak": "W1",
+          "record": "1-0",
+          "h2h_vs_opponent": null
+        },
+        "weather": null,
+        "probable_pitchers": {
+          "home": null,
+          "away": null
+        }
+      },
+      "generated_at": "2026-09-03T22:35:41.064068+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "Florida State Seminoles": 133,
+          "SMU Mustangs": -159
+        },
+        "spread": {
+          "Florida State Seminoles": 3.1,
+          "SMU Mustangs": -3.1
+        },
+        "total": 53.2,
+        "num_bookmakers": 9
+      }
+    },
     "actual": null
   },
   "americanfootball_ncaaf_2026-09-12_missouri-tigers_at_kansas-jayhawks": {
@@ -28419,13 +28508,12 @@
     "prediction": {
       "predicted_winner": "Maryland Terrapins",
       "predicted_against_spread": "Hampton Pirates",
-      "confidence": 58,
+      "confidence": 92,
       "key_factors": [
-        "Extreme -45.5 spread",
-        "FCS vs FBS mismatch",
-        "No trend data provided"
+        "Big Ten Maryland hosts FCS Hampton; no moneyline offered",
+        "No trend data, none needed for the winner"
       ],
-      "reasoning": "Maryland should win comfortably against an FCS opponent, but a 45.5-point spread is one of the largest on the slate and difficult to cover fully; taking the underdog for backdoor cover value.",
+      "reasoning": "Maryland wins this by a wide margin as a Power host over an FCS opponent. A 45-point spread against a running clock and reserves is the only live question, so the sliver of value is Hampton plus the points.",
       "context_used": {
         "away_trends": {
           "team": "Hampton Pirates",
@@ -28447,7 +28535,7 @@
           "away": null
         }
       },
-      "generated_at": "2026-09-03T15:08:36.053744+00:00",
+      "generated_at": "2026-09-03T22:35:41.064068+00:00",
       "model": "claude (cowork session, manual)",
       "line_at_prediction": {
         "moneyline": {},
@@ -31164,13 +31252,13 @@
     "prediction": {
       "predicted_winner": "Boston Red Sox",
       "predicted_against_spread": "Baltimore Orioles",
-      "confidence": 54,
+      "confidence": 55,
       "key_factors": [
-        "Red Sox on L2 skid despite better overall record",
-        "Bennett (3.27 ERA, 9-6) solid but Orioles' Young even better (3.38 ERA, 9-3)",
-        "H2H series close, Orioles won last meeting"
+        "Starters are nearly even: Bennett 3.27 vs Young 3.38",
+        "Boston is the better club (75-65) but ice-cold at 1-4 in its last five",
+        "Baltimore is only a +105 home dog and 3-2 over its last five"
       ],
-      "reasoning": "Boston is the better team overall but enters on a 2-game losing streak, while Baltimore has a comparable/slightly better starter in Young and won the last head-to-head meeting; taking Boston to win but Baltimore to keep it competitive within the spread given the recent form and pitching matchup being close.",
+      "reasoning": "The pitching matchup is close and the market barely separates these teams. Boston is the stronger roster but has lost four of five, while the Orioles are playing better at home. The lean is the Red Sox by class, but Baltimore plus the run and a half is the safer side of a near coin-flip.",
       "context_used": {
         "away_trends": {
           "team": "Boston Red Sox",
@@ -31193,10 +31281,10 @@
           }
         },
         "weather": {
-          "high_f": 92.9,
+          "high_f": 88.9,
           "low_f": 72.8,
           "precipitation_in": 0.0,
-          "wind_mph": 9.0
+          "wind_mph": 9.4
         },
         "probable_pitchers": {
           "home": {
@@ -31211,7 +31299,7 @@
           }
         }
       },
-      "generated_at": "2026-09-03T15:08:36.053744+00:00",
+      "generated_at": "2026-09-03T22:35:41.064068+00:00",
       "model": "claude (cowork session, manual)",
       "line_at_prediction": {
         "moneyline": {
@@ -31255,11 +31343,11 @@
       "predicted_against_spread": "Milwaukee Brewers",
       "confidence": 68,
       "key_factors": [
-        "Brewers dominant record (87-53) and W2 streak vs Cubs L2",
-        "Henderson (2.48 ERA, 9-2) far outpitches Gausman (4.52 ERA, 8-11)",
-        "Brewers lead h2h series 6-3 and won last meeting 9-5"
+        "Logan Henderson (2.48 ERA, 9-2) clearly outclasses Kevin Gausman (4.52)",
+        "Brewers own MLB's best record at 87-53 and are 6-3 vs the Cubs this year",
+        "Milwaukee won the opener 9-5 and rides a W2 streak; Cubs have lost 2 straight"
       ],
-      "reasoning": "Milwaukee has the better overall record, is on a winning streak while Chicago is slumping, dominates the head-to-head series 6-3, and has a significantly better starting pitcher in Henderson versus Gausman's underwhelming 4.52 ERA; multiple strong signals align for Milwaukee.",
+      "reasoning": "Milwaukee has the biggest edge on the slate: a two-run gap in starter ERA, the best record in baseball, and a 6-3 season-series lead capped by a 9-5 win the day before. The Cubs are 2-3 in their last five and on an L2 skid. That combination is enough to lay -1.5.",
       "context_used": {
         "away_trends": {
           "team": "Milwaukee Brewers",
@@ -31282,10 +31370,10 @@
           }
         },
         "weather": {
-          "high_f": 86.9,
-          "low_f": 74.3,
+          "high_f": 85.2,
+          "low_f": 71.4,
           "precipitation_in": 0.0,
-          "wind_mph": 14.5
+          "wind_mph": 14.0
         },
         "probable_pitchers": {
           "home": {
@@ -31300,7 +31388,7 @@
           }
         }
       },
-      "generated_at": "2026-09-03T15:08:36.053744+00:00",
+      "generated_at": "2026-09-03T22:35:41.064068+00:00",
       "model": "claude (cowork session, manual)",
       "line_at_prediction": {
         "moneyline": {
@@ -31341,14 +31429,14 @@
     },
     "prediction": {
       "predicted_winner": "Miami Marlins",
-      "predicted_against_spread": "Miami Marlins",
-      "confidence": 63,
+      "predicted_against_spread": "Kansas City Royals",
+      "confidence": 60,
       "key_factors": [
-        "Marlins on W2 streak, Royals on L3 skid",
-        "Alcantara (3.46 ERA, 13-8) outpitches Wacha (3.32 ERA, 8-8) in win total",
-        "Marlins swept h2h series 2-0 and won last meeting 9-6"
+        "Sandy Alcantara (3.46, 13-8) is a clear upgrade on Michael Wacha (3.32) form aside",
+        "Marlins are 2-0 vs KC this series and won 9-6 the night before",
+        "Royals have lost 3 in a row; Marlins are on a W2"
       ],
-      "reasoning": "Miami has the momentum with a winning streak against a struggling Royals team on a 3-game skid, plus a perfect 2-0 head-to-head record this season including a recent 9-6 win; Alcantara's superior win total and comparable ERA also favor the Marlins.",
+      "reasoning": "Miami is the hotter team, took the series opener 9-6, and sends out Alcantara against a Royals club that has dropped three straight. The game is priced close to a coin flip, so backing the Marlins on the moneyline is the value; Kansas City plus the small runline number covers the downside.",
       "context_used": {
         "away_trends": {
           "team": "Miami Marlins",
@@ -31371,10 +31459,10 @@
           }
         },
         "weather": {
-          "high_f": 100.0,
+          "high_f": 98.4,
           "low_f": 79.3,
           "precipitation_in": 0.0,
-          "wind_mph": 12.4
+          "wind_mph": 13.3
         },
         "probable_pitchers": {
           "home": {
@@ -31389,7 +31477,7 @@
           }
         }
       },
-      "generated_at": "2026-09-03T15:08:36.053744+00:00",
+      "generated_at": "2026-09-03T22:35:41.064068+00:00",
       "model": "claude (cowork session, manual)",
       "line_at_prediction": {
         "moneyline": {
@@ -31431,13 +31519,13 @@
     "prediction": {
       "predicted_winner": "Tampa Bay Rays",
       "predicted_against_spread": "Tampa Bay Rays",
-      "confidence": 62,
+      "confidence": 66,
       "key_factors": [
-        "Rays much better record (83-56) vs Rangers (69-71)",
-        "Nick Martinez (2.99 ERA, 13-4) has excellent form vs Rocker (4.44 ERA, 5-10)",
-        "Rays lead h2h series 2-1 this season"
+        "Nick Martinez (2.99, 13-4) dominates the Kumar Rocker (4.44, 5-10) matchup",
+        "Rays are 83-56; Rangers are a sub-.500 69-71",
+        "Tampa Bay leads the season series 2-1 with a recent 3-2 win"
       ],
-      "reasoning": "Tampa Bay has a significantly better overall record and a clearly superior starting pitcher in Martinez, who boasts an excellent 13-4 record and sub-3 ERA against Rocker's struggling 5-10 mark; these combined factors support the Rays covering the modest 1.5 run spread.",
+      "reasoning": "The Rays pair the far better record with a decisive starting-pitching edge, Martinez's 2.99 against Rocker's 4.44. With a low 7.7 total pointing to a tight, low-scoring game the superior team should control, the pick carries to the runline.",
       "context_used": {
         "away_trends": {
           "team": "Tampa Bay Rays",
@@ -31473,7 +31561,7 @@
           }
         }
       },
-      "generated_at": "2026-09-03T15:08:36.053744+00:00",
+      "generated_at": "2026-09-03T22:35:41.064068+00:00",
       "model": "claude (cowork session, manual)",
       "line_at_prediction": {
         "moneyline": {
@@ -31515,13 +31603,13 @@
     "prediction": {
       "predicted_winner": "Seattle Mariners",
       "predicted_against_spread": "Seattle Mariners",
-      "confidence": 62,
+      "confidence": 63,
       "key_factors": [
-        "Mariners on W2 streak vs Athletics L5 poor recent form",
-        "Gilbert (3.42 ERA, 11-8) outpitches Ginn (3.71 ERA, 9-8)",
-        "Mariners lead h2h series 4-2 and won last meeting 9-1"
+        "Logan Gilbert (3.42) over J.T. Ginn (3.71), and a much deeper Seattle roster",
+        "Athletics are 54-86 and 1-4 in their last five",
+        "Mariners are 4-2 vs the A's this year and won the last meeting 9-1"
       ],
-      "reasoning": "Seattle is on a winning streak and has dominated the head-to-head series this season including a blowout 9-1 win, while Oakland has been struggling with a poor last5 record; the pitching matchup also favors Seattle with Gilbert's better numbers.",
+      "reasoning": "Seattle has the better starter, a 12-game record edge, and a 4-2 season series including a 9-1 blowout. The A's are 1-4 over their last five. At home on a W2 the Mariners are worth laying -1.5.",
       "context_used": {
         "away_trends": {
           "team": "Athletics",
@@ -31557,7 +31645,7 @@
           }
         }
       },
-      "generated_at": "2026-09-03T15:08:36.053744+00:00",
+      "generated_at": "2026-09-03T22:35:41.064068+00:00",
       "model": "claude (cowork session, manual)",
       "line_at_prediction": {
         "moneyline": {
@@ -31597,15 +31685,15 @@
       "num_bookmakers": 9
     },
     "prediction": {
-      "predicted_winner": "St. Louis Cardinals",
+      "predicted_winner": "Los Angeles Dodgers",
       "predicted_against_spread": "St. Louis Cardinals",
-      "confidence": 58,
+      "confidence": 55,
       "key_factors": [
-        "Cardinals on W2 streak and lead h2h series 4-1",
-        "Cardinals won last meeting 8-6 just yesterday",
-        "No probable pitchers listed for either team, adding uncertainty"
+        "No probable pitchers listed, which lowers confidence",
+        "Cardinals are 4-1 vs the Dodgers this year and won the last two meetings",
+        "Dodgers (79-60) are the better team but have lost 2 straight and 4 of 5 to StL"
       ],
-      "reasoning": "St. Louis has strong recent momentum with a winning streak and a commanding 4-1 head-to-head advantage this season, including a win in the most recent meeting; however, the lack of probable pitcher information for both teams and the Dodgers' overall superior record tempers confidence somewhat.",
+      "reasoning": "The market makes the Dodgers heavy favorites on class, but the trend data cuts the other way: St. Louis has won four of five meetings, including 8-6 the night before, and is on a W2. With no pitching matchup provided the pick is the Dodgers straight up at reduced confidence, with the Cardinals plus the runline the stronger number.",
       "context_used": {
         "away_trends": {
           "team": "St. Louis Cardinals",
@@ -31627,13 +31715,18 @@
             "last_meeting_result": "lost 6-8 on 2026-09-03"
           }
         },
-        "weather": null,
+        "weather": {
+          "high_f": 80.4,
+          "low_f": 61.0,
+          "precipitation_in": 0.0,
+          "wind_mph": 9.7
+        },
         "probable_pitchers": {
           "home": null,
           "away": null
         }
       },
-      "generated_at": "2026-09-03T15:08:36.053744+00:00",
+      "generated_at": "2026-09-03T22:35:41.064068+00:00",
       "model": "claude (cowork session, manual)",
       "line_at_prediction": {
         "moneyline": {
@@ -31649,5 +31742,941 @@
       }
     },
     "actual": null
+  },
+  "baseball_mlb_2026-09-04_milwaukee-brewers_at_cincinnati-reds": {
+    "league": "MLB",
+    "sport_key": "baseball_mlb",
+    "home_team": "Cincinnati Reds",
+    "away_team": "Milwaukee Brewers",
+    "commence_time": "2026-09-04T22:11:00Z",
+    "espn_sport": "baseball",
+    "espn_league": "mlb",
+    "outdoor": true,
+    "status": "predicted",
+    "odds": {
+      "moneyline": {
+        "Cincinnati Reds": 135,
+        "Milwaukee Brewers": -157
+      },
+      "spread": {
+        "Cincinnati Reds": 1.5,
+        "Milwaukee Brewers": -1.5
+      },
+      "total": 9.5,
+      "num_bookmakers": 6
+    },
+    "actual": null,
+    "prediction": {
+      "predicted_winner": "Milwaukee Brewers",
+      "predicted_against_spread": "Milwaukee Brewers",
+      "confidence": 67,
+      "key_factors": [
+        "Shane Drohan (3.75) has a large ERA edge on Rhett Lowder (5.14, 6-8)",
+        "Brewers are 87-53 and have gone 6-1 against the Reds this season",
+        "Both teams enter on a W2, but Milwaukee is far the stronger club"
+      ],
+      "reasoning": "Milwaukee has owned Cincinnati 6-1 this year, carries the majors' best record, and hands the ball to Drohan with a run-and-a-half ERA edge over Lowder. That is enough to lay -1.5 despite the Reds also coming in hot.",
+      "context_used": {
+        "away_trends": {
+          "team": "Milwaukee Brewers",
+          "last5": "3-2",
+          "streak": "W2",
+          "record": "87-53",
+          "h2h_vs_opponent": {
+            "record_this_season": "6-1",
+            "last_meeting_result": "lost 2-7 on 2026-07-02"
+          }
+        },
+        "home_trends": {
+          "team": "Cincinnati Reds",
+          "last5": "3-2",
+          "streak": "W2",
+          "record": "67-73",
+          "h2h_vs_opponent": {
+            "record_this_season": "1-6",
+            "last_meeting_result": "won 7-2 on 2026-07-02"
+          }
+        },
+        "weather": {
+          "high_f": 99.5,
+          "low_f": 75.6,
+          "precipitation_in": 0.0,
+          "wind_mph": 9.2
+        },
+        "probable_pitchers": {
+          "home": {
+            "name": "Rhett Lowder",
+            "era": "5.14",
+            "record": "(6-8, 5.14)"
+          },
+          "away": {
+            "name": "Shane Drohan",
+            "era": "3.75",
+            "record": "(7-5, 3.75)"
+          }
+        }
+      },
+      "generated_at": "2026-09-03T22:35:41.064068+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "Cincinnati Reds": 135,
+          "Milwaukee Brewers": -157
+        },
+        "spread": {
+          "Cincinnati Reds": 1.5,
+          "Milwaukee Brewers": -1.5
+        },
+        "total": 9.5,
+        "num_bookmakers": 6
+      }
+    }
+  },
+  "baseball_mlb_2026-09-04_atlanta-braves_at_philadelphia-phillies": {
+    "league": "MLB",
+    "sport_key": "baseball_mlb",
+    "home_team": "Philadelphia Phillies",
+    "away_team": "Atlanta Braves",
+    "commence_time": "2026-09-04T22:41:00Z",
+    "espn_sport": "baseball",
+    "espn_league": "mlb",
+    "outdoor": true,
+    "status": "predicted",
+    "odds": {
+      "moneyline": {
+        "Atlanta Braves": -106,
+        "Philadelphia Phillies": -109
+      },
+      "spread": {
+        "Atlanta Braves": -1.5,
+        "Philadelphia Phillies": 1.5
+      },
+      "total": 6.8,
+      "num_bookmakers": 7
+    },
+    "actual": null,
+    "prediction": {
+      "predicted_winner": "Atlanta Braves",
+      "predicted_against_spread": "Philadelphia Phillies",
+      "confidence": 60,
+      "key_factors": [
+        "Chris Sale (2.06) vs Cristopher Sanchez (2.52): two aces, slight Atlanta edge",
+        "Braves are 5-1 vs the Phillies this year and won the last meeting 6-2",
+        "Atlanta (83-57) has the better record; game is priced pick'em"
+      ],
+      "reasoning": "This is a pick'em between two strong teams with ace starters, so the tiebreakers matter: Atlanta is 5-1 head-to-head and won the last meeting 6-2, with Sale slightly ahead of Sanchez on ERA. The low 6.8 total argues for a tight game, so take the Braves on the moneyline and the Phillies plus the runline.",
+      "context_used": {
+        "away_trends": {
+          "team": "Atlanta Braves",
+          "last5": "3-2",
+          "streak": "W1",
+          "record": "83-57",
+          "h2h_vs_opponent": {
+            "record_this_season": "5-1",
+            "last_meeting_result": "won 6-2 on 2026-04-26"
+          }
+        },
+        "home_trends": {
+          "team": "Philadelphia Phillies",
+          "last5": "4-1",
+          "streak": "L1",
+          "record": "79-61",
+          "h2h_vs_opponent": {
+            "record_this_season": "1-5",
+            "last_meeting_result": "lost 2-6 on 2026-04-26"
+          }
+        },
+        "weather": {
+          "high_f": 84.1,
+          "low_f": 73.6,
+          "precipitation_in": 0.0,
+          "wind_mph": 9.1
+        },
+        "probable_pitchers": {
+          "home": {
+            "name": "Cristopher Sanchez",
+            "era": "2.52",
+            "record": "(16-4, 2.52)"
+          },
+          "away": {
+            "name": "Chris Sale",
+            "era": "2.06",
+            "record": "(13-9, 2.06)"
+          }
+        }
+      },
+      "generated_at": "2026-09-03T22:35:41.064068+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "Atlanta Braves": -106,
+          "Philadelphia Phillies": -109
+        },
+        "spread": {
+          "Atlanta Braves": -1.5,
+          "Philadelphia Phillies": 1.5
+        },
+        "total": 6.8,
+        "num_bookmakers": 7
+      }
+    }
+  },
+  "baseball_mlb_2026-09-04_los-angeles-angels_at_pittsburgh-pirates": {
+    "league": "MLB",
+    "sport_key": "baseball_mlb",
+    "home_team": "Pittsburgh Pirates",
+    "away_team": "Los Angeles Angels",
+    "commence_time": "2026-09-04T22:46:00Z",
+    "espn_sport": "baseball",
+    "espn_league": "mlb",
+    "outdoor": true,
+    "status": "predicted",
+    "odds": {
+      "moneyline": {
+        "Los Angeles Angels": 169,
+        "Pittsburgh Pirates": -198
+      },
+      "spread": {
+        "Los Angeles Angels": 1.5,
+        "Pittsburgh Pirates": -1.5
+      },
+      "total": 8.5,
+      "num_bookmakers": 7
+    },
+    "actual": null,
+    "prediction": {
+      "predicted_winner": "Pittsburgh Pirates",
+      "predicted_against_spread": "Pittsburgh Pirates",
+      "confidence": 62,
+      "key_factors": [
+        "Jared Jones (4.83) over Ryan Johnson (5.47), both shaky but Pittsburgh better",
+        "Angels are 54-86 and on an L2; Pirates are 4-1 in their last five",
+        "Pittsburgh is home and playing its best baseball of the stretch"
+      ],
+      "reasoning": "Neither starter is sharp, but the Pirates have the better arm, are 4-1 over their last five, and host an Angels team that is 32 games under .500 and sliding. The form and class gap is wide enough to lay the run and a half.",
+      "context_used": {
+        "away_trends": {
+          "team": "Los Angeles Angels",
+          "last5": "1-4",
+          "streak": "L2",
+          "record": "54-86",
+          "h2h_vs_opponent": null
+        },
+        "home_trends": {
+          "team": "Pittsburgh Pirates",
+          "last5": "4-1",
+          "streak": "W1",
+          "record": "69-72",
+          "h2h_vs_opponent": null
+        },
+        "weather": {
+          "high_f": 80.8,
+          "low_f": 70.2,
+          "precipitation_in": 0.0,
+          "wind_mph": 9.9
+        },
+        "probable_pitchers": {
+          "home": {
+            "name": "Jared Jones",
+            "era": "4.83",
+            "record": "(2-6, 4.83)"
+          },
+          "away": {
+            "name": "Ryan Johnson",
+            "era": "5.47",
+            "record": "(3-7, 5.47)"
+          }
+        }
+      },
+      "generated_at": "2026-09-03T22:35:41.064068+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "Los Angeles Angels": 169,
+          "Pittsburgh Pirates": -198
+        },
+        "spread": {
+          "Los Angeles Angels": 1.5,
+          "Pittsburgh Pirates": -1.5
+        },
+        "total": 8.5,
+        "num_bookmakers": 7
+      }
+    }
+  },
+  "baseball_mlb_2026-09-04_boston-red-sox_at_baltimore-orioles": {
+    "league": "MLB",
+    "sport_key": "baseball_mlb",
+    "home_team": "Baltimore Orioles",
+    "away_team": "Boston Red Sox",
+    "commence_time": "2026-09-04T23:06:00Z",
+    "espn_sport": "baseball",
+    "espn_league": "mlb",
+    "outdoor": true,
+    "status": "predicted",
+    "odds": {
+      "moneyline": {
+        "Baltimore Orioles": 68,
+        "Boston Red Sox": -118
+      },
+      "spread": {
+        "Baltimore Orioles": 1.5,
+        "Boston Red Sox": -1.5
+      },
+      "total": 8.5,
+      "num_bookmakers": 6
+    },
+    "actual": null,
+    "prediction": {
+      "predicted_winner": "Boston Red Sox",
+      "predicted_against_spread": "Baltimore Orioles",
+      "confidence": 56,
+      "key_factors": [
+        "Ranger Suarez (3.64) has the edge on Shane Baz (4.01, 5-14)",
+        "Boston is 1-4 in its last five and the Orioles are only a +68 home dog",
+        "Rain (0.13 in) and 16 mph wind could make this a sloppy, variance-heavy game"
+      ],
+      "reasoning": "Boston's starter is better and the Red Sox are the stronger team on paper, but they are 1-4 in their last five and the line is almost pick'em. Wet, windy conditions add variance. Lean Red Sox to win, but take the Orioles plus the runline.",
+      "context_used": {
+        "away_trends": {
+          "team": "Boston Red Sox",
+          "last5": "1-4",
+          "streak": "L2",
+          "record": "75-65",
+          "h2h_vs_opponent": {
+            "record_this_season": "5-4",
+            "last_meeting_result": "lost 1-5 on 2026-07-22"
+          }
+        },
+        "home_trends": {
+          "team": "Baltimore Orioles",
+          "last5": "3-2",
+          "streak": "L2",
+          "record": "69-71",
+          "h2h_vs_opponent": {
+            "record_this_season": "4-5",
+            "last_meeting_result": "won 5-1 on 2026-07-22"
+          }
+        },
+        "weather": {
+          "high_f": 91.5,
+          "low_f": 72.0,
+          "precipitation_in": 0.126,
+          "wind_mph": 16.3
+        },
+        "probable_pitchers": {
+          "home": {
+            "name": "Shane Baz",
+            "era": "4.01",
+            "record": "(5-14, 4.01)"
+          },
+          "away": {
+            "name": "Ranger Suarez",
+            "era": "3.64",
+            "record": "(5-4, 3.64)"
+          }
+        }
+      },
+      "generated_at": "2026-09-03T22:35:41.064068+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "Baltimore Orioles": 68,
+          "Boston Red Sox": -118
+        },
+        "spread": {
+          "Baltimore Orioles": 1.5,
+          "Boston Red Sox": -1.5
+        },
+        "total": 8.5,
+        "num_bookmakers": 6
+      }
+    }
+  },
+  "baseball_mlb_2026-09-04_chicago-cubs_at_miami-marlins": {
+    "league": "MLB",
+    "sport_key": "baseball_mlb",
+    "home_team": "Miami Marlins",
+    "away_team": "Chicago Cubs",
+    "commence_time": "2026-09-04T23:10:00Z",
+    "espn_sport": "baseball",
+    "espn_league": "mlb",
+    "outdoor": true,
+    "status": "predicted",
+    "odds": {
+      "moneyline": {
+        "Chicago Cubs": -133,
+        "Miami Marlins": 112
+      },
+      "spread": {
+        "Chicago Cubs": -1.5,
+        "Miami Marlins": 1.5
+      },
+      "total": 7.8,
+      "num_bookmakers": 3
+    },
+    "actual": null,
+    "prediction": {
+      "predicted_winner": "Chicago Cubs",
+      "predicted_against_spread": "Miami Marlins",
+      "confidence": 57,
+      "key_factors": [
+        "Imanaga (4.01) and Junk (4.11) are essentially even on ERA",
+        "Cubs are 78-62 vs the Marlins' 71-69",
+        "Miami is 3-2 in its last five and on a W2, so the gap is smaller than the record"
+      ],
+      "reasoning": "The starters are a wash, so this comes down to a modest class edge for Chicago against a Marlins team playing well at home. Lean Cubs on the moneyline; with Miami hot and the number at -1.5, the Marlins plus the runline is the safer side.",
+      "context_used": {
+        "away_trends": {
+          "team": "Chicago Cubs",
+          "last5": "2-3",
+          "streak": "L2",
+          "record": "78-62",
+          "h2h_vs_opponent": null
+        },
+        "home_trends": {
+          "team": "Miami Marlins",
+          "last5": "3-2",
+          "streak": "W2",
+          "record": "71-69",
+          "h2h_vs_opponent": null
+        },
+        "weather": null,
+        "probable_pitchers": {
+          "home": {
+            "name": "Janson Junk",
+            "era": "4.11",
+            "record": "(6-8, 4.11)"
+          },
+          "away": {
+            "name": "Shota Imanaga",
+            "era": "4.01",
+            "record": "(8-10, 4.01)"
+          }
+        }
+      },
+      "generated_at": "2026-09-03T22:35:41.064068+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "Chicago Cubs": -133,
+          "Miami Marlins": 112
+        },
+        "spread": {
+          "Chicago Cubs": -1.5,
+          "Miami Marlins": 1.5
+        },
+        "total": 7.8,
+        "num_bookmakers": 3
+      }
+    }
+  },
+  "baseball_mlb_2026-09-04_san-francisco-giants_at_new-york-mets": {
+    "league": "MLB",
+    "sport_key": "baseball_mlb",
+    "home_team": "New York Mets",
+    "away_team": "San Francisco Giants",
+    "commence_time": "2026-09-04T23:11:00Z",
+    "espn_sport": "baseball",
+    "espn_league": "mlb",
+    "outdoor": true,
+    "status": "predicted",
+    "odds": {
+      "moneyline": {
+        "New York Mets": -180,
+        "San Francisco Giants": 154
+      },
+      "spread": {
+        "New York Mets": -1.5,
+        "San Francisco Giants": 1.5
+      },
+      "total": 8.5,
+      "num_bookmakers": 7
+    },
+    "actual": null,
+    "prediction": {
+      "predicted_winner": "New York Mets",
+      "predicted_against_spread": "New York Mets",
+      "confidence": 64,
+      "key_factors": [
+        "Nolan McLean (3.06, 10-8) towers over Matt Wilkinson (4.63, 0-2)",
+        "Mets are 3-1 vs the Giants this year and won the last meeting 5-2",
+        "San Francisco is 58-83 and the Mets are on a W1 at home"
+      ],
+      "reasoning": "The Mets have a big starting-pitching advantage with McLean against a winless Wilkinson, plus a 3-1 season series and home field. The Giants are 25 games under .500. That is enough to lay -1.5.",
+      "context_used": {
+        "away_trends": {
+          "team": "San Francisco Giants",
+          "last5": "3-2",
+          "streak": "L1",
+          "record": "58-83",
+          "h2h_vs_opponent": {
+            "record_this_season": "1-3",
+            "last_meeting_result": "lost 2-5 on 2026-04-05"
+          }
+        },
+        "home_trends": {
+          "team": "New York Mets",
+          "last5": "3-2",
+          "streak": "W1",
+          "record": "63-77",
+          "h2h_vs_opponent": {
+            "record_this_season": "3-1",
+            "last_meeting_result": "won 5-2 on 2026-04-05"
+          }
+        },
+        "weather": {
+          "high_f": 85.4,
+          "low_f": 71.8,
+          "precipitation_in": 0.016,
+          "wind_mph": 12.5
+        },
+        "probable_pitchers": {
+          "home": {
+            "name": "Nolan McLean",
+            "era": "3.06",
+            "record": "(10-8, 3.06)"
+          },
+          "away": {
+            "name": "Matt Wilkinson",
+            "era": "4.63",
+            "record": "(0-2, 4.63)"
+          }
+        }
+      },
+      "generated_at": "2026-09-03T22:35:41.064068+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "New York Mets": -180,
+          "San Francisco Giants": 154
+        },
+        "spread": {
+          "New York Mets": -1.5,
+          "San Francisco Giants": 1.5
+        },
+        "total": 8.5,
+        "num_bookmakers": 7
+      }
+    }
+  },
+  "baseball_mlb_2026-09-04_minnesota-twins_at_chicago-white-sox": {
+    "league": "MLB",
+    "sport_key": "baseball_mlb",
+    "home_team": "Chicago White Sox",
+    "away_team": "Minnesota Twins",
+    "commence_time": "2026-09-04T23:41:00Z",
+    "espn_sport": "baseball",
+    "espn_league": "mlb",
+    "outdoor": true,
+    "status": "predicted",
+    "odds": {
+      "moneyline": {
+        "Chicago White Sox": -122,
+        "Minnesota Twins": 77
+      },
+      "spread": {
+        "Chicago White Sox": 0.8,
+        "Minnesota Twins": -0.8
+      },
+      "total": 9.1,
+      "num_bookmakers": 7
+    },
+    "actual": null,
+    "prediction": {
+      "predicted_winner": "Chicago White Sox",
+      "predicted_against_spread": "Chicago White Sox",
+      "confidence": 55,
+      "key_factors": [
+        "Fedde (4.16) slightly better than Matthews (4.58)",
+        "White Sox are 73-67 and hold a 6-4 season series over the Twins",
+        "Both teams are middling; Minnesota won the most recent meeting 5-1"
+      ],
+      "reasoning": "A near pick'em between two .500-ish teams. The White Sox have the marginal edge in record, starter, and home field, though Minnesota took the last meeting 5-1. Low-confidence lean to Chicago with the tiny spread.",
+      "context_used": {
+        "away_trends": {
+          "team": "Minnesota Twins",
+          "last5": "3-2",
+          "streak": "L1",
+          "record": "67-73",
+          "h2h_vs_opponent": {
+            "record_this_season": "4-6",
+            "last_meeting_result": "won 5-1 on 2026-08-30"
+          }
+        },
+        "home_trends": {
+          "team": "Chicago White Sox",
+          "last5": "1-4",
+          "streak": "L2",
+          "record": "73-67",
+          "h2h_vs_opponent": {
+            "record_this_season": "6-4",
+            "last_meeting_result": "lost 1-5 on 2026-08-30"
+          }
+        },
+        "weather": {
+          "high_f": 98.5,
+          "low_f": 70.3,
+          "precipitation_in": 0.0,
+          "wind_mph": 11.7
+        },
+        "probable_pitchers": {
+          "home": {
+            "name": "Erick Fedde",
+            "era": "4.16",
+            "record": "(7-8, 4.16)"
+          },
+          "away": {
+            "name": "Zebby Matthews",
+            "era": "4.58",
+            "record": "(9-8, 4.58)"
+          }
+        }
+      },
+      "generated_at": "2026-09-03T22:35:41.064068+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "Chicago White Sox": -122,
+          "Minnesota Twins": 77
+        },
+        "spread": {
+          "Chicago White Sox": 0.8,
+          "Minnesota Twins": -0.8
+        },
+        "total": 9.1,
+        "num_bookmakers": 7
+      }
+    }
+  },
+  "baseball_mlb_2026-09-05_tampa-bay-rays_at_texas-rangers": {
+    "league": "MLB",
+    "sport_key": "baseball_mlb",
+    "home_team": "Texas Rangers",
+    "away_team": "Tampa Bay Rays",
+    "commence_time": "2026-09-05T00:06:00Z",
+    "espn_sport": "baseball",
+    "espn_league": "mlb",
+    "outdoor": true,
+    "status": "predicted",
+    "odds": {
+      "moneyline": {
+        "Tampa Bay Rays": -111,
+        "Texas Rangers": -39
+      },
+      "spread": {
+        "Tampa Bay Rays": -1.5,
+        "Texas Rangers": 1.5
+      },
+      "total": 8.0,
+      "num_bookmakers": 6
+    },
+    "actual": null,
+    "prediction": {
+      "predicted_winner": "Tampa Bay Rays",
+      "predicted_against_spread": "Texas Rangers",
+      "confidence": 58,
+      "key_factors": [
+        "Drew Rasmussen (2.95, 14-5) has the ERA edge on Jacob deGrom (4.00)",
+        "Rays are 83-56 vs the Rangers' 69-71 and lead the season series 2-1",
+        "deGrom's name value keeps the line tighter than the numbers suggest"
+      ],
+      "reasoning": "Tampa Bay has the better record, the better season-long starter in Rasmussen, and a 2-1 head-to-head lead. deGrom is the bigger name but has a 4.00 ERA this year. Lean Rays to win, but Texas plus the runline given deGrom's ceiling.",
+      "context_used": {
+        "away_trends": {
+          "team": "Tampa Bay Rays",
+          "last5": "3-2",
+          "streak": "L1",
+          "record": "83-56",
+          "h2h_vs_opponent": {
+            "record_this_season": "2-1",
+            "last_meeting_result": "won 3-2 on 2026-07-30"
+          }
+        },
+        "home_trends": {
+          "team": "Texas Rangers",
+          "last5": "3-2",
+          "streak": "L1",
+          "record": "69-71",
+          "h2h_vs_opponent": {
+            "record_this_season": "1-2",
+            "last_meeting_result": "lost 2-3 on 2026-07-30"
+          }
+        },
+        "weather": null,
+        "probable_pitchers": {
+          "home": {
+            "name": "Jacob deGrom",
+            "era": "4.00",
+            "record": "(10-9, 4.00)"
+          },
+          "away": {
+            "name": "Drew Rasmussen",
+            "era": "2.95",
+            "record": "(14-5, 2.95)"
+          }
+        }
+      },
+      "generated_at": "2026-09-03T22:35:41.064068+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "Tampa Bay Rays": -111,
+          "Texas Rangers": -39
+        },
+        "spread": {
+          "Tampa Bay Rays": -1.5,
+          "Texas Rangers": 1.5
+        },
+        "total": 8.0,
+        "num_bookmakers": 6
+      }
+    }
+  },
+  "baseball_mlb_2026-09-05_toronto-blue-jays_at_kansas-city-royals": {
+    "league": "MLB",
+    "sport_key": "baseball_mlb",
+    "home_team": "Kansas City Royals",
+    "away_team": "Toronto Blue Jays",
+    "commence_time": "2026-09-05T00:10:00Z",
+    "espn_sport": "baseball",
+    "espn_league": "mlb",
+    "outdoor": true,
+    "status": "predicted",
+    "odds": {
+      "moneyline": {
+        "Kansas City Royals": -117,
+        "Toronto Blue Jays": 52
+      },
+      "spread": {
+        "Kansas City Royals": 1.5,
+        "Toronto Blue Jays": -1.5
+      },
+      "total": 9.5,
+      "num_bookmakers": 4
+    },
+    "actual": null,
+    "prediction": {
+      "predicted_winner": "Toronto Blue Jays",
+      "predicted_against_spread": "Kansas City Royals",
+      "confidence": 58,
+      "key_factors": [
+        "Both starters are struggling: Scherzer 6.16, Lugo 5.03",
+        "Blue Jays are 4-1 in their last five and on a W2; Royals have lost 3 straight",
+        "KC blew out Toronto 13-2 in the last meeting, so the series is volatile"
+      ],
+      "reasoning": "Neither pitcher inspires confidence, so recent form leads: Toronto is 4-1 over its last five while Kansas City has dropped three in a row. The 13-2 loss in the last meeting is a caution, so take the Jays on the moneyline and the Royals plus the runline.",
+      "context_used": {
+        "away_trends": {
+          "team": "Toronto Blue Jays",
+          "last5": "4-1",
+          "streak": "W2",
+          "record": "70-71",
+          "h2h_vs_opponent": {
+            "record_this_season": "1-2",
+            "last_meeting_result": "lost 2-13 on 2026-08-27"
+          }
+        },
+        "home_trends": {
+          "team": "Kansas City Royals",
+          "last5": "2-3",
+          "streak": "L3",
+          "record": "62-78",
+          "h2h_vs_opponent": {
+            "record_this_season": "2-1",
+            "last_meeting_result": "won 13-2 on 2026-08-27"
+          }
+        },
+        "weather": {
+          "high_f": 107.1,
+          "low_f": 78.5,
+          "precipitation_in": 0.004,
+          "wind_mph": 12.2
+        },
+        "probable_pitchers": {
+          "home": {
+            "name": "Seth Lugo",
+            "era": "5.03",
+            "record": "(6-8, 5.03)"
+          },
+          "away": {
+            "name": "Max Scherzer",
+            "era": "6.16",
+            "record": "(2-7, 6.16)"
+          }
+        }
+      },
+      "generated_at": "2026-09-03T22:35:41.064068+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "Kansas City Royals": -117,
+          "Toronto Blue Jays": 52
+        },
+        "spread": {
+          "Kansas City Royals": 1.5,
+          "Toronto Blue Jays": -1.5
+        },
+        "total": 9.5,
+        "num_bookmakers": 4
+      }
+    }
+  },
+  "baseball_mlb_2026-09-05_arizona-diamondbacks_at_houston-astros": {
+    "league": "MLB",
+    "sport_key": "baseball_mlb",
+    "home_team": "Houston Astros",
+    "away_team": "Arizona Diamondbacks",
+    "commence_time": "2026-09-05T00:11:00Z",
+    "espn_sport": "baseball",
+    "espn_league": "mlb",
+    "outdoor": true,
+    "status": "predicted",
+    "odds": {
+      "moneyline": {
+        "Arizona Diamondbacks": 113,
+        "Houston Astros": -131
+      },
+      "spread": {
+        "Arizona Diamondbacks": 1.5,
+        "Houston Astros": -1.5
+      },
+      "total": 8.7,
+      "num_bookmakers": 7
+    },
+    "actual": null,
+    "prediction": {
+      "predicted_winner": "Houston Astros",
+      "predicted_against_spread": "Arizona Diamondbacks",
+      "confidence": 56,
+      "key_factors": [
+        "Astros list Ethan Pecko (6.23 ERA) as the probable; Arizona's starter is unlisted",
+        "Houston is 4-1 in its last five and on a W2 at home",
+        "Diamondbacks (74-67) actually have the better record"
+      ],
+      "reasoning": "Houston is the hotter team and has home field, but the listed starter has a 6.23 ERA and Arizona owns the better record. With real matchup uncertainty this is a low-confidence lean to the Astros straight up, with the Diamondbacks plus the runline.",
+      "context_used": {
+        "away_trends": {
+          "team": "Arizona Diamondbacks",
+          "last5": "2-3",
+          "streak": "W1",
+          "record": "74-67",
+          "h2h_vs_opponent": null
+        },
+        "home_trends": {
+          "team": "Houston Astros",
+          "last5": "4-1",
+          "streak": "W2",
+          "record": "72-69",
+          "h2h_vs_opponent": null
+        },
+        "weather": null,
+        "probable_pitchers": {
+          "home": {
+            "name": "Ethan Pecko",
+            "era": "6.23",
+            "record": "(1-0, 6.23)"
+          },
+          "away": null
+        }
+      },
+      "generated_at": "2026-09-03T22:35:41.064068+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "Arizona Diamondbacks": 113,
+          "Houston Astros": -131
+        },
+        "spread": {
+          "Arizona Diamondbacks": 1.5,
+          "Houston Astros": -1.5
+        },
+        "total": 8.7,
+        "num_bookmakers": 7
+      }
+    }
+  },
+  "baseball_mlb_2026-09-05_new-york-yankees_at_san-diego-padres": {
+    "league": "MLB",
+    "sport_key": "baseball_mlb",
+    "home_team": "San Diego Padres",
+    "away_team": "New York Yankees",
+    "commence_time": "2026-09-05T01:41:00Z",
+    "espn_sport": "baseball",
+    "espn_league": "mlb",
+    "outdoor": true,
+    "status": "predicted",
+    "odds": {
+      "moneyline": {
+        "New York Yankees": -129,
+        "San Diego Padres": 111
+      },
+      "spread": {
+        "New York Yankees": -1.5,
+        "San Diego Padres": 1.5
+      },
+      "total": 7.5,
+      "num_bookmakers": 7
+    },
+    "actual": null,
+    "prediction": {
+      "predicted_winner": "New York Yankees",
+      "predicted_against_spread": "San Diego Padres",
+      "confidence": 60,
+      "key_factors": [
+        "Carlos Rodon (3.20) and Robbie Ray (3.14) are an even, high-quality matchup",
+        "Yankees are 81-59 and 4-1 in their last five; Padres are 1-4 and on an L2",
+        "New York is on a W2, San Diego skidding at home"
+      ],
+      "reasoning": "The pitching is a wash between two quality lefties, so form and record decide it: the Yankees are rolling at 4-1 and 81-59 while San Diego has lost four of five. Lean New York on the moneyline; the Padres plus the runline covers a low-total game that could stay tight.",
+      "context_used": {
+        "away_trends": {
+          "team": "New York Yankees",
+          "last5": "4-1",
+          "streak": "W2",
+          "record": "81-59",
+          "h2h_vs_opponent": null
+        },
+        "home_trends": {
+          "team": "San Diego Padres",
+          "last5": "1-4",
+          "streak": "L2",
+          "record": "73-67",
+          "h2h_vs_opponent": null
+        },
+        "weather": {
+          "high_f": 78.5,
+          "low_f": 62.5,
+          "precipitation_in": 0.047,
+          "wind_mph": 9.3
+        },
+        "probable_pitchers": {
+          "home": {
+            "name": "Robbie Ray",
+            "era": "3.14",
+            "record": "(11-7, 3.14)"
+          },
+          "away": {
+            "name": "Carlos Rodon",
+            "era": "3.20",
+            "record": "(4-3, 3.20)"
+          }
+        }
+      },
+      "generated_at": "2026-09-03T22:35:41.064068+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "New York Yankees": -129,
+          "San Diego Padres": 111
+        },
+        "spread": {
+          "New York Yankees": -1.5,
+          "San Diego Padres": 1.5
+        },
+        "total": 7.5,
+        "num_bookmakers": 7
+      }
+    }
   }
 }
