@@ -39,10 +39,6 @@ nav a.active, nav a:hover { color: var(--text); }
 main { flex: 1; min-width: 0; padding: 24px 20px 60px; }
 .updated { color: var(--muted); font-size: 0.85rem; margin-bottom: 24px; }
 .league-group h2 { font-size: 1.1rem; color: var(--accent); margin-bottom: 12px; }
-.top-picks { border: 1px solid var(--accent); border-radius: 12px; padding: 16px 18px 4px; margin-bottom: 28px; background: rgba(79,140,255,0.06); }
-.top-picks h2 { font-size: 1.1rem; color: var(--accent); margin: 0 0 12px; }
-.top-picks-grid { display: flex; flex-wrap: wrap; gap: 12px; }
-.top-picks-grid .card { flex: 1 1 320px; margin-bottom: 12px; }
 .card { background: var(--card); border: 1px solid var(--border); border-radius: 10px; padding: 16px 18px; margin-bottom: 12px; }
 .matchup { font-size: 1.05rem; font-weight: 600; margin-bottom: 4px; }
 .meta { color: var(--muted); font-size: 0.85rem; margin-bottom: 10px; }
@@ -437,16 +433,6 @@ def confidence_sort_key(g):
     return (-confidence, g["commence_time"])
 
 
-def render_top_picks(upcoming, tz_name, n=5):
-    """A cross-league "best bets" shortlist for people who only bet a handful
-    of games a day and don't want to scan every league group for it."""
-    if not upcoming:
-        return ""
-    top = sorted(upcoming, key=confidence_sort_key)[:n]
-    cards = "".join(render_game_card(g, tz_name) for g in top)
-    return f'<div class="top-picks"><h2>Top {len(top)} by Confidence</h2><div class="top-picks-grid">{cards}</div></div>'
-
-
 def render_upcoming(upcoming, tz_name):
     if not upcoming:
         return "", []
@@ -608,14 +594,13 @@ def main():
     stamp = datetime.now(timezone.utc).astimezone(ZoneInfo(tz_name)).strftime("%b %d, %Y at %I:%M %p %Z")
 
     upcoming = collect_upcoming(games, upcoming_window_days, min_confidence)
-    top_picks_html = render_top_picks(upcoming, tz_name, n=5)
     upcoming_html, upcoming_leagues = render_upcoming(upcoming, tz_name)
     if not upcoming_html:
         upcoming_html = '<p class="empty">No upcoming games right now. Check back after the next data refresh.</p>'
         upcoming_sidebar = ""
     else:
         upcoming_sidebar = render_sidebar(upcoming_leagues, league_order)
-    index_body = f'<p class="updated">Last updated {stamp}</p>' + top_picks_html + upcoming_html
+    index_body = f'<p class="updated">Last updated {stamp}</p>' + upcoming_html
     with open(SITE_DIR / "index.html", "w") as f:
         f.write(page_shell(site_title, "home", index_body, site_title, upcoming_sidebar, picks_script))
 
