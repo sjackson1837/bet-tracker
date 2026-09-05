@@ -213,12 +213,12 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Cincinnati Bengals": -210,
-        "Tampa Bay Buccaneers": 173
+        "Cincinnati Bengals": -211,
+        "Tampa Bay Buccaneers": 174
       },
       "spread": {
-        "Cincinnati Bengals": -3.8,
-        "Tampa Bay Buccaneers": 3.8
+        "Cincinnati Bengals": -3.9,
+        "Tampa Bay Buccaneers": 3.9
       },
       "total": 50.6,
       "num_bookmakers": 9
@@ -242,8 +242,8 @@
         "Jacksonville Jaguars": -404
       },
       "spread": {
-        "Cleveland Browns": 8.1,
-        "Jacksonville Jaguars": -8.1
+        "Cleveland Browns": 8.2,
+        "Jacksonville Jaguars": -8.2
       },
       "total": 40.5,
       "num_bookmakers": 9
@@ -313,8 +313,8 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Arizona Cardinals": 411,
-        "Los Angeles Chargers": -561
+        "Arizona Cardinals": 412,
+        "Los Angeles Chargers": -564
       },
       "spread": {
         "Arizona Cardinals": 10.1,
@@ -33142,12 +33142,12 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Purdue Boilermakers": 168,
-        "Wake Forest Demon Deacons": -205
+        "Purdue Boilermakers": 184,
+        "Wake Forest Demon Deacons": -225
       },
       "spread": {
-        "Purdue Boilermakers": 4.5,
-        "Wake Forest Demon Deacons": -4.5
+        "Purdue Boilermakers": 5.5,
+        "Wake Forest Demon Deacons": -5.5
       },
       "total": 50.5,
       "num_bookmakers": 1
