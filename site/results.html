@@ -93,21 +93,300 @@ th { color: var(--muted); font-weight: 500; font-size: 0.78rem; text-transform: 
   </nav>
 </header>
 <div class="layout">
-<div class="sidebar"><h3>Sports</h3><button class="league-btn active" data-league="all" onclick="filterLeague('all', this)">All Sports</button><button class="league-btn" data-league="NCAAF" onclick="filterLeague('NCAAF', this)">NCAAF</button><button class="league-btn" data-league="MLB" onclick="filterLeague('MLB', this)">MLB</button><button class="league-btn" data-league="Bundesliga" onclick="filterLeague('Bundesliga', this)">Bundesliga</button></div>
+<div class="sidebar"><h3>Sports</h3><button class="league-btn active" data-league="all" onclick="filterLeague('all', this)">All Sports</button><button class="league-btn" data-league="NCAAF" onclick="filterLeague('NCAAF', this)">NCAAF</button><button class="league-btn" data-league="MLB" onclick="filterLeague('MLB', this)">MLB</button></div>
 <main>
-<p class="updated">Last updated Sep 05, 2026 at 08:57 AM CDT</p><h3 style="color:var(--muted);font-size:0.8rem;text-transform:uppercase;letter-spacing:0.04em;margin:20px 0 8px;">Your picks</h3>
+<p class="updated">Last updated Sep 06, 2026 at 05:32 PM CDT</p><h3 style="color:var(--muted);font-size:0.8rem;text-transform:uppercase;letter-spacing:0.04em;margin:20px 0 8px;">Your picks</h3>
 <div class="stats-row">
   <div class="stat-box"><div class="num">0-0</div><div class="label">Straight-up (0%)</div></div>
   <div class="stat-box"><div class="num">0-0</div><div class="label">Against the spread (0%)</div></div>
   <div class="stat-box"><div class="num">0</div><div class="label">Games graded</div></div>
 </div><h3 style="color:var(--muted);font-size:0.8rem;text-transform:uppercase;letter-spacing:0.04em;margin:20px 0 8px;">Model overall (55%+ confidence)</h3>
 <div class="stats-row">
-  <div class="stat-box"><div class="num">9-12</div><div class="label">Straight-up (43%)</div></div>
-  <div class="stat-box"><div class="num">8-13</div><div class="label">Against the spread (38%)</div></div>
-  <div class="stat-box"><div class="num">21</div><div class="label">Games graded</div></div>
+  <div class="stat-box"><div class="num">30-19</div><div class="label">Straight-up (61%)</div></div>
+  <div class="stat-box"><div class="num">19-30</div><div class="label">Against the spread (39%)</div></div>
+  <div class="stat-box"><div class="num">49</div><div class="label">Games graded</div></div>
 </div><table>
 <thead><tr><th>Your Pick</th><th>Kickoff</th><th>League</th><th>Matchup</th><th>Final</th><th>Predicted Winner</th><th>Straight-up</th><th>ATS</th></tr></thead>
-<tbody><tr class="filterable-item" data-league="MLB">
+<tbody><tr class="filterable-item" data-league="NCAAF">
+  <td></td>
+  <td>Sat Sep 05, 09:00 PM CDT</td>
+  <td>NCAAF</td>
+  <td>Morgan State Bears @ Arizona State Sun Devils</td>
+  <td>7-70</td>
+  <td>Arizona State Sun Devils</td>
+  <td class="result-good">correct</td>
+  <td class="result-bad">wrong</td>
+</tr><tr class="filterable-item" data-league="NCAAF">
+  <td></td>
+  <td>Sat Sep 05, 09:00 PM CDT</td>
+  <td>NCAAF</td>
+  <td>Central Michigan Chippewas @ New Mexico Lobos</td>
+  <td>7-38</td>
+  <td>New Mexico Lobos</td>
+  <td class="result-good">correct</td>
+  <td class="result-good">correct</td>
+</tr><tr class="filterable-item" data-league="NCAAF">
+  <td></td>
+  <td>Sat Sep 05, 09:00 PM CDT</td>
+  <td>NCAAF</td>
+  <td>Mississippi Valley State Delta Devils @ Sacramento State Hornets</td>
+  <td>0-52</td>
+  <td>Sacramento State Hornets</td>
+  <td class="result-good">correct</td>
+  <td class="result-bad">wrong</td>
+</tr><tr class="filterable-item" data-league="MLB">
+  <td></td>
+  <td>Sat Sep 05, 08:41 PM CDT</td>
+  <td>MLB</td>
+  <td>Athletics @ Seattle Mariners</td>
+  <td>6-2</td>
+  <td>Seattle Mariners</td>
+  <td class="result-bad">wrong</td>
+  <td class="result-good">correct</td>
+</tr><tr class="filterable-item" data-league="NCAAF">
+  <td></td>
+  <td>Sat Sep 05, 08:30 PM CDT</td>
+  <td>NCAAF</td>
+  <td>Northern Arizona Lumberjacks @ Arizona Wildcats</td>
+  <td>7-35</td>
+  <td>Arizona Wildcats</td>
+  <td class="result-good">correct</td>
+  <td class="result-good">correct</td>
+</tr><tr class="filterable-item" data-league="NCAAF">
+  <td></td>
+  <td>Sat Sep 05, 08:30 PM CDT</td>
+  <td>NCAAF</td>
+  <td>Portland State Vikings @ San Diego State Aztecs</td>
+  <td>20-53</td>
+  <td>San Diego State Aztecs</td>
+  <td class="result-good">correct</td>
+  <td class="result-good">correct</td>
+</tr><tr class="filterable-item" data-league="MLB">
+  <td></td>
+  <td>Sat Sep 05, 08:11 PM CDT</td>
+  <td>MLB</td>
+  <td>Washington Nationals @ Los Angeles Dodgers</td>
+  <td>5-6</td>
+  <td>Los Angeles Dodgers</td>
+  <td class="result-good">correct</td>
+  <td class="result-good">correct</td>
+</tr><tr class="filterable-item" data-league="MLB">
+  <td></td>
+  <td>Sat Sep 05, 07:11 PM CDT</td>
+  <td>MLB</td>
+  <td>St. Louis Cardinals @ Colorado Rockies</td>
+  <td>7-10</td>
+  <td>St. Louis Cardinals</td>
+  <td class="result-bad">wrong</td>
+  <td class="result-bad">wrong</td>
+</tr><tr class="filterable-item" data-league="NCAAF">
+  <td></td>
+  <td>Sat Sep 05, 07:00 PM CDT</td>
+  <td>NCAAF</td>
+  <td>Lamar Cardinals @ Louisiana Ragin Cajuns</td>
+  <td>7-38</td>
+  <td>Louisiana Ragin Cajuns</td>
+  <td class="result-good">correct</td>
+  <td class="result-bad">wrong</td>
+</tr><tr class="filterable-item" data-league="NCAAF">
+  <td></td>
+  <td>Sat Sep 05, 07:00 PM CDT</td>
+  <td>NCAAF</td>
+  <td>South Dakota State Jackrabbits @ Northwestern Wildcats</td>
+  <td>18-34</td>
+  <td>Northwestern Wildcats</td>
+  <td class="result-good">correct</td>
+  <td class="result-good">correct</td>
+</tr><tr class="filterable-item" data-league="NCAAF">
+  <td></td>
+  <td>Sat Sep 05, 06:30 PM CDT</td>
+  <td>NCAAF</td>
+  <td>Northwestern State Demons @ Louisiana Tech Bulldogs</td>
+  <td>6-80</td>
+  <td>Louisiana Tech Bulldogs</td>
+  <td class="result-good">correct</td>
+  <td class="result-bad">wrong</td>
+</tr><tr class="filterable-item" data-league="NCAAF">
+  <td></td>
+  <td>Sat Sep 05, 06:30 PM CDT</td>
+  <td>NCAAF</td>
+  <td>UL Monroe Warhawks @ Mississippi State Bulldogs</td>
+  <td>13-62</td>
+  <td>Mississippi State Bulldogs</td>
+  <td class="result-good">correct</td>
+  <td class="result-bad">wrong</td>
+</tr><tr class="filterable-item" data-league="MLB">
+  <td></td>
+  <td>Sat Sep 05, 06:11 PM CDT</td>
+  <td>MLB</td>
+  <td>Minnesota Twins @ Chicago White Sox</td>
+  <td>6-4</td>
+  <td>Chicago White Sox</td>
+  <td class="result-bad">wrong</td>
+  <td class="result-bad">wrong</td>
+</tr><tr class="filterable-item" data-league="MLB">
+  <td></td>
+  <td>Sat Sep 05, 06:06 PM CDT</td>
+  <td>MLB</td>
+  <td>Boston Red Sox @ Baltimore Orioles</td>
+  <td>5-0</td>
+  <td>Boston Red Sox</td>
+  <td class="result-good">correct</td>
+  <td class="result-bad">wrong</td>
+</tr><tr class="filterable-item" data-league="NCAAF">
+  <td></td>
+  <td>Sat Sep 05, 06:00 PM CDT</td>
+  <td>NCAAF</td>
+  <td>Arkansas State Red Wolves @ Memphis Tigers</td>
+  <td>24-42</td>
+  <td>Memphis Tigers</td>
+  <td class="result-good">correct</td>
+  <td class="result-good">correct</td>
+</tr><tr class="filterable-item" data-league="NCAAF">
+  <td></td>
+  <td>Sat Sep 05, 06:00 PM CDT</td>
+  <td>NCAAF</td>
+  <td>Austin Peay Governors @ Vanderbilt Commodores</td>
+  <td>9-28</td>
+  <td>Vanderbilt Commodores</td>
+  <td class="result-good">correct</td>
+  <td class="result-good">correct</td>
+</tr><tr class="filterable-item" data-league="MLB">
+  <td></td>
+  <td>Sat Sep 05, 05:41 PM CDT</td>
+  <td>MLB</td>
+  <td>Los Angeles Angels @ Pittsburgh Pirates</td>
+  <td>6-1</td>
+  <td>Pittsburgh Pirates</td>
+  <td class="result-bad">wrong</td>
+  <td class="result-bad">wrong</td>
+</tr><tr class="filterable-item" data-league="MLB">
+  <td></td>
+  <td>Sat Sep 05, 05:11 PM CDT</td>
+  <td>MLB</td>
+  <td>Detroit Tigers @ Cleveland Guardians</td>
+  <td>6-0</td>
+  <td>Cleveland Guardians</td>
+  <td class="result-bad">wrong</td>
+  <td class="result-bad">wrong</td>
+</tr><tr class="filterable-item" data-league="MLB">
+  <td></td>
+  <td>Sat Sep 05, 05:06 PM CDT</td>
+  <td>MLB</td>
+  <td>Atlanta Braves @ Philadelphia Phillies</td>
+  <td>2-4</td>
+  <td>Atlanta Braves</td>
+  <td class="result-bad">wrong</td>
+  <td class="result-bad">wrong</td>
+</tr><tr class="filterable-item" data-league="NCAAF">
+  <td></td>
+  <td>Sat Sep 05, 05:00 PM CDT</td>
+  <td>NCAAF</td>
+  <td>Wyoming Cowboys @ Colorado State Rams</td>
+  <td>13-35</td>
+  <td>Colorado State Rams</td>
+  <td class="result-good">correct</td>
+  <td class="result-good">correct</td>
+</tr><tr class="filterable-item" data-league="NCAAF">
+  <td></td>
+  <td>Sat Sep 05, 03:15 PM CDT</td>
+  <td>NCAAF</td>
+  <td>Northern Illinois Huskies @ Iowa Hawkeyes</td>
+  <td>0-40</td>
+  <td>Iowa Hawkeyes</td>
+  <td class="result-good">correct</td>
+  <td class="result-bad">wrong</td>
+</tr><tr class="filterable-item" data-league="MLB">
+  <td></td>
+  <td>Sat Sep 05, 03:11 PM CDT</td>
+  <td>MLB</td>
+  <td>Chicago Cubs @ Miami Marlins</td>
+  <td>6-5</td>
+  <td>Chicago Cubs</td>
+  <td class="result-good">correct</td>
+  <td class="result-bad">wrong</td>
+</tr><tr class="filterable-item" data-league="MLB">
+  <td></td>
+  <td>Sat Sep 05, 03:11 PM CDT</td>
+  <td>MLB</td>
+  <td>San Francisco Giants @ New York Mets</td>
+  <td>9-5</td>
+  <td>New York Mets</td>
+  <td class="result-bad">wrong</td>
+  <td class="result-good">correct</td>
+</tr><tr class="filterable-item" data-league="NCAAF">
+  <td></td>
+  <td>Sat Sep 05, 02:45 PM CDT</td>
+  <td>NCAAF</td>
+  <td>Oklahoma State Cowboys @ Tulsa Golden Hurricane</td>
+  <td>10-24</td>
+  <td>Oklahoma State Cowboys</td>
+  <td class="result-bad">wrong</td>
+  <td class="result-bad">wrong</td>
+</tr><tr class="filterable-item" data-league="NCAAF">
+  <td></td>
+  <td>Sat Sep 05, 02:30 PM CDT</td>
+  <td>NCAAF</td>
+  <td>Boston College Eagles @ Cincinnati Bearcats</td>
+  <td>15-34</td>
+  <td>Cincinnati Bearcats</td>
+  <td class="result-good">correct</td>
+  <td class="result-good">correct</td>
+</tr><tr class="filterable-item" data-league="NCAAF">
+  <td></td>
+  <td>Sat Sep 05, 02:30 PM CDT</td>
+  <td>NCAAF</td>
+  <td>Furman Paladins @ Tennessee Volunteers</td>
+  <td>9-56</td>
+  <td>Tennessee Volunteers</td>
+  <td class="result-good">correct</td>
+  <td class="result-good">correct</td>
+</tr><tr class="filterable-item" data-league="NCAAF">
+  <td></td>
+  <td>Sat Sep 05, 02:30 PM CDT</td>
+  <td>NCAAF</td>
+  <td>Texas State Bobcats @ Texas Longhorns</td>
+  <td>7-59</td>
+  <td>Texas Longhorns</td>
+  <td class="result-good">correct</td>
+  <td class="result-bad">wrong</td>
+</tr><tr class="filterable-item" data-league="NCAAF">
+  <td></td>
+  <td>Sat Sep 05, 12:00 PM CDT</td>
+  <td>NCAAF</td>
+  <td>Duquesne Dukes @ Air Force Falcons</td>
+  <td>0-34</td>
+  <td>Air Force Falcons</td>
+  <td class="result-good">correct</td>
+  <td class="result-bad">wrong</td>
+</tr><tr class="filterable-item" data-league="NCAAF">
+  <td></td>
+  <td>Sat Sep 05, 11:30 AM CDT</td>
+  <td>NCAAF</td>
+  <td>Ball State Cardinals @ Ohio State Buckeyes</td>
+  <td>3-56</td>
+  <td>Ohio State Buckeyes</td>
+  <td class="result-good">correct</td>
+  <td class="result-bad">wrong</td>
+</tr><tr class="filterable-item" data-league="NCAAF">
+  <td></td>
+  <td>Sat Sep 05, 11:00 AM CDT</td>
+  <td>NCAAF</td>
+  <td>Oregon State Beavers @ Houston Cougars</td>
+  <td>20-33</td>
+  <td>Houston Cougars</td>
+  <td class="result-good">correct</td>
+  <td class="result-good">correct</td>
+</tr><tr class="filterable-item" data-league="NCAAF">
+  <td></td>
+  <td>Sat Sep 05, 11:00 AM CDT</td>
+  <td>NCAAF</td>
+  <td>North Texas Mean Green @ Indiana Hoosiers</td>
+  <td>16-52</td>
+  <td>Indiana Hoosiers</td>
+  <td class="result-good">correct</td>
+  <td class="result-good">correct</td>
+</tr><tr class="filterable-item" data-league="MLB">
   <td></td>
   <td>Fri Sep 04, 09:11 PM CDT</td>
   <td>MLB</td>
@@ -350,15 +629,6 @@ th { color: var(--muted); font-weight: 500; font-size: 0.78rem; text-transform: 
   <td>San Diego Padres</td>
   <td class="result-bad">wrong</td>
   <td class="result-bad">wrong</td>
-</tr><tr class="filterable-item" data-league="Bundesliga">
-  <td></td>
-  <td>Sun Aug 30, 10:30 AM CDT</td>
-  <td>Bundesliga</td>
-  <td>FC Schalke 04 @ Augsburg</td>
-  <td>0-3</td>
-  <td>Augsburg</td>
-  <td class="result-good">correct</td>
-  <td class="result-good">correct</td>
 </tr></tbody>
 </table>
 </main>
