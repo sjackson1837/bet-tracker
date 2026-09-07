@@ -159,13 +159,13 @@
     "odds": {
       "moneyline": {
         "Atlanta Falcons": 152,
-        "Pittsburgh Steelers": -181
+        "Pittsburgh Steelers": -182
       },
       "spread": {
-        "Atlanta Falcons": 3.2,
-        "Pittsburgh Steelers": -3.2
+        "Atlanta Falcons": 3.3,
+        "Pittsburgh Steelers": -3.3
       },
-      "total": 41.8,
+      "total": 41.9,
       "num_bookmakers": 9
     },
     "prediction": null,
@@ -183,14 +183,14 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Baltimore Ravens": -178,
-        "Indianapolis Colts": 149
+        "Baltimore Ravens": -176,
+        "Indianapolis Colts": 147
       },
       "spread": {
         "Baltimore Ravens": -3.5,
         "Indianapolis Colts": 3.5
       },
-      "total": 48.0,
+      "total": 47.8,
       "num_bookmakers": 9
     },
     "prediction": null,
@@ -208,12 +208,12 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Buffalo Bills": -113,
-        "Houston Texans": -108
+        "Buffalo Bills": -111,
+        "Houston Texans": -110
       },
       "spread": {
-        "Buffalo Bills": -0.3,
-        "Houston Texans": 0.3
+        "Buffalo Bills": 0.2,
+        "Houston Texans": -0.2
       },
       "total": 44.5,
       "num_bookmakers": 9
@@ -234,13 +234,13 @@
     "odds": {
       "moneyline": {
         "Carolina Panthers": 131,
-        "Chicago Bears": -157
+        "Chicago Bears": -156
       },
       "spread": {
         "Carolina Panthers": 2.8,
         "Chicago Bears": -2.8
       },
-      "total": 47.2,
+      "total": 47.1,
       "num_bookmakers": 9
     },
     "prediction": null,
@@ -258,14 +258,14 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Cincinnati Bengals": -211,
+        "Cincinnati Bengals": -210,
         "Tampa Bay Buccaneers": 174
       },
       "spread": {
         "Cincinnati Bengals": -3.8,
         "Tampa Bay Buccaneers": 3.8
       },
-      "total": 50.6,
+      "total": 50.5,
       "num_bookmakers": 9
     },
     "prediction": null,
@@ -283,12 +283,12 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Cleveland Browns": 310,
-        "Jacksonville Jaguars": -404
+        "Cleveland Browns": 323,
+        "Jacksonville Jaguars": -422
       },
       "spread": {
-        "Cleveland Browns": 8.1,
-        "Jacksonville Jaguars": -8.1
+        "Cleveland Browns": 8.5,
+        "Jacksonville Jaguars": -8.5
       },
       "total": 40.5,
       "num_bookmakers": 9
@@ -308,14 +308,14 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Detroit Lions": -317,
+        "Detroit Lions": -318,
         "New Orleans Saints": 254
       },
       "spread": {
         "Detroit Lions": -6.9,
         "New Orleans Saints": 6.9
       },
-      "total": 49.9,
+      "total": 49.8,
       "num_bookmakers": 9
     },
     "prediction": null,
@@ -333,12 +333,12 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "New York Jets": 108,
-        "Tennessee Titans": -130
+        "New York Jets": 106,
+        "Tennessee Titans": -128
       },
       "spread": {
-        "New York Jets": 1.2,
-        "Tennessee Titans": -1.2
+        "New York Jets": 1.0,
+        "Tennessee Titans": -1.0
       },
       "total": 39.4,
       "num_bookmakers": 9
@@ -358,14 +358,14 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Arizona Cardinals": 403,
-        "Los Angeles Chargers": -548
+        "Arizona Cardinals": 401,
+        "Los Angeles Chargers": -543
       },
       "spread": {
-        "Arizona Cardinals": 10.1,
-        "Los Angeles Chargers": -10.1
+        "Arizona Cardinals": 9.8,
+        "Los Angeles Chargers": -9.8
       },
-      "total": 47.2,
+      "total": 47.3,
       "num_bookmakers": 9
     },
     "prediction": null,
@@ -383,7 +383,7 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Green Bay Packers": 50,
+        "Green Bay Packers": 25,
         "Minnesota Vikings": -121
       },
       "spread": {
@@ -408,14 +408,14 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Las Vegas Raiders": -186,
-        "Miami Dolphins": 155
+        "Las Vegas Raiders": -184,
+        "Miami Dolphins": 154
       },
       "spread": {
         "Las Vegas Raiders": -3.5,
         "Miami Dolphins": 3.5
       },
-      "total": 40.5,
+      "total": 40.6,
       "num_bookmakers": 9
     },
     "prediction": null,
@@ -433,12 +433,12 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Philadelphia Eagles": -232,
-        "Washington Commanders": 190
+        "Philadelphia Eagles": -231,
+        "Washington Commanders": 189
       },
       "spread": {
-        "Philadelphia Eagles": -5.2,
-        "Washington Commanders": 5.2
+        "Philadelphia Eagles": -4.9,
+        "Washington Commanders": 4.9
       },
       "total": 44.4,
       "num_bookmakers": 9
@@ -458,8 +458,8 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Dallas Cowboys": -157,
-        "New York Giants": 132
+        "Dallas Cowboys": -159,
+        "New York Giants": 134
       },
       "spread": {
         "Dallas Cowboys": -2.9,
@@ -483,14 +483,14 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Denver Broncos": 121,
-        "Kansas City Chiefs": -145
+        "Denver Broncos": 122,
+        "Kansas City Chiefs": -146
       },
       "spread": {
         "Denver Broncos": 2.6,
         "Kansas City Chiefs": -2.6
       },
-      "total": 43.2,
+      "total": 43.4,
       "num_bookmakers": 9
     },
     "prediction": null,
@@ -508,15 +508,15 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Buffalo Bills": -164,
-        "Detroit Lions": 134
+        "Buffalo Bills": -160,
+        "Detroit Lions": 132
       },
       "spread": {
         "Buffalo Bills": -3.0,
         "Detroit Lions": 3.0
       },
-      "total": 52.0,
-      "num_bookmakers": 4
+      "total": 52.2,
+      "num_bookmakers": 5
     },
     "prediction": null,
     "actual": null
@@ -540,8 +540,8 @@
         "Atlanta Falcons": -1.5,
         "Carolina Panthers": 1.5
       },
-      "total": 44.0,
-      "num_bookmakers": 2
+      "total": 44.1,
+      "num_bookmakers": 4
     },
     "prediction": null,
     "actual": null
@@ -558,15 +558,15 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Baltimore Ravens": -345,
-        "New Orleans Saints": 275
+        "Baltimore Ravens": -360,
+        "New Orleans Saints": 285
       },
       "spread": {
         "Baltimore Ravens": -7.5,
         "New Orleans Saints": 7.5
       },
       "total": 46.5,
-      "num_bookmakers": 2
+      "num_bookmakers": 4
     },
     "prediction": null,
     "actual": null
@@ -583,15 +583,15 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Chicago Bears": -198,
-        "Minnesota Vikings": 164
+        "Chicago Bears": -192,
+        "Minnesota Vikings": 160
       },
       "spread": {
         "Chicago Bears": -3.5,
         "Minnesota Vikings": 3.5
       },
       "total": 45.5,
-      "num_bookmakers": 1
+      "num_bookmakers": 4
     },
     "prediction": null,
     "actual": null
@@ -616,7 +616,7 @@
         "Houston Texans": -2.5
       },
       "total": 46.5,
-      "num_bookmakers": 2
+      "num_bookmakers": 4
     },
     "prediction": null,
     "actual": null
@@ -633,15 +633,15 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Cleveland Browns": 230,
-        "Tampa Bay Buccaneers": -285
+        "Cleveland Browns": 225,
+        "Tampa Bay Buccaneers": -278
       },
       "spread": {
         "Cleveland Browns": 6.5,
         "Tampa Bay Buccaneers": -6.5
       },
       "total": 42.5,
-      "num_bookmakers": 2
+      "num_bookmakers": 4
     },
     "prediction": null,
     "actual": null
@@ -658,15 +658,15 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Green Bay Packers": -250,
-        "New York Jets": 205
+        "Green Bay Packers": -245,
+        "New York Jets": 200
       },
       "spread": {
         "Green Bay Packers": -5.5,
         "New York Jets": 5.5
       },
       "total": 42.5,
-      "num_bookmakers": 1
+      "num_bookmakers": 4
     },
     "prediction": null,
     "actual": null
@@ -690,8 +690,8 @@
         "New England Patriots": -4.5,
         "Pittsburgh Steelers": 4.5
       },
-      "total": 43.5,
-      "num_bookmakers": 2
+      "total": 43.1,
+      "num_bookmakers": 4
     },
     "prediction": null,
     "actual": null
@@ -716,7 +716,7 @@
         "Tennessee Titans": 4.5
       },
       "total": 42.5,
-      "num_bookmakers": 2
+      "num_bookmakers": 4
     },
     "prediction": null,
     "actual": null
@@ -737,11 +737,11 @@
         "Jacksonville Jaguars": 130
       },
       "spread": {
-        "Denver Broncos": -2.8,
-        "Jacksonville Jaguars": 2.8
+        "Denver Broncos": -3.0,
+        "Jacksonville Jaguars": 3.0
       },
-      "total": 43.5,
-      "num_bookmakers": 2
+      "total": 44.2,
+      "num_bookmakers": 4
     },
     "prediction": null,
     "actual": null
@@ -766,7 +766,7 @@
         "Los Angeles Chargers": -8.5
       },
       "total": 42.5,
-      "num_bookmakers": 1
+      "num_bookmakers": 4
     },
     "prediction": null,
     "actual": null
@@ -791,7 +791,7 @@
         "Seattle Seahawks": -10.0
       },
       "total": 44.5,
-      "num_bookmakers": 2
+      "num_bookmakers": 4
     },
     "prediction": null,
     "actual": null
@@ -816,7 +816,7 @@
         "Washington Commanders": 4.5
       },
       "total": 51.5,
-      "num_bookmakers": 2
+      "num_bookmakers": 4
     },
     "prediction": null,
     "actual": null
@@ -841,7 +841,7 @@
         "San Francisco 49ers": -10.5
       },
       "total": 46.5,
-      "num_bookmakers": 2
+      "num_bookmakers": 4
     },
     "prediction": null,
     "actual": null
@@ -858,15 +858,15 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Indianapolis Colts": 270,
-        "Kansas City Chiefs": -340
+        "Indianapolis Colts": 260,
+        "Kansas City Chiefs": -325
       },
       "spread": {
-        "Indianapolis Colts": 6.0,
-        "Kansas City Chiefs": -6.0
+        "Indianapolis Colts": 6.5,
+        "Kansas City Chiefs": -6.5
       },
       "total": 47.5,
-      "num_bookmakers": 2
+      "num_bookmakers": 4
     },
     "prediction": null,
     "actual": null
@@ -883,15 +883,15 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Los Angeles Rams": -380,
-        "New York Giants": 300
+        "Los Angeles Rams": -395,
+        "New York Giants": 310
       },
       "spread": {
-        "Los Angeles Rams": -9.0,
-        "New York Giants": 9.0
+        "Los Angeles Rams": -8.5,
+        "New York Giants": 8.5
       },
-      "total": 48.0,
-      "num_bookmakers": 2
+      "total": 48.5,
+      "num_bookmakers": 4
     },
     "prediction": null,
     "actual": null
@@ -908,8 +908,8 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Atlanta Falcons": 295,
-        "Green Bay Packers": -375
+        "Atlanta Falcons": 300,
+        "Green Bay Packers": -380
       },
       "spread": {
         "Atlanta Falcons": 7.5,
@@ -1008,8 +1008,8 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Detroit Lions": -425,
-        "New York Jets": 330
+        "Detroit Lions": -410,
+        "New York Jets": 320
       },
       "spread": {
         "Detroit Lions": -9.5,
@@ -1033,8 +1033,8 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Houston Texans": -125,
-        "Indianapolis Colts": 105
+        "Houston Texans": -122,
+        "Indianapolis Colts": 102
       },
       "spread": {
         "Houston Texans": -1.5,
@@ -1158,8 +1158,8 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Arizona Cardinals": 490,
-        "San Francisco 49ers": -675
+        "Arizona Cardinals": 470,
+        "San Francisco 49ers": -650
       },
       "spread": {
         "Arizona Cardinals": 11.5,
@@ -1358,8 +1358,8 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Arizona Cardinals": 270,
-        "New York Giants": -340
+        "Arizona Cardinals": 260,
+        "New York Giants": -325
       },
       "spread": {
         "Arizona Cardinals": 7.0,
@@ -1433,8 +1433,8 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Chicago Bears": -440,
-        "New York Jets": 340
+        "Chicago Bears": -425,
+        "New York Jets": 330
       },
       "spread": {
         "Chicago Bears": -8.5,
@@ -1583,8 +1583,8 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Denver Broncos": 120,
-        "San Francisco 49ers": -142
+        "Denver Broncos": 114,
+        "San Francisco 49ers": -135
       },
       "spread": {
         "Denver Broncos": 2.5,
@@ -1912,8 +1912,8 @@
         "Washington Commanders": -130
       },
       "spread": {
-        "New York Giants": 2.5,
-        "Washington Commanders": -2.5
+        "New York Giants": 2.0,
+        "Washington Commanders": -2.0
       },
       "total": 48.5,
       "num_bookmakers": 2
@@ -2087,8 +2087,8 @@
         "Seattle Seahawks": -130
       },
       "spread": {
-        "Denver Broncos": 2.5,
-        "Seattle Seahawks": -2.5
+        "Denver Broncos": 2.0,
+        "Seattle Seahawks": -2.0
       },
       "total": 43.5,
       "num_bookmakers": 2
@@ -2133,8 +2133,8 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Atlanta Falcons": 130,
-        "Chicago Bears": -155
+        "Atlanta Falcons": 136,
+        "Chicago Bears": -162
       },
       "spread": {
         "Atlanta Falcons": 3.0,
@@ -2208,8 +2208,8 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Indianapolis Colts": -192,
-        "Tennessee Titans": 160
+        "Indianapolis Colts": -198,
+        "Tennessee Titans": 164
       },
       "spread": {
         "Indianapolis Colts": -3.5,
@@ -2258,8 +2258,8 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "New Orleans Saints": 120,
-        "New York Giants": -142
+        "New Orleans Saints": 114,
+        "New York Giants": -135
       },
       "spread": {
         "New Orleans Saints": 2.5,
@@ -2383,8 +2383,8 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Dallas Cowboys": 140,
-        "Green Bay Packers": -166
+        "Dallas Cowboys": 142,
+        "Green Bay Packers": -170
       },
       "spread": {
         "Dallas Cowboys": 3.0,
@@ -2483,8 +2483,8 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Atlanta Falcons": 180,
-        "San Francisco 49ers": -218
+        "Atlanta Falcons": 185,
+        "San Francisco 49ers": -225
       },
       "spread": {
         "Atlanta Falcons": 4.5,
@@ -2783,8 +2783,8 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Carolina Panthers": 270,
-        "Green Bay Packers": -340
+        "Carolina Panthers": 275,
+        "Green Bay Packers": -345
       },
       "spread": {
         "Carolina Panthers": 7.0,
@@ -2833,8 +2833,8 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Atlanta Falcons": 180,
-        "Tampa Bay Buccaneers": -218
+        "Atlanta Falcons": 185,
+        "Tampa Bay Buccaneers": -225
       },
       "spread": {
         "Atlanta Falcons": 4.5,
@@ -3333,8 +3333,8 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "New York Giants": 200,
-        "Philadelphia Eagles": -245
+        "New York Giants": 195,
+        "Philadelphia Eagles": -238
       },
       "spread": {
         "New York Giants": 5.5,
@@ -3558,8 +3558,8 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Atlanta Falcons": 190,
-        "Kansas City Chiefs": -230
+        "Atlanta Falcons": 185,
+        "Kansas City Chiefs": -225
       },
       "spread": {
         "Atlanta Falcons": 4.5,
@@ -3683,8 +3683,8 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Indianapolis Colts": -305,
-        "Miami Dolphins": 245
+        "Indianapolis Colts": -310,
+        "Miami Dolphins": 250
       },
       "spread": {
         "Indianapolis Colts": -6.5,
@@ -3783,8 +3783,8 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Dallas Cowboys": -120,
-        "San Francisco 49ers": 100
+        "Dallas Cowboys": -118,
+        "San Francisco 49ers": -102
       },
       "spread": {
         "Dallas Cowboys": -1.5,
@@ -4033,8 +4033,8 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Jacksonville Jaguars": -122,
-        "New York Giants": 102
+        "Jacksonville Jaguars": -125,
+        "New York Giants": 105
       },
       "spread": {
         "Jacksonville Jaguars": -1.5,
@@ -4512,8 +4512,8 @@
         "Seattle Seahawks": -110
       },
       "spread": {
-        "San Francisco 49ers": 0.0,
-        "Seattle Seahawks": 0.0
+        "San Francisco 49ers": -1.5,
+        "Seattle Seahawks": 1.5
       },
       "total": 46.5,
       "num_bookmakers": 2
@@ -4758,8 +4758,8 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "New York Giants": 136,
-        "San Francisco 49ers": -162
+        "New York Giants": 140,
+        "San Francisco 49ers": -166
       },
       "spread": {
         "New York Giants": 3.0,
@@ -5908,8 +5908,8 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Cincinnati Bengals": -122,
-        "Indianapolis Colts": 102
+        "Cincinnati Bengals": -125,
+        "Indianapolis Colts": 105
       },
       "spread": {
         "Cincinnati Bengals": -1.5,
@@ -6858,8 +6858,8 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Arizona Cardinals": 330,
-        "San Francisco 49ers": -425
+        "Arizona Cardinals": 320,
+        "San Francisco 49ers": -410
       },
       "spread": {
         "Arizona Cardinals": 8.5,
@@ -13799,20 +13799,65 @@
     "espn_sport": "football",
     "espn_league": "college-football",
     "outdoor": true,
-    "status": "scheduled",
+    "status": "predicted",
     "odds": {
       "moneyline": {
-        "Kansas Jayhawks": 192,
-        "Missouri Tigers": -236
+        "Kansas Jayhawks": 189,
+        "Missouri Tigers": -231
       },
       "spread": {
-        "Kansas Jayhawks": 6.4,
-        "Missouri Tigers": -6.4
+        "Kansas Jayhawks": 5.9,
+        "Missouri Tigers": -5.9
       },
-      "total": 50.4,
-      "num_bookmakers": 7
+      "total": 50.2,
+      "num_bookmakers": 9
     },
-    "prediction": null,
+    "prediction": {
+      "predicted_winner": "Missouri Tigers",
+      "reasoning": "No specific trend data given for either team, but Missouri is a significant favorite on the road (-231 ML, -5.9 spread) which typically reflects a real talent gap in NCAAF non-conference play. Lacking any contradicting data, we defer to the market's magnitude here.",
+      "key_factors": [
+        "No trend data available",
+        "Missouri favored by ~6 points",
+        "Road favorite in early-season non-conference game"
+      ],
+      "predicted_against_spread": "Kansas Jayhawks",
+      "confidence": 47,
+      "context_used": {
+        "away_trends": {
+          "team": "Missouri Tigers",
+          "last5": null,
+          "streak": null,
+          "record": null,
+          "h2h_vs_opponent": null
+        },
+        "home_trends": {
+          "team": "Kansas Jayhawks",
+          "last5": null,
+          "streak": null,
+          "record": null,
+          "h2h_vs_opponent": null
+        },
+        "weather": null,
+        "probable_pitchers": {
+          "home": null,
+          "away": null
+        }
+      },
+      "generated_at": "2026-09-07T16:36:27.122278+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "Kansas Jayhawks": 189,
+          "Missouri Tigers": -231
+        },
+        "spread": {
+          "Kansas Jayhawks": 5.9,
+          "Missouri Tigers": -5.9
+        },
+        "total": 50.2,
+        "num_bookmakers": 9
+      }
+    },
     "actual": null
   },
   "americanfootball_ncaaf_2026-09-12_arizona-state-sun-devils_at_texas-a&m-aggies": {
@@ -13824,20 +13869,65 @@
     "espn_sport": "football",
     "espn_league": "college-football",
     "outdoor": true,
-    "status": "scheduled",
+    "status": "predicted",
     "odds": {
       "moneyline": {
-        "Arizona State Sun Devils": 471,
-        "Texas A&M Aggies": -697
+        "Arizona State Sun Devils": 482,
+        "Texas A&M Aggies": -716
       },
       "spread": {
-        "Arizona State Sun Devils": 14.4,
-        "Texas A&M Aggies": -14.4
+        "Arizona State Sun Devils": 14.6,
+        "Texas A&M Aggies": -14.6
       },
-      "total": 51.7,
+      "total": 51.6,
       "num_bookmakers": 9
     },
-    "prediction": null,
+    "prediction": {
+      "predicted_winner": "Texas A&M Aggies",
+      "reasoning": "Texas A&M is a massive home favorite (-716 ML, -14.6 spread) against Arizona State, which is 1-0 but with minimal data. Large home favorites in this range in early-season non-conference games typically win comfortably, but a 14.6 point cover margin is uncertain without more data.",
+      "key_factors": [
+        "Texas A&M huge home favorite",
+        "Arizona State only 1-0 with no quality data",
+        "Large spread creates cover risk"
+      ],
+      "predicted_against_spread": "Arizona State Sun Devils",
+      "confidence": 55,
+      "context_used": {
+        "away_trends": {
+          "team": "Arizona State Sun Devils",
+          "last5": "1-0",
+          "streak": "W1",
+          "record": "1-0",
+          "h2h_vs_opponent": null
+        },
+        "home_trends": {
+          "team": "Texas A&M Aggies",
+          "last5": null,
+          "streak": null,
+          "record": null,
+          "h2h_vs_opponent": null
+        },
+        "weather": null,
+        "probable_pitchers": {
+          "home": null,
+          "away": null
+        }
+      },
+      "generated_at": "2026-09-07T16:36:27.122278+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "Arizona State Sun Devils": 482,
+          "Texas A&M Aggies": -716
+        },
+        "spread": {
+          "Arizona State Sun Devils": 14.6,
+          "Texas A&M Aggies": -14.6
+        },
+        "total": 51.6,
+        "num_bookmakers": 9
+      }
+    },
     "actual": null
   },
   "americanfootball_ncaaf_2026-09-12_oklahoma-sooners_at_michigan-wolverines": {
@@ -13849,20 +13939,65 @@
     "espn_sport": "football",
     "espn_league": "college-football",
     "outdoor": true,
-    "status": "scheduled",
+    "status": "predicted",
     "odds": {
       "moneyline": {
-        "Michigan Wolverines": 203,
-        "Oklahoma Sooners": -254
+        "Michigan Wolverines": 182,
+        "Oklahoma Sooners": -226
       },
       "spread": {
-        "Michigan Wolverines": 6.2,
-        "Oklahoma Sooners": -6.2
+        "Michigan Wolverines": 5.8,
+        "Oklahoma Sooners": -5.8
       },
-      "total": 43.4,
+      "total": 43.5,
       "num_bookmakers": 9
     },
-    "prediction": null,
+    "prediction": {
+      "predicted_winner": "Oklahoma Sooners",
+      "reasoning": "Oklahoma is favored on the road (-226 ML, -5.8 spread) against Michigan, suggesting the market views Oklahoma as the stronger team this season. Without additional trend data, we lean with the market's assessment given the moderate size of the spread.",
+      "key_factors": [
+        "No trend data provided",
+        "Oklahoma favored despite being on road",
+        "Total is relatively low at 43.5, suggesting defensive game"
+      ],
+      "predicted_against_spread": "Michigan Wolverines",
+      "confidence": 50,
+      "context_used": {
+        "away_trends": {
+          "team": "Oklahoma Sooners",
+          "last5": null,
+          "streak": null,
+          "record": null,
+          "h2h_vs_opponent": null
+        },
+        "home_trends": {
+          "team": "Michigan Wolverines",
+          "last5": null,
+          "streak": null,
+          "record": null,
+          "h2h_vs_opponent": null
+        },
+        "weather": null,
+        "probable_pitchers": {
+          "home": null,
+          "away": null
+        }
+      },
+      "generated_at": "2026-09-07T16:36:27.122278+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "Michigan Wolverines": 182,
+          "Oklahoma Sooners": -226
+        },
+        "spread": {
+          "Michigan Wolverines": 5.8,
+          "Oklahoma Sooners": -5.8
+        },
+        "total": 43.5,
+        "num_bookmakers": 9
+      }
+    },
     "actual": null
   },
   "americanfootball_ncaaf_2026-09-12_oregon-ducks_at_oklahoma-state-cowboys": {
@@ -13874,20 +14009,65 @@
     "espn_sport": "football",
     "espn_league": "college-football",
     "outdoor": true,
-    "status": "scheduled",
+    "status": "predicted",
     "odds": {
       "moneyline": {
-        "Oklahoma State Cowboys": 1025,
-        "Oregon Ducks": -2183
+        "Oklahoma State Cowboys": 1065,
+        "Oregon Ducks": -2456
       },
       "spread": {
         "Oklahoma State Cowboys": 22.4,
         "Oregon Ducks": -22.4
       },
-      "total": 57.8,
+      "total": 57.4,
       "num_bookmakers": 9
     },
-    "prediction": null,
+    "prediction": {
+      "predicted_winner": "Oregon Ducks",
+      "reasoning": "Oregon is an overwhelming favorite (-2456 ML, -22.4 spread) reflecting a large perceived talent gap over Oklahoma State. Without trend data to contradict, such lopsided lines in NCAAF are typically well-calibrated to real quality differences.",
+      "key_factors": [
+        "Oregon massive favorite",
+        "No trend data to contradict market",
+        "High total suggests high-scoring blowout potential"
+      ],
+      "predicted_against_spread": "Oklahoma State Cowboys",
+      "confidence": 52,
+      "context_used": {
+        "away_trends": {
+          "team": "Oregon Ducks",
+          "last5": null,
+          "streak": null,
+          "record": null,
+          "h2h_vs_opponent": null
+        },
+        "home_trends": {
+          "team": "Oklahoma State Cowboys",
+          "last5": null,
+          "streak": null,
+          "record": null,
+          "h2h_vs_opponent": null
+        },
+        "weather": null,
+        "probable_pitchers": {
+          "home": null,
+          "away": null
+        }
+      },
+      "generated_at": "2026-09-07T16:36:27.122278+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "Oklahoma State Cowboys": 1065,
+          "Oregon Ducks": -2456
+        },
+        "spread": {
+          "Oklahoma State Cowboys": 22.4,
+          "Oregon Ducks": -22.4
+        },
+        "total": 57.4,
+        "num_bookmakers": 9
+      }
+    },
     "actual": null
   },
   "americanfootball_ncaaf_2026-09-12_iowa-state-cyclones_at_iowa-hawkeyes": {
@@ -13902,14 +14082,14 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Iowa Hawkeyes": -765,
-        "Iowa State Cyclones": 507
+        "Iowa Hawkeyes": -723,
+        "Iowa State Cyclones": 486
       },
       "spread": {
         "Iowa Hawkeyes": -14.2,
         "Iowa State Cyclones": 14.2
       },
-      "total": 41.2,
+      "total": 41.1,
       "num_bookmakers": 9
     },
     "prediction": null,
@@ -13927,15 +14107,15 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Ohio State Buckeyes": -65,
-        "Texas Longhorns": -116
+        "Ohio State Buckeyes": -108,
+        "Texas Longhorns": -113
       },
       "spread": {
-        "Ohio State Buckeyes": 1.2,
-        "Texas Longhorns": -1.2
+        "Ohio State Buckeyes": 0.9,
+        "Texas Longhorns": -0.9
       },
-      "total": 48.1,
-      "num_bookmakers": 8
+      "total": 48.5,
+      "num_bookmakers": 9
     },
     "prediction": null,
     "actual": null
@@ -13952,15 +14132,15 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Arkansas Razorbacks": 272,
-        "Utah Utes": -355
+        "Arkansas Razorbacks": 395,
+        "Utah Utes": -560
       },
       "spread": {
-        "Arkansas Razorbacks": 8.8,
-        "Utah Utes": -8.8
+        "Arkansas Razorbacks": 13.3,
+        "Utah Utes": -13.3
       },
-      "total": 54.8,
-      "num_bookmakers": 3
+      "total": 56.7,
+      "num_bookmakers": 8
     },
     "prediction": null,
     "actual": null
@@ -28874,7 +29054,7 @@
     "espn_sport": "football",
     "espn_league": "college-football",
     "outdoor": true,
-    "status": "scheduled",
+    "status": "predicted",
     "odds": {
       "moneyline": {
         "Arkansas Razorbacks": 346,
@@ -28887,7 +29067,52 @@
       "total": 57.0,
       "num_bookmakers": 8
     },
-    "prediction": null,
+    "prediction": {
+      "predicted_winner": "Utah Utes",
+      "reasoning": "Utah is a strong home favorite (-470 ML, -11.4 spread) despite Arkansas being 1-0 and on a W1 streak, but that record comes with no quality context. The market's large home spread suggests significant perceived quality gap in Utah's favor.",
+      "key_factors": [
+        "Utah strong home favorite",
+        "Arkansas 1-0 but limited data",
+        "High total of 57 suggests shootout potential"
+      ],
+      "predicted_against_spread": "Arkansas Razorbacks",
+      "confidence": 53,
+      "context_used": {
+        "away_trends": {
+          "team": "Arkansas Razorbacks",
+          "last5": "1-0",
+          "streak": "W1",
+          "record": "1-0",
+          "h2h_vs_opponent": null
+        },
+        "home_trends": {
+          "team": "Utah Utes",
+          "last5": null,
+          "streak": null,
+          "record": null,
+          "h2h_vs_opponent": null
+        },
+        "weather": null,
+        "probable_pitchers": {
+          "home": null,
+          "away": null
+        }
+      },
+      "generated_at": "2026-09-07T16:36:27.122278+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "Arkansas Razorbacks": 346,
+          "Utah Utes": -470
+        },
+        "spread": {
+          "Arkansas Razorbacks": 11.4,
+          "Utah Utes": -11.4
+        },
+        "total": 57.0,
+        "num_bookmakers": 8
+      }
+    },
     "actual": null
   },
   "americanfootball_ncaaf_2026-10-10_texas-longhorns_at_oklahoma-sooners": {
@@ -31176,20 +31401,65 @@
     "espn_sport": "football",
     "espn_league": "college-football",
     "outdoor": true,
-    "status": "scheduled",
+    "status": "predicted",
     "odds": {
       "moneyline": {
-        "Old Dominion Monarchs": 652,
-        "Virginia Tech Hokies": -1061
+        "Old Dominion Monarchs": 672,
+        "Virginia Tech Hokies": -1120
       },
       "spread": {
-        "Old Dominion Monarchs": 18.0,
-        "Virginia Tech Hokies": -18.0
+        "Old Dominion Monarchs": 17.9,
+        "Virginia Tech Hokies": -17.9
       },
-      "total": 50.8,
+      "total": 50.7,
       "num_bookmakers": 9
     },
-    "prediction": null,
+    "prediction": {
+      "predicted_winner": "Virginia Tech Hokies",
+      "reasoning": "Virginia Tech is a heavy home favorite (-1120 ML, -17.9 spread) over Old Dominion with no trend data to contradict. Large spreads at this level of program mismatch (Power conference vs Group of 5) tend to hold.",
+      "key_factors": [
+        "Virginia Tech heavy home favorite",
+        "Program level mismatch",
+        "No trend data available"
+      ],
+      "predicted_against_spread": "Old Dominion Monarchs",
+      "confidence": 54,
+      "context_used": {
+        "away_trends": {
+          "team": "Old Dominion Monarchs",
+          "last5": null,
+          "streak": null,
+          "record": null,
+          "h2h_vs_opponent": null
+        },
+        "home_trends": {
+          "team": "Virginia Tech Hokies",
+          "last5": null,
+          "streak": null,
+          "record": null,
+          "h2h_vs_opponent": null
+        },
+        "weather": null,
+        "probable_pitchers": {
+          "home": null,
+          "away": null
+        }
+      },
+      "generated_at": "2026-09-07T16:36:27.122278+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "Old Dominion Monarchs": 672,
+          "Virginia Tech Hokies": -1120
+        },
+        "spread": {
+          "Old Dominion Monarchs": 17.9,
+          "Virginia Tech Hokies": -17.9
+        },
+        "total": 50.7,
+        "num_bookmakers": 9
+      }
+    },
     "actual": null
   },
   "americanfootball_ncaaf_2026-09-12_alabama-crimson-tide_at_kentucky-wildcats": {
@@ -31204,14 +31474,14 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Alabama Crimson Tide": -447,
-        "Kentucky Wildcats": 324
+        "Alabama Crimson Tide": -434,
+        "Kentucky Wildcats": 322
       },
       "spread": {
         "Alabama Crimson Tide": -10.2,
         "Kentucky Wildcats": 10.2
       },
-      "total": 48.8,
+      "total": 49.2,
       "num_bookmakers": 9
     },
     "prediction": null,
@@ -31229,12 +31499,12 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Arizona Wildcats": 242,
-        "BYU Cougars": -309
+        "Arizona Wildcats": 240,
+        "BYU Cougars": -308
       },
       "spread": {
-        "Arizona Wildcats": 7.6,
-        "BYU Cougars": -7.6
+        "Arizona Wildcats": 7.5,
+        "BYU Cougars": -7.5
       },
       "total": 50.4,
       "num_bookmakers": 9
@@ -31254,12 +31524,12 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Duke Blue Devils": 193,
-        "Illinois Fighting Illini": -241
+        "Duke Blue Devils": 191,
+        "Illinois Fighting Illini": -238
       },
       "spread": {
-        "Duke Blue Devils": 6.4,
-        "Illinois Fighting Illini": -6.4
+        "Duke Blue Devils": 6.2,
+        "Illinois Fighting Illini": -6.2
       },
       "total": 53.4,
       "num_bookmakers": 9
@@ -31279,12 +31549,12 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Minnesota Golden Gophers": -36,
-        "Mississippi State Bulldogs": -119
+        "Minnesota Golden Gophers": -75,
+        "Mississippi State Bulldogs": -113
       },
       "spread": {
-        "Minnesota Golden Gophers": 1.3,
-        "Mississippi State Bulldogs": -1.3
+        "Minnesota Golden Gophers": 0.8,
+        "Mississippi State Bulldogs": -0.8
       },
       "total": 55.6,
       "num_bookmakers": 9
@@ -31304,14 +31574,14 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Texas State Bobcats": -108,
-        "UTSA Roadrunners": -114
+        "Texas State Bobcats": -120,
+        "UTSA Roadrunners": -36
       },
       "spread": {
-        "Texas State Bobcats": 0.9,
-        "UTSA Roadrunners": -0.9
+        "Texas State Bobcats": -1.5,
+        "UTSA Roadrunners": 1.5
       },
-      "total": 64.5,
+      "total": 64.4,
       "num_bookmakers": 9
     },
     "prediction": null,
@@ -31330,13 +31600,13 @@
     "odds": {
       "moneyline": {
         "Boise State Broncos": -332,
-        "Memphis Tigers": 258
+        "Memphis Tigers": 260
       },
       "spread": {
-        "Boise State Broncos": -8.2,
-        "Memphis Tigers": 8.2
+        "Boise State Broncos": -7.6,
+        "Memphis Tigers": 7.6
       },
-      "total": 55.3,
+      "total": 55.4,
       "num_bookmakers": 9
     },
     "prediction": null,
@@ -31354,14 +31624,14 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Georgia Tech Yellow Jackets": 410,
-        "Tennessee Volunteers": -574
+        "Georgia Tech Yellow Jackets": 392,
+        "Tennessee Volunteers": -540
       },
       "spread": {
-        "Georgia Tech Yellow Jackets": 13.2,
-        "Tennessee Volunteers": -13.2
+        "Georgia Tech Yellow Jackets": 12.8,
+        "Tennessee Volunteers": -12.8
       },
-      "total": 55.3,
+      "total": 55.4,
       "num_bookmakers": 9
     },
     "prediction": null,
@@ -31379,14 +31649,14 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "San Diego State Aztecs": 345,
-        "UCLA Bruins": -476
+        "San Diego State Aztecs": 357,
+        "UCLA Bruins": -498
       },
       "spread": {
-        "San Diego State Aztecs": 11.2,
-        "UCLA Bruins": -11.2
+        "San Diego State Aztecs": 11.3,
+        "UCLA Bruins": -11.3
       },
-      "total": 51.7,
+      "total": 53.2,
       "num_bookmakers": 9
     },
     "prediction": null,
@@ -33259,7 +33529,7 @@
     "espn_sport": "football",
     "espn_league": "college-football",
     "outdoor": true,
-    "status": "scheduled",
+    "status": "predicted",
     "odds": {
       "moneyline": {
         "NC State Wolfpack": -10000,
@@ -33270,9 +33540,54 @@
         "Richmond Spiders": 30.5
       },
       "total": 49.5,
-      "num_bookmakers": 1
+      "num_bookmakers": 2
     },
-    "prediction": null,
+    "prediction": {
+      "predicted_winner": "NC State Wolfpack",
+      "reasoning": "NC State is a massive favorite (-10000 ML, -30.5 spread) against FCS opponent Richmond, a mismatch typical of P4 vs FCS matchups. Thin bookmaker coverage (2 books) slightly lowers confidence in the exact number, but the winner is essentially certain.",
+      "key_factors": [
+        "FCS vs P4 mismatch",
+        "Extreme ML odds",
+        "Limited bookmaker sample (2 books)"
+      ],
+      "predicted_against_spread": "NC State Wolfpack",
+      "confidence": 68,
+      "context_used": {
+        "away_trends": {
+          "team": "Richmond Spiders",
+          "last5": null,
+          "streak": null,
+          "record": null,
+          "h2h_vs_opponent": null
+        },
+        "home_trends": {
+          "team": "NC State Wolfpack",
+          "last5": null,
+          "streak": null,
+          "record": null,
+          "h2h_vs_opponent": null
+        },
+        "weather": null,
+        "probable_pitchers": {
+          "home": null,
+          "away": null
+        }
+      },
+      "generated_at": "2026-09-07T16:36:27.122278+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "NC State Wolfpack": -10000,
+          "Richmond Spiders": 3000
+        },
+        "spread": {
+          "NC State Wolfpack": -30.5,
+          "Richmond Spiders": 30.5
+        },
+        "total": 49.5,
+        "num_bookmakers": 2
+      }
+    },
     "actual": null
   },
   "americanfootball_ncaaf_2026-09-11_norfolk-state-spartans_at_virginia-cavaliers": {
@@ -33284,7 +33599,7 @@
     "espn_sport": "football",
     "espn_league": "college-football",
     "outdoor": true,
-    "status": "scheduled",
+    "status": "predicted",
     "odds": {
       "moneyline": {},
       "spread": {
@@ -33294,7 +33609,49 @@
       "total": 54.5,
       "num_bookmakers": 1
     },
-    "prediction": null,
+    "prediction": {
+      "predicted_winner": "Virginia Cavaliers",
+      "reasoning": "Virginia is favored by 43.5 points against FCS Norfolk State, a huge mismatch typical of P4 vs FCS games. Norfolk State's 1-1 record and W1 streak are largely irrelevant given the massive talent gap implied by the spread.",
+      "key_factors": [
+        "FCS vs P4 mismatch",
+        "43.5 point spread",
+        "Thin bookmaker sample (1 book)"
+      ],
+      "predicted_against_spread": "Virginia Cavaliers",
+      "confidence": 60,
+      "context_used": {
+        "away_trends": {
+          "team": "Norfolk State Spartans",
+          "last5": "1-1",
+          "streak": "W1",
+          "record": "1-1",
+          "h2h_vs_opponent": null
+        },
+        "home_trends": {
+          "team": "Virginia Cavaliers",
+          "last5": null,
+          "streak": null,
+          "record": null,
+          "h2h_vs_opponent": null
+        },
+        "weather": null,
+        "probable_pitchers": {
+          "home": null,
+          "away": null
+        }
+      },
+      "generated_at": "2026-09-07T16:36:27.122278+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {},
+        "spread": {
+          "Norfolk State Spartans": 43.5,
+          "Virginia Cavaliers": -43.5
+        },
+        "total": 54.5,
+        "num_bookmakers": 1
+      }
+    },
     "actual": null
   },
   "americanfootball_ncaaf_2026-09-11_rutgers-scarlet-knights_at_boston-college-eagles": {
@@ -33306,20 +33663,65 @@
     "espn_sport": "football",
     "espn_league": "college-football",
     "outdoor": true,
-    "status": "scheduled",
+    "status": "predicted",
     "odds": {
       "moneyline": {
-        "Boston College Eagles": -180,
-        "Rutgers Scarlet Knights": 145
+        "Boston College Eagles": -171,
+        "Rutgers Scarlet Knights": 142
       },
       "spread": {
         "Boston College Eagles": -3.5,
         "Rutgers Scarlet Knights": 3.5
       },
-      "total": 54.4,
-      "num_bookmakers": 8
+      "total": 54.5,
+      "num_bookmakers": 9
     },
-    "prediction": null,
+    "prediction": {
+      "predicted_winner": "Boston College Eagles",
+      "reasoning": "Boston College is a moderate home favorite (-171 ML, -3.5 spread) over Rutgers with no trend data available for either side. In a close spread scenario with no differentiating data, we lean marginally with the market's slight edge.",
+      "key_factors": [
+        "No trend data provided",
+        "Moderate home favorite",
+        "Close spread of 3.5"
+      ],
+      "predicted_against_spread": "Rutgers Scarlet Knights",
+      "confidence": 50,
+      "context_used": {
+        "away_trends": {
+          "team": "Rutgers Scarlet Knights",
+          "last5": null,
+          "streak": null,
+          "record": null,
+          "h2h_vs_opponent": null
+        },
+        "home_trends": {
+          "team": "Boston College Eagles",
+          "last5": null,
+          "streak": null,
+          "record": null,
+          "h2h_vs_opponent": null
+        },
+        "weather": null,
+        "probable_pitchers": {
+          "home": null,
+          "away": null
+        }
+      },
+      "generated_at": "2026-09-07T16:36:27.122278+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "Boston College Eagles": -171,
+          "Rutgers Scarlet Knights": 142
+        },
+        "spread": {
+          "Boston College Eagles": -3.5,
+          "Rutgers Scarlet Knights": 3.5
+        },
+        "total": 54.5,
+        "num_bookmakers": 9
+      }
+    },
     "actual": null
   },
   "americanfootball_ncaaf_2026-09-12_cal-poly-mustangs_at_san-jose-state-spartans": {
@@ -33331,7 +33733,7 @@
     "espn_sport": "football",
     "espn_league": "college-football",
     "outdoor": true,
-    "status": "scheduled",
+    "status": "predicted",
     "odds": {
       "moneyline": {
         "Cal Poly Mustangs": 1060,
@@ -33344,7 +33746,52 @@
       "total": 57.5,
       "num_bookmakers": 1
     },
-    "prediction": null,
+    "prediction": {
+      "predicted_winner": "San Jose State Spartans",
+      "reasoning": "San Jose State is a big favorite (-2300 ML, -20.5) at home despite Cal Poly's 2-0 record and W2 streak, but Cal Poly plays at the FCS level typically while SJSU is FBS, explaining the large gap. The market's large spread combined with Cal Poly's competition level suggests the favorite should win comfortably, though covering 20.5 is less certain.",
+      "key_factors": [
+        "San Jose State large home favorite",
+        "Cal Poly 2-0 but weaker level of competition",
+        "High total of 57.5"
+      ],
+      "predicted_against_spread": "Cal Poly Mustangs",
+      "confidence": 54,
+      "context_used": {
+        "away_trends": {
+          "team": "Cal Poly Mustangs",
+          "last5": "2-0",
+          "streak": "W2",
+          "record": "2-0",
+          "h2h_vs_opponent": null
+        },
+        "home_trends": {
+          "team": "San Jose State Spartans",
+          "last5": "1-1",
+          "streak": "W1",
+          "record": "1-1",
+          "h2h_vs_opponent": null
+        },
+        "weather": null,
+        "probable_pitchers": {
+          "home": null,
+          "away": null
+        }
+      },
+      "generated_at": "2026-09-07T16:36:27.122278+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "Cal Poly Mustangs": 1060,
+          "San Jose State Spartans": -2300
+        },
+        "spread": {
+          "Cal Poly Mustangs": 20.5,
+          "San Jose State Spartans": -20.5
+        },
+        "total": 57.5,
+        "num_bookmakers": 1
+      }
+    },
     "actual": null
   },
   "americanfootball_ncaaf_2026-09-12_appalachian-state-mountaineers_at_east-carolina-pirates": {
@@ -33356,20 +33803,65 @@
     "espn_sport": "football",
     "espn_league": "college-football",
     "outdoor": true,
-    "status": "scheduled",
+    "status": "predicted",
     "odds": {
       "moneyline": {
-        "Appalachian State Mountaineers": 272,
-        "East Carolina Pirates": -354
+        "Appalachian State Mountaineers": 257,
+        "East Carolina Pirates": -329
       },
       "spread": {
-        "Appalachian State Mountaineers": 9.2,
-        "East Carolina Pirates": -9.2
+        "Appalachian State Mountaineers": 8.4,
+        "East Carolina Pirates": -8.4
       },
-      "total": 56.5,
+      "total": 56.4,
       "num_bookmakers": 9
     },
-    "prediction": null,
+    "prediction": {
+      "predicted_winner": "East Carolina Pirates",
+      "reasoning": "East Carolina is favored at home (-329 ML, -8.4 spread) over Appalachian State with no differentiating trend data provided. We lean with the market given the clear line but without much confidence due to lack of trend detail.",
+      "key_factors": [
+        "No trend data available",
+        "East Carolina moderate home favorite",
+        "High total suggests offensive game"
+      ],
+      "predicted_against_spread": "East Carolina Pirates",
+      "confidence": 52,
+      "context_used": {
+        "away_trends": {
+          "team": "Appalachian State Mountaineers",
+          "last5": null,
+          "streak": null,
+          "record": null,
+          "h2h_vs_opponent": null
+        },
+        "home_trends": {
+          "team": "East Carolina Pirates",
+          "last5": null,
+          "streak": null,
+          "record": null,
+          "h2h_vs_opponent": null
+        },
+        "weather": null,
+        "probable_pitchers": {
+          "home": null,
+          "away": null
+        }
+      },
+      "generated_at": "2026-09-07T16:36:27.122278+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "Appalachian State Mountaineers": 257,
+          "East Carolina Pirates": -329
+        },
+        "spread": {
+          "Appalachian State Mountaineers": 8.4,
+          "East Carolina Pirates": -8.4
+        },
+        "total": 56.4,
+        "num_bookmakers": 9
+      }
+    },
     "actual": null
   },
   "americanfootball_ncaaf_2026-09-12_south-florida-bulls_at_army-black-knights": {
@@ -33381,20 +33873,65 @@
     "espn_sport": "football",
     "espn_league": "college-football",
     "outdoor": true,
-    "status": "scheduled",
+    "status": "predicted",
     "odds": {
       "moneyline": {
-        "Army Black Knights": -183,
-        "South Florida Bulls": 149
+        "Army Black Knights": -180,
+        "South Florida Bulls": 148
       },
       "spread": {
-        "Army Black Knights": -3.4,
-        "South Florida Bulls": 3.4
+        "Army Black Knights": -3.5,
+        "South Florida Bulls": 3.5
       },
-      "total": 49.5,
+      "total": 48.4,
       "num_bookmakers": 9
     },
-    "prediction": null,
+    "prediction": {
+      "predicted_winner": "Army Black Knights",
+      "reasoning": "Army is a modest home favorite (-180 ML, -3.5 spread) against South Florida, who is 1-0 and on a W1 streak but with limited quality context. This is a close spread with mixed signals, keeping confidence low.",
+      "key_factors": [
+        "Army modest home favorite",
+        "USF 1-0 with limited data",
+        "Close spread of 3.5 points"
+      ],
+      "predicted_against_spread": "South Florida Bulls",
+      "confidence": 51,
+      "context_used": {
+        "away_trends": {
+          "team": "South Florida Bulls",
+          "last5": "1-0",
+          "streak": "W1",
+          "record": "1-0",
+          "h2h_vs_opponent": null
+        },
+        "home_trends": {
+          "team": "Army Black Knights",
+          "last5": null,
+          "streak": null,
+          "record": null,
+          "h2h_vs_opponent": null
+        },
+        "weather": null,
+        "probable_pitchers": {
+          "home": null,
+          "away": null
+        }
+      },
+      "generated_at": "2026-09-07T16:36:27.122278+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "Army Black Knights": -180,
+          "South Florida Bulls": 148
+        },
+        "spread": {
+          "Army Black Knights": -3.5,
+          "South Florida Bulls": 3.5
+        },
+        "total": 48.4,
+        "num_bookmakers": 9
+      }
+    },
     "actual": null
   },
   "americanfootball_ncaaf_2026-09-12_east-tennessee-state-buccaneers_at_north-carolina-tar-heels": {
@@ -33406,20 +33943,65 @@
     "espn_sport": "football",
     "espn_league": "college-football",
     "outdoor": true,
-    "status": "scheduled",
+    "status": "predicted",
     "odds": {
       "moneyline": {
         "East Tennessee State Buccaneers": 4000,
-        "North Carolina Tar Heels": -30000
+        "North Carolina Tar Heels": -20000
       },
       "spread": {
         "East Tennessee State Buccaneers": 35.5,
         "North Carolina Tar Heels": -35.5
       },
       "total": 51.5,
-      "num_bookmakers": 1
+      "num_bookmakers": 2
     },
-    "prediction": null,
+    "prediction": {
+      "predicted_winner": "North Carolina Tar Heels",
+      "reasoning": "This is an extreme mismatch (-20000 ML, -35.5 spread) as FCS ETSU visits P4 North Carolina, with thin bookmaker coverage (2 books) but the direction is essentially certain given program level disparity.",
+      "key_factors": [
+        "FCS vs P4 mismatch",
+        "Extreme spread of 35.5",
+        "Thin bookmaker sample"
+      ],
+      "predicted_against_spread": "North Carolina Tar Heels",
+      "confidence": 62,
+      "context_used": {
+        "away_trends": {
+          "team": "East Tennessee State Buccaneers",
+          "last5": null,
+          "streak": null,
+          "record": null,
+          "h2h_vs_opponent": null
+        },
+        "home_trends": {
+          "team": "North Carolina Tar Heels",
+          "last5": null,
+          "streak": null,
+          "record": null,
+          "h2h_vs_opponent": null
+        },
+        "weather": null,
+        "probable_pitchers": {
+          "home": null,
+          "away": null
+        }
+      },
+      "generated_at": "2026-09-07T16:36:27.122278+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "East Tennessee State Buccaneers": 4000,
+          "North Carolina Tar Heels": -20000
+        },
+        "spread": {
+          "East Tennessee State Buccaneers": 35.5,
+          "North Carolina Tar Heels": -35.5
+        },
+        "total": 51.5,
+        "num_bookmakers": 2
+      }
+    },
     "actual": null
   },
   "americanfootball_ncaaf_2026-09-12_washington-state-cougars_at_kansas-state-wildcats": {
@@ -33431,20 +34013,65 @@
     "espn_sport": "football",
     "espn_league": "college-football",
     "outdoor": true,
-    "status": "scheduled",
+    "status": "predicted",
     "odds": {
       "moneyline": {
-        "Kansas State Wildcats": -1200,
-        "Washington State Cougars": 725
+        "Kansas State Wildcats": -1243,
+        "Washington State Cougars": 710
       },
       "spread": {
-        "Kansas State Wildcats": -17.5,
-        "Washington State Cougars": 17.5
+        "Kansas State Wildcats": -17.6,
+        "Washington State Cougars": 17.6
       },
-      "total": 52.0,
-      "num_bookmakers": 2
+      "total": 49.8,
+      "num_bookmakers": 8
     },
-    "prediction": null,
+    "prediction": {
+      "predicted_winner": "Kansas State Wildcats",
+      "reasoning": "Kansas State is a heavy home favorite (-1243 ML, -17.6 spread) over Washington State with no trend data to contradict. Large spreads in this range for programs with a clear conference-strength gap tend to be fairly reliable in early season.",
+      "key_factors": [
+        "Kansas State heavy home favorite",
+        "No trend data available",
+        "Large implied talent gap"
+      ],
+      "predicted_against_spread": "Washington State Cougars",
+      "confidence": 53,
+      "context_used": {
+        "away_trends": {
+          "team": "Washington State Cougars",
+          "last5": null,
+          "streak": null,
+          "record": null,
+          "h2h_vs_opponent": null
+        },
+        "home_trends": {
+          "team": "Kansas State Wildcats",
+          "last5": null,
+          "streak": null,
+          "record": null,
+          "h2h_vs_opponent": null
+        },
+        "weather": null,
+        "probable_pitchers": {
+          "home": null,
+          "away": null
+        }
+      },
+      "generated_at": "2026-09-07T16:36:27.122278+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "Kansas State Wildcats": -1243,
+          "Washington State Cougars": 710
+        },
+        "spread": {
+          "Kansas State Wildcats": -17.6,
+          "Washington State Cougars": 17.6
+        },
+        "total": 49.8,
+        "num_bookmakers": 8
+      }
+    },
     "actual": null
   },
   "americanfootball_ncaaf_2026-09-12_penn-state-nittany-lions_at_temple-owls": {
@@ -33456,20 +34083,65 @@
     "espn_sport": "football",
     "espn_league": "college-football",
     "outdoor": true,
-    "status": "scheduled",
+    "status": "predicted",
     "odds": {
       "moneyline": {
-        "Penn State Nittany Lions": -3179,
-        "Temple Owls": 1218
+        "Penn State Nittany Lions": -3611,
+        "Temple Owls": 1276
       },
       "spread": {
-        "Penn State Nittany Lions": -23.4,
-        "Temple Owls": 23.4
+        "Penn State Nittany Lions": -23.5,
+        "Temple Owls": 23.5
       },
-      "total": 49.6,
+      "total": 49.5,
       "num_bookmakers": 9
     },
-    "prediction": null,
+    "prediction": {
+      "predicted_winner": "Penn State Nittany Lions",
+      "reasoning": "Penn State is an overwhelming favorite (-3611 ML, -23.5 spread) over in-state Temple with no trend data to contradict, reflecting a large talent gap between a top P4 program and a lower-tier G5 team.",
+      "key_factors": [
+        "Penn State massive favorite",
+        "Program quality gap",
+        "No trend data available"
+      ],
+      "predicted_against_spread": "Temple Owls",
+      "confidence": 53,
+      "context_used": {
+        "away_trends": {
+          "team": "Penn State Nittany Lions",
+          "last5": null,
+          "streak": null,
+          "record": null,
+          "h2h_vs_opponent": null
+        },
+        "home_trends": {
+          "team": "Temple Owls",
+          "last5": null,
+          "streak": null,
+          "record": null,
+          "h2h_vs_opponent": null
+        },
+        "weather": null,
+        "probable_pitchers": {
+          "home": null,
+          "away": null
+        }
+      },
+      "generated_at": "2026-09-07T16:36:27.122278+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "Penn State Nittany Lions": -3611,
+          "Temple Owls": 1276
+        },
+        "spread": {
+          "Penn State Nittany Lions": -23.5,
+          "Temple Owls": 23.5
+        },
+        "total": 49.5,
+        "num_bookmakers": 9
+      }
+    },
     "actual": null
   },
   "americanfootball_ncaaf_2026-09-12_wake-forest-demon-deacons_at_purdue-boilermakers": {
@@ -33481,20 +34153,65 @@
     "espn_sport": "football",
     "espn_league": "college-football",
     "outdoor": true,
-    "status": "scheduled",
+    "status": "predicted",
     "odds": {
       "moneyline": {
-        "Purdue Boilermakers": 164,
-        "Wake Forest Demon Deacons": -202
+        "Purdue Boilermakers": 156,
+        "Wake Forest Demon Deacons": -191
       },
       "spread": {
-        "Purdue Boilermakers": 4.5,
-        "Wake Forest Demon Deacons": -4.5
+        "Purdue Boilermakers": 3.8,
+        "Wake Forest Demon Deacons": -3.8
       },
-      "total": 49.8,
+      "total": 49.7,
       "num_bookmakers": 9
     },
-    "prediction": null,
+    "prediction": {
+      "predicted_winner": "Wake Forest Demon Deacons",
+      "reasoning": "Wake Forest is favored on the road (-191 ML, -3.8 spread) over Purdue, suggesting the market views Wake Forest as the stronger team this season despite being the away team. With no additional trend data, we lean slightly with the market given the road favorite signal.",
+      "key_factors": [
+        "Wake Forest road favorite",
+        "No trend data available",
+        "Moderate spread of 3.8"
+      ],
+      "predicted_against_spread": "Purdue Boilermakers",
+      "confidence": 51,
+      "context_used": {
+        "away_trends": {
+          "team": "Wake Forest Demon Deacons",
+          "last5": null,
+          "streak": null,
+          "record": null,
+          "h2h_vs_opponent": null
+        },
+        "home_trends": {
+          "team": "Purdue Boilermakers",
+          "last5": null,
+          "streak": null,
+          "record": null,
+          "h2h_vs_opponent": null
+        },
+        "weather": null,
+        "probable_pitchers": {
+          "home": null,
+          "away": null
+        }
+      },
+      "generated_at": "2026-09-07T16:36:27.122278+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "Purdue Boilermakers": 156,
+          "Wake Forest Demon Deacons": -191
+        },
+        "spread": {
+          "Purdue Boilermakers": 3.8,
+          "Wake Forest Demon Deacons": -3.8
+        },
+        "total": 49.7,
+        "num_bookmakers": 9
+      }
+    },
     "actual": null
   },
   "americanfootball_ncaaf_2026-09-12_california-golden-bears_at_syracuse-orange": {
@@ -33509,14 +34226,14 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "California Golden Bears": 132,
-        "Syracuse Orange": -161
+        "California Golden Bears": 141,
+        "Syracuse Orange": -172
       },
       "spread": {
-        "California Golden Bears": 3.1,
-        "Syracuse Orange": -3.1
+        "California Golden Bears": 3.4,
+        "Syracuse Orange": -3.4
       },
-      "total": 55.2,
+      "total": 56.7,
       "num_bookmakers": 9
     },
     "prediction": null,
@@ -33534,14 +34251,14 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Eastern Michigan Eagles": 659,
-        "Michigan State Spartans": -1077
+        "Eastern Michigan Eagles": 632,
+        "Michigan State Spartans": -1011
       },
       "spread": {
-        "Eastern Michigan Eagles": 17.6,
-        "Michigan State Spartans": -17.6
+        "Eastern Michigan Eagles": 17.2,
+        "Michigan State Spartans": -17.2
       },
-      "total": 50.4,
+      "total": 50.7,
       "num_bookmakers": 9
     },
     "prediction": null,
@@ -33559,12 +34276,12 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Maryland Terrapins": -548,
-        "UConn Huskies": 391
+        "Maryland Terrapins": -476,
+        "UConn Huskies": 349
       },
       "spread": {
-        "Maryland Terrapins": -12.9,
-        "UConn Huskies": 12.9
+        "Maryland Terrapins": -11.7,
+        "UConn Huskies": 11.7
       },
       "total": 53.5,
       "num_bookmakers": 9
@@ -33584,14 +34301,14 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Pittsburgh Panthers": -311,
-        "UCF Knights": 248
+        "Pittsburgh Panthers": -305,
+        "UCF Knights": 241
       },
       "spread": {
-        "Pittsburgh Panthers": -7.6,
-        "UCF Knights": 7.6
+        "Pittsburgh Panthers": -7.5,
+        "UCF Knights": 7.5
       },
-      "total": 57.4,
+      "total": 57.1,
       "num_bookmakers": 9
     },
     "prediction": null,
@@ -33609,14 +34326,14 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "UAB Blazers": -427,
-        "UL Monroe Warhawks": 317
+        "UAB Blazers": -435,
+        "UL Monroe Warhawks": 326
       },
       "spread": {
-        "UAB Blazers": -10.5,
-        "UL Monroe Warhawks": 10.5
+        "UAB Blazers": -10.7,
+        "UL Monroe Warhawks": 10.7
       },
-      "total": 55.9,
+      "total": 55.5,
       "num_bookmakers": 9
     },
     "prediction": null,
@@ -33634,15 +34351,15 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Utah State Aggies": 1300,
-        "Washington Huskies": -3200
+        "Utah State Aggies": 1638,
+        "Washington Huskies": -4125
       },
       "spread": {
-        "Utah State Aggies": 24.5,
-        "Washington Huskies": -24.5
+        "Utah State Aggies": 26.3,
+        "Washington Huskies": -26.3
       },
-      "total": 55.5,
-      "num_bookmakers": 2
+      "total": 55.7,
+      "num_bookmakers": 7
     },
     "prediction": null,
     "actual": null
@@ -33659,15 +34376,15 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "North Texas Mean Green": 162,
-        "UNLV Rebels": -201
+        "North Texas Mean Green": 153,
+        "UNLV Rebels": -185
       },
       "spread": {
-        "North Texas Mean Green": 4.8,
-        "UNLV Rebels": -4.8
+        "North Texas Mean Green": 3.8,
+        "UNLV Rebels": -3.8
       },
-      "total": 57.3,
-      "num_bookmakers": 9
+      "total": 57.2,
+      "num_bookmakers": 8
     },
     "prediction": null,
     "actual": null
@@ -33684,14 +34401,14 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Delaware Blue Hens": 837,
-        "Vanderbilt Commodores": -1560
+        "Delaware Blue Hens": 857,
+        "Vanderbilt Commodores": -1642
       },
       "spread": {
         "Delaware Blue Hens": 20.6,
         "Vanderbilt Commodores": -20.6
       },
-      "total": 53.5,
+      "total": 54.0,
       "num_bookmakers": 9
     },
     "prediction": null,
@@ -33709,14 +34426,14 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Buffalo Bulls": 318,
-        "Florida International Panthers": -424
+        "Buffalo Bulls": 336,
+        "Florida International Panthers": -460
       },
       "spread": {
-        "Buffalo Bulls": 10.3,
-        "Florida International Panthers": -10.3
+        "Buffalo Bulls": 10.4,
+        "Florida International Panthers": -10.4
       },
-      "total": 49.2,
+      "total": 47.5,
       "num_bookmakers": 9
     },
     "prediction": null,
@@ -33734,14 +34451,14 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Jacksonville State Gamecocks": 103,
-        "Ohio Bobcats": -126
+        "Jacksonville State Gamecocks": 114,
+        "Ohio Bobcats": -139
       },
       "spread": {
-        "Jacksonville State Gamecocks": 2.1,
-        "Ohio Bobcats": -2.1
+        "Jacksonville State Gamecocks": 2.6,
+        "Ohio Bobcats": -2.6
       },
-      "total": 51.4,
+      "total": 51.5,
       "num_bookmakers": 9
     },
     "prediction": null,
@@ -33759,14 +34476,14 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Bowling Green Falcons": 2085,
+        "Bowling Green Falcons": 2025,
         "Nebraska Cornhuskers": -9138
       },
       "spread": {
         "Bowling Green Falcons": 28.6,
         "Nebraska Cornhuskers": -28.6
       },
-      "total": 51.9,
+      "total": 52.0,
       "num_bookmakers": 9
     },
     "prediction": null,
@@ -33784,12 +34501,12 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Sam Houston State Bearkats": 448,
-        "Tulsa Golden Hurricane": -649
+        "Sam Houston State Bearkats": 438,
+        "Tulsa Golden Hurricane": -626
       },
       "spread": {
-        "Sam Houston State Bearkats": 14.1,
-        "Tulsa Golden Hurricane": -14.1
+        "Sam Houston State Bearkats": 13.7,
+        "Tulsa Golden Hurricane": -13.7
       },
       "total": 52.1,
       "num_bookmakers": 9
@@ -33809,14 +34526,14 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Oregon State Beavers": 1392,
-        "Texas Tech Red Raiders": -3772
+        "Oregon State Beavers": 1517,
+        "Texas Tech Red Raiders": -4850
       },
       "spread": {
-        "Oregon State Beavers": 25.4,
-        "Texas Tech Red Raiders": -25.4
+        "Oregon State Beavers": 26.3,
+        "Texas Tech Red Raiders": -26.3
       },
-      "total": 50.8,
+      "total": 51.1,
       "num_bookmakers": 9
     },
     "prediction": null,
@@ -34216,20 +34933,65 @@
     "espn_sport": "football",
     "espn_league": "college-football",
     "outdoor": true,
-    "status": "scheduled",
+    "status": "predicted",
     "odds": {
       "moneyline": {
         "Louisville Cardinals": -10000,
         "Villanova Wildcats": 2400
       },
       "spread": {
-        "Louisville Cardinals": -35.5,
-        "Villanova Wildcats": 35.5
+        "Louisville Cardinals": -36.5,
+        "Villanova Wildcats": 36.5
       },
-      "total": 55.5,
+      "total": 56.5,
       "num_bookmakers": 1
     },
-    "prediction": null,
+    "prediction": {
+      "predicted_winner": "Louisville Cardinals",
+      "reasoning": "Louisville is a massive favorite (-10000 ML, -36.5 spread) against FCS Villanova, a typical P4 vs FCS mismatch despite Villanova's 1-0 record. Thin bookmaker sample (1 book) but the mismatch direction is essentially certain.",
+      "key_factors": [
+        "FCS vs P4 mismatch",
+        "Extreme spread of 36.5",
+        "Villanova 1-0 but weaker competition level"
+      ],
+      "predicted_against_spread": "Louisville Cardinals",
+      "confidence": 60,
+      "context_used": {
+        "away_trends": {
+          "team": "Villanova Wildcats",
+          "last5": "1-0",
+          "streak": "W1",
+          "record": "1-0",
+          "h2h_vs_opponent": null
+        },
+        "home_trends": {
+          "team": "Louisville Cardinals",
+          "last5": null,
+          "streak": null,
+          "record": null,
+          "h2h_vs_opponent": null
+        },
+        "weather": null,
+        "probable_pitchers": {
+          "home": null,
+          "away": null
+        }
+      },
+      "generated_at": "2026-09-07T16:36:27.122278+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "Louisville Cardinals": -10000,
+          "Villanova Wildcats": 2400
+        },
+        "spread": {
+          "Louisville Cardinals": -36.5,
+          "Villanova Wildcats": 36.5
+        },
+        "total": 56.5,
+        "num_bookmakers": 1
+      }
+    },
     "actual": null
   },
   "americanfootball_ncaaf_2026-09-12_western-kentucky-hilltoppers_at_georgia-bulldogs": {
@@ -34245,11 +35007,11 @@
     "odds": {
       "moneyline": {},
       "spread": {
-        "Georgia Bulldogs": -39.8,
-        "Western Kentucky Hilltoppers": 39.8
+        "Georgia Bulldogs": -40.2,
+        "Western Kentucky Hilltoppers": 40.2
       },
-      "total": 53.8,
-      "num_bookmakers": 6
+      "total": 54.4,
+      "num_bookmakers": 8
     },
     "prediction": null,
     "actual": null
@@ -34267,11 +35029,11 @@
     "odds": {
       "moneyline": {},
       "spread": {
-        "Notre Dame Fighting Irish": -44.5,
-        "Rice Owls": 44.5
+        "Notre Dame Fighting Irish": -44.2,
+        "Rice Owls": 44.2
       },
-      "total": 53.8,
-      "num_bookmakers": 3
+      "total": 54.5,
+      "num_bookmakers": 7
     },
     "prediction": null,
     "actual": null
@@ -34288,14 +35050,14 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Marshall Thundering Herd": -755,
-        "Middle Tennessee Blue Raiders": 501
+        "Marshall Thundering Herd": -668,
+        "Middle Tennessee Blue Raiders": 463
       },
       "spread": {
-        "Marshall Thundering Herd": -14.9,
-        "Middle Tennessee Blue Raiders": 14.9
+        "Marshall Thundering Herd": -13.8,
+        "Middle Tennessee Blue Raiders": 13.8
       },
-      "total": 57.5,
+      "total": 57.4,
       "num_bookmakers": 8
     },
     "prediction": null,
@@ -34313,14 +35075,14 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "South Alabama Jaguars": 332,
-        "Tulane Green Wave": -450
+        "South Alabama Jaguars": 296,
+        "Tulane Green Wave": -389
       },
       "spread": {
-        "South Alabama Jaguars": 10.4,
-        "Tulane Green Wave": -10.4
+        "South Alabama Jaguars": 9.6,
+        "Tulane Green Wave": -9.6
       },
-      "total": 50.7,
+      "total": 50.4,
       "num_bookmakers": 9
     },
     "prediction": null,
@@ -34338,15 +35100,15 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Clemson Tigers": -1799,
-        "Georgia Southern Eagles": 880
+        "Clemson Tigers": -1657,
+        "Georgia Southern Eagles": 863
       },
       "spread": {
-        "Clemson Tigers": -21.2,
-        "Georgia Southern Eagles": 21.2
+        "Clemson Tigers": -20.9,
+        "Georgia Southern Eagles": 20.9
       },
-      "total": 56.5,
-      "num_bookmakers": 8
+      "total": 55.4,
+      "num_bookmakers": 9
     },
     "prediction": null,
     "actual": null
@@ -34363,15 +35125,15 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Hawaii Rainbow Warriors": -401,
-        "New Mexico State Aggies": 303
+        "Hawaii Rainbow Warriors": -387,
+        "New Mexico State Aggies": 292
       },
       "spread": {
-        "Hawaii Rainbow Warriors": -10.1,
-        "New Mexico State Aggies": 10.1
+        "Hawaii Rainbow Warriors": -9.4,
+        "New Mexico State Aggies": 9.4
       },
-      "total": 50.6,
-      "num_bookmakers": 8
+      "total": 50.4,
+      "num_bookmakers": 9
     },
     "prediction": null,
     "actual": null
@@ -35464,12 +36226,12 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Ball State Cardinals": -840,
-        "Stony Brook Seawolves": 535
+        "Ball State Cardinals": -895,
+        "Stony Brook Seawolves": 565
       },
       "spread": {
-        "Ball State Cardinals": -16.0,
-        "Stony Brook Seawolves": 16.0
+        "Ball State Cardinals": -15.5,
+        "Stony Brook Seawolves": 15.5
       },
       "total": 56.5,
       "num_bookmakers": 2
@@ -35489,14 +36251,14 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Georgia State Panthers": 271,
-        "Kennesaw State Owls": -353
+        "Georgia State Panthers": 270,
+        "Kennesaw State Owls": -357
       },
       "spread": {
-        "Georgia State Panthers": 9.3,
-        "Kennesaw State Owls": -9.3
+        "Georgia State Panthers": 9.4,
+        "Kennesaw State Owls": -9.4
       },
-      "total": 50.4,
+      "total": 52.2,
       "num_bookmakers": 8
     },
     "prediction": null,
@@ -35518,11 +36280,11 @@
         "Navy Midshipmen": -224
       },
       "spread": {
-        "Florida Atlantic Owls": 5.8,
-        "Navy Midshipmen": -5.8
+        "Florida Atlantic Owls": 5.7,
+        "Navy Midshipmen": -5.7
       },
-      "total": 58.8,
-      "num_bookmakers": 8
+      "total": 59.2,
+      "num_bookmakers": 9
     },
     "prediction": null,
     "actual": null
@@ -35539,15 +36301,15 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Louisiana Tech Bulldogs": 3500,
-        "LSU Tigers": -17500
+        "Louisiana Tech Bulldogs": 4000,
+        "LSU Tigers": -25000
       },
       "spread": {
-        "Louisiana Tech Bulldogs": 32.6,
-        "LSU Tigers": -32.6
+        "Louisiana Tech Bulldogs": 34.7,
+        "LSU Tigers": -34.7
       },
-      "total": 55.5,
-      "num_bookmakers": 8
+      "total": 55.6,
+      "num_bookmakers": 9
     },
     "prediction": null,
     "actual": null
@@ -35564,15 +36326,15 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Auburn Tigers": -6667,
-        "Southern Mississippi Golden Eagles": 1767
+        "Auburn Tigers": -10500,
+        "Southern Mississippi Golden Eagles": 2800
       },
       "spread": {
-        "Auburn Tigers": -29.5,
-        "Southern Mississippi Golden Eagles": 29.5
+        "Auburn Tigers": -32.6,
+        "Southern Mississippi Golden Eagles": 32.6
       },
-      "total": 52.4,
-      "num_bookmakers": 8
+      "total": 53.7,
+      "num_bookmakers": 9
     },
     "prediction": null,
     "actual": null
@@ -35594,7 +36356,7 @@
         "Ole Miss Rebels": -47.5
       },
       "total": 61.5,
-      "num_bookmakers": 2
+      "num_bookmakers": 6
     },
     "prediction": null,
     "actual": null
@@ -35611,15 +36373,15 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Air Force Falcons": 178,
-        "North Dakota State Bison": -224
+        "Air Force Falcons": 127,
+        "North Dakota State Bison": -154
       },
       "spread": {
-        "Air Force Falcons": 5.5,
-        "North Dakota State Bison": -5.5
+        "Air Force Falcons": 3.0,
+        "North Dakota State Bison": -3.0
       },
-      "total": 47.5,
-      "num_bookmakers": 7
+      "total": 47.1,
+      "num_bookmakers": 8
     },
     "prediction": null,
     "actual": null
@@ -35636,15 +36398,15 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Fresno State Bulldogs": -1140,
-        "Sacramento State Hornets": 689
+        "Fresno State Bulldogs": -1185,
+        "Sacramento State Hornets": 694
       },
       "spread": {
-        "Fresno State Bulldogs": -18.7,
-        "Sacramento State Hornets": 18.7
+        "Fresno State Bulldogs": -18.5,
+        "Sacramento State Hornets": 18.5
       },
-      "total": 47.7,
-      "num_bookmakers": 8
+      "total": 45.3,
+      "num_bookmakers": 9
     },
     "prediction": null,
     "actual": null
@@ -35661,15 +36423,15 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Louisiana Ragin Cajuns": 2125,
-        "USC Trojans": -8846
+        "Louisiana Ragin Cajuns": 2288,
+        "USC Trojans": -9423
       },
       "spread": {
-        "Louisiana Ragin Cajuns": 30.6,
-        "USC Trojans": -30.6
+        "Louisiana Ragin Cajuns": 30.8,
+        "USC Trojans": -30.8
       },
-      "total": 60.1,
-      "num_bookmakers": 7
+      "total": 60.3,
+      "num_bookmakers": 9
     },
     "prediction": null,
     "actual": null
@@ -35733,7 +36495,7 @@
     "espn_sport": "baseball",
     "espn_league": "mlb",
     "outdoor": true,
-    "status": "predicted",
+    "status": "graded",
     "odds": {
       "moneyline": {
         "Los Angeles Dodgers": -199,
@@ -35803,7 +36565,17 @@
         "num_bookmakers": 9
       }
     },
-    "actual": null
+    "actual": {
+      "home_score": 7,
+      "away_score": 5,
+      "actual_winner": "Los Angeles Dodgers",
+      "straight_up_correct": true,
+      "against_the_spread": {
+        "actual_ats_winner": "Los Angeles Dodgers",
+        "correct": true
+      },
+      "graded_at": "2026-09-07T16:35:35.157449+00:00"
+    }
   },
   "baseball_mlb_2026-09-07_atlanta-braves_at_philadelphia-phillies": {
     "league": "MLB",
@@ -36488,6 +37260,885 @@
         },
         "total": 8.5,
         "num_bookmakers": 7
+      }
+    },
+    "actual": null
+  },
+  "americanfootball_ncaaf_2026-09-12_howard-bison_at_indiana-hoosiers": {
+    "league": "NCAAF",
+    "sport_key": "americanfootball_ncaaf",
+    "home_team": "Indiana Hoosiers",
+    "away_team": "Howard Bison",
+    "commence_time": "2026-09-12T16:00:00Z",
+    "espn_sport": "football",
+    "espn_league": "college-football",
+    "outdoor": true,
+    "status": "predicted",
+    "odds": {
+      "moneyline": {},
+      "spread": {
+        "Howard Bison": 55.5,
+        "Indiana Hoosiers": -55.5
+      },
+      "total": 64.5,
+      "num_bookmakers": 1
+    },
+    "prediction": {
+      "predicted_winner": "Indiana Hoosiers",
+      "reasoning": "Indiana is favored by an extreme 55.5 points over FCS Howard, who is 1-1 with a L1 streak, reflecting a massive quality gap between a strong P4 program and a lower-tier FCS team. Thin bookmaker sample (1 book) but direction is essentially certain.",
+      "key_factors": [
+        "FCS vs P4 mismatch",
+        "Extreme spread of 55.5",
+        "Howard on L1 streak"
+      ],
+      "predicted_against_spread": "Indiana Hoosiers",
+      "confidence": 60,
+      "context_used": {
+        "away_trends": {
+          "team": "Howard Bison",
+          "last5": "1-1",
+          "streak": "L1",
+          "record": "1-1",
+          "h2h_vs_opponent": null
+        },
+        "home_trends": {
+          "team": "Indiana Hoosiers",
+          "last5": null,
+          "streak": null,
+          "record": null,
+          "h2h_vs_opponent": null
+        },
+        "weather": null,
+        "probable_pitchers": {
+          "home": null,
+          "away": null
+        }
+      },
+      "generated_at": "2026-09-07T16:36:27.122278+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {},
+        "spread": {
+          "Howard Bison": 55.5,
+          "Indiana Hoosiers": -55.5
+        },
+        "total": 64.5,
+        "num_bookmakers": 1
+      }
+    },
+    "actual": null
+  },
+  "americanfootball_ncaaf_2026-09-12_wofford-terriers_at_kent-state-golden-flashes": {
+    "league": "NCAAF",
+    "sport_key": "americanfootball_ncaaf",
+    "home_team": "Kent State Golden Flashes",
+    "away_team": "Wofford Terriers",
+    "commence_time": "2026-09-12T16:00:00Z",
+    "espn_sport": "football",
+    "espn_league": "college-football",
+    "outdoor": true,
+    "status": "predicted",
+    "odds": {
+      "moneyline": {
+        "Kent State Golden Flashes": -828,
+        "Wofford Terriers": 538
+      },
+      "spread": {
+        "Kent State Golden Flashes": -14.5,
+        "Wofford Terriers": 14.5
+      },
+      "total": 46.5,
+      "num_bookmakers": 2
+    },
+    "prediction": {
+      "predicted_winner": "Kent State Golden Flashes",
+      "reasoning": "Kent State is a big home favorite (-828 ML, -14.5 spread) over FCS Wofford with no trend data to contradict, reflecting the typical FBS vs FCS gap. Thin bookmaker sample (2 books) slightly lowers confidence in exact number.",
+      "key_factors": [
+        "FCS vs FBS mismatch",
+        "Kent State heavy favorite",
+        "Thin bookmaker sample"
+      ],
+      "predicted_against_spread": "Wofford Terriers",
+      "confidence": 55,
+      "context_used": {
+        "away_trends": {
+          "team": "Wofford Terriers",
+          "last5": null,
+          "streak": null,
+          "record": null,
+          "h2h_vs_opponent": null
+        },
+        "home_trends": {
+          "team": "Kent State Golden Flashes",
+          "last5": null,
+          "streak": null,
+          "record": null,
+          "h2h_vs_opponent": null
+        },
+        "weather": null,
+        "probable_pitchers": {
+          "home": null,
+          "away": null
+        }
+      },
+      "generated_at": "2026-09-07T16:36:27.122278+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "Kent State Golden Flashes": -828,
+          "Wofford Terriers": 538
+        },
+        "spread": {
+          "Kent State Golden Flashes": -14.5,
+          "Wofford Terriers": 14.5
+        },
+        "total": 46.5,
+        "num_bookmakers": 2
+      }
+    },
+    "actual": null
+  },
+  "americanfootball_ncaaf_2026-09-12_colgate-raiders_at_central-michigan-chippewas": {
+    "league": "NCAAF",
+    "sport_key": "americanfootball_ncaaf",
+    "home_team": "Central Michigan Chippewas",
+    "away_team": "Colgate Raiders",
+    "commence_time": "2026-09-12T17:00:00Z",
+    "espn_sport": "football",
+    "espn_league": "college-football",
+    "outdoor": true,
+    "status": "scheduled",
+    "odds": {
+      "moneyline": {
+        "Central Michigan Chippewas": -4000,
+        "Colgate Raiders": 1250
+      },
+      "spread": {
+        "Central Michigan Chippewas": -25.5,
+        "Colgate Raiders": 25.5
+      },
+      "total": 50.5,
+      "num_bookmakers": 2
+    },
+    "prediction": null,
+    "actual": null
+  },
+  "americanfootball_ncaaf_2026-09-12_holy-cross-crusaders_at_miami-(oh)-redhawks": {
+    "league": "NCAAF",
+    "sport_key": "americanfootball_ncaaf",
+    "home_team": "Miami (OH) RedHawks",
+    "away_team": "Holy Cross Crusaders",
+    "commence_time": "2026-09-12T17:00:00Z",
+    "espn_sport": "football",
+    "espn_league": "college-football",
+    "outdoor": true,
+    "status": "scheduled",
+    "odds": {
+      "moneyline": {
+        "Holy Cross Crusaders": 2400,
+        "Miami (OH) RedHawks": -10000
+      },
+      "spread": {
+        "Holy Cross Crusaders": 32.2,
+        "Miami (OH) RedHawks": -32.2
+      },
+      "total": 51.5,
+      "num_bookmakers": 2
+    },
+    "prediction": null,
+    "actual": null
+  },
+  "americanfootball_ncaaf_2026-09-12_robert-morris-colonials_at_akron-zips": {
+    "league": "NCAAF",
+    "sport_key": "americanfootball_ncaaf",
+    "home_team": "Akron Zips",
+    "away_team": "Robert Morris Colonials",
+    "commence_time": "2026-09-12T19:30:00Z",
+    "espn_sport": "football",
+    "espn_league": "college-football",
+    "outdoor": true,
+    "status": "scheduled",
+    "odds": {
+      "moneyline": {
+        "Akron Zips": -7000,
+        "Robert Morris Colonials": 2000
+      },
+      "spread": {
+        "Akron Zips": -28.5,
+        "Robert Morris Colonials": 28.5
+      },
+      "total": 43.5,
+      "num_bookmakers": 1
+    },
+    "prediction": null,
+    "actual": null
+  },
+  "americanfootball_ncaaf_2026-09-12_central-connecticut-blue-devils_at_toledo-rockets": {
+    "league": "NCAAF",
+    "sport_key": "americanfootball_ncaaf",
+    "home_team": "Toledo Rockets",
+    "away_team": "Central Connecticut Blue Devils",
+    "commence_time": "2026-09-12T19:30:00Z",
+    "espn_sport": "football",
+    "espn_league": "college-football",
+    "outdoor": true,
+    "status": "scheduled",
+    "odds": {
+      "moneyline": {},
+      "spread": {
+        "Central Connecticut Blue Devils": 35.5,
+        "Toledo Rockets": -35.5
+      },
+      "total": 56.5,
+      "num_bookmakers": 2
+    },
+    "prediction": null,
+    "actual": null
+  },
+  "americanfootball_ncaaf_2026-09-12_weber-state-wildcats_at_colorado-buffaloes": {
+    "league": "NCAAF",
+    "sport_key": "americanfootball_ncaaf",
+    "home_team": "Colorado Buffaloes",
+    "away_team": "Weber State Wildcats",
+    "commence_time": "2026-09-12T19:30:00Z",
+    "espn_sport": "football",
+    "espn_league": "college-football",
+    "outdoor": true,
+    "status": "scheduled",
+    "odds": {
+      "moneyline": {
+        "Colorado Buffaloes": -10000,
+        "Weber State Wildcats": 2500
+      },
+      "spread": {
+        "Colorado Buffaloes": -34.2,
+        "Weber State Wildcats": 34.2
+      },
+      "total": 52.5,
+      "num_bookmakers": 2
+    },
+    "prediction": null,
+    "actual": null
+  },
+  "americanfootball_ncaaf_2026-09-12_wagner-seahawks_at_james-madison-dukes": {
+    "league": "NCAAF",
+    "sport_key": "americanfootball_ncaaf",
+    "home_team": "James Madison Dukes",
+    "away_team": "Wagner Seahawks",
+    "commence_time": "2026-09-12T19:30:00Z",
+    "espn_sport": "football",
+    "espn_league": "college-football",
+    "outdoor": true,
+    "status": "scheduled",
+    "odds": {
+      "moneyline": {},
+      "spread": {
+        "James Madison Dukes": -45.5,
+        "Wagner Seahawks": 45.5
+      },
+      "total": 54.5,
+      "num_bookmakers": 1
+    },
+    "prediction": null,
+    "actual": null
+  },
+  "americanfootball_ncaaf_2026-09-12_sacred-heart-pioneers_at_umass-minutemen": {
+    "league": "NCAAF",
+    "sport_key": "americanfootball_ncaaf",
+    "home_team": "UMass Minutemen",
+    "away_team": "Sacred Heart Pioneers",
+    "commence_time": "2026-09-12T19:30:00Z",
+    "espn_sport": "football",
+    "espn_league": "college-football",
+    "outdoor": true,
+    "status": "scheduled",
+    "odds": {
+      "moneyline": {
+        "Sacred Heart Pioneers": 1150,
+        "UMass Minutemen": -3550
+      },
+      "spread": {
+        "Sacred Heart Pioneers": 23.0,
+        "UMass Minutemen": -23.0
+      },
+      "total": 54.5,
+      "num_bookmakers": 2
+    },
+    "prediction": null,
+    "actual": null
+  },
+  "americanfootball_ncaaf_2026-09-12_alabama-state-hornets_at_troy-trojans": {
+    "league": "NCAAF",
+    "sport_key": "americanfootball_ncaaf",
+    "home_team": "Troy Trojans",
+    "away_team": "Alabama State Hornets",
+    "commence_time": "2026-09-12T20:00:00Z",
+    "espn_sport": "football",
+    "espn_league": "college-football",
+    "outdoor": true,
+    "status": "scheduled",
+    "odds": {
+      "moneyline": {
+        "Alabama State Hornets": 935,
+        "Troy Trojans": -2150
+      },
+      "spread": {
+        "Alabama State Hornets": 22.5,
+        "Troy Trojans": -22.5
+      },
+      "total": 52.5,
+      "num_bookmakers": 2
+    },
+    "prediction": null,
+    "actual": null
+  },
+  "americanfootball_ncaaf_2026-09-12_mercyhurst-lakers_at_new-mexico-lobos": {
+    "league": "NCAAF",
+    "sport_key": "americanfootball_ncaaf",
+    "home_team": "New Mexico Lobos",
+    "away_team": "Mercyhurst Lakers",
+    "commence_time": "2026-09-12T20:00:00Z",
+    "espn_sport": "football",
+    "espn_league": "college-football",
+    "outdoor": true,
+    "status": "scheduled",
+    "odds": {
+      "moneyline": {},
+      "spread": {
+        "Mercyhurst Lakers": 41.5,
+        "New Mexico Lobos": -41.5
+      },
+      "total": 52.5,
+      "num_bookmakers": 1
+    },
+    "prediction": null,
+    "actual": null
+  },
+  "americanfootball_ncaaf_2026-09-12_northern-colorado-bears_at_wyoming-cowboys": {
+    "league": "NCAAF",
+    "sport_key": "americanfootball_ncaaf",
+    "home_team": "Wyoming Cowboys",
+    "away_team": "Northern Colorado Bears",
+    "commence_time": "2026-09-12T20:00:00Z",
+    "espn_sport": "football",
+    "espn_league": "college-football",
+    "outdoor": true,
+    "status": "scheduled",
+    "odds": {
+      "moneyline": {
+        "Northern Colorado Bears": 1275,
+        "Wyoming Cowboys": -3668
+      },
+      "spread": {
+        "Northern Colorado Bears": 23.5,
+        "Wyoming Cowboys": -23.5
+      },
+      "total": 49.5,
+      "num_bookmakers": 2
+    },
+    "prediction": null,
+    "actual": null
+  },
+  "americanfootball_ncaaf_2026-09-12_campbell-fighting-camels_at_florida-gators": {
+    "league": "NCAAF",
+    "sport_key": "americanfootball_ncaaf",
+    "home_team": "Florida Gators",
+    "away_team": "Campbell Fighting Camels",
+    "commence_time": "2026-09-12T21:30:00Z",
+    "espn_sport": "football",
+    "espn_league": "college-football",
+    "outdoor": true,
+    "status": "scheduled",
+    "odds": {
+      "moneyline": {},
+      "spread": {
+        "Campbell Fighting Camels": 49.2,
+        "Florida Gators": -49.2
+      },
+      "total": 66.5,
+      "num_bookmakers": 2
+    },
+    "prediction": null,
+    "actual": null
+  },
+  "americanfootball_ncaaf_2026-09-12_gardner-webb-runnin-bulldogs_at_liberty-flames": {
+    "league": "NCAAF",
+    "sport_key": "americanfootball_ncaaf",
+    "home_team": "Liberty Flames",
+    "away_team": "Gardner-Webb Runnin Bulldogs",
+    "commence_time": "2026-09-12T22:00:00Z",
+    "espn_sport": "football",
+    "espn_league": "college-football",
+    "outdoor": true,
+    "status": "scheduled",
+    "odds": {
+      "moneyline": {
+        "Gardner-Webb Runnin Bulldogs": 1450,
+        "Liberty Flames": -4750
+      },
+      "spread": {
+        "Gardner-Webb Runnin Bulldogs": 27.5,
+        "Liberty Flames": -27.5
+      },
+      "total": 54.8,
+      "num_bookmakers": 2
+    },
+    "prediction": null,
+    "actual": null
+  },
+  "americanfootball_ncaaf_2026-09-12_monmouth-hawks_at_western-michigan-broncos": {
+    "league": "NCAAF",
+    "sport_key": "americanfootball_ncaaf",
+    "home_team": "Western Michigan Broncos",
+    "away_team": "Monmouth Hawks",
+    "commence_time": "2026-09-12T22:30:00Z",
+    "espn_sport": "football",
+    "espn_league": "college-football",
+    "outdoor": true,
+    "status": "scheduled",
+    "odds": {
+      "moneyline": {
+        "Monmouth Hawks": 1290,
+        "Western Michigan Broncos": -4250
+      },
+      "spread": {
+        "Monmouth Hawks": 26.0,
+        "Western Michigan Broncos": -26.0
+      },
+      "total": 53.5,
+      "num_bookmakers": 2
+    },
+    "prediction": null,
+    "actual": null
+  },
+  "americanfootball_ncaaf_2026-09-12_western-carolina-catamounts_at_cincinnati-bearcats": {
+    "league": "NCAAF",
+    "sport_key": "americanfootball_ncaaf",
+    "home_team": "Cincinnati Bearcats",
+    "away_team": "Western Carolina Catamounts",
+    "commence_time": "2026-09-12T23:00:00Z",
+    "espn_sport": "football",
+    "espn_league": "college-football",
+    "outdoor": true,
+    "status": "scheduled",
+    "odds": {
+      "moneyline": {},
+      "spread": {
+        "Cincinnati Bearcats": -36.5,
+        "Western Carolina Catamounts": 36.5
+      },
+      "total": 60.5,
+      "num_bookmakers": 2
+    },
+    "prediction": null,
+    "actual": null
+  },
+  "americanfootball_ncaaf_2026-09-12_southern-utah-thunderbirds_at_colorado-state-rams": {
+    "league": "NCAAF",
+    "sport_key": "americanfootball_ncaaf",
+    "home_team": "Colorado State Rams",
+    "away_team": "Southern Utah Thunderbirds",
+    "commence_time": "2026-09-12T23:00:00Z",
+    "espn_sport": "football",
+    "espn_league": "college-football",
+    "outdoor": true,
+    "status": "scheduled",
+    "odds": {
+      "moneyline": {
+        "Colorado State Rams": -1800,
+        "Southern Utah Thunderbirds": 920
+      },
+      "spread": {
+        "Colorado State Rams": -20.5,
+        "Southern Utah Thunderbirds": 20.5
+      },
+      "total": 57.5,
+      "num_bookmakers": 1
+    },
+    "prediction": null,
+    "actual": null
+  },
+  "americanfootball_ncaaf_2026-09-12_southern-university-jaguars_at_houston-cougars": {
+    "league": "NCAAF",
+    "sport_key": "americanfootball_ncaaf",
+    "home_team": "Houston Cougars",
+    "away_team": "Southern University Jaguars",
+    "commence_time": "2026-09-12T23:00:00Z",
+    "espn_sport": "football",
+    "espn_league": "college-football",
+    "outdoor": true,
+    "status": "scheduled",
+    "odds": {
+      "moneyline": {},
+      "spread": {
+        "Houston Cougars": -50.5,
+        "Southern University Jaguars": 50.5
+      },
+      "total": 60.5,
+      "num_bookmakers": 1
+    },
+    "prediction": null,
+    "actual": null
+  },
+  "americanfootball_ncaaf_2026-09-12_towson-tigers_at_south-carolina-gamecocks": {
+    "league": "NCAAF",
+    "sport_key": "americanfootball_ncaaf",
+    "home_team": "South Carolina Gamecocks",
+    "away_team": "Towson Tigers",
+    "commence_time": "2026-09-12T23:00:00Z",
+    "espn_sport": "football",
+    "espn_league": "college-football",
+    "outdoor": true,
+    "status": "scheduled",
+    "odds": {
+      "moneyline": {},
+      "spread": {
+        "South Carolina Gamecocks": -42.5,
+        "Towson Tigers": 42.5
+      },
+      "total": 55.5,
+      "num_bookmakers": 1
+    },
+    "prediction": null,
+    "actual": null
+  },
+  "americanfootball_ncaaf_2026-09-12_fordham-rams_at_coastal-carolina-chanticleers": {
+    "league": "NCAAF",
+    "sport_key": "americanfootball_ncaaf",
+    "home_team": "Coastal Carolina Chanticleers",
+    "away_team": "Fordham Rams",
+    "commence_time": "2026-09-12T23:30:00Z",
+    "espn_sport": "football",
+    "espn_league": "college-football",
+    "outdoor": true,
+    "status": "scheduled",
+    "odds": {
+      "moneyline": {
+        "Coastal Carolina Chanticleers": -20000,
+        "Fordham Rams": 3500
+      },
+      "spread": {
+        "Coastal Carolina Chanticleers": -31.5,
+        "Fordham Rams": 31.5
+      },
+      "total": 53.5,
+      "num_bookmakers": 1
+    },
+    "prediction": null,
+    "actual": null
+  },
+  "americanfootball_ncaaf_2026-09-13_prairie-view-a&m-panthers_at_baylor-bears": {
+    "league": "NCAAF",
+    "sport_key": "americanfootball_ncaaf",
+    "home_team": "Baylor Bears",
+    "away_team": "Prairie View A&M Panthers",
+    "commence_time": "2026-09-13T00:00:00Z",
+    "espn_sport": "football",
+    "espn_league": "college-football",
+    "outdoor": true,
+    "status": "scheduled",
+    "odds": {
+      "moneyline": {},
+      "spread": {
+        "Baylor Bears": -38.5,
+        "Prairie View A&M Panthers": 38.5
+      },
+      "total": 54.5,
+      "num_bookmakers": 1
+    },
+    "prediction": null,
+    "actual": null
+  },
+  "americanfootball_ncaaf_2026-09-13_grambling-state-tigers_at_tcu-horned-frogs": {
+    "league": "NCAAF",
+    "sport_key": "americanfootball_ncaaf",
+    "home_team": "TCU Horned Frogs",
+    "away_team": "Grambling State Tigers",
+    "commence_time": "2026-09-13T00:00:00Z",
+    "espn_sport": "football",
+    "espn_league": "college-football",
+    "outdoor": true,
+    "status": "scheduled",
+    "odds": {
+      "moneyline": {},
+      "spread": {
+        "Grambling State Tigers": 44.5,
+        "TCU Horned Frogs": -44.5
+      },
+      "total": 54.5,
+      "num_bookmakers": 1
+    },
+    "prediction": null,
+    "actual": null
+  },
+  "americanfootball_ncaaf_2026-09-13_cal-poly-mustangs_at_san-jose-state-spartans": {
+    "league": "NCAAF",
+    "sport_key": "americanfootball_ncaaf",
+    "home_team": "San Jose State Spartans",
+    "away_team": "Cal Poly Mustangs",
+    "commence_time": "2026-09-13T01:00:00Z",
+    "espn_sport": "football",
+    "espn_league": "college-football",
+    "outdoor": true,
+    "status": "scheduled",
+    "odds": {
+      "moneyline": {
+        "Cal Poly Mustangs": 1060,
+        "San Jose State Spartans": -2300
+      },
+      "spread": {
+        "Cal Poly Mustangs": 20.5,
+        "San Jose State Spartans": -20.5
+      },
+      "total": 57.5,
+      "num_bookmakers": 1
+    },
+    "prediction": null,
+    "actual": null
+  },
+  "americanfootball_ncaaf_2026-09-13_texas-southern-tigers_at_utep-miners": {
+    "league": "NCAAF",
+    "sport_key": "americanfootball_ncaaf",
+    "home_team": "UTEP Miners",
+    "away_team": "Texas Southern Tigers",
+    "commence_time": "2026-09-13T01:00:00Z",
+    "espn_sport": "football",
+    "espn_league": "college-football",
+    "outdoor": true,
+    "status": "scheduled",
+    "odds": {
+      "moneyline": {
+        "Texas Southern Tigers": 2000,
+        "UTEP Miners": -7000
+      },
+      "spread": {
+        "Texas Southern Tigers": 27.5,
+        "UTEP Miners": -27.5
+      },
+      "total": 53.5,
+      "num_bookmakers": 1
+    },
+    "prediction": null,
+    "actual": null
+  },
+  "americanfootball_ncaaf_2026-09-13_montana-state-bobcats_at_nevada-wolf-pack": {
+    "league": "NCAAF",
+    "sport_key": "americanfootball_ncaaf",
+    "home_team": "Nevada Wolf Pack",
+    "away_team": "Montana State Bobcats",
+    "commence_time": "2026-09-13T02:30:00Z",
+    "espn_sport": "football",
+    "espn_league": "college-football",
+    "outdoor": true,
+    "status": "scheduled",
+    "odds": {
+      "moneyline": {
+        "Montana State Bobcats": -225,
+        "Nevada Wolf Pack": 178
+      },
+      "spread": {
+        "Montana State Bobcats": -5.5,
+        "Nevada Wolf Pack": 5.5
+      },
+      "total": 50.5,
+      "num_bookmakers": 2
+    },
+    "prediction": null,
+    "actual": null
+  },
+  "baseball_mlb_2026-09-07_arizona-diamondbacks_at_kansas-city-royals": {
+    "league": "MLB",
+    "sport_key": "baseball_mlb",
+    "home_team": "Kansas City Royals",
+    "away_team": "Arizona Diamondbacks",
+    "commence_time": "2026-09-07T18:11:00Z",
+    "espn_sport": "baseball",
+    "espn_league": "mlb",
+    "outdoor": true,
+    "status": "predicted",
+    "odds": {
+      "moneyline": {
+        "Arizona Diamondbacks": -105,
+        "Kansas City Royals": -110
+      },
+      "spread": {
+        "Arizona Diamondbacks": -0.2,
+        "Kansas City Royals": 0.2
+      },
+      "total": 9.1,
+      "num_bookmakers": 9
+    },
+    "prediction": {
+      "predicted_winner": "Arizona Diamondbacks",
+      "reasoning": "Arizona is on a W2 streak with a much better overall record (76-68 vs 64-80) and has a starting pitcher (Derek Law, 1.93 ERA) significantly outperforming Kansas City's Noah Cameron (4.08 ERA). The near pick'em odds undervalue Arizona's pitching edge and superior record.",
+      "key_factors": [
+        "Arizona pitcher ERA 1.93 vs Royals 4.08",
+        "Arizona better overall record (76-68 vs 64-80)",
+        "Arizona on W2 streak"
+      ],
+      "predicted_against_spread": "Arizona Diamondbacks",
+      "confidence": 58,
+      "context_used": {
+        "away_trends": {
+          "team": "Arizona Diamondbacks",
+          "last5": "3-2",
+          "streak": "W2",
+          "record": "76-68",
+          "h2h_vs_opponent": null
+        },
+        "home_trends": {
+          "team": "Kansas City Royals",
+          "last5": "2-3",
+          "streak": "W1",
+          "record": "64-80",
+          "h2h_vs_opponent": null
+        },
+        "weather": {
+          "high_f": 96.4,
+          "low_f": 72.8,
+          "precipitation_in": 0.0,
+          "wind_mph": 13.1
+        },
+        "probable_pitchers": {
+          "home": {
+            "name": "Noah Cameron",
+            "era": "4.08",
+            "record": "(9-8, 4.08)"
+          },
+          "away": {
+            "name": "Derek Law",
+            "era": "1.93",
+            "record": "(0-0, 1.93)"
+          }
+        }
+      },
+      "generated_at": "2026-09-07T16:36:27.122278+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "Arizona Diamondbacks": -105,
+          "Kansas City Royals": -110
+        },
+        "spread": {
+          "Arizona Diamondbacks": -0.2,
+          "Kansas City Royals": 0.2
+        },
+        "total": 9.1,
+        "num_bookmakers": 9
+      }
+    },
+    "actual": null
+  },
+  "baseball_mlb_2026-09-07_minnesota-twins_at_detroit-tigers": {
+    "league": "MLB",
+    "sport_key": "baseball_mlb",
+    "home_team": "Detroit Tigers",
+    "away_team": "Minnesota Twins",
+    "commence_time": "2026-09-07T19:11:00Z",
+    "espn_sport": "baseball",
+    "espn_league": "mlb",
+    "outdoor": true,
+    "status": "scheduled",
+    "odds": {
+      "moneyline": {
+        "Detroit Tigers": -119,
+        "Minnesota Twins": 80
+      },
+      "spread": {
+        "Detroit Tigers": 0.2,
+        "Minnesota Twins": -0.2
+      },
+      "total": 7.8,
+      "num_bookmakers": 9
+    },
+    "prediction": null,
+    "actual": null
+  },
+  "baseball_mlb_2026-09-07_washington-nationals_at_san-diego-padres": {
+    "league": "MLB",
+    "sport_key": "baseball_mlb",
+    "home_team": "San Diego Padres",
+    "away_team": "Washington Nationals",
+    "commence_time": "2026-09-07T21:11:00Z",
+    "espn_sport": "baseball",
+    "espn_league": "mlb",
+    "outdoor": true,
+    "status": "predicted",
+    "odds": {
+      "moneyline": {
+        "San Diego Padres": -200,
+        "Washington Nationals": 169
+      },
+      "spread": {
+        "San Diego Padres": -1.5,
+        "Washington Nationals": 1.5
+      },
+      "total": 8.0,
+      "num_bookmakers": 9
+    },
+    "prediction": {
+      "predicted_winner": "San Diego Padres",
+      "reasoning": "San Diego is at home with a much better record (75-68 vs 67-78) and Washington is mired in a brutal L4 losing streak with a starter (Jake Irvin, 5.57 ERA) far worse than San Diego's Nick Pivetta (4.50 ERA). Despite Washington's slight seasonal h2h edge, current form strongly favors the Padres.",
+      "key_factors": [
+        "Nationals on L4 skid",
+        "Pivetta 4.50 ERA vs Irvin 5.57 ERA",
+        "Padres superior overall record"
+      ],
+      "predicted_against_spread": "San Diego Padres",
+      "confidence": 65,
+      "context_used": {
+        "away_trends": {
+          "team": "Washington Nationals",
+          "last5": "1-4",
+          "streak": "L4",
+          "record": "67-78",
+          "h2h_vs_opponent": {
+            "record_this_season": "2-1",
+            "last_meeting_result": "won 4-2 on 2026-05-31"
+          }
+        },
+        "home_trends": {
+          "team": "San Diego Padres",
+          "last5": "2-3",
+          "streak": "W1",
+          "record": "75-68",
+          "h2h_vs_opponent": {
+            "record_this_season": "1-2",
+            "last_meeting_result": "lost 2-4 on 2026-05-31"
+          }
+        },
+        "weather": {
+          "high_f": 97.0,
+          "low_f": 73.6,
+          "precipitation_in": 0.0,
+          "wind_mph": 12.5
+        },
+        "probable_pitchers": {
+          "home": {
+            "name": "Nick Pivetta",
+            "era": "4.50",
+            "record": "(1-2, 4.50)"
+          },
+          "away": {
+            "name": "Jake Irvin",
+            "era": "5.57",
+            "record": "(2-8, 5.57)"
+          }
+        }
+      },
+      "generated_at": "2026-09-07T16:36:27.122278+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "San Diego Padres": -200,
+          "Washington Nationals": 169
+        },
+        "spread": {
+          "San Diego Padres": -1.5,
+          "Washington Nationals": 1.5
+        },
+        "total": 8.0,
+        "num_bookmakers": 9
       }
     },
     "actual": null
