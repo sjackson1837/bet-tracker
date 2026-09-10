@@ -595,7 +595,7 @@
     "espn_sport": "football",
     "espn_league": "nfl",
     "outdoor": true,
-    "status": "scheduled",
+    "status": "predicted",
     "odds": {
       "moneyline": {
         "Detroit Lions": -324,
@@ -608,7 +608,52 @@
       "total": 49.8,
       "num_bookmakers": 9
     },
-    "prediction": null,
+    "prediction": {
+      "predicted_winner": "Detroit Lions",
+      "predicted_against_spread": "New Orleans Saints",
+      "confidence": 58,
+      "key_factors": [
+        "No team trend data provided, relying on market pricing",
+        "Large moneyline gap (-324/+256) implies significant talent disparity",
+        "Spread of 6.9 is a wide number that can be tough to cover consistently for large favorites"
+      ],
+      "reasoning": "With no specific recent-form, streak, or head-to-head data supplied for either team, the market line is the primary signal available, and it strongly favors Detroit at home. However, historically large favorites (-6.9) often fail to cover such wide spreads even when winning outright, so I lean toward Detroit winning but Saints covering. Confidence is moderate given the lack of underlying trend data to validate the market's magnitude.",
+      "context_used": {
+        "away_trends": {
+          "team": "New Orleans Saints",
+          "last5": null,
+          "streak": null,
+          "record": null,
+          "h2h_vs_opponent": null
+        },
+        "home_trends": {
+          "team": "Detroit Lions",
+          "last5": null,
+          "streak": null,
+          "record": null,
+          "h2h_vs_opponent": null
+        },
+        "weather": null,
+        "probable_pitchers": {
+          "home": null,
+          "away": null
+        }
+      },
+      "generated_at": "2026-09-10T15:05:21.716443+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "Detroit Lions": -324,
+          "New Orleans Saints": 256
+        },
+        "spread": {
+          "Detroit Lions": -6.9,
+          "New Orleans Saints": 6.9
+        },
+        "total": 49.8,
+        "num_bookmakers": 9
+      }
+    },
     "actual": null
   },
   "americanfootball_nfl_2026-09-13_new-york-jets_at_tennessee-titans": {
@@ -1055,7 +1100,7 @@
     "espn_sport": "football",
     "espn_league": "nfl",
     "outdoor": true,
-    "status": "scheduled",
+    "status": "predicted",
     "odds": {
       "moneyline": {
         "Denver Broncos": 121,
@@ -1068,7 +1113,58 @@
       "total": 43.3,
       "num_bookmakers": 9
     },
-    "prediction": null,
+    "prediction": {
+      "predicted_winner": "Kansas City Chiefs",
+      "predicted_against_spread": "Denver Broncos",
+      "confidence": 55,
+      "key_factors": [
+        "No team-specific trend data available",
+        "Modest home favorite spread (-2.6) suggests a close, competitive game",
+        "Warm, breezy weather (16.8 mph wind) could favor ground game and limit passing efficiency",
+        "Total of 43.3 is moderate, suggesting a balanced defensive/offensive expectation"
+      ],
+      "reasoning": "Without recent form or head-to-head data, I default to a slight home-field edge for Kansas City given the market's modest -2.6 line, but the small spread signals a genuine toss-up rather than a dominant favorite. Elevated wind could hamper passing games for both teams, potentially keeping the score close and allowing Denver to keep it within the number. Given the uncertainty and lack of trend confirmation, confidence is only slightly above a coin flip.",
+      "context_used": {
+        "away_trends": {
+          "team": "Denver Broncos",
+          "last5": null,
+          "streak": null,
+          "record": null,
+          "h2h_vs_opponent": null
+        },
+        "home_trends": {
+          "team": "Kansas City Chiefs",
+          "last5": null,
+          "streak": null,
+          "record": null,
+          "h2h_vs_opponent": null
+        },
+        "weather": {
+          "high_f": 86.4,
+          "low_f": 65.6,
+          "precipitation_in": 0.047,
+          "wind_mph": 16.8
+        },
+        "probable_pitchers": {
+          "home": null,
+          "away": null
+        }
+      },
+      "generated_at": "2026-09-10T15:05:21.716443+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "Denver Broncos": 121,
+          "Kansas City Chiefs": -145
+        },
+        "spread": {
+          "Denver Broncos": 2.6,
+          "Kansas City Chiefs": -2.6
+        },
+        "total": 43.3,
+        "num_bookmakers": 9
+      }
+    },
     "actual": null
   },
   "americanfootball_nfl_2026-09-18_detroit-lions_at_buffalo-bills": {

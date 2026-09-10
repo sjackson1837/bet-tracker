@@ -1,134 +1,25 @@
 {
-  "americanfootball_nfl_2026-09-13_atlanta-falcons_at_pittsburgh-steelers": {
-    "predicted_winner": "Pittsburgh Steelers",
-    "predicted_against_spread": "Pittsburgh Steelers",
-    "confidence": 55,
-    "key_factors": [
-      "No trend data available for either team",
-      "Market favors Steelers at home by 3.4",
-      "Mild weather, no significant impact"
-    ],
-    "reasoning": "With no last5/streak/record data provided for either team, we default to the market's assessment which favors the home Steelers by a modest margin. Lack of trend data lowers confidence significantly below what the market line alone might suggest."
-  },
-  "americanfootball_nfl_2026-09-13_baltimore-ravens_at_indianapolis-colts": {
-    "predicted_winner": "Baltimore Ravens",
-    "predicted_against_spread": "Baltimore Ravens",
+  "americanfootball_nfl_2026-09-13_new-orleans-saints_at_detroit-lions": {
+    "predicted_winner": "Detroit Lions",
+    "predicted_against_spread": "New Orleans Saints",
     "confidence": 58,
     "key_factors": [
-      "No trend data available",
-      "Market strongly favors Ravens on road (-177)",
-      "High total suggests competitive offensive game"
+      "No team trend data provided, relying on market pricing",
+      "Large moneyline gap (-324/+256) implies significant talent disparity",
+      "Spread of 6.9 is a wide number that can be tough to cover consistently for large favorites"
     ],
-    "reasoning": "No specific trend data is given, so we lean on the market's clear favorite status for Baltimore. A -177 moneyline for a road team suggests the market sees a substantial talent gap, which we'll respect given the absence of contradicting data."
+    "reasoning": "With no specific recent-form, streak, or head-to-head data supplied for either team, the market line is the primary signal available, and it strongly favors Detroit at home. However, historically large favorites (-6.9) often fail to cover such wide spreads even when winning outright, so I lean toward Detroit winning but Saints covering. Confidence is moderate given the lack of underlying trend data to validate the market's magnitude."
   },
-  "americanfootball_nfl_2026-09-13_buffalo-bills_at_houston-texans": {
-    "predicted_winner": "Buffalo Bills",
-    "predicted_against_spread": "Houston Texans",
-    "confidence": 51,
-    "key_factors": [
-      "Near pick'em spread indicates true toss-up",
-      "No trend data provided for either side",
-      "Minimal market separation (-119 vs +23)"
-    ],
-    "reasoning": "This is essentially a coin-flip game per the market with only a 1.1 point spread. Lacking any trend data, we slightly favor Buffalo to win outright but take the home Texans getting points as a value play in a close contest."
-  },
-  "americanfootball_nfl_2026-09-13_chicago-bears_at_carolina-panthers": {
-    "predicted_winner": "Chicago Bears",
-    "predicted_against_spread": "Chicago Bears",
-    "confidence": 57,
-    "key_factors": [
-      "Market favors Bears by 3 on the road",
-      "No trend/injury data available",
-      "Hot weather (95F) could favor more mobile/adapted offense"
-    ],
-    "reasoning": "Without specific trend data, we default toward the market's lean on Chicago covering a modest road favorite spread. The extreme heat is a minor wildcard that could affect execution for both sides equally."
-  },
-  "americanfootball_nfl_2026-09-13_tampa-bay-buccaneers_at_cincinnati-bengals": {
-    "predicted_winner": "Cincinnati Bengals",
-    "predicted_against_spread": "Cincinnati Bengals",
-    "confidence": 59,
-    "key_factors": [
-      "Bengals sizable home favorite (-208)",
-      "High total (50.5) suggests explosive offenses",
-      "No specific trend data to contradict market"
-    ],
-    "reasoning": "The market installs Cincinnati as a substantial home favorite, and without contrary trend evidence we align with this view. The high total suggests both offenses are expected to move the ball, but home field and market confidence favor the Bengals covering."
-  },
-  "americanfootball_nfl_2026-09-13_cleveland-browns_at_jacksonville-jaguars": {
-    "predicted_winner": "Jacksonville Jaguars",
-    "predicted_against_spread": "Cleveland Browns",
-    "confidence": 54,
-    "key_factors": [
-      "Jaguars massive favorite (-420) at home",
-      "Large spread (8.7) creates cover risk for favorite",
-      "No trend data available, extreme heat (99F) could level field"
-    ],
-    "reasoning": "Jacksonville is clearly the better team per market pricing, so we back them to win outright. However, an 8.7-point spread with a large favorite often sees backdoor covers, and extreme heat could slow down a blowout, so we lean Browns for the cover."
-  },
-  "americanfootball_nfl_2026-09-13_new-york-jets_at_tennessee-titans": {
-    "predicted_winner": "Tennessee Titans",
-    "predicted_against_spread": "New York Jets",
-    "confidence": 52,
-    "key_factors": [
-      "Nearly even spread (0.9) suggests toss-up",
-      "Low total (39.4) implies defensive/low-scoring game",
-      "No trend data available for either team"
-    ],
-    "reasoning": "This game is essentially a pick'em per the market, with minimal separation between the two sides. With no trend data, we slightly favor Tennessee at home but see value in the Jets getting nearly a field goal given the closeness of the matchup."
-  },
-  "americanfootball_nfl_2026-09-13_arizona-cardinals_at_los-angeles-chargers": {
-    "predicted_winner": "Los Angeles Chargers",
-    "predicted_against_spread": "Arizona Cardinals",
-    "confidence": 62,
-    "key_factors": [
-      "Chargers massive home favorite (-543)",
-      "Extreme spread (9.7) increases backdoor cover risk",
-      "No trend data to inform deeper analysis"
-    ],
-    "reasoning": "The market strongly favors LA Chargers to win this game outright, which we agree with given the lopsided moneyline. However, such a large spread often gets covered by the underdog in garbage time, so we lean Arizona for the cover."
-  },
-  "americanfootball_nfl_2026-09-13_green-bay-packers_at_minnesota-vikings": {
-    "predicted_winner": "Minnesota Vikings",
-    "predicted_against_spread": "Green Bay Packers",
+  "americanfootball_nfl_2026-09-15_denver-broncos_at_kansas-city-chiefs": {
+    "predicted_winner": "Kansas City Chiefs",
+    "predicted_against_spread": "Denver Broncos",
     "confidence": 55,
     "key_factors": [
-      "Vikings modest home favorite (-122)",
-      "Small spread (1.3) indicates close divisional game",
-      "No trend data available"
+      "No team-specific trend data available",
+      "Modest home favorite spread (-2.6) suggests a close, competitive game",
+      "Warm, breezy weather (16.8 mph wind) could favor ground game and limit passing efficiency",
+      "Total of 43.3 is moderate, suggesting a balanced defensive/offensive expectation"
     ],
-    "reasoning": "This is a tight divisional matchup per the market with only a 1.3 point spread favoring Minnesota. Given the closeness and lack of additional trend data, we lean Packers to keep it within the spread even if Minnesota wins outright."
-  },
-  "americanfootball_nfl_2026-09-13_miami-dolphins_at_las-vegas-raiders": {
-    "predicted_winner": "Las Vegas Raiders",
-    "predicted_against_spread": "Las Vegas Raiders",
-    "confidence": 58,
-    "key_factors": [
-      "Raiders solid home favorite (-185)",
-      "Low total (40.8) suggests defensive struggle",
-      "No trend data provided"
-    ],
-    "reasoning": "The market favors Las Vegas at home by a meaningful margin, and we align with this given no contradicting trend information. The low total suggests a controlled, lower-scoring game which often favors the home favorite covering."
-  },
-  "americanfootball_nfl_2026-09-13_washington-commanders_at_philadelphia-eagles": {
-    "predicted_winner": "Philadelphia Eagles",
-    "predicted_against_spread": "Washington Commanders",
-    "confidence": 56,
-    "key_factors": [
-      "Eagles significant home favorite (-228)",
-      "Rainy conditions (0.48in precip) could hamper passing game",
-      "No trend data available for deeper analysis"
-    ],
-    "reasoning": "Philadelphia is favored to win outright per the market, which we support absent contrary evidence. However, the notable precipitation could lead to a sloppier, lower-scoring affair that keeps Washington within the 5-point spread."
-  },
-  "americanfootball_nfl_2026-09-14_dallas-cowboys_at_new-york-giants": {
-    "predicted_winner": "Dallas Cowboys",
-    "predicted_against_spread": "New York Giants",
-    "confidence": 54,
-    "key_factors": [
-      "Cowboys modest road favorite (-159)",
-      "Moderate spread (2.9) suggests competitive divisional game",
-      "No trend data available"
-    ],
-    "reasoning": "Dallas is favored per the market in this divisional road game, which we support given no contrary trend evidence. The moderate spread suggests a close contest, so we lean toward the Giants covering at home in this rivalry matchup."
+    "reasoning": "Without recent form or head-to-head data, I default to a slight home-field edge for Kansas City given the market's modest -2.6 line, but the small spread signals a genuine toss-up rather than a dominant favorite. Elevated wind could hamper passing games for both teams, potentially keeping the score close and allowing Denver to keep it within the number. Given the uncertainty and lack of trend confirmation, confidence is only slightly above a coin flip."
   }
 }
