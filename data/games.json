@@ -1176,7 +1176,7 @@
     "espn_sport": "football",
     "espn_league": "nfl",
     "outdoor": true,
-    "status": "scheduled",
+    "status": "predicted",
     "odds": {
       "moneyline": {
         "Buffalo Bills": -164,
@@ -1189,7 +1189,58 @@
       "total": 51.9,
       "num_bookmakers": 5
     },
-    "prediction": null,
+    "prediction": {
+      "predicted_winner": "Buffalo Bills",
+      "predicted_against_spread": "Detroit Lions",
+      "confidence": 53,
+      "key_factors": [
+        "No trend/form data provided for either team",
+        "Market favors Bills by 3 at home with -164 moneyline",
+        "Mild weather (70F, low wind) unlikely to be a factor",
+        "Lions historically competitive vs Bills in recent matchups"
+      ],
+      "reasoning": "With no specific recent-form, streak, or head-to-head data supplied, this pick leans heavily on market pricing rather than independent trend confirmation, which caps confidence. Buffalo's home-field edge and market favorite status support a moneyline win, but a 3-point home spread against a quality Lions team feels tight enough that Detroit can cover even in a loss. Weather is neutral and shouldn't materially affect scoring given the near-52 point total.",
+      "context_used": {
+        "away_trends": {
+          "team": "Detroit Lions",
+          "last5": null,
+          "streak": null,
+          "record": null,
+          "h2h_vs_opponent": null
+        },
+        "home_trends": {
+          "team": "Buffalo Bills",
+          "last5": null,
+          "streak": null,
+          "record": null,
+          "h2h_vs_opponent": null
+        },
+        "weather": {
+          "high_f": 70.0,
+          "low_f": 50.7,
+          "precipitation_in": 0.0,
+          "wind_mph": 10.2
+        },
+        "probable_pitchers": {
+          "home": null,
+          "away": null
+        }
+      },
+      "generated_at": "2026-09-13T14:58:14.155015+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "Buffalo Bills": -164,
+          "Detroit Lions": 134
+        },
+        "spread": {
+          "Buffalo Bills": -3.0,
+          "Detroit Lions": 3.0
+        },
+        "total": 51.9,
+        "num_bookmakers": 5
+      }
+    },
     "actual": null
   },
   "americanfootball_nfl_2026-09-20_carolina-panthers_at_atlanta-falcons": {
