@@ -15011,7 +15011,7 @@
     "espn_sport": "football",
     "espn_league": "college-football",
     "outdoor": true,
-    "status": "scheduled",
+    "status": "predicted",
     "odds": {
       "moneyline": {
         "Arkansas Razorbacks": 580,
@@ -15024,7 +15024,53 @@
       "total": 55.5,
       "num_bookmakers": 1
     },
-    "prediction": null,
+    "prediction": {
+      "predicted_winner": "Georgia Bulldogs",
+      "predicted_against_spread": "Arkansas Razorbacks",
+      "confidence": 62,
+      "key_factors": [
+        "Georgia undefeated (2-0) and on a 2-game win streak, clear talent edge",
+        "Arkansas 1-1 with a loss last game, shakier form",
+        "Large 16.5-point spread creates cover risk even for the better team",
+        "Limited trend data (no h2h, no injury/pitching-equivalent detail) lowers certainty on margin"
+      ],
+      "reasoning": "Georgia's perfect start and winning streak versus Arkansas' inconsistent 1-1 record with a loss last time out both point to a comfortable Georgia win. However, a 16.5-point spread against an SEC opponent at home is a large number to lay, and with minimal additional trend data (no head-to-head, no specific matchup details), I lean toward Arkansas keeping it closer than the market expects. Georgia should win outright but the cover is less certain given typical SEC road-favorite variance.",
+      "context_used": {
+        "away_trends": {
+          "team": "Georgia Bulldogs",
+          "last5": "2-0",
+          "streak": "W2",
+          "record": "2-0",
+          "h2h_vs_opponent": null
+        },
+        "home_trends": {
+          "team": "Arkansas Razorbacks",
+          "last5": "1-1",
+          "streak": "L1",
+          "record": "1-1",
+          "h2h_vs_opponent": null
+        },
+        "weather": null,
+        "probable_pitchers": {
+          "home": null,
+          "away": null
+        }
+      },
+      "generated_at": "2026-09-14T17:00:03.584467+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "Arkansas Razorbacks": 580,
+          "Georgia Bulldogs": -880
+        },
+        "spread": {
+          "Arkansas Razorbacks": 16.5,
+          "Georgia Bulldogs": -16.5
+        },
+        "total": 55.5,
+        "num_bookmakers": 1
+      }
+    },
     "actual": null
   },
   "americanfootball_ncaaf_2026-09-19_florida-state-seminoles_at_alabama-crimson-tide": {
