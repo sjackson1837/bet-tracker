@@ -1,35 +1,183 @@
 {
   "instructions": "For each game below, act as a sharp, disciplined sports betting analyst. Do NOT simply pick whichever side the betting market favors -- weigh the actual trend data provided (recent form, streaks, head-to-head history, starting pitcher matchups where given, and weather where relevant) and form an independent judgment. It's fine, and expected, to disagree with the market when the trends support it. If trend data is sparse for a game, say so and let that lower your confidence rather than defaulting to the favorite. For each game_id, produce: predicted_winner (exact team name), predicted_against_spread (exact team name), confidence (integer 1-100), key_factors (2-4 short strings), and reasoning (2-4 sentences referencing the specific trend data given).",
   "games": {
-    "americanfootball_ncaaf_2026-09-19_georgia-bulldogs_at_arkansas-razorbacks": {
+    "americanfootball_ncaaf_2026-09-19_florida-state-seminoles_at_alabama-crimson-tide": {
       "league": "NCAAF",
-      "away_team": "Georgia Bulldogs",
-      "home_team": "Arkansas Razorbacks",
-      "commence_time": "2026-09-19T16:00:00Z",
+      "away_team": "Florida State Seminoles",
+      "home_team": "Alabama Crimson Tide",
+      "commence_time": "2026-09-19T19:30:00Z",
       "market_line": {
         "moneyline": {
-          "Arkansas Razorbacks": 580,
-          "Georgia Bulldogs": -880
+          "Alabama Crimson Tide": -725,
+          "Florida State Seminoles": 475
         },
         "spread": {
-          "Arkansas Razorbacks": 16.5,
-          "Georgia Bulldogs": -16.5
+          "Alabama Crimson Tide": -16.0,
+          "Florida State Seminoles": 16.0
         },
-        "total": 55.5,
+        "total": 52.5,
+        "num_bookmakers": 2
+      },
+      "away_team_trends": {
+        "team": "Florida State Seminoles",
+        "last5": "1-1",
+        "streak": "L1",
+        "record": "1-1",
+        "h2h_vs_opponent": null
+      },
+      "home_team_trends": {
+        "team": "Alabama Crimson Tide",
+        "last5": null,
+        "streak": null,
+        "record": null,
+        "h2h_vs_opponent": null
+      },
+      "weather_at_kickoff": null,
+      "probable_pitchers": {
+        "home": null,
+        "away": null
+      }
+    },
+    "americanfootball_ncaaf_2026-09-19_smu-mustangs_at_louisville-cardinals": {
+      "league": "NCAAF",
+      "away_team": "SMU Mustangs",
+      "home_team": "Louisville Cardinals",
+      "commence_time": "2026-09-19T19:30:00Z",
+      "market_line": {
+        "moneyline": {
+          "Louisville Cardinals": -115,
+          "SMU Mustangs": -105
+        },
+        "spread": {
+          "Louisville Cardinals": -1.5,
+          "SMU Mustangs": 1.5
+        },
+        "total": 56.5,
         "num_bookmakers": 1
       },
       "away_team_trends": {
-        "team": "Georgia Bulldogs",
+        "team": "SMU Mustangs",
+        "last5": "2-1",
+        "streak": "L1",
+        "record": "2-1",
+        "h2h_vs_opponent": null
+      },
+      "home_team_trends": {
+        "team": "Louisville Cardinals",
+        "last5": null,
+        "streak": null,
+        "record": null,
+        "h2h_vs_opponent": null
+      },
+      "weather_at_kickoff": null,
+      "probable_pitchers": {
+        "home": null,
+        "away": null
+      }
+    },
+    "americanfootball_ncaaf_2026-09-19_florida-gators_at_auburn-tigers": {
+      "league": "NCAAF",
+      "away_team": "Florida Gators",
+      "home_team": "Auburn Tigers",
+      "commence_time": "2026-09-19T23:00:00Z",
+      "market_line": {
+        "moneyline": {
+          "Auburn Tigers": -108,
+          "Florida Gators": -112
+        },
+        "spread": {
+          "Auburn Tigers": 1.5,
+          "Florida Gators": -1.5
+        },
+        "total": 53.5,
+        "num_bookmakers": 1
+      },
+      "away_team_trends": {
+        "team": "Florida Gators",
         "last5": "2-0",
         "streak": "W2",
         "record": "2-0",
         "h2h_vs_opponent": null
       },
       "home_team_trends": {
-        "team": "Arkansas Razorbacks",
-        "last5": "1-1",
-        "streak": "L1",
-        "record": "1-1",
+        "team": "Auburn Tigers",
+        "last5": "2-0",
+        "streak": "W2",
+        "record": "2-0",
+        "h2h_vs_opponent": null
+      },
+      "weather_at_kickoff": null,
+      "probable_pitchers": {
+        "home": null,
+        "away": null
+      }
+    },
+    "americanfootball_ncaaf_2026-09-19_lsu-tigers_at_ole-miss-rebels": {
+      "league": "NCAAF",
+      "away_team": "LSU Tigers",
+      "home_team": "Ole Miss Rebels",
+      "commence_time": "2026-09-19T23:30:00Z",
+      "market_line": {
+        "moneyline": {
+          "LSU Tigers": 109,
+          "Ole Miss Rebels": -130
+        },
+        "spread": {
+          "LSU Tigers": 2.2,
+          "Ole Miss Rebels": -2.2
+        },
+        "total": 57.5,
+        "num_bookmakers": 3
+      },
+      "away_team_trends": {
+        "team": "LSU Tigers",
+        "last5": "2-0",
+        "streak": "W2",
+        "record": "2-0",
+        "h2h_vs_opponent": null
+      },
+      "home_team_trends": {
+        "team": "Ole Miss Rebels",
+        "last5": null,
+        "streak": null,
+        "record": null,
+        "h2h_vs_opponent": null
+      },
+      "weather_at_kickoff": null,
+      "probable_pitchers": {
+        "home": null,
+        "away": null
+      }
+    },
+    "americanfootball_ncaaf_2026-09-20_houston-cougars_at_texas-tech-red-raiders": {
+      "league": "NCAAF",
+      "away_team": "Houston Cougars",
+      "home_team": "Texas Tech Red Raiders",
+      "commence_time": "2026-09-20T00:00:00Z",
+      "market_line": {
+        "moneyline": {
+          "Houston Cougars": 440,
+          "Texas Tech Red Raiders": -600
+        },
+        "spread": {
+          "Houston Cougars": 13.5,
+          "Texas Tech Red Raiders": -13.5
+        },
+        "total": 54.5,
+        "num_bookmakers": 1
+      },
+      "away_team_trends": {
+        "team": "Houston Cougars",
+        "last5": null,
+        "streak": null,
+        "record": null,
+        "h2h_vs_opponent": null
+      },
+      "home_team_trends": {
+        "team": "Texas Tech Red Raiders",
+        "last5": null,
+        "streak": null,
+        "record": null,
         "h2h_vs_opponent": null
       },
       "weather_at_kickoff": null,

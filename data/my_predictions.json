@@ -1,14 +1,67 @@
 {
-  "americanfootball_ncaaf_2026-09-19_georgia-bulldogs_at_arkansas-razorbacks": {
-    "predicted_winner": "Georgia Bulldogs",
-    "predicted_against_spread": "Arkansas Razorbacks",
-    "confidence": 62,
+  "americanfootball_ncaaf_2026-09-19_florida-state-seminoles_at_alabama-crimson-tide": {
+    "predicted_winner": "Alabama Crimson Tide",
+    "predicted_against_spread": "Florida State Seminoles",
+    "confidence": 58,
     "key_factors": [
-      "Georgia undefeated (2-0) and on a 2-game win streak, clear talent edge",
-      "Arkansas 1-1 with a loss last game, shakier form",
-      "Large 16.5-point spread creates cover risk even for the better team",
-      "Limited trend data (no h2h, no injury/pitching-equivalent detail) lowers certainty on margin"
+      "Alabama heavily favored at home (-725 ML)",
+      "FSU coming off a loss (L1) with mediocre 1-1 record",
+      "16-point spread is large and hard to cover consistently",
+      "Limited data on Alabama's recent form"
     ],
-    "reasoning": "Georgia's perfect start and winning streak versus Arkansas' inconsistent 1-1 record with a loss last time out both point to a comfortable Georgia win. However, a 16.5-point spread against an SEC opponent at home is a large number to lay, and with minimal additional trend data (no head-to-head, no specific matchup details), I lean toward Arkansas keeping it closer than the market expects. Georgia should win outright but the cover is less certain given typical SEC road-favorite variance."
+    "reasoning": "Alabama is a massive home favorite and should win outright given FSU's inconsistent 1-1 start and recent loss. However, a 16-point spread against a power-conference opponent is steep, and without more data on Alabama's own form, I lean toward FSU keeping it closer than the market expects, making the underdog a better side against the number.",
+    "confidence_explanation": null
+  },
+  "americanfootball_ncaaf_2026-09-19_smu-mustangs_at_louisville-cardinals": {
+    "predicted_winner": "Louisville Cardinals",
+    "predicted_against_spread": "Louisville Cardinals",
+    "confidence": 54,
+    "key_factors": [
+      "Near pick'em line (-1.5) reflects a close matchup",
+      "SMU on a 1-game losing streak despite 2-1 record",
+      "No home team trend data available, limiting confidence",
+      "High total (56.5) suggests both offenses expected to score"
+    ],
+    "reasoning": "This is essentially a coin-flip game per the market, and SMU's recent loss (L1) suggests some vulnerability entering this matchup. With home field and no data suggesting Louisville is struggling, I slightly favor the home Cardinals to win and cover the small spread. Confidence is modest given the lack of trend data for Louisville.",
+    "confidence_explanation": null
+  },
+  "americanfootball_ncaaf_2026-09-19_florida-gators_at_auburn-tigers": {
+    "predicted_winner": "Auburn Tigers",
+    "predicted_against_spread": "Auburn Tigers",
+    "confidence": 55,
+    "key_factors": [
+      "Both teams unbeaten and on 2-game win streaks (2-0)",
+      "Auburn has home field advantage",
+      "Evenly matched per betting market (near pick'em)",
+      "No significant trend separates the two sides"
+    ],
+    "reasoning": "Both Florida and Auburn enter this game undefeated and riding two-game win streaks, making this a genuine toss-up based on the trend data provided. With no clear statistical edge between the teams, I give a slight nod to Auburn due to home field advantage in this closely contested SEC matchup. Confidence is modest given the near-identical trends.",
+    "confidence_explanation": null
+  },
+  "americanfootball_ncaaf_2026-09-19_lsu-tigers_at_ole-miss-rebels": {
+    "predicted_winner": "Ole Miss Rebels",
+    "predicted_against_spread": "LSU Tigers",
+    "confidence": 52,
+    "key_factors": [
+      "LSU riding a 2-game win streak (2-0) as road underdog",
+      "Ole Miss favored at home per market (-130)",
+      "No trend data available for Ole Miss to confirm form",
+      "High total (57.5) suggests a potential shootout"
+    ],
+    "reasoning": "LSU enters with strong momentum (2-0, W2) which is a meaningful positive signal, while Ole Miss's form is unknown, creating uncertainty about how deserved their home favorite status is. Given LSU's active winning streak and the tight point spread, I expect Ole Miss to narrowly win at home but LSU to cover as a live underdog given their momentum. Confidence is low due to missing Ole Miss trend data.",
+    "confidence_explanation": null
+  },
+  "americanfootball_ncaaf_2026-09-20_houston-cougars_at_texas-tech-red-raiders": {
+    "predicted_winner": "Texas Tech Red Raiders",
+    "predicted_against_spread": "Texas Tech Red Raiders",
+    "confidence": 65,
+    "key_factors": [
+      "Texas Tech heavily favored at home (-600 ML)",
+      "13.5-point spread reflects a significant talent gap",
+      "No trend data available for either team, adding uncertainty",
+      "Market strongly favors the home team in this matchup"
+    ],
+    "reasoning": "With no specific trend data for either Houston or Texas Tech, I default more heavily to the substantial market signal here, which shows Texas Tech as a strong -600 favorite. A 13.5-point spread with a large moneyline gap suggests a clear talent or performance differential that the market has priced in confidently. Confidence is moderate-high due to the strength of the market signal despite the lack of underlying trend data.",
+    "confidence_explanation": null
   }
 }

@@ -15082,7 +15082,7 @@
     "espn_sport": "football",
     "espn_league": "college-football",
     "outdoor": true,
-    "status": "scheduled",
+    "status": "predicted",
     "odds": {
       "moneyline": {
         "Alabama Crimson Tide": -725,
@@ -15095,7 +15095,54 @@
       "total": 52.5,
       "num_bookmakers": 2
     },
-    "prediction": null,
+    "prediction": {
+      "predicted_winner": "Alabama Crimson Tide",
+      "predicted_against_spread": "Florida State Seminoles",
+      "confidence": 58,
+      "key_factors": [
+        "Alabama heavily favored at home (-725 ML)",
+        "FSU coming off a loss (L1) with mediocre 1-1 record",
+        "16-point spread is large and hard to cover consistently",
+        "Limited data on Alabama's recent form"
+      ],
+      "reasoning": "Alabama is a massive home favorite and should win outright given FSU's inconsistent 1-1 start and recent loss. However, a 16-point spread against a power-conference opponent is steep, and without more data on Alabama's own form, I lean toward FSU keeping it closer than the market expects, making the underdog a better side against the number.",
+      "confidence_explanation": null,
+      "context_used": {
+        "away_trends": {
+          "team": "Florida State Seminoles",
+          "last5": "1-1",
+          "streak": "L1",
+          "record": "1-1",
+          "h2h_vs_opponent": null
+        },
+        "home_trends": {
+          "team": "Alabama Crimson Tide",
+          "last5": null,
+          "streak": null,
+          "record": null,
+          "h2h_vs_opponent": null
+        },
+        "weather": null,
+        "probable_pitchers": {
+          "home": null,
+          "away": null
+        }
+      },
+      "generated_at": "2026-09-15T15:38:26.688707+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "Alabama Crimson Tide": -725,
+          "Florida State Seminoles": 475
+        },
+        "spread": {
+          "Alabama Crimson Tide": -16.0,
+          "Florida State Seminoles": 16.0
+        },
+        "total": 52.5,
+        "num_bookmakers": 2
+      }
+    },
     "actual": null
   },
   "americanfootball_ncaaf_2026-09-19_smu-mustangs_at_louisville-cardinals": {
@@ -15107,7 +15154,7 @@
     "espn_sport": "football",
     "espn_league": "college-football",
     "outdoor": true,
-    "status": "scheduled",
+    "status": "predicted",
     "odds": {
       "moneyline": {
         "Louisville Cardinals": -115,
@@ -15120,7 +15167,54 @@
       "total": 56.5,
       "num_bookmakers": 1
     },
-    "prediction": null,
+    "prediction": {
+      "predicted_winner": "Louisville Cardinals",
+      "predicted_against_spread": "Louisville Cardinals",
+      "confidence": 54,
+      "key_factors": [
+        "Near pick'em line (-1.5) reflects a close matchup",
+        "SMU on a 1-game losing streak despite 2-1 record",
+        "No home team trend data available, limiting confidence",
+        "High total (56.5) suggests both offenses expected to score"
+      ],
+      "reasoning": "This is essentially a coin-flip game per the market, and SMU's recent loss (L1) suggests some vulnerability entering this matchup. With home field and no data suggesting Louisville is struggling, I slightly favor the home Cardinals to win and cover the small spread. Confidence is modest given the lack of trend data for Louisville.",
+      "confidence_explanation": null,
+      "context_used": {
+        "away_trends": {
+          "team": "SMU Mustangs",
+          "last5": "2-1",
+          "streak": "L1",
+          "record": "2-1",
+          "h2h_vs_opponent": null
+        },
+        "home_trends": {
+          "team": "Louisville Cardinals",
+          "last5": null,
+          "streak": null,
+          "record": null,
+          "h2h_vs_opponent": null
+        },
+        "weather": null,
+        "probable_pitchers": {
+          "home": null,
+          "away": null
+        }
+      },
+      "generated_at": "2026-09-15T15:38:26.688707+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "Louisville Cardinals": -115,
+          "SMU Mustangs": -105
+        },
+        "spread": {
+          "Louisville Cardinals": -1.5,
+          "SMU Mustangs": 1.5
+        },
+        "total": 56.5,
+        "num_bookmakers": 1
+      }
+    },
     "actual": null
   },
   "americanfootball_ncaaf_2026-09-19_florida-gators_at_auburn-tigers": {
@@ -15132,7 +15226,7 @@
     "espn_sport": "football",
     "espn_league": "college-football",
     "outdoor": true,
-    "status": "scheduled",
+    "status": "predicted",
     "odds": {
       "moneyline": {
         "Auburn Tigers": -108,
@@ -15145,7 +15239,54 @@
       "total": 53.5,
       "num_bookmakers": 1
     },
-    "prediction": null,
+    "prediction": {
+      "predicted_winner": "Auburn Tigers",
+      "predicted_against_spread": "Auburn Tigers",
+      "confidence": 55,
+      "key_factors": [
+        "Both teams unbeaten and on 2-game win streaks (2-0)",
+        "Auburn has home field advantage",
+        "Evenly matched per betting market (near pick'em)",
+        "No significant trend separates the two sides"
+      ],
+      "reasoning": "Both Florida and Auburn enter this game undefeated and riding two-game win streaks, making this a genuine toss-up based on the trend data provided. With no clear statistical edge between the teams, I give a slight nod to Auburn due to home field advantage in this closely contested SEC matchup. Confidence is modest given the near-identical trends.",
+      "confidence_explanation": null,
+      "context_used": {
+        "away_trends": {
+          "team": "Florida Gators",
+          "last5": "2-0",
+          "streak": "W2",
+          "record": "2-0",
+          "h2h_vs_opponent": null
+        },
+        "home_trends": {
+          "team": "Auburn Tigers",
+          "last5": "2-0",
+          "streak": "W2",
+          "record": "2-0",
+          "h2h_vs_opponent": null
+        },
+        "weather": null,
+        "probable_pitchers": {
+          "home": null,
+          "away": null
+        }
+      },
+      "generated_at": "2026-09-15T15:38:26.688707+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "Auburn Tigers": -108,
+          "Florida Gators": -112
+        },
+        "spread": {
+          "Auburn Tigers": 1.5,
+          "Florida Gators": -1.5
+        },
+        "total": 53.5,
+        "num_bookmakers": 1
+      }
+    },
     "actual": null
   },
   "americanfootball_ncaaf_2026-09-19_lsu-tigers_at_ole-miss-rebels": {
@@ -15157,7 +15298,7 @@
     "espn_sport": "football",
     "espn_league": "college-football",
     "outdoor": true,
-    "status": "scheduled",
+    "status": "predicted",
     "odds": {
       "moneyline": {
         "LSU Tigers": 109,
@@ -15170,7 +15311,54 @@
       "total": 57.5,
       "num_bookmakers": 3
     },
-    "prediction": null,
+    "prediction": {
+      "predicted_winner": "Ole Miss Rebels",
+      "predicted_against_spread": "LSU Tigers",
+      "confidence": 52,
+      "key_factors": [
+        "LSU riding a 2-game win streak (2-0) as road underdog",
+        "Ole Miss favored at home per market (-130)",
+        "No trend data available for Ole Miss to confirm form",
+        "High total (57.5) suggests a potential shootout"
+      ],
+      "reasoning": "LSU enters with strong momentum (2-0, W2) which is a meaningful positive signal, while Ole Miss's form is unknown, creating uncertainty about how deserved their home favorite status is. Given LSU's active winning streak and the tight point spread, I expect Ole Miss to narrowly win at home but LSU to cover as a live underdog given their momentum. Confidence is low due to missing Ole Miss trend data.",
+      "confidence_explanation": null,
+      "context_used": {
+        "away_trends": {
+          "team": "LSU Tigers",
+          "last5": "2-0",
+          "streak": "W2",
+          "record": "2-0",
+          "h2h_vs_opponent": null
+        },
+        "home_trends": {
+          "team": "Ole Miss Rebels",
+          "last5": null,
+          "streak": null,
+          "record": null,
+          "h2h_vs_opponent": null
+        },
+        "weather": null,
+        "probable_pitchers": {
+          "home": null,
+          "away": null
+        }
+      },
+      "generated_at": "2026-09-15T15:38:26.688707+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "LSU Tigers": 109,
+          "Ole Miss Rebels": -130
+        },
+        "spread": {
+          "LSU Tigers": 2.2,
+          "Ole Miss Rebels": -2.2
+        },
+        "total": 57.5,
+        "num_bookmakers": 3
+      }
+    },
     "actual": null
   },
   "americanfootball_ncaaf_2026-09-20_houston-cougars_at_texas-tech-red-raiders": {
@@ -15182,7 +15370,7 @@
     "espn_sport": "football",
     "espn_league": "college-football",
     "outdoor": true,
-    "status": "scheduled",
+    "status": "predicted",
     "odds": {
       "moneyline": {
         "Houston Cougars": 440,
@@ -15195,7 +15383,54 @@
       "total": 54.5,
       "num_bookmakers": 1
     },
-    "prediction": null,
+    "prediction": {
+      "predicted_winner": "Texas Tech Red Raiders",
+      "predicted_against_spread": "Texas Tech Red Raiders",
+      "confidence": 65,
+      "key_factors": [
+        "Texas Tech heavily favored at home (-600 ML)",
+        "13.5-point spread reflects a significant talent gap",
+        "No trend data available for either team, adding uncertainty",
+        "Market strongly favors the home team in this matchup"
+      ],
+      "reasoning": "With no specific trend data for either Houston or Texas Tech, I default more heavily to the substantial market signal here, which shows Texas Tech as a strong -600 favorite. A 13.5-point spread with a large moneyline gap suggests a clear talent or performance differential that the market has priced in confidently. Confidence is moderate-high due to the strength of the market signal despite the lack of underlying trend data.",
+      "confidence_explanation": null,
+      "context_used": {
+        "away_trends": {
+          "team": "Houston Cougars",
+          "last5": null,
+          "streak": null,
+          "record": null,
+          "h2h_vs_opponent": null
+        },
+        "home_trends": {
+          "team": "Texas Tech Red Raiders",
+          "last5": null,
+          "streak": null,
+          "record": null,
+          "h2h_vs_opponent": null
+        },
+        "weather": null,
+        "probable_pitchers": {
+          "home": null,
+          "away": null
+        }
+      },
+      "generated_at": "2026-09-15T15:38:26.688707+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "Houston Cougars": 440,
+          "Texas Tech Red Raiders": -600
+        },
+        "spread": {
+          "Houston Cougars": 13.5,
+          "Texas Tech Red Raiders": -13.5
+        },
+        "total": 54.5,
+        "num_bookmakers": 1
+      }
+    },
     "actual": null
   },
   "americanfootball_ncaaf_2026-09-26_oklahoma-sooners_at_georgia-bulldogs": {
