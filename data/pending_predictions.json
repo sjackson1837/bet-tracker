@@ -1,72 +1,35 @@
 {
   "instructions": "For each game below, act as a sharp, disciplined sports betting analyst. Do NOT simply pick whichever side the betting market favors -- weigh the actual trend data provided (recent form, streaks, head-to-head history, starting pitcher matchups where given, and weather where relevant) and form an independent judgment. It's fine, and expected, to disagree with the market when the trends support it. If trend data is sparse for a game, say so and let that lower your confidence rather than defaulting to the favorite. For each game_id, produce: predicted_winner (exact team name), predicted_against_spread (exact team name), confidence (integer 1-100), key_factors (2-4 short strings), and reasoning (2-4 sentences referencing the specific trend data given).",
   "games": {
-    "americanfootball_ncaaf_2026-09-19_florida-state-seminoles_at_alabama-crimson-tide": {
-      "league": "NCAAF",
-      "away_team": "Florida State Seminoles",
-      "home_team": "Alabama Crimson Tide",
-      "commence_time": "2026-09-19T19:30:00Z",
+    "americanfootball_nfl_2026-09-20_carolina-panthers_at_atlanta-falcons": {
+      "league": "NFL",
+      "away_team": "Carolina Panthers",
+      "home_team": "Atlanta Falcons",
+      "commence_time": "2026-09-20T17:00:00Z",
       "market_line": {
         "moneyline": {
-          "Alabama Crimson Tide": -725,
-          "Florida State Seminoles": 475
+          "Atlanta Falcons": -125,
+          "Carolina Panthers": 105
         },
         "spread": {
-          "Alabama Crimson Tide": -16.0,
-          "Florida State Seminoles": 16.0
+          "Atlanta Falcons": -1.5,
+          "Carolina Panthers": 1.5
         },
-        "total": 52.5,
-        "num_bookmakers": 2
+        "total": 44.1,
+        "num_bookmakers": 4
       },
       "away_team_trends": {
-        "team": "Florida State Seminoles",
-        "last5": "1-1",
+        "team": "Carolina Panthers",
+        "last5": "0-1",
         "streak": "L1",
-        "record": "1-1",
+        "record": "0-1",
         "h2h_vs_opponent": null
       },
       "home_team_trends": {
-        "team": "Alabama Crimson Tide",
-        "last5": null,
-        "streak": null,
-        "record": null,
-        "h2h_vs_opponent": null
-      },
-      "weather_at_kickoff": null,
-      "probable_pitchers": {
-        "home": null,
-        "away": null
-      }
-    },
-    "americanfootball_ncaaf_2026-09-19_smu-mustangs_at_louisville-cardinals": {
-      "league": "NCAAF",
-      "away_team": "SMU Mustangs",
-      "home_team": "Louisville Cardinals",
-      "commence_time": "2026-09-19T19:30:00Z",
-      "market_line": {
-        "moneyline": {
-          "Louisville Cardinals": -115,
-          "SMU Mustangs": -105
-        },
-        "spread": {
-          "Louisville Cardinals": -1.5,
-          "SMU Mustangs": 1.5
-        },
-        "total": 56.5,
-        "num_bookmakers": 1
-      },
-      "away_team_trends": {
-        "team": "SMU Mustangs",
-        "last5": "2-1",
+        "team": "Atlanta Falcons",
+        "last5": "0-1",
         "streak": "L1",
-        "record": "2-1",
-        "h2h_vs_opponent": null
-      },
-      "home_team_trends": {
-        "team": "Louisville Cardinals",
-        "last5": null,
-        "streak": null,
-        "record": null,
+        "record": "0-1",
         "h2h_vs_opponent": null
       },
       "weather_at_kickoff": null,
@@ -75,35 +38,119 @@
         "away": null
       }
     },
-    "americanfootball_ncaaf_2026-09-19_florida-gators_at_auburn-tigers": {
-      "league": "NCAAF",
-      "away_team": "Florida Gators",
-      "home_team": "Auburn Tigers",
-      "commence_time": "2026-09-19T23:00:00Z",
+    "americanfootball_nfl_2026-09-20_new-orleans-saints_at_baltimore-ravens": {
+      "league": "NFL",
+      "away_team": "New Orleans Saints",
+      "home_team": "Baltimore Ravens",
+      "commence_time": "2026-09-20T17:00:00Z",
       "market_line": {
         "moneyline": {
-          "Auburn Tigers": -108,
-          "Florida Gators": -112
+          "Baltimore Ravens": -355,
+          "New Orleans Saints": 280
         },
         "spread": {
-          "Auburn Tigers": 1.5,
-          "Florida Gators": -1.5
+          "Baltimore Ravens": -7.5,
+          "New Orleans Saints": 7.5
         },
-        "total": 53.5,
-        "num_bookmakers": 1
+        "total": 46.5,
+        "num_bookmakers": 4
       },
       "away_team_trends": {
-        "team": "Florida Gators",
-        "last5": "2-0",
-        "streak": "W2",
-        "record": "2-0",
+        "team": "New Orleans Saints",
+        "last5": "0-1",
+        "streak": "L1",
+        "record": "0-1",
         "h2h_vs_opponent": null
       },
       "home_team_trends": {
-        "team": "Auburn Tigers",
-        "last5": "2-0",
-        "streak": "W2",
-        "record": "2-0",
+        "team": "Baltimore Ravens",
+        "last5": "1-0",
+        "streak": "W1",
+        "record": "1-0",
+        "h2h_vs_opponent": null
+      },
+      "weather_at_kickoff": {
+        "high_f": 88.5,
+        "low_f": 69.8,
+        "precipitation_in": 0.157,
+        "wind_mph": 12.0
+      },
+      "probable_pitchers": {
+        "home": null,
+        "away": null
+      }
+    },
+    "americanfootball_nfl_2026-09-20_minnesota-vikings_at_chicago-bears": {
+      "league": "NFL",
+      "away_team": "Minnesota Vikings",
+      "home_team": "Chicago Bears",
+      "commence_time": "2026-09-20T17:00:00Z",
+      "market_line": {
+        "moneyline": {
+          "Chicago Bears": -192,
+          "Minnesota Vikings": 160
+        },
+        "spread": {
+          "Chicago Bears": -3.5,
+          "Minnesota Vikings": 3.5
+        },
+        "total": 45.5,
+        "num_bookmakers": 4
+      },
+      "away_team_trends": {
+        "team": "Minnesota Vikings",
+        "last5": "1-0",
+        "streak": "W1",
+        "record": "1-0",
+        "h2h_vs_opponent": null
+      },
+      "home_team_trends": {
+        "team": "Chicago Bears",
+        "last5": "1-0",
+        "streak": "W1",
+        "record": "1-0",
+        "h2h_vs_opponent": null
+      },
+      "weather_at_kickoff": {
+        "high_f": 70.0,
+        "low_f": 63.4,
+        "precipitation_in": 0.933,
+        "wind_mph": 14.8
+      },
+      "probable_pitchers": {
+        "home": null,
+        "away": null
+      }
+    },
+    "americanfootball_nfl_2026-09-20_cincinnati-bengals_at_houston-texans": {
+      "league": "NFL",
+      "away_team": "Cincinnati Bengals",
+      "home_team": "Houston Texans",
+      "commence_time": "2026-09-20T17:00:00Z",
+      "market_line": {
+        "moneyline": {
+          "Cincinnati Bengals": 114,
+          "Houston Texans": -135
+        },
+        "spread": {
+          "Cincinnati Bengals": 2.9,
+          "Houston Texans": -2.9
+        },
+        "total": 46.5,
+        "num_bookmakers": 4
+      },
+      "away_team_trends": {
+        "team": "Cincinnati Bengals",
+        "last5": "1-0",
+        "streak": "W1",
+        "record": "1-0",
+        "h2h_vs_opponent": null
+      },
+      "home_team_trends": {
+        "team": "Houston Texans",
+        "last5": "0-1",
+        "streak": "L1",
+        "record": "0-1",
         "h2h_vs_opponent": null
       },
       "weather_at_kickoff": null,
@@ -112,35 +159,245 @@
         "away": null
       }
     },
-    "americanfootball_ncaaf_2026-09-19_lsu-tigers_at_ole-miss-rebels": {
-      "league": "NCAAF",
-      "away_team": "LSU Tigers",
-      "home_team": "Ole Miss Rebels",
-      "commence_time": "2026-09-19T23:30:00Z",
+    "americanfootball_nfl_2026-09-20_cleveland-browns_at_tampa-bay-buccaneers": {
+      "league": "NFL",
+      "away_team": "Cleveland Browns",
+      "home_team": "Tampa Bay Buccaneers",
+      "commence_time": "2026-09-20T17:00:00Z",
       "market_line": {
         "moneyline": {
-          "LSU Tigers": 109,
-          "Ole Miss Rebels": -130
+          "Cleveland Browns": 225,
+          "Tampa Bay Buccaneers": -278
         },
         "spread": {
-          "LSU Tigers": 2.2,
-          "Ole Miss Rebels": -2.2
+          "Cleveland Browns": 6.5,
+          "Tampa Bay Buccaneers": -6.5
         },
-        "total": 57.5,
-        "num_bookmakers": 3
+        "total": 42.5,
+        "num_bookmakers": 4
       },
       "away_team_trends": {
-        "team": "LSU Tigers",
-        "last5": "2-0",
-        "streak": "W2",
-        "record": "2-0",
+        "team": "Cleveland Browns",
+        "last5": "0-1",
+        "streak": "L1",
+        "record": "0-1",
         "h2h_vs_opponent": null
       },
       "home_team_trends": {
-        "team": "Ole Miss Rebels",
-        "last5": null,
-        "streak": null,
-        "record": null,
+        "team": "Tampa Bay Buccaneers",
+        "last5": "0-1",
+        "streak": "L1",
+        "record": "0-1",
+        "h2h_vs_opponent": null
+      },
+      "weather_at_kickoff": {
+        "high_f": 91.9,
+        "low_f": 75.5,
+        "precipitation_in": 0.055,
+        "wind_mph": 8.6
+      },
+      "probable_pitchers": {
+        "home": null,
+        "away": null
+      }
+    },
+    "americanfootball_nfl_2026-09-20_green-bay-packers_at_new-york-jets": {
+      "league": "NFL",
+      "away_team": "Green Bay Packers",
+      "home_team": "New York Jets",
+      "commence_time": "2026-09-20T17:00:00Z",
+      "market_line": {
+        "moneyline": {
+          "Green Bay Packers": -245,
+          "New York Jets": 200
+        },
+        "spread": {
+          "Green Bay Packers": -5.5,
+          "New York Jets": 5.5
+        },
+        "total": 42.5,
+        "num_bookmakers": 4
+      },
+      "away_team_trends": {
+        "team": "Green Bay Packers",
+        "last5": "0-1",
+        "streak": "L1",
+        "record": "0-1",
+        "h2h_vs_opponent": null
+      },
+      "home_team_trends": {
+        "team": "New York Jets",
+        "last5": "1-0",
+        "streak": "W1",
+        "record": "1-0",
+        "h2h_vs_opponent": null
+      },
+      "weather_at_kickoff": {
+        "high_f": 76.1,
+        "low_f": 63.1,
+        "precipitation_in": 0.177,
+        "wind_mph": 13.8
+      },
+      "probable_pitchers": {
+        "home": null,
+        "away": null
+      }
+    },
+    "americanfootball_nfl_2026-09-20_pittsburgh-steelers_at_new-england-patriots": {
+      "league": "NFL",
+      "away_team": "Pittsburgh Steelers",
+      "home_team": "New England Patriots",
+      "commence_time": "2026-09-20T17:00:00Z",
+      "market_line": {
+        "moneyline": {
+          "New England Patriots": -218,
+          "Pittsburgh Steelers": 180
+        },
+        "spread": {
+          "New England Patriots": -4.9,
+          "Pittsburgh Steelers": 4.9
+        },
+        "total": 43.1,
+        "num_bookmakers": 4
+      },
+      "away_team_trends": {
+        "team": "Pittsburgh Steelers",
+        "last5": "1-0",
+        "streak": "W1",
+        "record": "1-0",
+        "h2h_vs_opponent": null
+      },
+      "home_team_trends": {
+        "team": "New England Patriots",
+        "last5": "0-1",
+        "streak": "L1",
+        "record": "0-1",
+        "h2h_vs_opponent": null
+      },
+      "weather_at_kickoff": {
+        "high_f": 59.3,
+        "low_f": 45.6,
+        "precipitation_in": 1.472,
+        "wind_mph": 10.9
+      },
+      "probable_pitchers": {
+        "home": null,
+        "away": null
+      }
+    },
+    "americanfootball_nfl_2026-09-20_philadelphia-eagles_at_tennessee-titans": {
+      "league": "NFL",
+      "away_team": "Philadelphia Eagles",
+      "home_team": "Tennessee Titans",
+      "commence_time": "2026-09-20T17:00:00Z",
+      "market_line": {
+        "moneyline": {
+          "Philadelphia Eagles": -218,
+          "Tennessee Titans": 180
+        },
+        "spread": {
+          "Philadelphia Eagles": -4.5,
+          "Tennessee Titans": 4.5
+        },
+        "total": 42.5,
+        "num_bookmakers": 4
+      },
+      "away_team_trends": {
+        "team": "Philadelphia Eagles",
+        "last5": "1-0",
+        "streak": "W1",
+        "record": "1-0",
+        "h2h_vs_opponent": null
+      },
+      "home_team_trends": {
+        "team": "Tennessee Titans",
+        "last5": "0-1",
+        "streak": "L1",
+        "record": "0-1",
+        "h2h_vs_opponent": null
+      },
+      "weather_at_kickoff": {
+        "high_f": 97.2,
+        "low_f": 73.3,
+        "precipitation_in": 0.035,
+        "wind_mph": 8.2
+      },
+      "probable_pitchers": {
+        "home": null,
+        "away": null
+      }
+    },
+    "americanfootball_nfl_2026-09-20_jacksonville-jaguars_at_denver-broncos": {
+      "league": "NFL",
+      "away_team": "Jacksonville Jaguars",
+      "home_team": "Denver Broncos",
+      "commence_time": "2026-09-20T20:05:00Z",
+      "market_line": {
+        "moneyline": {
+          "Denver Broncos": -155,
+          "Jacksonville Jaguars": 130
+        },
+        "spread": {
+          "Denver Broncos": -3.0,
+          "Jacksonville Jaguars": 3.0
+        },
+        "total": 44.2,
+        "num_bookmakers": 4
+      },
+      "away_team_trends": {
+        "team": "Jacksonville Jaguars",
+        "last5": "1-0",
+        "streak": "W1",
+        "record": "1-0",
+        "h2h_vs_opponent": null
+      },
+      "home_team_trends": {
+        "team": "Denver Broncos",
+        "last5": "0-1",
+        "streak": "L1",
+        "record": "0-1",
+        "h2h_vs_opponent": null
+      },
+      "weather_at_kickoff": {
+        "high_f": 77.5,
+        "low_f": 62.0,
+        "precipitation_in": 0.004,
+        "wind_mph": 11.5
+      },
+      "probable_pitchers": {
+        "home": null,
+        "away": null
+      }
+    },
+    "americanfootball_nfl_2026-09-20_las-vegas-raiders_at_los-angeles-chargers": {
+      "league": "NFL",
+      "away_team": "Las Vegas Raiders",
+      "home_team": "Los Angeles Chargers",
+      "commence_time": "2026-09-20T20:05:00Z",
+      "market_line": {
+        "moneyline": {
+          "Las Vegas Raiders": 285,
+          "Los Angeles Chargers": -360
+        },
+        "spread": {
+          "Las Vegas Raiders": 8.5,
+          "Los Angeles Chargers": -8.5
+        },
+        "total": 42.5,
+        "num_bookmakers": 4
+      },
+      "away_team_trends": {
+        "team": "Las Vegas Raiders",
+        "last5": "1-0",
+        "streak": "W1",
+        "record": "1-0",
+        "h2h_vs_opponent": null
+      },
+      "home_team_trends": {
+        "team": "Los Angeles Chargers",
+        "last5": "0-1",
+        "streak": "L1",
+        "record": "0-1",
         "h2h_vs_opponent": null
       },
       "weather_at_kickoff": null,
@@ -149,35 +406,151 @@
         "away": null
       }
     },
-    "americanfootball_ncaaf_2026-09-20_houston-cougars_at_texas-tech-red-raiders": {
-      "league": "NCAAF",
-      "away_team": "Houston Cougars",
-      "home_team": "Texas Tech Red Raiders",
-      "commence_time": "2026-09-20T00:00:00Z",
+    "americanfootball_nfl_2026-09-20_seattle-seahawks_at_arizona-cardinals": {
+      "league": "NFL",
+      "away_team": "Seattle Seahawks",
+      "home_team": "Arizona Cardinals",
+      "commence_time": "2026-09-20T20:25:00Z",
       "market_line": {
         "moneyline": {
-          "Houston Cougars": 440,
-          "Texas Tech Red Raiders": -600
+          "Arizona Cardinals": 410,
+          "Seattle Seahawks": -550
         },
         "spread": {
-          "Houston Cougars": 13.5,
-          "Texas Tech Red Raiders": -13.5
+          "Arizona Cardinals": 10.0,
+          "Seattle Seahawks": -10.0
         },
-        "total": 54.5,
-        "num_bookmakers": 1
+        "total": 44.5,
+        "num_bookmakers": 4
       },
       "away_team_trends": {
-        "team": "Houston Cougars",
-        "last5": null,
-        "streak": null,
-        "record": null,
+        "team": "Seattle Seahawks",
+        "last5": "1-0",
+        "streak": "W1",
+        "record": "1-0",
         "h2h_vs_opponent": null
       },
       "home_team_trends": {
-        "team": "Texas Tech Red Raiders",
-        "last5": null,
-        "streak": null,
-        "record": null,
+        "team": "Arizona Cardinals",
+        "last5": "1-0",
+        "streak": "W1",
+        "record": "1-0",
+        "h2h_vs_opponent": null
+      },
+      "weather_at_kickoff": null,
+      "probable_pitchers": {
+        "home": null,
+        "away": null
+      }
+    },
+    "americanfootball_nfl_2026-09-20_washington-commanders_at_dallas-cowboys": {
+      "league": "NFL",
+      "away_team": "Washington Commanders",
+      "home_team": "Dallas Cowboys",
+      "commence_time": "2026-09-20T20:25:00Z",
+      "market_line": {
+        "moneyline": {
+          "Dallas Cowboys": -205,
+          "Washington Commanders": 170
+        },
+        "spread": {
+          "Dallas Cowboys": -4.5,
+          "Washington Commanders": 4.5
+        },
+        "total": 51.5,
+        "num_bookmakers": 4
+      },
+      "away_team_trends": {
+        "team": "Washington Commanders",
+        "last5": "0-1",
+        "streak": "L1",
+        "record": "0-1",
+        "h2h_vs_opponent": null
+      },
+      "home_team_trends": {
+        "team": "Dallas Cowboys",
+        "last5": "0-1",
+        "streak": "L1",
+        "record": "0-1",
+        "h2h_vs_opponent": null
+      },
+      "weather_at_kickoff": null,
+      "probable_pitchers": {
+        "home": null,
+        "away": null
+      }
+    },
+    "americanfootball_nfl_2026-09-20_miami-dolphins_at_san-francisco-49ers": {
+      "league": "NFL",
+      "away_team": "Miami Dolphins",
+      "home_team": "San Francisco 49ers",
+      "commence_time": "2026-09-20T20:25:00Z",
+      "market_line": {
+        "moneyline": {
+          "Miami Dolphins": 490,
+          "San Francisco 49ers": -675
+        },
+        "spread": {
+          "Miami Dolphins": 10.5,
+          "San Francisco 49ers": -10.5
+        },
+        "total": 46.5,
+        "num_bookmakers": 4
+      },
+      "away_team_trends": {
+        "team": "Miami Dolphins",
+        "last5": "0-1",
+        "streak": "L1",
+        "record": "0-1",
+        "h2h_vs_opponent": null
+      },
+      "home_team_trends": {
+        "team": "San Francisco 49ers",
+        "last5": "1-0",
+        "streak": "W1",
+        "record": "1-0",
+        "h2h_vs_opponent": null
+      },
+      "weather_at_kickoff": {
+        "high_f": 77.1,
+        "low_f": 59.5,
+        "precipitation_in": 0.0,
+        "wind_mph": 10.3
+      },
+      "probable_pitchers": {
+        "home": null,
+        "away": null
+      }
+    },
+    "americanfootball_nfl_2026-09-21_indianapolis-colts_at_kansas-city-chiefs": {
+      "league": "NFL",
+      "away_team": "Indianapolis Colts",
+      "home_team": "Kansas City Chiefs",
+      "commence_time": "2026-09-21T00:20:00Z",
+      "market_line": {
+        "moneyline": {
+          "Indianapolis Colts": 260,
+          "Kansas City Chiefs": -325
+        },
+        "spread": {
+          "Indianapolis Colts": 6.5,
+          "Kansas City Chiefs": -6.5
+        },
+        "total": 47.5,
+        "num_bookmakers": 4
+      },
+      "away_team_trends": {
+        "team": "Indianapolis Colts",
+        "last5": "0-1",
+        "streak": "L1",
+        "record": "0-1",
+        "h2h_vs_opponent": null
+      },
+      "home_team_trends": {
+        "team": "Kansas City Chiefs",
+        "last5": "1-0",
+        "streak": "W1",
+        "record": "1-0",
         "h2h_vs_opponent": null
       },
       "weather_at_kickoff": null,

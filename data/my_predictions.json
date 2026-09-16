@@ -1,67 +1,156 @@
 {
-  "americanfootball_ncaaf_2026-09-19_florida-state-seminoles_at_alabama-crimson-tide": {
-    "predicted_winner": "Alabama Crimson Tide",
-    "predicted_against_spread": "Florida State Seminoles",
-    "confidence": 58,
+  "americanfootball_nfl_2026-09-20_carolina-panthers_at_atlanta-falcons": {
+    "predicted_winner": "Atlanta Falcons",
+    "predicted_against_spread": "Atlanta Falcons",
+    "confidence": 53,
     "key_factors": [
-      "Alabama heavily favored at home (-725 ML)",
-      "FSU coming off a loss (L1) with mediocre 1-1 record",
-      "16-point spread is large and hard to cover consistently",
-      "Limited data on Alabama's recent form"
+      "Both teams 0-1 coming off losses",
+      "Home field slight edge",
+      "No clear trend separation"
     ],
-    "reasoning": "Alabama is a massive home favorite and should win outright given FSU's inconsistent 1-1 start and recent loss. However, a 16-point spread against a power-conference opponent is steep, and without more data on Alabama's own form, I lean toward FSU keeping it closer than the market expects, making the underdog a better side against the number.",
-    "confidence_explanation": null
+    "reasoning": "Both teams are 0-1 with identical L1 streaks, so there's little to differentiate them beyond home-field advantage. The market has Atlanta as a modest favorite, which aligns with a small home-field edge in an otherwise even matchup."
   },
-  "americanfootball_ncaaf_2026-09-19_smu-mustangs_at_louisville-cardinals": {
-    "predicted_winner": "Louisville Cardinals",
-    "predicted_against_spread": "Louisville Cardinals",
+  "americanfootball_nfl_2026-09-20_new-orleans-saints_at_baltimore-ravens": {
+    "predicted_winner": "Baltimore Ravens",
+    "predicted_against_spread": "New Orleans Saints",
+    "confidence": 62,
+    "key_factors": [
+      "Ravens won opener, Saints lost opener",
+      "Large spread (-7.5) may be inflated",
+      "Hot/humid weather could slow high-powered offense"
+    ],
+    "reasoning": "Baltimore is clearly the better team coming off a win while New Orleans lost, supporting a Ravens victory. However, a 7.5-point spread against a divisional-caliber opponent this early in the season seems steep, so I lean toward the Saints covering as backdoor points are common in lopsided divisional-style mismatches early in the year, especially with sloppy weather (heat, humidity, rain) potentially limiting Baltimore's offensive explosion."
+  },
+  "americanfootball_nfl_2026-09-20_minnesota-vikings_at_chicago-bears": {
+    "predicted_winner": "Chicago Bears",
+    "predicted_against_spread": "Minnesota Vikings",
     "confidence": 54,
     "key_factors": [
-      "Near pick'em line (-1.5) reflects a close matchup",
-      "SMU on a 1-game losing streak despite 2-1 record",
-      "No home team trend data available, limiting confidence",
-      "High total (56.5) suggests both offenses expected to score"
+      "Both teams 1-0 coming off wins",
+      "Home field for Bears",
+      "Rainy/windy conditions could favor ground game"
     ],
-    "reasoning": "This is essentially a coin-flip game per the market, and SMU's recent loss (L1) suggests some vulnerability entering this matchup. With home field and no data suggesting Louisville is struggling, I slightly favor the home Cardinals to win and cover the small spread. Confidence is modest given the lack of trend data for Louisville.",
-    "confidence_explanation": null
+    "reasoning": "Both squads enter with winning records and momentum, making this a close matchup decided largely by home field. Given the tight expected margin and wet, windy conditions that often suppress scoring and favor the underdog covering, I lean Vikings against the spread despite picking Chicago to win outright."
   },
-  "americanfootball_ncaaf_2026-09-19_florida-gators_at_auburn-tigers": {
-    "predicted_winner": "Auburn Tigers",
-    "predicted_against_spread": "Auburn Tigers",
+  "americanfootball_nfl_2026-09-20_cincinnati-bengals_at_houston-texans": {
+    "predicted_winner": "Cincinnati Bengals",
+    "predicted_against_spread": "Cincinnati Bengals",
+    "confidence": 58,
+    "key_factors": [
+      "Bengals coming off a win, Texans coming off a loss",
+      "Market favors Texans despite worse recent form",
+      "Divisional-style road dog value"
+    ],
+    "reasoning": "Cincinnati enters 1-0 with momentum while Houston is 0-1 off a loss, yet the market still favors the Texans at home. This disconnect between recent form and the line suggests value on the Bengals both straight up and against the spread."
+  },
+  "americanfootball_nfl_2026-09-20_cleveland-browns_at_tampa-bay-buccaneers": {
+    "predicted_winner": "Tampa Bay Buccaneers",
+    "predicted_against_spread": "Cleveland Browns",
+    "confidence": 56,
+    "key_factors": [
+      "Both teams 0-1 off losses",
+      "Large 6.5-point spread despite similar records",
+      "Hot weather could favor either ground-based attack"
+    ],
+    "reasoning": "Both teams are 0-1 with L1 streaks, showing no real form advantage for Tampa Bay, yet the market has them favored by 6.5. That gap between the betting line and actual recent performance suggests the Browns have value as underdogs to keep this closer than expected."
+  },
+  "americanfootball_nfl_2026-09-20_green-bay-packers_at_new-york-jets": {
+    "predicted_winner": "Green Bay Packers",
+    "predicted_against_spread": "New York Jets",
     "confidence": 55,
     "key_factors": [
-      "Both teams unbeaten and on 2-game win streaks (2-0)",
-      "Auburn has home field advantage",
-      "Evenly matched per betting market (near pick'em)",
-      "No significant trend separates the two sides"
+      "Jets 1-0 and Packers 0-1, opposite recent trend",
+      "Market strongly favors Packers anyway (-5.5)",
+      "Rainy/windy conditions at kickoff"
     ],
-    "reasoning": "Both Florida and Auburn enter this game undefeated and riding two-game win streaks, making this a genuine toss-up based on the trend data provided. With no clear statistical edge between the teams, I give a slight nod to Auburn due to home field advantage in this closely contested SEC matchup. Confidence is modest given the near-identical trends.",
-    "confidence_explanation": null
+    "reasoning": "Green Bay is talented enough to be favored despite the Jets holding the better recent record, and I still lean Packers to win outright given roster quality. However, the current-form disconnect (Jets won, Packers lost) combined with a hefty 5.5-point line supports the Jets covering at home in likely sloppy weather conditions."
   },
-  "americanfootball_ncaaf_2026-09-19_lsu-tigers_at_ole-miss-rebels": {
-    "predicted_winner": "Ole Miss Rebels",
-    "predicted_against_spread": "LSU Tigers",
+  "americanfootball_nfl_2026-09-20_pittsburgh-steelers_at_new-england-patriots": {
+    "predicted_winner": "Pittsburgh Steelers",
+    "predicted_against_spread": "Pittsburgh Steelers",
+    "confidence": 60,
+    "key_factors": [
+      "Steelers 1-0 off a win, Patriots 0-1 off a loss",
+      "Market favors Patriots by ~5 despite worse form",
+      "Wet weather (1.47in precip) could favor more physical/run-heavy team"
+    ],
+    "reasoning": "Pittsburgh enters with a winning record and positive momentum while New England is coming off a loss, yet the market still favors the Patriots at home. This mismatch between recent form and the line points to value on the Steelers both to win and cover, especially in wet conditions that often neutralize a home passing-based favorite."
+  },
+  "americanfootball_nfl_2026-09-20_philadelphia-eagles_at_tennessee-titans": {
+    "predicted_winner": "Philadelphia Eagles",
+    "predicted_against_spread": "Philadelphia Eagles",
+    "confidence": 66,
+    "key_factors": [
+      "Eagles 1-0 and Titans 0-1",
+      "Extreme heat (97\u00b0F) could favor road team better conditioned/deeper roster",
+      "Consistent line supports Eagles as clear better team"
+    ],
+    "reasoning": "Philadelphia is coming off a win while Tennessee is coming off a loss, aligning with the market's clear favorite status for the Eagles. Extreme heat at kickoff (97\u00b0F) is a wildcard, but it doesn't change the fundamental talent gap, so I favor the Eagles both straight up and against the spread."
+  },
+  "americanfootball_nfl_2026-09-20_jacksonville-jaguars_at_denver-broncos": {
+    "predicted_winner": "Jacksonville Jaguars",
+    "predicted_against_spread": "Jacksonville Jaguars",
+    "confidence": 58,
+    "key_factors": [
+      "Jaguars 1-0 off a win, Broncos 0-1 off a loss",
+      "Market favors Broncos despite worse recent form",
+      "Mild weather, no major edge either way"
+    ],
+    "reasoning": "Jacksonville enters with positive momentum after a win, while Denver is coming off a loss, yet Denver remains favored by the market. That disconnect between recent performance and the line makes the Jaguars an attractive pick both to win and cover."
+  },
+  "americanfootball_nfl_2026-09-20_las-vegas-raiders_at_los-angeles-chargers": {
+    "predicted_winner": "Los Angeles Chargers",
+    "predicted_against_spread": "Las Vegas Raiders",
+    "confidence": 57,
+    "key_factors": [
+      "Raiders 1-0 off a win, Chargers 0-1 off a loss",
+      "Chargers heavily favored (-8.5) despite worse recent form",
+      "Large spread invites backdoor cover value"
+    ],
+    "reasoning": "Los Angeles is favored by a full touchdown-plus despite being 0-1 while Las Vegas enters 1-0 with momentum, a notable disconnect. I still favor the Chargers to win given the wide market gap likely reflects real talent difference, but the Raiders' recent form and the size of the spread make them attractive for backdoor cover value."
+  },
+  "americanfootball_nfl_2026-09-20_seattle-seahawks_at_arizona-cardinals": {
+    "predicted_winner": "Seattle Seahawks",
+    "predicted_against_spread": "Arizona Cardinals",
+    "confidence": 56,
+    "key_factors": [
+      "Both teams 1-0 off wins",
+      "Extremely large 10-point spread for two similarly performing teams",
+      "No significant trend edge for either side"
+    ],
+    "reasoning": "Both Seattle and Arizona enter 1-0 with winning momentum, showing no clear form-based edge for the Seahawks despite the market's steep -10 line. Given the similar recent performance, I lean toward Arizona covering this inflated spread even while acknowledging Seattle as the likely better overall team and probable winner."
+  },
+  "americanfootball_nfl_2026-09-20_washington-commanders_at_dallas-cowboys": {
+    "predicted_winner": "Dallas Cowboys",
+    "predicted_against_spread": "Washington Commanders",
     "confidence": 52,
     "key_factors": [
-      "LSU riding a 2-game win streak (2-0) as road underdog",
-      "Ole Miss favored at home per market (-130)",
-      "No trend data available for Ole Miss to confirm form",
-      "High total (57.5) suggests a potential shootout"
+      "Both teams 0-1 off losses",
+      "High total (51.5) suggests shootout expected",
+      "No clear form differentiation between teams"
     ],
-    "reasoning": "LSU enters with strong momentum (2-0, W2) which is a meaningful positive signal, while Ole Miss's form is unknown, creating uncertainty about how deserved their home favorite status is. Given LSU's active winning streak and the tight point spread, I expect Ole Miss to narrowly win at home but LSU to cover as a live underdog given their momentum. Confidence is low due to missing Ole Miss trend data.",
-    "confidence_explanation": null
+    "reasoning": "Both Washington and Dallas are 0-1 coming off losses, offering little to separate them beyond home-field advantage, which supports Dallas as a slight favorite. Given the lack of a decisive trend edge and a full touchdown-plus spread, I lean toward Washington keeping this game close and covering."
   },
-  "americanfootball_ncaaf_2026-09-20_houston-cougars_at_texas-tech-red-raiders": {
-    "predicted_winner": "Texas Tech Red Raiders",
-    "predicted_against_spread": "Texas Tech Red Raiders",
-    "confidence": 65,
+  "americanfootball_nfl_2026-09-20_miami-dolphins_at_san-francisco-49ers": {
+    "predicted_winner": "San Francisco 49ers",
+    "predicted_against_spread": "Miami Dolphins",
+    "confidence": 62,
     "key_factors": [
-      "Texas Tech heavily favored at home (-600 ML)",
-      "13.5-point spread reflects a significant talent gap",
-      "No trend data available for either team, adding uncertainty",
-      "Market strongly favors the home team in this matchup"
+      "49ers 1-0 off a win, Dolphins 0-1 off a loss",
+      "Very large 10.5-point spread",
+      "Mild home weather favors 49ers offense"
     ],
-    "reasoning": "With no specific trend data for either Houston or Texas Tech, I default more heavily to the substantial market signal here, which shows Texas Tech as a strong -600 favorite. A 13.5-point spread with a large moneyline gap suggests a clear talent or performance differential that the market has priced in confidently. Confidence is moderate-high due to the strength of the market signal despite the lack of underlying trend data.",
-    "confidence_explanation": null
+    "reasoning": "San Francisco's positive momentum and home comforts support them as the likely winner over a struggling Miami team coming off a loss. However, a double-digit spread is a lot to lay this early in the season, so I favor the Dolphins to cover as backdoor points are common in such lopsided lines."
+  },
+  "americanfootball_nfl_2026-09-21_indianapolis-colts_at_kansas-city-chiefs": {
+    "predicted_winner": "Kansas City Chiefs",
+    "predicted_against_spread": "Indianapolis Colts",
+    "confidence": 63,
+    "key_factors": [
+      "Chiefs 1-0 off a win, Colts 0-1 off a loss",
+      "Large 6.5-point spread despite early-season uncertainty",
+      "Chiefs' strong recent form supports favorite status"
+    ],
+    "reasoning": "Kansas City's win and Indianapolis' loss support the Chiefs as the stronger side heading into this game, aligning with market expectations. Still, a 6.5-point spread is substantial for a young season, and I expect the Colts to keep this competitive enough to cover even in a losing effort."
   }
 }
