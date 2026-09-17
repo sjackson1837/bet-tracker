@@ -2272,7 +2272,7 @@
     "espn_sport": "football",
     "espn_league": "nfl",
     "outdoor": true,
-    "status": "scheduled",
+    "status": "predicted",
     "odds": {
       "moneyline": {
         "Los Angeles Rams": -380,
@@ -2285,7 +2285,53 @@
       "total": 49.2,
       "num_bookmakers": 4
     },
-    "prediction": null,
+    "prediction": {
+      "predicted_winner": "Los Angeles Rams",
+      "predicted_against_spread": "New York Giants",
+      "confidence": 55,
+      "key_factors": [
+        "Rams are heavily favored at home (-380/-8.5), reflecting stronger roster talent",
+        "Giants have early season momentum (1-0, W1) vs Rams coming off a loss (0-1, L1)",
+        "Very limited sample size (1 game each) makes trend data thin and unreliable",
+        "Large spread (8.5) is tough to cover even for a good team against a motivated underdog"
+      ],
+      "reasoning": "The Rams are big favorites and likely the better overall team, but with only one game of data for each side, the sample is too thin to be highly confident. The Giants' 1-0 start and the Rams' 0-1 skid coming off a loss suggest the Rams may not be fully clicking yet, making the 8.5-point spread vulnerable. I lean toward the Rams winning outright given the talent gap implied by the market, but expect the Giants to keep it closer than the double-digit market implies.",
+      "context_used": {
+        "away_trends": {
+          "team": "New York Giants",
+          "last5": "1-0",
+          "streak": "W1",
+          "record": "1-0",
+          "h2h_vs_opponent": null
+        },
+        "home_trends": {
+          "team": "Los Angeles Rams",
+          "last5": "0-1",
+          "streak": "L1",
+          "record": "0-1",
+          "h2h_vs_opponent": null
+        },
+        "weather": null,
+        "probable_pitchers": {
+          "home": null,
+          "away": null
+        }
+      },
+      "generated_at": "2026-09-17T15:36:00.565720+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "Los Angeles Rams": -380,
+          "New York Giants": 300
+        },
+        "spread": {
+          "Los Angeles Rams": -8.5,
+          "New York Giants": 8.5
+        },
+        "total": 49.2,
+        "num_bookmakers": 4
+      }
+    },
     "actual": null
   },
   "americanfootball_nfl_2026-09-25_atlanta-falcons_at_green-bay-packers": {
