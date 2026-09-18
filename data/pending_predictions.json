@@ -1,42 +1,4 @@
 {
   "instructions": "For each game below, act as a sharp, disciplined sports betting analyst. Do NOT simply pick whichever side the betting market favors -- weigh the actual trend data provided (recent form, streaks, head-to-head history, starting pitcher matchups where given, and weather where relevant) and form an independent judgment. It's fine, and expected, to disagree with the market when the trends support it. If trend data is sparse for a game, say so and let that lower your confidence rather than defaulting to the favorite. For each game_id, produce: predicted_winner (exact team name), predicted_against_spread (exact team name), confidence (integer 1-100), key_factors (2-4 short strings), and reasoning (2-4 sentences referencing the specific trend data given).",
-  "games": {
-    "americanfootball_nfl_2026-09-22_new-york-giants_at_los-angeles-rams": {
-      "league": "NFL",
-      "away_team": "New York Giants",
-      "home_team": "Los Angeles Rams",
-      "commence_time": "2026-09-22T00:15:00Z",
-      "market_line": {
-        "moneyline": {
-          "Los Angeles Rams": -380,
-          "New York Giants": 300
-        },
-        "spread": {
-          "Los Angeles Rams": -8.5,
-          "New York Giants": 8.5
-        },
-        "total": 49.2,
-        "num_bookmakers": 4
-      },
-      "away_team_trends": {
-        "team": "New York Giants",
-        "last5": "1-0",
-        "streak": "W1",
-        "record": "1-0",
-        "h2h_vs_opponent": null
-      },
-      "home_team_trends": {
-        "team": "Los Angeles Rams",
-        "last5": "0-1",
-        "streak": "L1",
-        "record": "0-1",
-        "h2h_vs_opponent": null
-      },
-      "weather_at_kickoff": null,
-      "probable_pitchers": {
-        "home": null,
-        "away": null
-      }
-    }
-  }
+  "games": {}
 }

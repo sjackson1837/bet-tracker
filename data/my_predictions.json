@@ -1,14 +1,1 @@
-{
-  "americanfootball_nfl_2026-09-22_new-york-giants_at_los-angeles-rams": {
-    "predicted_winner": "Los Angeles Rams",
-    "predicted_against_spread": "New York Giants",
-    "confidence": 55,
-    "key_factors": [
-      "Rams are heavily favored at home (-380/-8.5), reflecting stronger roster talent",
-      "Giants have early season momentum (1-0, W1) vs Rams coming off a loss (0-1, L1)",
-      "Very limited sample size (1 game each) makes trend data thin and unreliable",
-      "Large spread (8.5) is tough to cover even for a good team against a motivated underdog"
-    ],
-    "reasoning": "The Rams are big favorites and likely the better overall team, but with only one game of data for each side, the sample is too thin to be highly confident. The Giants' 1-0 start and the Rams' 0-1 skid coming off a loss suggest the Rams may not be fully clicking yet, making the 8.5-point spread vulnerable. I lean toward the Rams winning outright given the talent gap implied by the market, but expect the Giants to keep it closer than the double-digit market implies."
-  }
-}
+{}
