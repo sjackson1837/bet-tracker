@@ -1,4 +1,195 @@
 {
   "instructions": "For each game below, act as a sharp, disciplined sports betting analyst. Do NOT simply pick whichever side the betting market favors -- weigh the actual trend data provided (recent form, streaks, head-to-head history, starting pitcher matchups where given, and weather where relevant) and form an independent judgment. It's fine, and expected, to disagree with the market when the trends support it. If trend data is sparse for a game, say so and let that lower your confidence rather than defaulting to the favorite. For each game_id, produce: predicted_winner (exact team name), predicted_against_spread (exact team name), confidence (integer 1-100), key_factors (2-4 short strings), and reasoning (2-4 sentences referencing the specific trend data given).",
-  "games": {}
+  "games": {
+    "americanfootball_nfl_2026-09-25_atlanta-falcons_at_green-bay-packers": {
+      "league": "NFL",
+      "away_team": "Atlanta Falcons",
+      "home_team": "Green Bay Packers",
+      "commence_time": "2026-09-25T00:15:00Z",
+      "market_line": {
+        "moneyline": {
+          "Atlanta Falcons": 295,
+          "Green Bay Packers": -375
+        },
+        "spread": {
+          "Atlanta Falcons": 7.5,
+          "Green Bay Packers": -7.5
+        },
+        "total": 46.5,
+        "num_bookmakers": 2
+      },
+      "away_team_trends": {
+        "team": "Atlanta Falcons",
+        "last5": "0-2",
+        "streak": "L2",
+        "record": "0-2",
+        "h2h_vs_opponent": null
+      },
+      "home_team_trends": {
+        "team": "Green Bay Packers",
+        "last5": "1-1",
+        "streak": "W1",
+        "record": "1-1",
+        "h2h_vs_opponent": null
+      },
+      "weather_at_kickoff": {
+        "high_f": 69.3,
+        "low_f": 55.6,
+        "precipitation_in": 0.0,
+        "wind_mph": 10.7
+      },
+      "probable_pitchers": {
+        "home": null,
+        "away": null
+      }
+    },
+    "americanfootball_ncaaf_2026-09-26_oklahoma-sooners_at_georgia-bulldogs": {
+      "league": "NCAAF",
+      "away_team": "Oklahoma Sooners",
+      "home_team": "Georgia Bulldogs",
+      "commence_time": "2026-09-26T16:00:00Z",
+      "market_line": {
+        "moneyline": {
+          "Georgia Bulldogs": -395,
+          "Oklahoma Sooners": 310
+        },
+        "spread": {
+          "Georgia Bulldogs": -10.0,
+          "Oklahoma Sooners": 10.0
+        },
+        "total": 52.5,
+        "num_bookmakers": 1
+      },
+      "away_team_trends": {
+        "team": "Oklahoma Sooners",
+        "last5": null,
+        "streak": null,
+        "record": null,
+        "h2h_vs_opponent": null
+      },
+      "home_team_trends": {
+        "team": "Georgia Bulldogs",
+        "last5": "3-0",
+        "streak": "W3",
+        "record": "3-0",
+        "h2h_vs_opponent": null
+      },
+      "weather_at_kickoff": null,
+      "probable_pitchers": {
+        "home": null,
+        "away": null
+      }
+    },
+    "americanfootball_ncaaf_2026-09-26_texas-a&m-aggies_at_lsu-tigers": {
+      "league": "NCAAF",
+      "away_team": "Texas A&M Aggies",
+      "home_team": "LSU Tigers",
+      "commence_time": "2026-09-26T16:00:00Z",
+      "market_line": {
+        "moneyline": {
+          "LSU Tigers": -155,
+          "Texas A&M Aggies": 130
+        },
+        "spread": {
+          "LSU Tigers": -3.0,
+          "Texas A&M Aggies": 3.0
+        },
+        "total": 56.5,
+        "num_bookmakers": 1
+      },
+      "away_team_trends": {
+        "team": "Texas A&M Aggies",
+        "last5": null,
+        "streak": null,
+        "record": null,
+        "h2h_vs_opponent": null
+      },
+      "home_team_trends": {
+        "team": "LSU Tigers",
+        "last5": "2-1",
+        "streak": "L1",
+        "record": "2-1",
+        "h2h_vs_opponent": null
+      },
+      "weather_at_kickoff": null,
+      "probable_pitchers": {
+        "home": null,
+        "away": null
+      }
+    },
+    "americanfootball_ncaaf_2026-09-26_oregon-ducks_at_usc-trojans": {
+      "league": "NCAAF",
+      "away_team": "Oregon Ducks",
+      "home_team": "USC Trojans",
+      "commence_time": "2026-09-26T16:00:00Z",
+      "market_line": {
+        "moneyline": {
+          "Oregon Ducks": -238,
+          "USC Trojans": 195
+        },
+        "spread": {
+          "Oregon Ducks": -5.5,
+          "USC Trojans": 5.5
+        },
+        "total": 58.5,
+        "num_bookmakers": 1
+      },
+      "away_team_trends": {
+        "team": "Oregon Ducks",
+        "last5": null,
+        "streak": null,
+        "record": null,
+        "h2h_vs_opponent": null
+      },
+      "home_team_trends": {
+        "team": "USC Trojans",
+        "last5": "4-0",
+        "streak": "W4",
+        "record": "4-0",
+        "h2h_vs_opponent": null
+      },
+      "weather_at_kickoff": null,
+      "probable_pitchers": {
+        "home": null,
+        "away": null
+      }
+    },
+    "americanfootball_ncaaf_2026-09-26_texas-longhorns_at_tennessee-volunteers": {
+      "league": "NCAAF",
+      "away_team": "Texas Longhorns",
+      "home_team": "Tennessee Volunteers",
+      "commence_time": "2026-09-26T16:00:00Z",
+      "market_line": {
+        "moneyline": {
+          "Tennessee Volunteers": 220,
+          "Texas Longhorns": -270
+        },
+        "spread": {
+          "Tennessee Volunteers": 6.5,
+          "Texas Longhorns": -6.5
+        },
+        "total": 56.5,
+        "num_bookmakers": 1
+      },
+      "away_team_trends": {
+        "team": "Texas Longhorns",
+        "last5": null,
+        "streak": null,
+        "record": null,
+        "h2h_vs_opponent": null
+      },
+      "home_team_trends": {
+        "team": "Tennessee Volunteers",
+        "last5": null,
+        "streak": null,
+        "record": null,
+        "h2h_vs_opponent": null
+      },
+      "weather_at_kickoff": null,
+      "probable_pitchers": {
+        "home": null,
+        "away": null
+      }
+    }
+  }
 }
