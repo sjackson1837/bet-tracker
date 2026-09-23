@@ -2419,7 +2419,7 @@
     "espn_sport": "football",
     "espn_league": "nfl",
     "outdoor": true,
-    "status": "scheduled",
+    "status": "predicted",
     "odds": {
       "moneyline": {
         "Buffalo Bills": -162,
@@ -2432,7 +2432,57 @@
       "total": 48.5,
       "num_bookmakers": 1
     },
-    "prediction": null,
+    "prediction": {
+      "predicted_winner": "Buffalo Bills",
+      "predicted_against_spread": "Buffalo Bills",
+      "confidence": 68,
+      "key_factors": [
+        "Bills 2-0 and W2 streak vs Chargers 0-2 and L2 streak",
+        "Home field advantage",
+        "Mild weather, no major impact"
+      ],
+      "reasoning": "Buffalo is undefeated and rolling with a two-game win streak while LA is winless and struggling on both sides. The form gap is significant enough to trust the home favorite even laying a field goal.",
+      "context_used": {
+        "away_trends": {
+          "team": "Los Angeles Chargers",
+          "last5": "0-2",
+          "streak": "L2",
+          "record": "0-2",
+          "h2h_vs_opponent": null
+        },
+        "home_trends": {
+          "team": "Buffalo Bills",
+          "last5": "2-0",
+          "streak": "W2",
+          "record": "2-0",
+          "h2h_vs_opponent": null
+        },
+        "weather": {
+          "high_f": 70.5,
+          "low_f": 48.6,
+          "precipitation_in": 0.0,
+          "wind_mph": 11.6
+        },
+        "probable_pitchers": {
+          "home": null,
+          "away": null
+        }
+      },
+      "generated_at": "2026-09-23T15:31:13.628293+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "Buffalo Bills": -162,
+          "Los Angeles Chargers": 136
+        },
+        "spread": {
+          "Buffalo Bills": -3.0,
+          "Los Angeles Chargers": 3.0
+        },
+        "total": 48.5,
+        "num_bookmakers": 1
+      }
+    },
     "actual": null
   },
   "americanfootball_nfl_2026-09-27_carolina-panthers_at_cleveland-browns": {
@@ -2444,7 +2494,7 @@
     "espn_sport": "football",
     "espn_league": "nfl",
     "outdoor": true,
-    "status": "scheduled",
+    "status": "predicted",
     "odds": {
       "moneyline": {
         "Carolina Panthers": -122,
@@ -2457,7 +2507,57 @@
       "total": 39.5,
       "num_bookmakers": 1
     },
-    "prediction": null,
+    "prediction": {
+      "predicted_winner": "Carolina Panthers",
+      "predicted_against_spread": "Cleveland Browns",
+      "confidence": 52,
+      "key_factors": [
+        "Both teams 1-1 with W1 streaks",
+        "Small spread reflects near pick'em",
+        "No head-to-head data available"
+      ],
+      "reasoning": "Records and momentum are essentially identical between these two teams, making this close to a coin flip. Carolina gets a slight edge as true road favorite, but the tight spread suggests Cleveland can keep it close or win outright, so I lean the home dog against the number.",
+      "context_used": {
+        "away_trends": {
+          "team": "Carolina Panthers",
+          "last5": "1-1",
+          "streak": "W1",
+          "record": "1-1",
+          "h2h_vs_opponent": null
+        },
+        "home_trends": {
+          "team": "Cleveland Browns",
+          "last5": "1-1",
+          "streak": "W1",
+          "record": "1-1",
+          "h2h_vs_opponent": null
+        },
+        "weather": {
+          "high_f": 67.0,
+          "low_f": 59.3,
+          "precipitation_in": 0.0,
+          "wind_mph": 8.6
+        },
+        "probable_pitchers": {
+          "home": null,
+          "away": null
+        }
+      },
+      "generated_at": "2026-09-23T15:31:13.628293+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "Carolina Panthers": -122,
+          "Cleveland Browns": 102
+        },
+        "spread": {
+          "Carolina Panthers": -1.5,
+          "Cleveland Browns": 1.5
+        },
+        "total": 39.5,
+        "num_bookmakers": 1
+      }
+    },
     "actual": null
   },
   "americanfootball_nfl_2026-09-27_cincinnati-bengals_at_pittsburgh-steelers": {
@@ -2469,7 +2569,7 @@
     "espn_sport": "football",
     "espn_league": "nfl",
     "outdoor": true,
-    "status": "scheduled",
+    "status": "predicted",
     "odds": {
       "moneyline": {
         "Cincinnati Bengals": -125,
@@ -2482,7 +2582,57 @@
       "total": 47.0,
       "num_bookmakers": 2
     },
-    "prediction": null,
+    "prediction": {
+      "predicted_winner": "Cincinnati Bengals",
+      "predicted_against_spread": "Cincinnati Bengals",
+      "confidence": 60,
+      "key_factors": [
+        "Bengals 2-0 and on W2 streak",
+        "Steelers coming off a loss (L1)",
+        "Road favorite with better recent form"
+      ],
+      "reasoning": "Cincinnati is undefeated and playing with momentum while Pittsburgh just lost their previous game. The Bengals' superior recent form supports them covering as road favorites in a game with a modest spread.",
+      "context_used": {
+        "away_trends": {
+          "team": "Cincinnati Bengals",
+          "last5": "2-0",
+          "streak": "W2",
+          "record": "2-0",
+          "h2h_vs_opponent": null
+        },
+        "home_trends": {
+          "team": "Pittsburgh Steelers",
+          "last5": "1-1",
+          "streak": "L1",
+          "record": "1-1",
+          "h2h_vs_opponent": null
+        },
+        "weather": {
+          "high_f": 71.1,
+          "low_f": 51.5,
+          "precipitation_in": 0.0,
+          "wind_mph": 8.4
+        },
+        "probable_pitchers": {
+          "home": null,
+          "away": null
+        }
+      },
+      "generated_at": "2026-09-23T15:31:13.628293+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "Cincinnati Bengals": -125,
+          "Pittsburgh Steelers": 105
+        },
+        "spread": {
+          "Cincinnati Bengals": -1.5,
+          "Pittsburgh Steelers": 1.5
+        },
+        "total": 47.0,
+        "num_bookmakers": 2
+      }
+    },
     "actual": null
   },
   "americanfootball_nfl_2026-09-27_new-york-jets_at_detroit-lions": {
@@ -2519,7 +2669,7 @@
     "espn_sport": "football",
     "espn_league": "nfl",
     "outdoor": true,
-    "status": "scheduled",
+    "status": "predicted",
     "odds": {
       "moneyline": {
         "Houston Texans": -122,
@@ -2532,7 +2682,52 @@
       "total": 45.5,
       "num_bookmakers": 2
     },
-    "prediction": null,
+    "prediction": {
+      "predicted_winner": "Indianapolis Colts",
+      "predicted_against_spread": "Indianapolis Colts",
+      "confidence": 54,
+      "key_factors": [
+        "Both teams 0-2 and on L2 streaks",
+        "Home field could be tiebreaker",
+        "No meaningful trend edge either way"
+      ],
+      "reasoning": "Both teams are struggling equally at 0-2 with two-game losing streaks, making this a true toss-up. I'll lean toward the home team getting a boost from playing at Indianapolis, taking the points as a home dog.",
+      "context_used": {
+        "away_trends": {
+          "team": "Houston Texans",
+          "last5": "0-2",
+          "streak": "L2",
+          "record": "0-2",
+          "h2h_vs_opponent": null
+        },
+        "home_trends": {
+          "team": "Indianapolis Colts",
+          "last5": "0-2",
+          "streak": "L2",
+          "record": "0-2",
+          "h2h_vs_opponent": null
+        },
+        "weather": null,
+        "probable_pitchers": {
+          "home": null,
+          "away": null
+        }
+      },
+      "generated_at": "2026-09-23T15:31:13.628293+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "Houston Texans": -122,
+          "Indianapolis Colts": 102
+        },
+        "spread": {
+          "Houston Texans": -1.5,
+          "Indianapolis Colts": 1.5
+        },
+        "total": 45.5,
+        "num_bookmakers": 2
+      }
+    },
     "actual": null
   },
   "americanfootball_nfl_2026-09-27_new-england-patriots_at_jacksonville-jaguars": {
@@ -2544,7 +2739,7 @@
     "espn_sport": "football",
     "espn_league": "nfl",
     "outdoor": true,
-    "status": "scheduled",
+    "status": "predicted",
     "odds": {
       "moneyline": {
         "Jacksonville Jaguars": -118,
@@ -2557,7 +2752,57 @@
       "total": 45.5,
       "num_bookmakers": 2
     },
-    "prediction": null,
+    "prediction": {
+      "predicted_winner": "New England Patriots",
+      "predicted_against_spread": "New England Patriots",
+      "confidence": 55,
+      "key_factors": [
+        "Patriots on W1 streak, Jaguars on L1",
+        "Near pick'em odds",
+        "Hot weather in Jacksonville could favor either team"
+      ],
+      "reasoning": "New England enters with positive momentum (W1) while Jacksonville is coming off a loss (L1), a slight edge that aligns with the near even odds. I'll take the Patriots both to win and cover given their better recent trajectory.",
+      "context_used": {
+        "away_trends": {
+          "team": "New England Patriots",
+          "last5": "1-1",
+          "streak": "W1",
+          "record": "1-1",
+          "h2h_vs_opponent": null
+        },
+        "home_trends": {
+          "team": "Jacksonville Jaguars",
+          "last5": "1-1",
+          "streak": "L1",
+          "record": "1-1",
+          "h2h_vs_opponent": null
+        },
+        "weather": {
+          "high_f": 88.7,
+          "low_f": 70.9,
+          "precipitation_in": 0.0,
+          "wind_mph": 11.2
+        },
+        "probable_pitchers": {
+          "home": null,
+          "away": null
+        }
+      },
+      "generated_at": "2026-09-23T15:31:13.628293+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "Jacksonville Jaguars": -118,
+          "New England Patriots": -102
+        },
+        "spread": {
+          "Jacksonville Jaguars": -1.5,
+          "New England Patriots": 1.5
+        },
+        "total": 45.5,
+        "num_bookmakers": 2
+      }
+    },
     "actual": null
   },
   "americanfootball_nfl_2026-09-27_kansas-city-chiefs_at_miami-dolphins": {
@@ -2569,7 +2814,7 @@
     "espn_sport": "football",
     "espn_league": "nfl",
     "outdoor": true,
-    "status": "scheduled",
+    "status": "predicted",
     "odds": {
       "moneyline": {
         "Kansas City Chiefs": -440,
@@ -2582,7 +2827,57 @@
       "total": 44.5,
       "num_bookmakers": 2
     },
-    "prediction": null,
+    "prediction": {
+      "predicted_winner": "Kansas City Chiefs",
+      "predicted_against_spread": "Kansas City Chiefs",
+      "confidence": 78,
+      "key_factors": [
+        "Chiefs 2-0 and W2 streak vs Dolphins 0-2 and L2 streak",
+        "Large moneyline gap reflects big form gap",
+        "Hot, humid weather with some rain in Miami"
+      ],
+      "reasoning": "Kansas City is undefeated and rolling while Miami is winless and struggling, a clear and significant form gap. The Chiefs' quality and momentum should be enough to cover the road spread despite Miami's home-field boost.",
+      "context_used": {
+        "away_trends": {
+          "team": "Kansas City Chiefs",
+          "last5": "2-0",
+          "streak": "W2",
+          "record": "2-0",
+          "h2h_vs_opponent": null
+        },
+        "home_trends": {
+          "team": "Miami Dolphins",
+          "last5": "0-2",
+          "streak": "L2",
+          "record": "0-2",
+          "h2h_vs_opponent": null
+        },
+        "weather": {
+          "high_f": 89.9,
+          "low_f": 79.6,
+          "precipitation_in": 0.047,
+          "wind_mph": 13.1
+        },
+        "probable_pitchers": {
+          "home": null,
+          "away": null
+        }
+      },
+      "generated_at": "2026-09-23T15:31:13.628293+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "Kansas City Chiefs": -440,
+          "Miami Dolphins": 340
+        },
+        "spread": {
+          "Kansas City Chiefs": -7.2,
+          "Miami Dolphins": 7.2
+        },
+        "total": 44.5,
+        "num_bookmakers": 2
+      }
+    },
     "actual": null
   },
   "americanfootball_nfl_2026-09-27_tennessee-titans_at_new-york-giants": {
@@ -2594,7 +2889,7 @@
     "espn_sport": "football",
     "espn_league": "nfl",
     "outdoor": true,
-    "status": "scheduled",
+    "status": "predicted",
     "odds": {
       "moneyline": {
         "New York Giants": -166,
@@ -2607,7 +2902,57 @@
       "total": 45.0,
       "num_bookmakers": 2
     },
-    "prediction": null,
+    "prediction": {
+      "predicted_winner": "New York Giants",
+      "predicted_against_spread": "New York Giants",
+      "confidence": 66,
+      "key_factors": [
+        "Titans 0-2 and L2 streak vs Giants 1-1",
+        "Giants have better recent form despite own L1 streak",
+        "Slight rain and wind in NY"
+      ],
+      "reasoning": "Tennessee is winless through two games while New York has at least one win, giving the Giants a clear recent-form edge as home favorites. The moderate spread aligns with this gap, supporting the Giants covering.",
+      "context_used": {
+        "away_trends": {
+          "team": "Tennessee Titans",
+          "last5": "0-2",
+          "streak": "L2",
+          "record": "0-2",
+          "h2h_vs_opponent": null
+        },
+        "home_trends": {
+          "team": "New York Giants",
+          "last5": "1-1",
+          "streak": "L1",
+          "record": "1-1",
+          "h2h_vs_opponent": null
+        },
+        "weather": {
+          "high_f": 60.8,
+          "low_f": 57.5,
+          "precipitation_in": 0.031,
+          "wind_mph": 11.5
+        },
+        "probable_pitchers": {
+          "home": null,
+          "away": null
+        }
+      },
+      "generated_at": "2026-09-23T15:31:13.628293+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "New York Giants": -166,
+          "Tennessee Titans": 140
+        },
+        "spread": {
+          "New York Giants": -3.0,
+          "Tennessee Titans": 3.0
+        },
+        "total": 45.0,
+        "num_bookmakers": 2
+      }
+    },
     "actual": null
   },
   "americanfootball_nfl_2026-09-27_seattle-seahawks_at_washington-commanders": {
@@ -2619,7 +2964,7 @@
     "espn_sport": "football",
     "espn_league": "nfl",
     "outdoor": true,
-    "status": "scheduled",
+    "status": "predicted",
     "odds": {
       "moneyline": {
         "Seattle Seahawks": -192,
@@ -2632,7 +2977,57 @@
       "total": 46.5,
       "num_bookmakers": 2
     },
-    "prediction": null,
+    "prediction": {
+      "predicted_winner": "Seattle Seahawks",
+      "predicted_against_spread": "Seattle Seahawks",
+      "confidence": 72,
+      "key_factors": [
+        "Seahawks 2-0 and W2 streak vs Commanders 0-2 and L2 streak",
+        "Clear form gap favors road favorite",
+        "Mild weather, no significant impact"
+      ],
+      "reasoning": "Seattle is undefeated with strong momentum while Washington is winless and struggling on a two-game skid. This significant form disparity supports the Seahawks covering the road spread.",
+      "context_used": {
+        "away_trends": {
+          "team": "Seattle Seahawks",
+          "last5": "2-0",
+          "streak": "W2",
+          "record": "2-0",
+          "h2h_vs_opponent": null
+        },
+        "home_trends": {
+          "team": "Washington Commanders",
+          "last5": "0-2",
+          "streak": "L2",
+          "record": "0-2",
+          "h2h_vs_opponent": null
+        },
+        "weather": {
+          "high_f": 75.3,
+          "low_f": 56.2,
+          "precipitation_in": 0.0,
+          "wind_mph": 12.9
+        },
+        "probable_pitchers": {
+          "home": null,
+          "away": null
+        }
+      },
+      "generated_at": "2026-09-23T15:31:13.628293+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "Seattle Seahawks": -192,
+          "Washington Commanders": 160
+        },
+        "spread": {
+          "Seattle Seahawks": -3.5,
+          "Washington Commanders": 3.5
+        },
+        "total": 46.5,
+        "num_bookmakers": 2
+      }
+    },
     "actual": null
   },
   "americanfootball_nfl_2026-09-27_arizona-cardinals_at_san-francisco-49ers": {
@@ -2644,7 +3039,7 @@
     "espn_sport": "football",
     "espn_league": "nfl",
     "outdoor": true,
-    "status": "scheduled",
+    "status": "predicted",
     "odds": {
       "moneyline": {
         "Arizona Cardinals": 470,
@@ -2657,7 +3052,57 @@
       "total": 46.5,
       "num_bookmakers": 2
     },
-    "prediction": null,
+    "prediction": {
+      "predicted_winner": "San Francisco 49ers",
+      "predicted_against_spread": "Arizona Cardinals",
+      "confidence": 58,
+      "key_factors": [
+        "49ers 2-0 and W2 streak vs Cardinals 1-1",
+        "Very large spread (-11.5) despite modest form gap",
+        "Large spreads are historically hard to cover"
+      ],
+      "reasoning": "San Francisco's superior recent form (2-0 vs 1-1) supports them winning outright, but an 11.5-point spread is a steep number for a team that hasn't blown teams out by that recorded margin necessarily. I'll back Arizona to keep it closer than the double-digit line suggests while still expecting a 49ers win.",
+      "context_used": {
+        "away_trends": {
+          "team": "Arizona Cardinals",
+          "last5": "1-1",
+          "streak": "L1",
+          "record": "1-1",
+          "h2h_vs_opponent": null
+        },
+        "home_trends": {
+          "team": "San Francisco 49ers",
+          "last5": "2-0",
+          "streak": "W2",
+          "record": "2-0",
+          "h2h_vs_opponent": null
+        },
+        "weather": {
+          "high_f": 72.8,
+          "low_f": 57.8,
+          "precipitation_in": 0.0,
+          "wind_mph": 12.3
+        },
+        "probable_pitchers": {
+          "home": null,
+          "away": null
+        }
+      },
+      "generated_at": "2026-09-23T15:31:13.628293+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "Arizona Cardinals": 470,
+          "San Francisco 49ers": -650
+        },
+        "spread": {
+          "Arizona Cardinals": 11.5,
+          "San Francisco 49ers": -11.5
+        },
+        "total": 46.5,
+        "num_bookmakers": 2
+      }
+    },
     "actual": null
   },
   "americanfootball_nfl_2026-09-27_minnesota-vikings_at_tampa-bay-buccaneers": {
@@ -2669,7 +3114,7 @@
     "espn_sport": "football",
     "espn_league": "nfl",
     "outdoor": true,
-    "status": "scheduled",
+    "status": "predicted",
     "odds": {
       "moneyline": {
         "Minnesota Vikings": 105,
@@ -2682,7 +3127,57 @@
       "total": 44.5,
       "num_bookmakers": 2
     },
-    "prediction": null,
+    "prediction": {
+      "predicted_winner": "Minnesota Vikings",
+      "predicted_against_spread": "Minnesota Vikings",
+      "confidence": 63,
+      "key_factors": [
+        "Vikings 2-0 and W2 streak vs Buccaneers 0-2 and L2 streak",
+        "Vikings favored as road underdog in market odds despite better record",
+        "Hot weather in Tampa could be a factor"
+      ],
+      "reasoning": "Minnesota is undefeated with strong momentum while Tampa Bay is winless and slumping, yet the market has Tampa as a slight favorite at home, creating value on the Vikings. The clear form gap supports taking Minnesota both to win and cover the modest spread.",
+      "context_used": {
+        "away_trends": {
+          "team": "Minnesota Vikings",
+          "last5": "2-0",
+          "streak": "W2",
+          "record": "2-0",
+          "h2h_vs_opponent": null
+        },
+        "home_trends": {
+          "team": "Tampa Bay Buccaneers",
+          "last5": "0-2",
+          "streak": "L2",
+          "record": "0-2",
+          "h2h_vs_opponent": null
+        },
+        "weather": {
+          "high_f": 84.9,
+          "low_f": 69.9,
+          "precipitation_in": 0.0,
+          "wind_mph": 8.5
+        },
+        "probable_pitchers": {
+          "home": null,
+          "away": null
+        }
+      },
+      "generated_at": "2026-09-23T15:31:13.628293+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "Minnesota Vikings": 105,
+          "Tampa Bay Buccaneers": -125
+        },
+        "spread": {
+          "Minnesota Vikings": 1.5,
+          "Tampa Bay Buccaneers": -1.5
+        },
+        "total": 44.5,
+        "num_bookmakers": 2
+      }
+    },
     "actual": null
   },
   "americanfootball_nfl_2026-09-27_baltimore-ravens_at_dallas-cowboys": {
@@ -2694,7 +3189,7 @@
     "espn_sport": "football",
     "espn_league": "nfl",
     "outdoor": true,
-    "status": "scheduled",
+    "status": "predicted",
     "odds": {
       "moneyline": {
         "Baltimore Ravens": -135,
@@ -2707,7 +3202,52 @@
       "total": 51.5,
       "num_bookmakers": 2
     },
-    "prediction": null,
+    "prediction": {
+      "predicted_winner": "Baltimore Ravens",
+      "predicted_against_spread": "Dallas Cowboys",
+      "confidence": 54,
+      "key_factors": [
+        "Ravens 1-1 on L1 streak vs Cowboys 1-1 on W1 streak",
+        "Cowboys have positive momentum entering the game",
+        "High total (51.5) suggests expected high-scoring, competitive game"
+      ],
+      "reasoning": "Both teams sit at 1-1, but Dallas enters with a win streak while Baltimore is coming off a loss, giving a slight momentum edge to the Cowboys. I'll take Baltimore to win on talent but Dallas to cover the short home spread given their better recent trajectory.",
+      "context_used": {
+        "away_trends": {
+          "team": "Baltimore Ravens",
+          "last5": "1-1",
+          "streak": "L1",
+          "record": "1-1",
+          "h2h_vs_opponent": null
+        },
+        "home_trends": {
+          "team": "Dallas Cowboys",
+          "last5": "1-1",
+          "streak": "W1",
+          "record": "1-1",
+          "h2h_vs_opponent": null
+        },
+        "weather": null,
+        "probable_pitchers": {
+          "home": null,
+          "away": null
+        }
+      },
+      "generated_at": "2026-09-23T15:31:13.628293+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "Baltimore Ravens": -135,
+          "Dallas Cowboys": 114
+        },
+        "spread": {
+          "Baltimore Ravens": -2.5,
+          "Dallas Cowboys": 2.5
+        },
+        "total": 51.5,
+        "num_bookmakers": 2
+      }
+    },
     "actual": null
   },
   "americanfootball_nfl_2026-09-27_las-vegas-raiders_at_new-orleans-saints": {
@@ -2719,7 +3259,7 @@
     "espn_sport": "football",
     "espn_league": "nfl",
     "outdoor": true,
-    "status": "scheduled",
+    "status": "predicted",
     "odds": {
       "moneyline": {
         "Las Vegas Raiders": 154,
@@ -2732,7 +3272,52 @@
       "total": 42.5,
       "num_bookmakers": 1
     },
-    "prediction": null,
+    "prediction": {
+      "predicted_winner": "New Orleans Saints",
+      "predicted_against_spread": "Las Vegas Raiders",
+      "confidence": 52,
+      "key_factors": [
+        "Raiders 2-0 and W2 streak vs Saints 1-1 W1",
+        "Raiders better record despite being an underdog",
+        "Limited trend data, no head-to-head"
+      ],
+      "reasoning": "Las Vegas is undefeated with a two-game win streak, a stronger recent trend than New Orleans' 1-1 record, yet the market has the Saints as sizable home favorites. This discrepancy suggests value on the Raiders covering the spread even if New Orleans's home-field edge helps them win outright.",
+      "context_used": {
+        "away_trends": {
+          "team": "Las Vegas Raiders",
+          "last5": "2-0",
+          "streak": "W2",
+          "record": "2-0",
+          "h2h_vs_opponent": null
+        },
+        "home_trends": {
+          "team": "New Orleans Saints",
+          "last5": "1-1",
+          "streak": "W1",
+          "record": "1-1",
+          "h2h_vs_opponent": null
+        },
+        "weather": null,
+        "probable_pitchers": {
+          "home": null,
+          "away": null
+        }
+      },
+      "generated_at": "2026-09-23T15:31:13.628293+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "Las Vegas Raiders": 154,
+          "New Orleans Saints": -185
+        },
+        "spread": {
+          "Las Vegas Raiders": 3.5,
+          "New Orleans Saints": -3.5
+        },
+        "total": 42.5,
+        "num_bookmakers": 1
+      }
+    },
     "actual": null
   },
   "americanfootball_nfl_2026-09-28_los-angeles-rams_at_denver-broncos": {
