@@ -1,134 +1,38 @@
 {
-  "americanfootball_nfl_2026-09-27_los-angeles-chargers_at_buffalo-bills": {
-    "predicted_winner": "Buffalo Bills",
-    "predicted_against_spread": "Buffalo Bills",
-    "confidence": 68,
-    "key_factors": [
-      "Bills 2-0 and W2 streak vs Chargers 0-2 and L2 streak",
-      "Home field advantage",
-      "Mild weather, no major impact"
-    ],
-    "reasoning": "Buffalo is undefeated and rolling with a two-game win streak while LA is winless and struggling on both sides. The form gap is significant enough to trust the home favorite even laying a field goal."
-  },
-  "americanfootball_nfl_2026-09-27_carolina-panthers_at_cleveland-browns": {
-    "predicted_winner": "Carolina Panthers",
-    "predicted_against_spread": "Cleveland Browns",
-    "confidence": 52,
-    "key_factors": [
-      "Both teams 1-1 with W1 streaks",
-      "Small spread reflects near pick'em",
-      "No head-to-head data available"
-    ],
-    "reasoning": "Records and momentum are essentially identical between these two teams, making this close to a coin flip. Carolina gets a slight edge as true road favorite, but the tight spread suggests Cleveland can keep it close or win outright, so I lean the home dog against the number."
-  },
-  "americanfootball_nfl_2026-09-27_cincinnati-bengals_at_pittsburgh-steelers": {
-    "predicted_winner": "Cincinnati Bengals",
-    "predicted_against_spread": "Cincinnati Bengals",
-    "confidence": 60,
-    "key_factors": [
-      "Bengals 2-0 and on W2 streak",
-      "Steelers coming off a loss (L1)",
-      "Road favorite with better recent form"
-    ],
-    "reasoning": "Cincinnati is undefeated and playing with momentum while Pittsburgh just lost their previous game. The Bengals' superior recent form supports them covering as road favorites in a game with a modest spread."
-  },
-  "americanfootball_nfl_2026-09-27_houston-texans_at_indianapolis-colts": {
-    "predicted_winner": "Indianapolis Colts",
-    "predicted_against_spread": "Indianapolis Colts",
-    "confidence": 54,
-    "key_factors": [
-      "Both teams 0-2 and on L2 streaks",
-      "Home field could be tiebreaker",
-      "No meaningful trend edge either way"
-    ],
-    "reasoning": "Both teams are struggling equally at 0-2 with two-game losing streaks, making this a true toss-up. I'll lean toward the home team getting a boost from playing at Indianapolis, taking the points as a home dog."
-  },
-  "americanfootball_nfl_2026-09-27_new-england-patriots_at_jacksonville-jaguars": {
-    "predicted_winner": "New England Patriots",
-    "predicted_against_spread": "New England Patriots",
-    "confidence": 55,
-    "key_factors": [
-      "Patriots on W1 streak, Jaguars on L1",
-      "Near pick'em odds",
-      "Hot weather in Jacksonville could favor either team"
-    ],
-    "reasoning": "New England enters with positive momentum (W1) while Jacksonville is coming off a loss (L1), a slight edge that aligns with the near even odds. I'll take the Patriots both to win and cover given their better recent trajectory."
-  },
-  "americanfootball_nfl_2026-09-27_kansas-city-chiefs_at_miami-dolphins": {
-    "predicted_winner": "Kansas City Chiefs",
-    "predicted_against_spread": "Kansas City Chiefs",
-    "confidence": 78,
-    "key_factors": [
-      "Chiefs 2-0 and W2 streak vs Dolphins 0-2 and L2 streak",
-      "Large moneyline gap reflects big form gap",
-      "Hot, humid weather with some rain in Miami"
-    ],
-    "reasoning": "Kansas City is undefeated and rolling while Miami is winless and struggling, a clear and significant form gap. The Chiefs' quality and momentum should be enough to cover the road spread despite Miami's home-field boost."
-  },
-  "americanfootball_nfl_2026-09-27_tennessee-titans_at_new-york-giants": {
-    "predicted_winner": "New York Giants",
-    "predicted_against_spread": "New York Giants",
-    "confidence": 66,
-    "key_factors": [
-      "Titans 0-2 and L2 streak vs Giants 1-1",
-      "Giants have better recent form despite own L1 streak",
-      "Slight rain and wind in NY"
-    ],
-    "reasoning": "Tennessee is winless through two games while New York has at least one win, giving the Giants a clear recent-form edge as home favorites. The moderate spread aligns with this gap, supporting the Giants covering."
-  },
-  "americanfootball_nfl_2026-09-27_seattle-seahawks_at_washington-commanders": {
-    "predicted_winner": "Seattle Seahawks",
-    "predicted_against_spread": "Seattle Seahawks",
-    "confidence": 72,
-    "key_factors": [
-      "Seahawks 2-0 and W2 streak vs Commanders 0-2 and L2 streak",
-      "Clear form gap favors road favorite",
-      "Mild weather, no significant impact"
-    ],
-    "reasoning": "Seattle is undefeated with strong momentum while Washington is winless and struggling on a two-game skid. This significant form disparity supports the Seahawks covering the road spread."
-  },
-  "americanfootball_nfl_2026-09-27_arizona-cardinals_at_san-francisco-49ers": {
-    "predicted_winner": "San Francisco 49ers",
-    "predicted_against_spread": "Arizona Cardinals",
+  "americanfootball_nfl_2026-09-27_new-york-jets_at_detroit-lions": {
+    "predicted_winner": "Detroit Lions",
+    "predicted_against_spread": "New York Jets",
     "confidence": 58,
     "key_factors": [
-      "49ers 2-0 and W2 streak vs Cardinals 1-1",
-      "Very large spread (-11.5) despite modest form gap",
-      "Large spreads are historically hard to cover"
+      "Both teams sit at 1-1 with similar recent form (both L1 streak)",
+      "Market implies a large 9.5 point gap despite comparable records",
+      "No head-to-head or pitcher/injury data to differentiate further",
+      "Large spreads in evenly-matched records often get backdoored by the underdog"
     ],
-    "reasoning": "San Francisco's superior recent form (2-0 vs 1-1) supports them winning outright, but an 11.5-point spread is a steep number for a team that hasn't blown teams out by that recorded margin necessarily. I'll back Arizona to keep it closer than the double-digit line suggests while still expecting a 49ers win."
+    "reasoning": "Both teams have identical 1-1 records and are on one-game losing streaks, showing no clear form advantage for Detroit. A 9.5-point spread seems excessive given the lack of separation in recent performance, making the Jets attractive to cover even if Detroit wins outright. Confidence is moderate due to limited trend data beyond basic records."
   },
-  "americanfootball_nfl_2026-09-27_minnesota-vikings_at_tampa-bay-buccaneers": {
-    "predicted_winner": "Minnesota Vikings",
-    "predicted_against_spread": "Minnesota Vikings",
+  "americanfootball_nfl_2026-09-28_los-angeles-rams_at_denver-broncos": {
+    "predicted_winner": "Los Angeles Rams",
+    "predicted_against_spread": "Denver Broncos",
+    "confidence": 55,
+    "key_factors": [
+      "Both teams are 1-1 and riding one-game win streaks",
+      "Mild weather with moderate wind (10.5 mph) shouldn't heavily impact passing game",
+      "Market favors Rams by 3, a reasonable but not dominant edge",
+      "No head-to-head data available to break the tie further"
+    ],
+    "reasoning": "Both squads enter with identical 1-1 records and matching W1 streaks, indicating an evenly-matched contest. The Rams' modest market favoritism seems fair given no clear statistical edge, but a competitive game suggests the home Broncos could keep it close and cover as underdogs. Weather is mild and shouldn't be a major factor in this shootout total of 45.5."
+  },
+  "americanfootball_nfl_2026-09-29_philadelphia-eagles_at_chicago-bears": {
+    "predicted_winner": "Philadelphia Eagles",
+    "predicted_against_spread": "Philadelphia Eagles",
     "confidence": 63,
     "key_factors": [
-      "Vikings 2-0 and W2 streak vs Buccaneers 0-2 and L2 streak",
-      "Vikings favored as road underdog in market odds despite better record",
-      "Hot weather in Tampa could be a factor"
+      "Eagles are 2-0 and riding a W2 streak, showing strong recent form",
+      "Bears are 1-1 with an L1 streak, trending in the opposite direction",
+      "Light rain (0.059 in) and moderate wind (8 mph) could slightly favor a ground-oriented game",
+      "Market has Bears as slight home favorites despite inferior recent form"
     ],
-    "reasoning": "Minnesota is undefeated with strong momentum while Tampa Bay is winless and slumping, yet the market has Tampa as a slight favorite at home, creating value on the Vikings. The clear form gap supports taking Minnesota both to win and cover the modest spread."
-  },
-  "americanfootball_nfl_2026-09-27_baltimore-ravens_at_dallas-cowboys": {
-    "predicted_winner": "Baltimore Ravens",
-    "predicted_against_spread": "Dallas Cowboys",
-    "confidence": 54,
-    "key_factors": [
-      "Ravens 1-1 on L1 streak vs Cowboys 1-1 on W1 streak",
-      "Cowboys have positive momentum entering the game",
-      "High total (51.5) suggests expected high-scoring, competitive game"
-    ],
-    "reasoning": "Both teams sit at 1-1, but Dallas enters with a win streak while Baltimore is coming off a loss, giving a slight momentum edge to the Cowboys. I'll take Baltimore to win on talent but Dallas to cover the short home spread given their better recent trajectory."
-  },
-  "americanfootball_nfl_2026-09-27_las-vegas-raiders_at_new-orleans-saints": {
-    "predicted_winner": "New Orleans Saints",
-    "predicted_against_spread": "Las Vegas Raiders",
-    "confidence": 52,
-    "key_factors": [
-      "Raiders 2-0 and W2 streak vs Saints 1-1 W1",
-      "Raiders better record despite being an underdog",
-      "Limited trend data, no head-to-head"
-    ],
-    "reasoning": "Las Vegas is undefeated with a two-game win streak, a stronger recent trend than New Orleans' 1-1 record, yet the market has the Saints as sizable home favorites. This discrepancy suggests value on the Raiders covering the spread even if New Orleans's home-field edge helps them win outright."
+    "reasoning": "Philadelphia's undefeated 2-0 start and current win streak contrast sharply with Chicago's 1-1 record and recent loss, suggesting the Eagles have stronger momentum. Despite Chicago being slight home favorites, the form disparity favors Philadelphia to both win and cover the small 1.5-point spread. Wet conditions could slow the game down, but shouldn't be enough to offset the Eagles' momentum advantage."
   }
 }
