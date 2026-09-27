@@ -1,4 +1,47 @@
 {
   "instructions": "For each game below, act as a sharp, disciplined sports betting analyst. Do NOT simply pick whichever side the betting market favors -- weigh the actual trend data provided (recent form, streaks, head-to-head history, starting pitcher matchups where given, and weather where relevant) and form an independent judgment. It's fine, and expected, to disagree with the market when the trends support it. If trend data is sparse for a game, say so and let that lower your confidence rather than defaulting to the favorite. For each game_id, produce: predicted_winner (exact team name), predicted_against_spread (exact team name), confidence (integer 1-100), key_factors (2-4 short strings), and reasoning (2-4 sentences referencing the specific trend data given).",
-  "games": {}
+  "games": {
+    "americanfootball_nfl_2026-10-02_pittsburgh-steelers_at_cleveland-browns": {
+      "league": "NFL",
+      "away_team": "Pittsburgh Steelers",
+      "home_team": "Cleveland Browns",
+      "commence_time": "2026-10-02T00:15:00Z",
+      "market_line": {
+        "moneyline": {
+          "Cleveland Browns": 114,
+          "Pittsburgh Steelers": -135
+        },
+        "spread": {
+          "Cleveland Browns": 2.5,
+          "Pittsburgh Steelers": -2.5
+        },
+        "total": 40.5,
+        "num_bookmakers": 1
+      },
+      "away_team_trends": {
+        "team": "Pittsburgh Steelers",
+        "last5": "1-1",
+        "streak": "L1",
+        "record": "1-1",
+        "h2h_vs_opponent": null
+      },
+      "home_team_trends": {
+        "team": "Cleveland Browns",
+        "last5": "1-1",
+        "streak": "W1",
+        "record": "1-1",
+        "h2h_vs_opponent": null
+      },
+      "weather_at_kickoff": {
+        "high_f": 68.5,
+        "low_f": 55.0,
+        "precipitation_in": 0.339,
+        "wind_mph": 20.1
+      },
+      "probable_pitchers": {
+        "home": null,
+        "away": null
+      }
+    }
+  }
 }

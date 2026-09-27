@@ -3527,7 +3527,7 @@
     "espn_sport": "football",
     "espn_league": "nfl",
     "outdoor": true,
-    "status": "scheduled",
+    "status": "predicted",
     "odds": {
       "moneyline": {
         "Cleveland Browns": 114,
@@ -3540,7 +3540,58 @@
       "total": 40.5,
       "num_bookmakers": 1
     },
-    "prediction": null,
+    "prediction": {
+      "predicted_winner": "Pittsburgh Steelers",
+      "predicted_against_spread": "Cleveland Browns",
+      "confidence": 53,
+      "key_factors": [
+        "Both teams sit at 1-1 with identical 1-1 last-5 records, showing minimal separation in form",
+        "Browns carry a 1-game win streak while Steelers are on a 1-game skid, a slight momentum edge for Cleveland",
+        "Market favors Steelers by 2.5, but with no h2h or pitcher-equivalent data this is a thin edge",
+        "Wet, windy conditions (20 mph wind, notable precipitation) favor a low-scoring, tighter divisional game keeping it close against the spread"
+      ],
+      "reasoning": "Records and recent form are essentially even between these two AFC North rivals, with Cleveland actually holding the more favorable streak (W1 vs L1). Given the lack of decisive trend separation and the sloppy weather conditions that tend to keep divisional games close, taking the Browns to cover the home underdog spread makes sense. Pittsburgh still projects as the slightly better team and moneyline pick, but this is close to a coin-flip game with weather adding variance.",
+      "context_used": {
+        "away_trends": {
+          "team": "Pittsburgh Steelers",
+          "last5": "1-1",
+          "streak": "L1",
+          "record": "1-1",
+          "h2h_vs_opponent": null
+        },
+        "home_trends": {
+          "team": "Cleveland Browns",
+          "last5": "1-1",
+          "streak": "W1",
+          "record": "1-1",
+          "h2h_vs_opponent": null
+        },
+        "weather": {
+          "high_f": 68.5,
+          "low_f": 55.0,
+          "precipitation_in": 0.339,
+          "wind_mph": 20.1
+        },
+        "probable_pitchers": {
+          "home": null,
+          "away": null
+        }
+      },
+      "generated_at": "2026-09-27T15:45:12.207583+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "Cleveland Browns": 114,
+          "Pittsburgh Steelers": -135
+        },
+        "spread": {
+          "Cleveland Browns": 2.5,
+          "Pittsburgh Steelers": -2.5
+        },
+        "total": 40.5,
+        "num_bookmakers": 1
+      }
+    },
     "actual": null
   },
   "americanfootball_nfl_2026-10-04_indianapolis-colts_at_washington-commanders": {
