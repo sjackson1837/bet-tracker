@@ -18,7 +18,7 @@
         "New England Patriots": 3.5,
         "Seattle Seahawks": -3.5
       },
-      "total": 44.3,
+      "total": 44.5,
       "num_bookmakers": 9
     },
     "prediction": {
@@ -69,7 +69,7 @@
           "New England Patriots": 3.5,
           "Seattle Seahawks": -3.5
         },
-        "total": 44.3,
+        "total": 44.5,
         "num_bookmakers": 9
       }
     },
@@ -95,7 +95,7 @@
         "Los Angeles Rams": -3.5,
         "San Francisco 49ers": 3.5
       },
-      "total": 48.2,
+      "total": 48.0,
       "num_bookmakers": 9
     },
     "prediction": {
@@ -140,7 +140,7 @@
           "Los Angeles Rams": -3.5,
           "San Francisco 49ers": 3.5
         },
-        "total": 48.2,
+        "total": 48.0,
         "num_bookmakers": 9
       }
     },
@@ -162,10 +162,10 @@
         "Pittsburgh Steelers": -182
       },
       "spread": {
-        "Atlanta Falcons": 3.3,
-        "Pittsburgh Steelers": -3.3
+        "Atlanta Falcons": 3.5,
+        "Pittsburgh Steelers": -3.5
       },
-      "total": 41.9,
+      "total": 42.0,
       "num_bookmakers": 9
     },
     "prediction": null,
@@ -190,7 +190,7 @@
         "Baltimore Ravens": -3.5,
         "Indianapolis Colts": 3.5
       },
-      "total": 47.8,
+      "total": 48.0,
       "num_bookmakers": 9
     },
     "prediction": null,
@@ -212,8 +212,8 @@
         "Houston Texans": -110
       },
       "spread": {
-        "Buffalo Bills": 0.2,
-        "Houston Texans": -0.2
+        "Buffalo Bills": 0.0,
+        "Houston Texans": 0.0
       },
       "total": 44.5,
       "num_bookmakers": 9
@@ -237,10 +237,10 @@
         "Chicago Bears": -156
       },
       "spread": {
-        "Carolina Panthers": 2.8,
-        "Chicago Bears": -2.8
+        "Carolina Panthers": 3.0,
+        "Chicago Bears": -3.0
       },
-      "total": 47.1,
+      "total": 47.0,
       "num_bookmakers": 9
     },
     "prediction": null,
@@ -262,8 +262,8 @@
         "Tampa Bay Buccaneers": 174
       },
       "spread": {
-        "Cincinnati Bengals": -3.8,
-        "Tampa Bay Buccaneers": 3.8
+        "Cincinnati Bengals": -4.0,
+        "Tampa Bay Buccaneers": 4.0
       },
       "total": 50.5,
       "num_bookmakers": 9
@@ -312,10 +312,10 @@
         "New Orleans Saints": 254
       },
       "spread": {
-        "Detroit Lions": -6.9,
-        "New Orleans Saints": 6.9
+        "Detroit Lions": -7.0,
+        "New Orleans Saints": 7.0
       },
-      "total": 49.8,
+      "total": 50.0,
       "num_bookmakers": 9
     },
     "prediction": null,
@@ -340,7 +340,7 @@
         "New York Jets": 1.0,
         "Tennessee Titans": -1.0
       },
-      "total": 39.4,
+      "total": 39.5,
       "num_bookmakers": 9
     },
     "prediction": null,
@@ -362,10 +362,10 @@
         "Los Angeles Chargers": -543
       },
       "spread": {
-        "Arizona Cardinals": 9.8,
-        "Los Angeles Chargers": -9.8
+        "Arizona Cardinals": 10.0,
+        "Los Angeles Chargers": -10.0
       },
-      "total": 47.3,
+      "total": 47.5,
       "num_bookmakers": 9
     },
     "prediction": null,
@@ -387,10 +387,10 @@
         "Minnesota Vikings": -121
       },
       "spread": {
-        "Green Bay Packers": 1.3,
-        "Minnesota Vikings": -1.3
+        "Green Bay Packers": 1.5,
+        "Minnesota Vikings": -1.5
       },
-      "total": 46.2,
+      "total": 46.0,
       "num_bookmakers": 9
     },
     "prediction": null,
@@ -415,7 +415,7 @@
         "Las Vegas Raiders": -3.5,
         "Miami Dolphins": 3.5
       },
-      "total": 40.6,
+      "total": 40.5,
       "num_bookmakers": 9
     },
     "prediction": null,
@@ -437,10 +437,10 @@
         "Washington Commanders": 189
       },
       "spread": {
-        "Philadelphia Eagles": -4.9,
-        "Washington Commanders": 4.9
+        "Philadelphia Eagles": -5.0,
+        "Washington Commanders": 5.0
       },
-      "total": 44.4,
+      "total": 44.5,
       "num_bookmakers": 9
     },
     "prediction": null,
@@ -462,10 +462,10 @@
         "New York Giants": 134
       },
       "spread": {
-        "Dallas Cowboys": -2.9,
-        "New York Giants": 2.9
+        "Dallas Cowboys": -3.0,
+        "New York Giants": 3.0
       },
-      "total": 48.3,
+      "total": 48.5,
       "num_bookmakers": 9
     },
     "prediction": null,
@@ -487,10 +487,10 @@
         "Kansas City Chiefs": -146
       },
       "spread": {
-        "Denver Broncos": 2.6,
-        "Kansas City Chiefs": -2.6
+        "Denver Broncos": 2.5,
+        "Kansas City Chiefs": -2.5
       },
-      "total": 43.4,
+      "total": 43.5,
       "num_bookmakers": 9
     },
     "prediction": null,
@@ -515,7 +515,7 @@
         "Buffalo Bills": -3.0,
         "Detroit Lions": 3.0
       },
-      "total": 52.2,
+      "total": 52.0,
       "num_bookmakers": 5
     },
     "prediction": null,
@@ -540,7 +540,7 @@
         "Atlanta Falcons": -1.5,
         "Carolina Panthers": 1.5
       },
-      "total": 44.1,
+      "total": 44.0,
       "num_bookmakers": 4
     },
     "prediction": null,
@@ -690,7 +690,7 @@
         "New England Patriots": -4.5,
         "Pittsburgh Steelers": 4.5
       },
-      "total": 43.1,
+      "total": 43.0,
       "num_bookmakers": 4
     },
     "prediction": null,
@@ -740,7 +740,7 @@
         "Denver Broncos": -3.0,
         "Jacksonville Jaguars": 3.0
       },
-      "total": 44.2,
+      "total": 44.0,
       "num_bookmakers": 4
     },
     "prediction": null,
@@ -1087,8 +1087,8 @@
         "Miami Dolphins": 340
       },
       "spread": {
-        "Kansas City Chiefs": -7.2,
-        "Miami Dolphins": 7.2
+        "Kansas City Chiefs": -7.0,
+        "Miami Dolphins": 7.0
       },
       "total": 44.5,
       "num_bookmakers": 2
@@ -1740,7 +1740,7 @@
         "Jacksonville Jaguars": 1.5,
         "Philadelphia Eagles": -1.5
       },
-      "total": 44.8,
+      "total": 45.0,
       "num_bookmakers": 3
     },
     "prediction": null,
@@ -1762,8 +1762,8 @@
         "Miami Dolphins": 225
       },
       "spread": {
-        "Cincinnati Bengals": -5.8,
-        "Miami Dolphins": 5.8
+        "Cincinnati Bengals": -6.0,
+        "Miami Dolphins": 6.0
       },
       "total": 49.5,
       "num_bookmakers": 2
@@ -2462,10 +2462,10 @@
         "Pittsburgh Steelers": -136
       },
       "spread": {
-        "New Orleans Saints": 2.2,
-        "Pittsburgh Steelers": -2.2
+        "New Orleans Saints": 2.0,
+        "Pittsburgh Steelers": -2.0
       },
-      "total": 41.8,
+      "total": 42.0,
       "num_bookmakers": 3
     },
     "prediction": null,
@@ -2612,8 +2612,8 @@
         "Minnesota Vikings": -142
       },
       "spread": {
-        "Indianapolis Colts": 2.8,
-        "Minnesota Vikings": -2.8
+        "Indianapolis Colts": 3.0,
+        "Minnesota Vikings": -3.0
       },
       "total": 47.0,
       "num_bookmakers": 2
@@ -3162,10 +3162,10 @@
         "Cincinnati Bengals": -222
       },
       "spread": {
-        "Atlanta Falcons": 4.8,
-        "Cincinnati Bengals": -4.8
+        "Atlanta Falcons": 5.0,
+        "Cincinnati Bengals": -5.0
       },
-      "total": 49.2,
+      "total": 49.0,
       "num_bookmakers": 3
     },
     "prediction": null,
@@ -4137,10 +4137,10 @@
         "San Francisco 49ers": -201
       },
       "spread": {
-        "Minnesota Vikings": 3.8,
-        "San Francisco 49ers": -3.8
+        "Minnesota Vikings": 4.0,
+        "San Francisco 49ers": -4.0
       },
-      "total": 46.8,
+      "total": 47.0,
       "num_bookmakers": 3
     },
     "prediction": null,
@@ -4237,8 +4237,8 @@
         "Philadelphia Eagles": 106
       },
       "spread": {
-        "Dallas Cowboys": -1.2,
-        "Philadelphia Eagles": 1.2
+        "Dallas Cowboys": -1.0,
+        "Philadelphia Eagles": 1.0
       },
       "total": 49.5,
       "num_bookmakers": 4
@@ -5862,8 +5862,8 @@
         "Cleveland Browns": 330
       },
       "spread": {
-        "Baltimore Ravens": -9.8,
-        "Cleveland Browns": 9.8
+        "Baltimore Ravens": -10.0,
+        "Cleveland Browns": 10.0
       },
       "total": 43.5,
       "num_bookmakers": 2
@@ -6037,8 +6037,8 @@
         "San Francisco 49ers": 136
       },
       "spread": {
-        "Kansas City Chiefs": -2.8,
-        "San Francisco 49ers": 2.8
+        "Kansas City Chiefs": -3.0,
+        "San Francisco 49ers": 3.0
       },
       "total": 46.5,
       "num_bookmakers": 2
@@ -6912,10 +6912,10 @@
         "TCU Horned Frogs": -307
       },
       "spread": {
-        "North Carolina Tar Heels": 7.4,
-        "TCU Horned Frogs": -7.4
+        "North Carolina Tar Heels": 7.5,
+        "TCU Horned Frogs": -7.5
       },
-      "total": 48.6,
+      "total": 48.5,
       "num_bookmakers": 9
     },
     "prediction": {
@@ -6957,10 +6957,10 @@
           "TCU Horned Frogs": -307
         },
         "spread": {
-          "North Carolina Tar Heels": 7.4,
-          "TCU Horned Frogs": -7.4
+          "North Carolina Tar Heels": 7.5,
+          "TCU Horned Frogs": -7.5
         },
-        "total": 48.6,
+        "total": 48.5,
         "num_bookmakers": 9
       }
     },
@@ -6982,10 +6982,10 @@
         "USC Trojans": -100000
       },
       "spread": {
-        "San Jose State Spartans": 38.8,
-        "USC Trojans": -38.8
+        "San Jose State Spartans": 39.0,
+        "USC Trojans": -39.0
       },
-      "total": 59.9,
+      "total": 60.0,
       "num_bookmakers": 9
     },
     "prediction": {
@@ -7027,10 +7027,10 @@
           "USC Trojans": -100000
         },
         "spread": {
-          "San Jose State Spartans": 38.8,
-          "USC Trojans": -38.8
+          "San Jose State Spartans": 39.0,
+          "USC Trojans": -39.0
         },
-        "total": 59.9,
+        "total": 60.0,
         "num_bookmakers": 9
       }
     },
@@ -7055,7 +7055,7 @@
         "NC State Wolfpack": 5.5,
         "Virginia Cavaliers": -5.5
       },
-      "total": 54.3,
+      "total": 54.5,
       "num_bookmakers": 9
     },
     "prediction": {
@@ -7100,7 +7100,7 @@
           "NC State Wolfpack": 5.5,
           "Virginia Cavaliers": -5.5
         },
-        "total": 54.3,
+        "total": 54.5,
         "num_bookmakers": 9
       }
     },
@@ -7122,10 +7122,10 @@
         "North Dakota State Bison": -298
       },
       "spread": {
-        "Jacksonville State Gamecocks": 7.3,
-        "North Dakota State Bison": -7.3
+        "Jacksonville State Gamecocks": 7.5,
+        "North Dakota State Bison": -7.5
       },
-      "total": 48.3,
+      "total": 48.5,
       "num_bookmakers": 9
     },
     "prediction": {
@@ -7167,10 +7167,10 @@
           "North Dakota State Bison": -298
         },
         "spread": {
-          "Jacksonville State Gamecocks": 7.3,
-          "North Dakota State Bison": -7.3
+          "Jacksonville State Gamecocks": 7.5,
+          "North Dakota State Bison": -7.5
         },
-        "total": 48.3,
+        "total": 48.5,
         "num_bookmakers": 9
       }
     },
@@ -7192,10 +7192,10 @@
         "Sacramento State Hornets": 254
       },
       "spread": {
-        "Eastern Michigan Eagles": -8.6,
-        "Sacramento State Hornets": 8.6
+        "Eastern Michigan Eagles": -8.5,
+        "Sacramento State Hornets": 8.5
       },
-      "total": 53.2,
+      "total": 53.0,
       "num_bookmakers": 9
     },
     "prediction": {
@@ -7237,10 +7237,10 @@
           "Sacramento State Hornets": 254
         },
         "spread": {
-          "Eastern Michigan Eagles": -8.6,
-          "Sacramento State Hornets": 8.6
+          "Eastern Michigan Eagles": -8.5,
+          "Sacramento State Hornets": 8.5
         },
-        "total": 53.2,
+        "total": 53.0,
         "num_bookmakers": 9
       }
     },
@@ -7262,10 +7262,10 @@
         "New Mexico State Aggies": 2150
       },
       "spread": {
-        "Florida State Seminoles": -31.3,
-        "New Mexico State Aggies": 31.3
+        "Florida State Seminoles": -31.5,
+        "New Mexico State Aggies": 31.5
       },
-      "total": 52.9,
+      "total": 53.0,
       "num_bookmakers": 9
     },
     "prediction": {
@@ -7307,10 +7307,10 @@
           "New Mexico State Aggies": 2150
         },
         "spread": {
-          "Florida State Seminoles": -31.3,
-          "New Mexico State Aggies": 31.3
+          "Florida State Seminoles": -31.5,
+          "New Mexico State Aggies": 31.5
         },
-        "total": 52.9,
+        "total": 53.0,
         "num_bookmakers": 9
       }
     },
@@ -7335,7 +7335,7 @@
         "Hawaii Rainbow Warriors": 4.5,
         "Stanford Cardinal": -4.5
       },
-      "total": 50.3,
+      "total": 50.5,
       "num_bookmakers": 9
     },
     "prediction": {
@@ -7380,7 +7380,7 @@
           "Hawaii Rainbow Warriors": 4.5,
           "Stanford Cardinal": -4.5
         },
-        "total": 50.3,
+        "total": 50.5,
         "num_bookmakers": 9
       }
     },
@@ -7402,10 +7402,10 @@
         "UNLV Rebels": -227
       },
       "spread": {
-        "Memphis Tigers": 5.7,
-        "UNLV Rebels": -5.7
+        "Memphis Tigers": 5.5,
+        "UNLV Rebels": -5.5
       },
-      "total": 57.2,
+      "total": 57.0,
       "num_bookmakers": 9
     },
     "prediction": {
@@ -7447,10 +7447,10 @@
           "UNLV Rebels": -227
         },
         "spread": {
-          "Memphis Tigers": 5.7,
-          "UNLV Rebels": -5.7
+          "Memphis Tigers": 5.5,
+          "UNLV Rebels": -5.5
         },
-        "total": 57.2,
+        "total": 57.0,
         "num_bookmakers": 9
       }
     },
@@ -7472,8 +7472,8 @@
         "UMass Minutemen": 3000
       },
       "spread": {
-        "Rutgers Scarlet Knights": -30.7,
-        "UMass Minutemen": 30.7
+        "Rutgers Scarlet Knights": -30.5,
+        "UMass Minutemen": 30.5
       },
       "total": 54.5,
       "num_bookmakers": 7
@@ -7518,8 +7518,8 @@
           "UMass Minutemen": 3000
         },
         "spread": {
-          "Rutgers Scarlet Knights": -30.7,
-          "UMass Minutemen": 30.7
+          "Rutgers Scarlet Knights": -30.5,
+          "UMass Minutemen": 30.5
         },
         "total": 54.5,
         "num_bookmakers": 7
@@ -7543,10 +7543,10 @@
         "Wake Forest Demon Deacons": -3913
       },
       "spread": {
-        "Akron Zips": 24.3,
-        "Wake Forest Demon Deacons": -24.3
+        "Akron Zips": 24.5,
+        "Wake Forest Demon Deacons": -24.5
       },
-      "total": 48.4,
+      "total": 48.5,
       "num_bookmakers": 9
     },
     "prediction": {
@@ -7589,10 +7589,10 @@
           "Wake Forest Demon Deacons": -3913
         },
         "spread": {
-          "Akron Zips": 24.3,
-          "Wake Forest Demon Deacons": -24.3
+          "Akron Zips": 24.5,
+          "Wake Forest Demon Deacons": -24.5
         },
-        "total": 48.4,
+        "total": 48.5,
         "num_bookmakers": 9
       }
     },
@@ -7614,10 +7614,10 @@
         "Buffalo Bulls": -1575
       },
       "spread": {
-        "Albany": 19.2,
-        "Buffalo Bulls": -19.2
+        "Albany": 19.0,
+        "Buffalo Bulls": -19.0
       },
-      "total": 48.1,
+      "total": 48.0,
       "num_bookmakers": 6
     },
     "prediction": {
@@ -7660,10 +7660,10 @@
           "Buffalo Bulls": -1575
         },
         "spread": {
-          "Albany": 19.2,
-          "Buffalo Bulls": -19.2
+          "Albany": 19.0,
+          "Buffalo Bulls": -19.0
         },
-        "total": 48.1,
+        "total": 48.0,
         "num_bookmakers": 6
       }
     },
@@ -7685,7 +7685,7 @@
         "Bethune-Cookman Wildcats": 42.5,
         "UCF Knights": -42.5
       },
-      "total": 58.8,
+      "total": 59.0,
       "num_bookmakers": 6
     },
     "prediction": {
@@ -7728,7 +7728,7 @@
           "Bethune-Cookman Wildcats": 42.5,
           "UCF Knights": -42.5
         },
-        "total": 58.8,
+        "total": 59.0,
         "num_bookmakers": 6
       }
     },
@@ -7750,10 +7750,10 @@
         "Merrimack Warriors": 2700
       },
       "spread": {
-        "Delaware Blue Hens": -28.6,
-        "Merrimack Warriors": 28.6
+        "Delaware Blue Hens": -28.5,
+        "Merrimack Warriors": 28.5
       },
-      "total": 55.9,
+      "total": 56.0,
       "num_bookmakers": 5
     },
     "prediction": {
@@ -7796,10 +7796,10 @@
           "Merrimack Warriors": 2700
         },
         "spread": {
-          "Delaware Blue Hens": -28.6,
-          "Merrimack Warriors": 28.6
+          "Delaware Blue Hens": -28.5,
+          "Merrimack Warriors": 28.5
         },
-        "total": 55.9,
+        "total": 56.0,
         "num_bookmakers": 5
       }
     },
@@ -7892,7 +7892,7 @@
         "Arkansas Pine Bluff Golden Lions": 54.5,
         "Missouri Tigers": -54.5
       },
-      "total": 60.6,
+      "total": 60.5,
       "num_bookmakers": 6
     },
     "prediction": {
@@ -7933,7 +7933,7 @@
           "Arkansas Pine Bluff Golden Lions": 54.5,
           "Missouri Tigers": -54.5
         },
-        "total": 60.6,
+        "total": 60.5,
         "num_bookmakers": 6
       }
     },
@@ -7958,7 +7958,7 @@
         "Colorado Buffaloes": 6.5,
         "Georgia Tech Yellow Jackets": -6.5
       },
-      "total": 50.8,
+      "total": 51.0,
       "num_bookmakers": 9
     },
     "prediction": {
@@ -8002,7 +8002,7 @@
           "Colorado Buffaloes": 6.5,
           "Georgia Tech Yellow Jackets": -6.5
         },
-        "total": 50.8,
+        "total": 51.0,
         "num_bookmakers": 9
       }
     },
@@ -8021,10 +8021,10 @@
     "odds": {
       "moneyline": {},
       "spread": {
-        "Eastern Illinois Panthers": 42.4,
-        "Minnesota Golden Gophers": -42.4
+        "Eastern Illinois Panthers": 42.5,
+        "Minnesota Golden Gophers": -42.5
       },
-      "total": 51.4,
+      "total": 51.5,
       "num_bookmakers": 5
     },
     "prediction": {
@@ -8062,10 +8062,10 @@
       "line_at_prediction": {
         "moneyline": {},
         "spread": {
-          "Eastern Illinois Panthers": 42.4,
-          "Minnesota Golden Gophers": -42.4
+          "Eastern Illinois Panthers": 42.5,
+          "Minnesota Golden Gophers": -42.5
         },
-        "total": 51.4,
+        "total": 51.5,
         "num_bookmakers": 5
       }
     },
@@ -8087,8 +8087,8 @@
         "Utah Utes": -100000
       },
       "spread": {
-        "Idaho Vandals": 34.8,
-        "Utah Utes": -34.8
+        "Idaho Vandals": 35.0,
+        "Utah Utes": -35.0
       },
       "total": 57.5,
       "num_bookmakers": 5
@@ -8131,8 +8131,8 @@
           "Utah Utes": -100000
         },
         "spread": {
-          "Idaho Vandals": 34.8,
-          "Utah Utes": -34.8
+          "Idaho Vandals": 35.0,
+          "Utah Utes": -35.0
         },
         "total": 57.5,
         "num_bookmakers": 5
@@ -8156,10 +8156,10 @@
         "UAB Blazers": 1621
       },
       "spread": {
-        "Illinois Fighting Illini": -27.6,
-        "UAB Blazers": 27.6
+        "Illinois Fighting Illini": -27.5,
+        "UAB Blazers": 27.5
       },
-      "total": 54.7,
+      "total": 54.5,
       "num_bookmakers": 9
     },
     "prediction": {
@@ -8200,10 +8200,10 @@
           "UAB Blazers": 1621
         },
         "spread": {
-          "Illinois Fighting Illini": -27.6,
-          "UAB Blazers": 27.6
+          "Illinois Fighting Illini": -27.5,
+          "UAB Blazers": 27.5
         },
-        "total": 54.7,
+        "total": 54.5,
         "num_bookmakers": 9
       }
     },
@@ -8225,10 +8225,10 @@
         "San Jose State Spartans": 128
       },
       "spread": {
-        "Eastern Michigan Eagles": -2.9,
-        "San Jose State Spartans": 2.9
+        "Eastern Michigan Eagles": -3.0,
+        "San Jose State Spartans": 3.0
       },
-      "total": 56.1,
+      "total": 56.0,
       "num_bookmakers": 9
     },
     "prediction": {
@@ -8269,10 +8269,10 @@
           "San Jose State Spartans": 128
         },
         "spread": {
-          "Eastern Michigan Eagles": -2.9,
-          "San Jose State Spartans": 2.9
+          "Eastern Michigan Eagles": -3.0,
+          "San Jose State Spartans": 3.0
         },
-        "total": 56.1,
+        "total": 56.0,
         "num_bookmakers": 9
       }
     },
@@ -8297,7 +8297,7 @@
         "Georgia State Panthers": -28.5,
         "North Carolina A&T Aggies": 28.5
       },
-      "total": 62.8,
+      "total": 63.0,
       "num_bookmakers": 5
     },
     "prediction": {
@@ -8341,7 +8341,7 @@
           "Georgia State Panthers": -28.5,
           "North Carolina A&T Aggies": 28.5
         },
-        "total": 62.8,
+        "total": 63.0,
         "num_bookmakers": 5
       }
     },
@@ -8360,10 +8360,10 @@
     "odds": {
       "moneyline": {},
       "spread": {
-        "Indiana State Sycamores": 35.9,
-        "Purdue Boilermakers": -35.9
+        "Indiana State Sycamores": 36.0,
+        "Purdue Boilermakers": -36.0
       },
-      "total": 56.8,
+      "total": 57.0,
       "num_bookmakers": 5
     },
     "prediction": {
@@ -8401,10 +8401,10 @@
       "line_at_prediction": {
         "moneyline": {},
         "spread": {
-          "Indiana State Sycamores": 35.9,
-          "Purdue Boilermakers": -35.9
+          "Indiana State Sycamores": 36.0,
+          "Purdue Boilermakers": -36.0
         },
-        "total": 56.8,
+        "total": 57.0,
         "num_bookmakers": 5
       }
     },
@@ -8423,10 +8423,10 @@
     "odds": {
       "moneyline": {},
       "spread": {
-        "Kansas Jayhawks": -41.6,
-        "LIU Sharks": 41.6
+        "Kansas Jayhawks": -41.5,
+        "LIU Sharks": 41.5
       },
-      "total": 53.6,
+      "total": 53.5,
       "num_bookmakers": 5
     },
     "prediction": {
@@ -8464,10 +8464,10 @@
       "line_at_prediction": {
         "moneyline": {},
         "spread": {
-          "Kansas Jayhawks": -41.6,
-          "LIU Sharks": 41.6
+          "Kansas Jayhawks": -41.5,
+          "LIU Sharks": 41.5
         },
-        "total": 53.6,
+        "total": 53.5,
         "num_bookmakers": 5
       }
     },
@@ -8492,7 +8492,7 @@
         "Michigan State Spartans": -9.5,
         "Toledo Rockets": 9.5
       },
-      "total": 46.8,
+      "total": 47.0,
       "num_bookmakers": 9
     },
     "prediction": {
@@ -8536,7 +8536,7 @@
           "Michigan State Spartans": -9.5,
           "Toledo Rockets": 9.5
         },
-        "total": 46.8,
+        "total": 47.0,
         "num_bookmakers": 9
       }
     },
@@ -8558,10 +8558,10 @@
         "UTEP Miners": 1900
       },
       "spread": {
-        "Oklahoma Sooners": -41.4,
-        "UTEP Miners": 41.4
+        "Oklahoma Sooners": -41.5,
+        "UTEP Miners": 41.5
       },
-      "total": 51.6,
+      "total": 51.5,
       "num_bookmakers": 9
     },
     "prediction": {
@@ -8604,10 +8604,10 @@
           "UTEP Miners": 1900
         },
         "spread": {
-          "Oklahoma Sooners": -41.4,
-          "UTEP Miners": 41.4
+          "Oklahoma Sooners": -41.5,
+          "UTEP Miners": 41.5
         },
-        "total": 51.6,
+        "total": 51.5,
         "num_bookmakers": 9
       }
     },
@@ -8639,10 +8639,10 @@
         "USC Trojans": -2543
       },
       "spread": {
-        "Fresno State Bulldogs": 21.9,
-        "USC Trojans": -21.9
+        "Fresno State Bulldogs": 22.0,
+        "USC Trojans": -22.0
       },
-      "total": 51.7,
+      "total": 51.5,
       "num_bookmakers": 9
     },
     "prediction": {
@@ -8683,10 +8683,10 @@
           "USC Trojans": -2543
         },
         "spread": {
-          "Fresno State Bulldogs": 21.9,
-          "USC Trojans": -21.9
+          "Fresno State Bulldogs": 22.0,
+          "USC Trojans": -22.0
         },
-        "total": 51.7,
+        "total": 51.5,
         "num_bookmakers": 9
       }
     },
@@ -8711,7 +8711,7 @@
         "Miami Hurricanes": -24.5,
         "Stanford Cardinal": 24.5
       },
-      "total": 47.8,
+      "total": 48.0,
       "num_bookmakers": 9
     },
     "prediction": {
@@ -8755,7 +8755,7 @@
           "Miami Hurricanes": -24.5,
           "Stanford Cardinal": 24.5
         },
-        "total": 47.8,
+        "total": 48.0,
         "num_bookmakers": 9
       }
     },
@@ -8780,7 +8780,7 @@
         "Alabama Crimson Tide": -28.0,
         "East Carolina Pirates": 28.0
       },
-      "total": 52.4,
+      "total": 52.5,
       "num_bookmakers": 9
     },
     "prediction": {
@@ -8825,7 +8825,7 @@
           "Alabama Crimson Tide": -28.0,
           "East Carolina Pirates": 28.0
         },
-        "total": 52.4,
+        "total": 52.5,
         "num_bookmakers": 9
       }
     },
@@ -8907,10 +8907,10 @@
     "odds": {
       "moneyline": {},
       "spread": {
-        "Army Black Knights": -36.8,
-        "Bryant Bulldogs": 36.8
+        "Army Black Knights": -37.0,
+        "Bryant Bulldogs": 37.0
       },
-      "total": 50.7,
+      "total": 50.5,
       "num_bookmakers": 5
     },
     "prediction": {
@@ -8948,10 +8948,10 @@
       "line_at_prediction": {
         "moneyline": {},
         "spread": {
-          "Army Black Knights": -36.8,
-          "Bryant Bulldogs": 36.8
+          "Army Black Knights": -37.0,
+          "Bryant Bulldogs": 37.0
         },
-        "total": 50.7,
+        "total": 50.5,
         "num_bookmakers": 5
       }
     },
@@ -8976,7 +8976,7 @@
         "Bowling Green Falcons": -2.5,
         "Tarleton State Texans": 2.5
       },
-      "total": 47.9,
+      "total": 48.0,
       "num_bookmakers": 5
     },
     "prediction": {
@@ -9020,7 +9020,7 @@
           "Bowling Green Falcons": -2.5,
           "Tarleton State Texans": 2.5
         },
-        "total": 47.9,
+        "total": 48.0,
         "num_bookmakers": 5
       }
     },
@@ -9042,10 +9042,10 @@
         "West Virginia Mountaineers": -1893
       },
       "spread": {
-        "Coastal Carolina Chanticleers": 21.1,
-        "West Virginia Mountaineers": -21.1
+        "Coastal Carolina Chanticleers": 21.0,
+        "West Virginia Mountaineers": -21.0
       },
-      "total": 56.1,
+      "total": 56.0,
       "num_bookmakers": 9
     },
     "prediction": {
@@ -9086,10 +9086,10 @@
           "West Virginia Mountaineers": -1893
         },
         "spread": {
-          "Coastal Carolina Chanticleers": 21.1,
-          "West Virginia Mountaineers": -21.1
+          "Coastal Carolina Chanticleers": 21.0,
+          "West Virginia Mountaineers": -21.0
         },
-        "total": 56.1,
+        "total": 56.0,
         "num_bookmakers": 9
       }
     },
@@ -9111,8 +9111,8 @@
         "Oregon State Beavers": 911
       },
       "spread": {
-        "Houston Cougars": -20.7,
-        "Oregon State Beavers": 20.7
+        "Houston Cougars": -20.5,
+        "Oregon State Beavers": 20.5
       },
       "total": 49.5,
       "num_bookmakers": 9
@@ -9155,8 +9155,8 @@
           "Oregon State Beavers": 911
         },
         "spread": {
-          "Houston Cougars": -20.7,
-          "Oregon State Beavers": 20.7
+          "Houston Cougars": -20.5,
+          "Oregon State Beavers": 20.5
         },
         "total": 49.5,
         "num_bookmakers": 9
@@ -9190,10 +9190,10 @@
         "North Texas Mean Green": 1875
       },
       "spread": {
-        "Indiana Hoosiers": -40.2,
-        "North Texas Mean Green": 40.2
+        "Indiana Hoosiers": -40.0,
+        "North Texas Mean Green": 40.0
       },
-      "total": 55.6,
+      "total": 55.5,
       "num_bookmakers": 9
     },
     "prediction": {
@@ -9234,10 +9234,10 @@
           "North Texas Mean Green": 1875
         },
         "spread": {
-          "Indiana Hoosiers": -40.2,
-          "North Texas Mean Green": 40.2
+          "Indiana Hoosiers": -40.0,
+          "North Texas Mean Green": 40.0
         },
-        "total": 55.6,
+        "total": 55.5,
         "num_bookmakers": 9
       }
     },
@@ -9269,10 +9269,10 @@
         "Liberty Flames": 185
       },
       "spread": {
-        "James Madison Dukes": -6.2,
-        "Liberty Flames": 6.2
+        "James Madison Dukes": -6.0,
+        "Liberty Flames": 6.0
       },
-      "total": 50.4,
+      "total": 50.5,
       "num_bookmakers": 9
     },
     "prediction": {
@@ -9313,10 +9313,10 @@
           "Liberty Flames": 185
         },
         "spread": {
-          "James Madison Dukes": -6.2,
-          "Liberty Flames": 6.2
+          "James Madison Dukes": -6.0,
+          "Liberty Flames": 6.0
         },
-        "total": 50.4,
+        "total": 50.5,
         "num_bookmakers": 9
       }
     },
@@ -9338,10 +9338,10 @@
         "UConn Huskies": -1489
       },
       "spread": {
-        "Lafayette Leopards": 19.6,
-        "UConn Huskies": -19.6
+        "Lafayette Leopards": 19.5,
+        "UConn Huskies": -19.5
       },
-      "total": 52.3,
+      "total": 52.5,
       "num_bookmakers": 5
     },
     "prediction": {
@@ -9382,10 +9382,10 @@
           "UConn Huskies": -1489
         },
         "spread": {
-          "Lafayette Leopards": 19.6,
-          "UConn Huskies": -19.6
+          "Lafayette Leopards": 19.5,
+          "UConn Huskies": -19.5
         },
-        "total": 52.3,
+        "total": 52.5,
         "num_bookmakers": 5
       }
     },
@@ -9410,7 +9410,7 @@
         "Miami (OH) RedHawks": 16.5,
         "Pittsburgh Panthers": -16.5
       },
-      "total": 47.6,
+      "total": 47.5,
       "num_bookmakers": 9
     },
     "prediction": {
@@ -9454,7 +9454,7 @@
           "Miami (OH) RedHawks": 16.5,
           "Pittsburgh Panthers": -16.5
         },
-        "total": 47.6,
+        "total": 47.5,
         "num_bookmakers": 9
       }
     },
@@ -9479,7 +9479,7 @@
         "Nebraska Cornhuskers": -23.5,
         "Ohio Bobcats": 23.5
       },
-      "total": 46.1,
+      "total": 46.0,
       "num_bookmakers": 9
     },
     "prediction": {
@@ -9523,7 +9523,7 @@
           "Nebraska Cornhuskers": -23.5,
           "Ohio Bobcats": 23.5
         },
-        "total": 46.1,
+        "total": 46.0,
         "num_bookmakers": 9
       }
     },
@@ -9545,10 +9545,10 @@
         "Syracuse Orange": -20000
       },
       "spread": {
-        "New Hampshire Wildcats": 33.9,
-        "Syracuse Orange": -33.9
+        "New Hampshire Wildcats": 34.0,
+        "Syracuse Orange": -34.0
       },
-      "total": 56.1,
+      "total": 56.0,
       "num_bookmakers": 4
     },
     "prediction": {
@@ -9589,10 +9589,10 @@
           "Syracuse Orange": -20000
         },
         "spread": {
-          "New Hampshire Wildcats": 33.9,
-          "Syracuse Orange": -33.9
+          "New Hampshire Wildcats": 34.0,
+          "Syracuse Orange": -34.0
         },
-        "total": 56.1,
+        "total": 56.0,
         "num_bookmakers": 4
       }
     },
@@ -9614,10 +9614,10 @@
         "Ohio State Buckeyes": -100000
       },
       "spread": {
-        "Ball State Cardinals": 50.6,
-        "Ohio State Buckeyes": -50.6
+        "Ball State Cardinals": 50.5,
+        "Ohio State Buckeyes": -50.5
       },
-      "total": 56.3,
+      "total": 56.5,
       "num_bookmakers": 9
     },
     "prediction": {
@@ -9659,10 +9659,10 @@
           "Ohio State Buckeyes": -100000
         },
         "spread": {
-          "Ball State Cardinals": 50.6,
-          "Ohio State Buckeyes": -50.6
+          "Ball State Cardinals": 50.5,
+          "Ohio State Buckeyes": -50.5
         },
-        "total": 56.3,
+        "total": 56.5,
         "num_bookmakers": 9
       }
     },
@@ -9697,7 +9697,7 @@
         "Kent State Golden Flashes": 36.0,
         "South Carolina Gamecocks": -36.0
       },
-      "total": 54.1,
+      "total": 54.0,
       "num_bookmakers": 9
     },
     "prediction": {
@@ -9741,7 +9741,7 @@
           "Kent State Golden Flashes": 36.0,
           "South Carolina Gamecocks": -36.0
         },
-        "total": 54.1,
+        "total": 54.0,
         "num_bookmakers": 9
       }
     },
@@ -9763,10 +9763,10 @@
         "Duquesne Dukes": 2300
       },
       "spread": {
-        "Air Force Falcons": -28.8,
-        "Duquesne Dukes": 28.8
+        "Air Force Falcons": -29.0,
+        "Duquesne Dukes": 29.0
       },
-      "total": 57.8,
+      "total": 58.0,
       "num_bookmakers": 5
     },
     "prediction": {
@@ -9807,10 +9807,10 @@
           "Duquesne Dukes": 2300
         },
         "spread": {
-          "Air Force Falcons": -28.8,
-          "Duquesne Dukes": 28.8
+          "Air Force Falcons": -29.0,
+          "Duquesne Dukes": 29.0
         },
-        "total": 57.8,
+        "total": 58.0,
         "num_bookmakers": 5
       }
     },
@@ -9845,7 +9845,7 @@
         "Iowa State Cyclones": -30.0,
         "Southeast Missouri State Redhawks": 30.0
       },
-      "total": 52.7,
+      "total": 52.5,
       "num_bookmakers": 3
     },
     "prediction": {
@@ -9889,7 +9889,7 @@
           "Iowa State Cyclones": -30.0,
           "Southeast Missouri State Redhawks": 30.0
         },
-        "total": 52.7,
+        "total": 52.5,
         "num_bookmakers": 3
       }
     },
@@ -9911,8 +9911,8 @@
         "Youngstown St Penguins": 1353
       },
       "spread": {
-        "Kentucky Wildcats": -23.1,
-        "Youngstown St Penguins": 23.1
+        "Kentucky Wildcats": -23.0,
+        "Youngstown St Penguins": 23.0
       },
       "total": 62.5,
       "num_bookmakers": 4
@@ -9955,8 +9955,8 @@
           "Youngstown St Penguins": 1353
         },
         "spread": {
-          "Kentucky Wildcats": -23.1,
-          "Youngstown St Penguins": 23.1
+          "Kentucky Wildcats": -23.0,
+          "Youngstown St Penguins": 23.0
         },
         "total": 62.5,
         "num_bookmakers": 4
@@ -9980,10 +9980,10 @@
         "Temple Owls": -802
       },
       "spread": {
-        "Rhode Island Rams": 14.7,
-        "Temple Owls": -14.7
+        "Rhode Island Rams": 14.5,
+        "Temple Owls": -14.5
       },
-      "total": 51.4,
+      "total": 51.5,
       "num_bookmakers": 5
     },
     "prediction": {
@@ -10024,10 +10024,10 @@
           "Temple Owls": -802
         },
         "spread": {
-          "Rhode Island Rams": 14.7,
-          "Temple Owls": -14.7
+          "Rhode Island Rams": 14.5,
+          "Temple Owls": -14.5
         },
-        "total": 51.4,
+        "total": 51.5,
         "num_bookmakers": 5
       }
     },
@@ -10046,8 +10046,8 @@
     "odds": {
       "moneyline": {},
       "spread": {
-        "Georgia Bulldogs": -47.2,
-        "Tennessee State Tigers": 47.2
+        "Georgia Bulldogs": -47.0,
+        "Tennessee State Tigers": 47.0
       },
       "total": 55.5,
       "num_bookmakers": 3
@@ -10088,8 +10088,8 @@
       "line_at_prediction": {
         "moneyline": {},
         "spread": {
-          "Georgia Bulldogs": -47.2,
-          "Tennessee State Tigers": 47.2
+          "Georgia Bulldogs": -47.0,
+          "Tennessee State Tigers": 47.0
         },
         "total": 55.5,
         "num_bookmakers": 3
@@ -10113,10 +10113,10 @@
         "Maine Black Bears": 770
       },
       "spread": {
-        "Appalachian State Mountaineers": -19.3,
-        "Maine Black Bears": 19.3
+        "Appalachian State Mountaineers": -19.5,
+        "Maine Black Bears": 19.5
       },
-      "total": 53.1,
+      "total": 53.0,
       "num_bookmakers": 5
     },
     "prediction": {
@@ -10157,10 +10157,10 @@
           "Maine Black Bears": 770
         },
         "spread": {
-          "Appalachian State Mountaineers": -19.3,
-          "Maine Black Bears": 19.3
+          "Appalachian State Mountaineers": -19.5,
+          "Maine Black Bears": 19.5
         },
-        "total": 53.1,
+        "total": 53.0,
         "num_bookmakers": 5
       }
     },
@@ -10182,10 +10182,10 @@
         "Baylor Bears": 238
       },
       "spread": {
-        "Auburn Tigers": -7.4,
-        "Baylor Bears": 7.4
+        "Auburn Tigers": -7.5,
+        "Baylor Bears": 7.5
       },
-      "total": 58.6,
+      "total": 58.5,
       "num_bookmakers": 9
     },
     "prediction": {
@@ -10226,10 +10226,10 @@
           "Baylor Bears": 238
         },
         "spread": {
-          "Auburn Tigers": -7.4,
-          "Baylor Bears": 7.4
+          "Auburn Tigers": -7.5,
+          "Baylor Bears": 7.5
         },
-        "total": 58.6,
+        "total": 58.5,
         "num_bookmakers": 9
       }
     },
@@ -10254,7 +10254,7 @@
         "Boise State Broncos": 24.5,
         "Oregon Ducks": -24.5
       },
-      "total": 51.4,
+      "total": 51.5,
       "num_bookmakers": 9
     },
     "prediction": {
@@ -10298,7 +10298,7 @@
           "Boise State Broncos": 24.5,
           "Oregon Ducks": -24.5
         },
-        "total": 51.4,
+        "total": 51.5,
         "num_bookmakers": 9
       }
     },
@@ -10323,7 +10323,7 @@
         "Boston College Eagles": 7.5,
         "Cincinnati Bearcats": -7.5
       },
-      "total": 49.7,
+      "total": 49.5,
       "num_bookmakers": 9
     },
     "prediction": {
@@ -10367,7 +10367,7 @@
           "Boston College Eagles": 7.5,
           "Cincinnati Bearcats": -7.5
         },
-        "total": 49.7,
+        "total": 49.5,
         "num_bookmakers": 9
       }
     },
@@ -10399,10 +10399,10 @@
         "Citadel Bulldogs": 960
       },
       "spread": {
-        "Charlotte 49ers": -19.6,
-        "Citadel Bulldogs": 19.6
+        "Charlotte 49ers": -19.5,
+        "Citadel Bulldogs": 19.5
       },
-      "total": 46.3,
+      "total": 46.5,
       "num_bookmakers": 5
     },
     "prediction": {
@@ -10443,10 +10443,10 @@
           "Citadel Bulldogs": 960
         },
         "spread": {
-          "Charlotte 49ers": -19.6,
-          "Citadel Bulldogs": 19.6
+          "Charlotte 49ers": -19.5,
+          "Citadel Bulldogs": 19.5
         },
-        "total": 46.3,
+        "total": 46.5,
         "num_bookmakers": 5
       }
     },
@@ -10471,7 +10471,7 @@
         "Duke Blue Devils": -7.5,
         "Tulane Green Wave": 7.5
       },
-      "total": 51.2,
+      "total": 51.0,
       "num_bookmakers": 9
     },
     "prediction": {
@@ -10515,7 +10515,7 @@
           "Duke Blue Devils": -7.5,
           "Tulane Green Wave": 7.5
         },
-        "total": 51.2,
+        "total": 51.0,
         "num_bookmakers": 9
       }
     },
@@ -10534,10 +10534,10 @@
     "odds": {
       "moneyline": {},
       "spread": {
-        "Fordham Rams": 41.4,
-        "North Dakota State Bison": -41.4
+        "Fordham Rams": 41.5,
+        "North Dakota State Bison": -41.5
       },
-      "total": 56.2,
+      "total": 56.0,
       "num_bookmakers": 5
     },
     "prediction": {
@@ -10575,10 +10575,10 @@
       "line_at_prediction": {
         "moneyline": {},
         "spread": {
-          "Fordham Rams": 41.4,
-          "North Dakota State Bison": -41.4
+          "Fordham Rams": 41.5,
+          "North Dakota State Bison": -41.5
         },
-        "total": 56.2,
+        "total": 56.0,
         "num_bookmakers": 5
       }
     },
@@ -10597,8 +10597,8 @@
     "odds": {
       "moneyline": {},
       "spread": {
-        "Furman Paladins": 47.2,
-        "Tennessee Volunteers": -47.2
+        "Furman Paladins": 47.0,
+        "Tennessee Volunteers": -47.0
       },
       "total": 66.5,
       "num_bookmakers": 5
@@ -10638,8 +10638,8 @@
       "line_at_prediction": {
         "moneyline": {},
         "spread": {
-          "Furman Paladins": 47.2,
-          "Tennessee Volunteers": -47.2
+          "Furman Paladins": 47.0,
+          "Tennessee Volunteers": -47.0
         },
         "total": 66.5,
         "num_bookmakers": 5
@@ -10673,10 +10673,10 @@
         "Penn State Nittany Lions": -3253
       },
       "spread": {
-        "Marshall Thundering Herd": 24.2,
-        "Penn State Nittany Lions": -24.2
+        "Marshall Thundering Herd": 24.0,
+        "Penn State Nittany Lions": -24.0
       },
-      "total": 52.2,
+      "total": 52.0,
       "num_bookmakers": 9
     },
     "prediction": {
@@ -10717,10 +10717,10 @@
           "Penn State Nittany Lions": -3253
         },
         "spread": {
-          "Marshall Thundering Herd": 24.2,
-          "Penn State Nittany Lions": -24.2
+          "Marshall Thundering Herd": 24.0,
+          "Penn State Nittany Lions": -24.0
         },
-        "total": 52.2,
+        "total": 52.0,
         "num_bookmakers": 9
       }
     },
@@ -10742,10 +10742,10 @@
         "Towson Tigers": 3750
       },
       "spread": {
-        "Navy Midshipmen": -30.9,
-        "Towson Tigers": 30.9
+        "Navy Midshipmen": -31.0,
+        "Towson Tigers": 31.0
       },
-      "total": 50.1,
+      "total": 50.0,
       "num_bookmakers": 5
     },
     "prediction": {
@@ -10786,10 +10786,10 @@
           "Towson Tigers": 3750
         },
         "spread": {
-          "Navy Midshipmen": -30.9,
-          "Towson Tigers": 30.9
+          "Navy Midshipmen": -31.0,
+          "Towson Tigers": 31.0
         },
-        "total": 50.1,
+        "total": 50.0,
         "num_bookmakers": 5
       }
     },
@@ -10811,10 +10811,10 @@
         "Texas State Bobcats": 2306
       },
       "spread": {
-        "Texas Longhorns": -29.4,
-        "Texas State Bobcats": 29.4
+        "Texas Longhorns": -29.5,
+        "Texas State Bobcats": 29.5
       },
-      "total": 59.7,
+      "total": 59.5,
       "num_bookmakers": 9
     },
     "prediction": {
@@ -10855,10 +10855,10 @@
           "Texas State Bobcats": 2306
         },
         "spread": {
-          "Texas Longhorns": -29.4,
-          "Texas State Bobcats": 29.4
+          "Texas Longhorns": -29.5,
+          "Texas State Bobcats": 29.5
         },
-        "total": 59.7,
+        "total": 59.5,
         "num_bookmakers": 9
       }
     },
@@ -10890,8 +10890,8 @@
         "UTSA Roadrunners": -8000
       },
       "spread": {
-        "UT Rio Grande Valley Vaqueros": 28.2,
-        "UTSA Roadrunners": -28.2
+        "UT Rio Grande Valley Vaqueros": 28.0,
+        "UTSA Roadrunners": -28.0
       },
       "total": 59.5,
       "num_bookmakers": 4
@@ -10934,8 +10934,8 @@
           "UTSA Roadrunners": -8000
         },
         "spread": {
-          "UT Rio Grande Valley Vaqueros": 28.2,
-          "UTSA Roadrunners": -28.2
+          "UT Rio Grande Valley Vaqueros": 28.0,
+          "UTSA Roadrunners": -28.0
         },
         "total": 59.5,
         "num_bookmakers": 4
@@ -10959,8 +10959,8 @@
         "Tulsa Golden Hurricane": 425
       },
       "spread": {
-        "Oklahoma State Cowboys": -13.6,
-        "Tulsa Golden Hurricane": 13.6
+        "Oklahoma State Cowboys": -13.5,
+        "Tulsa Golden Hurricane": 13.5
       },
       "total": 59.0,
       "num_bookmakers": 9
@@ -11003,8 +11003,8 @@
           "Tulsa Golden Hurricane": 425
         },
         "spread": {
-          "Oklahoma State Cowboys": -13.6,
-          "Tulsa Golden Hurricane": 13.6
+          "Oklahoma State Cowboys": -13.5,
+          "Tulsa Golden Hurricane": 13.5
         },
         "total": 59.0,
         "num_bookmakers": 9
@@ -11038,10 +11038,10 @@
         "Northern Illinois Huskies": 3412
       },
       "spread": {
-        "Iowa Hawkeyes": -31.6,
-        "Northern Illinois Huskies": 31.6
+        "Iowa Hawkeyes": -31.5,
+        "Northern Illinois Huskies": 31.5
       },
-      "total": 44.4,
+      "total": 44.5,
       "num_bookmakers": 9
     },
     "prediction": {
@@ -11082,10 +11082,10 @@
           "Northern Illinois Huskies": 3412
         },
         "spread": {
-          "Iowa Hawkeyes": -31.6,
-          "Northern Illinois Huskies": 31.6
+          "Iowa Hawkeyes": -31.5,
+          "Northern Illinois Huskies": 31.5
         },
-        "total": 44.4,
+        "total": 44.5,
         "num_bookmakers": 9
       }
     },
@@ -11117,10 +11117,10 @@
         "Southern Mississippi Golden Eagles": -1700
       },
       "spread": {
-        "Alcorn State Braves": 19.9,
-        "Southern Mississippi Golden Eagles": -19.9
+        "Alcorn State Braves": 20.0,
+        "Southern Mississippi Golden Eagles": -20.0
       },
-      "total": 50.8,
+      "total": 51.0,
       "num_bookmakers": 5
     },
     "prediction": {
@@ -11161,10 +11161,10 @@
           "Southern Mississippi Golden Eagles": -1700
         },
         "spread": {
-          "Alcorn State Braves": 19.9,
-          "Southern Mississippi Golden Eagles": -19.9
+          "Alcorn State Braves": 20.0,
+          "Southern Mississippi Golden Eagles": -20.0
         },
-        "total": 50.8,
+        "total": 51.0,
         "num_bookmakers": 5
       }
     },
@@ -11186,10 +11186,10 @@
         "Wyoming Cowboys": 136
       },
       "spread": {
-        "Colorado State Rams": -3.1,
-        "Wyoming Cowboys": 3.1
+        "Colorado State Rams": -3.0,
+        "Wyoming Cowboys": 3.0
       },
-      "total": 46.3,
+      "total": 46.5,
       "num_bookmakers": 9
     },
     "prediction": {
@@ -11230,10 +11230,10 @@
           "Wyoming Cowboys": 136
         },
         "spread": {
-          "Colorado State Rams": -3.1,
-          "Wyoming Cowboys": 3.1
+          "Colorado State Rams": -3.0,
+          "Wyoming Cowboys": 3.0
         },
-        "total": 46.3,
+        "total": 46.5,
         "num_bookmakers": 9
       }
     },
@@ -11262,8 +11262,8 @@
     "odds": {
       "moneyline": {},
       "spread": {
-        "Norfolk State Spartans": 40.7,
-        "Old Dominion Monarchs": -40.7
+        "Norfolk State Spartans": 40.5,
+        "Old Dominion Monarchs": -40.5
       },
       "total": 52.5,
       "num_bookmakers": 5
@@ -11303,8 +11303,8 @@
       "line_at_prediction": {
         "moneyline": {},
         "spread": {
-          "Norfolk State Spartans": 40.7,
-          "Old Dominion Monarchs": -40.7
+          "Norfolk State Spartans": 40.5,
+          "Old Dominion Monarchs": -40.5
         },
         "total": 52.5,
         "num_bookmakers": 5
@@ -11325,10 +11325,10 @@
     "odds": {
       "moneyline": {},
       "spread": {
-        "Abilene Christian Wildcats": 42.7,
-        "Texas Tech Red Raiders": -42.7
+        "Abilene Christian Wildcats": 42.5,
+        "Texas Tech Red Raiders": -42.5
       },
-      "total": 59.3,
+      "total": 59.5,
       "num_bookmakers": 5
     },
     "prediction": {
@@ -11366,10 +11366,10 @@
       "line_at_prediction": {
         "moneyline": {},
         "spread": {
-          "Abilene Christian Wildcats": 42.7,
-          "Texas Tech Red Raiders": -42.7
+          "Abilene Christian Wildcats": 42.5,
+          "Texas Tech Red Raiders": -42.5
         },
-        "total": 59.3,
+        "total": 59.5,
         "num_bookmakers": 5
       }
     },
@@ -11391,10 +11391,10 @@
         "Memphis Tigers": -471
       },
       "spread": {
-        "Arkansas State Red Wolves": 11.4,
-        "Memphis Tigers": -11.4
+        "Arkansas State Red Wolves": 11.5,
+        "Memphis Tigers": -11.5
       },
-      "total": 52.2,
+      "total": 52.0,
       "num_bookmakers": 9
     },
     "prediction": {
@@ -11435,10 +11435,10 @@
           "Memphis Tigers": -471
         },
         "spread": {
-          "Arkansas State Red Wolves": 11.4,
-          "Memphis Tigers": -11.4
+          "Arkansas State Red Wolves": 11.5,
+          "Memphis Tigers": -11.5
         },
-        "total": 52.2,
+        "total": 52.0,
         "num_bookmakers": 9
       }
     },
@@ -11470,8 +11470,8 @@
         "Vanderbilt Commodores": -7250
       },
       "spread": {
-        "Austin Peay Governors": 29.2,
-        "Vanderbilt Commodores": -29.2
+        "Austin Peay Governors": 29.0,
+        "Vanderbilt Commodores": -29.0
       },
       "total": 60.5,
       "num_bookmakers": 5
@@ -11514,8 +11514,8 @@
           "Vanderbilt Commodores": -7250
         },
         "spread": {
-          "Austin Peay Governors": 29.2,
-          "Vanderbilt Commodores": -29.2
+          "Austin Peay Governors": 29.0,
+          "Vanderbilt Commodores": -29.0
         },
         "total": 60.5,
         "num_bookmakers": 5
@@ -11549,8 +11549,8 @@
         "Georgia Southern Eagles": -5750
       },
       "spread": {
-        "Charleston Southern Buccaneers": 25.9,
-        "Georgia Southern Eagles": -25.9
+        "Charleston Southern Buccaneers": 26.0,
+        "Georgia Southern Eagles": -26.0
       },
       "total": 51.5,
       "num_bookmakers": 5
@@ -11593,8 +11593,8 @@
           "Georgia Southern Eagles": -5750
         },
         "spread": {
-          "Charleston Southern Buccaneers": 25.9,
-          "Georgia Southern Eagles": -25.9
+          "Charleston Southern Buccaneers": 26.0,
+          "Georgia Southern Eagles": -26.0
         },
         "total": 51.5,
         "num_bookmakers": 5
@@ -11687,10 +11687,10 @@
         "South Florida Bulls": -687
       },
       "spread": {
-        "Florida International Panthers": 14.4,
-        "South Florida Bulls": -14.4
+        "Florida International Panthers": 14.5,
+        "South Florida Bulls": -14.5
       },
-      "total": 51.8,
+      "total": 52.0,
       "num_bookmakers": 9
     },
     "prediction": {
@@ -11731,10 +11731,10 @@
           "South Florida Bulls": -687
         },
         "spread": {
-          "Florida International Panthers": 14.4,
-          "South Florida Bulls": -14.4
+          "Florida International Panthers": 14.5,
+          "South Florida Bulls": -14.5
         },
-        "total": 51.8,
+        "total": 52.0,
         "num_bookmakers": 9
       }
     },
@@ -11828,7 +11828,7 @@
         "Idaho State Bengals": 14.0,
         "Utah State Aggies": -14.0
       },
-      "total": 62.1,
+      "total": 62.0,
       "num_bookmakers": 5
     },
     "prediction": {
@@ -11872,7 +11872,7 @@
           "Idaho State Bengals": 14.0,
           "Utah State Aggies": -14.0
         },
-        "total": 62.1,
+        "total": 62.0,
         "num_bookmakers": 5
       }
     },
@@ -11891,8 +11891,8 @@
     "odds": {
       "moneyline": {},
       "spread": {
-        "Kansas State Wildcats": -41.2,
-        "Nicholls State Colonels": 41.2
+        "Kansas State Wildcats": -41.0,
+        "Nicholls State Colonels": 41.0
       },
       "total": 54.5,
       "num_bookmakers": 3
@@ -11932,8 +11932,8 @@
       "line_at_prediction": {
         "moneyline": {},
         "spread": {
-          "Kansas State Wildcats": -41.2,
-          "Nicholls State Colonels": 41.2
+          "Kansas State Wildcats": -41.0,
+          "Nicholls State Colonels": 41.0
         },
         "total": 54.5,
         "num_bookmakers": 3
@@ -11957,10 +11957,10 @@
         "Western Michigan Broncos": 1734
       },
       "spread": {
-        "Michigan Wolverines": -27.6,
-        "Western Michigan Broncos": 27.6
+        "Michigan Wolverines": -27.5,
+        "Western Michigan Broncos": 27.5
       },
-      "total": 49.1,
+      "total": 49.0,
       "num_bookmakers": 9
     },
     "prediction": {
@@ -12002,10 +12002,10 @@
           "Western Michigan Broncos": 1734
         },
         "spread": {
-          "Michigan Wolverines": -27.6,
-          "Western Michigan Broncos": 27.6
+          "Michigan Wolverines": -27.5,
+          "Western Michigan Broncos": 27.5
         },
-        "total": 49.1,
+        "total": 49.0,
         "num_bookmakers": 9
       }
     },
@@ -12027,10 +12027,10 @@
         "Murray State Racers": 990
       },
       "spread": {
-        "Middle Tennessee Blue Raiders": -20.7,
-        "Murray State Racers": 20.7
+        "Middle Tennessee Blue Raiders": -20.5,
+        "Murray State Racers": 20.5
       },
-      "total": 58.1,
+      "total": 58.0,
       "num_bookmakers": 5
     },
     "prediction": {
@@ -12071,10 +12071,10 @@
           "Murray State Racers": 990
         },
         "spread": {
-          "Middle Tennessee Blue Raiders": -20.7,
-          "Murray State Racers": 20.7
+          "Middle Tennessee Blue Raiders": -20.5,
+          "Murray State Racers": 20.5
         },
-        "total": 58.1,
+        "total": 58.0,
         "num_bookmakers": 5
       }
     },
@@ -12096,8 +12096,8 @@
         "Texas A&M Aggies": -100000
       },
       "spread": {
-        "Missouri State Bears": 40.4,
-        "Texas A&M Aggies": -40.4
+        "Missouri State Bears": 40.5,
+        "Texas A&M Aggies": -40.5
       },
       "total": 53.5,
       "num_bookmakers": 9
@@ -12140,8 +12140,8 @@
           "Texas A&M Aggies": -100000
         },
         "spread": {
-          "Missouri State Bears": 40.4,
-          "Texas A&M Aggies": -40.4
+          "Missouri State Bears": 40.5,
+          "Texas A&M Aggies": -40.5
         },
         "total": 53.5,
         "num_bookmakers": 9
@@ -12165,10 +12165,10 @@
         "Troy Trojans": -872
       },
       "spread": {
-        "Sam Houston State Bearkats": 16.6,
-        "Troy Trojans": -16.6
+        "Sam Houston State Bearkats": 16.5,
+        "Troy Trojans": -16.5
       },
-      "total": 53.9,
+      "total": 54.0,
       "num_bookmakers": 9
     },
     "prediction": {
@@ -12209,10 +12209,10 @@
           "Troy Trojans": -872
         },
         "spread": {
-          "Sam Houston State Bearkats": 16.6,
-          "Troy Trojans": -16.6
+          "Sam Houston State Bearkats": 16.5,
+          "Troy Trojans": -16.5
         },
-        "total": 53.9,
+        "total": 54.0,
         "num_bookmakers": 9
       }
     },
@@ -12234,8 +12234,8 @@
         "Southeastern Louisiana Lions": 462
       },
       "spread": {
-        "South Alabama Jaguars": -12.9,
-        "Southeastern Louisiana Lions": 12.9
+        "South Alabama Jaguars": -13.0,
+        "Southeastern Louisiana Lions": 13.0
       },
       "total": 52.5,
       "num_bookmakers": 5
@@ -12278,8 +12278,8 @@
           "Southeastern Louisiana Lions": 462
         },
         "spread": {
-          "South Alabama Jaguars": -12.9,
-          "Southeastern Louisiana Lions": 12.9
+          "South Alabama Jaguars": -13.0,
+          "Southeastern Louisiana Lions": 13.0
         },
         "total": 52.5,
         "num_bookmakers": 5
@@ -12303,10 +12303,10 @@
         "LSU Tigers": -396
       },
       "spread": {
-        "Clemson Tigers": 10.1,
-        "LSU Tigers": -10.1
+        "Clemson Tigers": 10.0,
+        "LSU Tigers": -10.0
       },
-      "total": 50.4,
+      "total": 50.5,
       "num_bookmakers": 9
     },
     "prediction": {
@@ -12347,10 +12347,10 @@
           "LSU Tigers": -396
         },
         "spread": {
-          "Clemson Tigers": 10.1,
-          "LSU Tigers": -10.1
+          "Clemson Tigers": 10.0,
+          "LSU Tigers": -10.0
         },
-        "total": 50.4,
+        "total": 50.5,
         "num_bookmakers": 9
       }
     },
@@ -12372,7 +12372,7 @@
         "Louisiana Tech Bulldogs": -44.5,
         "Northwestern State Demons": 44.5
       },
-      "total": 55.4,
+      "total": 55.5,
       "num_bookmakers": 4
     },
     "prediction": {
@@ -12413,7 +12413,7 @@
           "Louisiana Tech Bulldogs": -44.5,
           "Northwestern State Demons": 44.5
         },
-        "total": 55.4,
+        "total": 55.5,
         "num_bookmakers": 4
       }
     },
@@ -12445,10 +12445,10 @@
         "UL Monroe Warhawks": 1838
       },
       "spread": {
-        "Mississippi State Bulldogs": -28.6,
-        "UL Monroe Warhawks": 28.6
+        "Mississippi State Bulldogs": -28.5,
+        "UL Monroe Warhawks": 28.5
       },
-      "total": 54.7,
+      "total": 54.5,
       "num_bookmakers": 9
     },
     "prediction": {
@@ -12489,10 +12489,10 @@
           "UL Monroe Warhawks": 1838
         },
         "spread": {
-          "Mississippi State Bulldogs": -28.6,
-          "UL Monroe Warhawks": 28.6
+          "Mississippi State Bulldogs": -28.5,
+          "UL Monroe Warhawks": 28.5
         },
-        "total": 54.7,
+        "total": 54.5,
         "num_bookmakers": 9
       }
     },
@@ -12524,7 +12524,7 @@
         "Virginia Tech Hokies": -55.5,
         "VMI Keydets": 55.5
       },
-      "total": 61.9,
+      "total": 62.0,
       "num_bookmakers": 5
     },
     "prediction": {
@@ -12565,7 +12565,7 @@
           "Virginia Tech Hokies": -55.5,
           "VMI Keydets": 55.5
         },
-        "total": 61.9,
+        "total": 62.0,
         "num_bookmakers": 5
       }
     },
@@ -12590,7 +12590,7 @@
         "Florida Atlantic Owls": 26.5,
         "Florida Gators": -26.5
       },
-      "total": 59.4,
+      "total": 59.5,
       "num_bookmakers": 9
     },
     "prediction": {
@@ -12634,7 +12634,7 @@
           "Florida Atlantic Owls": 26.5,
           "Florida Gators": -26.5
         },
-        "total": 59.4,
+        "total": 59.5,
         "num_bookmakers": 9
       }
     },
@@ -12653,10 +12653,10 @@
     "odds": {
       "moneyline": {},
       "spread": {
-        "BYU Cougars": -51.4,
-        "Utah Tech Trailblazers": 51.4
+        "BYU Cougars": -51.5,
+        "Utah Tech Trailblazers": 51.5
       },
-      "total": 61.4,
+      "total": 61.5,
       "num_bookmakers": 5
     },
     "prediction": {
@@ -12694,10 +12694,10 @@
       "line_at_prediction": {
         "moneyline": {},
         "spread": {
-          "BYU Cougars": -51.4,
-          "Utah Tech Trailblazers": 51.4
+          "BYU Cougars": -51.5,
+          "Utah Tech Trailblazers": 51.5
         },
-        "total": 61.4,
+        "total": 61.5,
         "num_bookmakers": 5
       }
     },
@@ -12722,7 +12722,7 @@
         "Lamar Cardinals": 19.5,
         "Louisiana Ragin Cajuns": -19.5
       },
-      "total": 48.8,
+      "total": 49.0,
       "num_bookmakers": 5
     },
     "prediction": {
@@ -12766,7 +12766,7 @@
           "Lamar Cardinals": 19.5,
           "Louisiana Ragin Cajuns": -19.5
         },
-        "total": 48.8,
+        "total": 49.0,
         "num_bookmakers": 5
       }
     },
@@ -12801,7 +12801,7 @@
         "Northwestern Wildcats": -13.5,
         "South Dakota State Jackrabbits": 13.5
       },
-      "total": 46.6,
+      "total": 46.5,
       "num_bookmakers": 5
     },
     "prediction": {
@@ -12845,7 +12845,7 @@
           "Northwestern Wildcats": -13.5,
           "South Dakota State Jackrabbits": 13.5
         },
-        "total": 46.6,
+        "total": 46.5,
         "num_bookmakers": 5
       }
     },
@@ -12877,10 +12877,10 @@
         "UNLV Rebels": -151
       },
       "spread": {
-        "Hawaii Rainbow Warriors": 3.1,
-        "UNLV Rebels": -3.1
+        "Hawaii Rainbow Warriors": 3.0,
+        "UNLV Rebels": -3.0
       },
-      "total": 56.3,
+      "total": 56.5,
       "num_bookmakers": 9
     },
     "prediction": {
@@ -12921,10 +12921,10 @@
           "UNLV Rebels": -151
         },
         "spread": {
-          "Hawaii Rainbow Warriors": 3.1,
-          "UNLV Rebels": -3.1
+          "Hawaii Rainbow Warriors": 3.0,
+          "UNLV Rebels": -3.0
         },
-        "total": 56.3,
+        "total": 56.5,
         "num_bookmakers": 9
       }
     },
@@ -12946,10 +12946,10 @@
         "New Mexico State Aggies": -9000
       },
       "spread": {
-        "Mercyhurst Lakers": 28.3,
-        "New Mexico State Aggies": -28.3
+        "Mercyhurst Lakers": 28.5,
+        "New Mexico State Aggies": -28.5
       },
-      "total": 52.1,
+      "total": 52.0,
       "num_bookmakers": 5
     },
     "prediction": {
@@ -12990,10 +12990,10 @@
           "New Mexico State Aggies": -9000
         },
         "spread": {
-          "Mercyhurst Lakers": 28.3,
-          "New Mexico State Aggies": -28.3
+          "Mercyhurst Lakers": 28.5,
+          "New Mexico State Aggies": -28.5
         },
-        "total": 52.1,
+        "total": 52.0,
         "num_bookmakers": 5
       }
     },
@@ -13015,8 +13015,8 @@
         "Northern Arizona Lumberjacks": 2200
       },
       "spread": {
-        "Arizona Wildcats": -31.8,
-        "Northern Arizona Lumberjacks": 31.8
+        "Arizona Wildcats": -32.0,
+        "Northern Arizona Lumberjacks": 32.0
       },
       "total": 58.0,
       "num_bookmakers": 4
@@ -13059,8 +13059,8 @@
           "Northern Arizona Lumberjacks": 2200
         },
         "spread": {
-          "Arizona Wildcats": -31.8,
-          "Northern Arizona Lumberjacks": 31.8
+          "Arizona Wildcats": -32.0,
+          "Northern Arizona Lumberjacks": 32.0
         },
         "total": 58.0,
         "num_bookmakers": 4
@@ -13091,8 +13091,8 @@
     "odds": {
       "moneyline": {},
       "spread": {
-        "Portland State Vikings": 40.1,
-        "San Diego State Aztecs": -40.1
+        "Portland State Vikings": 40.0,
+        "San Diego State Aztecs": -40.0
       },
       "total": 62.0,
       "num_bookmakers": 5
@@ -13132,8 +13132,8 @@
       "line_at_prediction": {
         "moneyline": {},
         "spread": {
-          "Portland State Vikings": 40.1,
-          "San Diego State Aztecs": -40.1
+          "Portland State Vikings": 40.0,
+          "San Diego State Aztecs": -40.0
         },
         "total": 62.0,
         "num_bookmakers": 5
@@ -13167,7 +13167,7 @@
         "Arizona State Sun Devils": -43.5,
         "Morgan State Bears": 43.5
       },
-      "total": 52.7,
+      "total": 52.5,
       "num_bookmakers": 5
     },
     "prediction": {
@@ -13208,7 +13208,7 @@
           "Arizona State Sun Devils": -43.5,
           "Morgan State Bears": 43.5
         },
-        "total": 52.7,
+        "total": 52.5,
         "num_bookmakers": 5
       }
     },
@@ -13240,10 +13240,10 @@
         "New Mexico Lobos": -461
       },
       "spread": {
-        "Central Michigan Chippewas": 10.7,
-        "New Mexico Lobos": -10.7
+        "Central Michigan Chippewas": 10.5,
+        "New Mexico Lobos": -10.5
       },
-      "total": 46.4,
+      "total": 46.5,
       "num_bookmakers": 9
     },
     "prediction": {
@@ -13284,10 +13284,10 @@
           "New Mexico Lobos": -461
         },
         "spread": {
-          "Central Michigan Chippewas": 10.7,
-          "New Mexico Lobos": -10.7
+          "Central Michigan Chippewas": 10.5,
+          "New Mexico Lobos": -10.5
         },
-        "total": 46.4,
+        "total": 46.5,
         "num_bookmakers": 9
       }
     },
@@ -13316,10 +13316,10 @@
     "odds": {
       "moneyline": {},
       "spread": {
-        "Mississippi Valley State Delta Devils": 37.7,
-        "Sacramento State Hornets": -37.7
+        "Mississippi Valley State Delta Devils": 37.5,
+        "Sacramento State Hornets": -37.5
       },
-      "total": 56.7,
+      "total": 56.5,
       "num_bookmakers": 5
     },
     "prediction": {
@@ -13357,10 +13357,10 @@
       "line_at_prediction": {
         "moneyline": {},
         "spread": {
-          "Mississippi Valley State Delta Devils": 37.7,
-          "Sacramento State Hornets": -37.7
+          "Mississippi Valley State Delta Devils": 37.5,
+          "Sacramento State Hornets": -37.5
         },
-        "total": 56.7,
+        "total": 56.5,
         "num_bookmakers": 5
       }
     },
@@ -13392,10 +13392,10 @@
         "UCLA Bruins": -128
       },
       "spread": {
-        "California Golden Bears": 1.8,
-        "UCLA Bruins": -1.8
+        "California Golden Bears": 2.0,
+        "UCLA Bruins": -2.0
       },
-      "total": 53.4,
+      "total": 53.5,
       "num_bookmakers": 9
     },
     "prediction": {
@@ -13436,10 +13436,10 @@
           "UCLA Bruins": -128
         },
         "spread": {
-          "California Golden Bears": 1.8,
-          "UCLA Bruins": -1.8
+          "California Golden Bears": 2.0,
+          "UCLA Bruins": -2.0
         },
-        "total": 53.4,
+        "total": 53.5,
         "num_bookmakers": 9
       }
     },
@@ -13461,8 +13461,8 @@
         "Western Kentucky Hilltoppers": -117
       },
       "spread": {
-        "Nevada Wolf Pack": 1.3,
-        "Western Kentucky Hilltoppers": -1.3
+        "Nevada Wolf Pack": 1.5,
+        "Western Kentucky Hilltoppers": -1.5
       },
       "total": 52.5,
       "num_bookmakers": 9
@@ -13505,8 +13505,8 @@
           "Western Kentucky Hilltoppers": -117
         },
         "spread": {
-          "Nevada Wolf Pack": 1.3,
-          "Western Kentucky Hilltoppers": -1.3
+          "Nevada Wolf Pack": 1.5,
+          "Western Kentucky Hilltoppers": -1.5
         },
         "total": 52.5,
         "num_bookmakers": 9
@@ -13530,10 +13530,10 @@
         "Washington State Cougars": 1097
       },
       "spread": {
-        "Washington Huskies": -23.4,
-        "Washington State Cougars": 23.4
+        "Washington Huskies": -23.5,
+        "Washington State Cougars": 23.5
       },
-      "total": 50.8,
+      "total": 51.0,
       "num_bookmakers": 9
     },
     "prediction": {
@@ -13574,10 +13574,10 @@
           "Washington State Cougars": 1097
         },
         "spread": {
-          "Washington Huskies": -23.4,
-          "Washington State Cougars": 23.4
+          "Washington Huskies": -23.5,
+          "Washington State Cougars": 23.5
         },
-        "total": 50.8,
+        "total": 51.0,
         "num_bookmakers": 9
       }
     },
@@ -13599,10 +13599,10 @@
         "Ole Miss Rebels": -271
       },
       "spread": {
-        "Louisville Cardinals": 6.8,
-        "Ole Miss Rebels": -6.8
+        "Louisville Cardinals": 7.0,
+        "Ole Miss Rebels": -7.0
       },
-      "total": 55.3,
+      "total": 55.5,
       "num_bookmakers": 8
     },
     "prediction": {
@@ -13643,10 +13643,10 @@
           "Ole Miss Rebels": -271
         },
         "spread": {
-          "Louisville Cardinals": 6.8,
-          "Ole Miss Rebels": -6.8
+          "Louisville Cardinals": 7.0,
+          "Ole Miss Rebels": -7.0
         },
-        "total": 55.3,
+        "total": 55.5,
         "num_bookmakers": 8
       }
     },
@@ -13668,10 +13668,10 @@
         "Wisconsin Badgers": 915
       },
       "spread": {
-        "Notre Dame Fighting Irish": -20.4,
-        "Wisconsin Badgers": 20.4
+        "Notre Dame Fighting Irish": -20.5,
+        "Wisconsin Badgers": 20.5
       },
-      "total": 46.7,
+      "total": 46.5,
       "num_bookmakers": 9
     },
     "prediction": {
@@ -13712,10 +13712,10 @@
           "Wisconsin Badgers": 915
         },
         "spread": {
-          "Notre Dame Fighting Irish": -20.4,
-          "Wisconsin Badgers": 20.4
+          "Notre Dame Fighting Irish": -20.5,
+          "Wisconsin Badgers": 20.5
         },
-        "total": 46.7,
+        "total": 46.5,
         "num_bookmakers": 9
       }
     },
@@ -13737,10 +13737,10 @@
         "SMU Mustangs": -159
       },
       "spread": {
-        "Florida State Seminoles": 3.1,
-        "SMU Mustangs": -3.1
+        "Florida State Seminoles": 3.0,
+        "SMU Mustangs": -3.0
       },
-      "total": 53.2,
+      "total": 53.0,
       "num_bookmakers": 9
     },
     "prediction": {
@@ -13781,10 +13781,10 @@
           "SMU Mustangs": -159
         },
         "spread": {
-          "Florida State Seminoles": 3.1,
-          "SMU Mustangs": -3.1
+          "Florida State Seminoles": 3.0,
+          "SMU Mustangs": -3.0
         },
-        "total": 53.2,
+        "total": 53.0,
         "num_bookmakers": 9
       }
     },
@@ -13806,10 +13806,10 @@
         "Missouri Tigers": -231
       },
       "spread": {
-        "Kansas Jayhawks": 5.9,
-        "Missouri Tigers": -5.9
+        "Kansas Jayhawks": 6.0,
+        "Missouri Tigers": -6.0
       },
-      "total": 50.2,
+      "total": 50.0,
       "num_bookmakers": 9
     },
     "prediction": {
@@ -13851,10 +13851,10 @@
           "Missouri Tigers": -231
         },
         "spread": {
-          "Kansas Jayhawks": 5.9,
-          "Missouri Tigers": -5.9
+          "Kansas Jayhawks": 6.0,
+          "Missouri Tigers": -6.0
         },
-        "total": 50.2,
+        "total": 50.0,
         "num_bookmakers": 9
       }
     },
@@ -13876,10 +13876,10 @@
         "Texas A&M Aggies": -716
       },
       "spread": {
-        "Arizona State Sun Devils": 14.6,
-        "Texas A&M Aggies": -14.6
+        "Arizona State Sun Devils": 14.5,
+        "Texas A&M Aggies": -14.5
       },
-      "total": 51.6,
+      "total": 51.5,
       "num_bookmakers": 9
     },
     "prediction": {
@@ -13921,10 +13921,10 @@
           "Texas A&M Aggies": -716
         },
         "spread": {
-          "Arizona State Sun Devils": 14.6,
-          "Texas A&M Aggies": -14.6
+          "Arizona State Sun Devils": 14.5,
+          "Texas A&M Aggies": -14.5
         },
-        "total": 51.6,
+        "total": 51.5,
         "num_bookmakers": 9
       }
     },
@@ -13946,8 +13946,8 @@
         "Oklahoma Sooners": -226
       },
       "spread": {
-        "Michigan Wolverines": 5.8,
-        "Oklahoma Sooners": -5.8
+        "Michigan Wolverines": 6.0,
+        "Oklahoma Sooners": -6.0
       },
       "total": 43.5,
       "num_bookmakers": 9
@@ -13991,8 +13991,8 @@
           "Oklahoma Sooners": -226
         },
         "spread": {
-          "Michigan Wolverines": 5.8,
-          "Oklahoma Sooners": -5.8
+          "Michigan Wolverines": 6.0,
+          "Oklahoma Sooners": -6.0
         },
         "total": 43.5,
         "num_bookmakers": 9
@@ -14016,10 +14016,10 @@
         "Oregon Ducks": -2456
       },
       "spread": {
-        "Oklahoma State Cowboys": 22.4,
-        "Oregon Ducks": -22.4
+        "Oklahoma State Cowboys": 22.5,
+        "Oregon Ducks": -22.5
       },
-      "total": 57.4,
+      "total": 57.5,
       "num_bookmakers": 9
     },
     "prediction": {
@@ -14061,10 +14061,10 @@
           "Oregon Ducks": -2456
         },
         "spread": {
-          "Oklahoma State Cowboys": 22.4,
-          "Oregon Ducks": -22.4
+          "Oklahoma State Cowboys": 22.5,
+          "Oregon Ducks": -22.5
         },
-        "total": 57.4,
+        "total": 57.5,
         "num_bookmakers": 9
       }
     },
@@ -14086,10 +14086,10 @@
         "Iowa State Cyclones": 486
       },
       "spread": {
-        "Iowa Hawkeyes": -14.2,
-        "Iowa State Cyclones": 14.2
+        "Iowa Hawkeyes": -14.0,
+        "Iowa State Cyclones": 14.0
       },
-      "total": 41.1,
+      "total": 41.0,
       "num_bookmakers": 9
     },
     "prediction": null,
@@ -14111,8 +14111,8 @@
         "Texas Longhorns": -113
       },
       "spread": {
-        "Ohio State Buckeyes": 0.9,
-        "Texas Longhorns": -0.9
+        "Ohio State Buckeyes": 1.0,
+        "Texas Longhorns": -1.0
       },
       "total": 48.5,
       "num_bookmakers": 9
@@ -14136,10 +14136,10 @@
         "Utah Utes": -560
       },
       "spread": {
-        "Arkansas Razorbacks": 13.3,
-        "Utah Utes": -13.3
+        "Arkansas Razorbacks": 13.5,
+        "Utah Utes": -13.5
       },
-      "total": 56.7,
+      "total": 56.5,
       "num_bookmakers": 8
     },
     "prediction": null,
@@ -14261,8 +14261,8 @@
         "Ole Miss Rebels": -130
       },
       "spread": {
-        "LSU Tigers": 2.2,
-        "Ole Miss Rebels": -2.2
+        "LSU Tigers": 2.0,
+        "Ole Miss Rebels": -2.0
       },
       "total": 57.5,
       "num_bookmakers": 3
@@ -14461,8 +14461,8 @@
         "Georgia Bulldogs": -144
       },
       "spread": {
-        "Alabama Crimson Tide": 2.7,
-        "Georgia Bulldogs": -2.7
+        "Alabama Crimson Tide": 2.5,
+        "Georgia Bulldogs": -2.5
       },
       "total": 50.0,
       "num_bookmakers": 3
@@ -14486,10 +14486,10 @@
         "Texas Longhorns": -222
       },
       "spread": {
-        "Oklahoma Sooners": 6.3,
-        "Texas Longhorns": -6.3
+        "Oklahoma Sooners": 6.5,
+        "Texas Longhorns": -6.5
       },
-      "total": 48.2,
+      "total": 48.0,
       "num_bookmakers": 3
     },
     "prediction": null,
@@ -14661,10 +14661,10 @@
         "Ohio State Buckeyes": -592
       },
       "spread": {
-        "Michigan Wolverines": 12.8,
-        "Ohio State Buckeyes": -12.8
+        "Michigan Wolverines": 13.0,
+        "Ohio State Buckeyes": -13.0
       },
-      "total": 45.8,
+      "total": 46.0,
       "num_bookmakers": 3
     },
     "prediction": null,
@@ -14711,10 +14711,10 @@
         "Boston Red Sox": 197
       },
       "spread": {
-        "Athletics": -1.4,
-        "Boston Red Sox": 1.4
+        "Athletics": -1.5,
+        "Boston Red Sox": 1.5
       },
-      "total": 9.6,
+      "total": 9.5,
       "num_bookmakers": 6
     },
     "prediction": null,
@@ -14739,7 +14739,7 @@
         "San Diego Padres": 2.5,
         "San Francisco Giants": -2.5
       },
-      "total": 8.2,
+      "total": 8.0,
       "num_bookmakers": 6
     },
     "prediction": null,
@@ -14761,10 +14761,10 @@
         "Seattle Mariners": 1500
       },
       "spread": {
-        "Los Angeles Dodgers": -5.3,
-        "Seattle Mariners": 5.3
+        "Los Angeles Dodgers": -5.5,
+        "Seattle Mariners": 5.5
       },
-      "total": 8.8,
+      "total": 9.0,
       "num_bookmakers": 6
     },
     "prediction": null,
@@ -14984,7 +14984,7 @@
         "St. Louis Cardinals": 1.5,
         "Toronto Blue Jays": -1.5
       },
-      "total": 7.8,
+      "total": 8.0,
       "num_bookmakers": 9
     },
     "prediction": {
@@ -15014,7 +15014,7 @@
           "St. Louis Cardinals": 1.5,
           "Toronto Blue Jays": -1.5
         },
-        "total": 7.8,
+        "total": 8.0,
         "num_bookmakers": 9
       }
     },
@@ -15114,7 +15114,7 @@
         "Chicago White Sox": 1.5,
         "Tampa Bay Rays": -1.5
       },
-      "total": 8.2,
+      "total": 8.0,
       "num_bookmakers": 9
     },
     "prediction": {
@@ -15144,7 +15144,7 @@
           "Chicago White Sox": 1.5,
           "Tampa Bay Rays": -1.5
         },
-        "total": 8.2,
+        "total": 8.0,
         "num_bookmakers": 9
       }
     },
@@ -15242,8 +15242,8 @@
         "Texas Rangers": 108
       },
       "spread": {
-        "Houston Astros": -0.8,
-        "Texas Rangers": 0.8
+        "Houston Astros": -1.0,
+        "Texas Rangers": 1.0
       },
       "total": 8.0,
       "num_bookmakers": 9
@@ -15272,8 +15272,8 @@
           "Texas Rangers": 108
         },
         "spread": {
-          "Houston Astros": -0.8,
-          "Texas Rangers": 0.8
+          "Houston Astros": -1.0,
+          "Texas Rangers": 1.0
         },
         "total": 8.0,
         "num_bookmakers": 9
@@ -15310,7 +15310,7 @@
         "Colorado Rockies": 1.5,
         "Kansas City Royals": -1.5
       },
-      "total": 11.1,
+      "total": 11.0,
       "num_bookmakers": 9
     },
     "prediction": {
@@ -15340,7 +15340,7 @@
           "Colorado Rockies": 1.5,
           "Kansas City Royals": -1.5
         },
-        "total": 11.1,
+        "total": 11.0,
         "num_bookmakers": 9
       }
     },
@@ -15431,7 +15431,7 @@
         "Athletics": 1.5,
         "Detroit Tigers": -1.5
       },
-      "total": 10.7,
+      "total": 10.5,
       "num_bookmakers": 8
     },
     "prediction": {
@@ -15461,7 +15461,7 @@
           "Athletics": 1.5,
           "Detroit Tigers": -1.5
         },
-        "total": 10.7,
+        "total": 10.5,
         "num_bookmakers": 8
       }
     },
@@ -15496,7 +15496,7 @@
         "Minnesota Twins": 1.5,
         "Seattle Mariners": -1.5
       },
-      "total": 7.7,
+      "total": 7.5,
       "num_bookmakers": 9
     },
     "prediction": {
@@ -15526,7 +15526,7 @@
           "Minnesota Twins": 1.5,
           "Seattle Mariners": -1.5
         },
-        "total": 7.7,
+        "total": 7.5,
         "num_bookmakers": 9
       }
     },
@@ -15559,10 +15559,10 @@
         "Draw": 647
       },
       "spread": {
-        "Arsenal": -1.9,
-        "Coventry City": 1.9
+        "Arsenal": -2.0,
+        "Coventry City": 2.0
       },
-      "total": 2.9,
+      "total": 3.0,
       "num_bookmakers": 9
     },
     "prediction": {
@@ -15606,10 +15606,10 @@
           "Draw": 647
         },
         "spread": {
-          "Arsenal": -1.9,
-          "Coventry City": 1.9
+          "Arsenal": -2.0,
+          "Coventry City": 2.0
         },
-        "total": 2.9,
+        "total": 3.0,
         "num_bookmakers": 9
       }
     },
@@ -15632,8 +15632,8 @@
         "Draw": 350
       },
       "spread": {
-        "Hull City": 1.1,
-        "Manchester United": -1.1
+        "Hull City": 1.0,
+        "Manchester United": -1.0
       },
       "total": 2.5,
       "num_bookmakers": 9
@@ -15679,8 +15679,8 @@
           "Draw": 350
         },
         "spread": {
-          "Hull City": 1.1,
-          "Manchester United": -1.1
+          "Hull City": 1.0,
+          "Manchester United": -1.0
         },
         "total": 2.5,
         "num_bookmakers": 9
@@ -15705,8 +15705,8 @@
         "Draw": 243
       },
       "spread": {
-        "Crystal Palace": 0.4,
-        "Everton": -0.4
+        "Crystal Palace": 0.5,
+        "Everton": -0.5
       },
       "total": 2.5,
       "num_bookmakers": 9
@@ -15752,8 +15752,8 @@
           "Draw": 243
         },
         "spread": {
-          "Crystal Palace": 0.4,
-          "Everton": -0.4
+          "Crystal Palace": 0.5,
+          "Everton": -0.5
         },
         "total": 2.5,
         "num_bookmakers": 9
@@ -15778,8 +15778,8 @@
         "Draw": 230
       },
       "spread": {
-        "Ipswich Town": 0.1,
-        "Sunderland": -0.1
+        "Ipswich Town": 0.0,
+        "Sunderland": 0.0
       },
       "total": 2.5,
       "num_bookmakers": 9
@@ -15825,8 +15825,8 @@
           "Draw": 230
         },
         "spread": {
-          "Ipswich Town": 0.1,
-          "Sunderland": -0.1
+          "Ipswich Town": 0.0,
+          "Sunderland": 0.0
         },
         "total": 2.5,
         "num_bookmakers": 9
@@ -15851,8 +15851,8 @@
         "Draw": 243
       },
       "spread": {
-        "Leeds United": 0.4,
-        "Nottingham Forest": -0.4
+        "Leeds United": 0.5,
+        "Nottingham Forest": -0.5
       },
       "total": 2.5,
       "num_bookmakers": 9
@@ -15898,8 +15898,8 @@
           "Draw": 243
         },
         "spread": {
-          "Leeds United": 0.4,
-          "Nottingham Forest": -0.4
+          "Leeds United": 0.5,
+          "Nottingham Forest": -0.5
         },
         "total": 2.5,
         "num_bookmakers": 9
@@ -15924,10 +15924,10 @@
         "Draw": 256
       },
       "spread": {
-        "Brentford": -0.1,
-        "Tottenham Hotspur": 0.1
+        "Brentford": 0.0,
+        "Tottenham Hotspur": 0.0
       },
-      "total": 2.8,
+      "total": 3.0,
       "num_bookmakers": 9
     },
     "prediction": {
@@ -15971,10 +15971,10 @@
           "Draw": 256
         },
         "spread": {
-          "Brentford": -0.1,
-          "Tottenham Hotspur": 0.1
+          "Brentford": 0.0,
+          "Tottenham Hotspur": 0.0
         },
-        "total": 2.8,
+        "total": 3.0,
         "num_bookmakers": 9
       }
     },
@@ -16000,7 +16000,7 @@
         "Aston Villa": 0.5,
         "Brighton and Hove Albion": -0.5
       },
-      "total": 2.8,
+      "total": 3.0,
       "num_bookmakers": 9
     },
     "prediction": {
@@ -16046,7 +16046,7 @@
           "Aston Villa": 0.5,
           "Brighton and Hove Albion": -0.5
         },
-        "total": 2.8,
+        "total": 3.0,
         "num_bookmakers": 9
       }
     },
@@ -16069,8 +16069,8 @@
         "Draw": 398
       },
       "spread": {
-        "Bournemouth": 1.4,
-        "Manchester City": -1.4
+        "Bournemouth": 1.5,
+        "Manchester City": -1.5
       },
       "total": 3.5,
       "num_bookmakers": 9
@@ -16115,8 +16115,8 @@
           "Draw": 398
         },
         "spread": {
-          "Bournemouth": 1.4,
-          "Manchester City": -1.4
+          "Bournemouth": 1.5,
+          "Manchester City": -1.5
         },
         "total": 3.5,
         "num_bookmakers": 9
@@ -16144,7 +16144,7 @@
         "Liverpool": -0.5,
         "Newcastle United": 0.5
       },
-      "total": 3.2,
+      "total": 3.0,
       "num_bookmakers": 9
     },
     "prediction": {
@@ -16190,7 +16190,7 @@
           "Liverpool": -0.5,
           "Newcastle United": 0.5
         },
-        "total": 3.2,
+        "total": 3.0,
         "num_bookmakers": 9
       }
     },
@@ -16216,7 +16216,7 @@
         "Chelsea": -0.5,
         "Fulham": 0.5
       },
-      "total": 2.8,
+      "total": 3.0,
       "num_bookmakers": 9
     },
     "prediction": {
@@ -16262,7 +16262,7 @@
           "Chelsea": -0.5,
           "Fulham": 0.5
         },
-        "total": 2.8,
+        "total": 3.0,
         "num_bookmakers": 9
       }
     },
@@ -16285,10 +16285,10 @@
         "Draw": 179
       },
       "spread": {
-        "Alav\u00e9s": -0.1,
-        "Getafe": 0.1
+        "Alav\u00e9s": 0.0,
+        "Getafe": 0.0
       },
-      "total": 1.6,
+      "total": 1.5,
       "num_bookmakers": 7
     },
     "prediction": {
@@ -16331,10 +16331,10 @@
           "Draw": 179
         },
         "spread": {
-          "Alav\u00e9s": -0.1,
-          "Getafe": 0.1
+          "Alav\u00e9s": 0.0,
+          "Getafe": 0.0
         },
-        "total": 1.6,
+        "total": 1.5,
         "num_bookmakers": 7
       }
     },
@@ -16357,10 +16357,10 @@
         "Draw": 223
       },
       "spread": {
-        "Rayo Vallecano": 0.4,
-        "Sevilla": -0.4
+        "Rayo Vallecano": 0.5,
+        "Sevilla": -0.5
       },
-      "total": 2.2,
+      "total": 2.0,
       "num_bookmakers": 8
     },
     "prediction": {
@@ -16402,10 +16402,10 @@
           "Draw": 223
         },
         "spread": {
-          "Rayo Vallecano": 0.4,
-          "Sevilla": -0.4
+          "Rayo Vallecano": 0.5,
+          "Sevilla": -0.5
         },
-        "total": 2.2,
+        "total": 2.0,
         "num_bookmakers": 8
       }
     },
@@ -16428,8 +16428,8 @@
         "Draw": 248
       },
       "spread": {
-        "Real Racing Club de Santander": 0.1,
-        "Villarreal": -0.1
+        "Real Racing Club de Santander": 0.0,
+        "Villarreal": 0.0
       },
       "total": 2.5,
       "num_bookmakers": 8
@@ -16474,8 +16474,8 @@
           "Draw": 248
         },
         "spread": {
-          "Real Racing Club de Santander": 0.1,
-          "Villarreal": -0.1
+          "Real Racing Club de Santander": 0.0,
+          "Villarreal": 0.0
         },
         "total": 2.5,
         "num_bookmakers": 8
@@ -16503,7 +16503,7 @@
         "Espanyol": -0.5,
         "Levante": 0.5
       },
-      "total": 2.3,
+      "total": 2.5,
       "num_bookmakers": 8
     },
     "prediction": {
@@ -16549,7 +16549,7 @@
           "Espanyol": -0.5,
           "Levante": 0.5
         },
-        "total": 2.3,
+        "total": 2.5,
         "num_bookmakers": 8
       }
     },
@@ -16575,7 +16575,7 @@
         "CA Osasuna": 0.5,
         "Celta Vigo": -0.5
       },
-      "total": 2.4,
+      "total": 2.5,
       "num_bookmakers": 8
     },
     "prediction": {
@@ -16621,7 +16621,7 @@
           "CA Osasuna": 0.5,
           "Celta Vigo": -0.5
         },
-        "total": 2.4,
+        "total": 2.5,
         "num_bookmakers": 8
       }
     },
@@ -16644,10 +16644,10 @@
         "Draw": 206
       },
       "spread": {
-        "Deportivo La Coru\u00f1a": -0.1,
-        "Elche CF": 0.1
+        "Deportivo La Coru\u00f1a": 0.0,
+        "Elche CF": 0.0
       },
-      "total": 2.2,
+      "total": 2.0,
       "num_bookmakers": 7
     },
     "prediction": {
@@ -16691,10 +16691,10 @@
           "Draw": 206
         },
         "spread": {
-          "Deportivo La Coru\u00f1a": -0.1,
-          "Elche CF": 0.1
+          "Deportivo La Coru\u00f1a": 0.0,
+          "Elche CF": 0.0
         },
-        "total": 2.2,
+        "total": 2.0,
         "num_bookmakers": 7
       }
     },
@@ -16865,7 +16865,7 @@
         "Real Madrid": -1.5,
         "Real Sociedad": 1.5
       },
-      "total": 3.1,
+      "total": 3.0,
       "num_bookmakers": 6
     },
     "prediction": {
@@ -16912,7 +16912,7 @@
           "Real Madrid": -1.5,
           "Real Sociedad": 1.5
         },
-        "total": 3.1,
+        "total": 3.0,
         "num_bookmakers": 6
       }
     },
@@ -16938,7 +16938,7 @@
         "Athletic Bilbao": 1.5,
         "Barcelona": -1.5
       },
-      "total": 3.1,
+      "total": 3.0,
       "num_bookmakers": 6
     },
     "prediction": {
@@ -16985,7 +16985,7 @@
           "Athletic Bilbao": 1.5,
           "Barcelona": -1.5
         },
-        "total": 3.1,
+        "total": 3.0,
         "num_bookmakers": 6
       }
     },
@@ -17008,10 +17008,10 @@
         "Draw": 531
       },
       "spread": {
-        "Bayern Munich": -1.6,
-        "VfB Stuttgart": 1.6
+        "Bayern Munich": -1.5,
+        "VfB Stuttgart": 1.5
       },
-      "total": 3.8,
+      "total": 4.0,
       "num_bookmakers": 8
     },
     "prediction": {
@@ -17055,10 +17055,10 @@
           "Draw": 531
         },
         "spread": {
-          "Bayern Munich": -1.6,
-          "VfB Stuttgart": 1.6
+          "Bayern Munich": -1.5,
+          "VfB Stuttgart": 1.5
         },
-        "total": 3.8,
+        "total": 4.0,
         "num_bookmakers": 8
       }
     },
@@ -17081,10 +17081,10 @@
         "Draw": 265
       },
       "spread": {
-        "1. FC K\u00f6ln": 0.1,
-        "TSG Hoffenheim": -0.1
+        "1. FC K\u00f6ln": 0.0,
+        "TSG Hoffenheim": 0.0
       },
-      "total": 3.2,
+      "total": 3.0,
       "num_bookmakers": 8
     },
     "prediction": {
@@ -17127,10 +17127,10 @@
           "Draw": 265
         },
         "spread": {
-          "1. FC K\u00f6ln": 0.1,
-          "TSG Hoffenheim": -0.1
+          "1. FC K\u00f6ln": 0.0,
+          "TSG Hoffenheim": 0.0
         },
-        "total": 3.2,
+        "total": 3.0,
         "num_bookmakers": 8
       }
     },
@@ -17222,7 +17222,7 @@
         "Bayer Leverkusen": -1.0,
         "Elversberg": 1.0
       },
-      "total": 3.2,
+      "total": 3.0,
       "num_bookmakers": 8
     },
     "prediction": {
@@ -17268,7 +17268,7 @@
           "Bayer Leverkusen": -1.0,
           "Elversberg": 1.0
         },
-        "total": 3.2,
+        "total": 3.0,
         "num_bookmakers": 8
       }
     },
@@ -17294,7 +17294,7 @@
         "Borussia Monchengladbach": 1.0,
         "RB Leipzig": -1.0
       },
-      "total": 3.2,
+      "total": 3.0,
       "num_bookmakers": 8
     },
     "prediction": {
@@ -17340,7 +17340,7 @@
           "Borussia Monchengladbach": 1.0,
           "RB Leipzig": -1.0
         },
-        "total": 3.2,
+        "total": 3.0,
         "num_bookmakers": 8
       }
     },
@@ -17363,8 +17363,8 @@
         "Draw": 249
       },
       "spread": {
-        "Eintracht Frankfurt": 0.1,
-        "Union Berlin": -0.1
+        "Eintracht Frankfurt": 0.0,
+        "Union Berlin": 0.0
       },
       "total": 2.5,
       "num_bookmakers": 8
@@ -17409,8 +17409,8 @@
           "Draw": 249
         },
         "spread": {
-          "Eintracht Frankfurt": 0.1,
-          "Union Berlin": -0.1
+          "Eintracht Frankfurt": 0.0,
+          "Union Berlin": 0.0
         },
         "total": 2.5,
         "num_bookmakers": 8
@@ -17435,10 +17435,10 @@
         "Draw": 296
       },
       "spread": {
-        "FSV Mainz 05": -0.6,
-        "SC Paderborn": 0.6
+        "FSV Mainz 05": -0.5,
+        "SC Paderborn": 0.5
       },
-      "total": 2.8,
+      "total": 3.0,
       "num_bookmakers": 8
     },
     "prediction": {
@@ -17481,10 +17481,10 @@
           "Draw": 296
         },
         "spread": {
-          "FSV Mainz 05": -0.6,
-          "SC Paderborn": 0.6
+          "FSV Mainz 05": -0.5,
+          "SC Paderborn": 0.5
         },
-        "total": 2.8,
+        "total": 3.0,
         "num_bookmakers": 8
       }
     },
@@ -17717,10 +17717,10 @@
         "Draw": 269
       },
       "spread": {
-        "Augsburg": -0.4,
-        "FC Schalke 04": 0.4
+        "Augsburg": -0.5,
+        "FC Schalke 04": 0.5
       },
-      "total": 2.8,
+      "total": 3.0,
       "num_bookmakers": 8
     },
     "prediction": {
@@ -17763,10 +17763,10 @@
           "Draw": 269
         },
         "spread": {
-          "Augsburg": -0.4,
-          "FC Schalke 04": 0.4
+          "Augsburg": -0.5,
+          "FC Schalke 04": 0.5
         },
-        "total": 2.8,
+        "total": 3.0,
         "num_bookmakers": 8
       }
     },
@@ -17872,10 +17872,10 @@
         "Draw": 531
       },
       "spread": {
-        "Inter Milan": -1.6,
-        "Monza": 1.6
+        "Inter Milan": -1.5,
+        "Monza": 1.5
       },
-      "total": 2.8,
+      "total": 3.0,
       "num_bookmakers": 8
     },
     "prediction": {
@@ -17919,10 +17919,10 @@
           "Draw": 531
         },
         "spread": {
-          "Inter Milan": -1.6,
-          "Monza": 1.6
+          "Inter Milan": -1.5,
+          "Monza": 1.5
         },
-        "total": 2.8,
+        "total": 3.0,
         "num_bookmakers": 8
       }
     },
@@ -17948,7 +17948,7 @@
         "Cagliari": 0.0,
         "Parma": 0.0
       },
-      "total": 2.2,
+      "total": 2.0,
       "num_bookmakers": 8
     },
     "prediction": {
@@ -17995,7 +17995,7 @@
           "Cagliari": 0.0,
           "Parma": 0.0
         },
-        "total": 2.2,
+        "total": 2.0,
         "num_bookmakers": 8
       }
     },
@@ -18021,7 +18021,7 @@
         "Genoa": 0.5,
         "Napoli": -0.5
       },
-      "total": 2.2,
+      "total": 2.0,
       "num_bookmakers": 8
     },
     "prediction": {
@@ -18068,7 +18068,7 @@
           "Genoa": 0.5,
           "Napoli": -0.5
         },
-        "total": 2.2,
+        "total": 2.0,
         "num_bookmakers": 8
       }
     },
@@ -18091,8 +18091,8 @@
         "Draw": 340
       },
       "spread": {
-        "Frosinone": 1.1,
-        "Juventus": -1.1
+        "Frosinone": 1.0,
+        "Juventus": -1.0
       },
       "total": 2.5,
       "num_bookmakers": 8
@@ -18137,8 +18137,8 @@
           "Draw": 340
         },
         "spread": {
-          "Frosinone": 1.1,
-          "Juventus": -1.1
+          "Frosinone": 1.0,
+          "Juventus": -1.0
         },
         "total": 2.5,
         "num_bookmakers": 8
@@ -18163,10 +18163,10 @@
         "Draw": 220
       },
       "spread": {
-        "Lecce": 0.1,
-        "Venezia": -0.1
+        "Lecce": 0.0,
+        "Venezia": 0.0
       },
-      "total": 2.4,
+      "total": 2.5,
       "num_bookmakers": 8
     },
     "prediction": {
@@ -18209,10 +18209,10 @@
           "Draw": 220
         },
         "spread": {
-          "Lecce": 0.1,
-          "Venezia": -0.1
+          "Lecce": 0.0,
+          "Venezia": 0.0
         },
-        "total": 2.4,
+        "total": 2.5,
         "num_bookmakers": 8
       }
     },
@@ -18235,8 +18235,8 @@
         "Draw": 268
       },
       "spread": {
-        "AC Milan": -0.6,
-        "Torino": 0.6
+        "AC Milan": -0.5,
+        "Torino": 0.5
       },
       "total": 2.5,
       "num_bookmakers": 8
@@ -18281,8 +18281,8 @@
           "Draw": 268
         },
         "spread": {
-          "AC Milan": -0.6,
-          "Torino": 0.6
+          "AC Milan": -0.5,
+          "Torino": 0.5
         },
         "total": 2.5,
         "num_bookmakers": 8
@@ -18310,7 +18310,7 @@
         "Atalanta BC": -1.0,
         "Sassuolo": 1.0
       },
-      "total": 2.8,
+      "total": 3.0,
       "num_bookmakers": 8
     },
     "prediction": {
@@ -18356,7 +18356,7 @@
           "Atalanta BC": -1.0,
           "Sassuolo": 1.0
         },
-        "total": 2.8,
+        "total": 3.0,
         "num_bookmakers": 8
       }
     },
@@ -18379,8 +18379,8 @@
         "Draw": 223
       },
       "spread": {
-        "Bologna": -0.4,
-        "Lazio": 0.4
+        "Bologna": -0.5,
+        "Lazio": 0.5
       },
       "total": 2.5,
       "num_bookmakers": 8
@@ -18425,8 +18425,8 @@
           "Draw": 223
         },
         "spread": {
-          "Bologna": -0.4,
-          "Lazio": 0.4
+          "Bologna": -0.5,
+          "Lazio": 0.5
         },
         "total": 2.5,
         "num_bookmakers": 8
@@ -18523,10 +18523,10 @@
         "Draw": 328
       },
       "spread": {
-        "Marseille": -0.9,
-        "Strasbourg": 0.9
+        "Marseille": -1.0,
+        "Strasbourg": 1.0
       },
-      "total": 3.2,
+      "total": 3.0,
       "num_bookmakers": 8
     },
     "prediction": {
@@ -18570,10 +18570,10 @@
           "Draw": 328
         },
         "spread": {
-          "Marseille": -0.9,
-          "Strasbourg": 0.9
+          "Marseille": -1.0,
+          "Strasbourg": 1.0
         },
-        "total": 3.2,
+        "total": 3.0,
         "num_bookmakers": 8
       }
     },
@@ -18599,7 +18599,7 @@
         "Auxerre": 1.0,
         "RC Lens": -1.0
       },
-      "total": 2.8,
+      "total": 3.0,
       "num_bookmakers": 8
     },
     "prediction": {
@@ -18646,7 +18646,7 @@
           "Auxerre": 1.0,
           "RC Lens": -1.0
         },
-        "total": 2.8,
+        "total": 3.0,
         "num_bookmakers": 8
       }
     },
@@ -18742,8 +18742,8 @@
         "Draw": 252
       },
       "spread": {
-        "Lorient": 0.4,
-        "Nice": -0.4
+        "Lorient": 0.5,
+        "Nice": -0.5
       },
       "total": 2.5,
       "num_bookmakers": 8
@@ -18789,8 +18789,8 @@
           "Draw": 252
         },
         "spread": {
-          "Lorient": 0.4,
-          "Nice": -0.4
+          "Lorient": 0.5,
+          "Nice": -0.5
         },
         "total": 2.5,
         "num_bookmakers": 8
@@ -18891,7 +18891,7 @@
         "Paris FC": 0.0,
         "Troyes": 0.0
       },
-      "total": 2.7,
+      "total": 2.5,
       "num_bookmakers": 7
     },
     "prediction": {
@@ -18938,7 +18938,7 @@
           "Paris FC": 0.0,
           "Troyes": 0.0
         },
-        "total": 2.7,
+        "total": 2.5,
         "num_bookmakers": 7
       }
     },
@@ -18961,8 +18961,8 @@
         "Draw": 278
       },
       "spread": {
-        "Angers": 0.6,
-        "Lille": -0.6
+        "Angers": 0.5,
+        "Lille": -0.5
       },
       "total": 2.5,
       "num_bookmakers": 8
@@ -19007,8 +19007,8 @@
           "Draw": 278
         },
         "spread": {
-          "Angers": 0.6,
-          "Lille": -0.6
+          "Angers": 0.5,
+          "Lille": -0.5
         },
         "total": 2.5,
         "num_bookmakers": 8
@@ -19036,7 +19036,7 @@
         "AS Monaco": -0.5,
         "Le Havre": 0.5
       },
-      "total": 2.8,
+      "total": 3.0,
       "num_bookmakers": 8
     },
     "prediction": {
@@ -19082,7 +19082,7 @@
           "AS Monaco": -0.5,
           "Le Havre": 0.5
         },
-        "total": 2.8,
+        "total": 3.0,
         "num_bookmakers": 8
       }
     },
@@ -19177,10 +19177,10 @@
         "Draw": 301
       },
       "spread": {
-        "New York City FC": -0.9,
-        "Toronto FC": 0.9
+        "New York City FC": -1.0,
+        "Toronto FC": 1.0
       },
-      "total": 2.6,
+      "total": 2.5,
       "num_bookmakers": 9
     },
     "prediction": {
@@ -19208,10 +19208,10 @@
           "Draw": 301
         },
         "spread": {
-          "New York City FC": -0.9,
-          "Toronto FC": 0.9
+          "New York City FC": -1.0,
+          "Toronto FC": 1.0
         },
-        "total": 2.6,
+        "total": 2.5,
         "num_bookmakers": 9
       }
     },
@@ -19234,10 +19234,10 @@
         "Draw": 305
       },
       "spread": {
-        "Atlanta United FC": 0.6,
-        "Philadelphia Union": -0.6
+        "Atlanta United FC": 0.5,
+        "Philadelphia Union": -0.5
       },
-      "total": 2.8,
+      "total": 3.0,
       "num_bookmakers": 9
     },
     "prediction": {
@@ -19265,10 +19265,10 @@
           "Draw": 305
         },
         "spread": {
-          "Atlanta United FC": 0.6,
-          "Philadelphia Union": -0.6
+          "Atlanta United FC": 0.5,
+          "Philadelphia Union": -0.5
         },
-        "total": 2.8,
+        "total": 3.0,
         "num_bookmakers": 9
       }
     },
@@ -19291,8 +19291,8 @@
         "Draw": 253
       },
       "spread": {
-        "CF Montreal": -0.4,
-        "New England Revolution": 0.4
+        "CF Montreal": -0.5,
+        "New England Revolution": 0.5
       },
       "total": 2.5,
       "num_bookmakers": 9
@@ -19322,8 +19322,8 @@
           "Draw": 253
         },
         "spread": {
-          "CF Montreal": -0.4,
-          "New England Revolution": 0.4
+          "CF Montreal": -0.5,
+          "New England Revolution": 0.5
         },
         "total": 2.5,
         "num_bookmakers": 9
@@ -19358,8 +19358,8 @@
         "Draw": 312
       },
       "spread": {
-        "Columbus Crew SC": 0.6,
-        "Inter Miami CF": -0.6
+        "Columbus Crew SC": 0.5,
+        "Inter Miami CF": -0.5
       },
       "total": 3.5,
       "num_bookmakers": 9
@@ -19389,8 +19389,8 @@
           "Draw": 312
         },
         "spread": {
-          "Columbus Crew SC": 0.6,
-          "Inter Miami CF": -0.6
+          "Columbus Crew SC": 0.5,
+          "Inter Miami CF": -0.5
         },
         "total": 3.5,
         "num_bookmakers": 9
@@ -19416,8 +19416,8 @@
         "Draw": 242
       },
       "spread": {
-        "D.C. United": 0.2,
-        "Nashville SC": -0.2
+        "D.C. United": 0.0,
+        "Nashville SC": 0.0
       },
       "total": 2.5,
       "num_bookmakers": 9
@@ -19447,8 +19447,8 @@
           "Draw": 242
         },
         "spread": {
-          "D.C. United": 0.2,
-          "Nashville SC": -0.2
+          "D.C. United": 0.0,
+          "Nashville SC": 0.0
         },
         "total": 2.5,
         "num_bookmakers": 9
@@ -19533,7 +19533,7 @@
         "Los Angeles FC": 0.5,
         "Vancouver Whitecaps FC": -0.5
       },
-      "total": 3.1,
+      "total": 3.0,
       "num_bookmakers": 9
     },
     "prediction": {
@@ -19564,7 +19564,7 @@
           "Los Angeles FC": 0.5,
           "Vancouver Whitecaps FC": -0.5
         },
-        "total": 3.1,
+        "total": 3.0,
         "num_bookmakers": 9
       }
     },
@@ -19597,8 +19597,8 @@
         "Draw": 306
       },
       "spread": {
-        "New York Red Bulls": -0.4,
-        "Orlando City SC": 0.4
+        "New York Red Bulls": -0.5,
+        "Orlando City SC": 0.5
       },
       "total": 3.5,
       "num_bookmakers": 9
@@ -19628,8 +19628,8 @@
           "Draw": 306
         },
         "spread": {
-          "New York Red Bulls": -0.4,
-          "Orlando City SC": 0.4
+          "New York Red Bulls": -0.5,
+          "Orlando City SC": 0.5
         },
         "total": 3.5,
         "num_bookmakers": 9
@@ -19654,8 +19654,8 @@
         "Draw": 365
       },
       "spread": {
-        "Charlotte FC": 1.1,
-        "Chicago Fire": -1.1
+        "Charlotte FC": 1.0,
+        "Chicago Fire": -1.0
       },
       "total": 3.5,
       "num_bookmakers": 9
@@ -19685,8 +19685,8 @@
           "Draw": 365
         },
         "spread": {
-          "Charlotte FC": 1.1,
-          "Chicago Fire": -1.1
+          "Charlotte FC": 1.0,
+          "Chicago Fire": -1.0
         },
         "total": 3.5,
         "num_bookmakers": 9
@@ -19711,10 +19711,10 @@
         "Draw": 244
       },
       "spread": {
-        "Houston Dynamo": -0.4,
-        "Sporting Kansas City": 0.4
+        "Houston Dynamo": -0.5,
+        "Sporting Kansas City": 0.5
       },
-      "total": 2.8,
+      "total": 3.0,
       "num_bookmakers": 9
     },
     "prediction": {
@@ -19742,10 +19742,10 @@
           "Draw": 244
         },
         "spread": {
-          "Houston Dynamo": -0.4,
-          "Sporting Kansas City": 0.4
+          "Houston Dynamo": -0.5,
+          "Sporting Kansas City": 0.5
         },
-        "total": 2.8,
+        "total": 3.0,
         "num_bookmakers": 9
       }
     },
@@ -19771,7 +19771,7 @@
         "Minnesota United FC": -0.5,
         "San Diego FC": 0.5
       },
-      "total": 3.2,
+      "total": 3.0,
       "num_bookmakers": 9
     },
     "prediction": {
@@ -19802,7 +19802,7 @@
           "Minnesota United FC": -0.5,
           "San Diego FC": 0.5
         },
-        "total": 3.2,
+        "total": 3.0,
         "num_bookmakers": 9
       }
     },
@@ -19835,10 +19835,10 @@
         "Draw": 271
       },
       "spread": {
-        "Real Salt Lake": 0.4,
-        "St. Louis City SC": -0.4
+        "Real Salt Lake": 0.5,
+        "St. Louis City SC": -0.5
       },
-      "total": 3.2,
+      "total": 3.0,
       "num_bookmakers": 9
     },
     "prediction": {
@@ -19866,10 +19866,10 @@
           "Draw": 271
         },
         "spread": {
-          "Real Salt Lake": 0.4,
-          "St. Louis City SC": -0.4
+          "Real Salt Lake": 0.5,
+          "St. Louis City SC": -0.5
         },
-        "total": 3.2,
+        "total": 3.0,
         "num_bookmakers": 9
       }
     },
@@ -19892,10 +19892,10 @@
         "Draw": 303
       },
       "spread": {
-        "Austin FC": 0.6,
-        "Colorado Rapids": -0.6
+        "Austin FC": 0.5,
+        "Colorado Rapids": -0.5
       },
-      "total": 2.8,
+      "total": 3.0,
       "num_bookmakers": 9
     },
     "prediction": {
@@ -19923,10 +19923,10 @@
           "Draw": 303
         },
         "spread": {
-          "Austin FC": 0.6,
-          "Colorado Rapids": -0.6
+          "Austin FC": 0.5,
+          "Colorado Rapids": -0.5
         },
-        "total": 2.8,
+        "total": 3.0,
         "num_bookmakers": 9
       }
     },
@@ -19959,10 +19959,10 @@
         "Draw": 279
       },
       "spread": {
-        "FC Dallas": 0.4,
-        "LA Galaxy": -0.4
+        "FC Dallas": 0.5,
+        "LA Galaxy": -0.5
       },
-      "total": 3.2,
+      "total": 3.0,
       "num_bookmakers": 9
     },
     "prediction": {
@@ -19990,10 +19990,10 @@
           "Draw": 279
         },
         "spread": {
-          "FC Dallas": 0.4,
-          "LA Galaxy": -0.4
+          "FC Dallas": 0.5,
+          "LA Galaxy": -0.5
         },
-        "total": 3.2,
+        "total": 3.0,
         "num_bookmakers": 9
       }
     },
@@ -20029,7 +20029,7 @@
         "Portland Timbers": -0.5,
         "Seattle Sounders FC": 0.5
       },
-      "total": 3.2,
+      "total": 3.0,
       "num_bookmakers": 9
     },
     "prediction": {
@@ -20060,7 +20060,7 @@
           "Portland Timbers": -0.5,
           "Seattle Sounders FC": 0.5
         },
-        "total": 3.2,
+        "total": 3.0,
         "num_bookmakers": 9
       }
     },
@@ -20083,8 +20083,8 @@
         "Draw": 243
       },
       "spread": {
-        "Houston Dynamo": 0.1,
-        "New England Revolution": -0.1
+        "Houston Dynamo": 0.0,
+        "New England Revolution": 0.0
       },
       "total": 2.5,
       "num_bookmakers": 9
@@ -20129,8 +20129,8 @@
           "Draw": 243
         },
         "spread": {
-          "Houston Dynamo": 0.1,
-          "New England Revolution": -0.1
+          "Houston Dynamo": 0.0,
+          "New England Revolution": 0.0
         },
         "total": 2.5,
         "num_bookmakers": 9
@@ -20158,7 +20158,7 @@
         "Atlanta United FC": -0.5,
         "New York Red Bulls": 0.5
       },
-      "total": 3.4,
+      "total": 3.5,
       "num_bookmakers": 6
     },
     "prediction": {
@@ -20204,7 +20204,7 @@
           "Atlanta United FC": -0.5,
           "New York Red Bulls": 0.5
         },
-        "total": 3.4,
+        "total": 3.5,
         "num_bookmakers": 6
       }
     },
@@ -20227,10 +20227,10 @@
         "Draw": 251
       },
       "spread": {
-        "CF Montreal": -0.4,
-        "D.C. United": 0.4
+        "CF Montreal": -0.5,
+        "D.C. United": 0.5
       },
-      "total": 2.6,
+      "total": 2.5,
       "num_bookmakers": 6
     },
     "prediction": {
@@ -20276,10 +20276,10 @@
           "Draw": 251
         },
         "spread": {
-          "CF Montreal": -0.4,
-          "D.C. United": 0.4
+          "CF Montreal": -0.5,
+          "D.C. United": 0.5
         },
-        "total": 2.6,
+        "total": 2.5,
         "num_bookmakers": 6
       }
     },
@@ -20302,10 +20302,10 @@
         "Draw": 257
       },
       "spread": {
-        "Charlotte FC": -0.4,
-        "Columbus Crew SC": 0.4
+        "Charlotte FC": -0.5,
+        "Columbus Crew SC": 0.5
       },
-      "total": 2.6,
+      "total": 2.5,
       "num_bookmakers": 6
     },
     "prediction": {
@@ -20348,10 +20348,10 @@
           "Draw": 257
         },
         "spread": {
-          "Charlotte FC": -0.4,
-          "Columbus Crew SC": 0.4
+          "Charlotte FC": -0.5,
+          "Columbus Crew SC": 0.5
         },
-        "total": 2.6,
+        "total": 2.5,
         "num_bookmakers": 6
       }
     },
@@ -20374,10 +20374,10 @@
         "Draw": 302
       },
       "spread": {
-        "FC Cincinnati": 0.4,
-        "Orlando City SC": -0.4
+        "FC Cincinnati": 0.5,
+        "Orlando City SC": -0.5
       },
-      "total": 3.6,
+      "total": 3.5,
       "num_bookmakers": 6
     },
     "prediction": {
@@ -20426,10 +20426,10 @@
           "Draw": 302
         },
         "spread": {
-          "FC Cincinnati": 0.4,
-          "Orlando City SC": -0.4
+          "FC Cincinnati": 0.5,
+          "Orlando City SC": -0.5
         },
-        "total": 3.6,
+        "total": 3.5,
         "num_bookmakers": 6
       }
     },
@@ -20608,10 +20608,10 @@
         "Draw": 263
       },
       "spread": {
-        "Inter Miami CF": 0.4,
-        "Nashville SC": -0.4
+        "Inter Miami CF": 0.5,
+        "Nashville SC": -0.5
       },
-      "total": 3.4,
+      "total": 3.5,
       "num_bookmakers": 6
     },
     "prediction": {
@@ -20654,10 +20654,10 @@
           "Draw": 263
         },
         "spread": {
-          "Inter Miami CF": 0.4,
-          "Nashville SC": -0.4
+          "Inter Miami CF": 0.5,
+          "Nashville SC": -0.5
         },
-        "total": 3.4,
+        "total": 3.5,
         "num_bookmakers": 6
       }
     },
@@ -20680,10 +20680,10 @@
         "Draw": 367
       },
       "spread": {
-        "Colorado Rapids": -1.2,
-        "Sporting Kansas City": 1.2
+        "Colorado Rapids": -1.0,
+        "Sporting Kansas City": 1.0
       },
-      "total": 3.4,
+      "total": 3.5,
       "num_bookmakers": 6
     },
     "prediction": {
@@ -20732,10 +20732,10 @@
           "Draw": 367
         },
         "spread": {
-          "Colorado Rapids": -1.2,
-          "Sporting Kansas City": 1.2
+          "Colorado Rapids": -1.0,
+          "Sporting Kansas City": 1.0
         },
-        "total": 3.4,
+        "total": 3.5,
         "num_bookmakers": 6
       }
     },
@@ -20761,7 +20761,7 @@
         "Minnesota United FC": 0.5,
         "Real Salt Lake": -0.5
       },
-      "total": 2.6,
+      "total": 2.5,
       "num_bookmakers": 6
     },
     "prediction": {
@@ -20813,7 +20813,7 @@
           "Minnesota United FC": 0.5,
           "Real Salt Lake": -0.5
         },
-        "total": 2.6,
+        "total": 2.5,
         "num_bookmakers": 6
       }
     },
@@ -20836,10 +20836,10 @@
         "Draw": 352
       },
       "spread": {
-        "Los Angeles FC": -1.2,
-        "San Diego FC": 1.2
+        "Los Angeles FC": -1.0,
+        "San Diego FC": 1.0
       },
-      "total": 3.4,
+      "total": 3.5,
       "num_bookmakers": 6
     },
     "prediction": {
@@ -20882,10 +20882,10 @@
           "Draw": 352
         },
         "spread": {
-          "Los Angeles FC": -1.2,
-          "San Diego FC": 1.2
+          "Los Angeles FC": -1.0,
+          "San Diego FC": 1.0
         },
-        "total": 3.4,
+        "total": 3.5,
         "num_bookmakers": 6
       }
     },
@@ -20908,10 +20908,10 @@
         "Draw": 284
       },
       "spread": {
-        "San Jose Earthquakes": -0.4,
-        "St. Louis City SC": 0.4
+        "San Jose Earthquakes": -0.5,
+        "St. Louis City SC": 0.5
       },
-      "total": 3.4,
+      "total": 3.5,
       "num_bookmakers": 6
     },
     "prediction": {
@@ -20960,10 +20960,10 @@
           "Draw": 284
         },
         "spread": {
-          "San Jose Earthquakes": -0.4,
-          "St. Louis City SC": 0.4
+          "San Jose Earthquakes": -0.5,
+          "St. Louis City SC": 0.5
         },
-        "total": 3.4,
+        "total": 3.5,
         "num_bookmakers": 6
       }
     },
@@ -20986,8 +20986,8 @@
         "Draw": 357
       },
       "spread": {
-        "Chicago Fire": -1.2,
-        "Portland Timbers": 1.2
+        "Chicago Fire": -1.0,
+        "Portland Timbers": 1.0
       },
       "total": 3.5,
       "num_bookmakers": 6
@@ -21033,8 +21033,8 @@
           "Draw": 357
         },
         "spread": {
-          "Chicago Fire": -1.2,
-          "Portland Timbers": 1.2
+          "Chicago Fire": -1.0,
+          "Portland Timbers": 1.0
         },
         "total": 3.5,
         "num_bookmakers": 6
@@ -21059,10 +21059,10 @@
         "Draw": 262
       },
       "spread": {
-        "New York City FC": -0.4,
-        "Philadelphia Union": 0.4
+        "New York City FC": -0.5,
+        "Philadelphia Union": 0.5
       },
-      "total": 2.6,
+      "total": 2.5,
       "num_bookmakers": 6
     },
     "prediction": {
@@ -21112,10 +21112,10 @@
           "Draw": 262
         },
         "spread": {
-          "New York City FC": -0.4,
-          "Philadelphia Union": 0.4
+          "New York City FC": -0.5,
+          "Philadelphia Union": 0.5
         },
-        "total": 2.6,
+        "total": 2.5,
         "num_bookmakers": 6
       }
     },
@@ -21138,10 +21138,10 @@
         "Draw": 258
       },
       "spread": {
-        "Austin FC": 0.2,
-        "FC Dallas": -0.2
+        "Austin FC": 0.0,
+        "FC Dallas": 0.0
       },
-      "total": 2.6,
+      "total": 2.5,
       "num_bookmakers": 6
     },
     "prediction": {
@@ -21185,10 +21185,10 @@
           "Draw": 258
         },
         "spread": {
-          "Austin FC": 0.2,
-          "FC Dallas": -0.2
+          "Austin FC": 0.0,
+          "FC Dallas": 0.0
         },
-        "total": 2.6,
+        "total": 2.5,
         "num_bookmakers": 6
       }
     },
@@ -21214,7 +21214,7 @@
         "Seattle Sounders FC": 0.5,
         "Vancouver Whitecaps FC": -0.5
       },
-      "total": 2.9,
+      "total": 3.0,
       "num_bookmakers": 6
     },
     "prediction": {
@@ -21261,7 +21261,7 @@
           "Seattle Sounders FC": 0.5,
           "Vancouver Whitecaps FC": -0.5
         },
-        "total": 2.9,
+        "total": 3.0,
         "num_bookmakers": 6
       }
     },
@@ -21681,7 +21681,7 @@
         "Arizona Diamondbacks": 1.5,
         "Cleveland Guardians": -1.5
       },
-      "total": 8.3,
+      "total": 8.5,
       "num_bookmakers": 9
     },
     "prediction": {
@@ -21729,7 +21729,7 @@
           "Arizona Diamondbacks": 1.5,
           "Cleveland Guardians": -1.5
         },
-        "total": 8.3,
+        "total": 8.5,
         "num_bookmakers": 9
       }
     },
@@ -21927,10 +21927,10 @@
         "Kansas City Royals": 12
       },
       "spread": {
-        "Colorado Rockies": -0.2,
-        "Kansas City Royals": 0.2
+        "Colorado Rockies": 0.0,
+        "Kansas City Royals": 0.0
       },
-      "total": 11.7,
+      "total": 11.5,
       "num_bookmakers": 9
     },
     "prediction": {
@@ -21975,10 +21975,10 @@
           "Kansas City Royals": 12
         },
         "spread": {
-          "Colorado Rockies": -0.2,
-          "Kansas City Royals": 0.2
+          "Colorado Rockies": 0.0,
+          "Kansas City Royals": 0.0
         },
-        "total": 11.7,
+        "total": 11.5,
         "num_bookmakers": 9
       }
     },
@@ -22359,7 +22359,7 @@
         "New York Yankees": 2.5,
         "St. Louis Cardinals": -2.5
       },
-      "total": 11.7,
+      "total": 11.5,
       "num_bookmakers": 6
     },
     "prediction": null,
@@ -22381,10 +22381,10 @@
         "Pittsburgh Pirates": -207
       },
       "spread": {
-        "Milwaukee Brewers": 1.7,
-        "Pittsburgh Pirates": -1.7
+        "Milwaukee Brewers": 1.5,
+        "Pittsburgh Pirates": -1.5
       },
-      "total": 9.6,
+      "total": 9.5,
       "num_bookmakers": 6
     },
     "prediction": null,
@@ -22406,10 +22406,10 @@
         "Los Angeles Dodgers": 291
       },
       "spread": {
-        "Chicago Cubs": -1.6,
-        "Los Angeles Dodgers": 1.6
+        "Chicago Cubs": -1.5,
+        "Los Angeles Dodgers": 1.5
       },
-      "total": 13.6,
+      "total": 13.5,
       "num_bookmakers": 6
     },
     "prediction": null,
@@ -22431,10 +22431,10 @@
         "Texas Rangers": 376
       },
       "spread": {
-        "San Francisco Giants": -2.7,
-        "Texas Rangers": 2.7
+        "San Francisco Giants": -2.5,
+        "Texas Rangers": 2.5
       },
-      "total": 6.8,
+      "total": 7.0,
       "num_bookmakers": 6
     },
     "prediction": null,
@@ -22456,10 +22456,10 @@
         "Toronto Blue Jays": -428
       },
       "spread": {
-        "Houston Astros": 2.6,
-        "Toronto Blue Jays": -2.6
+        "Houston Astros": 2.5,
+        "Toronto Blue Jays": -2.5
       },
-      "total": 7.8,
+      "total": 8.0,
       "num_bookmakers": 6
     },
     "prediction": null,
@@ -22570,8 +22570,8 @@
         "San Diego Padres": -14
       },
       "spread": {
-        "Arizona Diamondbacks": 0.2,
-        "San Diego Padres": -0.2
+        "Arizona Diamondbacks": 0.0,
+        "San Diego Padres": 0.0
       },
       "total": 9.0,
       "num_bookmakers": 9
@@ -22626,8 +22626,8 @@
           "San Diego Padres": -14
         },
         "spread": {
-          "Arizona Diamondbacks": 0.2,
-          "San Diego Padres": -0.2
+          "Arizona Diamondbacks": 0.0,
+          "San Diego Padres": 0.0
         },
         "total": 9.0,
         "num_bookmakers": 9
@@ -22665,7 +22665,7 @@
         "Athletics": 1.5,
         "Cincinnati Reds": -1.5
       },
-      "total": 9.2,
+      "total": 9.0,
       "num_bookmakers": 6
     },
     "prediction": {
@@ -22723,7 +22723,7 @@
           "Athletics": 1.5,
           "Cincinnati Reds": -1.5
         },
-        "total": 9.2,
+        "total": 9.0,
         "num_bookmakers": 6
       }
     },
@@ -22832,7 +22832,7 @@
         "Philadelphia Phillies": -1.5,
         "Washington Nationals": 1.5
       },
-      "total": 8.8,
+      "total": 9.0,
       "num_bookmakers": 6
     },
     "prediction": {
@@ -22896,7 +22896,7 @@
           "Philadelphia Phillies": -1.5,
           "Washington Nationals": 1.5
         },
-        "total": 8.8,
+        "total": 9.0,
         "num_bookmakers": 6
       }
     },
@@ -23118,7 +23118,7 @@
         "Milwaukee Brewers": -1.5,
         "Pittsburgh Pirates": 1.5
       },
-      "total": 7.7,
+      "total": 7.5,
       "num_bookmakers": 6
     },
     "prediction": {
@@ -23177,7 +23177,7 @@
           "Milwaukee Brewers": -1.5,
           "Pittsburgh Pirates": 1.5
         },
-        "total": 7.7,
+        "total": 7.5,
         "num_bookmakers": 6
       }
     },
@@ -23202,7 +23202,7 @@
         "Kansas City Royals": 1.5,
         "Minnesota Twins": -1.5
       },
-      "total": 9.2,
+      "total": 9.0,
       "num_bookmakers": 6
     },
     "prediction": {
@@ -23266,7 +23266,7 @@
           "Kansas City Royals": 1.5,
           "Minnesota Twins": -1.5
         },
-        "total": 9.2,
+        "total": 9.0,
         "num_bookmakers": 6
       }
     },
@@ -25290,7 +25290,7 @@
         "Baltimore Orioles": -1.5,
         "Los Angeles Angels": 1.5
       },
-      "total": 8.6,
+      "total": 8.5,
       "num_bookmakers": 9
     },
     "prediction": {
@@ -25351,7 +25351,7 @@
           "Baltimore Orioles": -1.5,
           "Los Angeles Angels": 1.5
         },
-        "total": 8.6,
+        "total": 8.5,
         "num_bookmakers": 9
       }
     },
@@ -25386,7 +25386,7 @@
         "New York Yankees": -1.5,
         "St. Louis Cardinals": 1.5
       },
-      "total": 8.4,
+      "total": 8.5,
       "num_bookmakers": 9
     },
     "prediction": {
@@ -25451,7 +25451,7 @@
           "New York Yankees": -1.5,
           "St. Louis Cardinals": 1.5
         },
-        "total": 8.4,
+        "total": 8.5,
         "num_bookmakers": 9
       }
     },
@@ -25486,7 +25486,7 @@
         "San Francisco Giants": 1.5,
         "Texas Rangers": -1.5
       },
-      "total": 7.8,
+      "total": 8.0,
       "num_bookmakers": 9
     },
     "prediction": {
@@ -25542,7 +25542,7 @@
           "San Francisco Giants": 1.5,
           "Texas Rangers": -1.5
         },
-        "total": 7.8,
+        "total": 8.0,
         "num_bookmakers": 9
       }
     },
@@ -25864,7 +25864,7 @@
         "Baltimore Orioles": -1.5,
         "Los Angeles Angels": 1.5
       },
-      "total": 8.1,
+      "total": 8.0,
       "num_bookmakers": 9
     },
     "prediction": null,
@@ -25911,10 +25911,10 @@
         "New York Mets": -107
       },
       "spread": {
-        "Cleveland Guardians": 1.2,
-        "New York Mets": -1.2
+        "Cleveland Guardians": 1.0,
+        "New York Mets": -1.0
       },
-      "total": 8.3,
+      "total": 8.5,
       "num_bookmakers": 9
     },
     "prediction": null,
@@ -25989,7 +25989,7 @@
         "Boston Red Sox": -1.5,
         "Chicago White Sox": 1.5
       },
-      "total": 8.2,
+      "total": 8.0,
       "num_bookmakers": 9
     },
     "prediction": null,
@@ -26089,7 +26089,7 @@
         "Arizona Diamondbacks": 1.5,
         "San Diego Padres": -1.5
       },
-      "total": 9.2,
+      "total": 9.0,
       "num_bookmakers": 9
     },
     "prediction": null,
@@ -26111,10 +26111,10 @@
         "Seattle Mariners": 1537
       },
       "spread": {
-        "Detroit Tigers": -4.2,
-        "Seattle Mariners": 4.2
+        "Detroit Tigers": -4.0,
+        "Seattle Mariners": 4.0
       },
-      "total": 5.8,
+      "total": 6.0,
       "num_bookmakers": 6
     },
     "prediction": null,
@@ -26139,7 +26139,7 @@
         "Baltimore Orioles": -1.5,
         "Los Angeles Angels": 1.5
       },
-      "total": 9.6,
+      "total": 9.5,
       "num_bookmakers": 9
     },
     "prediction": null,
@@ -26186,8 +26186,8 @@
         "New York Mets": 34
       },
       "spread": {
-        "Cleveland Guardians": -0.2,
-        "New York Mets": 0.2
+        "Cleveland Guardians": 0.0,
+        "New York Mets": 0.0
       },
       "total": 7.5,
       "num_bookmakers": 9
@@ -26261,8 +26261,8 @@
         "Washington Nationals": 280
       },
       "spread": {
-        "Philadelphia Phillies": -1.7,
-        "Washington Nationals": 1.7
+        "Philadelphia Phillies": -1.5,
+        "Washington Nationals": 1.5
       },
       "total": 9.0,
       "num_bookmakers": 9
@@ -26326,8 +26326,8 @@
           "Washington Nationals": 280
         },
         "spread": {
-          "Philadelphia Phillies": -1.7,
-          "Washington Nationals": 1.7
+          "Philadelphia Phillies": -1.5,
+          "Washington Nationals": 1.5
         },
         "total": 9.0,
         "num_bookmakers": 9
@@ -26555,7 +26555,7 @@
         "Kansas City Royals": -1.5,
         "Minnesota Twins": 1.5
       },
-      "total": 8.7,
+      "total": 8.5,
       "num_bookmakers": 9
     },
     "prediction": {
@@ -26620,7 +26620,7 @@
           "Kansas City Royals": -1.5,
           "Minnesota Twins": 1.5
         },
-        "total": 8.7,
+        "total": 8.5,
         "num_bookmakers": 9
       }
     },
@@ -26652,8 +26652,8 @@
         "San Diego Padres": -60
       },
       "spread": {
-        "Arizona Diamondbacks": 0.2,
-        "San Diego Padres": -0.2
+        "Arizona Diamondbacks": 0.0,
+        "San Diego Padres": 0.0
       },
       "total": 9.0,
       "num_bookmakers": 9
@@ -26704,8 +26704,8 @@
           "San Diego Padres": -60
         },
         "spread": {
-          "Arizona Diamondbacks": 0.2,
-          "San Diego Padres": -0.2
+          "Arizona Diamondbacks": 0.0,
+          "San Diego Padres": 0.0
         },
         "total": 9.0,
         "num_bookmakers": 9
@@ -26742,7 +26742,7 @@
         "New York Mets": 1.5,
         "Pittsburgh Pirates": -1.5
       },
-      "total": 8.2,
+      "total": 8.0,
       "num_bookmakers": 2
     },
     "prediction": {
@@ -26803,7 +26803,7 @@
           "New York Mets": 1.5,
           "Pittsburgh Pirates": -1.5
         },
-        "total": 8.2,
+        "total": 8.0,
         "num_bookmakers": 2
       }
     },
@@ -26828,7 +26828,7 @@
         "Philadelphia Phillies": -1.5,
         "Toronto Blue Jays": 1.5
       },
-      "total": 8.2,
+      "total": 8.0,
       "num_bookmakers": 2
     },
     "prediction": {
@@ -26893,7 +26893,7 @@
           "Philadelphia Phillies": -1.5,
           "Toronto Blue Jays": 1.5
         },
-        "total": 8.2,
+        "total": 8.0,
         "num_bookmakers": 2
       }
     },
@@ -27192,7 +27192,7 @@
         "Baltimore Orioles": 1.5,
         "Texas Rangers": -1.5
       },
-      "total": 8.1,
+      "total": 8.0,
       "num_bookmakers": 7
     },
     "prediction": {
@@ -27252,7 +27252,7 @@
           "Baltimore Orioles": 1.5,
           "Texas Rangers": -1.5
         },
-        "total": 8.1,
+        "total": 8.0,
         "num_bookmakers": 7
       }
     },
@@ -27381,7 +27381,7 @@
         "Houston Astros": -1.5,
         "San Diego Padres": 1.5
       },
-      "total": 8.2,
+      "total": 8.0,
       "num_bookmakers": 6
     },
     "prediction": {
@@ -27440,7 +27440,7 @@
           "Houston Astros": -1.5,
           "San Diego Padres": 1.5
         },
-        "total": 8.2,
+        "total": 8.0,
         "num_bookmakers": 6
       }
     },
@@ -28040,7 +28040,7 @@
         "Detroit Tigers": -1.5,
         "San Francisco Giants": 1.5
       },
-      "total": 8.4,
+      "total": 8.5,
       "num_bookmakers": 6
     },
     "prediction": {
@@ -28099,7 +28099,7 @@
           "Detroit Tigers": -1.5,
           "San Francisco Giants": 1.5
         },
-        "total": 8.4,
+        "total": 8.5,
         "num_bookmakers": 6
       }
     },
@@ -28134,7 +28134,7 @@
         "Atlanta Braves": -1.5,
         "New York Yankees": 1.5
       },
-      "total": 7.4,
+      "total": 7.5,
       "num_bookmakers": 9
     },
     "prediction": {
@@ -28198,7 +28198,7 @@
           "Atlanta Braves": -1.5,
           "New York Yankees": 1.5
         },
-        "total": 7.4,
+        "total": 7.5,
         "num_bookmakers": 9
       }
     },
@@ -28313,7 +28313,7 @@
         "Los Angeles Angels": 1.5,
         "Miami Marlins": -1.5
       },
-      "total": 7.9,
+      "total": 8.0,
       "num_bookmakers": 9
     },
     "prediction": {
@@ -28372,7 +28372,7 @@
           "Los Angeles Angels": 1.5,
           "Miami Marlins": -1.5
         },
-        "total": 7.9,
+        "total": 8.0,
         "num_bookmakers": 9
       }
     },
@@ -28397,7 +28397,7 @@
         "Philadelphia Phillies": -1.5,
         "Toronto Blue Jays": 1.5
       },
-      "total": 9.7,
+      "total": 9.5,
       "num_bookmakers": 9
     },
     "prediction": {
@@ -28461,7 +28461,7 @@
           "Philadelphia Phillies": -1.5,
           "Toronto Blue Jays": 1.5
         },
-        "total": 9.7,
+        "total": 9.5,
         "num_bookmakers": 9
       }
     },
@@ -28665,7 +28665,7 @@
         "Milwaukee Brewers": -1.5,
         "Minnesota Twins": 1.5
       },
-      "total": 8.1,
+      "total": 8.0,
       "num_bookmakers": 9
     },
     "prediction": {
@@ -28724,7 +28724,7 @@
           "Milwaukee Brewers": -1.5,
           "Minnesota Twins": 1.5
         },
-        "total": 8.1,
+        "total": 8.0,
         "num_bookmakers": 9
       }
     },
@@ -28749,7 +28749,7 @@
         "Chicago White Sox": 1.5,
         "Cleveland Guardians": -1.5
       },
-      "total": 7.9,
+      "total": 8.0,
       "num_bookmakers": 9
     },
     "prediction": {
@@ -28808,7 +28808,7 @@
           "Chicago White Sox": 1.5,
           "Cleveland Guardians": -1.5
         },
-        "total": 7.9,
+        "total": 8.0,
         "num_bookmakers": 9
       }
     },
@@ -28833,7 +28833,7 @@
         "Arizona Diamondbacks": 1.5,
         "Los Angeles Dodgers": -1.5
       },
-      "total": 8.3,
+      "total": 8.5,
       "num_bookmakers": 9
     },
     "prediction": {
@@ -28892,7 +28892,7 @@
           "Arizona Diamondbacks": 1.5,
           "Los Angeles Dodgers": -1.5
         },
-        "total": 8.3,
+        "total": 8.5,
         "num_bookmakers": 9
       }
     },
@@ -28914,8 +28914,8 @@
         "Tampa Bay Rays": 57
       },
       "spread": {
-        "Seattle Mariners": -0.8,
-        "Tampa Bay Rays": 0.8
+        "Seattle Mariners": -1.0,
+        "Tampa Bay Rays": 1.0
       },
       "total": 7.0,
       "num_bookmakers": 9
@@ -28973,8 +28973,8 @@
           "Tampa Bay Rays": 57
         },
         "spread": {
-          "Seattle Mariners": -0.8,
-          "Tampa Bay Rays": 0.8
+          "Seattle Mariners": -1.0,
+          "Tampa Bay Rays": 1.0
         },
         "total": 7.0,
         "num_bookmakers": 9
@@ -28998,7 +28998,7 @@
         "Hampton Pirates": 45.5,
         "Maryland Terrapins": -45.5
       },
-      "total": 56.7,
+      "total": 56.5,
       "num_bookmakers": 5
     },
     "prediction": {
@@ -29039,7 +29039,7 @@
           "Hampton Pirates": 45.5,
           "Maryland Terrapins": -45.5
         },
-        "total": 56.7,
+        "total": 56.5,
         "num_bookmakers": 5
       }
     },
@@ -29061,8 +29061,8 @@
         "Utah Utes": -470
       },
       "spread": {
-        "Arkansas Razorbacks": 11.4,
-        "Utah Utes": -11.4
+        "Arkansas Razorbacks": 11.5,
+        "Utah Utes": -11.5
       },
       "total": 57.0,
       "num_bookmakers": 8
@@ -29106,8 +29106,8 @@
           "Utah Utes": -470
         },
         "spread": {
-          "Arkansas Razorbacks": 11.4,
-          "Utah Utes": -11.4
+          "Arkansas Razorbacks": 11.5,
+          "Utah Utes": -11.5
         },
         "total": 57.0,
         "num_bookmakers": 8
@@ -29156,10 +29156,10 @@
         "Georgia Bulldogs": -154
       },
       "spread": {
-        "Alabama Crimson Tide": 2.8,
-        "Georgia Bulldogs": -2.8
+        "Alabama Crimson Tide": 3.0,
+        "Georgia Bulldogs": -3.0
       },
-      "total": 49.7,
+      "total": 49.5,
       "num_bookmakers": 3
     },
     "prediction": null,
@@ -29806,8 +29806,8 @@
         "Auburn Tigers": 330
       },
       "spread": {
-        "Alabama Crimson Tide": -10.2,
-        "Auburn Tigers": 10.2
+        "Alabama Crimson Tide": -10.0,
+        "Auburn Tigers": 10.0
       },
       "total": 52.5,
       "num_bookmakers": 2
@@ -30081,10 +30081,10 @@
         "Washington Nationals": 123
       },
       "spread": {
-        "Atlanta Braves": -1.4,
-        "Washington Nationals": 1.4
+        "Atlanta Braves": -1.5,
+        "Washington Nationals": 1.5
       },
-      "total": 9.4,
+      "total": 9.5,
       "num_bookmakers": 9
     },
     "prediction": {
@@ -30146,10 +30146,10 @@
           "Washington Nationals": 123
         },
         "spread": {
-          "Atlanta Braves": -1.4,
-          "Washington Nationals": 1.4
+          "Atlanta Braves": -1.5,
+          "Washington Nationals": 1.5
         },
-        "total": 9.4,
+        "total": 9.5,
         "num_bookmakers": 9
       }
     },
@@ -30174,7 +30174,7 @@
         "Athletics": 1.5,
         "Texas Rangers": -1.5
       },
-      "total": 7.9,
+      "total": 8.0,
       "num_bookmakers": 9
     },
     "prediction": {
@@ -30234,7 +30234,7 @@
           "Athletics": 1.5,
           "Texas Rangers": -1.5
         },
-        "total": 7.9,
+        "total": 8.0,
         "num_bookmakers": 9
       }
     },
@@ -30269,7 +30269,7 @@
         "Baltimore Orioles": -1.5,
         "Colorado Rockies": 1.5
       },
-      "total": 11.4,
+      "total": 11.5,
       "num_bookmakers": 9
     },
     "prediction": {
@@ -30334,7 +30334,7 @@
           "Baltimore Orioles": -1.5,
           "Colorado Rockies": 1.5
         },
-        "total": 11.4,
+        "total": 11.5,
         "num_bookmakers": 9
       }
     },
@@ -30369,7 +30369,7 @@
         "Arizona Diamondbacks": 1.5,
         "Philadelphia Phillies": -1.5
       },
-      "total": 9.1,
+      "total": 9.0,
       "num_bookmakers": 9
     },
     "prediction": {
@@ -30429,7 +30429,7 @@
           "Arizona Diamondbacks": 1.5,
           "Philadelphia Phillies": -1.5
         },
-        "total": 9.1,
+        "total": 9.0,
         "num_bookmakers": 9
       }
     },
@@ -30564,7 +30564,7 @@
         "Cleveland Guardians": 1.5,
         "Toronto Blue Jays": -1.5
       },
-      "total": 7.1,
+      "total": 7.0,
       "num_bookmakers": 9
     },
     "prediction": {
@@ -30629,7 +30629,7 @@
           "Cleveland Guardians": 1.5,
           "Toronto Blue Jays": -1.5
         },
-        "total": 7.1,
+        "total": 7.0,
         "num_bookmakers": 9
       }
     },
@@ -30661,10 +30661,10 @@
         "Tampa Bay Rays": -177
       },
       "spread": {
-        "New York Mets": 1.4,
-        "Tampa Bay Rays": -1.4
+        "New York Mets": 1.5,
+        "Tampa Bay Rays": -1.5
       },
-      "total": 8.1,
+      "total": 8.0,
       "num_bookmakers": 9
     },
     "prediction": {
@@ -30721,10 +30721,10 @@
           "Tampa Bay Rays": -177
         },
         "spread": {
-          "New York Mets": 1.4,
-          "Tampa Bay Rays": -1.4
+          "New York Mets": 1.5,
+          "Tampa Bay Rays": -1.5
         },
-        "total": 8.1,
+        "total": 8.0,
         "num_bookmakers": 9
       }
     },
@@ -30759,7 +30759,7 @@
         "Pittsburgh Pirates": -1.5,
         "San Francisco Giants": 1.5
       },
-      "total": 8.6,
+      "total": 8.5,
       "num_bookmakers": 9
     },
     "prediction": {
@@ -30824,7 +30824,7 @@
           "Pittsburgh Pirates": -1.5,
           "San Francisco Giants": 1.5
         },
-        "total": 8.6,
+        "total": 8.5,
         "num_bookmakers": 9
       }
     },
@@ -30849,7 +30849,7 @@
         "Chicago Cubs": 1.5,
         "Milwaukee Brewers": -1.5
       },
-      "total": 8.4,
+      "total": 8.5,
       "num_bookmakers": 9
     },
     "prediction": {
@@ -30909,7 +30909,7 @@
           "Chicago Cubs": 1.5,
           "Milwaukee Brewers": -1.5
         },
-        "total": 8.4,
+        "total": 8.5,
         "num_bookmakers": 9
       }
     },
@@ -31036,10 +31036,10 @@
         "Miami Marlins": -105
       },
       "spread": {
-        "Kansas City Royals": 0.2,
-        "Miami Marlins": -0.2
+        "Kansas City Royals": 0.0,
+        "Miami Marlins": 0.0
       },
-      "total": 8.9,
+      "total": 9.0,
       "num_bookmakers": 9
     },
     "prediction": {
@@ -31096,10 +31096,10 @@
           "Miami Marlins": -105
         },
         "spread": {
-          "Kansas City Royals": 0.2,
-          "Miami Marlins": -0.2
+          "Kansas City Royals": 0.0,
+          "Miami Marlins": 0.0
         },
-        "total": 8.9,
+        "total": 9.0,
         "num_bookmakers": 9
       }
     },
@@ -31229,7 +31229,7 @@
         "Los Angeles Angels": 1.5,
         "New York Yankees": -1.5
       },
-      "total": 6.8,
+      "total": 7.0,
       "num_bookmakers": 9
     },
     "prediction": {
@@ -31281,7 +31281,7 @@
           "Los Angeles Angels": 1.5,
           "New York Yankees": -1.5
         },
-        "total": 6.8,
+        "total": 7.0,
         "num_bookmakers": 9
       }
     },
@@ -31316,7 +31316,7 @@
         "Los Angeles Dodgers": -1.5,
         "St. Louis Cardinals": 1.5
       },
-      "total": 7.9,
+      "total": 8.0,
       "num_bookmakers": 7
     },
     "prediction": {
@@ -31376,7 +31376,7 @@
           "Los Angeles Dodgers": -1.5,
           "St. Louis Cardinals": 1.5
         },
-        "total": 7.9,
+        "total": 8.0,
         "num_bookmakers": 7
       }
     },
@@ -31408,10 +31408,10 @@
         "Virginia Tech Hokies": -1120
       },
       "spread": {
-        "Old Dominion Monarchs": 17.9,
-        "Virginia Tech Hokies": -17.9
+        "Old Dominion Monarchs": 18.0,
+        "Virginia Tech Hokies": -18.0
       },
-      "total": 50.7,
+      "total": 50.5,
       "num_bookmakers": 9
     },
     "prediction": {
@@ -31453,10 +31453,10 @@
           "Virginia Tech Hokies": -1120
         },
         "spread": {
-          "Old Dominion Monarchs": 17.9,
-          "Virginia Tech Hokies": -17.9
+          "Old Dominion Monarchs": 18.0,
+          "Virginia Tech Hokies": -18.0
         },
-        "total": 50.7,
+        "total": 50.5,
         "num_bookmakers": 9
       }
     },
@@ -31478,10 +31478,10 @@
         "Kentucky Wildcats": 322
       },
       "spread": {
-        "Alabama Crimson Tide": -10.2,
-        "Kentucky Wildcats": 10.2
+        "Alabama Crimson Tide": -10.0,
+        "Kentucky Wildcats": 10.0
       },
-      "total": 49.2,
+      "total": 49.0,
       "num_bookmakers": 9
     },
     "prediction": null,
@@ -31506,7 +31506,7 @@
         "Arizona Wildcats": 7.5,
         "BYU Cougars": -7.5
       },
-      "total": 50.4,
+      "total": 50.5,
       "num_bookmakers": 9
     },
     "prediction": null,
@@ -31528,10 +31528,10 @@
         "Illinois Fighting Illini": -238
       },
       "spread": {
-        "Duke Blue Devils": 6.2,
-        "Illinois Fighting Illini": -6.2
+        "Duke Blue Devils": 6.0,
+        "Illinois Fighting Illini": -6.0
       },
-      "total": 53.4,
+      "total": 53.5,
       "num_bookmakers": 9
     },
     "prediction": null,
@@ -31553,10 +31553,10 @@
         "Mississippi State Bulldogs": -113
       },
       "spread": {
-        "Minnesota Golden Gophers": 0.8,
-        "Mississippi State Bulldogs": -0.8
+        "Minnesota Golden Gophers": 1.0,
+        "Mississippi State Bulldogs": -1.0
       },
-      "total": 55.6,
+      "total": 55.5,
       "num_bookmakers": 9
     },
     "prediction": null,
@@ -31581,7 +31581,7 @@
         "Texas State Bobcats": -1.5,
         "UTSA Roadrunners": 1.5
       },
-      "total": 64.4,
+      "total": 64.5,
       "num_bookmakers": 9
     },
     "prediction": null,
@@ -31603,10 +31603,10 @@
         "Memphis Tigers": 260
       },
       "spread": {
-        "Boise State Broncos": -7.6,
-        "Memphis Tigers": 7.6
+        "Boise State Broncos": -7.5,
+        "Memphis Tigers": 7.5
       },
-      "total": 55.4,
+      "total": 55.5,
       "num_bookmakers": 9
     },
     "prediction": null,
@@ -31628,10 +31628,10 @@
         "Tennessee Volunteers": -540
       },
       "spread": {
-        "Georgia Tech Yellow Jackets": 12.8,
-        "Tennessee Volunteers": -12.8
+        "Georgia Tech Yellow Jackets": 13.0,
+        "Tennessee Volunteers": -13.0
       },
-      "total": 55.4,
+      "total": 55.5,
       "num_bookmakers": 9
     },
     "prediction": null,
@@ -31653,10 +31653,10 @@
         "UCLA Bruins": -498
       },
       "spread": {
-        "San Diego State Aztecs": 11.3,
-        "UCLA Bruins": -11.3
+        "San Diego State Aztecs": 11.5,
+        "UCLA Bruins": -11.5
       },
-      "total": 53.2,
+      "total": 53.0,
       "num_bookmakers": 9
     },
     "prediction": null,
@@ -31767,10 +31767,10 @@
         "Toronto Blue Jays": -37
       },
       "spread": {
-        "Cleveland Guardians": 1.2,
-        "Toronto Blue Jays": -1.2
+        "Cleveland Guardians": 1.0,
+        "Toronto Blue Jays": -1.0
       },
-      "total": 7.8,
+      "total": 8.0,
       "num_bookmakers": 9
     },
     "prediction": {
@@ -31831,10 +31831,10 @@
           "Toronto Blue Jays": -37
         },
         "spread": {
-          "Cleveland Guardians": 1.2,
-          "Toronto Blue Jays": -1.2
+          "Cleveland Guardians": 1.0,
+          "Toronto Blue Jays": -1.0
         },
-        "total": 7.8,
+        "total": 8.0,
         "num_bookmakers": 9
       }
     },
@@ -31958,7 +31958,7 @@
         "Chicago Cubs": 1.5,
         "Milwaukee Brewers": -1.5
       },
-      "total": 8.3,
+      "total": 8.5,
       "num_bookmakers": 9
     },
     "prediction": {
@@ -32022,7 +32022,7 @@
           "Chicago Cubs": 1.5,
           "Milwaukee Brewers": -1.5
         },
-        "total": 8.3,
+        "total": 8.5,
         "num_bookmakers": 9
       }
     },
@@ -32044,8 +32044,8 @@
         "Miami Marlins": -34
       },
       "spread": {
-        "Kansas City Royals": 1.2,
-        "Miami Marlins": -1.2
+        "Kansas City Royals": 1.0,
+        "Miami Marlins": -1.0
       },
       "total": 9.0,
       "num_bookmakers": 9
@@ -32108,8 +32108,8 @@
           "Miami Marlins": -34
         },
         "spread": {
-          "Kansas City Royals": 1.2,
-          "Miami Marlins": -1.2
+          "Kansas City Royals": 1.0,
+          "Miami Marlins": -1.0
         },
         "total": 9.0,
         "num_bookmakers": 9
@@ -32136,7 +32136,7 @@
         "Tampa Bay Rays": -1.5,
         "Texas Rangers": 1.5
       },
-      "total": 7.8,
+      "total": 8.0,
       "num_bookmakers": 9
     },
     "prediction": {
@@ -32195,7 +32195,7 @@
           "Tampa Bay Rays": -1.5,
           "Texas Rangers": 1.5
         },
-        "total": 7.8,
+        "total": 8.0,
         "num_bookmakers": 9
       }
     },
@@ -32321,10 +32321,10 @@
         "St. Louis Cardinals": 246
       },
       "spread": {
-        "Los Angeles Dodgers": -1.6,
-        "St. Louis Cardinals": 1.6
+        "Los Angeles Dodgers": -1.5,
+        "St. Louis Cardinals": 1.5
       },
-      "total": 7.7,
+      "total": 7.5,
       "num_bookmakers": 9
     },
     "prediction": {
@@ -32377,10 +32377,10 @@
           "St. Louis Cardinals": 246
         },
         "spread": {
-          "Los Angeles Dodgers": -1.6,
-          "St. Louis Cardinals": 1.6
+          "Los Angeles Dodgers": -1.5,
+          "St. Louis Cardinals": 1.5
         },
-        "total": 7.7,
+        "total": 7.5,
         "num_bookmakers": 9
       }
     },
@@ -32494,7 +32494,7 @@
         "Atlanta Braves": -1.5,
         "Philadelphia Phillies": 1.5
       },
-      "total": 6.8,
+      "total": 7.0,
       "num_bookmakers": 7
     },
     "actual": {
@@ -32569,7 +32569,7 @@
           "Atlanta Braves": -1.5,
           "Philadelphia Phillies": 1.5
         },
-        "total": 6.8,
+        "total": 7.0,
         "num_bookmakers": 7
       }
     }
@@ -32775,7 +32775,7 @@
         "Chicago Cubs": -1.5,
         "Miami Marlins": 1.5
       },
-      "total": 7.8,
+      "total": 8.0,
       "num_bookmakers": 3
     },
     "actual": null,
@@ -32829,7 +32829,7 @@
           "Chicago Cubs": -1.5,
           "Miami Marlins": 1.5
         },
-        "total": 7.8,
+        "total": 8.0,
         "num_bookmakers": 3
       }
     }
@@ -32949,10 +32949,10 @@
         "Minnesota Twins": 77
       },
       "spread": {
-        "Chicago White Sox": 0.8,
-        "Minnesota Twins": -0.8
+        "Chicago White Sox": 1.0,
+        "Minnesota Twins": -1.0
       },
-      "total": 9.1,
+      "total": 9.0,
       "num_bookmakers": 7
     },
     "actual": {
@@ -33024,10 +33024,10 @@
           "Minnesota Twins": 77
         },
         "spread": {
-          "Chicago White Sox": 0.8,
-          "Minnesota Twins": -0.8
+          "Chicago White Sox": 1.0,
+          "Minnesota Twins": -1.0
         },
-        "total": 9.1,
+        "total": 9.0,
         "num_bookmakers": 7
       }
     }
@@ -33234,7 +33234,7 @@
         "Arizona Diamondbacks": 1.5,
         "Houston Astros": -1.5
       },
-      "total": 8.7,
+      "total": 8.5,
       "num_bookmakers": 7
     },
     "actual": {
@@ -33294,7 +33294,7 @@
           "Arizona Diamondbacks": 1.5,
           "Houston Astros": -1.5
         },
-        "total": 8.7,
+        "total": 8.5,
         "num_bookmakers": 7
       }
     }
@@ -33810,10 +33810,10 @@
         "East Carolina Pirates": -329
       },
       "spread": {
-        "Appalachian State Mountaineers": 8.4,
-        "East Carolina Pirates": -8.4
+        "Appalachian State Mountaineers": 8.5,
+        "East Carolina Pirates": -8.5
       },
-      "total": 56.4,
+      "total": 56.5,
       "num_bookmakers": 9
     },
     "prediction": {
@@ -33855,10 +33855,10 @@
           "East Carolina Pirates": -329
         },
         "spread": {
-          "Appalachian State Mountaineers": 8.4,
-          "East Carolina Pirates": -8.4
+          "Appalachian State Mountaineers": 8.5,
+          "East Carolina Pirates": -8.5
         },
-        "total": 56.4,
+        "total": 56.5,
         "num_bookmakers": 9
       }
     },
@@ -33883,7 +33883,7 @@
         "Army Black Knights": -3.5,
         "South Florida Bulls": 3.5
       },
-      "total": 48.4,
+      "total": 48.5,
       "num_bookmakers": 9
     },
     "prediction": {
@@ -33928,7 +33928,7 @@
           "Army Black Knights": -3.5,
           "South Florida Bulls": 3.5
         },
-        "total": 48.4,
+        "total": 48.5,
         "num_bookmakers": 9
       }
     },
@@ -34020,10 +34020,10 @@
         "Washington State Cougars": 710
       },
       "spread": {
-        "Kansas State Wildcats": -17.6,
-        "Washington State Cougars": 17.6
+        "Kansas State Wildcats": -17.5,
+        "Washington State Cougars": 17.5
       },
-      "total": 49.8,
+      "total": 50.0,
       "num_bookmakers": 8
     },
     "prediction": {
@@ -34065,10 +34065,10 @@
           "Washington State Cougars": 710
         },
         "spread": {
-          "Kansas State Wildcats": -17.6,
-          "Washington State Cougars": 17.6
+          "Kansas State Wildcats": -17.5,
+          "Washington State Cougars": 17.5
         },
-        "total": 49.8,
+        "total": 50.0,
         "num_bookmakers": 8
       }
     },
@@ -34160,10 +34160,10 @@
         "Wake Forest Demon Deacons": -191
       },
       "spread": {
-        "Purdue Boilermakers": 3.8,
-        "Wake Forest Demon Deacons": -3.8
+        "Purdue Boilermakers": 4.0,
+        "Wake Forest Demon Deacons": -4.0
       },
-      "total": 49.7,
+      "total": 49.5,
       "num_bookmakers": 9
     },
     "prediction": {
@@ -34205,10 +34205,10 @@
           "Wake Forest Demon Deacons": -191
         },
         "spread": {
-          "Purdue Boilermakers": 3.8,
-          "Wake Forest Demon Deacons": -3.8
+          "Purdue Boilermakers": 4.0,
+          "Wake Forest Demon Deacons": -4.0
         },
-        "total": 49.7,
+        "total": 49.5,
         "num_bookmakers": 9
       }
     },
@@ -34230,10 +34230,10 @@
         "Syracuse Orange": -172
       },
       "spread": {
-        "California Golden Bears": 3.4,
-        "Syracuse Orange": -3.4
+        "California Golden Bears": 3.5,
+        "Syracuse Orange": -3.5
       },
-      "total": 56.7,
+      "total": 56.5,
       "num_bookmakers": 9
     },
     "prediction": null,
@@ -34255,10 +34255,10 @@
         "Michigan State Spartans": -1011
       },
       "spread": {
-        "Eastern Michigan Eagles": 17.2,
-        "Michigan State Spartans": -17.2
+        "Eastern Michigan Eagles": 17.0,
+        "Michigan State Spartans": -17.0
       },
-      "total": 50.7,
+      "total": 50.5,
       "num_bookmakers": 9
     },
     "prediction": null,
@@ -34280,8 +34280,8 @@
         "UConn Huskies": 349
       },
       "spread": {
-        "Maryland Terrapins": -11.7,
-        "UConn Huskies": 11.7
+        "Maryland Terrapins": -11.5,
+        "UConn Huskies": 11.5
       },
       "total": 53.5,
       "num_bookmakers": 9
@@ -34308,7 +34308,7 @@
         "Pittsburgh Panthers": -7.5,
         "UCF Knights": 7.5
       },
-      "total": 57.1,
+      "total": 57.0,
       "num_bookmakers": 9
     },
     "prediction": null,
@@ -34330,8 +34330,8 @@
         "UL Monroe Warhawks": 326
       },
       "spread": {
-        "UAB Blazers": -10.7,
-        "UL Monroe Warhawks": 10.7
+        "UAB Blazers": -10.5,
+        "UL Monroe Warhawks": 10.5
       },
       "total": 55.5,
       "num_bookmakers": 9
@@ -34355,10 +34355,10 @@
         "Washington Huskies": -4125
       },
       "spread": {
-        "Utah State Aggies": 26.3,
-        "Washington Huskies": -26.3
+        "Utah State Aggies": 26.5,
+        "Washington Huskies": -26.5
       },
-      "total": 55.7,
+      "total": 55.5,
       "num_bookmakers": 7
     },
     "prediction": null,
@@ -34380,10 +34380,10 @@
         "UNLV Rebels": -185
       },
       "spread": {
-        "North Texas Mean Green": 3.8,
-        "UNLV Rebels": -3.8
+        "North Texas Mean Green": 4.0,
+        "UNLV Rebels": -4.0
       },
-      "total": 57.2,
+      "total": 57.0,
       "num_bookmakers": 8
     },
     "prediction": null,
@@ -34405,8 +34405,8 @@
         "Vanderbilt Commodores": -1642
       },
       "spread": {
-        "Delaware Blue Hens": 20.6,
-        "Vanderbilt Commodores": -20.6
+        "Delaware Blue Hens": 20.5,
+        "Vanderbilt Commodores": -20.5
       },
       "total": 54.0,
       "num_bookmakers": 9
@@ -34430,8 +34430,8 @@
         "Florida International Panthers": -460
       },
       "spread": {
-        "Buffalo Bulls": 10.4,
-        "Florida International Panthers": -10.4
+        "Buffalo Bulls": 10.5,
+        "Florida International Panthers": -10.5
       },
       "total": 47.5,
       "num_bookmakers": 9
@@ -34455,8 +34455,8 @@
         "Ohio Bobcats": -139
       },
       "spread": {
-        "Jacksonville State Gamecocks": 2.6,
-        "Ohio Bobcats": -2.6
+        "Jacksonville State Gamecocks": 2.5,
+        "Ohio Bobcats": -2.5
       },
       "total": 51.5,
       "num_bookmakers": 9
@@ -34480,8 +34480,8 @@
         "Nebraska Cornhuskers": -9138
       },
       "spread": {
-        "Bowling Green Falcons": 28.6,
-        "Nebraska Cornhuskers": -28.6
+        "Bowling Green Falcons": 28.5,
+        "Nebraska Cornhuskers": -28.5
       },
       "total": 52.0,
       "num_bookmakers": 9
@@ -34505,10 +34505,10 @@
         "Tulsa Golden Hurricane": -626
       },
       "spread": {
-        "Sam Houston State Bearkats": 13.7,
-        "Tulsa Golden Hurricane": -13.7
+        "Sam Houston State Bearkats": 13.5,
+        "Tulsa Golden Hurricane": -13.5
       },
-      "total": 52.1,
+      "total": 52.0,
       "num_bookmakers": 9
     },
     "prediction": null,
@@ -34530,10 +34530,10 @@
         "Texas Tech Red Raiders": -4850
       },
       "spread": {
-        "Oregon State Beavers": 26.3,
-        "Texas Tech Red Raiders": -26.3
+        "Oregon State Beavers": 26.5,
+        "Texas Tech Red Raiders": -26.5
       },
-      "total": 51.1,
+      "total": 51.0,
       "num_bookmakers": 9
     },
     "prediction": null,
@@ -34555,10 +34555,10 @@
         "Detroit Tigers": 119
       },
       "spread": {
-        "Cleveland Guardians": -1.4,
-        "Detroit Tigers": 1.4
+        "Cleveland Guardians": -1.5,
+        "Detroit Tigers": 1.5
       },
-      "total": 8.1,
+      "total": 8.0,
       "num_bookmakers": 9
     },
     "prediction": {
@@ -34620,10 +34620,10 @@
           "Detroit Tigers": 119
         },
         "spread": {
-          "Cleveland Guardians": -1.4,
-          "Detroit Tigers": 1.4
+          "Cleveland Guardians": -1.5,
+          "Detroit Tigers": 1.5
         },
-        "total": 8.1,
+        "total": 8.0,
         "num_bookmakers": 9
       }
     },
@@ -34648,7 +34648,7 @@
         "Colorado Rockies": 1.5,
         "St. Louis Cardinals": -1.5
       },
-      "total": 11.4,
+      "total": 11.5,
       "num_bookmakers": 9
     },
     "prediction": {
@@ -34713,7 +34713,7 @@
           "Colorado Rockies": 1.5,
           "St. Louis Cardinals": -1.5
         },
-        "total": 11.4,
+        "total": 11.5,
         "num_bookmakers": 9
       }
     },
@@ -34748,7 +34748,7 @@
         "Athletics": 1.5,
         "Seattle Mariners": -1.5
       },
-      "total": 7.1,
+      "total": 7.0,
       "num_bookmakers": 9
     },
     "prediction": {
@@ -34808,7 +34808,7 @@
           "Athletics": 1.5,
           "Seattle Mariners": -1.5
         },
-        "total": 7.1,
+        "total": 7.0,
         "num_bookmakers": 9
       }
     },
@@ -34843,7 +34843,7 @@
         "Los Angeles Dodgers": -1.5,
         "Washington Nationals": 1.5
       },
-      "total": 8.3,
+      "total": 8.5,
       "num_bookmakers": 9
     },
     "prediction": {
@@ -34908,7 +34908,7 @@
           "Los Angeles Dodgers": -1.5,
           "Washington Nationals": 1.5
         },
-        "total": 8.3,
+        "total": 8.5,
         "num_bookmakers": 9
       }
     },
@@ -35007,10 +35007,10 @@
     "odds": {
       "moneyline": {},
       "spread": {
-        "Georgia Bulldogs": -40.2,
-        "Western Kentucky Hilltoppers": 40.2
+        "Georgia Bulldogs": -40.0,
+        "Western Kentucky Hilltoppers": 40.0
       },
-      "total": 54.4,
+      "total": 54.5,
       "num_bookmakers": 8
     },
     "prediction": null,
@@ -35029,8 +35029,8 @@
     "odds": {
       "moneyline": {},
       "spread": {
-        "Notre Dame Fighting Irish": -44.2,
-        "Rice Owls": 44.2
+        "Notre Dame Fighting Irish": -44.0,
+        "Rice Owls": 44.0
       },
       "total": 54.5,
       "num_bookmakers": 7
@@ -35054,10 +35054,10 @@
         "Middle Tennessee Blue Raiders": 463
       },
       "spread": {
-        "Marshall Thundering Herd": -13.8,
-        "Middle Tennessee Blue Raiders": 13.8
+        "Marshall Thundering Herd": -14.0,
+        "Middle Tennessee Blue Raiders": 14.0
       },
-      "total": 57.4,
+      "total": 57.5,
       "num_bookmakers": 8
     },
     "prediction": null,
@@ -35079,10 +35079,10 @@
         "Tulane Green Wave": -389
       },
       "spread": {
-        "South Alabama Jaguars": 9.6,
-        "Tulane Green Wave": -9.6
+        "South Alabama Jaguars": 9.5,
+        "Tulane Green Wave": -9.5
       },
-      "total": 50.4,
+      "total": 50.5,
       "num_bookmakers": 9
     },
     "prediction": null,
@@ -35104,10 +35104,10 @@
         "Georgia Southern Eagles": 863
       },
       "spread": {
-        "Clemson Tigers": -20.9,
-        "Georgia Southern Eagles": 20.9
+        "Clemson Tigers": -21.0,
+        "Georgia Southern Eagles": 21.0
       },
-      "total": 55.4,
+      "total": 55.5,
       "num_bookmakers": 9
     },
     "prediction": null,
@@ -35129,10 +35129,10 @@
         "New Mexico State Aggies": 292
       },
       "spread": {
-        "Hawaii Rainbow Warriors": -9.4,
-        "New Mexico State Aggies": 9.4
+        "Hawaii Rainbow Warriors": -9.5,
+        "New Mexico State Aggies": 9.5
       },
-      "total": 50.4,
+      "total": 50.5,
       "num_bookmakers": 9
     },
     "prediction": null,
@@ -35157,7 +35157,7 @@
         "Chicago Cubs": -1.5,
         "Miami Marlins": 1.5
       },
-      "total": 8.1,
+      "total": 8.0,
       "num_bookmakers": 9
     },
     "prediction": {
@@ -35217,7 +35217,7 @@
           "Chicago Cubs": -1.5,
           "Miami Marlins": 1.5
         },
-        "total": 8.1,
+        "total": 8.0,
         "num_bookmakers": 9
       }
     },
@@ -35352,7 +35352,7 @@
         "Atlanta Braves": 1.5,
         "Philadelphia Phillies": -1.5
       },
-      "total": 8.1,
+      "total": 8.0,
       "num_bookmakers": 9
     },
     "prediction": {
@@ -35417,7 +35417,7 @@
           "Atlanta Braves": 1.5,
           "Philadelphia Phillies": -1.5
         },
-        "total": 8.1,
+        "total": 8.0,
         "num_bookmakers": 9
       }
     },
@@ -35452,7 +35452,7 @@
         "Cleveland Guardians": -1.5,
         "Detroit Tigers": 1.5
       },
-      "total": 7.2,
+      "total": 7.0,
       "num_bookmakers": 9
     },
     "prediction": {
@@ -35517,7 +35517,7 @@
           "Cleveland Guardians": -1.5,
           "Detroit Tigers": 1.5
         },
-        "total": 7.2,
+        "total": 7.0,
         "num_bookmakers": 9
       }
     },
@@ -35552,7 +35552,7 @@
         "Cincinnati Reds": 1.5,
         "Milwaukee Brewers": -1.5
       },
-      "total": 9.3,
+      "total": 9.5,
       "num_bookmakers": 9
     },
     "prediction": {
@@ -35617,7 +35617,7 @@
           "Cincinnati Reds": 1.5,
           "Milwaukee Brewers": -1.5
         },
-        "total": 9.3,
+        "total": 9.5,
         "num_bookmakers": 9
       }
     },
@@ -35642,7 +35642,7 @@
         "Los Angeles Angels": 1.5,
         "Pittsburgh Pirates": -1.5
       },
-      "total": 7.6,
+      "total": 7.5,
       "num_bookmakers": 9
     },
     "prediction": {
@@ -35707,7 +35707,7 @@
           "Los Angeles Angels": 1.5,
           "Pittsburgh Pirates": -1.5
         },
-        "total": 7.6,
+        "total": 7.5,
         "num_bookmakers": 9
       }
     },
@@ -35839,10 +35839,10 @@
         "Minnesota Twins": 81
       },
       "spread": {
-        "Chicago White Sox": -0.8,
-        "Minnesota Twins": 0.8
+        "Chicago White Sox": -1.0,
+        "Minnesota Twins": 1.0
       },
-      "total": 8.4,
+      "total": 8.5,
       "num_bookmakers": 9
     },
     "prediction": {
@@ -35904,10 +35904,10 @@
           "Minnesota Twins": 81
         },
         "spread": {
-          "Chicago White Sox": -0.8,
-          "Minnesota Twins": 0.8
+          "Chicago White Sox": -1.0,
+          "Minnesota Twins": 1.0
         },
-        "total": 8.4,
+        "total": 8.5,
         "num_bookmakers": 9
       }
     },
@@ -35942,7 +35942,7 @@
         "Colorado Rockies": 1.5,
         "St. Louis Cardinals": -1.5
       },
-      "total": 10.8,
+      "total": 11.0,
       "num_bookmakers": 9
     },
     "prediction": {
@@ -36007,7 +36007,7 @@
           "Colorado Rockies": 1.5,
           "St. Louis Cardinals": -1.5
         },
-        "total": 10.8,
+        "total": 11.0,
         "num_bookmakers": 9
       }
     },
@@ -36042,7 +36042,7 @@
         "Los Angeles Dodgers": -1.5,
         "Washington Nationals": 1.5
       },
-      "total": 7.7,
+      "total": 7.5,
       "num_bookmakers": 9
     },
     "prediction": {
@@ -36103,7 +36103,7 @@
           "Los Angeles Dodgers": -1.5,
           "Washington Nationals": 1.5
         },
-        "total": 7.7,
+        "total": 7.5,
         "num_bookmakers": 9
       }
     },
@@ -36138,7 +36138,7 @@
         "Athletics": 1.5,
         "Seattle Mariners": -1.5
       },
-      "total": 7.9,
+      "total": 8.0,
       "num_bookmakers": 9
     },
     "prediction": {
@@ -36198,7 +36198,7 @@
           "Athletics": 1.5,
           "Seattle Mariners": -1.5
         },
-        "total": 7.9,
+        "total": 8.0,
         "num_bookmakers": 9
       }
     },
@@ -36255,10 +36255,10 @@
         "Kennesaw State Owls": -357
       },
       "spread": {
-        "Georgia State Panthers": 9.4,
-        "Kennesaw State Owls": -9.4
+        "Georgia State Panthers": 9.5,
+        "Kennesaw State Owls": -9.5
       },
-      "total": 52.2,
+      "total": 52.0,
       "num_bookmakers": 8
     },
     "prediction": null,
@@ -36280,10 +36280,10 @@
         "Navy Midshipmen": -224
       },
       "spread": {
-        "Florida Atlantic Owls": 5.7,
-        "Navy Midshipmen": -5.7
+        "Florida Atlantic Owls": 5.5,
+        "Navy Midshipmen": -5.5
       },
-      "total": 59.2,
+      "total": 59.0,
       "num_bookmakers": 9
     },
     "prediction": null,
@@ -36305,10 +36305,10 @@
         "LSU Tigers": -25000
       },
       "spread": {
-        "Louisiana Tech Bulldogs": 34.7,
-        "LSU Tigers": -34.7
+        "Louisiana Tech Bulldogs": 34.5,
+        "LSU Tigers": -34.5
       },
-      "total": 55.6,
+      "total": 55.5,
       "num_bookmakers": 9
     },
     "prediction": null,
@@ -36330,10 +36330,10 @@
         "Southern Mississippi Golden Eagles": 2800
       },
       "spread": {
-        "Auburn Tigers": -32.6,
-        "Southern Mississippi Golden Eagles": 32.6
+        "Auburn Tigers": -32.5,
+        "Southern Mississippi Golden Eagles": 32.5
       },
-      "total": 53.7,
+      "total": 53.5,
       "num_bookmakers": 9
     },
     "prediction": null,
@@ -36380,7 +36380,7 @@
         "Air Force Falcons": 3.0,
         "North Dakota State Bison": -3.0
       },
-      "total": 47.1,
+      "total": 47.0,
       "num_bookmakers": 8
     },
     "prediction": null,
@@ -36405,7 +36405,7 @@
         "Fresno State Bulldogs": -18.5,
         "Sacramento State Hornets": 18.5
       },
-      "total": 45.3,
+      "total": 45.5,
       "num_bookmakers": 9
     },
     "prediction": null,
@@ -36427,10 +36427,10 @@
         "USC Trojans": -9423
       },
       "spread": {
-        "Louisiana Ragin Cajuns": 30.8,
-        "USC Trojans": -30.8
+        "Louisiana Ragin Cajuns": 31.0,
+        "USC Trojans": -31.0
       },
-      "total": 60.3,
+      "total": 60.5,
       "num_bookmakers": 9
     },
     "prediction": null,
@@ -36477,8 +36477,8 @@
         "Minnesota Twins": 128
       },
       "spread": {
-        "Chicago White Sox": -1.4,
-        "Minnesota Twins": 1.4
+        "Chicago White Sox": -1.5,
+        "Minnesota Twins": 1.5
       },
       "total": 8.0,
       "num_bookmakers": 9
@@ -36505,7 +36505,7 @@
         "Los Angeles Dodgers": -1.5,
         "Washington Nationals": 1.5
       },
-      "total": 8.2,
+      "total": 8.0,
       "num_bookmakers": 9
     },
     "prediction": {
@@ -36561,7 +36561,7 @@
           "Los Angeles Dodgers": -1.5,
           "Washington Nationals": 1.5
         },
-        "total": 8.2,
+        "total": 8.0,
         "num_bookmakers": 9
       }
     },
@@ -36682,10 +36682,10 @@
         "New York Mets": 0
       },
       "spread": {
-        "Miami Marlins": 0.9,
-        "New York Mets": -0.9
+        "Miami Marlins": 1.0,
+        "New York Mets": -1.0
       },
-      "total": 7.7,
+      "total": 7.5,
       "num_bookmakers": 8
     },
     "prediction": {
@@ -36741,10 +36741,10 @@
           "New York Mets": 0
         },
         "spread": {
-          "Miami Marlins": 0.9,
-          "New York Mets": -0.9
+          "Miami Marlins": 1.0,
+          "New York Mets": -1.0
         },
-        "total": 7.7,
+        "total": 7.5,
         "num_bookmakers": 8
       }
     },
@@ -36766,10 +36766,10 @@
         "Cleveland Guardians": 106
       },
       "spread": {
-        "Baltimore Orioles": 0.3,
-        "Cleveland Guardians": -0.3
+        "Baltimore Orioles": 0.5,
+        "Cleveland Guardians": -0.5
       },
-      "total": 8.3,
+      "total": 8.5,
       "num_bookmakers": 8
     },
     "prediction": {
@@ -36830,10 +36830,10 @@
           "Cleveland Guardians": 106
         },
         "spread": {
-          "Baltimore Orioles": 0.3,
-          "Cleveland Guardians": -0.3
+          "Baltimore Orioles": 0.5,
+          "Cleveland Guardians": -0.5
         },
-        "total": 8.3,
+        "total": 8.5,
         "num_bookmakers": 8
       }
     },
@@ -36945,10 +36945,10 @@
         "Milwaukee Brewers": -126
       },
       "spread": {
-        "Chicago Cubs": -0.4,
-        "Milwaukee Brewers": 0.4
+        "Chicago Cubs": -0.5,
+        "Milwaukee Brewers": 0.5
       },
-      "total": 8.4,
+      "total": 8.5,
       "num_bookmakers": 8
     },
     "prediction": {
@@ -37004,10 +37004,10 @@
           "Milwaukee Brewers": -126
         },
         "spread": {
-          "Chicago Cubs": -0.4,
-          "Milwaukee Brewers": 0.4
+          "Chicago Cubs": -0.5,
+          "Milwaukee Brewers": 0.5
         },
-        "total": 8.4,
+        "total": 8.5,
         "num_bookmakers": 8
       }
     },
@@ -37029,8 +37029,8 @@
         "St. Louis Cardinals": 119
       },
       "spread": {
-        "San Francisco Giants": -1.3,
-        "St. Louis Cardinals": 1.3
+        "San Francisco Giants": -1.5,
+        "St. Louis Cardinals": 1.5
       },
       "total": 7.5,
       "num_bookmakers": 3
@@ -37087,8 +37087,8 @@
           "St. Louis Cardinals": 119
         },
         "spread": {
-          "San Francisco Giants": -1.3,
-          "St. Louis Cardinals": 1.3
+          "San Francisco Giants": -1.5,
+          "St. Louis Cardinals": 1.5
         },
         "total": 7.5,
         "num_bookmakers": 3
@@ -37439,8 +37439,8 @@
         "Miami (OH) RedHawks": -10000
       },
       "spread": {
-        "Holy Cross Crusaders": 32.2,
-        "Miami (OH) RedHawks": -32.2
+        "Holy Cross Crusaders": 32.0,
+        "Miami (OH) RedHawks": -32.0
       },
       "total": 51.5,
       "num_bookmakers": 2
@@ -37511,8 +37511,8 @@
         "Weber State Wildcats": 2500
       },
       "spread": {
-        "Colorado Buffaloes": -34.2,
-        "Weber State Wildcats": 34.2
+        "Colorado Buffaloes": -34.0,
+        "Weber State Wildcats": 34.0
       },
       "total": 52.5,
       "num_bookmakers": 2
@@ -37652,8 +37652,8 @@
     "odds": {
       "moneyline": {},
       "spread": {
-        "Campbell Fighting Camels": 49.2,
-        "Florida Gators": -49.2
+        "Campbell Fighting Camels": 49.0,
+        "Florida Gators": -49.0
       },
       "total": 66.5,
       "num_bookmakers": 2
@@ -37680,7 +37680,7 @@
         "Gardner-Webb Runnin Bulldogs": 27.5,
         "Liberty Flames": -27.5
       },
-      "total": 54.8,
+      "total": 55.0,
       "num_bookmakers": 2
     },
     "prediction": null,
@@ -37962,10 +37962,10 @@
         "Kansas City Royals": -110
       },
       "spread": {
-        "Arizona Diamondbacks": -0.2,
-        "Kansas City Royals": 0.2
+        "Arizona Diamondbacks": 0.0,
+        "Kansas City Royals": 0.0
       },
-      "total": 9.1,
+      "total": 9.0,
       "num_bookmakers": 9
     },
     "prediction": {
@@ -38020,10 +38020,10 @@
           "Kansas City Royals": -110
         },
         "spread": {
-          "Arizona Diamondbacks": -0.2,
-          "Kansas City Royals": 0.2
+          "Arizona Diamondbacks": 0.0,
+          "Kansas City Royals": 0.0
         },
-        "total": 9.1,
+        "total": 9.0,
         "num_bookmakers": 9
       }
     },
@@ -38045,10 +38045,10 @@
         "Minnesota Twins": 80
       },
       "spread": {
-        "Detroit Tigers": 0.2,
-        "Minnesota Twins": -0.2
+        "Detroit Tigers": 0.0,
+        "Minnesota Twins": 0.0
       },
-      "total": 7.8,
+      "total": 8.0,
       "num_bookmakers": 9
     },
     "prediction": null,

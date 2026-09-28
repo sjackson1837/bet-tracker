@@ -16,6 +16,13 @@ from games_store import load_games, save_games, upsert_scheduled
 BASE_URL = "https://api.the-odds-api.com/v4/sports/{sport}/odds"
 
 
+def round_to_half(value):
+    """Sportsbook lines only ever land on whole or half points (e.g. 3.5, 44.0),
+    never something like 3.3 -- round the consensus average to the nearest 0.5
+    so it looks like a real line instead of a raw mean."""
+    return round(value * 2) / 2
+
+
 def consensus_line(bookmakers):
     """Average moneyline/spread/total across all reporting bookmakers so one
     sportsbook's outlier line doesn't skew the prediction."""
@@ -38,8 +45,8 @@ def consensus_line(bookmakers):
 
     return {
         "moneyline": {team: round(mean(prices)) for team, prices in h2h_prices.items()},
-        "spread": {team: round(mean(pts), 1) for team, pts in spreads.items()},
-        "total": round(mean(totals), 1) if totals else None,
+        "spread": {team: round_to_half(mean(pts)) for team, pts in spreads.items()},
+        "total": round_to_half(mean(totals)) if totals else None,
         "num_bookmakers": len(bookmakers),
     }
 

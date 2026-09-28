@@ -49,9 +49,6 @@ main { flex: 1; min-width: 0; padding: 24px 20px 60px; }
 .pick-row { display: flex; align-items: center; gap: 10px; margin-bottom: 8px; flex-wrap: wrap; }
 .pick { font-weight: 600; color: var(--accent); }
 .confidence { background: rgba(79,140,255,0.15); color: var(--accent); padding: 2px 9px; border-radius: 20px; font-size: 0.8rem; }
-.factors { list-style: none; padding: 0; margin: 8px 0 0; display: flex; flex-wrap: wrap; gap: 6px; }
-.factors li { background: #1f2430; border: 1px solid var(--border); border-radius: 6px; padding: 3px 9px; font-size: 0.78rem; color: var(--muted); }
-.reasoning { margin-top: 10px; font-size: 0.88rem; color: var(--muted); line-height: 1.4; }
 .empty { color: var(--muted); font-style: italic; padding: 30px 0; text-align: center; }
 .stats-row { display: flex; gap: 12px; margin-bottom: 28px; flex-wrap: wrap; }
 .stat-box { background: var(--card); border: 1px solid var(--border); border-radius: 10px; padding: 16px 22px; min-width: 140px; }
@@ -475,7 +472,6 @@ def render_game_card(g, tz_name):
 
     pick_toggle = render_pick_toggle(gid, g.get("user_selected", False))
 
-    factors = "".join(f"<li>{f}</li>" for f in pred.get("key_factors", []))
     return f"""<div class="card">
   <div class="matchup">{g['away_team']} @ {g['home_team']}{badge}</div>
   <div class="meta">{when}</div>
@@ -485,8 +481,6 @@ def render_game_card(g, tz_name):
     <span class="confidence">{pred.get('confidence')}% confidence</span>
   </div>
   <div class="pick-row"><span>Against the spread:</span> <span class="pick">{pred.get('predicted_against_spread')}</span></div>
-  <ul class="factors">{factors}</ul>
-  <div class="reasoning">{pred.get('reasoning', '')}</div>
   {pick_toggle}
 </div>"""
 
