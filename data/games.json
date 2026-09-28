@@ -17277,7 +17277,7 @@
     "espn_sport": "football",
     "espn_league": "college-football",
     "outdoor": true,
-    "status": "scheduled",
+    "status": "predicted",
     "odds": {
       "moneyline": {
         "Clemson Tigers": 260,
@@ -17290,7 +17290,52 @@
       "total": 55.5,
       "num_bookmakers": 1
     },
-    "prediction": null,
+    "prediction": {
+      "predicted_winner": "Miami Hurricanes",
+      "predicted_against_spread": "Clemson Tigers",
+      "confidence": 52,
+      "key_factors": [
+        "No trend/form data provided for either team",
+        "Market favors Miami by 7, implying rough parity in quality",
+        "Lack of situational data (injuries, momentum) forces reliance on market pricing"
+      ],
+      "reasoning": "With no last5, streak, or head-to-head data supplied for either Miami or Clemson, there's little independent signal to lean on beyond the market line itself. The market installs Miami as a solid but not overwhelming favorite (-7), suggesting a competitive game; historically ACC road favorites in this range often fail to cover full margin against a home ACC rival. Given the data void, confidence in either side is low, but I lean toward Clemson keeping it within the number at home.",
+      "context_used": {
+        "away_trends": {
+          "team": "Miami Hurricanes",
+          "last5": null,
+          "streak": null,
+          "record": null,
+          "h2h_vs_opponent": null
+        },
+        "home_trends": {
+          "team": "Clemson Tigers",
+          "last5": null,
+          "streak": null,
+          "record": null,
+          "h2h_vs_opponent": null
+        },
+        "weather": null,
+        "probable_pitchers": {
+          "home": null,
+          "away": null
+        }
+      },
+      "generated_at": "2026-09-28T18:40:14.502856+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "Clemson Tigers": 260,
+          "Miami Hurricanes": -325
+        },
+        "spread": {
+          "Clemson Tigers": 7.0,
+          "Miami Hurricanes": -7.0
+        },
+        "total": 55.5,
+        "num_bookmakers": 1
+      }
+    },
     "actual": null
   },
   "americanfootball_ncaaf_2026-10-03_notre-dame-fighting-irish_at_north-carolina-tar-heels": {
@@ -17302,7 +17347,7 @@
     "espn_sport": "football",
     "espn_league": "college-football",
     "outdoor": true,
-    "status": "scheduled",
+    "status": "predicted",
     "odds": {
       "moneyline": {
         "North Carolina Tar Heels": 1090,
@@ -17315,7 +17360,52 @@
       "total": 55.5,
       "num_bookmakers": 2
     },
-    "prediction": null,
+    "prediction": {
+      "predicted_winner": "Notre Dame Fighting Irish",
+      "predicted_against_spread": "North Carolina Tar Heels",
+      "confidence": 58,
+      "key_factors": [
+        "Massive moneyline gap (-2715 vs +1090) implies a large talent disparity",
+        "24.5-point spread is extreme, historically hard for big favorites to cover consistently",
+        "No specific trend data provided to confirm current form for either team"
+      ],
+      "reasoning": "The market prices Notre Dame as an overwhelming favorite, which likely reflects a real and significant talent gap over North Carolina, so Notre Dame should win comfortably. However, without last5, streak, or situational data, covering a 24.5-point spread is inherently unpredictable \u2014 large favorites frequently ease off or face backdoor cover situations, especially on the road. I'll take North Carolina against the spread as a hedge against garbage-time/backdoor cover risk while still expecting a clear Notre Dame win.",
+      "context_used": {
+        "away_trends": {
+          "team": "Notre Dame Fighting Irish",
+          "last5": null,
+          "streak": null,
+          "record": null,
+          "h2h_vs_opponent": null
+        },
+        "home_trends": {
+          "team": "North Carolina Tar Heels",
+          "last5": null,
+          "streak": null,
+          "record": null,
+          "h2h_vs_opponent": null
+        },
+        "weather": null,
+        "probable_pitchers": {
+          "home": null,
+          "away": null
+        }
+      },
+      "generated_at": "2026-09-28T18:40:14.502856+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "North Carolina Tar Heels": 1090,
+          "Notre Dame Fighting Irish": -2715
+        },
+        "spread": {
+          "North Carolina Tar Heels": 24.5,
+          "Notre Dame Fighting Irish": -24.5
+        },
+        "total": 55.5,
+        "num_bookmakers": 2
+      }
+    },
     "actual": null
   },
   "americanfootball_ncaaf_2026-10-10_georgia-bulldogs_at_alabama-crimson-tide": {
