@@ -3603,7 +3603,7 @@
     "espn_sport": "football",
     "espn_league": "nfl",
     "outdoor": true,
-    "status": "scheduled",
+    "status": "predicted",
     "odds": {
       "moneyline": {
         "Indianapolis Colts": -109,
@@ -3616,7 +3616,58 @@
       "total": 49.5,
       "num_bookmakers": 3
     },
-    "prediction": null,
+    "prediction": {
+      "predicted_winner": "Washington Commanders",
+      "predicted_against_spread": "Washington Commanders",
+      "confidence": 52,
+      "key_factors": [
+        "Both teams identical 1-2 record and W1 streak",
+        "Near pick'em line (-0.5) reflects genuine parity",
+        "Home field edge for Washington",
+        "Rainy, mild weather could favor ground-based control"
+      ],
+      "reasoning": "Both teams enter with identical 1-2 records and one-game winning streaks, showing no clear form edge. With the spread essentially a pick'em (-0.5), the marginal home-field advantage tips this slightly toward Washington. Wet conditions (0.83in precipitation) could slightly limit big passing plays, favoring the home team's field familiarity, but overall this is close to a coin flip given sparse differentiating data.",
+      "context_used": {
+        "away_trends": {
+          "team": "Indianapolis Colts",
+          "last5": "1-2",
+          "streak": "W1",
+          "record": "1-2",
+          "h2h_vs_opponent": null
+        },
+        "home_trends": {
+          "team": "Washington Commanders",
+          "last5": "1-2",
+          "streak": "W1",
+          "record": "1-2",
+          "h2h_vs_opponent": null
+        },
+        "weather": {
+          "high_f": 62.5,
+          "low_f": 58.1,
+          "precipitation_in": 0.827,
+          "wind_mph": 6.7
+        },
+        "probable_pitchers": {
+          "home": null,
+          "away": null
+        }
+      },
+      "generated_at": "2026-09-29T16:56:50.032012+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "Indianapolis Colts": -109,
+          "Washington Commanders": -110
+        },
+        "spread": {
+          "Indianapolis Colts": 0.5,
+          "Washington Commanders": -0.5
+        },
+        "total": 49.5,
+        "num_bookmakers": 3
+      }
+    },
     "actual": null
   },
   "americanfootball_nfl_2026-10-04_arizona-cardinals_at_new-york-giants": {

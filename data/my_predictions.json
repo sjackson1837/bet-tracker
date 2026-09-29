@@ -1,24 +1,14 @@
 {
-  "americanfootball_ncaaf_2026-10-03_miami-hurricanes_at_clemson-tigers": {
-    "predicted_winner": "Miami Hurricanes",
-    "predicted_against_spread": "Clemson Tigers",
+  "americanfootball_nfl_2026-10-04_indianapolis-colts_at_washington-commanders": {
+    "predicted_winner": "Washington Commanders",
+    "predicted_against_spread": "Washington Commanders",
     "confidence": 52,
     "key_factors": [
-      "No trend/form data provided for either team",
-      "Market favors Miami by 7, implying rough parity in quality",
-      "Lack of situational data (injuries, momentum) forces reliance on market pricing"
+      "Both teams identical 1-2 record and W1 streak",
+      "Near pick'em line (-0.5) reflects genuine parity",
+      "Home field edge for Washington",
+      "Rainy, mild weather could favor ground-based control"
     ],
-    "reasoning": "With no last5, streak, or head-to-head data supplied for either Miami or Clemson, there's little independent signal to lean on beyond the market line itself. The market installs Miami as a solid but not overwhelming favorite (-7), suggesting a competitive game; historically ACC road favorites in this range often fail to cover full margin against a home ACC rival. Given the data void, confidence in either side is low, but I lean toward Clemson keeping it within the number at home."
-  },
-  "americanfootball_ncaaf_2026-10-03_notre-dame-fighting-irish_at_north-carolina-tar-heels": {
-    "predicted_winner": "Notre Dame Fighting Irish",
-    "predicted_against_spread": "North Carolina Tar Heels",
-    "confidence": 58,
-    "key_factors": [
-      "Massive moneyline gap (-2715 vs +1090) implies a large talent disparity",
-      "24.5-point spread is extreme, historically hard for big favorites to cover consistently",
-      "No specific trend data provided to confirm current form for either team"
-    ],
-    "reasoning": "The market prices Notre Dame as an overwhelming favorite, which likely reflects a real and significant talent gap over North Carolina, so Notre Dame should win comfortably. However, without last5, streak, or situational data, covering a 24.5-point spread is inherently unpredictable \u2014 large favorites frequently ease off or face backdoor cover situations, especially on the road. I'll take North Carolina against the spread as a hedge against garbage-time/backdoor cover risk while still expecting a clear Notre Dame win."
+    "reasoning": "Both teams enter with identical 1-2 records and one-game winning streaks, showing no clear form edge. With the spread essentially a pick'em (-0.5), the marginal home-field advantage tips this slightly toward Washington. Wet conditions (0.83in precipitation) could slightly limit big passing plays, favoring the home team's field familiarity, but overall this is close to a coin flip given sparse differentiating data."
   }
 }

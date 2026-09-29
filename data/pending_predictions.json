@@ -1,75 +1,43 @@
 {
   "instructions": "For each game below, act as a sharp, disciplined sports betting analyst. Do NOT simply pick whichever side the betting market favors -- weigh the actual trend data provided (recent form, streaks, head-to-head history, starting pitcher matchups where given, and weather where relevant) and form an independent judgment. It's fine, and expected, to disagree with the market when the trends support it. If trend data is sparse for a game, say so and let that lower your confidence rather than defaulting to the favorite. For each game_id, produce: predicted_winner (exact team name), predicted_against_spread (exact team name), confidence (integer 1-100), key_factors (2-4 short strings), and reasoning (2-4 sentences referencing the specific trend data given).",
   "games": {
-    "americanfootball_ncaaf_2026-10-03_miami-hurricanes_at_clemson-tigers": {
-      "league": "NCAAF",
-      "away_team": "Miami Hurricanes",
-      "home_team": "Clemson Tigers",
-      "commence_time": "2026-10-03T16:00:00Z",
+    "americanfootball_nfl_2026-10-04_indianapolis-colts_at_washington-commanders": {
+      "league": "NFL",
+      "away_team": "Indianapolis Colts",
+      "home_team": "Washington Commanders",
+      "commence_time": "2026-10-04T13:30:00Z",
       "market_line": {
         "moneyline": {
-          "Clemson Tigers": 260,
-          "Miami Hurricanes": -325
+          "Indianapolis Colts": -109,
+          "Washington Commanders": -110
         },
         "spread": {
-          "Clemson Tigers": 7.0,
-          "Miami Hurricanes": -7.0
+          "Indianapolis Colts": 0.5,
+          "Washington Commanders": -0.5
         },
-        "total": 55.5,
-        "num_bookmakers": 1
+        "total": 49.5,
+        "num_bookmakers": 3
       },
       "away_team_trends": {
-        "team": "Miami Hurricanes",
-        "last5": null,
-        "streak": null,
-        "record": null,
+        "team": "Indianapolis Colts",
+        "last5": "1-2",
+        "streak": "W1",
+        "record": "1-2",
         "h2h_vs_opponent": null
       },
       "home_team_trends": {
-        "team": "Clemson Tigers",
-        "last5": null,
-        "streak": null,
-        "record": null,
+        "team": "Washington Commanders",
+        "last5": "1-2",
+        "streak": "W1",
+        "record": "1-2",
         "h2h_vs_opponent": null
       },
-      "weather_at_kickoff": null,
-      "probable_pitchers": {
-        "home": null,
-        "away": null
-      }
-    },
-    "americanfootball_ncaaf_2026-10-03_notre-dame-fighting-irish_at_north-carolina-tar-heels": {
-      "league": "NCAAF",
-      "away_team": "Notre Dame Fighting Irish",
-      "home_team": "North Carolina Tar Heels",
-      "commence_time": "2026-10-03T16:00:00Z",
-      "market_line": {
-        "moneyline": {
-          "North Carolina Tar Heels": 1090,
-          "Notre Dame Fighting Irish": -2715
-        },
-        "spread": {
-          "North Carolina Tar Heels": 24.5,
-          "Notre Dame Fighting Irish": -24.5
-        },
-        "total": 55.5,
-        "num_bookmakers": 2
+      "weather_at_kickoff": {
+        "high_f": 62.5,
+        "low_f": 58.1,
+        "precipitation_in": 0.827,
+        "wind_mph": 6.7
       },
-      "away_team_trends": {
-        "team": "Notre Dame Fighting Irish",
-        "last5": null,
-        "streak": null,
-        "record": null,
-        "h2h_vs_opponent": null
-      },
-      "home_team_trends": {
-        "team": "North Carolina Tar Heels",
-        "last5": null,
-        "streak": null,
-        "record": null,
-        "h2h_vs_opponent": null
-      },
-      "weather_at_kickoff": null,
       "probable_pitchers": {
         "home": null,
         "away": null
