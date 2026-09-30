@@ -1,14 +1,147 @@
 {
-  "americanfootball_nfl_2026-10-04_indianapolis-colts_at_washington-commanders": {
-    "predicted_winner": "Washington Commanders",
-    "predicted_against_spread": "Washington Commanders",
+  "americanfootball_nfl_2026-10-04_arizona-cardinals_at_new-york-giants": {
+    "predicted_winner": "New York Giants",
+    "predicted_against_spread": "Arizona Cardinals",
+    "confidence": 58,
+    "key_factors": [
+      "Giants on W1 with 2-1 last5 vs Cardinals L2",
+      "Cardinals getting 7 points is a lot for a division-rival-level gap",
+      "Mild weather, no major factor"
+    ],
+    "reasoning": "Giants have the better recent form (2-1 last5, W1 streak) compared to Arizona's 1-2 last5 and L2 skid, supporting a Giants win. However, a 7-point spread is large for two teams with similar overall records, so Arizona has value to keep it closer against the spread."
+  },
+  "americanfootball_nfl_2026-10-04_tennessee-titans_at_baltimore-ravens": {
+    "predicted_winner": "Baltimore Ravens",
+    "predicted_against_spread": "Baltimore Ravens",
+    "confidence": 74,
+    "key_factors": [
+      "Titans winless and on L3 skid",
+      "Ravens 2-1 with W1 momentum",
+      "Large moneyline gap reflects real talent/form disparity"
+    ],
+    "reasoning": "Tennessee is 0-3 and losing badly enough to be a massive underdog, while Baltimore is trending upward with a win streak. The form disparity strongly favors Baltimore covering even a large spread against a struggling Titans squad.",
+    "note": ""
+  },
+  "americanfootball_nfl_2026-10-04_new-england-patriots_at_buffalo-bills": {
+    "predicted_winner": "Buffalo Bills",
+    "predicted_against_spread": "Buffalo Bills",
+    "confidence": 72,
+    "key_factors": [
+      "Bills undefeated 3-0 and on W3 streak",
+      "Patriots 1-2 and on L1",
+      "Home field plus momentum favors Buffalo covering"
+    ],
+    "reasoning": "Buffalo's perfect 3-0 record and three-game win streak contrasts sharply with New England's 1-2 mark and recent loss. The Bills' home-field advantage and superior form make them a strong side to both win and cover."
+  },
+  "americanfootball_nfl_2026-10-04_new-york-jets_at_chicago-bears": {
+    "predicted_winner": "Chicago Bears",
+    "predicted_against_spread": "New York Jets",
+    "confidence": 60,
+    "key_factors": [
+      "Bears 2-1 with W1 vs Jets 1-2 with L2",
+      "Large 8.5 spread despite modest record gap",
+      "Jets could keep it within margin"
+    ],
+    "reasoning": "Chicago's better recent form (W1, 2-1) supports them as favorites over a Jets team on a two-game skid, but an 8.5-point spread seems excessive given both teams have modest overall records. Expect Jets to cover even in a loss."
+  },
+  "americanfootball_nfl_2026-10-04_jacksonville-jaguars_at_cincinnati-bengals": {
+    "predicted_winner": "Jacksonville Jaguars",
+    "predicted_against_spread": "Jacksonville Jaguars",
+    "confidence": 56,
+    "key_factors": [
+      "Jaguars on W1 streak vs Bengals L1",
+      "Both teams 2-1 overall - close matchup",
+      "High total suggests competitive, high-scoring game"
+    ],
+    "reasoning": "Jacksonville enters with positive momentum (W1) while Cincinnati is coming off a loss (L1), despite identical 2-1 records. The Jaguars' better recent trajectory gives them a slight edge to win outright as underdogs and cover the small spread."
+  },
+  "americanfootball_nfl_2026-10-04_dallas-cowboys_at_houston-texans": {
+    "predicted_winner": "Dallas Cowboys",
+    "predicted_against_spread": "Dallas Cowboys",
+    "confidence": 64,
+    "key_factors": [
+      "Texans winless 0-3 on L3 skid",
+      "Cowboys 1-2 but favored as road underdog on moneyline",
+      "Form strongly favors Dallas despite market odds"
+    ],
+    "reasoning": "Houston is 0-3 and mired in a three-game losing streak, while Dallas, though 1-2, has shown more competitiveness. The market actually has Dallas as a slight favorite on moneyline despite being listed as road team with plus points, aligning with the form disparity favoring Dallas."
+  },
+  "americanfootball_nfl_2026-10-04_green-bay-packers_at_tampa-bay-buccaneers": {
+    "predicted_winner": "Green Bay Packers",
+    "predicted_against_spread": "Green Bay Packers",
+    "confidence": 61,
+    "key_factors": [
+      "Buccaneers 0-3 and on L3 skid",
+      "Packers 1-2 but more competitive recently",
+      "Heavy rain/heat could favor more disciplined offense"
+    ],
+    "reasoning": "Tampa Bay's winless start and three-game losing streak stands in contrast to Green Bay's 1-2 record, suggesting the Packers have been more competitive. Wet weather (0.4in precipitation) could lead to a grind-it-out game, favoring the team with better recent execution.",
+    "note": ""
+  },
+  "americanfootball_nfl_2026-10-04_los-angeles-rams_at_philadelphia-eagles": {
+    "predicted_winner": "Philadelphia Eagles",
+    "predicted_against_spread": "Philadelphia Eagles",
+    "confidence": 54,
+    "key_factors": [
+      "Eagles 2-1 vs Rams 1-2 despite both on L1",
+      "Home underdog getting points",
+      "Close spread reflects genuine uncertainty"
+    ],
+    "reasoning": "Philadelphia has the better overall record (2-1 vs 1-2) despite both teams being on a one-game losing streak, and getting home-field plus 1.5 points makes them attractive. This is a close matchup with modest signal strength, so confidence is limited."
+  },
+  "americanfootball_nfl_2026-10-04_miami-dolphins_at_minnesota-vikings": {
+    "predicted_winner": "Minnesota Vikings",
+    "predicted_against_spread": "Minnesota Vikings",
+    "confidence": 80,
+    "key_factors": [
+      "Vikings 3-0 on W3 vs Dolphins 0-3 on L3",
+      "Stark form disparity across the board",
+      "Large moneyline gap justified by trends"
+    ],
+    "reasoning": "Minnesota is a perfect 3-0 riding a three-game win streak, while Miami is winless at 0-3 on a three-game skid, creating one of the clearest form disparities in this slate. This strongly supports the Vikings not just winning but covering the 7.5-point spread."
+  },
+  "americanfootball_nfl_2026-10-04_denver-broncos_at_san-francisco-49ers": {
+    "predicted_winner": "San Francisco 49ers",
+    "predicted_against_spread": "Denver Broncos",
+    "confidence": 58,
+    "key_factors": [
+      "49ers perfect 3-0 vs Broncos 2-1",
+      "Both teams have winning streaks (W3 vs W2)",
+      "Small spread reflects close talent level"
+    ],
+    "reasoning": "San Francisco's 3-0 record edges out Denver's 2-1, but both teams are playing well with active win streaks, making this a competitive matchup. The Broncos' own strong recent form (W2) gives them a good chance to keep this within the small 2.5-point margin."
+  },
+  "americanfootball_nfl_2026-10-04_kansas-city-chiefs_at_las-vegas-raiders": {
+    "predicted_winner": "Kansas City Chiefs",
+    "predicted_against_spread": "Las Vegas Raiders",
     "confidence": 52,
     "key_factors": [
-      "Both teams identical 1-2 record and W1 streak",
-      "Near pick'em line (-0.5) reflects genuine parity",
-      "Home field edge for Washington",
-      "Rainy, mild weather could favor ground-based control"
+      "Both teams 3-0 on W3 streaks - elite form parity",
+      "Chiefs favored by 5.5 despite equal records",
+      "Raiders at home could keep it close"
     ],
-    "reasoning": "Both teams enter with identical 1-2 records and one-game winning streaks, showing no clear form edge. With the spread essentially a pick'em (-0.5), the marginal home-field advantage tips this slightly toward Washington. Wet conditions (0.83in precipitation) could slightly limit big passing plays, favoring the home team's field familiarity, but overall this is close to a coin flip given sparse differentiating data."
+    "reasoning": "Both Kansas City and Las Vegas enter this game undefeated at 3-0 with active three-game win streaks, indicating remarkably similar recent form. Given this parity, the 5.5-point spread favoring Kansas City seems too large, making the Raiders attractive to cover at home despite likely losing outright to the more historically dominant Chiefs."
+  },
+  "americanfootball_nfl_2026-10-04_los-angeles-chargers_at_seattle-seahawks": {
+    "predicted_winner": "Seattle Seahawks",
+    "predicted_against_spread": "Seattle Seahawks",
+    "confidence": 68,
+    "key_factors": [
+      "Chargers winless 0-3 on L3 skid",
+      "Seahawks 2-1 despite L1",
+      "Clear form advantage for Seattle"
+    ],
+    "reasoning": "Los Angeles is struggling badly at 0-3 with a three-game losing streak, while Seattle maintains a winning 2-1 record even with a recent loss. This form gap supports Seattle covering the moderate 3-point spread at home."
+  },
+  "americanfootball_nfl_2026-10-05_detroit-lions_at_carolina-panthers": {
+    "predicted_winner": "Detroit Lions",
+    "predicted_against_spread": "Detroit Lions",
+    "confidence": 63,
+    "key_factors": [
+      "Lions 2-1 on W1 vs Panthers 1-2 on L1",
+      "Detroit's superior recent form and record",
+      "Moderate 3-point spread aligns with true talent gap"
+    ],
+    "reasoning": "Detroit enters with better form across the board - a winning 2-1 record and current win streak versus Carolina's 1-2 record and one-game skid. The Lions' momentum and overall quality support both a win and a cover of the 3-point spread."
   }
 }

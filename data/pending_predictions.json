@@ -1,43 +1,517 @@
 {
   "instructions": "For each game below, act as a sharp, disciplined sports betting analyst. Do NOT simply pick whichever side the betting market favors -- weigh the actual trend data provided (recent form, streaks, head-to-head history, starting pitcher matchups where given, and weather where relevant) and form an independent judgment. It's fine, and expected, to disagree with the market when the trends support it. If trend data is sparse for a game, say so and let that lower your confidence rather than defaulting to the favorite. For each game_id, produce: predicted_winner (exact team name), predicted_against_spread (exact team name), confidence (integer 1-100), key_factors (2-4 short strings), and reasoning (2-4 sentences referencing the specific trend data given).",
   "games": {
-    "americanfootball_nfl_2026-10-04_indianapolis-colts_at_washington-commanders": {
+    "americanfootball_nfl_2026-10-04_arizona-cardinals_at_new-york-giants": {
       "league": "NFL",
-      "away_team": "Indianapolis Colts",
-      "home_team": "Washington Commanders",
-      "commence_time": "2026-10-04T13:30:00Z",
+      "away_team": "Arizona Cardinals",
+      "home_team": "New York Giants",
+      "commence_time": "2026-10-04T17:00:00Z",
       "market_line": {
         "moneyline": {
-          "Indianapolis Colts": -109,
-          "Washington Commanders": -110
+          "Arizona Cardinals": 260,
+          "New York Giants": -325
         },
         "spread": {
-          "Indianapolis Colts": 0.5,
-          "Washington Commanders": -0.5
+          "Arizona Cardinals": 7.0,
+          "New York Giants": -7.0
         },
-        "total": 49.5,
-        "num_bookmakers": 3
+        "total": 45.5,
+        "num_bookmakers": 2
       },
       "away_team_trends": {
-        "team": "Indianapolis Colts",
+        "team": "Arizona Cardinals",
         "last5": "1-2",
-        "streak": "W1",
+        "streak": "L2",
         "record": "1-2",
         "h2h_vs_opponent": null
       },
       "home_team_trends": {
-        "team": "Washington Commanders",
-        "last5": "1-2",
+        "team": "New York Giants",
+        "last5": "2-1",
         "streak": "W1",
-        "record": "1-2",
+        "record": "2-1",
         "h2h_vs_opponent": null
       },
       "weather_at_kickoff": {
-        "high_f": 62.5,
-        "low_f": 58.1,
-        "precipitation_in": 0.827,
-        "wind_mph": 6.7
+        "high_f": 70.0,
+        "low_f": 57.7,
+        "precipitation_in": 0.0,
+        "wind_mph": 9.6
       },
+      "probable_pitchers": {
+        "home": null,
+        "away": null
+      }
+    },
+    "americanfootball_nfl_2026-10-04_tennessee-titans_at_baltimore-ravens": {
+      "league": "NFL",
+      "away_team": "Tennessee Titans",
+      "home_team": "Baltimore Ravens",
+      "commence_time": "2026-10-04T17:00:00Z",
+      "market_line": {
+        "moneyline": {
+          "Baltimore Ravens": -395,
+          "Tennessee Titans": 310
+        },
+        "spread": {
+          "Baltimore Ravens": -8.5,
+          "Tennessee Titans": 8.5
+        },
+        "total": 47.5,
+        "num_bookmakers": 2
+      },
+      "away_team_trends": {
+        "team": "Tennessee Titans",
+        "last5": "0-3",
+        "streak": "L3",
+        "record": "0-3",
+        "h2h_vs_opponent": null
+      },
+      "home_team_trends": {
+        "team": "Baltimore Ravens",
+        "last5": "2-1",
+        "streak": "W1",
+        "record": "2-1",
+        "h2h_vs_opponent": null
+      },
+      "weather_at_kickoff": {
+        "high_f": 66.4,
+        "low_f": 59.2,
+        "precipitation_in": 0.051,
+        "wind_mph": 6.0
+      },
+      "probable_pitchers": {
+        "home": null,
+        "away": null
+      }
+    },
+    "americanfootball_nfl_2026-10-04_new-england-patriots_at_buffalo-bills": {
+      "league": "NFL",
+      "away_team": "New England Patriots",
+      "home_team": "Buffalo Bills",
+      "commence_time": "2026-10-04T17:00:00Z",
+      "market_line": {
+        "moneyline": {
+          "Buffalo Bills": -162,
+          "New England Patriots": 136
+        },
+        "spread": {
+          "Buffalo Bills": -3.0,
+          "New England Patriots": 3.0
+        },
+        "total": 49.5,
+        "num_bookmakers": 1
+      },
+      "away_team_trends": {
+        "team": "New England Patriots",
+        "last5": "1-2",
+        "streak": "L1",
+        "record": "1-2",
+        "h2h_vs_opponent": null
+      },
+      "home_team_trends": {
+        "team": "Buffalo Bills",
+        "last5": "3-0",
+        "streak": "W3",
+        "record": "3-0",
+        "h2h_vs_opponent": null
+      },
+      "weather_at_kickoff": {
+        "high_f": 70.0,
+        "low_f": 47.0,
+        "precipitation_in": 0.0,
+        "wind_mph": 12.0
+      },
+      "probable_pitchers": {
+        "home": null,
+        "away": null
+      }
+    },
+    "americanfootball_nfl_2026-10-04_new-york-jets_at_chicago-bears": {
+      "league": "NFL",
+      "away_team": "New York Jets",
+      "home_team": "Chicago Bears",
+      "commence_time": "2026-10-04T17:00:00Z",
+      "market_line": {
+        "moneyline": {
+          "Chicago Bears": -425,
+          "New York Jets": 330
+        },
+        "spread": {
+          "Chicago Bears": -8.5,
+          "New York Jets": 8.5
+        },
+        "total": 45.5,
+        "num_bookmakers": 1
+      },
+      "away_team_trends": {
+        "team": "New York Jets",
+        "last5": "1-2",
+        "streak": "L2",
+        "record": "1-2",
+        "h2h_vs_opponent": null
+      },
+      "home_team_trends": {
+        "team": "Chicago Bears",
+        "last5": "2-1",
+        "streak": "W1",
+        "record": "2-1",
+        "h2h_vs_opponent": null
+      },
+      "weather_at_kickoff": {
+        "high_f": 69.8,
+        "low_f": 58.0,
+        "precipitation_in": 0.0,
+        "wind_mph": 13.1
+      },
+      "probable_pitchers": {
+        "home": null,
+        "away": null
+      }
+    },
+    "americanfootball_nfl_2026-10-04_jacksonville-jaguars_at_cincinnati-bengals": {
+      "league": "NFL",
+      "away_team": "Jacksonville Jaguars",
+      "home_team": "Cincinnati Bengals",
+      "commence_time": "2026-10-04T17:00:00Z",
+      "market_line": {
+        "moneyline": {
+          "Cincinnati Bengals": -135,
+          "Jacksonville Jaguars": 114
+        },
+        "spread": {
+          "Cincinnati Bengals": -2.5,
+          "Jacksonville Jaguars": 2.5
+        },
+        "total": 51.5,
+        "num_bookmakers": 2
+      },
+      "away_team_trends": {
+        "team": "Jacksonville Jaguars",
+        "last5": "2-1",
+        "streak": "W1",
+        "record": "2-1",
+        "h2h_vs_opponent": null
+      },
+      "home_team_trends": {
+        "team": "Cincinnati Bengals",
+        "last5": "2-1",
+        "streak": "L1",
+        "record": "2-1",
+        "h2h_vs_opponent": null
+      },
+      "weather_at_kickoff": {
+        "high_f": 77.6,
+        "low_f": 55.3,
+        "precipitation_in": 0.0,
+        "wind_mph": 5.6
+      },
+      "probable_pitchers": {
+        "home": null,
+        "away": null
+      }
+    },
+    "americanfootball_nfl_2026-10-04_dallas-cowboys_at_houston-texans": {
+      "league": "NFL",
+      "away_team": "Dallas Cowboys",
+      "home_team": "Houston Texans",
+      "commence_time": "2026-10-04T17:00:00Z",
+      "market_line": {
+        "moneyline": {
+          "Dallas Cowboys": 114,
+          "Houston Texans": -135
+        },
+        "spread": {
+          "Dallas Cowboys": 2.5,
+          "Houston Texans": -2.5
+        },
+        "total": 47.5,
+        "num_bookmakers": 2
+      },
+      "away_team_trends": {
+        "team": "Dallas Cowboys",
+        "last5": "1-2",
+        "streak": "L1",
+        "record": "1-2",
+        "h2h_vs_opponent": null
+      },
+      "home_team_trends": {
+        "team": "Houston Texans",
+        "last5": "0-3",
+        "streak": "L3",
+        "record": "0-3",
+        "h2h_vs_opponent": null
+      },
+      "weather_at_kickoff": null,
+      "probable_pitchers": {
+        "home": null,
+        "away": null
+      }
+    },
+    "americanfootball_nfl_2026-10-04_green-bay-packers_at_tampa-bay-buccaneers": {
+      "league": "NFL",
+      "away_team": "Green Bay Packers",
+      "home_team": "Tampa Bay Buccaneers",
+      "commence_time": "2026-10-04T17:00:00Z",
+      "market_line": {
+        "moneyline": {
+          "Green Bay Packers": -125,
+          "Tampa Bay Buccaneers": 105
+        },
+        "spread": {
+          "Green Bay Packers": -1.5,
+          "Tampa Bay Buccaneers": 1.5
+        },
+        "total": 47.5,
+        "num_bookmakers": 2
+      },
+      "away_team_trends": {
+        "team": "Green Bay Packers",
+        "last5": "1-2",
+        "streak": "L1",
+        "record": "1-2",
+        "h2h_vs_opponent": null
+      },
+      "home_team_trends": {
+        "team": "Tampa Bay Buccaneers",
+        "last5": "0-3",
+        "streak": "L3",
+        "record": "0-3",
+        "h2h_vs_opponent": null
+      },
+      "weather_at_kickoff": {
+        "high_f": 90.6,
+        "low_f": 75.3,
+        "precipitation_in": 0.402,
+        "wind_mph": 8.6
+      },
+      "probable_pitchers": {
+        "home": null,
+        "away": null
+      }
+    },
+    "americanfootball_nfl_2026-10-04_los-angeles-rams_at_philadelphia-eagles": {
+      "league": "NFL",
+      "away_team": "Los Angeles Rams",
+      "home_team": "Philadelphia Eagles",
+      "commence_time": "2026-10-04T17:00:00Z",
+      "market_line": {
+        "moneyline": {
+          "Los Angeles Rams": -125,
+          "Philadelphia Eagles": 105
+        },
+        "spread": {
+          "Los Angeles Rams": -1.5,
+          "Philadelphia Eagles": 1.5
+        },
+        "total": 47.5,
+        "num_bookmakers": 1
+      },
+      "away_team_trends": {
+        "team": "Los Angeles Rams",
+        "last5": "1-2",
+        "streak": "L1",
+        "record": "1-2",
+        "h2h_vs_opponent": null
+      },
+      "home_team_trends": {
+        "team": "Philadelphia Eagles",
+        "last5": "2-1",
+        "streak": "L1",
+        "record": "2-1",
+        "h2h_vs_opponent": null
+      },
+      "weather_at_kickoff": {
+        "high_f": 69.9,
+        "low_f": 56.8,
+        "precipitation_in": 0.0,
+        "wind_mph": 6.9
+      },
+      "probable_pitchers": {
+        "home": null,
+        "away": null
+      }
+    },
+    "americanfootball_nfl_2026-10-04_miami-dolphins_at_minnesota-vikings": {
+      "league": "NFL",
+      "away_team": "Miami Dolphins",
+      "home_team": "Minnesota Vikings",
+      "commence_time": "2026-10-04T20:05:00Z",
+      "market_line": {
+        "moneyline": {
+          "Miami Dolphins": 320,
+          "Minnesota Vikings": -410
+        },
+        "spread": {
+          "Miami Dolphins": 7.5,
+          "Minnesota Vikings": -7.5
+        },
+        "total": 43.5,
+        "num_bookmakers": 2
+      },
+      "away_team_trends": {
+        "team": "Miami Dolphins",
+        "last5": "0-3",
+        "streak": "L3",
+        "record": "0-3",
+        "h2h_vs_opponent": null
+      },
+      "home_team_trends": {
+        "team": "Minnesota Vikings",
+        "last5": "3-0",
+        "streak": "W3",
+        "record": "3-0",
+        "h2h_vs_opponent": null
+      },
+      "weather_at_kickoff": null,
+      "probable_pitchers": {
+        "home": null,
+        "away": null
+      }
+    },
+    "americanfootball_nfl_2026-10-04_denver-broncos_at_san-francisco-49ers": {
+      "league": "NFL",
+      "away_team": "Denver Broncos",
+      "home_team": "San Francisco 49ers",
+      "commence_time": "2026-10-04T20:25:00Z",
+      "market_line": {
+        "moneyline": {
+          "Denver Broncos": 114,
+          "San Francisco 49ers": -135
+        },
+        "spread": {
+          "Denver Broncos": 2.5,
+          "San Francisco 49ers": -2.5
+        },
+        "total": 46.5,
+        "num_bookmakers": 2
+      },
+      "away_team_trends": {
+        "team": "Denver Broncos",
+        "last5": "2-1",
+        "streak": "W2",
+        "record": "2-1",
+        "h2h_vs_opponent": null
+      },
+      "home_team_trends": {
+        "team": "San Francisco 49ers",
+        "last5": "3-0",
+        "streak": "W3",
+        "record": "3-0",
+        "h2h_vs_opponent": null
+      },
+      "weather_at_kickoff": null,
+      "probable_pitchers": {
+        "home": null,
+        "away": null
+      }
+    },
+    "americanfootball_nfl_2026-10-04_kansas-city-chiefs_at_las-vegas-raiders": {
+      "league": "NFL",
+      "away_team": "Kansas City Chiefs",
+      "home_team": "Las Vegas Raiders",
+      "commence_time": "2026-10-04T20:25:00Z",
+      "market_line": {
+        "moneyline": {
+          "Kansas City Chiefs": -250,
+          "Las Vegas Raiders": 205
+        },
+        "spread": {
+          "Kansas City Chiefs": -5.5,
+          "Las Vegas Raiders": 5.5
+        },
+        "total": 43.5,
+        "num_bookmakers": 1
+      },
+      "away_team_trends": {
+        "team": "Kansas City Chiefs",
+        "last5": "3-0",
+        "streak": "W3",
+        "record": "3-0",
+        "h2h_vs_opponent": null
+      },
+      "home_team_trends": {
+        "team": "Las Vegas Raiders",
+        "last5": "3-0",
+        "streak": "W3",
+        "record": "3-0",
+        "h2h_vs_opponent": null
+      },
+      "weather_at_kickoff": null,
+      "probable_pitchers": {
+        "home": null,
+        "away": null
+      }
+    },
+    "americanfootball_nfl_2026-10-04_los-angeles-chargers_at_seattle-seahawks": {
+      "league": "NFL",
+      "away_team": "Los Angeles Chargers",
+      "home_team": "Seattle Seahawks",
+      "commence_time": "2026-10-04T20:25:00Z",
+      "market_line": {
+        "moneyline": {
+          "Los Angeles Chargers": 145,
+          "Seattle Seahawks": -175
+        },
+        "spread": {
+          "Los Angeles Chargers": 3.0,
+          "Seattle Seahawks": -3.0
+        },
+        "total": 45.5,
+        "num_bookmakers": 2
+      },
+      "away_team_trends": {
+        "team": "Los Angeles Chargers",
+        "last5": "0-3",
+        "streak": "L3",
+        "record": "0-3",
+        "h2h_vs_opponent": null
+      },
+      "home_team_trends": {
+        "team": "Seattle Seahawks",
+        "last5": "2-1",
+        "streak": "L1",
+        "record": "2-1",
+        "h2h_vs_opponent": null
+      },
+      "weather_at_kickoff": null,
+      "probable_pitchers": {
+        "home": null,
+        "away": null
+      }
+    },
+    "americanfootball_nfl_2026-10-05_detroit-lions_at_carolina-panthers": {
+      "league": "NFL",
+      "away_team": "Detroit Lions",
+      "home_team": "Carolina Panthers",
+      "commence_time": "2026-10-05T00:20:00Z",
+      "market_line": {
+        "moneyline": {
+          "Carolina Panthers": 136,
+          "Detroit Lions": -162
+        },
+        "spread": {
+          "Carolina Panthers": 3.0,
+          "Detroit Lions": -3.0
+        },
+        "total": 47.5,
+        "num_bookmakers": 1
+      },
+      "away_team_trends": {
+        "team": "Detroit Lions",
+        "last5": "2-1",
+        "streak": "W1",
+        "record": "2-1",
+        "h2h_vs_opponent": null
+      },
+      "home_team_trends": {
+        "team": "Carolina Panthers",
+        "last5": "1-2",
+        "streak": "L1",
+        "record": "1-2",
+        "h2h_vs_opponent": null
+      },
+      "weather_at_kickoff": null,
       "probable_pitchers": {
         "home": null,
         "away": null
