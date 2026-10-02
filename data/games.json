@@ -4700,8 +4700,8 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Dallas Cowboys": -525,
-        "Tampa Bay Buccaneers": 382
+        "Dallas Cowboys": -538,
+        "Tampa Bay Buccaneers": 400
       },
       "spread": {
         "Dallas Cowboys": -9.5,
@@ -4725,15 +4725,15 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Jacksonville Jaguars": -144,
-        "Philadelphia Eagles": 120
+        "Jacksonville Jaguars": -147,
+        "Philadelphia Eagles": 124
       },
       "spread": {
-        "Jacksonville Jaguars": -2.5,
-        "Philadelphia Eagles": 2.5
+        "Jacksonville Jaguars": -3.0,
+        "Philadelphia Eagles": 3.0
       },
-      "total": 45.0,
-      "num_bookmakers": 6
+      "total": 44.5,
+      "num_bookmakers": 4
     },
     "prediction": null,
     "actual": null
@@ -4754,8 +4754,8 @@
         "Miami Dolphins": 373
       },
       "spread": {
-        "Cincinnati Bengals": -8.5,
-        "Miami Dolphins": 8.5
+        "Cincinnati Bengals": -9.0,
+        "Miami Dolphins": 9.0
       },
       "total": 46.5,
       "num_bookmakers": 7
@@ -5000,8 +5000,8 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "San Francisco 49ers": 156,
-        "Seattle Seahawks": -189
+        "San Francisco 49ers": 154,
+        "Seattle Seahawks": -187
       },
       "spread": {
         "San Francisco 49ers": 3.5,
@@ -5050,8 +5050,8 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Buffalo Bills": 114,
-        "Los Angeles Rams": -134
+        "Buffalo Bills": 115,
+        "Los Angeles Rams": -136
       },
       "spread": {
         "Buffalo Bills": 2.5,
@@ -18139,15 +18139,15 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Alabama Crimson Tide": 124,
-        "Georgia Bulldogs": -148
+        "Alabama Crimson Tide": 125,
+        "Georgia Bulldogs": -152
       },
       "spread": {
         "Alabama Crimson Tide": 3.0,
         "Georgia Bulldogs": -3.0
       },
       "total": 55.0,
-      "num_bookmakers": 2
+      "num_bookmakers": 3
     },
     "prediction": null,
     "actual": null
@@ -18189,15 +18189,15 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Penn State Nittany Lions": -115,
-        "USC Trojans": -105
+        "Penn State Nittany Lions": -120,
+        "USC Trojans": -2
       },
       "spread": {
         "Penn State Nittany Lions": -1.5,
         "USC Trojans": 1.5
       },
       "total": 58.5,
-      "num_bookmakers": 1
+      "num_bookmakers": 2
     },
     "prediction": null,
     "actual": null
@@ -32809,15 +32809,15 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Oklahoma Sooners": 310,
-        "Texas Longhorns": -398
+        "Oklahoma Sooners": 315,
+        "Texas Longhorns": -417
       },
       "spread": {
         "Oklahoma Sooners": 9.5,
         "Texas Longhorns": -9.5
       },
       "total": 41.5,
-      "num_bookmakers": 2
+      "num_bookmakers": 3
     },
     "prediction": null,
     "actual": null
@@ -46102,7 +46102,7 @@
     "espn_sport": "football",
     "espn_league": "college-football",
     "outdoor": true,
-    "status": "predicted",
+    "status": "graded",
     "odds": {
       "moneyline": {
         "New Mexico State Aggies": -131,
@@ -46161,7 +46161,17 @@
         "num_bookmakers": 9
       }
     },
-    "actual": null
+    "actual": {
+      "home_score": 34,
+      "away_score": 13,
+      "actual_winner": "New Mexico State Aggies",
+      "straight_up_correct": true,
+      "against_the_spread": {
+        "actual_ats_winner": "New Mexico State Aggies",
+        "correct": true
+      },
+      "graded_at": "2026-10-02T16:45:16.220043+00:00"
+    }
   },
   "americanfootball_ncaaf_2026-10-02_north-texas-mean-green_at_tulsa-golden-hurricane": {
     "league": "NCAAF",
@@ -50103,20 +50113,66 @@
     "espn_sport": "football",
     "espn_league": "college-football",
     "outdoor": true,
-    "status": "scheduled",
+    "status": "predicted",
     "odds": {
       "moneyline": {
-        "Southern Mississippi Golden Eagles": 288,
-        "Troy Trojans": -375
+        "Southern Mississippi Golden Eagles": 292,
+        "Troy Trojans": -380
       },
       "spread": {
-        "Southern Mississippi Golden Eagles": 9.0,
-        "Troy Trojans": -9.0
+        "Southern Mississippi Golden Eagles": 9.5,
+        "Troy Trojans": -9.5
       },
       "total": 49.5,
       "num_bookmakers": 3
     },
-    "prediction": null,
+    "prediction": {
+      "reasoning": "Troy is 4-1 overall and 4-1 in their last 5, showing strong recent form, while Southern Miss has no trend data provided, suggesting a less competitive or less tracked program this season. The market has Troy as a heavy favorite (-380, -9.5), consistent with a clear talent/form gap, though Troy's current L1 streak introduces slight uncertainty about covering a large number. Lack of data on Southern Miss lowers confidence somewhat.",
+      "predicted_winner": "Troy Trojans",
+      "predicted_against_spread": "Troy Trojans",
+      "key_factors": [
+        "Troy 4-1 record and 4-1 last 5 games",
+        "Heavy moneyline favorite reflects talent gap",
+        "No trend data available for Southern Miss lowers certainty",
+        "Troy's current 1-game losing streak is a minor red flag"
+      ],
+      "confidence": 60,
+      "context_used": {
+        "away_trends": {
+          "team": "Southern Mississippi Golden Eagles",
+          "last5": null,
+          "streak": null,
+          "record": null,
+          "h2h_vs_opponent": null
+        },
+        "home_trends": {
+          "team": "Troy Trojans",
+          "last5": "4-1",
+          "streak": "L1",
+          "record": "4-1",
+          "h2h_vs_opponent": null
+        },
+        "weather": null,
+        "probable_pitchers": {
+          "home": null,
+          "away": null
+        }
+      },
+      "generated_at": "2026-10-02T16:45:25.754938+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "Southern Mississippi Golden Eagles": 292,
+          "Troy Trojans": -380
+        },
+        "spread": {
+          "Southern Mississippi Golden Eagles": 9.5,
+          "Troy Trojans": -9.5
+        },
+        "total": 49.5,
+        "num_bookmakers": 3
+      }
+    },
     "actual": null
   },
   "americanfootball_ncaaf_2026-10-07_jacksonville-state-gamecocks_at_kennesaw-state-owls": {
@@ -50131,15 +50187,15 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Jacksonville State Gamecocks": -152,
-        "Kennesaw State Owls": 127
+        "Jacksonville State Gamecocks": -153,
+        "Kennesaw State Owls": 126
       },
       "spread": {
         "Jacksonville State Gamecocks": -3.0,
         "Kennesaw State Owls": 3.0
       },
-      "total": 49.5,
-      "num_bookmakers": 2
+      "total": 50.0,
+      "num_bookmakers": 3
     },
     "prediction": null,
     "actual": null
@@ -50156,15 +50212,15 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Iowa Hawkeyes": -108,
-        "Washington Huskies": -112
+        "Iowa Hawkeyes": -109,
+        "Washington Huskies": -113
       },
       "spread": {
-        "Iowa Hawkeyes": 1.5,
-        "Washington Huskies": -1.5
+        "Iowa Hawkeyes": 1.0,
+        "Washington Huskies": -1.0
       },
       "total": 41.5,
-      "num_bookmakers": 1
+      "num_bookmakers": 3
     },
     "prediction": null,
     "actual": null
@@ -50181,15 +50237,15 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "BYU Cougars": -625,
-        "Iowa State Cyclones": 455
+        "BYU Cougars": -672,
+        "Iowa State Cyclones": 448
       },
       "spread": {
-        "BYU Cougars": -14.5,
-        "Iowa State Cyclones": 14.5
+        "BYU Cougars": -14.0,
+        "Iowa State Cyclones": 14.0
       },
       "total": 50.5,
-      "num_bookmakers": 1
+      "num_bookmakers": 3
     },
     "prediction": null,
     "actual": null
@@ -50206,15 +50262,15 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Indiana Hoosiers": -370,
-        "Nebraska Cornhuskers": 290
+        "Indiana Hoosiers": -382,
+        "Nebraska Cornhuskers": 292
       },
       "spread": {
-        "Indiana Hoosiers": -9.0,
-        "Nebraska Cornhuskers": 9.0
+        "Indiana Hoosiers": -9.5,
+        "Nebraska Cornhuskers": 9.5
       },
       "total": 49.5,
-      "num_bookmakers": 2
+      "num_bookmakers": 4
     },
     "prediction": null,
     "actual": null
@@ -50231,15 +50287,15 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Florida Gators": -675,
-        "South Carolina Gamecocks": 490
+        "Florida Gators": -755,
+        "South Carolina Gamecocks": 508
       },
       "spread": {
-        "Florida Gators": -14.5,
-        "South Carolina Gamecocks": 14.5
+        "Florida Gators": -15.0,
+        "South Carolina Gamecocks": 15.0
       },
       "total": 57.5,
-      "num_bookmakers": 1
+      "num_bookmakers": 2
     },
     "prediction": null,
     "actual": null
@@ -50257,14 +50313,14 @@
     "odds": {
       "moneyline": {
         "Missouri Tigers": -118,
-        "Texas A&M Aggies": -102
+        "Texas A&M Aggies": -104
       },
       "spread": {
-        "Missouri Tigers": -1.5,
-        "Texas A&M Aggies": 1.5
+        "Missouri Tigers": -1.0,
+        "Texas A&M Aggies": 1.0
       },
       "total": 50.5,
-      "num_bookmakers": 1
+      "num_bookmakers": 2
     },
     "prediction": null,
     "actual": null
@@ -50281,15 +50337,15 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Oregon Ducks": -532,
-        "UCLA Bruins": 395
+        "Oregon Ducks": -515,
+        "UCLA Bruins": 377
       },
       "spread": {
         "Oregon Ducks": -12.5,
         "UCLA Bruins": 12.5
       },
       "total": 60.5,
-      "num_bookmakers": 2
+      "num_bookmakers": 3
     },
     "prediction": null,
     "actual": null
@@ -50306,15 +50362,15 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Kentucky Wildcats": 330,
-        "LSU Tigers": -425
+        "Kentucky Wildcats": 315,
+        "LSU Tigers": -415
       },
       "spread": {
         "Kentucky Wildcats": 10.5,
         "LSU Tigers": -10.5
       },
-      "total": 49.5,
-      "num_bookmakers": 1
+      "total": 50.0,
+      "num_bookmakers": 2
     },
     "prediction": null,
     "actual": null
@@ -50622,6 +50678,82 @@
           "San Diego Padres": 1.5
         },
         "total": 7.0,
+        "num_bookmakers": 9
+      }
+    },
+    "actual": null
+  },
+  "baseball_mlb_2026-10-03_atlanta-braves_at_los-angeles-dodgers": {
+    "league": "MLB",
+    "sport_key": "baseball_mlb",
+    "home_team": "Los Angeles Dodgers",
+    "away_team": "Atlanta Braves",
+    "commence_time": "2026-10-03T20:00:00Z",
+    "espn_sport": "baseball",
+    "espn_league": "mlb",
+    "outdoor": true,
+    "status": "predicted",
+    "odds": {
+      "moneyline": {
+        "Atlanta Braves": 179,
+        "Los Angeles Dodgers": -212
+      },
+      "spread": {
+        "Atlanta Braves": 1.5,
+        "Los Angeles Dodgers": -1.5
+      },
+      "total": 8.0,
+      "num_bookmakers": 9
+    },
+    "prediction": {
+      "reasoning": "This is a playoff-caliber matchup where Atlanta is on a short W1 streak and 2-1 in their last 3, but no data is provided for the Dodgers' recent form, pitching, or any h2h trends. The market strongly favors LA (-212) likely due to home field and overall roster strength, but with no Dodgers trend data to confirm form, confidence is tempered. Given the lack of substantive Dodgers data, I lean toward the market favorite but keep confidence moderate due to information scarcity.",
+      "predicted_winner": "Los Angeles Dodgers",
+      "predicted_against_spread": "Atlanta Braves",
+      "key_factors": [
+        "No trend data available for Dodgers recent form",
+        "Braves only 2-1 in last 3 games, modest momentum",
+        "Market heavily favors Dodgers at home",
+        "Run line favors Braves getting +1.5 as insurance"
+      ],
+      "confidence": 54,
+      "context_used": {
+        "away_trends": {
+          "team": "Atlanta Braves",
+          "last5": "2-1",
+          "streak": "W1",
+          "record": "2-1",
+          "h2h_vs_opponent": null
+        },
+        "home_trends": {
+          "team": "Los Angeles Dodgers",
+          "last5": null,
+          "streak": null,
+          "record": null,
+          "h2h_vs_opponent": null
+        },
+        "weather": {
+          "high_f": 102.7,
+          "low_f": 73.2,
+          "precipitation_in": 0.0,
+          "wind_mph": 10.9
+        },
+        "probable_pitchers": {
+          "home": null,
+          "away": null
+        }
+      },
+      "generated_at": "2026-10-02T16:45:25.754938+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "Atlanta Braves": 179,
+          "Los Angeles Dodgers": -212
+        },
+        "spread": {
+          "Atlanta Braves": 1.5,
+          "Los Angeles Dodgers": -1.5
+        },
+        "total": 8.0,
         "num_bookmakers": 9
       }
     },
