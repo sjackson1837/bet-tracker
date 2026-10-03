@@ -4700,8 +4700,8 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Dallas Cowboys": -538,
-        "Tampa Bay Buccaneers": 400
+        "Dallas Cowboys": -529,
+        "Tampa Bay Buccaneers": 385
       },
       "spread": {
         "Dallas Cowboys": -9.5,
@@ -4725,15 +4725,15 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Jacksonville Jaguars": -147,
-        "Philadelphia Eagles": 124
+        "Jacksonville Jaguars": -145,
+        "Philadelphia Eagles": 122
       },
       "spread": {
         "Jacksonville Jaguars": -3.0,
         "Philadelphia Eagles": 3.0
       },
       "total": 44.5,
-      "num_bookmakers": 4
+      "num_bookmakers": 7
     },
     "prediction": null,
     "actual": null
@@ -4750,8 +4750,8 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Cincinnati Bengals": -495,
-        "Miami Dolphins": 373
+        "Cincinnati Bengals": -500,
+        "Miami Dolphins": 377
       },
       "spread": {
         "Cincinnati Bengals": -9.0,
@@ -4800,8 +4800,8 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Houston Texans": -314,
-        "Tennessee Titans": 252
+        "Houston Texans": -317,
+        "Tennessee Titans": 253
       },
       "spread": {
         "Houston Texans": -6.5,
@@ -4850,8 +4850,8 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Las Vegas Raiders": 155,
-        "New England Patriots": -187
+        "Las Vegas Raiders": 159,
+        "New England Patriots": -191
       },
       "spread": {
         "Las Vegas Raiders": 3.5,
@@ -4882,7 +4882,7 @@
         "Minnesota Vikings": -2.0,
         "New Orleans Saints": 2.0
       },
-      "total": 45.0,
+      "total": 44.5,
       "num_bookmakers": 7
     },
     "prediction": null,
@@ -4900,8 +4900,8 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "New York Giants": 118,
-        "Washington Commanders": -140
+        "New York Giants": 124,
+        "Washington Commanders": -147
       },
       "spread": {
         "New York Giants": 2.5,
@@ -4975,8 +4975,8 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Chicago Bears": 115,
-        "Green Bay Packers": -136
+        "Chicago Bears": 113,
+        "Green Bay Packers": -135
       },
       "spread": {
         "Chicago Bears": 2.0,
@@ -5025,8 +5025,8 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Atlanta Falcons": 232,
-        "Baltimore Ravens": -291
+        "Atlanta Falcons": 230,
+        "Baltimore Ravens": -288
       },
       "spread": {
         "Atlanta Falcons": 6.0,
@@ -5051,7 +5051,7 @@
     "odds": {
       "moneyline": {
         "Buffalo Bills": 115,
-        "Los Angeles Rams": -136
+        "Los Angeles Rams": -137
       },
       "spread": {
         "Buffalo Bills": 2.5,
@@ -18139,12 +18139,12 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Alabama Crimson Tide": 125,
-        "Georgia Bulldogs": -152
+        "Alabama Crimson Tide": 118,
+        "Georgia Bulldogs": -142
       },
       "spread": {
-        "Alabama Crimson Tide": 3.0,
-        "Georgia Bulldogs": -3.0
+        "Alabama Crimson Tide": 2.5,
+        "Georgia Bulldogs": -2.5
       },
       "total": 55.0,
       "num_bookmakers": 3
@@ -32809,14 +32809,14 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Oklahoma Sooners": 315,
-        "Texas Longhorns": -417
+        "Oklahoma Sooners": 303,
+        "Texas Longhorns": -400
       },
       "spread": {
-        "Oklahoma Sooners": 9.5,
-        "Texas Longhorns": -9.5
+        "Oklahoma Sooners": 9.0,
+        "Texas Longhorns": -9.0
       },
-      "total": 41.5,
+      "total": 41.0,
       "num_bookmakers": 3
     },
     "prediction": null,
@@ -50184,7 +50184,7 @@
     "espn_sport": "football",
     "espn_league": "college-football",
     "outdoor": true,
-    "status": "scheduled",
+    "status": "predicted",
     "odds": {
       "moneyline": {
         "Jacksonville State Gamecocks": -153,
@@ -50194,10 +50194,56 @@
         "Jacksonville State Gamecocks": -3.0,
         "Kennesaw State Owls": 3.0
       },
-      "total": 50.0,
+      "total": 49.5,
       "num_bookmakers": 3
     },
-    "prediction": null,
+    "prediction": {
+      "predicted_winner": "Jacksonville State Gamecocks",
+      "predicted_against_spread": "Jacksonville State Gamecocks",
+      "confidence": 57,
+      "key_factors": [
+        "Jacksonville State on 2-game win streak",
+        "JSU has winning record at 3-2",
+        "No data available on Kennesaw State's form",
+        "Market favors JSU by -153/-3"
+      ],
+      "reasoning": "Jacksonville State enters with positive momentum (W2) and a .600 record over their last 5 games, while we have no trend data at all on Kennesaw State to counter that. Given the lack of contrary evidence, the modest market favorite with recent winning form is the more defensible side, though the missing data on the home team keeps confidence moderate.",
+      "context_used": {
+        "away_trends": {
+          "team": "Jacksonville State Gamecocks",
+          "last5": "3-2",
+          "streak": "W2",
+          "record": "3-2",
+          "h2h_vs_opponent": null
+        },
+        "home_trends": {
+          "team": "Kennesaw State Owls",
+          "last5": null,
+          "streak": null,
+          "record": null,
+          "h2h_vs_opponent": null
+        },
+        "weather": null,
+        "probable_pitchers": {
+          "home": null,
+          "away": null
+        }
+      },
+      "generated_at": "2026-10-03T15:11:05.248720+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "Jacksonville State Gamecocks": -153,
+          "Kennesaw State Owls": 126
+        },
+        "spread": {
+          "Jacksonville State Gamecocks": -3.0,
+          "Kennesaw State Owls": 3.0
+        },
+        "total": 49.5,
+        "num_bookmakers": 3
+      }
+    },
     "actual": null
   },
   "americanfootball_ncaaf_2026-10-10_iowa-hawkeyes_at_washington-huskies": {
@@ -50213,14 +50259,14 @@
     "odds": {
       "moneyline": {
         "Iowa Hawkeyes": -109,
-        "Washington Huskies": -113
+        "Washington Huskies": -112
       },
       "spread": {
         "Iowa Hawkeyes": 1.0,
         "Washington Huskies": -1.0
       },
       "total": 41.5,
-      "num_bookmakers": 3
+      "num_bookmakers": 2
     },
     "prediction": null,
     "actual": null
@@ -50237,7 +50283,7 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "BYU Cougars": -672,
+        "BYU Cougars": -670,
         "Iowa State Cyclones": 448
       },
       "spread": {
@@ -50245,7 +50291,7 @@
         "Iowa State Cyclones": 14.0
       },
       "total": 50.5,
-      "num_bookmakers": 3
+      "num_bookmakers": 2
     },
     "prediction": null,
     "actual": null
@@ -50262,15 +50308,15 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Indiana Hoosiers": -382,
-        "Nebraska Cornhuskers": 292
+        "Indiana Hoosiers": -365,
+        "Nebraska Cornhuskers": 282
       },
       "spread": {
-        "Indiana Hoosiers": -9.5,
-        "Nebraska Cornhuskers": 9.5
+        "Indiana Hoosiers": -8.5,
+        "Nebraska Cornhuskers": 8.5
       },
-      "total": 49.5,
-      "num_bookmakers": 4
+      "total": 50.0,
+      "num_bookmakers": 3
     },
     "prediction": null,
     "actual": null
@@ -50362,14 +50408,14 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Kentucky Wildcats": 315,
-        "LSU Tigers": -415
+        "Kentucky Wildcats": 308,
+        "LSU Tigers": -405
       },
       "spread": {
-        "Kentucky Wildcats": 10.5,
-        "LSU Tigers": -10.5
+        "Kentucky Wildcats": 10.0,
+        "LSU Tigers": -10.0
       },
-      "total": 50.0,
+      "total": 50.5,
       "num_bookmakers": 2
     },
     "prediction": null,
@@ -50755,6 +50801,77 @@
         },
         "total": 8.0,
         "num_bookmakers": 9
+      }
+    },
+    "actual": null
+  },
+  "americanfootball_ncaaf_2026-10-07_new-mexico-state-aggies_at_florida-international-panthers": {
+    "league": "NCAAF",
+    "sport_key": "americanfootball_ncaaf",
+    "home_team": "Florida International Panthers",
+    "away_team": "New Mexico State Aggies",
+    "commence_time": "2026-10-07T23:30:00Z",
+    "espn_sport": "football",
+    "espn_league": "college-football",
+    "outdoor": true,
+    "status": "predicted",
+    "odds": {
+      "moneyline": {
+        "Florida International Panthers": -178,
+        "New Mexico State Aggies": 146
+      },
+      "spread": {
+        "Florida International Panthers": -4.5,
+        "New Mexico State Aggies": 4.5
+      },
+      "total": 48.5,
+      "num_bookmakers": 1
+    },
+    "prediction": {
+      "predicted_winner": "Florida International Panthers",
+      "predicted_against_spread": "New Mexico State Aggies",
+      "confidence": 52,
+      "key_factors": [
+        "No trend data provided for either team",
+        "Market gives FIU a solid home favorite status (-178/-4.5)",
+        "Only one bookmaker line available, reducing confidence",
+        "Lack of recent form data for both sides"
+      ],
+      "reasoning": "With zero trend data on either team's recent form, streaks, or history, this pick leans mostly on the market's own signal that FIU is a meaningful home favorite. However, given the complete absence of supporting trend evidence and only one bookmaker reporting the line, confidence is low and I lean toward the underdog covering the spread as a hedge against an uncertain line.",
+      "context_used": {
+        "away_trends": {
+          "team": "New Mexico State Aggies",
+          "last5": null,
+          "streak": null,
+          "record": null,
+          "h2h_vs_opponent": null
+        },
+        "home_trends": {
+          "team": "Florida International Panthers",
+          "last5": null,
+          "streak": null,
+          "record": null,
+          "h2h_vs_opponent": null
+        },
+        "weather": null,
+        "probable_pitchers": {
+          "home": null,
+          "away": null
+        }
+      },
+      "generated_at": "2026-10-03T15:11:05.248720+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "Florida International Panthers": -178,
+          "New Mexico State Aggies": 146
+        },
+        "spread": {
+          "Florida International Panthers": -4.5,
+          "New Mexico State Aggies": 4.5
+        },
+        "total": 48.5,
+        "num_bookmakers": 1
       }
     },
     "actual": null
