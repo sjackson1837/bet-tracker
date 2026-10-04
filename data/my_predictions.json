@@ -1,26 +1,90 @@
 {
-  "americanfootball_ncaaf_2026-10-07_jacksonville-state-gamecocks_at_kennesaw-state-owls": {
-    "predicted_winner": "Jacksonville State Gamecocks",
-    "predicted_against_spread": "Jacksonville State Gamecocks",
-    "confidence": 57,
+  "americanfootball_nfl_2026-10-09_tampa-bay-buccaneers_at_dallas-cowboys": {
+    "predicted_winner": "Dallas Cowboys",
+    "predicted_against_spread": "Tampa Bay Buccaneers",
+    "confidence": 58,
     "key_factors": [
-      "Jacksonville State on 2-game win streak",
-      "JSU has winning record at 3-2",
-      "No data available on Kennesaw State's form",
-      "Market favors JSU by -153/-3"
+      "Buccaneers on L3 skid and 0-3 record signal real struggles",
+      "Cowboys are only 1-2 themselves, not dominant",
+      "9.5-point spread is large for a team with a losing record and L1 streak"
     ],
-    "reasoning": "Jacksonville State enters with positive momentum (W2) and a .600 record over their last 5 games, while we have no trend data at all on Kennesaw State to counter that. Given the lack of contrary evidence, the modest market favorite with recent winning form is the more defensible side, though the missing data on the home team keeps confidence moderate."
+    "reasoning": "Dallas should win outright given Tampa Bay's 0-3 start and three-game losing streak, but the Cowboys are also just 1-2 and currently on a one-game skid, making a 9.5-point cover less certain. The market seems to be pricing in talent gap more than recent form, so I lean toward the Bucs keeping it closer than the number suggests."
   },
-  "americanfootball_ncaaf_2026-10-07_new-mexico-state-aggies_at_florida-international-panthers": {
-    "predicted_winner": "Florida International Panthers",
-    "predicted_against_spread": "New Mexico State Aggies",
-    "confidence": 52,
+  "americanfootball_ncaaf_2026-10-08_sam-houston-state-bearkats_at_liberty-flames": {
+    "predicted_winner": "Liberty Flames",
+    "predicted_against_spread": "Liberty Flames",
+    "confidence": 70,
     "key_factors": [
-      "No trend data provided for either team",
-      "Market gives FIU a solid home favorite status (-178/-4.5)",
-      "Only one bookmaker line available, reducing confidence",
-      "Lack of recent form data for both sides"
+      "Sam Houston State on L3 streak and 1-4 record",
+      "Liberty has no negative trend data available, implying stability",
+      "Large moneyline gap reflects significant talent disparity"
     ],
-    "reasoning": "With zero trend data on either team's recent form, streaks, or history, this pick leans mostly on the market's own signal that FIU is a meaningful home favorite. However, given the complete absence of supporting trend evidence and only one bookmaker reporting the line, confidence is low and I lean toward the underdog covering the spread as a hedge against an uncertain line."
+    "reasoning": "Sam Houston State's 1-4 record and three-game losing streak point to a struggling team heading into this matchup. With no concerning data on Liberty and a steep market line, Liberty should both win and cover comfortably."
+  },
+  "americanfootball_ncaaf_2026-10-08_missouri-state-bears_at_western-kentucky-hilltoppers": {
+    "predicted_winner": "Missouri State Bears",
+    "predicted_against_spread": "Missouri State Bears",
+    "confidence": 56,
+    "key_factors": [
+      "Missouri State is 3-1 with solid recent form despite L1 streak",
+      "Market has Missouri State as a slight favorite on moneyline despite being road 'underdog' on spread",
+      "No data available on Western Kentucky to counter this signal"
+    ],
+    "reasoning": "Missouri State's 3-1 record and favorable moneyline position (-39) suggest the market views them as the stronger side, even though they're getting 1.5 points on the road. Lacking any home-team trend data for Western Kentucky, I'll lean on Missouri State's established form advantage."
+  },
+  "americanfootball_ncaaf_2026-10-08_south-alabama-jaguars_at_arkansas-state-red-wolves": {
+    "predicted_winner": "South Alabama Jaguars",
+    "predicted_against_spread": "South Alabama Jaguars",
+    "confidence": 54,
+    "key_factors": [
+      "South Alabama is 3-2 and on a W1 streak",
+      "Game is essentially a pick'em per the betting line",
+      "No trend data available for Arkansas State to weigh against"
+    ],
+    "reasoning": "This is a near pick'em game by the market, but South Alabama's winning streak and respectable 3-2 record give a slight edge in the absence of any data on Arkansas State's form. Confidence is modest given the lack of information on the home team."
+  },
+  "americanfootball_ncaaf_2026-10-08_south-florida-bulls_at_utsa-roadrunners": {
+    "predicted_winner": "South Florida Bulls",
+    "predicted_against_spread": "South Florida Bulls",
+    "confidence": 60,
+    "key_factors": [
+      "South Florida is 4-1 on the season, strong overall form",
+      "UTSA has no trend data provided, large unknown",
+      "Market has USF as a significant underdog (+230 ML, +7 spread) despite better record"
+    ],
+    "reasoning": "South Florida's 4-1 record is considerably better than what the market line implies, with UTSA favored by a touchdown despite having no supporting trend data shown. Given the strong form disconnect, I favor USF to cover and have a real chance to win outright, though the one-game losing streak tempers full confidence."
+  },
+  "baseball_mlb_2026-10-05_atlanta-braves_at_los-angeles-dodgers": {
+    "predicted_winner": "Los Angeles Dodgers",
+    "predicted_against_spread": "Atlanta Braves",
+    "confidence": 62,
+    "key_factors": [
+      "Dodgers won head-to-head meeting 5-3 on 10/3 and are 1-0 this season vs Braves",
+      "Dodgers on W1 streak, home field advantage",
+      "Braves 0-1 head-to-head and 2-2 last 5, slight edge to LA but line is short favorite (-1.5) suggesting closer game"
+    ],
+    "reasoning": "The Dodgers have the recent head-to-head edge (won the last meeting 5-3) and are at home riding a win, giving them a moderate edge to win outright. However, with the spread at -1.5, Atlanta covering is plausible in a tight postseason-style matchup, especially since Atlanta is a live underdog with playoff experience."
+  },
+  "baseball_mlb_2026-10-05_chicago-white-sox_at_cleveland-guardians": {
+    "predicted_winner": "Chicago White Sox",
+    "predicted_against_spread": "Chicago White Sox",
+    "confidence": 64,
+    "key_factors": [
+      "White Sox on W3 streak and 3-0 record, strong momentum",
+      "White Sox beat Guardians 3-0 in last meeting and lead season series 1-0",
+      "Guardians on L1 streak and 0-1 record, struggling early"
+    ],
+    "reasoning": "Chicago's three-game winning streak and dominant recent head-to-head shutout win (3-0) against Cleveland are strong signals in their favor. Cleveland's early-season struggles (0-1, L1) further support fading the home favorite here, making the White Sox a solid pick both to win and cover."
+  },
+  "baseball_mlb_2026-10-06_new-york-yankees_at_tampa-bay-rays": {
+    "predicted_winner": "Tampa Bay Rays",
+    "predicted_against_spread": "Tampa Bay Rays",
+    "confidence": 55,
+    "key_factors": [
+      "Rays beat Yankees 1-0 in last meeting and lead season series 1-0",
+      "Yankees on L1 streak after beginning 2-1",
+      "Rays on W1 streak, home field advantage"
+    ],
+    "reasoning": "Tampa Bay has the head-to-head edge over New York, including a recent 1-0 shutout win, and carries momentum with a win streak at home. While the Yankees are favored by the market, the recent trend data and head-to-head history favor the Rays enough to lean against the market here."
   }
 }
