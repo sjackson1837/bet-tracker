@@ -5797,15 +5797,15 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Denver Broncos": 111,
-        "Seattle Seahawks": -134
+        "Denver Broncos": 102,
+        "Seattle Seahawks": -122
       },
       "spread": {
-        "Denver Broncos": 2.0,
-        "Seattle Seahawks": -2.0
+        "Denver Broncos": 1.5,
+        "Seattle Seahawks": -1.5
       },
-      "total": 42.0,
-      "num_bookmakers": 7
+      "total": 42.5,
+      "bookmaker": "DraftKings"
     },
     "prediction": null,
     "actual": null
@@ -5822,15 +5822,15 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Houston Texans": 139,
-        "Jacksonville Jaguars": -170
+        "Houston Texans": 145,
+        "Jacksonville Jaguars": -175
       },
       "spread": {
         "Houston Texans": 3.0,
         "Jacksonville Jaguars": -3.0
       },
-      "total": 43.0,
-      "num_bookmakers": 7
+      "total": 43.5,
+      "bookmaker": "DraftKings"
     },
     "prediction": null,
     "actual": null
@@ -5847,15 +5847,15 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Atlanta Falcons": 106,
-        "Chicago Bears": -128
+        "Atlanta Falcons": 102,
+        "Chicago Bears": -122
       },
       "spread": {
         "Atlanta Falcons": 1.5,
         "Chicago Bears": -1.5
       },
-      "total": 48.5,
-      "num_bookmakers": 7
+      "total": 47.5,
+      "bookmaker": "DraftKings"
     },
     "prediction": null,
     "actual": null
@@ -5872,15 +5872,15 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Baltimore Ravens": -182,
-        "Cleveland Browns": 149
+        "Baltimore Ravens": -170,
+        "Cleveland Browns": 142
       },
       "spread": {
         "Baltimore Ravens": -3.0,
         "Cleveland Browns": 3.0
       },
-      "total": 40.5,
-      "num_bookmakers": 7
+      "total": 41.5,
+      "bookmaker": "DraftKings"
     },
     "prediction": null,
     "actual": null
@@ -5897,15 +5897,15 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Carolina Panthers": 106,
-        "Philadelphia Eagles": -128
+        "Carolina Panthers": 110,
+        "Philadelphia Eagles": -130
       },
       "spread": {
-        "Carolina Panthers": 2.0,
-        "Philadelphia Eagles": -2.0
+        "Carolina Panthers": 2.5,
+        "Philadelphia Eagles": -2.5
       },
-      "total": 42.5,
-      "num_bookmakers": 7
+      "total": 43.5,
+      "bookmaker": "DraftKings"
     },
     "prediction": null,
     "actual": null
@@ -5922,15 +5922,15 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Indianapolis Colts": -301,
-        "Tennessee Titans": 238
+        "Indianapolis Colts": -290,
+        "Tennessee Titans": 235
       },
       "spread": {
         "Indianapolis Colts": -6.5,
         "Tennessee Titans": 6.5
       },
-      "total": 43.5,
-      "num_bookmakers": 7
+      "total": 44.5,
+      "bookmaker": "DraftKings"
     },
     "prediction": null,
     "actual": null
@@ -5947,15 +5947,15 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "New England Patriots": -331,
-        "New York Jets": 257
+        "New England Patriots": -340,
+        "New York Jets": 270
       },
       "spread": {
         "New England Patriots": -7.0,
         "New York Jets": 7.0
       },
-      "total": 43.0,
-      "num_bookmakers": 7
+      "total": 43.5,
+      "bookmaker": "DraftKings"
     },
     "prediction": null,
     "actual": null
@@ -5972,15 +5972,15 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "New Orleans Saints": -119,
-        "New York Giants": -52
+        "New Orleans Saints": -118,
+        "New York Giants": -102
       },
       "spread": {
-        "New Orleans Saints": -1.0,
-        "New York Giants": 1.0
+        "New Orleans Saints": -1.5,
+        "New York Giants": 1.5
       },
-      "total": 44.5,
-      "num_bookmakers": 7
+      "total": 45.5,
+      "bookmaker": "DraftKings"
     },
     "prediction": null,
     "actual": null
@@ -6022,15 +6022,15 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Arizona Cardinals": 462,
-        "Los Angeles Rams": -665
+        "Arizona Cardinals": 470,
+        "Los Angeles Rams": -650
       },
       "spread": {
         "Arizona Cardinals": 10.5,
         "Los Angeles Rams": -10.5
       },
-      "total": 50.5,
-      "num_bookmakers": 7
+      "total": 51.5,
+      "bookmaker": "DraftKings"
     },
     "prediction": null,
     "actual": null
@@ -6047,15 +6047,15 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Buffalo Bills": -236,
-        "Las Vegas Raiders": 189
+        "Buffalo Bills": -225,
+        "Las Vegas Raiders": 185
       },
       "spread": {
-        "Buffalo Bills": -4.0,
-        "Las Vegas Raiders": 4.0
+        "Buffalo Bills": -4.5,
+        "Las Vegas Raiders": 4.5
       },
       "total": 51.5,
-      "num_bookmakers": 7
+      "bookmaker": "DraftKings"
     },
     "prediction": null,
     "actual": null
@@ -6072,15 +6072,15 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Kansas City Chiefs": -422,
-        "Los Angeles Chargers": 315
+        "Kansas City Chiefs": -395,
+        "Los Angeles Chargers": 310
       },
       "spread": {
         "Kansas City Chiefs": -7.5,
         "Los Angeles Chargers": 7.5
       },
       "total": 45.5,
-      "num_bookmakers": 7
+      "bookmaker": "DraftKings"
     },
     "prediction": null,
     "actual": null
@@ -6122,15 +6122,15 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "San Francisco 49ers": -410,
-        "Washington Commanders": 311
+        "San Francisco 49ers": -425,
+        "Washington Commanders": 330
       },
       "spread": {
         "San Francisco 49ers": -7.5,
         "Washington Commanders": 7.5
       },
-      "total": 50.0,
-      "num_bookmakers": 7
+      "total": 50.5,
+      "bookmaker": "DraftKings"
     },
     "prediction": null,
     "actual": null
@@ -19071,15 +19071,15 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Alabama Crimson Tide": -211,
-        "Tennessee Volunteers": 170
+        "Alabama Crimson Tide": -192,
+        "Tennessee Volunteers": 160
       },
       "spread": {
-        "Alabama Crimson Tide": -5.0,
-        "Tennessee Volunteers": 5.0
+        "Alabama Crimson Tide": -4.5,
+        "Tennessee Volunteers": 4.5
       },
       "total": 56.5,
-      "num_bookmakers": 3
+      "bookmaker": "DraftKings"
     },
     "prediction": null,
     "actual": null
@@ -19096,15 +19096,15 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Auburn Tigers": 770,
-        "Georgia Bulldogs": -1393
+        "Auburn Tigers": 850,
+        "Georgia Bulldogs": -1450
       },
       "spread": {
         "Auburn Tigers": 18.5,
         "Georgia Bulldogs": -18.5
       },
-      "total": 50.0,
-      "num_bookmakers": 3
+      "total": 49.5,
+      "bookmaker": "DraftKings"
     },
     "prediction": null,
     "actual": null
@@ -19146,15 +19146,15 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Indiana Hoosiers": 122,
-        "Ohio State Buckeyes": -148
+        "Indiana Hoosiers": 120,
+        "Ohio State Buckeyes": -142
       },
       "spread": {
-        "Indiana Hoosiers": 3.0,
-        "Ohio State Buckeyes": -3.0
+        "Indiana Hoosiers": 2.5,
+        "Ohio State Buckeyes": -2.5
       },
-      "total": 49.0,
-      "num_bookmakers": 3
+      "total": 48.5,
+      "bookmaker": "DraftKings"
     },
     "prediction": null,
     "actual": null
@@ -33736,15 +33736,15 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Kansas Jayhawks": 262,
-        "Kansas State Wildcats": -340
+        "Kansas Jayhawks": 275,
+        "Kansas State Wildcats": -345
       },
       "spread": {
-        "Kansas Jayhawks": 9.0,
-        "Kansas State Wildcats": -9.0
+        "Kansas Jayhawks": 9.5,
+        "Kansas State Wildcats": -9.5
       },
       "total": 55.5,
-      "num_bookmakers": 2
+      "bookmaker": "DraftKings"
     },
     "prediction": null,
     "actual": null
@@ -33761,15 +33761,15 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Michigan Wolverines": -219,
-        "Penn State Nittany Lions": 175
+        "Michigan Wolverines": -218,
+        "Penn State Nittany Lions": 180
       },
       "spread": {
         "Michigan Wolverines": -5.5,
         "Penn State Nittany Lions": 5.5
       },
       "total": 43.5,
-      "num_bookmakers": 2
+      "bookmaker": "DraftKings"
     },
     "prediction": null,
     "actual": null
@@ -33786,15 +33786,15 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Nebraska Cornhuskers": 395,
-        "Oregon Ducks": -555
+        "Nebraska Cornhuskers": 390,
+        "Oregon Ducks": -520
       },
       "spread": {
         "Nebraska Cornhuskers": 12.5,
         "Oregon Ducks": -12.5
       },
       "total": 58.5,
-      "num_bookmakers": 2
+      "bookmaker": "DraftKings"
     },
     "prediction": null,
     "actual": null
@@ -56181,15 +56181,15 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Colorado State Rams": 335,
-        "Texas State Bobcats": -438
+        "Colorado State Rams": 330,
+        "Texas State Bobcats": -425
       },
       "spread": {
-        "Colorado State Rams": 12.0,
-        "Texas State Bobcats": -12.0
+        "Colorado State Rams": 12.5,
+        "Texas State Bobcats": -12.5
       },
-      "total": 66.5,
-      "num_bookmakers": 2
+      "total": 67.5,
+      "bookmaker": "DraftKings"
     },
     "prediction": null,
     "actual": null
@@ -56206,15 +56206,15 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Florida Gators": 268,
-        "Texas Longhorns": -347
+        "Florida Gators": 275,
+        "Texas Longhorns": -345
       },
       "spread": {
-        "Florida Gators": 9.0,
-        "Texas Longhorns": -9.0
+        "Florida Gators": 8.5,
+        "Texas Longhorns": -8.5
       },
       "total": 53.5,
-      "num_bookmakers": 3
+      "bookmaker": "DraftKings"
     },
     "prediction": null,
     "actual": null
@@ -56231,15 +56231,15 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "LSU Tigers": -488,
-        "Mississippi State Bulldogs": 358
+        "LSU Tigers": -455,
+        "Mississippi State Bulldogs": 350
       },
       "spread": {
-        "LSU Tigers": -12.0,
-        "Mississippi State Bulldogs": 12.0
+        "LSU Tigers": -12.5,
+        "Mississippi State Bulldogs": 12.5
       },
       "total": 59.5,
-      "num_bookmakers": 3
+      "bookmaker": "DraftKings"
     },
     "prediction": null,
     "actual": null
@@ -56256,15 +56256,15 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "UCLA Bruins": -164,
-        "Wisconsin Badgers": 134
+        "UCLA Bruins": -162,
+        "Wisconsin Badgers": 136
       },
       "spread": {
         "UCLA Bruins": -3.5,
         "Wisconsin Badgers": 3.5
       },
-      "total": 49.0,
-      "num_bookmakers": 2
+      "total": 49.5,
+      "bookmaker": "DraftKings"
     },
     "prediction": null,
     "actual": null
@@ -56281,15 +56281,15 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Duke Blue Devils": -192,
-        "North Carolina Tar Heels": 157
+        "Duke Blue Devils": -185,
+        "North Carolina Tar Heels": 154
       },
       "spread": {
         "Duke Blue Devils": -4.5,
         "North Carolina Tar Heels": 4.5
       },
       "total": 46.5,
-      "num_bookmakers": 2
+      "bookmaker": "DraftKings"
     },
     "prediction": null,
     "actual": null
@@ -56306,15 +56306,15 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Missouri Tigers": 191,
-        "Ole Miss Rebels": -237
+        "Missouri Tigers": 190,
+        "Ole Miss Rebels": -230
       },
       "spread": {
         "Missouri Tigers": 6.5,
         "Ole Miss Rebels": -6.5
       },
-      "total": 58.0,
-      "num_bookmakers": 3
+      "total": 57.5,
+      "bookmaker": "DraftKings"
     },
     "prediction": null,
     "actual": null
@@ -56331,15 +56331,15 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Houston Cougars": -159,
-        "Oklahoma State Cowboys": 130
+        "Houston Cougars": -162,
+        "Oklahoma State Cowboys": 136
       },
       "spread": {
-        "Houston Cougars": -3.0,
-        "Oklahoma State Cowboys": 3.0
+        "Houston Cougars": -3.5,
+        "Oklahoma State Cowboys": 3.5
       },
       "total": 57.5,
-      "num_bookmakers": 3
+      "bookmaker": "DraftKings"
     },
     "prediction": null,
     "actual": null
@@ -56356,15 +56356,15 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Kentucky Wildcats": 195,
-        "Oklahoma Sooners": -245
+        "Kentucky Wildcats": 185,
+        "Oklahoma Sooners": -225
       },
       "spread": {
         "Kentucky Wildcats": 6.0,
         "Oklahoma Sooners": -6.0
       },
-      "total": 42.0,
-      "num_bookmakers": 2
+      "total": 41.5,
+      "bookmaker": "DraftKings"
     },
     "prediction": null,
     "actual": null
