@@ -3606,15 +3606,15 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Indianapolis Colts": -109,
-        "Washington Commanders": -110
+        "Indianapolis Colts": -195,
+        "Washington Commanders": 164
       },
       "spread": {
-        "Indianapolis Colts": 0.5,
-        "Washington Commanders": -0.5
+        "Indianapolis Colts": -4.0,
+        "Washington Commanders": 4.0
       },
-      "total": 49.5,
-      "num_bookmakers": 3
+      "total": 48.5,
+      "num_bookmakers": 9
     },
     "prediction": null,
     "actual": null
@@ -3631,15 +3631,15 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Arizona Cardinals": 260,
-        "New York Giants": -325
+        "Arizona Cardinals": -232,
+        "New York Giants": 171
       },
       "spread": {
-        "Arizona Cardinals": 7.0,
-        "New York Giants": -7.0
+        "Arizona Cardinals": -4.5,
+        "New York Giants": 4.5
       },
-      "total": 45.5,
-      "num_bookmakers": 2
+      "total": 48.5,
+      "bookmaker": "DraftKings"
     },
     "prediction": null,
     "actual": null
@@ -3656,15 +3656,15 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Baltimore Ravens": -395,
-        "Tennessee Titans": 310
+        "Baltimore Ravens": -670,
+        "Tennessee Titans": 425
       },
       "spread": {
-        "Baltimore Ravens": -8.5,
-        "Tennessee Titans": 8.5
+        "Baltimore Ravens": -10.5,
+        "Tennessee Titans": 10.5
       },
-      "total": 47.5,
-      "num_bookmakers": 2
+      "total": 50.5,
+      "bookmaker": "DraftKings"
     },
     "prediction": null,
     "actual": null
@@ -3681,15 +3681,15 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Buffalo Bills": -162,
-        "New England Patriots": 136
+        "Buffalo Bills": -170,
+        "New England Patriots": 128
       },
       "spread": {
-        "Buffalo Bills": -3.0,
-        "New England Patriots": 3.0
+        "Buffalo Bills": -2.5,
+        "New England Patriots": 2.5
       },
-      "total": 49.5,
-      "num_bookmakers": 1
+      "total": 50.5,
+      "bookmaker": "DraftKings"
     },
     "prediction": null,
     "actual": null
@@ -3706,15 +3706,15 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Chicago Bears": -425,
-        "New York Jets": 330
+        "Chicago Bears": -173,
+        "New York Jets": 130
       },
       "spread": {
-        "Chicago Bears": -8.5,
-        "New York Jets": 8.5
+        "Chicago Bears": -3.5,
+        "New York Jets": 3.5
       },
-      "total": 45.5,
-      "num_bookmakers": 1
+      "total": 39.5,
+      "bookmaker": "DraftKings"
     },
     "prediction": null,
     "actual": null
@@ -3731,15 +3731,15 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Cincinnati Bengals": -135,
-        "Jacksonville Jaguars": 114
+        "Cincinnati Bengals": -128,
+        "Jacksonville Jaguars": -103
       },
       "spread": {
-        "Cincinnati Bengals": -2.5,
-        "Jacksonville Jaguars": 2.5
+        "Cincinnati Bengals": -1.5,
+        "Jacksonville Jaguars": 1.5
       },
-      "total": 51.5,
-      "num_bookmakers": 2
+      "total": 45.5,
+      "bookmaker": "DraftKings"
     },
     "prediction": null,
     "actual": null
@@ -3756,15 +3756,15 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Dallas Cowboys": 114,
-        "Houston Texans": -135
+        "Dallas Cowboys": 194,
+        "Houston Texans": -265
       },
       "spread": {
-        "Dallas Cowboys": 2.5,
-        "Houston Texans": -2.5
+        "Dallas Cowboys": 5.5,
+        "Houston Texans": -5.5
       },
-      "total": 47.5,
-      "num_bookmakers": 2
+      "total": 51.5,
+      "bookmaker": "DraftKings"
     },
     "prediction": null,
     "actual": null
@@ -3781,15 +3781,15 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Green Bay Packers": -125,
-        "Tampa Bay Buccaneers": 105
+        "Green Bay Packers": -246,
+        "Tampa Bay Buccaneers": 181
       },
       "spread": {
-        "Green Bay Packers": -1.5,
-        "Tampa Bay Buccaneers": 1.5
+        "Green Bay Packers": -4.5,
+        "Tampa Bay Buccaneers": 4.5
       },
-      "total": 47.5,
-      "num_bookmakers": 2
+      "total": 35.5,
+      "bookmaker": "DraftKings"
     },
     "prediction": null,
     "actual": null
@@ -3806,15 +3806,15 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Los Angeles Rams": -125,
-        "Philadelphia Eagles": 105
+        "Los Angeles Rams": -163,
+        "Philadelphia Eagles": 123
       },
       "spread": {
-        "Los Angeles Rams": -1.5,
-        "Philadelphia Eagles": 1.5
+        "Los Angeles Rams": -2.5,
+        "Philadelphia Eagles": 2.5
       },
-      "total": 47.5,
-      "num_bookmakers": 1
+      "total": 42.5,
+      "bookmaker": "DraftKings"
     },
     "prediction": null,
     "actual": null
@@ -3831,15 +3831,15 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Miami Dolphins": 320,
-        "Minnesota Vikings": -410
+        "Miami Dolphins": 400,
+        "Minnesota Vikings": -535
       },
       "spread": {
-        "Miami Dolphins": 7.5,
-        "Minnesota Vikings": -7.5
+        "Miami Dolphins": 10.0,
+        "Minnesota Vikings": -10.0
       },
-      "total": 43.5,
-      "num_bookmakers": 2
+      "total": 38.5,
+      "bookmaker": "DraftKings"
     },
     "prediction": null,
     "actual": null
@@ -3856,15 +3856,15 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Denver Broncos": 114,
-        "San Francisco 49ers": -135
+        "Denver Broncos": 136,
+        "San Francisco 49ers": -162
       },
       "spread": {
-        "Denver Broncos": 2.5,
-        "San Francisco 49ers": -2.5
+        "Denver Broncos": 3.0,
+        "San Francisco 49ers": -3.0
       },
-      "total": 46.5,
-      "num_bookmakers": 2
+      "total": 48.5,
+      "bookmaker": "DraftKings"
     },
     "prediction": null,
     "actual": null
@@ -3881,15 +3881,15 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Kansas City Chiefs": -250,
-        "Las Vegas Raiders": 205
+        "Kansas City Chiefs": -225,
+        "Las Vegas Raiders": 185
       },
       "spread": {
-        "Kansas City Chiefs": -5.5,
-        "Las Vegas Raiders": 5.5
+        "Kansas City Chiefs": -4.5,
+        "Las Vegas Raiders": 4.5
       },
-      "total": 43.5,
-      "num_bookmakers": 1
+      "total": 47.5,
+      "bookmaker": "DraftKings"
     },
     "prediction": null,
     "actual": null
@@ -3906,15 +3906,15 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Los Angeles Chargers": 145,
-        "Seattle Seahawks": -175
+        "Los Angeles Chargers": 285,
+        "Seattle Seahawks": -360
       },
       "spread": {
-        "Los Angeles Chargers": 3.0,
-        "Seattle Seahawks": -3.0
+        "Los Angeles Chargers": 7.0,
+        "Seattle Seahawks": -7.0
       },
-      "total": 45.5,
-      "num_bookmakers": 2
+      "total": 42.5,
+      "bookmaker": "DraftKings"
     },
     "prediction": null,
     "actual": null
@@ -3931,15 +3931,15 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Carolina Panthers": 136,
-        "Detroit Lions": -162
+        "Carolina Panthers": 164,
+        "Detroit Lions": -198
       },
       "spread": {
-        "Carolina Panthers": 3.0,
-        "Detroit Lions": -3.0
+        "Carolina Panthers": 3.5,
+        "Detroit Lions": -3.5
       },
-      "total": 47.5,
-      "num_bookmakers": 1
+      "total": 51.5,
+      "bookmaker": "DraftKings"
     },
     "prediction": null,
     "actual": null
@@ -3956,15 +3956,15 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Atlanta Falcons": 114,
-        "New Orleans Saints": -135
+        "Atlanta Falcons": 110,
+        "New Orleans Saints": -130
       },
       "spread": {
-        "Atlanta Falcons": 2.5,
-        "New Orleans Saints": -2.5
+        "Atlanta Falcons": 1.5,
+        "New Orleans Saints": -1.5
       },
-      "total": 45.5,
-      "num_bookmakers": 2
+      "total": 47.5,
+      "bookmaker": "DraftKings"
     },
     "prediction": null,
     "actual": null
@@ -3981,15 +3981,15 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Dallas Cowboys": -205,
-        "Tampa Bay Buccaneers": 170
+        "Dallas Cowboys": -538,
+        "Tampa Bay Buccaneers": 400
       },
       "spread": {
-        "Dallas Cowboys": -3.5,
-        "Tampa Bay Buccaneers": 3.5
+        "Dallas Cowboys": -9.5,
+        "Tampa Bay Buccaneers": 9.5
       },
-      "total": 52.5,
-      "num_bookmakers": 2
+      "total": 47.0,
+      "num_bookmakers": 7
     },
     "prediction": null,
     "actual": null
@@ -4006,15 +4006,15 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Jacksonville Jaguars": 104,
-        "Philadelphia Eagles": -122
+        "Jacksonville Jaguars": -395,
+        "Philadelphia Eagles": 310
       },
       "spread": {
-        "Jacksonville Jaguars": 1.5,
-        "Philadelphia Eagles": -1.5
+        "Jacksonville Jaguars": -7.5,
+        "Philadelphia Eagles": 7.5
       },
-      "total": 44.8,
-      "num_bookmakers": 3
+      "total": 41.5,
+      "bookmaker": "DraftKings"
     },
     "prediction": null,
     "actual": null
@@ -4031,15 +4031,15 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Cincinnati Bengals": -270,
-        "Miami Dolphins": 220
+        "Cincinnati Bengals": -355,
+        "Miami Dolphins": 280
       },
       "spread": {
-        "Cincinnati Bengals": -5.8,
-        "Miami Dolphins": 5.8
+        "Cincinnati Bengals": -7.0,
+        "Miami Dolphins": 7.0
       },
-      "total": 49.5,
-      "num_bookmakers": 2
+      "total": 43.5,
+      "bookmaker": "DraftKings"
     },
     "prediction": null,
     "actual": null
@@ -4056,15 +4056,15 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Cleveland Browns": 110,
-        "New York Jets": -130
+        "Cleveland Browns": 114,
+        "New York Jets": -135
       },
       "spread": {
-        "Cleveland Browns": 1.5,
-        "New York Jets": -1.5
+        "Cleveland Browns": 2.5,
+        "New York Jets": -2.5
       },
       "total": 39.5,
-      "num_bookmakers": 1
+      "bookmaker": "DraftKings"
     },
     "prediction": null,
     "actual": null
@@ -4081,15 +4081,15 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Houston Texans": -192,
-        "Tennessee Titans": 160
+        "Houston Texans": -360,
+        "Tennessee Titans": 285
       },
       "spread": {
-        "Houston Texans": -3.5,
-        "Tennessee Titans": 3.5
+        "Houston Texans": -7.0,
+        "Tennessee Titans": 7.0
       },
-      "total": 43.5,
-      "num_bookmakers": 2
+      "total": 38.5,
+      "bookmaker": "DraftKings"
     },
     "prediction": null,
     "actual": null
@@ -4106,15 +4106,15 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Indianapolis Colts": 120,
-        "Pittsburgh Steelers": -142
+        "Indianapolis Colts": 124,
+        "Pittsburgh Steelers": -148
       },
       "spread": {
-        "Indianapolis Colts": 2.5,
-        "Pittsburgh Steelers": -2.5
+        "Indianapolis Colts": 3.0,
+        "Pittsburgh Steelers": -3.0
       },
-      "total": 47.5,
-      "num_bookmakers": 2
+      "total": 43.5,
+      "bookmaker": "DraftKings"
     },
     "prediction": null,
     "actual": null
@@ -4131,15 +4131,15 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Las Vegas Raiders": 310,
-        "New England Patriots": -395
+        "Las Vegas Raiders": 160,
+        "New England Patriots": -192
       },
       "spread": {
-        "Las Vegas Raiders": 8.5,
-        "New England Patriots": -8.5
+        "Las Vegas Raiders": 3.5,
+        "New England Patriots": -3.5
       },
-      "total": 44.5,
-      "num_bookmakers": 1
+      "total": 45.5,
+      "bookmaker": "DraftKings"
     },
     "prediction": null,
     "actual": null
@@ -4156,15 +4156,15 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Minnesota Vikings": -125,
-        "New Orleans Saints": 105
+        "Minnesota Vikings": -142,
+        "New Orleans Saints": 120
       },
       "spread": {
-        "Minnesota Vikings": -1.5,
-        "New Orleans Saints": 1.5
+        "Minnesota Vikings": -2.5,
+        "New Orleans Saints": 2.5
       },
-      "total": 44.5,
-      "num_bookmakers": 2
+      "total": 41.5,
+      "bookmaker": "DraftKings"
     },
     "prediction": null,
     "actual": null
@@ -4181,15 +4181,15 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "New York Giants": 110,
-        "Washington Commanders": -130
+        "New York Giants": 142,
+        "Washington Commanders": -170
       },
       "spread": {
-        "New York Giants": 2.0,
-        "Washington Commanders": -2.0
+        "New York Giants": 3.5,
+        "Washington Commanders": -3.5
       },
-      "total": 48.5,
-      "num_bookmakers": 2
+      "total": 41.5,
+      "bookmaker": "DraftKings"
     },
     "prediction": null,
     "actual": null
@@ -4206,15 +4206,15 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Denver Broncos": 114,
-        "Los Angeles Chargers": -135
+        "Denver Broncos": -192,
+        "Los Angeles Chargers": 160
       },
       "spread": {
-        "Denver Broncos": 2.5,
-        "Los Angeles Chargers": -2.5
+        "Denver Broncos": -3.5,
+        "Los Angeles Chargers": 3.5
       },
-      "total": 44.5,
-      "num_bookmakers": 2
+      "total": 41.5,
+      "bookmaker": "DraftKings"
     },
     "prediction": null,
     "actual": null
@@ -4231,15 +4231,15 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Arizona Cardinals": 310,
-        "Detroit Lions": -395
+        "Arizona Cardinals": 205,
+        "Detroit Lions": -250
       },
       "spread": {
-        "Arizona Cardinals": 8.5,
-        "Detroit Lions": -8.5
+        "Arizona Cardinals": 5.5,
+        "Detroit Lions": -5.5
       },
-      "total": 48.5,
-      "num_bookmakers": 1
+      "total": 54.5,
+      "bookmaker": "DraftKings"
     },
     "prediction": null,
     "actual": null
@@ -4256,15 +4256,15 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Chicago Bears": 140,
-        "Green Bay Packers": -166
+        "Chicago Bears": -125,
+        "Green Bay Packers": 105
       },
       "spread": {
-        "Chicago Bears": 3.0,
-        "Green Bay Packers": -3.0
+        "Chicago Bears": -1.5,
+        "Green Bay Packers": 1.5
       },
-      "total": 49.5,
-      "num_bookmakers": 1
+      "total": 45.5,
+      "bookmaker": "DraftKings"
     },
     "prediction": null,
     "actual": null
@@ -4281,15 +4281,15 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "San Francisco 49ers": 170,
-        "Seattle Seahawks": -205
+        "San Francisco 49ers": 136,
+        "Seattle Seahawks": -162
       },
       "spread": {
-        "San Francisco 49ers": 3.5,
-        "Seattle Seahawks": -3.5
+        "San Francisco 49ers": 3.0,
+        "Seattle Seahawks": -3.0
       },
-      "total": 48.5,
-      "num_bookmakers": 2
+      "total": 45.5,
+      "bookmaker": "DraftKings"
     },
     "prediction": null,
     "actual": null
@@ -4306,15 +4306,15 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Atlanta Falcons": 170,
-        "Baltimore Ravens": -205
+        "Atlanta Falcons": -180,
+        "Baltimore Ravens": 150
       },
       "spread": {
-        "Atlanta Falcons": 4.5,
-        "Baltimore Ravens": -4.5
+        "Atlanta Falcons": -3.0,
+        "Baltimore Ravens": 3.0
       },
-      "total": 48.5,
-      "num_bookmakers": 2
+      "total": 43.5,
+      "bookmaker": "DraftKings"
     },
     "prediction": null,
     "actual": null
@@ -4331,15 +4331,15 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Buffalo Bills": 140,
-        "Los Angeles Rams": -166
+        "Buffalo Bills": 145,
+        "Los Angeles Rams": -175
       },
       "spread": {
         "Buffalo Bills": 3.0,
         "Los Angeles Rams": -3.0
       },
-      "total": 53.5,
-      "num_bookmakers": 1
+      "total": 54.5,
+      "bookmaker": "DraftKings"
     },
     "prediction": null,
     "actual": null
@@ -4356,15 +4356,15 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Denver Broncos": 110,
-        "Seattle Seahawks": -130
+        "Denver Broncos": 102,
+        "Seattle Seahawks": -122
       },
       "spread": {
-        "Denver Broncos": 2.0,
-        "Seattle Seahawks": -2.0
+        "Denver Broncos": 1.5,
+        "Seattle Seahawks": -1.5
       },
-      "total": 43.5,
-      "num_bookmakers": 2
+      "total": 42.5,
+      "bookmaker": "DraftKings"
     },
     "prediction": null,
     "actual": null
@@ -4381,15 +4381,15 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Houston Texans": -110,
-        "Jacksonville Jaguars": -108
+        "Houston Texans": 145,
+        "Jacksonville Jaguars": -175
       },
       "spread": {
-        "Houston Texans": -0.5,
-        "Jacksonville Jaguars": 0.5
+        "Houston Texans": 3.0,
+        "Jacksonville Jaguars": -3.0
       },
-      "total": 41.5,
-      "num_bookmakers": 3
+      "total": 43.5,
+      "bookmaker": "DraftKings"
     },
     "prediction": null,
     "actual": null
@@ -4406,15 +4406,15 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Atlanta Falcons": 130,
-        "Chicago Bears": -155
+        "Atlanta Falcons": 102,
+        "Chicago Bears": -122
       },
       "spread": {
-        "Atlanta Falcons": 3.0,
-        "Chicago Bears": -3.0
+        "Atlanta Falcons": 1.5,
+        "Chicago Bears": -1.5
       },
       "total": 47.5,
-      "num_bookmakers": 1
+      "bookmaker": "DraftKings"
     },
     "prediction": null,
     "actual": null
@@ -4431,15 +4431,15 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Baltimore Ravens": -250,
-        "Cleveland Browns": 205
+        "Baltimore Ravens": -170,
+        "Cleveland Browns": 142
       },
       "spread": {
-        "Baltimore Ravens": -6.5,
-        "Cleveland Browns": 6.5
+        "Baltimore Ravens": -3.0,
+        "Cleveland Browns": 3.0
       },
-      "total": 44.5,
-      "num_bookmakers": 1
+      "total": 41.5,
+      "bookmaker": "DraftKings"
     },
     "prediction": null,
     "actual": null
@@ -4456,15 +4456,15 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Carolina Panthers": 225,
-        "Philadelphia Eagles": -278
+        "Carolina Panthers": 110,
+        "Philadelphia Eagles": -130
       },
       "spread": {
-        "Carolina Panthers": 6.5,
-        "Philadelphia Eagles": -6.5
+        "Carolina Panthers": 2.5,
+        "Philadelphia Eagles": -2.5
       },
       "total": 43.5,
-      "num_bookmakers": 2
+      "bookmaker": "DraftKings"
     },
     "prediction": null,
     "actual": null
@@ -4481,15 +4481,15 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Indianapolis Colts": -198,
-        "Tennessee Titans": 164
+        "Indianapolis Colts": -290,
+        "Tennessee Titans": 235
       },
       "spread": {
-        "Indianapolis Colts": -3.5,
-        "Tennessee Titans": 3.5
+        "Indianapolis Colts": -6.5,
+        "Tennessee Titans": 6.5
       },
-      "total": 48.0,
-      "num_bookmakers": 2
+      "total": 44.5,
+      "bookmaker": "DraftKings"
     },
     "prediction": null,
     "actual": null
@@ -4506,15 +4506,15 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "New England Patriots": -440,
-        "New York Jets": 340
+        "New England Patriots": -340,
+        "New York Jets": 270
       },
       "spread": {
-        "New England Patriots": -9.5,
-        "New York Jets": 9.5
+        "New England Patriots": -7.0,
+        "New York Jets": 7.0
       },
-      "total": 42.5,
-      "num_bookmakers": 1
+      "total": 43.5,
+      "bookmaker": "DraftKings"
     },
     "prediction": null,
     "actual": null
@@ -4531,15 +4531,15 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "New Orleans Saints": 120,
-        "New York Giants": -142
+        "New Orleans Saints": -118,
+        "New York Giants": -102
       },
       "spread": {
-        "New Orleans Saints": 2.5,
-        "New York Giants": -2.5
+        "New Orleans Saints": -1.5,
+        "New York Giants": 1.5
       },
-      "total": 45.0,
-      "num_bookmakers": 2
+      "total": 45.5,
+      "bookmaker": "DraftKings"
     },
     "prediction": null,
     "actual": null
@@ -4581,15 +4581,15 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Arizona Cardinals": 525,
-        "Los Angeles Rams": -750
+        "Arizona Cardinals": 455,
+        "Los Angeles Rams": -625
       },
       "spread": {
-        "Arizona Cardinals": 13.5,
-        "Los Angeles Rams": -13.5
+        "Arizona Cardinals": 10.5,
+        "Los Angeles Rams": -10.5
       },
-      "total": 47.5,
-      "num_bookmakers": 1
+      "total": 51.5,
+      "bookmaker": "DraftKings"
     },
     "prediction": null,
     "actual": null
@@ -4606,15 +4606,15 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Buffalo Bills": -270,
-        "Las Vegas Raiders": 220
+        "Buffalo Bills": -225,
+        "Las Vegas Raiders": 185
       },
       "spread": {
-        "Buffalo Bills": -6.5,
-        "Las Vegas Raiders": 6.5
+        "Buffalo Bills": -4.5,
+        "Las Vegas Raiders": 4.5
       },
-      "total": 47.5,
-      "num_bookmakers": 1
+      "total": 51.5,
+      "bookmaker": "DraftKings"
     },
     "prediction": null,
     "actual": null
@@ -4631,15 +4631,15 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Kansas City Chiefs": -142,
-        "Los Angeles Chargers": 120
+        "Kansas City Chiefs": -395,
+        "Los Angeles Chargers": 310
       },
       "spread": {
-        "Kansas City Chiefs": -2.5,
-        "Los Angeles Chargers": 2.5
+        "Kansas City Chiefs": -7.5,
+        "Los Angeles Chargers": 7.5
       },
-      "total": 46.5,
-      "num_bookmakers": 2
+      "total": 45.5,
+      "bookmaker": "DraftKings"
     },
     "prediction": null,
     "actual": null
@@ -4681,15 +4681,15 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "San Francisco 49ers": -245,
-        "Washington Commanders": 200
+        "San Francisco 49ers": -425,
+        "Washington Commanders": 330
       },
       "spread": {
-        "San Francisco 49ers": -5.5,
-        "Washington Commanders": 5.5
+        "San Francisco 49ers": -7.5,
+        "Washington Commanders": 7.5
       },
       "total": 50.5,
-      "num_bookmakers": 2
+      "bookmaker": "DraftKings"
     },
     "prediction": null,
     "actual": null
@@ -17280,15 +17280,15 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Clemson Tigers": 260,
-        "Miami Hurricanes": -325
+        "Clemson Tigers": 574,
+        "Miami Hurricanes": -856
       },
       "spread": {
-        "Clemson Tigers": 7.0,
-        "Miami Hurricanes": -7.0
+        "Clemson Tigers": 16.5,
+        "Miami Hurricanes": -16.5
       },
-      "total": 55.5,
-      "num_bookmakers": 1
+      "total": 47.5,
+      "num_bookmakers": 9
     },
     "prediction": null,
     "actual": null
@@ -17305,15 +17305,15 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "North Carolina Tar Heels": 1090,
-        "Notre Dame Fighting Irish": -2715
+        "North Carolina Tar Heels": 1063,
+        "Notre Dame Fighting Irish": -2458
       },
       "spread": {
-        "North Carolina Tar Heels": 24.5,
-        "Notre Dame Fighting Irish": -24.5
+        "North Carolina Tar Heels": 22.0,
+        "Notre Dame Fighting Irish": -22.0
       },
-      "total": 55.5,
-      "num_bookmakers": 2
+      "total": 46.5,
+      "num_bookmakers": 9
     },
     "prediction": null,
     "actual": null
@@ -17330,15 +17330,15 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Alabama Crimson Tide": 117,
-        "Georgia Bulldogs": -144
+        "Alabama Crimson Tide": -125,
+        "Georgia Bulldogs": 105
       },
       "spread": {
-        "Alabama Crimson Tide": 2.7,
-        "Georgia Bulldogs": -2.7
+        "Alabama Crimson Tide": -2.5,
+        "Georgia Bulldogs": 2.5
       },
-      "total": 50.0,
-      "num_bookmakers": 3
+      "total": 51.5,
+      "bookmaker": "DraftKings"
     },
     "prediction": null,
     "actual": null
@@ -17380,15 +17380,15 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Penn State Nittany Lions": -122,
-        "USC Trojans": 102
+        "Penn State Nittany Lions": -125,
+        "USC Trojans": 105
       },
       "spread": {
-        "Penn State Nittany Lions": -1.5,
-        "USC Trojans": 1.5
+        "Penn State Nittany Lions": -2.5,
+        "USC Trojans": 2.5
       },
-      "total": 56.5,
-      "num_bookmakers": 1
+      "total": 54.5,
+      "bookmaker": "DraftKings"
     },
     "prediction": null,
     "actual": null
@@ -17405,15 +17405,15 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Alabama Crimson Tide": -120,
-        "Tennessee Volunteers": 100
+        "Alabama Crimson Tide": -192,
+        "Tennessee Volunteers": 160
       },
       "spread": {
-        "Alabama Crimson Tide": -1.5,
-        "Tennessee Volunteers": 1.5
+        "Alabama Crimson Tide": -4.5,
+        "Tennessee Volunteers": 4.5
       },
       "total": 56.5,
-      "num_bookmakers": 1
+      "bookmaker": "DraftKings"
     },
     "prediction": null,
     "actual": null
@@ -17430,15 +17430,15 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Auburn Tigers": 750,
-        "Georgia Bulldogs": -1200
+        "Auburn Tigers": 850,
+        "Georgia Bulldogs": -1450
       },
       "spread": {
-        "Auburn Tigers": 16.5,
-        "Georgia Bulldogs": -16.5
+        "Auburn Tigers": 18.5,
+        "Georgia Bulldogs": -18.5
       },
-      "total": 54.5,
-      "num_bookmakers": 1
+      "total": 49.5,
+      "bookmaker": "DraftKings"
     },
     "prediction": null,
     "actual": null
@@ -17455,15 +17455,15 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "BYU Cougars": 340,
-        "Notre Dame Fighting Irish": -440
+        "BYU Cougars": 410,
+        "Notre Dame Fighting Irish": -550
       },
       "spread": {
-        "BYU Cougars": 10.0,
-        "Notre Dame Fighting Irish": -10.0
+        "BYU Cougars": 12.5,
+        "Notre Dame Fighting Irish": -12.5
       },
-      "total": 54.5,
-      "num_bookmakers": 1
+      "total": 48.5,
+      "bookmaker": "DraftKings"
     },
     "prediction": null,
     "actual": null
@@ -17480,15 +17480,15 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Indiana Hoosiers": -105,
-        "Ohio State Buckeyes": -117
+        "Indiana Hoosiers": 120,
+        "Ohio State Buckeyes": -142
       },
       "spread": {
-        "Indiana Hoosiers": 0.5,
-        "Ohio State Buckeyes": -0.5
+        "Indiana Hoosiers": 2.5,
+        "Ohio State Buckeyes": -2.5
       },
       "total": 48.5,
-      "num_bookmakers": 3
+      "bookmaker": "DraftKings"
     },
     "prediction": null,
     "actual": null
@@ -32000,40 +32000,15 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Oklahoma Sooners": 184,
-        "Texas Longhorns": -230
+        "Oklahoma Sooners": 260,
+        "Texas Longhorns": -325
       },
       "spread": {
-        "Oklahoma Sooners": 6.5,
-        "Texas Longhorns": -6.5
+        "Oklahoma Sooners": 7.5,
+        "Texas Longhorns": -7.5
       },
-      "total": 48.0,
-      "num_bookmakers": 2
-    },
-    "prediction": null,
-    "actual": null
-  },
-  "americanfootball_ncaaf_2026-10-11_georgia-bulldogs_at_alabama-crimson-tide": {
-    "league": "NCAAF",
-    "sport_key": "americanfootball_ncaaf",
-    "home_team": "Alabama Crimson Tide",
-    "away_team": "Georgia Bulldogs",
-    "commence_time": "2026-10-11T00:00:00Z",
-    "espn_sport": "football",
-    "espn_league": "college-football",
-    "outdoor": true,
-    "status": "scheduled",
-    "odds": {
-      "moneyline": {
-        "Alabama Crimson Tide": 126,
-        "Georgia Bulldogs": -154
-      },
-      "spread": {
-        "Alabama Crimson Tide": 2.8,
-        "Georgia Bulldogs": -2.8
-      },
-      "total": 49.7,
-      "num_bookmakers": 3
+      "total": 39.5,
+      "bookmaker": "DraftKings"
     },
     "prediction": null,
     "actual": null
@@ -32050,15 +32025,15 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Kansas Jayhawks": 235,
-        "Kansas State Wildcats": -290
+        "Kansas Jayhawks": 275,
+        "Kansas State Wildcats": -345
       },
       "spread": {
-        "Kansas Jayhawks": 7.5,
-        "Kansas State Wildcats": -7.5
+        "Kansas Jayhawks": 9.5,
+        "Kansas State Wildcats": -9.5
       },
-      "total": 54.5,
-      "num_bookmakers": 1
+      "total": 55.5,
+      "bookmaker": "DraftKings"
     },
     "prediction": null,
     "actual": null
@@ -32075,15 +32050,15 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Michigan Wolverines": -270,
-        "Penn State Nittany Lions": 220
+        "Michigan Wolverines": -218,
+        "Penn State Nittany Lions": 180
       },
       "spread": {
-        "Michigan Wolverines": -6.5,
-        "Penn State Nittany Lions": 6.5
+        "Michigan Wolverines": -5.5,
+        "Penn State Nittany Lions": 5.5
       },
-      "total": 51.5,
-      "num_bookmakers": 1
+      "total": 43.5,
+      "bookmaker": "DraftKings"
     },
     "prediction": null,
     "actual": null
@@ -32100,15 +32075,15 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Nebraska Cornhuskers": 1500,
-        "Oregon Ducks": -3600
+        "Nebraska Cornhuskers": 390,
+        "Oregon Ducks": -520
       },
       "spread": {
-        "Nebraska Cornhuskers": 21.5,
-        "Oregon Ducks": -21.5
+        "Nebraska Cornhuskers": 12.5,
+        "Oregon Ducks": -12.5
       },
-      "total": 51.5,
-      "num_bookmakers": 1
+      "total": 58.5,
+      "bookmaker": "DraftKings"
     },
     "prediction": null,
     "actual": null
@@ -45282,6 +45257,3291 @@
         "num_bookmakers": 9
       }
     },
+    "actual": null
+  },
+  "americanfootball_ncaaf_2026-10-02_western-kentucky-hilltoppers_at_new-mexico-state-aggies": {
+    "league": "NCAAF",
+    "sport_key": "americanfootball_ncaaf",
+    "home_team": "New Mexico State Aggies",
+    "away_team": "Western Kentucky Hilltoppers",
+    "commence_time": "2026-10-02T00:00:00Z",
+    "espn_sport": "football",
+    "espn_league": "college-football",
+    "outdoor": true,
+    "status": "scheduled",
+    "odds": {
+      "moneyline": {
+        "New Mexico State Aggies": -238,
+        "Western Kentucky Hilltoppers": 175
+      },
+      "spread": {
+        "New Mexico State Aggies": -5.0,
+        "Western Kentucky Hilltoppers": 5.0
+      },
+      "total": 49.5,
+      "num_bookmakers": 5
+    },
+    "prediction": null,
+    "actual": null
+  },
+  "americanfootball_ncaaf_2026-10-02_north-texas-mean-green_at_tulsa-golden-hurricane": {
+    "league": "NCAAF",
+    "sport_key": "americanfootball_ncaaf",
+    "home_team": "Tulsa Golden Hurricane",
+    "away_team": "North Texas Mean Green",
+    "commence_time": "2026-10-02T01:05:00Z",
+    "espn_sport": "football",
+    "espn_league": "college-football",
+    "outdoor": true,
+    "status": "scheduled",
+    "odds": {
+      "moneyline": {
+        "North Texas Mean Green": -151,
+        "Tulsa Golden Hurricane": 127
+      },
+      "spread": {
+        "North Texas Mean Green": -3.0,
+        "Tulsa Golden Hurricane": 3.0
+      },
+      "total": 57.0,
+      "num_bookmakers": 9
+    },
+    "prediction": null,
+    "actual": null
+  },
+  "americanfootball_ncaaf_2026-10-02_liberty-flames_at_delaware-blue-hens": {
+    "league": "NCAAF",
+    "sport_key": "americanfootball_ncaaf",
+    "home_team": "Delaware Blue Hens",
+    "away_team": "Liberty Flames",
+    "commence_time": "2026-10-02T23:00:00Z",
+    "espn_sport": "football",
+    "espn_league": "college-football",
+    "outdoor": true,
+    "status": "scheduled",
+    "odds": {
+      "moneyline": {
+        "Delaware Blue Hens": 213,
+        "Liberty Flames": -262
+      },
+      "spread": {
+        "Delaware Blue Hens": 7.0,
+        "Liberty Flames": -7.0
+      },
+      "total": 50.0,
+      "num_bookmakers": 9
+    },
+    "prediction": null,
+    "actual": null
+  },
+  "americanfootball_ncaaf_2026-10-02_pittsburgh-panthers_at_virginia-tech-hokies": {
+    "league": "NCAAF",
+    "sport_key": "americanfootball_ncaaf",
+    "home_team": "Virginia Tech Hokies",
+    "away_team": "Pittsburgh Panthers",
+    "commence_time": "2026-10-02T23:00:00Z",
+    "espn_sport": "football",
+    "espn_league": "college-football",
+    "outdoor": true,
+    "status": "scheduled",
+    "odds": {
+      "moneyline": {
+        "Pittsburgh Panthers": 118,
+        "Virginia Tech Hokies": -141
+      },
+      "spread": {
+        "Pittsburgh Panthers": 2.5,
+        "Virginia Tech Hokies": -2.5
+      },
+      "total": 54.5,
+      "num_bookmakers": 9
+    },
+    "prediction": null,
+    "actual": null
+  },
+  "americanfootball_ncaaf_2026-10-03_penn-state-nittany-lions_at_northwestern-wildcats": {
+    "league": "NCAAF",
+    "sport_key": "americanfootball_ncaaf",
+    "home_team": "Northwestern Wildcats",
+    "away_team": "Penn State Nittany Lions",
+    "commence_time": "2026-10-03T00:00:00Z",
+    "espn_sport": "football",
+    "espn_league": "college-football",
+    "outdoor": true,
+    "status": "scheduled",
+    "odds": {
+      "moneyline": {
+        "Northwestern Wildcats": 121,
+        "Penn State Nittany Lions": -144
+      },
+      "spread": {
+        "Northwestern Wildcats": 2.5,
+        "Penn State Nittany Lions": -2.5
+      },
+      "total": 45.5,
+      "num_bookmakers": 9
+    },
+    "prediction": null,
+    "actual": null
+  },
+  "americanfootball_ncaaf_2026-10-03_memphis-tigers_at_charlotte-49ers": {
+    "league": "NCAAF",
+    "sport_key": "americanfootball_ncaaf",
+    "home_team": "Charlotte 49ers",
+    "away_team": "Memphis Tigers",
+    "commence_time": "2026-10-03T15:00:00Z",
+    "espn_sport": "football",
+    "espn_league": "college-football",
+    "outdoor": true,
+    "status": "scheduled",
+    "odds": {
+      "moneyline": {
+        "Charlotte 49ers": 871,
+        "Memphis Tigers": -1655
+      },
+      "spread": {
+        "Charlotte 49ers": 20.5,
+        "Memphis Tigers": -20.5
+      },
+      "total": 52.0,
+      "num_bookmakers": 9
+    },
+    "prediction": null,
+    "actual": null
+  },
+  "americanfootball_ncaaf_2026-10-03_navy-midshipmen_at_air-force-falcons": {
+    "league": "NCAAF",
+    "sport_key": "americanfootball_ncaaf",
+    "home_team": "Air Force Falcons",
+    "away_team": "Navy Midshipmen",
+    "commence_time": "2026-10-03T16:00:00Z",
+    "espn_sport": "football",
+    "espn_league": "college-football",
+    "outdoor": true,
+    "status": "scheduled",
+    "odds": {
+      "moneyline": {
+        "Air Force Falcons": -165,
+        "Navy Midshipmen": 138
+      },
+      "spread": {
+        "Air Force Falcons": -3.5,
+        "Navy Midshipmen": 3.5
+      },
+      "total": 46.0,
+      "num_bookmakers": 9
+    },
+    "prediction": null,
+    "actual": null
+  },
+  "americanfootball_ncaaf_2026-10-03_alabama-crimson-tide_at_mississippi-state-bulldogs": {
+    "league": "NCAAF",
+    "sport_key": "americanfootball_ncaaf",
+    "home_team": "Mississippi State Bulldogs",
+    "away_team": "Alabama Crimson Tide",
+    "commence_time": "2026-10-03T16:00:00Z",
+    "espn_sport": "football",
+    "espn_league": "college-football",
+    "outdoor": true,
+    "status": "scheduled",
+    "odds": {
+      "moneyline": {
+        "Alabama Crimson Tide": -223,
+        "Mississippi State Bulldogs": 183
+      },
+      "spread": {
+        "Alabama Crimson Tide": -5.5,
+        "Mississippi State Bulldogs": 5.5
+      },
+      "total": 60.5,
+      "num_bookmakers": 9
+    },
+    "prediction": null,
+    "actual": null
+  },
+  "americanfootball_ncaaf_2026-10-03_boston-college-eagles_at_smu-mustangs": {
+    "league": "NCAAF",
+    "sport_key": "americanfootball_ncaaf",
+    "home_team": "SMU Mustangs",
+    "away_team": "Boston College Eagles",
+    "commence_time": "2026-10-03T16:00:00Z",
+    "espn_sport": "football",
+    "espn_league": "college-football",
+    "outdoor": true,
+    "status": "scheduled",
+    "odds": {
+      "moneyline": {
+        "Boston College Eagles": 966,
+        "SMU Mustangs": -1891
+      },
+      "spread": {
+        "Boston College Eagles": 21.5,
+        "SMU Mustangs": -21.5
+      },
+      "total": 55.5,
+      "num_bookmakers": 9
+    },
+    "prediction": null,
+    "actual": null
+  },
+  "americanfootball_ncaaf_2026-10-03_ucf-knights_at_houston-cougars": {
+    "league": "NCAAF",
+    "sport_key": "americanfootball_ncaaf",
+    "home_team": "Houston Cougars",
+    "away_team": "UCF Knights",
+    "commence_time": "2026-10-03T16:00:00Z",
+    "espn_sport": "football",
+    "espn_league": "college-football",
+    "outdoor": true,
+    "status": "scheduled",
+    "odds": {
+      "moneyline": {
+        "Houston Cougars": -443,
+        "UCF Knights": 335
+      },
+      "spread": {
+        "Houston Cougars": -11.5,
+        "UCF Knights": 11.5
+      },
+      "total": 51.5,
+      "num_bookmakers": 9
+    },
+    "prediction": null,
+    "actual": null
+  },
+  "americanfootball_ncaaf_2026-10-03_west-virginia-mountaineers_at_iowa-state-cyclones": {
+    "league": "NCAAF",
+    "sport_key": "americanfootball_ncaaf",
+    "home_team": "Iowa State Cyclones",
+    "away_team": "West Virginia Mountaineers",
+    "commence_time": "2026-10-03T16:00:00Z",
+    "espn_sport": "football",
+    "espn_league": "college-football",
+    "outdoor": true,
+    "status": "scheduled",
+    "odds": {
+      "moneyline": {
+        "Iowa State Cyclones": -159,
+        "West Virginia Mountaineers": 133
+      },
+      "spread": {
+        "Iowa State Cyclones": -3.0,
+        "West Virginia Mountaineers": 3.0
+      },
+      "total": 53.0,
+      "num_bookmakers": 9
+    },
+    "prediction": null,
+    "actual": null
+  },
+  "americanfootball_ncaaf_2026-10-03_middle-tennessee-blue-raiders_at_kansas-jayhawks": {
+    "league": "NCAAF",
+    "sport_key": "americanfootball_ncaaf",
+    "home_team": "Kansas Jayhawks",
+    "away_team": "Middle Tennessee Blue Raiders",
+    "commence_time": "2026-10-03T16:00:00Z",
+    "espn_sport": "football",
+    "espn_league": "college-football",
+    "outdoor": true,
+    "status": "scheduled",
+    "odds": {
+      "moneyline": {
+        "Kansas Jayhawks": -1603,
+        "Middle Tennessee Blue Raiders": 844
+      },
+      "spread": {
+        "Kansas Jayhawks": -19.5,
+        "Middle Tennessee Blue Raiders": 19.5
+      },
+      "total": 50.5,
+      "num_bookmakers": 9
+    },
+    "prediction": null,
+    "actual": null
+  },
+  "americanfootball_ncaaf_2026-10-03_michigan-wolverines_at_minnesota-golden-gophers": {
+    "league": "NCAAF",
+    "sport_key": "americanfootball_ncaaf",
+    "home_team": "Minnesota Golden Gophers",
+    "away_team": "Michigan Wolverines",
+    "commence_time": "2026-10-03T16:00:00Z",
+    "espn_sport": "football",
+    "espn_league": "college-football",
+    "outdoor": true,
+    "status": "scheduled",
+    "odds": {
+      "moneyline": {
+        "Michigan Wolverines": -220,
+        "Minnesota Golden Gophers": 181
+      },
+      "spread": {
+        "Michigan Wolverines": -5.5,
+        "Minnesota Golden Gophers": 5.5
+      },
+      "total": 43.0,
+      "num_bookmakers": 9
+    },
+    "prediction": null,
+    "actual": null
+  },
+  "americanfootball_ncaaf_2026-10-03_stanford-cardinal_at_wake-forest-demon-deacons": {
+    "league": "NCAAF",
+    "sport_key": "americanfootball_ncaaf",
+    "home_team": "Wake Forest Demon Deacons",
+    "away_team": "Stanford Cardinal",
+    "commence_time": "2026-10-03T16:00:00Z",
+    "espn_sport": "football",
+    "espn_league": "college-football",
+    "outdoor": true,
+    "status": "scheduled",
+    "odds": {
+      "moneyline": {
+        "Stanford Cardinal": 443,
+        "Wake Forest Demon Deacons": -612
+      },
+      "spread": {
+        "Stanford Cardinal": 14.0,
+        "Wake Forest Demon Deacons": -14.0
+      },
+      "total": 53.5,
+      "num_bookmakers": 9
+    },
+    "prediction": null,
+    "actual": null
+  },
+  "americanfootball_ncaaf_2026-10-03_syracuse-orange_at_uconn-huskies": {
+    "league": "NCAAF",
+    "sport_key": "americanfootball_ncaaf",
+    "home_team": "UConn Huskies",
+    "away_team": "Syracuse Orange",
+    "commence_time": "2026-10-03T16:00:00Z",
+    "espn_sport": "football",
+    "espn_league": "college-football",
+    "outdoor": true,
+    "status": "scheduled",
+    "odds": {
+      "moneyline": {
+        "Syracuse Orange": -266,
+        "UConn Huskies": 216
+      },
+      "spread": {
+        "Syracuse Orange": -7.0,
+        "UConn Huskies": 7.0
+      },
+      "total": 50.5,
+      "num_bookmakers": 9
+    },
+    "prediction": null,
+    "actual": null
+  },
+  "americanfootball_ncaaf_2026-10-03_michigan-state-spartans_at_wisconsin-badgers": {
+    "league": "NCAAF",
+    "sport_key": "americanfootball_ncaaf",
+    "home_team": "Wisconsin Badgers",
+    "away_team": "Michigan State Spartans",
+    "commence_time": "2026-10-03T16:30:00Z",
+    "espn_sport": "football",
+    "espn_league": "college-football",
+    "outdoor": true,
+    "status": "scheduled",
+    "odds": {
+      "moneyline": {
+        "Michigan State Spartans": 307,
+        "Wisconsin Badgers": -394
+      },
+      "spread": {
+        "Michigan State Spartans": 10.0,
+        "Wisconsin Badgers": -10.0
+      },
+      "total": 43.5,
+      "num_bookmakers": 9
+    },
+    "prediction": null,
+    "actual": null
+  },
+  "americanfootball_ncaaf_2026-10-03_vanderbilt-commodores_at_georgia-bulldogs": {
+    "league": "NCAAF",
+    "sport_key": "americanfootball_ncaaf",
+    "home_team": "Georgia Bulldogs",
+    "away_team": "Vanderbilt Commodores",
+    "commence_time": "2026-10-03T16:45:00Z",
+    "espn_sport": "football",
+    "espn_league": "college-football",
+    "outdoor": true,
+    "status": "scheduled",
+    "odds": {
+      "moneyline": {
+        "Georgia Bulldogs": -4755,
+        "Vanderbilt Commodores": 1344
+      },
+      "spread": {
+        "Georgia Bulldogs": -25.0,
+        "Vanderbilt Commodores": 25.0
+      },
+      "total": 50.5,
+      "num_bookmakers": 9
+    },
+    "prediction": null,
+    "actual": null
+  },
+  "americanfootball_ncaaf_2026-10-03_western-michigan-broncos_at_buffalo-bulls": {
+    "league": "NCAAF",
+    "sport_key": "americanfootball_ncaaf",
+    "home_team": "Buffalo Bulls",
+    "away_team": "Western Michigan Broncos",
+    "commence_time": "2026-10-03T17:00:00Z",
+    "espn_sport": "football",
+    "espn_league": "college-football",
+    "outdoor": true,
+    "status": "scheduled",
+    "odds": {
+      "moneyline": {
+        "Buffalo Bulls": 468,
+        "Western Michigan Broncos": -669
+      },
+      "spread": {
+        "Buffalo Bulls": 14.0,
+        "Western Michigan Broncos": -14.0
+      },
+      "total": 46.0,
+      "num_bookmakers": 9
+    },
+    "prediction": null,
+    "actual": null
+  },
+  "americanfootball_ncaaf_2026-10-03_toledo-rockets_at_ball-state-cardinals": {
+    "league": "NCAAF",
+    "sport_key": "americanfootball_ncaaf",
+    "home_team": "Ball State Cardinals",
+    "away_team": "Toledo Rockets",
+    "commence_time": "2026-10-03T18:00:00Z",
+    "espn_sport": "football",
+    "espn_league": "college-football",
+    "outdoor": true,
+    "status": "scheduled",
+    "odds": {
+      "moneyline": {
+        "Ball State Cardinals": 848,
+        "Toledo Rockets": -1570
+      },
+      "spread": {
+        "Ball State Cardinals": 20.5,
+        "Toledo Rockets": -20.5
+      },
+      "total": 52.0,
+      "num_bookmakers": 9
+    },
+    "prediction": null,
+    "actual": null
+  },
+  "americanfootball_ncaaf_2026-10-03_akron-zips_at_central-michigan-chippewas": {
+    "league": "NCAAF",
+    "sport_key": "americanfootball_ncaaf",
+    "home_team": "Central Michigan Chippewas",
+    "away_team": "Akron Zips",
+    "commence_time": "2026-10-03T19:30:00Z",
+    "espn_sport": "football",
+    "espn_league": "college-football",
+    "outdoor": true,
+    "status": "scheduled",
+    "odds": {
+      "moneyline": {
+        "Akron Zips": 202,
+        "Central Michigan Chippewas": -246
+      },
+      "spread": {
+        "Akron Zips": 6.5,
+        "Central Michigan Chippewas": -6.5
+      },
+      "total": 47.0,
+      "num_bookmakers": 9
+    },
+    "prediction": null,
+    "actual": null
+  },
+  "americanfootball_ncaaf_2026-10-03_auburn-tigers_at_tennessee-volunteers": {
+    "league": "NCAAF",
+    "sport_key": "americanfootball_ncaaf",
+    "home_team": "Tennessee Volunteers",
+    "away_team": "Auburn Tigers",
+    "commence_time": "2026-10-03T19:30:00Z",
+    "espn_sport": "football",
+    "espn_league": "college-football",
+    "outdoor": true,
+    "status": "scheduled",
+    "odds": {
+      "moneyline": {
+        "Auburn Tigers": 229,
+        "Tennessee Volunteers": -284
+      },
+      "spread": {
+        "Auburn Tigers": 7.0,
+        "Tennessee Volunteers": -7.0
+      },
+      "total": 54.0,
+      "num_bookmakers": 9
+    },
+    "prediction": null,
+    "actual": null
+  },
+  "americanfootball_ncaaf_2026-10-03_bowling-green-falcons_at_miami-(oh)-redhawks": {
+    "league": "NCAAF",
+    "sport_key": "americanfootball_ncaaf",
+    "home_team": "Miami (OH) RedHawks",
+    "away_team": "Bowling Green Falcons",
+    "commence_time": "2026-10-03T19:30:00Z",
+    "espn_sport": "football",
+    "espn_league": "college-football",
+    "outdoor": true,
+    "status": "scheduled",
+    "odds": {
+      "moneyline": {
+        "Bowling Green Falcons": 441,
+        "Miami (OH) RedHawks": -618
+      },
+      "spread": {
+        "Bowling Green Falcons": 13.5,
+        "Miami (OH) RedHawks": -13.5
+      },
+      "total": 43.0,
+      "num_bookmakers": 9
+    },
+    "prediction": null,
+    "actual": null
+  },
+  "americanfootball_ncaaf_2026-10-03_california-golden-bears_at_unlv-rebels": {
+    "league": "NCAAF",
+    "sport_key": "americanfootball_ncaaf",
+    "home_team": "UNLV Rebels",
+    "away_team": "California Golden Bears",
+    "commence_time": "2026-10-03T19:30:00Z",
+    "espn_sport": "football",
+    "espn_league": "college-football",
+    "outdoor": true,
+    "status": "scheduled",
+    "odds": {
+      "moneyline": {
+        "California Golden Bears": 119,
+        "UNLV Rebels": -142
+      },
+      "spread": {
+        "California Golden Bears": 2.5,
+        "UNLV Rebels": -2.5
+      },
+      "total": 53.5,
+      "num_bookmakers": 9
+    },
+    "prediction": null,
+    "actual": null
+  },
+  "americanfootball_ncaaf_2026-10-03_eastern-michigan-eagles_at_umass-minutemen": {
+    "league": "NCAAF",
+    "sport_key": "americanfootball_ncaaf",
+    "home_team": "UMass Minutemen",
+    "away_team": "Eastern Michigan Eagles",
+    "commence_time": "2026-10-03T19:30:00Z",
+    "espn_sport": "football",
+    "espn_league": "college-football",
+    "outdoor": true,
+    "status": "scheduled",
+    "odds": {
+      "moneyline": {
+        "Eastern Michigan Eagles": 182,
+        "UMass Minutemen": -222
+      },
+      "spread": {
+        "Eastern Michigan Eagles": 6.0,
+        "UMass Minutemen": -6.0
+      },
+      "total": 48.5,
+      "num_bookmakers": 9
+    },
+    "prediction": null,
+    "actual": null
+  },
+  "americanfootball_ncaaf_2026-10-03_florida-gators_at_missouri-tigers": {
+    "league": "NCAAF",
+    "sport_key": "americanfootball_ncaaf",
+    "home_team": "Missouri Tigers",
+    "away_team": "Florida Gators",
+    "commence_time": "2026-10-03T19:30:00Z",
+    "espn_sport": "football",
+    "espn_league": "college-football",
+    "outdoor": true,
+    "status": "scheduled",
+    "odds": {
+      "moneyline": {
+        "Florida Gators": -220,
+        "Missouri Tigers": 181
+      },
+      "spread": {
+        "Florida Gators": -5.5,
+        "Missouri Tigers": 5.5
+      },
+      "total": 57.5,
+      "num_bookmakers": 9
+    },
+    "prediction": null,
+    "actual": null
+  },
+  "americanfootball_ncaaf_2026-10-03_virginia-cavaliers_at_florida-state-seminoles": {
+    "league": "NCAAF",
+    "sport_key": "americanfootball_ncaaf",
+    "home_team": "Florida State Seminoles",
+    "away_team": "Virginia Cavaliers",
+    "commence_time": "2026-10-03T19:30:00Z",
+    "espn_sport": "football",
+    "espn_league": "college-football",
+    "outdoor": true,
+    "status": "scheduled",
+    "odds": {
+      "moneyline": {
+        "Florida State Seminoles": 119,
+        "Virginia Cavaliers": -142
+      },
+      "spread": {
+        "Florida State Seminoles": 2.5,
+        "Virginia Cavaliers": -2.5
+      },
+      "total": 51.5,
+      "num_bookmakers": 9
+    },
+    "prediction": null,
+    "actual": null
+  },
+  "americanfootball_ncaaf_2026-10-03_old-dominion-monarchs_at_georgia-state-panthers": {
+    "league": "NCAAF",
+    "sport_key": "americanfootball_ncaaf",
+    "home_team": "Georgia State Panthers",
+    "away_team": "Old Dominion Monarchs",
+    "commence_time": "2026-10-03T19:30:00Z",
+    "espn_sport": "football",
+    "espn_league": "college-football",
+    "outdoor": true,
+    "status": "scheduled",
+    "odds": {
+      "moneyline": {
+        "Georgia State Panthers": -134,
+        "Old Dominion Monarchs": 112
+      },
+      "spread": {
+        "Georgia State Panthers": -2.5,
+        "Old Dominion Monarchs": 2.5
+      },
+      "total": 51.5,
+      "num_bookmakers": 9
+    },
+    "prediction": null,
+    "actual": null
+  },
+  "americanfootball_ncaaf_2026-10-03_ohio-state-buckeyes_at_iowa-hawkeyes": {
+    "league": "NCAAF",
+    "sport_key": "americanfootball_ncaaf",
+    "home_team": "Iowa Hawkeyes",
+    "away_team": "Ohio State Buckeyes",
+    "commence_time": "2026-10-03T19:30:00Z",
+    "espn_sport": "football",
+    "espn_league": "college-football",
+    "outdoor": true,
+    "status": "scheduled",
+    "odds": {
+      "moneyline": {
+        "Iowa Hawkeyes": 466,
+        "Ohio State Buckeyes": -660
+      },
+      "spread": {
+        "Iowa Hawkeyes": 14.5,
+        "Ohio State Buckeyes": -14.5
+      },
+      "total": 45.5,
+      "num_bookmakers": 9
+    },
+    "prediction": null,
+    "actual": null
+  },
+  "americanfootball_ncaaf_2026-10-03_ohio-bobcats_at_kent-state-golden-flashes": {
+    "league": "NCAAF",
+    "sport_key": "americanfootball_ncaaf",
+    "home_team": "Kent State Golden Flashes",
+    "away_team": "Ohio Bobcats",
+    "commence_time": "2026-10-03T19:30:00Z",
+    "espn_sport": "football",
+    "espn_league": "college-football",
+    "outdoor": true,
+    "status": "scheduled",
+    "odds": {
+      "moneyline": {
+        "Kent State Golden Flashes": 144,
+        "Ohio Bobcats": -171
+      },
+      "spread": {
+        "Kent State Golden Flashes": 3.5,
+        "Ohio Bobcats": -3.5
+      },
+      "total": 50.5,
+      "num_bookmakers": 9
+    },
+    "prediction": null,
+    "actual": null
+  },
+  "americanfootball_ncaaf_2026-10-03_louisville-cardinals_at_nc-state-wolfpack": {
+    "league": "NCAAF",
+    "sport_key": "americanfootball_ncaaf",
+    "home_team": "NC State Wolfpack",
+    "away_team": "Louisville Cardinals",
+    "commence_time": "2026-10-03T19:30:00Z",
+    "espn_sport": "football",
+    "espn_league": "college-football",
+    "outdoor": true,
+    "status": "scheduled",
+    "odds": {
+      "moneyline": {
+        "Louisville Cardinals": -179,
+        "NC State Wolfpack": 150
+      },
+      "spread": {
+        "Louisville Cardinals": -3.5,
+        "NC State Wolfpack": 3.5
+      },
+      "total": 58.0,
+      "num_bookmakers": 9
+    },
+    "prediction": null,
+    "actual": null
+  },
+  "americanfootball_ncaaf_2026-10-03_wyoming-cowboys_at_north-dakota-state-bison": {
+    "league": "NCAAF",
+    "sport_key": "americanfootball_ncaaf",
+    "home_team": "North Dakota State Bison",
+    "away_team": "Wyoming Cowboys",
+    "commence_time": "2026-10-03T19:30:00Z",
+    "espn_sport": "football",
+    "espn_league": "college-football",
+    "outdoor": true,
+    "status": "scheduled",
+    "odds": {
+      "moneyline": {
+        "North Dakota State Bison": -1230,
+        "Wyoming Cowboys": 734
+      },
+      "spread": {
+        "North Dakota State Bison": -17.5,
+        "Wyoming Cowboys": 17.5
+      },
+      "total": 45.0,
+      "num_bookmakers": 9
+    },
+    "prediction": null,
+    "actual": null
+  },
+  "americanfootball_ncaaf_2026-10-03_samford-bulldogs_at_uab-blazers": {
+    "league": "NCAAF",
+    "sport_key": "americanfootball_ncaaf",
+    "home_team": "UAB Blazers",
+    "away_team": "Samford Bulldogs",
+    "commence_time": "2026-10-03T19:30:00Z",
+    "espn_sport": "football",
+    "espn_league": "college-football",
+    "outdoor": true,
+    "status": "scheduled",
+    "odds": {
+      "moneyline": {
+        "Samford Bulldogs": 2200,
+        "UAB Blazers": -8000
+      },
+      "spread": {
+        "Samford Bulldogs": 30.5,
+        "UAB Blazers": -30.5
+      },
+      "total": 52.0,
+      "num_bookmakers": 5
+    },
+    "prediction": null,
+    "actual": null
+  },
+  "americanfootball_ncaaf_2026-10-03_marshall-thundering-herd_at_james-madison-dukes": {
+    "league": "NCAAF",
+    "sport_key": "americanfootball_ncaaf",
+    "home_team": "James Madison Dukes",
+    "away_team": "Marshall Thundering Herd",
+    "commence_time": "2026-10-03T19:45:00Z",
+    "espn_sport": "football",
+    "espn_league": "college-football",
+    "outdoor": true,
+    "status": "scheduled",
+    "odds": {
+      "moneyline": {
+        "James Madison Dukes": -1257,
+        "Marshall Thundering Herd": 736
+      },
+      "spread": {
+        "James Madison Dukes": -19.0,
+        "Marshall Thundering Herd": 19.0
+      },
+      "total": 56.5,
+      "num_bookmakers": 9
+    },
+    "prediction": null,
+    "actual": null
+  },
+  "americanfootball_ncaaf_2026-10-03_maryland-terrapins_at_nebraska-cornhuskers": {
+    "league": "NCAAF",
+    "sport_key": "americanfootball_ncaaf",
+    "home_team": "Nebraska Cornhuskers",
+    "away_team": "Maryland Terrapins",
+    "commence_time": "2026-10-03T20:00:00Z",
+    "espn_sport": "football",
+    "espn_league": "college-football",
+    "outdoor": true,
+    "status": "scheduled",
+    "odds": {
+      "moneyline": {
+        "Maryland Terrapins": 489,
+        "Nebraska Cornhuskers": -704
+      },
+      "spread": {
+        "Maryland Terrapins": 14.5,
+        "Nebraska Cornhuskers": -14.5
+      },
+      "total": 52.5,
+      "num_bookmakers": 9
+    },
+    "prediction": null,
+    "actual": null
+  },
+  "americanfootball_ncaaf_2026-10-03_utep-miners_at_new-mexico-lobos": {
+    "league": "NCAAF",
+    "sport_key": "americanfootball_ncaaf",
+    "home_team": "New Mexico Lobos",
+    "away_team": "UTEP Miners",
+    "commence_time": "2026-10-03T20:00:00Z",
+    "espn_sport": "football",
+    "espn_league": "college-football",
+    "outdoor": true,
+    "status": "scheduled",
+    "odds": {
+      "moneyline": {
+        "New Mexico Lobos": -2169,
+        "UTEP Miners": 1076
+      },
+      "spread": {
+        "New Mexico Lobos": -22.5,
+        "UTEP Miners": 22.5
+      },
+      "total": 48.0,
+      "num_bookmakers": 9
+    },
+    "prediction": null,
+    "actual": null
+  },
+  "americanfootball_ncaaf_2026-10-03_purdue-boilermakers_at_illinois-fighting-illini": {
+    "league": "NCAAF",
+    "sport_key": "americanfootball_ncaaf",
+    "home_team": "Illinois Fighting Illini",
+    "away_team": "Purdue Boilermakers",
+    "commence_time": "2026-10-03T20:15:00Z",
+    "espn_sport": "football",
+    "espn_league": "college-football",
+    "outdoor": true,
+    "status": "scheduled",
+    "odds": {
+      "moneyline": {
+        "Illinois Fighting Illini": -391,
+        "Purdue Boilermakers": 303
+      },
+      "spread": {
+        "Illinois Fighting Illini": -10.0,
+        "Purdue Boilermakers": 10.0
+      },
+      "total": 62.5,
+      "num_bookmakers": 9
+    },
+    "prediction": null,
+    "actual": null
+  },
+  "americanfootball_ncaaf_2026-10-03_kentucky-wildcats_at_south-carolina-gamecocks": {
+    "league": "NCAAF",
+    "sport_key": "americanfootball_ncaaf",
+    "home_team": "South Carolina Gamecocks",
+    "away_team": "Kentucky Wildcats",
+    "commence_time": "2026-10-03T20:15:00Z",
+    "espn_sport": "football",
+    "espn_league": "college-football",
+    "outdoor": true,
+    "status": "scheduled",
+    "odds": {
+      "moneyline": {
+        "Kentucky Wildcats": 133,
+        "South Carolina Gamecocks": -159
+      },
+      "spread": {
+        "Kentucky Wildcats": 3.0,
+        "South Carolina Gamecocks": -3.0
+      },
+      "total": 54.5,
+      "num_bookmakers": 9
+    },
+    "prediction": null,
+    "actual": null
+  },
+  "americanfootball_ncaaf_2026-10-03_oregon-state-beavers_at_colorado-state-rams": {
+    "league": "NCAAF",
+    "sport_key": "americanfootball_ncaaf",
+    "home_team": "Colorado State Rams",
+    "away_team": "Oregon State Beavers",
+    "commence_time": "2026-10-03T22:00:00Z",
+    "espn_sport": "football",
+    "espn_league": "college-football",
+    "outdoor": true,
+    "status": "scheduled",
+    "odds": {
+      "moneyline": {
+        "Colorado State Rams": 192,
+        "Oregon State Beavers": -233
+      },
+      "spread": {
+        "Colorado State Rams": 6.5,
+        "Oregon State Beavers": -6.5
+      },
+      "total": 62.0,
+      "num_bookmakers": 9
+    },
+    "prediction": null,
+    "actual": null
+  },
+  "americanfootball_ncaaf_2026-10-03_texas-southern-tigers_at_florida-atlantic-owls": {
+    "league": "NCAAF",
+    "sport_key": "americanfootball_ncaaf",
+    "home_team": "Florida Atlantic Owls",
+    "away_team": "Texas Southern Tigers",
+    "commence_time": "2026-10-03T22:00:00Z",
+    "espn_sport": "football",
+    "espn_league": "college-football",
+    "outdoor": true,
+    "status": "scheduled",
+    "odds": {
+      "moneyline": {},
+      "spread": {
+        "Florida Atlantic Owls": -44.5,
+        "Texas Southern Tigers": 44.5
+      },
+      "total": 61.5,
+      "num_bookmakers": 5
+    },
+    "prediction": null,
+    "actual": null
+  },
+  "americanfootball_ncaaf_2026-10-03_arkansas-razorbacks_at_texas-a&m-aggies": {
+    "league": "NCAAF",
+    "sport_key": "americanfootball_ncaaf",
+    "home_team": "Texas A&M Aggies",
+    "away_team": "Arkansas Razorbacks",
+    "commence_time": "2026-10-03T23:00:00Z",
+    "espn_sport": "football",
+    "espn_league": "college-football",
+    "outdoor": true,
+    "status": "scheduled",
+    "odds": {
+      "moneyline": {
+        "Arkansas Razorbacks": 449,
+        "Texas A&M Aggies": -627
+      },
+      "spread": {
+        "Arkansas Razorbacks": 13.5,
+        "Texas A&M Aggies": -13.5
+      },
+      "total": 50.5,
+      "num_bookmakers": 9
+    },
+    "prediction": null,
+    "actual": null
+  },
+  "americanfootball_ncaaf_2026-10-03_byu-cougars_at_tcu-horned-frogs": {
+    "league": "NCAAF",
+    "sport_key": "americanfootball_ncaaf",
+    "home_team": "TCU Horned Frogs",
+    "away_team": "BYU Cougars",
+    "commence_time": "2026-10-03T23:00:00Z",
+    "espn_sport": "football",
+    "espn_league": "college-football",
+    "outdoor": true,
+    "status": "scheduled",
+    "odds": {
+      "moneyline": {
+        "BYU Cougars": -227,
+        "TCU Horned Frogs": 186
+      },
+      "spread": {
+        "BYU Cougars": -6.0,
+        "TCU Horned Frogs": 6.0
+      },
+      "total": 47.5,
+      "num_bookmakers": 9
+    },
+    "prediction": null,
+    "actual": null
+  },
+  "americanfootball_ncaaf_2026-10-03_georgia-southern-eagles_at_coastal-carolina-chanticleers": {
+    "league": "NCAAF",
+    "sport_key": "americanfootball_ncaaf",
+    "home_team": "Coastal Carolina Chanticleers",
+    "away_team": "Georgia Southern Eagles",
+    "commence_time": "2026-10-03T23:00:00Z",
+    "espn_sport": "football",
+    "espn_league": "college-football",
+    "outdoor": true,
+    "status": "scheduled",
+    "odds": {
+      "moneyline": {
+        "Coastal Carolina Chanticleers": 107,
+        "Georgia Southern Eagles": -128
+      },
+      "spread": {
+        "Coastal Carolina Chanticleers": 2.0,
+        "Georgia Southern Eagles": -2.0
+      },
+      "total": 54.0,
+      "num_bookmakers": 9
+    },
+    "prediction": null,
+    "actual": null
+  },
+  "americanfootball_ncaaf_2026-10-03_utsa-roadrunners_at_rice-owls": {
+    "league": "NCAAF",
+    "sport_key": "americanfootball_ncaaf",
+    "home_team": "Rice Owls",
+    "away_team": "UTSA Roadrunners",
+    "commence_time": "2026-10-03T23:00:00Z",
+    "espn_sport": "football",
+    "espn_league": "college-football",
+    "outdoor": true,
+    "status": "scheduled",
+    "odds": {
+      "moneyline": {
+        "Rice Owls": 385,
+        "UTSA Roadrunners": -519
+      },
+      "spread": {
+        "Rice Owls": 12.5,
+        "UTSA Roadrunners": -12.5
+      },
+      "total": 56.0,
+      "num_bookmakers": 9
+    },
+    "prediction": null,
+    "actual": null
+  },
+  "americanfootball_ncaaf_2026-10-03_ul-monroe-warhawks_at_south-alabama-jaguars": {
+    "league": "NCAAF",
+    "sport_key": "americanfootball_ncaaf",
+    "home_team": "South Alabama Jaguars",
+    "away_team": "UL Monroe Warhawks",
+    "commence_time": "2026-10-03T23:00:00Z",
+    "espn_sport": "football",
+    "espn_league": "college-football",
+    "outdoor": true,
+    "status": "scheduled",
+    "odds": {
+      "moneyline": {
+        "South Alabama Jaguars": -657,
+        "UL Monroe Warhawks": 463
+      },
+      "spread": {
+        "South Alabama Jaguars": -14.0,
+        "UL Monroe Warhawks": 14.0
+      },
+      "total": 57.5,
+      "num_bookmakers": 9
+    },
+    "prediction": null,
+    "actual": null
+  },
+  "americanfootball_ncaaf_2026-10-03_army-black-knights_at_louisiana-tech-bulldogs": {
+    "league": "NCAAF",
+    "sport_key": "americanfootball_ncaaf",
+    "home_team": "Louisiana Tech Bulldogs",
+    "away_team": "Army Black Knights",
+    "commence_time": "2026-10-03T23:30:00Z",
+    "espn_sport": "football",
+    "espn_league": "college-football",
+    "outdoor": true,
+    "status": "scheduled",
+    "odds": {
+      "moneyline": {
+        "Army Black Knights": -125,
+        "Louisiana Tech Bulldogs": 104
+      },
+      "spread": {
+        "Army Black Knights": -2.0,
+        "Louisiana Tech Bulldogs": 2.0
+      },
+      "total": 47.5,
+      "num_bookmakers": 9
+    },
+    "prediction": null,
+    "actual": null
+  },
+  "americanfootball_ncaaf_2026-10-03_utah-state-aggies_at_boise-state-broncos": {
+    "league": "NCAAF",
+    "sport_key": "americanfootball_ncaaf",
+    "home_team": "Boise State Broncos",
+    "away_team": "Utah State Aggies",
+    "commence_time": "2026-10-03T23:30:00Z",
+    "espn_sport": "football",
+    "espn_league": "college-football",
+    "outdoor": true,
+    "status": "scheduled",
+    "odds": {
+      "moneyline": {
+        "Boise State Broncos": -1626,
+        "Utah State Aggies": 859
+      },
+      "spread": {
+        "Boise State Broncos": -18.5,
+        "Utah State Aggies": 18.5
+      },
+      "total": 51.5,
+      "num_bookmakers": 9
+    },
+    "prediction": null,
+    "actual": null
+  },
+  "americanfootball_ncaaf_2026-10-03_temple-owls_at_south-florida-bulls": {
+    "league": "NCAAF",
+    "sport_key": "americanfootball_ncaaf",
+    "home_team": "South Florida Bulls",
+    "away_team": "Temple Owls",
+    "commence_time": "2026-10-03T23:30:00Z",
+    "espn_sport": "football",
+    "espn_league": "college-football",
+    "outdoor": true,
+    "status": "scheduled",
+    "odds": {
+      "moneyline": {
+        "South Florida Bulls": -247,
+        "Temple Owls": 203
+      },
+      "spread": {
+        "South Florida Bulls": -6.5,
+        "Temple Owls": 6.5
+      },
+      "total": 48.0,
+      "num_bookmakers": 9
+    },
+    "prediction": null,
+    "actual": null
+  },
+  "americanfootball_ncaaf_2026-10-03_washington-huskies_at_usc-trojans": {
+    "league": "NCAAF",
+    "sport_key": "americanfootball_ncaaf",
+    "home_team": "USC Trojans",
+    "away_team": "Washington Huskies",
+    "commence_time": "2026-10-03T23:30:00Z",
+    "espn_sport": "football",
+    "espn_league": "college-football",
+    "outdoor": true,
+    "status": "scheduled",
+    "odds": {
+      "moneyline": {
+        "USC Trojans": -368,
+        "Washington Huskies": 289
+      },
+      "spread": {
+        "USC Trojans": -9.0,
+        "Washington Huskies": 9.0
+      },
+      "total": 58.5,
+      "num_bookmakers": 9
+    },
+    "prediction": null,
+    "actual": null
+  },
+  "americanfootball_ncaaf_2026-10-03_texas-tech-red-raiders_at_colorado-buffaloes": {
+    "league": "NCAAF",
+    "sport_key": "americanfootball_ncaaf",
+    "home_team": "Colorado Buffaloes",
+    "away_team": "Texas Tech Red Raiders",
+    "commence_time": "2026-10-03T23:31:00Z",
+    "espn_sport": "football",
+    "espn_league": "college-football",
+    "outdoor": true,
+    "status": "scheduled",
+    "odds": {
+      "moneyline": {
+        "Colorado Buffaloes": 398,
+        "Texas Tech Red Raiders": -537
+      },
+      "spread": {
+        "Colorado Buffaloes": 13.0,
+        "Texas Tech Red Raiders": -13.0
+      },
+      "total": 50.5,
+      "num_bookmakers": 9
+    },
+    "prediction": null,
+    "actual": null
+  },
+  "americanfootball_ncaaf_2026-10-03_mcneese-state-cowboys_at_lsu-tigers": {
+    "league": "NCAAF",
+    "sport_key": "americanfootball_ncaaf",
+    "home_team": "LSU Tigers",
+    "away_team": "McNeese State Cowboys",
+    "commence_time": "2026-10-03T23:45:00Z",
+    "espn_sport": "football",
+    "espn_league": "college-football",
+    "outdoor": true,
+    "status": "scheduled",
+    "odds": {
+      "moneyline": {},
+      "spread": {
+        "LSU Tigers": -53.5,
+        "McNeese State Cowboys": 53.5
+      },
+      "total": 62.0,
+      "num_bookmakers": 5
+    },
+    "prediction": null,
+    "actual": null
+  },
+  "americanfootball_ncaaf_2026-10-04_arkansas-state-red-wolves_at_louisiana-ragin-cajuns": {
+    "league": "NCAAF",
+    "sport_key": "americanfootball_ncaaf",
+    "home_team": "Louisiana Ragin Cajuns",
+    "away_team": "Arkansas State Red Wolves",
+    "commence_time": "2026-10-04T00:00:00Z",
+    "espn_sport": "football",
+    "espn_league": "college-football",
+    "outdoor": true,
+    "status": "scheduled",
+    "odds": {
+      "moneyline": {
+        "Arkansas State Red Wolves": 206,
+        "Louisiana Ragin Cajuns": -252
+      },
+      "spread": {
+        "Arkansas State Red Wolves": 6.5,
+        "Louisiana Ragin Cajuns": -6.5
+      },
+      "total": 47.5,
+      "num_bookmakers": 9
+    },
+    "prediction": null,
+    "actual": null
+  },
+  "americanfootball_ncaaf_2026-10-04_indiana-hoosiers_at_rutgers-scarlet-knights": {
+    "league": "NCAAF",
+    "sport_key": "americanfootball_ncaaf",
+    "home_team": "Rutgers Scarlet Knights",
+    "away_team": "Indiana Hoosiers",
+    "commence_time": "2026-10-04T00:00:00Z",
+    "espn_sport": "football",
+    "espn_league": "college-football",
+    "outdoor": true,
+    "status": "scheduled",
+    "odds": {
+      "moneyline": {
+        "Indiana Hoosiers": -2814,
+        "Rutgers Scarlet Knights": 1164
+      },
+      "spread": {
+        "Indiana Hoosiers": -24.5,
+        "Rutgers Scarlet Knights": 24.5
+      },
+      "total": 56.5,
+      "num_bookmakers": 9
+    },
+    "prediction": null,
+    "actual": null
+  },
+  "americanfootball_ncaaf_2026-10-04_fresno-state-bulldogs_at_washington-state-cougars": {
+    "league": "NCAAF",
+    "sport_key": "americanfootball_ncaaf",
+    "home_team": "Washington State Cougars",
+    "away_team": "Fresno State Bulldogs",
+    "commence_time": "2026-10-04T01:30:00Z",
+    "espn_sport": "football",
+    "espn_league": "college-football",
+    "outdoor": true,
+    "status": "scheduled",
+    "odds": {
+      "moneyline": {
+        "Fresno State Bulldogs": 102,
+        "Washington State Cougars": -123
+      },
+      "spread": {
+        "Fresno State Bulldogs": 1.5,
+        "Washington State Cougars": -1.5
+      },
+      "total": 45.5,
+      "num_bookmakers": 9
+    },
+    "prediction": null,
+    "actual": null
+  },
+  "americanfootball_ncaaf_2026-10-04_baylor-bears_at_arizona-state-sun-devils": {
+    "league": "NCAAF",
+    "sport_key": "americanfootball_ncaaf",
+    "home_team": "Arizona State Sun Devils",
+    "away_team": "Baylor Bears",
+    "commence_time": "2026-10-04T02:30:00Z",
+    "espn_sport": "football",
+    "espn_league": "college-football",
+    "outdoor": true,
+    "status": "scheduled",
+    "odds": {
+      "moneyline": {
+        "Arizona State Sun Devils": -183,
+        "Baylor Bears": 153
+      },
+      "spread": {
+        "Arizona State Sun Devils": -3.5,
+        "Baylor Bears": 3.5
+      },
+      "total": 49.0,
+      "num_bookmakers": 9
+    },
+    "prediction": null,
+    "actual": null
+  },
+  "americanfootball_ncaaf_2026-10-04_texas-state-bobcats_at_san-diego-state-aztecs": {
+    "league": "NCAAF",
+    "sport_key": "americanfootball_ncaaf",
+    "home_team": "San Diego State Aztecs",
+    "away_team": "Texas State Bobcats",
+    "commence_time": "2026-10-04T02:30:00Z",
+    "espn_sport": "football",
+    "espn_league": "college-football",
+    "outdoor": true,
+    "status": "scheduled",
+    "odds": {
+      "moneyline": {
+        "San Diego State Aztecs": 255,
+        "Texas State Bobcats": -318
+      },
+      "spread": {
+        "San Diego State Aztecs": 8.0,
+        "Texas State Bobcats": -8.0
+      },
+      "total": 57.5,
+      "num_bookmakers": 9
+    },
+    "prediction": null,
+    "actual": null
+  },
+  "americanfootball_ncaaf_2026-10-04_cincinnati-bearcats_at_arizona-wildcats": {
+    "league": "NCAAF",
+    "sport_key": "americanfootball_ncaaf",
+    "home_team": "Arizona Wildcats",
+    "away_team": "Cincinnati Bearcats",
+    "commence_time": "2026-10-04T03:00:00Z",
+    "espn_sport": "football",
+    "espn_league": "college-football",
+    "outdoor": true,
+    "status": "scheduled",
+    "odds": {
+      "moneyline": {
+        "Arizona Wildcats": -249,
+        "Cincinnati Bearcats": 204
+      },
+      "spread": {
+        "Arizona Wildcats": -6.5,
+        "Cincinnati Bearcats": 6.5
+      },
+      "total": 56.0,
+      "num_bookmakers": 9
+    },
+    "prediction": null,
+    "actual": null
+  },
+  "americanfootball_ncaaf_2026-10-04_san-jose-state-spartans_at_hawaii-rainbow-warriors": {
+    "league": "NCAAF",
+    "sport_key": "americanfootball_ncaaf",
+    "home_team": "Hawaii Rainbow Warriors",
+    "away_team": "San Jose State Spartans",
+    "commence_time": "2026-10-04T03:59:00Z",
+    "espn_sport": "football",
+    "espn_league": "college-football",
+    "outdoor": true,
+    "status": "scheduled",
+    "odds": {
+      "moneyline": {
+        "Hawaii Rainbow Warriors": -157,
+        "San Jose State Spartans": 132
+      },
+      "spread": {
+        "Hawaii Rainbow Warriors": -3.0,
+        "San Jose State Spartans": 3.0
+      },
+      "total": 50.5,
+      "num_bookmakers": 9
+    },
+    "prediction": null,
+    "actual": null
+  },
+  "americanfootball_ncaaf_2026-10-07_southern-mississippi-golden-eagles_at_troy-trojans": {
+    "league": "NCAAF",
+    "sport_key": "americanfootball_ncaaf",
+    "home_team": "Troy Trojans",
+    "away_team": "Southern Mississippi Golden Eagles",
+    "commence_time": "2026-10-07T00:00:00Z",
+    "espn_sport": "football",
+    "espn_league": "college-football",
+    "outdoor": true,
+    "status": "scheduled",
+    "odds": {
+      "moneyline": {
+        "Southern Mississippi Golden Eagles": 310,
+        "Troy Trojans": -395
+      },
+      "spread": {
+        "Southern Mississippi Golden Eagles": 10.0,
+        "Troy Trojans": -10.0
+      },
+      "total": 49.5,
+      "bookmaker": "DraftKings"
+    },
+    "prediction": null,
+    "actual": null
+  },
+  "americanfootball_ncaaf_2026-10-07_jacksonville-state-gamecocks_at_kennesaw-state-owls": {
+    "league": "NCAAF",
+    "sport_key": "americanfootball_ncaaf",
+    "home_team": "Kennesaw State Owls",
+    "away_team": "Jacksonville State Gamecocks",
+    "commence_time": "2026-10-07T23:00:00Z",
+    "espn_sport": "football",
+    "espn_league": "college-football",
+    "outdoor": true,
+    "status": "scheduled",
+    "odds": {
+      "moneyline": {
+        "Jacksonville State Gamecocks": -155,
+        "Kennesaw State Owls": 130
+      },
+      "spread": {
+        "Jacksonville State Gamecocks": -3.0,
+        "Kennesaw State Owls": 3.0
+      },
+      "total": 49.5,
+      "bookmaker": "DraftKings"
+    },
+    "prediction": null,
+    "actual": null
+  },
+  "americanfootball_ncaaf_2026-10-10_iowa-hawkeyes_at_washington-huskies": {
+    "league": "NCAAF",
+    "sport_key": "americanfootball_ncaaf",
+    "home_team": "Washington Huskies",
+    "away_team": "Iowa Hawkeyes",
+    "commence_time": "2026-10-10T01:00:00Z",
+    "espn_sport": "football",
+    "espn_league": "college-football",
+    "outdoor": true,
+    "status": "scheduled",
+    "odds": {
+      "moneyline": {
+        "Iowa Hawkeyes": -10000,
+        "Washington Huskies": 3500
+      },
+      "spread": {
+        "Iowa Hawkeyes": -20.5,
+        "Washington Huskies": 20.5
+      },
+      "total": 60.5,
+      "bookmaker": "DraftKings"
+    },
+    "prediction": null,
+    "actual": null
+  },
+  "americanfootball_ncaaf_2026-10-10_iowa-state-cyclones_at_byu-cougars": {
+    "league": "NCAAF",
+    "sport_key": "americanfootball_ncaaf",
+    "home_team": "BYU Cougars",
+    "away_team": "Iowa State Cyclones",
+    "commence_time": "2026-10-10T02:15:00Z",
+    "espn_sport": "football",
+    "espn_league": "college-football",
+    "outdoor": true,
+    "status": "scheduled",
+    "odds": {
+      "moneyline": {
+        "BYU Cougars": -780,
+        "Iowa State Cyclones": 506
+      },
+      "spread": {
+        "BYU Cougars": -11.5,
+        "Iowa State Cyclones": 11.5
+      },
+      "total": 37.5,
+      "bookmaker": "DraftKings"
+    },
+    "prediction": null,
+    "actual": null
+  },
+  "americanfootball_ncaaf_2026-10-10_indiana-hoosiers_at_nebraska-cornhuskers": {
+    "league": "NCAAF",
+    "sport_key": "americanfootball_ncaaf",
+    "home_team": "Nebraska Cornhuskers",
+    "away_team": "Indiana Hoosiers",
+    "commence_time": "2026-10-10T16:00:00Z",
+    "espn_sport": "football",
+    "espn_league": "college-football",
+    "outdoor": true,
+    "status": "scheduled",
+    "odds": {
+      "moneyline": {
+        "Indiana Hoosiers": -340,
+        "Nebraska Cornhuskers": 270
+      },
+      "spread": {
+        "Indiana Hoosiers": -8.5,
+        "Nebraska Cornhuskers": 8.5
+      },
+      "total": 48.5,
+      "bookmaker": "DraftKings"
+    },
+    "prediction": null,
+    "actual": null
+  },
+  "americanfootball_ncaaf_2026-10-10_south-carolina-gamecocks_at_florida-gators": {
+    "league": "NCAAF",
+    "sport_key": "americanfootball_ncaaf",
+    "home_team": "Florida Gators",
+    "away_team": "South Carolina Gamecocks",
+    "commence_time": "2026-10-10T17:00:00Z",
+    "espn_sport": "football",
+    "espn_league": "college-football",
+    "outdoor": true,
+    "status": "scheduled",
+    "odds": {
+      "moneyline": {
+        "Florida Gators": -470,
+        "South Carolina Gamecocks": 360
+      },
+      "spread": {
+        "Florida Gators": -10.5,
+        "South Carolina Gamecocks": 10.5
+      },
+      "total": 59.5,
+      "bookmaker": "DraftKings"
+    },
+    "prediction": null,
+    "actual": null
+  },
+  "americanfootball_ncaaf_2026-10-10_texas-a&m-aggies_at_missouri-tigers": {
+    "league": "NCAAF",
+    "sport_key": "americanfootball_ncaaf",
+    "home_team": "Missouri Tigers",
+    "away_team": "Texas A&M Aggies",
+    "commence_time": "2026-10-10T17:00:00Z",
+    "espn_sport": "football",
+    "espn_league": "college-football",
+    "outdoor": true,
+    "status": "scheduled",
+    "odds": {
+      "moneyline": {
+        "Missouri Tigers": -180,
+        "Texas A&M Aggies": 150
+      },
+      "spread": {
+        "Missouri Tigers": -3.5,
+        "Texas A&M Aggies": 3.5
+      },
+      "total": 50.5,
+      "bookmaker": "DraftKings"
+    },
+    "prediction": null,
+    "actual": null
+  },
+  "americanfootball_ncaaf_2026-10-10_ucla-bruins_at_oregon-ducks": {
+    "league": "NCAAF",
+    "sport_key": "americanfootball_ncaaf",
+    "home_team": "Oregon Ducks",
+    "away_team": "UCLA Bruins",
+    "commence_time": "2026-10-10T19:30:00Z",
+    "espn_sport": "football",
+    "espn_league": "college-football",
+    "outdoor": true,
+    "status": "scheduled",
+    "odds": {
+      "moneyline": {
+        "Oregon Ducks": -410,
+        "UCLA Bruins": 320
+      },
+      "spread": {
+        "Oregon Ducks": -10.5,
+        "UCLA Bruins": 10.5
+      },
+      "total": 57.5,
+      "bookmaker": "DraftKings"
+    },
+    "prediction": null,
+    "actual": null
+  },
+  "americanfootball_ncaaf_2026-10-10_lsu-tigers_at_kentucky-wildcats": {
+    "league": "NCAAF",
+    "sport_key": "americanfootball_ncaaf",
+    "home_team": "Kentucky Wildcats",
+    "away_team": "LSU Tigers",
+    "commence_time": "2026-10-10T23:00:00Z",
+    "espn_sport": "football",
+    "espn_league": "college-football",
+    "outdoor": true,
+    "status": "scheduled",
+    "odds": {
+      "moneyline": {
+        "Kentucky Wildcats": 275,
+        "LSU Tigers": -345
+      },
+      "spread": {
+        "Kentucky Wildcats": 8.5,
+        "LSU Tigers": -8.5
+      },
+      "total": 50.5,
+      "bookmaker": "DraftKings"
+    },
+    "prediction": null,
+    "actual": null
+  },
+  "baseball_mlb_2026-10-02_philadelphia-phillies_at_atlanta-braves": {
+    "league": "MLB",
+    "sport_key": "baseball_mlb",
+    "home_team": "Atlanta Braves",
+    "away_team": "Philadelphia Phillies",
+    "commence_time": "2026-10-02T00:15:00Z",
+    "espn_sport": "baseball",
+    "espn_league": "mlb",
+    "outdoor": true,
+    "status": "scheduled",
+    "odds": {
+      "moneyline": {
+        "Atlanta Braves": -702,
+        "Philadelphia Phillies": 427
+      },
+      "spread": {
+        "Atlanta Braves": -3.0,
+        "Philadelphia Phillies": 3.0
+      },
+      "total": 8.5,
+      "num_bookmakers": 6
+    },
+    "prediction": null,
+    "actual": null
+  },
+  "baseball_mlb_2026-10-03_chicago-white-sox_at_cleveland-guardians": {
+    "league": "MLB",
+    "sport_key": "baseball_mlb",
+    "home_team": "Cleveland Guardians",
+    "away_team": "Chicago White Sox",
+    "commence_time": "2026-10-03T17:01:00Z",
+    "espn_sport": "baseball",
+    "espn_league": "mlb",
+    "outdoor": true,
+    "status": "scheduled",
+    "odds": {
+      "moneyline": {
+        "Chicago White Sox": 131,
+        "Cleveland Guardians": -152
+      },
+      "spread": {
+        "Chicago White Sox": 1.5,
+        "Cleveland Guardians": -1.5
+      },
+      "total": 7.0,
+      "num_bookmakers": 9
+    },
+    "prediction": null,
+    "actual": null
+  },
+  "baseball_mlb_2026-10-03_new-york-yankees_at_tampa-bay-rays": {
+    "league": "MLB",
+    "sport_key": "baseball_mlb",
+    "home_team": "Tampa Bay Rays",
+    "away_team": "New York Yankees",
+    "commence_time": "2026-10-03T22:31:00Z",
+    "espn_sport": "baseball",
+    "espn_league": "mlb",
+    "outdoor": true,
+    "status": "scheduled",
+    "odds": {
+      "moneyline": {
+        "New York Yankees": 116,
+        "Tampa Bay Rays": -134
+      },
+      "spread": {
+        "New York Yankees": 1.5,
+        "Tampa Bay Rays": -1.5
+      },
+      "total": 7.0,
+      "num_bookmakers": 9
+    },
+    "prediction": null,
+    "actual": null
+  },
+  "baseball_mlb_2026-10-04_san-diego-padres_at_milwaukee-brewers": {
+    "league": "MLB",
+    "sport_key": "baseball_mlb",
+    "home_team": "Milwaukee Brewers",
+    "away_team": "San Diego Padres",
+    "commence_time": "2026-10-04T00:30:00Z",
+    "espn_sport": "baseball",
+    "espn_league": "mlb",
+    "outdoor": true,
+    "status": "scheduled",
+    "odds": {
+      "moneyline": {
+        "Milwaukee Brewers": -136,
+        "San Diego Padres": 113
+      },
+      "spread": {
+        "Milwaukee Brewers": -1.5,
+        "San Diego Padres": 1.5
+      },
+      "total": 7.0,
+      "bookmaker": "DraftKings"
+    },
+    "prediction": null,
+    "actual": null
+  },
+  "americanfootball_ncaaf_2026-10-07_new-mexico-state-aggies_at_florida-international-panthers": {
+    "league": "NCAAF",
+    "sport_key": "americanfootball_ncaaf",
+    "home_team": "Florida International Panthers",
+    "away_team": "New Mexico State Aggies",
+    "commence_time": "2026-10-07T23:30:00Z",
+    "espn_sport": "football",
+    "espn_league": "college-football",
+    "outdoor": true,
+    "status": "scheduled",
+    "odds": {
+      "moneyline": {
+        "Florida International Panthers": -175,
+        "New Mexico State Aggies": 145
+      },
+      "spread": {
+        "Florida International Panthers": -4.5,
+        "New Mexico State Aggies": 4.5
+      },
+      "total": 47.5,
+      "bookmaker": "DraftKings"
+    },
+    "prediction": null,
+    "actual": null
+  },
+  "americanfootball_ncaaf_2026-10-08_sam-houston-state-bearkats_at_liberty-flames": {
+    "league": "NCAAF",
+    "sport_key": "americanfootball_ncaaf",
+    "home_team": "Liberty Flames",
+    "away_team": "Sam Houston State Bearkats",
+    "commence_time": "2026-10-08T23:00:00Z",
+    "espn_sport": "football",
+    "espn_league": "college-football",
+    "outdoor": true,
+    "status": "scheduled",
+    "odds": {
+      "moneyline": {
+        "Liberty Flames": -600,
+        "Sam Houston State Bearkats": 440
+      },
+      "spread": {
+        "Liberty Flames": -13.5,
+        "Sam Houston State Bearkats": 13.5
+      },
+      "total": 52.5,
+      "bookmaker": "DraftKings"
+    },
+    "prediction": null,
+    "actual": null
+  },
+  "americanfootball_ncaaf_2026-10-08_missouri-state-bears_at_western-kentucky-hilltoppers": {
+    "league": "NCAAF",
+    "sport_key": "americanfootball_ncaaf",
+    "home_team": "Western Kentucky Hilltoppers",
+    "away_team": "Missouri State Bears",
+    "commence_time": "2026-10-08T23:00:00Z",
+    "espn_sport": "football",
+    "espn_league": "college-football",
+    "outdoor": true,
+    "status": "scheduled",
+    "odds": {
+      "moneyline": {
+        "Missouri State Bears": 100,
+        "Western Kentucky Hilltoppers": -120
+      },
+      "spread": {
+        "Missouri State Bears": 1.5,
+        "Western Kentucky Hilltoppers": -1.5
+      },
+      "total": 55.5,
+      "bookmaker": "DraftKings"
+    },
+    "prediction": null,
+    "actual": null
+  },
+  "americanfootball_ncaaf_2026-10-08_south-alabama-jaguars_at_arkansas-state-red-wolves": {
+    "league": "NCAAF",
+    "sport_key": "americanfootball_ncaaf",
+    "home_team": "Arkansas State Red Wolves",
+    "away_team": "South Alabama Jaguars",
+    "commence_time": "2026-10-08T23:30:00Z",
+    "espn_sport": "football",
+    "espn_league": "college-football",
+    "outdoor": true,
+    "status": "scheduled",
+    "odds": {
+      "moneyline": {
+        "Arkansas State Red Wolves": -112,
+        "South Alabama Jaguars": -108
+      },
+      "spread": {
+        "Arkansas State Red Wolves": -1.5,
+        "South Alabama Jaguars": 1.5
+      },
+      "total": 56.5,
+      "bookmaker": "DraftKings"
+    },
+    "prediction": null,
+    "actual": null
+  },
+  "americanfootball_ncaaf_2026-10-08_south-florida-bulls_at_utsa-roadrunners": {
+    "league": "NCAAF",
+    "sport_key": "americanfootball_ncaaf",
+    "home_team": "UTSA Roadrunners",
+    "away_team": "South Florida Bulls",
+    "commence_time": "2026-10-08T23:30:00Z",
+    "espn_sport": "football",
+    "espn_league": "college-football",
+    "outdoor": true,
+    "status": "scheduled",
+    "odds": {
+      "moneyline": {
+        "South Florida Bulls": 240,
+        "UTSA Roadrunners": -298
+      },
+      "spread": {
+        "South Florida Bulls": 7.0,
+        "UTSA Roadrunners": -7.0
+      },
+      "total": 53.5,
+      "bookmaker": "DraftKings"
+    },
+    "prediction": null,
+    "actual": null
+  },
+  "americanfootball_ncaaf_2026-10-09_florida-state-seminoles_at_louisville-cardinals": {
+    "league": "NCAAF",
+    "sport_key": "americanfootball_ncaaf",
+    "home_team": "Louisville Cardinals",
+    "away_team": "Florida State Seminoles",
+    "commence_time": "2026-10-09T23:00:00Z",
+    "espn_sport": "football",
+    "espn_league": "college-football",
+    "outdoor": true,
+    "status": "scheduled",
+    "odds": {
+      "moneyline": {
+        "Florida State Seminoles": 160,
+        "Louisville Cardinals": -192
+      },
+      "spread": {
+        "Florida State Seminoles": 4.5,
+        "Louisville Cardinals": -4.5
+      },
+      "total": 58.5,
+      "bookmaker": "DraftKings"
+    },
+    "prediction": null,
+    "actual": null
+  },
+  "americanfootball_ncaaf_2026-10-10_wyoming-cowboys_at_san-jose-state-spartans": {
+    "league": "NCAAF",
+    "sport_key": "americanfootball_ncaaf",
+    "home_team": "San Jose State Spartans",
+    "away_team": "Wyoming Cowboys",
+    "commence_time": "2026-10-10T01:00:00Z",
+    "espn_sport": "football",
+    "espn_league": "college-football",
+    "outdoor": true,
+    "status": "scheduled",
+    "odds": {
+      "moneyline": {
+        "San Jose State Spartans": -507,
+        "Wyoming Cowboys": 349
+      },
+      "spread": {
+        "San Jose State Spartans": -6.5,
+        "Wyoming Cowboys": 6.5
+      },
+      "total": 31.5,
+      "bookmaker": "DraftKings"
+    },
+    "prediction": null,
+    "actual": null
+  },
+  "americanfootball_ncaaf_2026-10-10_washington-state-cougars_at_utah-state-aggies": {
+    "league": "NCAAF",
+    "sport_key": "americanfootball_ncaaf",
+    "home_team": "Utah State Aggies",
+    "away_team": "Washington State Cougars",
+    "commence_time": "2026-10-10T01:00:00Z",
+    "espn_sport": "football",
+    "espn_league": "college-football",
+    "outdoor": true,
+    "status": "scheduled",
+    "odds": {
+      "moneyline": {
+        "Utah State Aggies": 470,
+        "Washington State Cougars": -720
+      },
+      "spread": {
+        "Utah State Aggies": 9.5,
+        "Washington State Cougars": -9.5
+      },
+      "total": 36.5,
+      "bookmaker": "DraftKings"
+    },
+    "prediction": null,
+    "actual": null
+  },
+  "americanfootball_ncaaf_2026-10-10_arizona-wildcats_at_west-virginia-mountaineers": {
+    "league": "NCAAF",
+    "sport_key": "americanfootball_ncaaf",
+    "home_team": "West Virginia Mountaineers",
+    "away_team": "Arizona Wildcats",
+    "commence_time": "2026-10-10T16:00:00Z",
+    "espn_sport": "football",
+    "espn_league": "college-football",
+    "outdoor": true,
+    "status": "scheduled",
+    "odds": {
+      "moneyline": {
+        "Arizona Wildcats": -175,
+        "West Virginia Mountaineers": 145
+      },
+      "spread": {
+        "Arizona Wildcats": -3.5,
+        "West Virginia Mountaineers": 3.5
+      },
+      "total": 60.5,
+      "bookmaker": "DraftKings"
+    },
+    "prediction": null,
+    "actual": null
+  },
+  "americanfootball_ncaaf_2026-10-10_tulane-green-wave_at_army-black-knights": {
+    "league": "NCAAF",
+    "sport_key": "americanfootball_ncaaf",
+    "home_team": "Army Black Knights",
+    "away_team": "Tulane Green Wave",
+    "commence_time": "2026-10-10T16:00:00Z",
+    "espn_sport": "football",
+    "espn_league": "college-football",
+    "outdoor": true,
+    "status": "scheduled",
+    "odds": {
+      "moneyline": {
+        "Army Black Knights": -175,
+        "Tulane Green Wave": 145
+      },
+      "spread": {
+        "Army Black Knights": -3.5,
+        "Tulane Green Wave": 3.5
+      },
+      "total": 48.5,
+      "bookmaker": "DraftKings"
+    },
+    "prediction": null,
+    "actual": null
+  },
+  "americanfootball_ncaaf_2026-10-10_sacramento-state-hornets_at_bowling-green-falcons": {
+    "league": "NCAAF",
+    "sport_key": "americanfootball_ncaaf",
+    "home_team": "Bowling Green Falcons",
+    "away_team": "Sacramento State Hornets",
+    "commence_time": "2026-10-10T16:00:00Z",
+    "espn_sport": "football",
+    "espn_league": "college-football",
+    "outdoor": true,
+    "status": "scheduled",
+    "odds": {
+      "moneyline": {
+        "Bowling Green Falcons": -325,
+        "Sacramento State Hornets": 260
+      },
+      "spread": {
+        "Bowling Green Falcons": -8.5,
+        "Sacramento State Hornets": 8.5
+      },
+      "total": 43.5,
+      "bookmaker": "DraftKings"
+    },
+    "prediction": null,
+    "actual": null
+  },
+  "americanfootball_ncaaf_2026-10-10_wake-forest-demon-deacons_at_nc-state-wolfpack": {
+    "league": "NCAAF",
+    "sport_key": "americanfootball_ncaaf",
+    "home_team": "NC State Wolfpack",
+    "away_team": "Wake Forest Demon Deacons",
+    "commence_time": "2026-10-10T16:00:00Z",
+    "espn_sport": "football",
+    "espn_league": "college-football",
+    "outdoor": true,
+    "status": "scheduled",
+    "odds": {
+      "moneyline": {
+        "NC State Wolfpack": 140,
+        "Wake Forest Demon Deacons": -166
+      },
+      "spread": {
+        "NC State Wolfpack": 3.5,
+        "Wake Forest Demon Deacons": -3.5
+      },
+      "total": 56.5,
+      "bookmaker": "DraftKings"
+    },
+    "prediction": null,
+    "actual": null
+  },
+  "americanfootball_ncaaf_2026-10-10_north-carolina-tar-heels_at_pittsburgh-panthers": {
+    "league": "NCAAF",
+    "sport_key": "americanfootball_ncaaf",
+    "home_team": "Pittsburgh Panthers",
+    "away_team": "North Carolina Tar Heels",
+    "commence_time": "2026-10-10T16:00:00Z",
+    "espn_sport": "football",
+    "espn_league": "college-football",
+    "outdoor": true,
+    "status": "scheduled",
+    "odds": {
+      "moneyline": {
+        "North Carolina Tar Heels": 154,
+        "Pittsburgh Panthers": -185
+      },
+      "spread": {
+        "North Carolina Tar Heels": 3.5,
+        "Pittsburgh Panthers": -3.5
+      },
+      "total": 46.5,
+      "bookmaker": "DraftKings"
+    },
+    "prediction": null,
+    "actual": null
+  },
+  "americanfootball_ncaaf_2026-10-10_ucf-knights_at_oklahoma-state-cowboys": {
+    "league": "NCAAF",
+    "sport_key": "americanfootball_ncaaf",
+    "home_team": "Oklahoma State Cowboys",
+    "away_team": "UCF Knights",
+    "commence_time": "2026-10-10T16:00:00Z",
+    "espn_sport": "football",
+    "espn_league": "college-football",
+    "outdoor": true,
+    "status": "scheduled",
+    "odds": {
+      "moneyline": {
+        "Oklahoma State Cowboys": -395,
+        "UCF Knights": 310
+      },
+      "spread": {
+        "Oklahoma State Cowboys": -10.5,
+        "UCF Knights": 10.5
+      },
+      "total": 53.5,
+      "bookmaker": "DraftKings"
+    },
+    "prediction": null,
+    "actual": null
+  },
+  "americanfootball_ncaaf_2026-10-10_ball-state-cardinals_at_northwestern-wildcats": {
+    "league": "NCAAF",
+    "sport_key": "americanfootball_ncaaf",
+    "home_team": "Northwestern Wildcats",
+    "away_team": "Ball State Cardinals",
+    "commence_time": "2026-10-10T16:30:00Z",
+    "espn_sport": "football",
+    "espn_league": "college-football",
+    "outdoor": true,
+    "status": "scheduled",
+    "odds": {
+      "moneyline": {},
+      "spread": {
+        "Ball State Cardinals": 35.5,
+        "Northwestern Wildcats": -35.5
+      },
+      "total": 53.5,
+      "bookmaker": "DraftKings"
+    },
+    "prediction": null,
+    "actual": null
+  },
+  "americanfootball_ncaaf_2026-10-10_old-dominion-monarchs_at_appalachian-state-mountaineers": {
+    "league": "NCAAF",
+    "sport_key": "americanfootball_ncaaf",
+    "home_team": "Appalachian State Mountaineers",
+    "away_team": "Old Dominion Monarchs",
+    "commence_time": "2026-10-10T17:00:00Z",
+    "espn_sport": "football",
+    "espn_league": "college-football",
+    "outdoor": true,
+    "status": "scheduled",
+    "odds": {
+      "moneyline": {
+        "Appalachian State Mountaineers": -375,
+        "Old Dominion Monarchs": 295
+      },
+      "spread": {
+        "Appalachian State Mountaineers": -10.0,
+        "Old Dominion Monarchs": 10.0
+      },
+      "total": 46.5,
+      "bookmaker": "DraftKings"
+    },
+    "prediction": null,
+    "actual": null
+  },
+  "americanfootball_ncaaf_2026-10-10_miami-(oh)-redhawks_at_umass-minutemen": {
+    "league": "NCAAF",
+    "sport_key": "americanfootball_ncaaf",
+    "home_team": "UMass Minutemen",
+    "away_team": "Miami (OH) RedHawks",
+    "commence_time": "2026-10-10T18:00:00Z",
+    "espn_sport": "football",
+    "espn_league": "college-football",
+    "outdoor": true,
+    "status": "scheduled",
+    "odds": {
+      "moneyline": {
+        "Miami (OH) RedHawks": -225,
+        "UMass Minutemen": 185
+      },
+      "spread": {
+        "Miami (OH) RedHawks": -6.0,
+        "UMass Minutemen": 6.0
+      },
+      "total": 43.5,
+      "bookmaker": "DraftKings"
+    },
+    "prediction": null,
+    "actual": null
+  },
+  "americanfootball_ncaaf_2026-10-10_eastern-michigan-eagles_at_akron-zips": {
+    "league": "NCAAF",
+    "sport_key": "americanfootball_ncaaf",
+    "home_team": "Akron Zips",
+    "away_team": "Eastern Michigan Eagles",
+    "commence_time": "2026-10-10T19:30:00Z",
+    "espn_sport": "football",
+    "espn_league": "college-football",
+    "outdoor": true,
+    "status": "scheduled",
+    "odds": {
+      "moneyline": {
+        "Akron Zips": 180,
+        "Eastern Michigan Eagles": -218
+      },
+      "spread": {
+        "Akron Zips": 5.5,
+        "Eastern Michigan Eagles": -5.5
+      },
+      "total": 51.5,
+      "bookmaker": "DraftKings"
+    },
+    "prediction": null,
+    "actual": null
+  },
+  "americanfootball_ncaaf_2026-10-10_buffalo-bulls_at_toledo-rockets": {
+    "league": "NCAAF",
+    "sport_key": "americanfootball_ncaaf",
+    "home_team": "Toledo Rockets",
+    "away_team": "Buffalo Bulls",
+    "commence_time": "2026-10-10T19:30:00Z",
+    "espn_sport": "football",
+    "espn_league": "college-football",
+    "outdoor": true,
+    "status": "scheduled",
+    "odds": {
+      "moneyline": {
+        "Buffalo Bulls": 700,
+        "Toledo Rockets": -1100
+      },
+      "spread": {
+        "Buffalo Bulls": 18.5,
+        "Toledo Rockets": -18.5
+      },
+      "total": 55.5,
+      "bookmaker": "DraftKings"
+    },
+    "prediction": null,
+    "actual": null
+  },
+  "americanfootball_ncaaf_2026-10-10_virginia-tech-hokies_at_california-golden-bears": {
+    "league": "NCAAF",
+    "sport_key": "americanfootball_ncaaf",
+    "home_team": "California Golden Bears",
+    "away_team": "Virginia Tech Hokies",
+    "commence_time": "2026-10-10T19:30:00Z",
+    "espn_sport": "football",
+    "espn_league": "college-football",
+    "outdoor": true,
+    "status": "scheduled",
+    "odds": {
+      "moneyline": {
+        "California Golden Bears": 295,
+        "Virginia Tech Hokies": -375
+      },
+      "spread": {
+        "California Golden Bears": 10.0,
+        "Virginia Tech Hokies": -10.0
+      },
+      "total": 53.5,
+      "bookmaker": "DraftKings"
+    },
+    "prediction": null,
+    "actual": null
+  },
+  "americanfootball_ncaaf_2026-10-10_central-michigan-chippewas_at_ohio-bobcats": {
+    "league": "NCAAF",
+    "sport_key": "americanfootball_ncaaf",
+    "home_team": "Ohio Bobcats",
+    "away_team": "Central Michigan Chippewas",
+    "commence_time": "2026-10-10T19:30:00Z",
+    "espn_sport": "football",
+    "espn_league": "college-football",
+    "outdoor": true,
+    "status": "scheduled",
+    "odds": {
+      "moneyline": {
+        "Central Michigan Chippewas": 114,
+        "Ohio Bobcats": -135
+      },
+      "spread": {
+        "Central Michigan Chippewas": 2.5,
+        "Ohio Bobcats": -2.5
+      },
+      "total": 45.5,
+      "bookmaker": "DraftKings"
+    },
+    "prediction": null,
+    "actual": null
+  },
+  "americanfootball_ncaaf_2026-10-10_charlotte-49ers_at_north-texas-mean-green": {
+    "league": "NCAAF",
+    "sport_key": "americanfootball_ncaaf",
+    "home_team": "North Texas Mean Green",
+    "away_team": "Charlotte 49ers",
+    "commence_time": "2026-10-10T19:30:00Z",
+    "espn_sport": "football",
+    "espn_league": "college-football",
+    "outdoor": true,
+    "status": "scheduled",
+    "odds": {
+      "moneyline": {
+        "Charlotte 49ers": 1700,
+        "North Texas Mean Green": -4500
+      },
+      "spread": {
+        "Charlotte 49ers": 29.5,
+        "North Texas Mean Green": -29.5
+      },
+      "total": 58.5,
+      "bookmaker": "DraftKings"
+    },
+    "prediction": null,
+    "actual": null
+  },
+  "americanfootball_ncaaf_2026-10-10_duke-blue-devils_at_georgia-tech-yellow-jackets": {
+    "league": "NCAAF",
+    "sport_key": "americanfootball_ncaaf",
+    "home_team": "Georgia Tech Yellow Jackets",
+    "away_team": "Duke Blue Devils",
+    "commence_time": "2026-10-10T19:30:00Z",
+    "espn_sport": "football",
+    "espn_league": "college-football",
+    "outdoor": true,
+    "status": "scheduled",
+    "odds": {
+      "moneyline": {
+        "Duke Blue Devils": -225,
+        "Georgia Tech Yellow Jackets": 185
+      },
+      "spread": {
+        "Duke Blue Devils": -5.5,
+        "Georgia Tech Yellow Jackets": 5.5
+      },
+      "total": 45.5,
+      "bookmaker": "DraftKings"
+    },
+    "prediction": null,
+    "actual": null
+  },
+  "americanfootball_ncaaf_2026-10-10_houston-cougars_at_kansas-state-wildcats": {
+    "league": "NCAAF",
+    "sport_key": "americanfootball_ncaaf",
+    "home_team": "Kansas State Wildcats",
+    "away_team": "Houston Cougars",
+    "commence_time": "2026-10-10T19:30:00Z",
+    "espn_sport": "football",
+    "espn_league": "college-football",
+    "outdoor": true,
+    "status": "scheduled",
+    "odds": {
+      "moneyline": {
+        "Houston Cougars": 114,
+        "Kansas State Wildcats": -135
+      },
+      "spread": {
+        "Houston Cougars": 2.5,
+        "Kansas State Wildcats": -2.5
+      },
+      "total": 55.5,
+      "bookmaker": "DraftKings"
+    },
+    "prediction": null,
+    "actual": null
+  },
+  "americanfootball_ncaaf_2026-10-10_illinois-fighting-illini_at_michigan-state-spartans": {
+    "league": "NCAAF",
+    "sport_key": "americanfootball_ncaaf",
+    "home_team": "Michigan State Spartans",
+    "away_team": "Illinois Fighting Illini",
+    "commence_time": "2026-10-10T19:30:00Z",
+    "espn_sport": "football",
+    "espn_league": "college-football",
+    "outdoor": true,
+    "status": "scheduled",
+    "odds": {
+      "moneyline": {
+        "Illinois Fighting Illini": -142,
+        "Michigan State Spartans": 120
+      },
+      "spread": {
+        "Illinois Fighting Illini": -2.5,
+        "Michigan State Spartans": 2.5
+      },
+      "total": 48.5,
+      "bookmaker": "DraftKings"
+    },
+    "prediction": null,
+    "actual": null
+  },
+  "americanfootball_ncaaf_2026-10-10_kent-state-golden-flashes_at_western-michigan-broncos": {
+    "league": "NCAAF",
+    "sport_key": "americanfootball_ncaaf",
+    "home_team": "Western Michigan Broncos",
+    "away_team": "Kent State Golden Flashes",
+    "commence_time": "2026-10-10T19:30:00Z",
+    "espn_sport": "football",
+    "espn_league": "college-football",
+    "outdoor": true,
+    "status": "scheduled",
+    "odds": {
+      "moneyline": {
+        "Kent State Golden Flashes": 440,
+        "Western Michigan Broncos": -600
+      },
+      "spread": {
+        "Kent State Golden Flashes": 14.0,
+        "Western Michigan Broncos": -14.0
+      },
+      "total": 43.5,
+      "bookmaker": "DraftKings"
+    },
+    "prediction": null,
+    "actual": null
+  },
+  "americanfootball_ncaaf_2026-10-10_tulsa-golden-hurricane_at_navy-midshipmen": {
+    "league": "NCAAF",
+    "sport_key": "americanfootball_ncaaf",
+    "home_team": "Navy Midshipmen",
+    "away_team": "Tulsa Golden Hurricane",
+    "commence_time": "2026-10-10T19:30:00Z",
+    "espn_sport": "football",
+    "espn_league": "college-football",
+    "outdoor": true,
+    "status": "scheduled",
+    "odds": {
+      "moneyline": {
+        "Navy Midshipmen": -122,
+        "Tulsa Golden Hurricane": 102
+      },
+      "spread": {
+        "Navy Midshipmen": -1.5,
+        "Tulsa Golden Hurricane": 1.5
+      },
+      "total": 47.5,
+      "bookmaker": "DraftKings"
+    },
+    "prediction": null,
+    "actual": null
+  },
+  "americanfootball_ncaaf_2026-10-10_stanford-cardinal_at_notre-dame-fighting-irish": {
+    "league": "NCAAF",
+    "sport_key": "americanfootball_ncaaf",
+    "home_team": "Notre Dame Fighting Irish",
+    "away_team": "Stanford Cardinal",
+    "commence_time": "2026-10-10T19:30:00Z",
+    "espn_sport": "football",
+    "espn_league": "college-football",
+    "outdoor": true,
+    "status": "scheduled",
+    "odds": {
+      "moneyline": {},
+      "spread": {
+        "Notre Dame Fighting Irish": -39.5,
+        "Stanford Cardinal": 39.5
+      },
+      "total": 54.5,
+      "bookmaker": "DraftKings"
+    },
+    "prediction": null,
+    "actual": null
+  },
+  "americanfootball_ncaaf_2026-10-10_ole-miss-rebels_at_vanderbilt-commodores": {
+    "league": "NCAAF",
+    "sport_key": "americanfootball_ncaaf",
+    "home_team": "Vanderbilt Commodores",
+    "away_team": "Ole Miss Rebels",
+    "commence_time": "2026-10-10T19:30:00Z",
+    "espn_sport": "football",
+    "espn_league": "college-football",
+    "outdoor": true,
+    "status": "scheduled",
+    "odds": {
+      "moneyline": {
+        "Ole Miss Rebels": -355,
+        "Vanderbilt Commodores": 280
+      },
+      "spread": {
+        "Ole Miss Rebels": -9.5,
+        "Vanderbilt Commodores": 9.5
+      },
+      "total": 54.5,
+      "bookmaker": "DraftKings"
+    },
+    "prediction": null,
+    "actual": null
+  },
+  "americanfootball_ncaaf_2026-10-10_uconn-huskies_at_temple-owls": {
+    "league": "NCAAF",
+    "sport_key": "americanfootball_ncaaf",
+    "home_team": "Temple Owls",
+    "away_team": "UConn Huskies",
+    "commence_time": "2026-10-10T19:45:00Z",
+    "espn_sport": "football",
+    "espn_league": "college-football",
+    "outdoor": true,
+    "status": "scheduled",
+    "odds": {
+      "moneyline": {
+        "Temple Owls": -180,
+        "UConn Huskies": 150
+      },
+      "spread": {
+        "Temple Owls": -3.5,
+        "UConn Huskies": 3.5
+      },
+      "total": 54.5,
+      "bookmaker": "DraftKings"
+    },
+    "prediction": null,
+    "actual": null
+  },
+  "americanfootball_ncaaf_2026-10-10_rice-owls_at_east-carolina-pirates": {
+    "league": "NCAAF",
+    "sport_key": "americanfootball_ncaaf",
+    "home_team": "East Carolina Pirates",
+    "away_team": "Rice Owls",
+    "commence_time": "2026-10-10T20:00:00Z",
+    "espn_sport": "football",
+    "espn_league": "college-football",
+    "outdoor": true,
+    "status": "scheduled",
+    "odds": {
+      "moneyline": {
+        "East Carolina Pirates": -380,
+        "Rice Owls": 300
+      },
+      "spread": {
+        "East Carolina Pirates": -10.0,
+        "Rice Owls": 10.0
+      },
+      "total": 46.5,
+      "bookmaker": "DraftKings"
+    },
+    "prediction": null,
+    "actual": null
+  },
+  "americanfootball_ncaaf_2026-10-10_tennessee-volunteers_at_arkansas-razorbacks": {
+    "league": "NCAAF",
+    "sport_key": "americanfootball_ncaaf",
+    "home_team": "Arkansas Razorbacks",
+    "away_team": "Tennessee Volunteers",
+    "commence_time": "2026-10-10T20:15:00Z",
+    "espn_sport": "football",
+    "espn_league": "college-football",
+    "outdoor": true,
+    "status": "scheduled",
+    "odds": {
+      "moneyline": {
+        "Arkansas Razorbacks": 425,
+        "Tennessee Volunteers": -575
+      },
+      "spread": {
+        "Arkansas Razorbacks": 13.5,
+        "Tennessee Volunteers": -13.5
+      },
+      "total": 51.5,
+      "bookmaker": "DraftKings"
+    },
+    "prediction": null,
+    "actual": null
+  },
+  "americanfootball_ncaaf_2026-10-10_maryland-terrapins_at_ohio-state-buckeyes": {
+    "league": "NCAAF",
+    "sport_key": "americanfootball_ncaaf",
+    "home_team": "Ohio State Buckeyes",
+    "away_team": "Maryland Terrapins",
+    "commence_time": "2026-10-10T20:15:00Z",
+    "espn_sport": "football",
+    "espn_league": "college-football",
+    "outdoor": true,
+    "status": "scheduled",
+    "odds": {
+      "moneyline": {},
+      "spread": {
+        "Maryland Terrapins": 33.5,
+        "Ohio State Buckeyes": -33.5
+      },
+      "total": 56.5,
+      "bookmaker": "DraftKings"
+    },
+    "prediction": null,
+    "actual": null
+  },
+  "americanfootball_ncaaf_2026-10-10_san-diego-state-aztecs_at_oregon-state-beavers": {
+    "league": "NCAAF",
+    "sport_key": "americanfootball_ncaaf",
+    "home_team": "Oregon State Beavers",
+    "away_team": "San Diego State Aztecs",
+    "commence_time": "2026-10-10T22:00:00Z",
+    "espn_sport": "football",
+    "espn_league": "college-football",
+    "outdoor": true,
+    "status": "scheduled",
+    "odds": {
+      "moneyline": {
+        "Oregon State Beavers": -750,
+        "San Diego State Aztecs": 525
+      },
+      "spread": {
+        "Oregon State Beavers": -16.5,
+        "San Diego State Aztecs": 16.5
+      },
+      "total": 52.5,
+      "bookmaker": "DraftKings"
+    },
+    "prediction": null,
+    "actual": null
+  },
+  "americanfootball_ncaaf_2026-10-10_coastal-carolina-chanticleers_at_marshall-thundering-herd": {
+    "league": "NCAAF",
+    "sport_key": "americanfootball_ncaaf",
+    "home_team": "Marshall Thundering Herd",
+    "away_team": "Coastal Carolina Chanticleers",
+    "commence_time": "2026-10-10T23:00:00Z",
+    "espn_sport": "football",
+    "espn_league": "college-football",
+    "outdoor": true,
+    "status": "scheduled",
+    "odds": {
+      "moneyline": {
+        "Coastal Carolina Chanticleers": 154,
+        "Marshall Thundering Herd": -185
+      },
+      "spread": {
+        "Coastal Carolina Chanticleers": 4.5,
+        "Marshall Thundering Herd": -4.5
+      },
+      "total": 58.5,
+      "bookmaker": "DraftKings"
+    },
+    "prediction": null,
+    "actual": null
+  },
+  "americanfootball_ncaaf_2026-10-10_uab-blazers_at_memphis-tigers": {
+    "league": "NCAAF",
+    "sport_key": "americanfootball_ncaaf",
+    "home_team": "Memphis Tigers",
+    "away_team": "UAB Blazers",
+    "commence_time": "2026-10-10T23:00:00Z",
+    "espn_sport": "football",
+    "espn_league": "college-football",
+    "outdoor": true,
+    "status": "scheduled",
+    "odds": {
+      "moneyline": {
+        "Memphis Tigers": -650,
+        "UAB Blazers": 470
+      },
+      "spread": {
+        "Memphis Tigers": -14.5,
+        "UAB Blazers": 14.5
+      },
+      "total": 54.5,
+      "bookmaker": "DraftKings"
+    },
+    "prediction": null,
+    "actual": null
+  },
+  "americanfootball_ncaaf_2026-10-10_nevada-wolf-pack_at_utep-miners": {
+    "league": "NCAAF",
+    "sport_key": "americanfootball_ncaaf",
+    "home_team": "UTEP Miners",
+    "away_team": "Nevada Wolf Pack",
+    "commence_time": "2026-10-10T23:00:00Z",
+    "espn_sport": "football",
+    "espn_league": "college-football",
+    "outdoor": true,
+    "status": "scheduled",
+    "odds": {
+      "moneyline": {
+        "Nevada Wolf Pack": -375,
+        "UTEP Miners": 295
+      },
+      "spread": {
+        "Nevada Wolf Pack": -10.0,
+        "UTEP Miners": 10.0
+      },
+      "total": 47.5,
+      "bookmaker": "DraftKings"
+    },
+    "prediction": null,
+    "actual": null
+  },
+  "americanfootball_ncaaf_2026-10-10_north-dakota-state-bison_at_unlv-rebels": {
+    "league": "NCAAF",
+    "sport_key": "americanfootball_ncaaf",
+    "home_team": "UNLV Rebels",
+    "away_team": "North Dakota State Bison",
+    "commence_time": "2026-10-10T23:00:00Z",
+    "espn_sport": "football",
+    "espn_league": "college-football",
+    "outdoor": true,
+    "status": "scheduled",
+    "odds": {
+      "moneyline": {
+        "North Dakota State Bison": -135,
+        "UNLV Rebels": 114
+      },
+      "spread": {
+        "North Dakota State Bison": -2.5,
+        "UNLV Rebels": 2.5
+      },
+      "total": 47.5,
+      "bookmaker": "DraftKings"
+    },
+    "prediction": null,
+    "actual": null
+  },
+  "americanfootball_ncaaf_2026-10-10_air-force-falcons_at_northern-illinois-huskies": {
+    "league": "NCAAF",
+    "sport_key": "americanfootball_ncaaf",
+    "home_team": "Northern Illinois Huskies",
+    "away_team": "Air Force Falcons",
+    "commence_time": "2026-10-10T23:30:00Z",
+    "espn_sport": "football",
+    "espn_league": "college-football",
+    "outdoor": true,
+    "status": "scheduled",
+    "odds": {
+      "moneyline": {
+        "Air Force Falcons": -298,
+        "Northern Illinois Huskies": 240
+      },
+      "spread": {
+        "Air Force Falcons": -7.0,
+        "Northern Illinois Huskies": 7.0
+      },
+      "total": 48.5,
+      "bookmaker": "DraftKings"
+    },
+    "prediction": null,
+    "actual": null
+  },
+  "americanfootball_ncaaf_2026-10-10_james-madison-dukes_at_georgia-southern-eagles": {
+    "league": "NCAAF",
+    "sport_key": "americanfootball_ncaaf",
+    "home_team": "Georgia Southern Eagles",
+    "away_team": "James Madison Dukes",
+    "commence_time": "2026-10-10T23:30:00Z",
+    "espn_sport": "football",
+    "espn_league": "college-football",
+    "outdoor": true,
+    "status": "scheduled",
+    "odds": {
+      "moneyline": {
+        "Georgia Southern Eagles": 250,
+        "James Madison Dukes": -310
+      },
+      "spread": {
+        "Georgia Southern Eagles": 7.5,
+        "James Madison Dukes": -7.5
+      },
+      "total": 51.5,
+      "bookmaker": "DraftKings"
+    },
+    "prediction": null,
+    "actual": null
+  },
+  "americanfootball_ncaaf_2026-10-10_louisiana-ragin-cajuns_at_louisiana-tech-bulldogs": {
+    "league": "NCAAF",
+    "sport_key": "americanfootball_ncaaf",
+    "home_team": "Louisiana Tech Bulldogs",
+    "away_team": "Louisiana Ragin Cajuns",
+    "commence_time": "2026-10-10T23:30:00Z",
+    "espn_sport": "football",
+    "espn_league": "college-football",
+    "outdoor": true,
+    "status": "scheduled",
+    "odds": {
+      "moneyline": {
+        "Louisiana Ragin Cajuns": 130,
+        "Louisiana Tech Bulldogs": -155
+      },
+      "spread": {
+        "Louisiana Ragin Cajuns": 3.0,
+        "Louisiana Tech Bulldogs": -3.0
+      },
+      "total": 48.5,
+      "bookmaker": "DraftKings"
+    },
+    "prediction": null,
+    "actual": null
+  },
+  "americanfootball_ncaaf_2026-10-10_syracuse-orange_at_virginia-cavaliers": {
+    "league": "NCAAF",
+    "sport_key": "americanfootball_ncaaf",
+    "home_team": "Virginia Cavaliers",
+    "away_team": "Syracuse Orange",
+    "commence_time": "2026-10-10T23:30:00Z",
+    "espn_sport": "football",
+    "espn_league": "college-football",
+    "outdoor": true,
+    "status": "scheduled",
+    "odds": {
+      "moneyline": {
+        "Syracuse Orange": 350,
+        "Virginia Cavaliers": -455
+      },
+      "spread": {
+        "Syracuse Orange": 11.5,
+        "Virginia Cavaliers": -11.5
+      },
+      "total": 49.5,
+      "bookmaker": "DraftKings"
+    },
+    "prediction": null,
+    "actual": null
+  },
+  "americanfootball_ncaaf_2026-10-11_minnesota-golden-gophers_at_purdue-boilermakers": {
+    "league": "NCAAF",
+    "sport_key": "americanfootball_ncaaf",
+    "home_team": "Purdue Boilermakers",
+    "away_team": "Minnesota Golden Gophers",
+    "commence_time": "2026-10-11T00:00:00Z",
+    "espn_sport": "football",
+    "espn_league": "college-football",
+    "outdoor": true,
+    "status": "scheduled",
+    "odds": {
+      "moneyline": {
+        "Minnesota Golden Gophers": -142,
+        "Purdue Boilermakers": 120
+      },
+      "spread": {
+        "Minnesota Golden Gophers": -2.5,
+        "Purdue Boilermakers": 2.5
+      },
+      "total": 50.5,
+      "bookmaker": "DraftKings"
+    },
+    "prediction": null,
+    "actual": null
+  },
+  "americanfootball_ncaaf_2026-10-11_kansas-jayhawks_at_utah-utes": {
+    "league": "NCAAF",
+    "sport_key": "americanfootball_ncaaf",
+    "home_team": "Utah Utes",
+    "away_team": "Kansas Jayhawks",
+    "commence_time": "2026-10-11T02:15:00Z",
+    "espn_sport": "football",
+    "espn_league": "college-football",
+    "outdoor": true,
+    "status": "scheduled",
+    "odds": {
+      "moneyline": {
+        "Kansas Jayhawks": 500,
+        "Utah Utes": -700
+      },
+      "spread": {
+        "Kansas Jayhawks": 15.5,
+        "Utah Utes": -15.5
+      },
+      "total": 49.5,
+      "bookmaker": "DraftKings"
+    },
+    "prediction": null,
+    "actual": null
+  },
+  "americanfootball_ncaaf_2026-10-11_hawaii-rainbow-warriors_at_arizona-state-sun-devils": {
+    "league": "NCAAF",
+    "sport_key": "americanfootball_ncaaf",
+    "home_team": "Arizona State Sun Devils",
+    "away_team": "Hawaii Rainbow Warriors",
+    "commence_time": "2026-10-11T02:30:00Z",
+    "espn_sport": "football",
+    "espn_league": "college-football",
+    "outdoor": true,
+    "status": "scheduled",
+    "odds": {
+      "moneyline": {
+        "Arizona State Sun Devils": -1800,
+        "Hawaii Rainbow Warriors": 1000
+      },
+      "spread": {
+        "Arizona State Sun Devils": -21.0,
+        "Hawaii Rainbow Warriors": 21.0
+      },
+      "total": 50.5,
+      "bookmaker": "DraftKings"
+    },
+    "prediction": null,
+    "actual": null
+  },
+  "americanfootball_ncaaf_2026-10-11_boise-state-broncos_at_fresno-state-bulldogs": {
+    "league": "NCAAF",
+    "sport_key": "americanfootball_ncaaf",
+    "home_team": "Fresno State Bulldogs",
+    "away_team": "Boise State Broncos",
+    "commence_time": "2026-10-11T02:30:00Z",
+    "espn_sport": "football",
+    "espn_league": "college-football",
+    "outdoor": true,
+    "status": "scheduled",
+    "odds": {
+      "moneyline": {
+        "Boise State Broncos": -258,
+        "Fresno State Bulldogs": 210
+      },
+      "spread": {
+        "Boise State Broncos": -7.0,
+        "Fresno State Bulldogs": 7.0
+      },
+      "total": 48.5,
+      "bookmaker": "DraftKings"
+    },
+    "prediction": null,
+    "actual": null
+  },
+  "baseball_mlb_2026-10-05_atlanta-braves_at_los-angeles-dodgers": {
+    "league": "MLB",
+    "sport_key": "baseball_mlb",
+    "home_team": "Los Angeles Dodgers",
+    "away_team": "Atlanta Braves",
+    "commence_time": "2026-10-05T00:00:00Z",
+    "espn_sport": "baseball",
+    "espn_league": "mlb",
+    "outdoor": true,
+    "status": "scheduled",
+    "odds": {
+      "moneyline": {
+        "Atlanta Braves": 130,
+        "Los Angeles Dodgers": -157
+      },
+      "spread": {
+        "Atlanta Braves": 1.5,
+        "Los Angeles Dodgers": -1.5
+      },
+      "total": 7.0,
+      "bookmaker": "DraftKings"
+    },
+    "prediction": null,
+    "actual": null
+  },
+  "baseball_mlb_2026-10-05_chicago-white-sox_at_cleveland-guardians": {
+    "league": "MLB",
+    "sport_key": "baseball_mlb",
+    "home_team": "Cleveland Guardians",
+    "away_team": "Chicago White Sox",
+    "commence_time": "2026-10-05T21:10:00Z",
+    "espn_sport": "baseball",
+    "espn_league": "mlb",
+    "outdoor": true,
+    "status": "scheduled",
+    "odds": {
+      "moneyline": {
+        "Chicago White Sox": 130,
+        "Cleveland Guardians": -157
+      },
+      "spread": {
+        "Chicago White Sox": 1.5,
+        "Cleveland Guardians": -1.5
+      },
+      "total": 6.5,
+      "bookmaker": "DraftKings"
+    },
+    "prediction": null,
+    "actual": null
+  },
+  "baseball_mlb_2026-10-06_new-york-yankees_at_tampa-bay-rays": {
+    "league": "MLB",
+    "sport_key": "baseball_mlb",
+    "home_team": "Tampa Bay Rays",
+    "away_team": "New York Yankees",
+    "commence_time": "2026-10-06T00:00:00Z",
+    "espn_sport": "baseball",
+    "espn_league": "mlb",
+    "outdoor": true,
+    "status": "scheduled",
+    "odds": {
+      "moneyline": {
+        "New York Yankees": -131,
+        "Tampa Bay Rays": 109
+      },
+      "spread": {
+        "New York Yankees": -1.5,
+        "Tampa Bay Rays": 1.5
+      },
+      "total": 6.5,
+      "bookmaker": "DraftKings"
+    },
+    "prediction": null,
+    "actual": null
+  },
+  "americanfootball_ncaaf_2026-10-13_delaware-blue-hens_at_middle-tennessee-blue-raiders": {
+    "league": "NCAAF",
+    "sport_key": "americanfootball_ncaaf",
+    "home_team": "Middle Tennessee Blue Raiders",
+    "away_team": "Delaware Blue Hens",
+    "commence_time": "2026-10-13T23:00:00Z",
+    "espn_sport": "football",
+    "espn_league": "college-football",
+    "outdoor": true,
+    "status": "scheduled",
+    "odds": {
+      "moneyline": {
+        "Delaware Blue Hens": -118,
+        "Middle Tennessee Blue Raiders": -102
+      },
+      "spread": {
+        "Delaware Blue Hens": -1.5,
+        "Middle Tennessee Blue Raiders": 1.5
+      },
+      "total": 48.5,
+      "bookmaker": "DraftKings"
+    },
+    "prediction": null,
+    "actual": null
+  },
+  "americanfootball_ncaaf_2026-10-14_florida-international-panthers_at_jacksonville-state-gamecocks": {
+    "league": "NCAAF",
+    "sport_key": "americanfootball_ncaaf",
+    "home_team": "Jacksonville State Gamecocks",
+    "away_team": "Florida International Panthers",
+    "commence_time": "2026-10-14T00:00:00Z",
+    "espn_sport": "football",
+    "espn_league": "college-football",
+    "outdoor": true,
+    "status": "scheduled",
+    "odds": {
+      "moneyline": {
+        "Florida International Panthers": 124,
+        "Jacksonville State Gamecocks": -148
+      },
+      "spread": {
+        "Florida International Panthers": 3.0,
+        "Jacksonville State Gamecocks": -3.0
+      },
+      "total": 45.5,
+      "bookmaker": "DraftKings"
+    },
+    "prediction": null,
+    "actual": null
+  },
+  "americanfootball_ncaaf_2026-10-16_colorado-state-rams_at_texas-state-bobcats": {
+    "league": "NCAAF",
+    "sport_key": "americanfootball_ncaaf",
+    "home_team": "Texas State Bobcats",
+    "away_team": "Colorado State Rams",
+    "commence_time": "2026-10-16T00:00:00Z",
+    "espn_sport": "football",
+    "espn_league": "college-football",
+    "outdoor": true,
+    "status": "scheduled",
+    "odds": {
+      "moneyline": {
+        "Colorado State Rams": 330,
+        "Texas State Bobcats": -425
+      },
+      "spread": {
+        "Colorado State Rams": 12.5,
+        "Texas State Bobcats": -12.5
+      },
+      "total": 67.5,
+      "bookmaker": "DraftKings"
+    },
+    "prediction": null,
+    "actual": null
+  },
+  "americanfootball_ncaaf_2026-10-17_florida-gators_at_texas-longhorns": {
+    "league": "NCAAF",
+    "sport_key": "americanfootball_ncaaf",
+    "home_team": "Texas Longhorns",
+    "away_team": "Florida Gators",
+    "commence_time": "2026-10-17T16:00:00Z",
+    "espn_sport": "football",
+    "espn_league": "college-football",
+    "outdoor": true,
+    "status": "scheduled",
+    "odds": {
+      "moneyline": {
+        "Florida Gators": 275,
+        "Texas Longhorns": -345
+      },
+      "spread": {
+        "Florida Gators": 8.5,
+        "Texas Longhorns": -8.5
+      },
+      "total": 53.5,
+      "bookmaker": "DraftKings"
+    },
+    "prediction": null,
+    "actual": null
+  },
+  "americanfootball_ncaaf_2026-10-17_mississippi-state-bulldogs_at_lsu-tigers": {
+    "league": "NCAAF",
+    "sport_key": "americanfootball_ncaaf",
+    "home_team": "LSU Tigers",
+    "away_team": "Mississippi State Bulldogs",
+    "commence_time": "2026-10-17T16:00:00Z",
+    "espn_sport": "football",
+    "espn_league": "college-football",
+    "outdoor": true,
+    "status": "scheduled",
+    "odds": {
+      "moneyline": {
+        "LSU Tigers": -455,
+        "Mississippi State Bulldogs": 350
+      },
+      "spread": {
+        "LSU Tigers": -12.5,
+        "Mississippi State Bulldogs": 12.5
+      },
+      "total": 59.5,
+      "bookmaker": "DraftKings"
+    },
+    "prediction": null,
+    "actual": null
+  },
+  "americanfootball_ncaaf_2026-10-17_wisconsin-badgers_at_ucla-bruins": {
+    "league": "NCAAF",
+    "sport_key": "americanfootball_ncaaf",
+    "home_team": "UCLA Bruins",
+    "away_team": "Wisconsin Badgers",
+    "commence_time": "2026-10-17T16:00:00Z",
+    "espn_sport": "football",
+    "espn_league": "college-football",
+    "outdoor": true,
+    "status": "scheduled",
+    "odds": {
+      "moneyline": {
+        "UCLA Bruins": -162,
+        "Wisconsin Badgers": 136
+      },
+      "spread": {
+        "UCLA Bruins": -3.5,
+        "Wisconsin Badgers": 3.5
+      },
+      "total": 49.5,
+      "bookmaker": "DraftKings"
+    },
+    "prediction": null,
+    "actual": null
+  },
+  "americanfootball_ncaaf_2026-10-17_north-carolina-tar-heels_at_duke-blue-devils": {
+    "league": "NCAAF",
+    "sport_key": "americanfootball_ncaaf",
+    "home_team": "Duke Blue Devils",
+    "away_team": "North Carolina Tar Heels",
+    "commence_time": "2026-10-17T19:30:00Z",
+    "espn_sport": "football",
+    "espn_league": "college-football",
+    "outdoor": true,
+    "status": "scheduled",
+    "odds": {
+      "moneyline": {
+        "Duke Blue Devils": -185,
+        "North Carolina Tar Heels": 154
+      },
+      "spread": {
+        "Duke Blue Devils": -4.5,
+        "North Carolina Tar Heels": 4.5
+      },
+      "total": 46.5,
+      "bookmaker": "DraftKings"
+    },
+    "prediction": null,
+    "actual": null
+  },
+  "americanfootball_ncaaf_2026-10-17_missouri-tigers_at_ole-miss-rebels": {
+    "league": "NCAAF",
+    "sport_key": "americanfootball_ncaaf",
+    "home_team": "Ole Miss Rebels",
+    "away_team": "Missouri Tigers",
+    "commence_time": "2026-10-17T19:30:00Z",
+    "espn_sport": "football",
+    "espn_league": "college-football",
+    "outdoor": true,
+    "status": "scheduled",
+    "odds": {
+      "moneyline": {
+        "Missouri Tigers": 190,
+        "Ole Miss Rebels": -230
+      },
+      "spread": {
+        "Missouri Tigers": 6.5,
+        "Ole Miss Rebels": -6.5
+      },
+      "total": 57.5,
+      "bookmaker": "DraftKings"
+    },
+    "prediction": null,
+    "actual": null
+  },
+  "americanfootball_ncaaf_2026-10-17_florida-state-seminoles_at_miami-hurricanes": {
+    "league": "NCAAF",
+    "sport_key": "americanfootball_ncaaf",
+    "home_team": "Miami Hurricanes",
+    "away_team": "Florida State Seminoles",
+    "commence_time": "2026-10-17T23:00:00Z",
+    "espn_sport": "football",
+    "espn_league": "college-football",
+    "outdoor": true,
+    "status": "scheduled",
+    "odds": {
+      "moneyline": {
+        "Florida State Seminoles": 900,
+        "Miami Hurricanes": -1600
+      },
+      "spread": {
+        "Florida State Seminoles": 19.5,
+        "Miami Hurricanes": -19.5
+      },
+      "total": 55.5,
+      "bookmaker": "DraftKings"
+    },
+    "prediction": null,
+    "actual": null
+  },
+  "americanfootball_ncaaf_2026-10-17_oklahoma-state-cowboys_at_houston-cougars": {
+    "league": "NCAAF",
+    "sport_key": "americanfootball_ncaaf",
+    "home_team": "Houston Cougars",
+    "away_team": "Oklahoma State Cowboys",
+    "commence_time": "2026-10-17T23:30:00Z",
+    "espn_sport": "football",
+    "espn_league": "college-football",
+    "outdoor": true,
+    "status": "scheduled",
+    "odds": {
+      "moneyline": {
+        "Houston Cougars": -162,
+        "Oklahoma State Cowboys": 136
+      },
+      "spread": {
+        "Houston Cougars": -3.5,
+        "Oklahoma State Cowboys": 3.5
+      },
+      "total": 57.5,
+      "bookmaker": "DraftKings"
+    },
+    "prediction": null,
+    "actual": null
+  },
+  "americanfootball_ncaaf_2026-10-17_kentucky-wildcats_at_oklahoma-sooners": {
+    "league": "NCAAF",
+    "sport_key": "americanfootball_ncaaf",
+    "home_team": "Oklahoma Sooners",
+    "away_team": "Kentucky Wildcats",
+    "commence_time": "2026-10-17T23:30:00Z",
+    "espn_sport": "football",
+    "espn_league": "college-football",
+    "outdoor": true,
+    "status": "scheduled",
+    "odds": {
+      "moneyline": {
+        "Kentucky Wildcats": 185,
+        "Oklahoma Sooners": -225
+      },
+      "spread": {
+        "Kentucky Wildcats": 6.0,
+        "Oklahoma Sooners": -6.0
+      },
+      "total": 41.5,
+      "bookmaker": "DraftKings"
+    },
+    "prediction": null,
+    "actual": null
+  },
+  "baseball_mlb_2026-10-11_chicago-white-sox_at_cleveland-guardians": {
+    "league": "MLB",
+    "sport_key": "baseball_mlb",
+    "home_team": "Cleveland Guardians",
+    "away_team": "Chicago White Sox",
+    "commence_time": "2026-10-11T00:01:00Z",
+    "espn_sport": "baseball",
+    "espn_league": "mlb",
+    "outdoor": true,
+    "status": "scheduled",
+    "odds": {
+      "moneyline": {
+        "Chicago White Sox": 118,
+        "Cleveland Guardians": -142
+      },
+      "spread": {
+        "Chicago White Sox": 1.5,
+        "Cleveland Guardians": -1.5
+      },
+      "total": 7.0,
+      "bookmaker": "DraftKings"
+    },
+    "prediction": null,
+    "actual": null
+  },
+  "baseball_mlb_2026-10-12_los-angeles-dodgers_at_milwaukee-brewers": {
+    "league": "MLB",
+    "sport_key": "baseball_mlb",
+    "home_team": "Milwaukee Brewers",
+    "away_team": "Los Angeles Dodgers",
+    "commence_time": "2026-10-12T00:00:00Z",
+    "espn_sport": "baseball",
+    "espn_league": "mlb",
+    "outdoor": true,
+    "status": "scheduled",
+    "odds": {
+      "moneyline": {
+        "Los Angeles Dodgers": -107,
+        "Milwaukee Brewers": -113
+      },
+      "spread": {
+        "Los Angeles Dodgers": -1.5,
+        "Milwaukee Brewers": 1.5
+      },
+      "total": 6.0,
+      "bookmaker": "DraftKings"
+    },
+    "prediction": null,
     "actual": null
   }
 }

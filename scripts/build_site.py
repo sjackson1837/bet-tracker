@@ -337,8 +337,8 @@ def render_odds_row(g):
         items.append(f'<div class="odds-item"><div class="odds-label">Spread</div><div class="odds-value">{" &middot; ".join(sp_parts)}</div></div>')
     if total is not None:
         items.append(f'<div class="odds-item"><div class="odds-label">Total (O/U)</div><div class="odds-value">{total}</div></div>')
-    if odds.get("num_bookmakers"):
-        items.append(f'<div class="odds-item"><div class="odds-label">Books</div><div class="odds-value">{odds["num_bookmakers"]}</div></div>')
+    if odds.get("bookmaker"):
+        items.append(f'<div class="odds-item"><div class="odds-label">Book</div><div class="odds-value">{odds["bookmaker"]}</div></div>')
 
     if not items:
         return ""
@@ -506,6 +506,53 @@ def _stats_block(title, games_subset):
 </div>"""
 
 
+def _game_local_date(g, tz_name):
+    dt = datetime.fromisoformat(g["commence_time"].replace("Z", "+00:00"))
+    return dt.astimezone(ZoneInfo(tz_name)).date()
+
+
+def _record_str(correct, total):
+    return f"{correct}-{total - correct}" if total else "-"
+
+
+def _daily_record_table(your_picks, overall_55, tz_name, min_confidence):
+    """Buckets both the 'your picks' and 'model overall' subsets by the local
+    calendar day the game kicked off, so the win/loss record can be tracked
+    day-over-day instead of only as one rolling window total."""
+    def bucket_by_day(games_subset):
+        buckets = {}
+        for g in games_subset:
+            buckets.setdefault(_game_local_date(g, tz_name), []).append(g)
+        return buckets
+
+    your_by_day = bucket_by_day(your_picks)
+    overall_by_day = bucket_by_day(overall_55)
+    all_days = sorted(set(your_by_day) | set(overall_by_day), reverse=True)
+    if not all_days:
+        return ""
+
+    rows = []
+    for day in all_days:
+        y_su, y_total, _, y_ats, y_ats_total, _ = _su_ats_record(your_by_day.get(day, []))
+        o_su, o_total, _, o_ats, o_ats_total, _ = _su_ats_record(overall_by_day.get(day, []))
+        rows.append(f"""<tr>
+  <td>{day.strftime('%a %b %d, %Y')}</td>
+  <td>{_record_str(y_su, y_total)}</td>
+  <td>{_record_str(y_ats, y_ats_total)}</td>
+  <td>{_record_str(o_su, o_total)}</td>
+  <td>{_record_str(o_ats, o_ats_total)}</td>
+</tr>""")
+
+    return f"""<h3 style="color:var(--muted);font-size:0.8rem;text-transform:uppercase;letter-spacing:0.04em;margin:20px 0 8px;">Record by Day</h3>
+<table>
+<thead>
+<tr><th rowspan="2">Date</th><th colspan="2">Your Picks</th><th colspan="2">Model ({min_confidence}%+)</th></tr>
+<tr><th>SU</th><th>ATS</th><th>SU</th><th>ATS</th></tr>
+</thead>
+<tbody>{''.join(rows)}</tbody>
+</table>"""
+
+
 def render_results(games, tz_name, window_days, min_confidence):
     cutoff = datetime.now(timezone.utc) - timedelta(days=window_days)
     graded = [g for g in games.values()
@@ -517,6 +564,7 @@ def render_results(games, tz_name, window_days, min_confidence):
     overall_55 = [g for g in graded if g.get("prediction") and g["prediction"].get("confidence", 0) > min_confidence]
 
     stats = _stats_block("Your picks", your_picks) + _stats_block(f"Model overall ({min_confidence}%+ confidence)", overall_55)
+    stats += _daily_record_table(your_picks, overall_55, tz_name, min_confidence)
 
     if not graded:
         return stats + '<p class="empty">No graded results yet for this window.</p>', []

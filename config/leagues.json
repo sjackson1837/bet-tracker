@@ -24,6 +24,8 @@
     }
   ],
   "settings": {
+    "_preferred_bookmaker_comment": "Lines are pulled from this single sportsbook (The Odds API bookmaker key) instead of averaged across many. 'draftkings' and 'fanduel' are the two biggest US books. Run scripts/list_sports.py or check The Odds API docs for other valid keys.",
+    "preferred_bookmaker": "draftkings",
     "min_confidence_to_show": 55,
     "days_of_upcoming_odds": 5,
     "track_record_window_days": 7,

@@ -6,7 +6,6 @@ data/upcoming/<date>.json.
 Requires env var: ODDS_API_KEY
 """
 import sys
-from statistics import mean
 
 import requests
 
@@ -15,49 +14,51 @@ from games_store import load_games, save_games, upsert_scheduled
 
 BASE_URL = "https://api.the-odds-api.com/v4/sports/{sport}/odds"
 
-
-def round_to_half(value):
-    """Sportsbook lines only ever land on whole or half points (e.g. 3.5, 44.0),
-    never something like 3.3 -- round the consensus average to the nearest 0.5
-    so it looks like a real line instead of a raw mean."""
-    return round(value * 2) / 2
+DEFAULT_BOOKMAKER = "draftkings"
 
 
-def consensus_line(bookmakers):
-    """Average moneyline/spread/total across all reporting bookmakers so one
-    sportsbook's outlier line doesn't skew the prediction."""
-    h2h_prices = {}   # team -> list of prices
-    spreads = {}       # team -> list of points
-    totals = []
+def single_book_line(bookmakers, preferred_key):
+    """Pull moneyline/spread/total from one specific sportsbook rather than
+    averaging across every book reporting -- so the line shown matches what
+    you'd actually see at that book. Falls back to whichever book The Odds API
+    did return if the preferred one isn't reporting for this game."""
+    bm = next((b for b in bookmakers if b["key"] == preferred_key), None)
+    if bm is None and bookmakers:
+        bm = bookmakers[0]
+    if bm is None:
+        return {"moneyline": {}, "spread": {}, "total": None, "bookmaker": None}
 
-    for bm in bookmakers:
-        for market in bm.get("markets", []):
-            if market["key"] == "h2h":
-                for o in market["outcomes"]:
-                    h2h_prices.setdefault(o["name"], []).append(o["price"])
-            elif market["key"] == "spreads":
-                for o in market["outcomes"]:
-                    spreads.setdefault(o["name"], []).append(o["point"])
-            elif market["key"] == "totals":
-                for o in market["outcomes"]:
-                    if o["name"].lower() == "over":
-                        totals.append(o["point"])
+    moneyline = {}
+    spread = {}
+    total = None
+    for market in bm.get("markets", []):
+        if market["key"] == "h2h":
+            for o in market["outcomes"]:
+                moneyline[o["name"]] = round(o["price"])
+        elif market["key"] == "spreads":
+            for o in market["outcomes"]:
+                spread[o["name"]] = o["point"]
+        elif market["key"] == "totals":
+            for o in market["outcomes"]:
+                if o["name"].lower() == "over":
+                    total = o["point"]
 
     return {
-        "moneyline": {team: round(mean(prices)) for team, prices in h2h_prices.items()},
-        "spread": {team: round_to_half(mean(pts)) for team, pts in spreads.items()},
-        "total": round_to_half(mean(totals)) if totals else None,
-        "num_bookmakers": len(bookmakers),
+        "moneyline": moneyline,
+        "spread": spread,
+        "total": total,
+        "bookmaker": bm.get("title", bm["key"]),
     }
 
 
-def fetch_league(league, api_key):
+def fetch_league(league, api_key, preferred_bookmaker):
     params = {
         "apiKey": api_key,
         "regions": "us",
         "markets": "h2h,spreads,totals",
         "oddsFormat": "american",
         "dateFormat": "iso",
+        "bookmakers": preferred_bookmaker,
     }
     resp = requests.get(BASE_URL.format(sport=league["odds_api_key"]), params=params, timeout=30)
     if resp.status_code != 200:
@@ -76,7 +77,7 @@ def fetch_league(league, api_key):
             "commence_time": g["commence_time"],
             "home_team": g["home_team"],
             "away_team": g["away_team"],
-            "lines": consensus_line(g.get("bookmakers", [])),
+            "lines": single_book_line(g.get("bookmakers", []), preferred_bookmaker),
         })
 
     remaining = resp.headers.get("x-requests-remaining")
@@ -87,11 +88,12 @@ def fetch_league(league, api_key):
 def main():
     config = load_config()
     api_key = get_env("ODDS_API_KEY")
+    preferred_bookmaker = config.get("settings", {}).get("preferred_bookmaker", DEFAULT_BOOKMAKER)
 
     all_games = []
-    print("Fetching odds...")
+    print(f"Fetching odds from {preferred_bookmaker}...")
     for league in config["leagues"]:
-        all_games.extend(fetch_league(league, api_key))
+        all_games.extend(fetch_league(league, api_key, preferred_bookmaker))
 
     # Keep a raw dated snapshot for debugging/audit purposes.
     out_path = DATA_DIR / "upcoming" / f"{today_str()}.json"
