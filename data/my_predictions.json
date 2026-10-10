@@ -1,14 +1,114 @@
 {
-  "americanfootball_nfl_2026-10-02_pittsburgh-steelers_at_cleveland-browns": {
-    "predicted_winner": "Pittsburgh Steelers",
-    "predicted_against_spread": "Cleveland Browns",
-    "confidence": 53,
+  "americanfootball_nfl_2026-10-11_denver-broncos_at_los-angeles-chargers": {
+    "predicted_winner": "Denver Broncos",
+    "predicted_against_spread": "Denver Broncos",
+    "confidence": 68,
     "key_factors": [
-      "Both teams sit at 1-1 with identical 1-1 last-5 records, showing minimal separation in form",
-      "Browns carry a 1-game win streak while Steelers are on a 1-game skid, a slight momentum edge for Cleveland",
-      "Market favors Steelers by 2.5, but with no h2h or pitcher-equivalent data this is a thin edge",
-      "Wet, windy conditions (20 mph wind, notable precipitation) favor a low-scoring, tighter divisional game keeping it close against the spread"
+      "Chargers on 4-game losing streak, winless at 0-4",
+      "Broncos 2-2 with better overall form",
+      "Market already reflects large gap but trend supports continuation"
     ],
-    "reasoning": "Records and recent form are essentially even between these two AFC North rivals, with Cleveland actually holding the more favorable streak (W1 vs L1). Given the lack of decisive trend separation and the sloppy weather conditions that tend to keep divisional games close, taking the Browns to cover the home underdog spread makes sense. Pittsburgh still projects as the slightly better team and moneyline pick, but this is close to a coin-flip game with weather adding variance."
+    "reasoning": "The Chargers are mired in an 0-4 skid with no positive momentum, while the Broncos, despite a one-game slide, have a much better overall record. The spread (-3.5) seems light given the disparity in recent form, so I favor Denver covering as well as winning."
+  },
+  "americanfootball_nfl_2026-10-11_detroit-lions_at_arizona-cardinals": {
+    "predicted_winner": "Detroit Lions",
+    "predicted_against_spread": "Detroit Lions",
+    "confidence": 70,
+    "key_factors": [
+      "Lions 2-2 vs Cardinals 1-3 on L3 skid",
+      "Cardinals struggling defensively (total set high at 54.5)",
+      "Market heavily favors Lions, consistent with form gap"
+    ],
+    "reasoning": "Arizona is on a 3-game losing streak and has a worse record, while Detroit has been more competitive. The large total suggests a track meet, but Detroit's superior roster and form should allow them to cover even a big number against a reeling Cardinals squad."
+  },
+  "americanfootball_nfl_2026-10-11_chicago-bears_at_green-bay-packers": {
+    "predicted_winner": "Chicago Bears",
+    "predicted_against_spread": "Chicago Bears",
+    "confidence": 58,
+    "key_factors": [
+      "Bears on W2 streak, 3-1 last5",
+      "Packers W1 but overall 2-2",
+      "Close spread (-1.5) reflects tight matchup",
+      "Windy conditions (14 mph) could limit passing game"
+    ],
+    "reasoning": "Chicago enters with better recent form (3-1, W2) compared to Green Bay's more modest 2-2 mark, even though both are trending up. The market's narrow line matches a close game, and I give a slight edge to the Bears based on their stronger recent record and streak."
+  },
+  "americanfootball_nfl_2026-10-11_san-francisco-49ers_at_seattle-seahawks": {
+    "predicted_winner": "San Francisco 49ers",
+    "predicted_against_spread": "San Francisco 49ers",
+    "confidence": 64,
+    "key_factors": [
+      "49ers unbeaten at 4-0 with W4 streak",
+      "Seahawks solid but 3-1 with less dominant run",
+      "Market favors Seahawks despite 49ers' superior form"
+    ],
+    "reasoning": "San Francisco is riding a perfect 4-0 record and a 4-game winning streak, clearly outperforming Seattle's 3-1 mark. Despite the market installing Seattle as home favorites, the 49ers' superior momentum and undefeated record make them live to win outright and cover the +3."
+  },
+  "americanfootball_nfl_2026-10-12_baltimore-ravens_at_atlanta-falcons": {
+    "predicted_winner": "Baltimore Ravens",
+    "predicted_against_spread": "Baltimore Ravens",
+    "confidence": 60,
+    "key_factors": [
+      "Ravens 3-1 with W2 streak vs Falcons 2-2 W2",
+      "Ravens have better overall record",
+      "Market favors Falcons at home despite weaker record"
+    ],
+    "reasoning": "Baltimore's 3-1 record and W2 streak edge out Atlanta's 2-2 mark, even though both teams are trending positively. The market's lean toward Atlanta seems driven by home-field value rather than clear form superiority, so I favor the Ravens to win and cover the +3.5."
+  },
+  "americanfootball_nfl_2026-10-13_buffalo-bills_at_los-angeles-rams": {
+    "predicted_winner": "Buffalo Bills",
+    "predicted_against_spread": "Buffalo Bills",
+    "confidence": 56,
+    "key_factors": [
+      "Bills 3-1 last5 despite L1 streak",
+      "Rams 2-2 with W1 streak",
+      "High total (54.5) suggests shootout potential"
+    ],
+    "reasoning": "Buffalo's overall recent form (3-1) is better than the Rams' 2-2 mark, even though the Bills are coming off a single loss. With a high total implying a potential shootout, I lean toward the Bills' superior offensive track record to cover the +3 on the road."
+  },
+  "americanfootball_ncaaf_2026-10-13_delaware-blue-hens_at_middle-tennessee-blue-raiders": {
+    "predicted_winner": "Middle Tennessee Blue Raiders",
+    "predicted_against_spread": "Middle Tennessee Blue Raiders",
+    "confidence": 52,
+    "key_factors": [
+      "Delaware on L2 skid, 2-3 record",
+      "Middle Tennessee trend data missing entirely",
+      "Pick'em line reflects uncertainty",
+      "Limited bookmaker coverage (2) lowers confidence"
+    ],
+    "reasoning": "With no trend data available for Middle Tennessee and Delaware mired in a two-game losing streak, this is largely a coin-flip. Given the even moneyline and Delaware's negative momentum, I slightly favor the home team Middle Tennessee, but confidence is low due to sparse data."
+  },
+  "americanfootball_ncaaf_2026-10-14_florida-international-panthers_at_jacksonville-state-gamecocks": {
+    "predicted_winner": "Jacksonville State Gamecocks",
+    "predicted_against_spread": "Jacksonville State Gamecocks",
+    "confidence": 66,
+    "key_factors": [
+      "Jacksonville State on W3 streak, 4-1 last5",
+      "FIU has no trend data provided",
+      "Market strongly favors Jacksonville State at home"
+    ],
+    "reasoning": "Jacksonville State is riding a strong W3 streak and solid 4-1 recent form, while there's no data available for FIU to counter that momentum. The home team's clear positive trend combined with the market's sizable favorite status supports taking Jacksonville State to win and cover."
+  },
+  "baseball_mlb_2026-10-11_chicago-white-sox_at_cleveland-guardians": {
+    "predicted_winner": "Cleveland Guardians",
+    "predicted_against_spread": "Cleveland Guardians",
+    "confidence": 60,
+    "key_factors": [
+      "Guardians on W2 streak, won last meeting 9-5",
+      "White Sox on L2 streak despite better overall record",
+      "Even H2H season series (2-2)"
+    ],
+    "reasoning": "Cleveland is riding a 2-game winning streak and just defeated Chicago 9-5 in their last meeting, showing recent dominance in the head-to-head. Although the White Sox have a better overall record, their current L2 skid and Cleveland's home-field edge tip this toward the Guardians."
+  },
+  "baseball_mlb_2026-10-12_los-angeles-dodgers_at_milwaukee-brewers": {
+    "predicted_winner": "Los Angeles Dodgers",
+    "predicted_against_spread": "Los Angeles Dodgers",
+    "confidence": 62,
+    "key_factors": [
+      "Yamamoto on mound with elite 1.29 ERA",
+      "Dodgers W2 streak, 3-1 last5",
+      "Brewers also strong at 3-1 W1, close matchup"
+    ],
+    "reasoning": "The Dodgers have a significant pitching advantage with Yamamoto's sparkling 1.29 ERA taking the mound, which should suppress Milwaukee's offense in a low-scoring affair (total 6.0). Both teams are in good form, but the starting pitching edge gives LA the nod in this even pick'em game."
   }
 }

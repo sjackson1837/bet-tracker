@@ -90,9 +90,350 @@ th { color: var(--muted); font-weight: 500; font-size: 0.78rem; text-transform: 
   </nav>
 </header>
 <div class="layout">
-
+<div class="sidebar"><h3>Sports</h3><button class="league-btn active" data-league="all" onclick="filterLeague('all', this)">All Sports</button><button class="league-btn" data-league="NFL" onclick="filterLeague('NFL', this)">NFL</button><button class="league-btn" data-league="NCAAF" onclick="filterLeague('NCAAF', this)">NCAAF</button><button class="league-btn" data-league="MLB" onclick="filterLeague('MLB', this)">MLB</button></div>
 <main>
-<p class="updated">Last updated Oct 10, 2026 at 10:23 AM CDT</p><p class="empty">No upcoming games right now. Check back after the next data refresh.</p>
+<p class="updated">Last updated Oct 10, 2026 at 10:36 AM CDT</p><div class="league-group filterable-item" data-league="NFL"><h2>NFL</h2>
+<div class="card">
+  <div class="matchup">Minnesota Vikings @ New Orleans Saints <span class="your-pick-badge" data-game-id="americanfootball_nfl_2026-10-11_minnesota-vikings_at_new-orleans-saints" style="display:none;">&#10003; Your pick</span></div>
+  <div class="meta">Sun Oct 11, 12:00 PM CDT</div>
+  <div class="odds-row"><div class="odds-item"><div class="odds-label">Moneyline</div><div class="odds-value">Minnesota Vikings -133 &middot; New Orleans Saints +112</div></div><div class="odds-item"><div class="odds-label">Spread</div><div class="odds-value">Minnesota Vikings -2.0 &middot; New Orleans Saints +2.0</div></div><div class="odds-item"><div class="odds-label">Total (O/U)</div><div class="odds-value">42.0</div></div></div>
+  <div class="pick-row">
+    <span>Pick:</span> <span class="pick">Minnesota Vikings</span>
+    <span class="confidence">74% confidence</span>
+  </div>
+  <div class="pick-row"><span>Against the spread:</span> <span class="pick">Minnesota Vikings</span></div>
+  <label class="pick-toggle">
+    <input type="checkbox" class="pick-checkbox" data-game-id="americanfootball_nfl_2026-10-11_minnesota-vikings_at_new-orleans-saints"  onchange="togglePick('americanfootball_nfl_2026-10-11_minnesota-vikings_at_new-orleans-saints', this)"> I bet on this
+  </label>
+  <div class="pick-status" data-game-id="americanfootball_nfl_2026-10-11_minnesota-vikings_at_new-orleans-saints">Couldn't save that pick &mdash; check your connection and try again.</div>
+</div>
+<div class="card">
+  <div class="matchup">Cincinnati Bengals @ Miami Dolphins <span class="your-pick-badge" data-game-id="americanfootball_nfl_2026-10-11_cincinnati-bengals_at_miami-dolphins" style="display:none;">&#10003; Your pick</span></div>
+  <div class="meta">Sun Oct 11, 12:00 PM CDT</div>
+  <div class="odds-row"><div class="odds-item"><div class="odds-label">Moneyline</div><div class="odds-value">Cincinnati Bengals -373 &middot; Miami Dolphins +293</div></div><div class="odds-item"><div class="odds-label">Spread</div><div class="odds-value">Cincinnati Bengals -7.0 &middot; Miami Dolphins +7.0</div></div><div class="odds-item"><div class="odds-label">Total (O/U)</div><div class="odds-value">42.5</div></div></div>
+  <div class="pick-row">
+    <span>Pick:</span> <span class="pick">Cincinnati Bengals</span>
+    <span class="confidence">72% confidence</span>
+  </div>
+  <div class="pick-row"><span>Against the spread:</span> <span class="pick">Cincinnati Bengals</span></div>
+  <label class="pick-toggle">
+    <input type="checkbox" class="pick-checkbox" data-game-id="americanfootball_nfl_2026-10-11_cincinnati-bengals_at_miami-dolphins"  onchange="togglePick('americanfootball_nfl_2026-10-11_cincinnati-bengals_at_miami-dolphins', this)"> I bet on this
+  </label>
+  <div class="pick-status" data-game-id="americanfootball_nfl_2026-10-11_cincinnati-bengals_at_miami-dolphins">Couldn't save that pick &mdash; check your connection and try again.</div>
+</div>
+<div class="card">
+  <div class="matchup">Detroit Lions @ Arizona Cardinals <span class="your-pick-badge" data-game-id="americanfootball_nfl_2026-10-11_detroit-lions_at_arizona-cardinals" style="display:none;">&#10003; Your pick</span></div>
+  <div class="meta">Sun Oct 11, 03:25 PM CDT</div>
+  <div class="odds-row"><div class="odds-item"><div class="odds-label">Moneyline</div><div class="odds-value">Arizona Cardinals +202 &middot; Detroit Lions -246</div></div><div class="odds-item"><div class="odds-label">Spread</div><div class="odds-value">Arizona Cardinals +5.5 &middot; Detroit Lions -5.5</div></div><div class="odds-item"><div class="odds-label">Total (O/U)</div><div class="odds-value">54.5</div></div></div>
+  <div class="pick-row">
+    <span>Pick:</span> <span class="pick">Detroit Lions</span>
+    <span class="confidence">70% confidence</span>
+  </div>
+  <div class="pick-row"><span>Against the spread:</span> <span class="pick">Detroit Lions</span></div>
+  <label class="pick-toggle">
+    <input type="checkbox" class="pick-checkbox" data-game-id="americanfootball_nfl_2026-10-11_detroit-lions_at_arizona-cardinals"  onchange="togglePick('americanfootball_nfl_2026-10-11_detroit-lions_at_arizona-cardinals', this)"> I bet on this
+  </label>
+  <div class="pick-status" data-game-id="americanfootball_nfl_2026-10-11_detroit-lions_at_arizona-cardinals">Couldn't save that pick &mdash; check your connection and try again.</div>
+</div>
+<div class="card">
+  <div class="matchup">Denver Broncos @ Los Angeles Chargers <span class="your-pick-badge" data-game-id="americanfootball_nfl_2026-10-11_denver-broncos_at_los-angeles-chargers" style="display:none;">&#10003; Your pick</span></div>
+  <div class="meta">Sun Oct 11, 03:05 PM CDT</div>
+  <div class="odds-row"><div class="odds-item"><div class="odds-label">Moneyline</div><div class="odds-value">Denver Broncos -186 &middot; Los Angeles Chargers +157</div></div><div class="odds-item"><div class="odds-label">Spread</div><div class="odds-value">Denver Broncos -3.5 &middot; Los Angeles Chargers +3.5</div></div><div class="odds-item"><div class="odds-label">Total (O/U)</div><div class="odds-value">42.0</div></div></div>
+  <div class="pick-row">
+    <span>Pick:</span> <span class="pick">Denver Broncos</span>
+    <span class="confidence">68% confidence</span>
+  </div>
+  <div class="pick-row"><span>Against the spread:</span> <span class="pick">Denver Broncos</span></div>
+  <label class="pick-toggle">
+    <input type="checkbox" class="pick-checkbox" data-game-id="americanfootball_nfl_2026-10-11_denver-broncos_at_los-angeles-chargers"  onchange="togglePick('americanfootball_nfl_2026-10-11_denver-broncos_at_los-angeles-chargers', this)"> I bet on this
+  </label>
+  <div class="pick-status" data-game-id="americanfootball_nfl_2026-10-11_denver-broncos_at_los-angeles-chargers">Couldn't save that pick &mdash; check your connection and try again.</div>
+</div>
+<div class="card">
+  <div class="matchup">Cleveland Browns @ New York Jets <span class="your-pick-badge" data-game-id="americanfootball_nfl_2026-10-11_cleveland-browns_at_new-york-jets" style="display:none;">&#10003; Your pick</span></div>
+  <div class="meta">Sun Oct 11, 12:00 PM CDT</div>
+  <div class="odds-row"><div class="odds-item"><div class="odds-label">Moneyline</div><div class="odds-value">Cleveland Browns +110 &middot; New York Jets -131</div></div><div class="odds-item"><div class="odds-label">Spread</div><div class="odds-value">Cleveland Browns +2.0 &middot; New York Jets -2.0</div></div><div class="odds-item"><div class="odds-label">Total (O/U)</div><div class="odds-value">40.0</div></div></div>
+  <div class="pick-row">
+    <span>Pick:</span> <span class="pick">Cleveland Browns</span>
+    <span class="confidence">64% confidence</span>
+  </div>
+  <div class="pick-row"><span>Against the spread:</span> <span class="pick">Cleveland Browns</span></div>
+  <label class="pick-toggle">
+    <input type="checkbox" class="pick-checkbox" data-game-id="americanfootball_nfl_2026-10-11_cleveland-browns_at_new-york-jets"  onchange="togglePick('americanfootball_nfl_2026-10-11_cleveland-browns_at_new-york-jets', this)"> I bet on this
+  </label>
+  <div class="pick-status" data-game-id="americanfootball_nfl_2026-10-11_cleveland-browns_at_new-york-jets">Couldn't save that pick &mdash; check your connection and try again.</div>
+</div>
+<div class="card">
+  <div class="matchup">San Francisco 49ers @ Seattle Seahawks <span class="your-pick-badge" data-game-id="americanfootball_nfl_2026-10-11_san-francisco-49ers_at_seattle-seahawks" style="display:none;">&#10003; Your pick</span></div>
+  <div class="meta">Sun Oct 11, 03:25 PM CDT</div>
+  <div class="odds-row"><div class="odds-item"><div class="odds-label">Moneyline</div><div class="odds-value">San Francisco 49ers +144 &middot; Seattle Seahawks -170</div></div><div class="odds-item"><div class="odds-label">Spread</div><div class="odds-value">San Francisco 49ers +3.0 &middot; Seattle Seahawks -3.0</div></div><div class="odds-item"><div class="odds-label">Total (O/U)</div><div class="odds-value">46.0</div></div></div>
+  <div class="pick-row">
+    <span>Pick:</span> <span class="pick">San Francisco 49ers</span>
+    <span class="confidence">64% confidence</span>
+  </div>
+  <div class="pick-row"><span>Against the spread:</span> <span class="pick">San Francisco 49ers</span></div>
+  <label class="pick-toggle">
+    <input type="checkbox" class="pick-checkbox" data-game-id="americanfootball_nfl_2026-10-11_san-francisco-49ers_at_seattle-seahawks"  onchange="togglePick('americanfootball_nfl_2026-10-11_san-francisco-49ers_at_seattle-seahawks', this)"> I bet on this
+  </label>
+  <div class="pick-status" data-game-id="americanfootball_nfl_2026-10-11_san-francisco-49ers_at_seattle-seahawks">Couldn't save that pick &mdash; check your connection and try again.</div>
+</div>
+<div class="card">
+  <div class="matchup">New York Giants @ Washington Commanders <span class="your-pick-badge" data-game-id="americanfootball_nfl_2026-10-11_new-york-giants_at_washington-commanders" style="display:none;">&#10003; Your pick</span></div>
+  <div class="meta">Sun Oct 11, 12:00 PM CDT</div>
+  <div class="odds-row"><div class="odds-item"><div class="odds-label">Moneyline</div><div class="odds-value">New York Giants +156 &middot; Washington Commanders -186</div></div><div class="odds-item"><div class="odds-label">Spread</div><div class="odds-value">New York Giants +3.5 &middot; Washington Commanders -3.5</div></div><div class="odds-item"><div class="odds-label">Total (O/U)</div><div class="odds-value">43.5</div></div></div>
+  <div class="pick-row">
+    <span>Pick:</span> <span class="pick">New York Giants</span>
+    <span class="confidence">63% confidence</span>
+  </div>
+  <div class="pick-row"><span>Against the spread:</span> <span class="pick">New York Giants</span></div>
+  <label class="pick-toggle">
+    <input type="checkbox" class="pick-checkbox" data-game-id="americanfootball_nfl_2026-10-11_new-york-giants_at_washington-commanders"  onchange="togglePick('americanfootball_nfl_2026-10-11_new-york-giants_at_washington-commanders', this)"> I bet on this
+  </label>
+  <div class="pick-status" data-game-id="americanfootball_nfl_2026-10-11_new-york-giants_at_washington-commanders">Couldn't save that pick &mdash; check your connection and try again.</div>
+</div>
+<div class="card">
+  <div class="matchup">Baltimore Ravens @ Atlanta Falcons <span class="your-pick-badge" data-game-id="americanfootball_nfl_2026-10-12_baltimore-ravens_at_atlanta-falcons" style="display:none;">&#10003; Your pick</span></div>
+  <div class="meta">Sun Oct 11, 07:20 PM CDT</div>
+  <div class="odds-row"><div class="odds-item"><div class="odds-label">Moneyline</div><div class="odds-value">Atlanta Falcons -176 &middot; Baltimore Ravens +149</div></div><div class="odds-item"><div class="odds-label">Spread</div><div class="odds-value">Atlanta Falcons -3.5 &middot; Baltimore Ravens +3.5</div></div><div class="odds-item"><div class="odds-label">Total (O/U)</div><div class="odds-value">43.5</div></div></div>
+  <div class="pick-row">
+    <span>Pick:</span> <span class="pick">Baltimore Ravens</span>
+    <span class="confidence">60% confidence</span>
+  </div>
+  <div class="pick-row"><span>Against the spread:</span> <span class="pick">Baltimore Ravens</span></div>
+  <label class="pick-toggle">
+    <input type="checkbox" class="pick-checkbox" data-game-id="americanfootball_nfl_2026-10-12_baltimore-ravens_at_atlanta-falcons"  onchange="togglePick('americanfootball_nfl_2026-10-12_baltimore-ravens_at_atlanta-falcons', this)"> I bet on this
+  </label>
+  <div class="pick-status" data-game-id="americanfootball_nfl_2026-10-12_baltimore-ravens_at_atlanta-falcons">Couldn't save that pick &mdash; check your connection and try again.</div>
+</div>
+<div class="card">
+  <div class="matchup">Chicago Bears @ Green Bay Packers <span class="your-pick-badge" data-game-id="americanfootball_nfl_2026-10-11_chicago-bears_at_green-bay-packers" style="display:none;">&#10003; Your pick</span></div>
+  <div class="meta">Sun Oct 11, 03:25 PM CDT</div>
+  <div class="odds-row"><div class="odds-item"><div class="odds-label">Moneyline</div><div class="odds-value">Chicago Bears -123 &middot; Green Bay Packers +59</div></div><div class="odds-item"><div class="odds-label">Spread</div><div class="odds-value">Chicago Bears -1.5 &middot; Green Bay Packers +1.5</div></div><div class="odds-item"><div class="odds-label">Total (O/U)</div><div class="odds-value">46.0</div></div></div>
+  <div class="pick-row">
+    <span>Pick:</span> <span class="pick">Chicago Bears</span>
+    <span class="confidence">58% confidence</span>
+  </div>
+  <div class="pick-row"><span>Against the spread:</span> <span class="pick">Chicago Bears</span></div>
+  <label class="pick-toggle">
+    <input type="checkbox" class="pick-checkbox" data-game-id="americanfootball_nfl_2026-10-11_chicago-bears_at_green-bay-packers"  onchange="togglePick('americanfootball_nfl_2026-10-11_chicago-bears_at_green-bay-packers', this)"> I bet on this
+  </label>
+  <div class="pick-status" data-game-id="americanfootball_nfl_2026-10-11_chicago-bears_at_green-bay-packers">Couldn't save that pick &mdash; check your connection and try again.</div>
+</div>
+<div class="card">
+  <div class="matchup">Indianapolis Colts @ Pittsburgh Steelers <span class="your-pick-badge" data-game-id="americanfootball_nfl_2026-10-11_indianapolis-colts_at_pittsburgh-steelers" style="display:none;">&#10003; Your pick</span></div>
+  <div class="meta">Sun Oct 11, 12:00 PM CDT</div>
+  <div class="odds-row"><div class="odds-item"><div class="odds-label">Moneyline</div><div class="odds-value">Indianapolis Colts +118 &middot; Pittsburgh Steelers -140</div></div><div class="odds-item"><div class="odds-label">Spread</div><div class="odds-value">Indianapolis Colts +2.5 &middot; Pittsburgh Steelers -2.5</div></div><div class="odds-item"><div class="odds-label">Total (O/U)</div><div class="odds-value">44.5</div></div></div>
+  <div class="pick-row">
+    <span>Pick:</span> <span class="pick">Indianapolis Colts</span>
+    <span class="confidence">57% confidence</span>
+  </div>
+  <div class="pick-row"><span>Against the spread:</span> <span class="pick">Indianapolis Colts</span></div>
+  <label class="pick-toggle">
+    <input type="checkbox" class="pick-checkbox" data-game-id="americanfootball_nfl_2026-10-11_indianapolis-colts_at_pittsburgh-steelers"  onchange="togglePick('americanfootball_nfl_2026-10-11_indianapolis-colts_at_pittsburgh-steelers', this)"> I bet on this
+  </label>
+  <div class="pick-status" data-game-id="americanfootball_nfl_2026-10-11_indianapolis-colts_at_pittsburgh-steelers">Couldn't save that pick &mdash; check your connection and try again.</div>
+</div>
+<div class="card">
+  <div class="matchup">Buffalo Bills @ Los Angeles Rams <span class="your-pick-badge" data-game-id="americanfootball_nfl_2026-10-13_buffalo-bills_at_los-angeles-rams" style="display:none;">&#10003; Your pick</span></div>
+  <div class="meta">Mon Oct 12, 07:15 PM CDT</div>
+  <div class="odds-row"><div class="odds-item"><div class="odds-label">Moneyline</div><div class="odds-value">Buffalo Bills +148 &middot; Los Angeles Rams -177</div></div><div class="odds-item"><div class="odds-label">Spread</div><div class="odds-value">Buffalo Bills +3.0 &middot; Los Angeles Rams -3.0</div></div><div class="odds-item"><div class="odds-label">Total (O/U)</div><div class="odds-value">54.5</div></div></div>
+  <div class="pick-row">
+    <span>Pick:</span> <span class="pick">Buffalo Bills</span>
+    <span class="confidence">56% confidence</span>
+  </div>
+  <div class="pick-row"><span>Against the spread:</span> <span class="pick">Buffalo Bills</span></div>
+  <label class="pick-toggle">
+    <input type="checkbox" class="pick-checkbox" data-game-id="americanfootball_nfl_2026-10-13_buffalo-bills_at_los-angeles-rams"  onchange="togglePick('americanfootball_nfl_2026-10-13_buffalo-bills_at_los-angeles-rams', this)"> I bet on this
+  </label>
+  <div class="pick-status" data-game-id="americanfootball_nfl_2026-10-13_buffalo-bills_at_los-angeles-rams">Couldn't save that pick &mdash; check your connection and try again.</div>
+</div>
+</div>
+<div class="league-group filterable-item" data-league="NCAAF"><h2>NCAAF</h2>
+<div class="card">
+  <div class="matchup">Florida International Panthers @ Jacksonville State Gamecocks <span class="your-pick-badge" data-game-id="americanfootball_ncaaf_2026-10-14_florida-international-panthers_at_jacksonville-state-gamecocks" style="display:none;">&#10003; Your pick</span></div>
+  <div class="meta">Tue Oct 13, 07:00 PM CDT</div>
+  <div class="odds-row"><div class="odds-item"><div class="odds-label">Moneyline</div><div class="odds-value">Florida International Panthers +127 &middot; Jacksonville State Gamecocks -152</div></div><div class="odds-item"><div class="odds-label">Spread</div><div class="odds-value">Florida International Panthers +3.0 &middot; Jacksonville State Gamecocks -3.0</div></div><div class="odds-item"><div class="odds-label">Total (O/U)</div><div class="odds-value">45.5</div></div></div>
+  <div class="pick-row">
+    <span>Pick:</span> <span class="pick">Jacksonville State Gamecocks</span>
+    <span class="confidence">66% confidence</span>
+  </div>
+  <div class="pick-row"><span>Against the spread:</span> <span class="pick">Jacksonville State Gamecocks</span></div>
+  <label class="pick-toggle">
+    <input type="checkbox" class="pick-checkbox" data-game-id="americanfootball_ncaaf_2026-10-14_florida-international-panthers_at_jacksonville-state-gamecocks"  onchange="togglePick('americanfootball_ncaaf_2026-10-14_florida-international-panthers_at_jacksonville-state-gamecocks', this)"> I bet on this
+  </label>
+  <div class="pick-status" data-game-id="americanfootball_ncaaf_2026-10-14_florida-international-panthers_at_jacksonville-state-gamecocks">Couldn't save that pick &mdash; check your connection and try again.</div>
+</div>
+<div class="card">
+  <div class="matchup">Sacramento State Hornets @ Bowling Green Falcons <span class="your-pick-badge" data-game-id="americanfootball_ncaaf_2026-10-10_sacramento-state-hornets_at_bowling-green-falcons" style="display:none;">&#10003; Your pick</span></div>
+  <div class="meta">Sat Oct 10, 11:00 AM CDT</div>
+  <div class="odds-row"><div class="odds-item"><div class="odds-label">Moneyline</div><div class="odds-value">Bowling Green Falcons -297 &middot; Sacramento State Hornets +239</div></div><div class="odds-item"><div class="odds-label">Spread</div><div class="odds-value">Bowling Green Falcons -7.5 &middot; Sacramento State Hornets +7.5</div></div><div class="odds-item"><div class="odds-label">Total (O/U)</div><div class="odds-value">44.5</div></div></div>
+  <div class="pick-row">
+    <span>Pick:</span> <span class="pick">Bowling Green Falcons</span>
+    <span class="confidence">64% confidence</span>
+  </div>
+  <div class="pick-row"><span>Against the spread:</span> <span class="pick">Bowling Green Falcons</span></div>
+  <label class="pick-toggle">
+    <input type="checkbox" class="pick-checkbox" data-game-id="americanfootball_ncaaf_2026-10-10_sacramento-state-hornets_at_bowling-green-falcons"  onchange="togglePick('americanfootball_ncaaf_2026-10-10_sacramento-state-hornets_at_bowling-green-falcons', this)"> I bet on this
+  </label>
+  <div class="pick-status" data-game-id="americanfootball_ncaaf_2026-10-10_sacramento-state-hornets_at_bowling-green-falcons">Couldn't save that pick &mdash; check your connection and try again.</div>
+</div>
+<div class="card">
+  <div class="matchup">Arizona Wildcats @ West Virginia Mountaineers <span class="your-pick-badge" data-game-id="americanfootball_ncaaf_2026-10-10_arizona-wildcats_at_west-virginia-mountaineers" style="display:none;">&#10003; Your pick</span></div>
+  <div class="meta">Sat Oct 10, 11:00 AM CDT</div>
+  <div class="odds-row"><div class="odds-item"><div class="odds-label">Moneyline</div><div class="odds-value">Arizona Wildcats -163 &middot; West Virginia Mountaineers +137</div></div><div class="odds-item"><div class="odds-label">Spread</div><div class="odds-value">Arizona Wildcats -3.5 &middot; West Virginia Mountaineers +3.5</div></div><div class="odds-item"><div class="odds-label">Total (O/U)</div><div class="odds-value">61.5</div></div></div>
+  <div class="pick-row">
+    <span>Pick:</span> <span class="pick">Arizona Wildcats</span>
+    <span class="confidence">63% confidence</span>
+  </div>
+  <div class="pick-row"><span>Against the spread:</span> <span class="pick">Arizona Wildcats</span></div>
+  <label class="pick-toggle">
+    <input type="checkbox" class="pick-checkbox" data-game-id="americanfootball_ncaaf_2026-10-10_arizona-wildcats_at_west-virginia-mountaineers"  onchange="togglePick('americanfootball_ncaaf_2026-10-10_arizona-wildcats_at_west-virginia-mountaineers', this)"> I bet on this
+  </label>
+  <div class="pick-status" data-game-id="americanfootball_ncaaf_2026-10-10_arizona-wildcats_at_west-virginia-mountaineers">Couldn't save that pick &mdash; check your connection and try again.</div>
+</div>
+<div class="card">
+  <div class="matchup">Duke Blue Devils @ Georgia Tech Yellow Jackets <span class="your-pick-badge" data-game-id="americanfootball_ncaaf_2026-10-10_duke-blue-devils_at_georgia-tech-yellow-jackets" style="display:none;">&#10003; Your pick</span></div>
+  <div class="meta">Sat Oct 10, 02:30 PM CDT</div>
+  <div class="odds-row"><div class="odds-item"><div class="odds-label">Moneyline</div><div class="odds-value">Duke Blue Devils -273 &middot; Georgia Tech Yellow Jackets +221</div></div><div class="odds-item"><div class="odds-label">Spread</div><div class="odds-value">Duke Blue Devils -7.0 &middot; Georgia Tech Yellow Jackets +7.0</div></div><div class="odds-item"><div class="odds-label">Total (O/U)</div><div class="odds-value">48.5</div></div></div>
+  <div class="pick-row">
+    <span>Pick:</span> <span class="pick">Duke Blue Devils</span>
+    <span class="confidence">60% confidence</span>
+  </div>
+  <div class="pick-row"><span>Against the spread:</span> <span class="pick">Duke Blue Devils</span></div>
+  <label class="pick-toggle">
+    <input type="checkbox" class="pick-checkbox" data-game-id="americanfootball_ncaaf_2026-10-10_duke-blue-devils_at_georgia-tech-yellow-jackets"  onchange="togglePick('americanfootball_ncaaf_2026-10-10_duke-blue-devils_at_georgia-tech-yellow-jackets', this)"> I bet on this
+  </label>
+  <div class="pick-status" data-game-id="americanfootball_ncaaf_2026-10-10_duke-blue-devils_at_georgia-tech-yellow-jackets">Couldn't save that pick &mdash; check your connection and try again.</div>
+</div>
+<div class="card">
+  <div class="matchup">Louisiana Ragin Cajuns @ Louisiana Tech Bulldogs <span class="your-pick-badge" data-game-id="americanfootball_ncaaf_2026-10-10_louisiana-ragin-cajuns_at_louisiana-tech-bulldogs" style="display:none;">&#10003; Your pick</span></div>
+  <div class="meta">Sat Oct 10, 06:30 PM CDT</div>
+  <div class="odds-row"><div class="odds-item"><div class="odds-label">Moneyline</div><div class="odds-value">Louisiana Ragin Cajuns +125 &middot; Louisiana Tech Bulldogs -148</div></div><div class="odds-item"><div class="odds-label">Spread</div><div class="odds-value">Louisiana Ragin Cajuns +3.0 &middot; Louisiana Tech Bulldogs -3.0</div></div><div class="odds-item"><div class="odds-label">Total (O/U)</div><div class="odds-value">48.0</div></div></div>
+  <div class="pick-row">
+    <span>Pick:</span> <span class="pick">Louisiana Tech Bulldogs</span>
+    <span class="confidence">60% confidence</span>
+  </div>
+  <div class="pick-row"><span>Against the spread:</span> <span class="pick">Louisiana Tech Bulldogs</span></div>
+  <label class="pick-toggle">
+    <input type="checkbox" class="pick-checkbox" data-game-id="americanfootball_ncaaf_2026-10-10_louisiana-ragin-cajuns_at_louisiana-tech-bulldogs"  onchange="togglePick('americanfootball_ncaaf_2026-10-10_louisiana-ragin-cajuns_at_louisiana-tech-bulldogs', this)"> I bet on this
+  </label>
+  <div class="pick-status" data-game-id="americanfootball_ncaaf_2026-10-10_louisiana-ragin-cajuns_at_louisiana-tech-bulldogs">Couldn't save that pick &mdash; check your connection and try again.</div>
+</div>
+<div class="card">
+  <div class="matchup">Hawaii Rainbow Warriors @ Arizona State Sun Devils <span class="your-pick-badge" data-game-id="americanfootball_ncaaf_2026-10-11_hawaii-rainbow-warriors_at_arizona-state-sun-devils" style="display:none;">&#10003; Your pick</span></div>
+  <div class="meta">Sat Oct 10, 09:30 PM CDT</div>
+  <div class="odds-row"><div class="odds-item"><div class="odds-label">Moneyline</div><div class="odds-value">Arizona State Sun Devils -1748 &middot; Hawaii Rainbow Warriors +899</div></div><div class="odds-item"><div class="odds-label">Spread</div><div class="odds-value">Arizona State Sun Devils -20.5 &middot; Hawaii Rainbow Warriors +20.5</div></div><div class="odds-item"><div class="odds-label">Total (O/U)</div><div class="odds-value">50.0</div></div></div>
+  <div class="pick-row">
+    <span>Pick:</span> <span class="pick">Arizona State Sun Devils</span>
+    <span class="confidence">60% confidence</span>
+  </div>
+  <div class="pick-row"><span>Against the spread:</span> <span class="pick">Arizona State Sun Devils</span></div>
+  <label class="pick-toggle">
+    <input type="checkbox" class="pick-checkbox" data-game-id="americanfootball_ncaaf_2026-10-11_hawaii-rainbow-warriors_at_arizona-state-sun-devils"  onchange="togglePick('americanfootball_ncaaf_2026-10-11_hawaii-rainbow-warriors_at_arizona-state-sun-devils', this)"> I bet on this
+  </label>
+  <div class="pick-status" data-game-id="americanfootball_ncaaf_2026-10-11_hawaii-rainbow-warriors_at_arizona-state-sun-devils">Couldn't save that pick &mdash; check your connection and try again.</div>
+</div>
+<div class="card">
+  <div class="matchup">Georgia Bulldogs @ Alabama Crimson Tide <span class="your-pick-badge" data-game-id="americanfootball_ncaaf_2026-10-10_georgia-bulldogs_at_alabama-crimson-tide" style="display:none;">&#10003; Your pick</span></div>
+  <div class="meta">Sat Oct 10, 11:00 AM CDT</div>
+  <div class="odds-row"><div class="odds-item"><div class="odds-label">Moneyline</div><div class="odds-value">Alabama Crimson Tide -122 &middot; Georgia Bulldogs +35</div></div><div class="odds-item"><div class="odds-label">Spread</div><div class="odds-value">Alabama Crimson Tide -1.5 &middot; Georgia Bulldogs +1.5</div></div><div class="odds-item"><div class="odds-label">Total (O/U)</div><div class="odds-value">54.5</div></div></div>
+  <div class="pick-row">
+    <span>Pick:</span> <span class="pick">Georgia Bulldogs</span>
+    <span class="confidence">58% confidence</span>
+  </div>
+  <div class="pick-row"><span>Against the spread:</span> <span class="pick">Georgia Bulldogs</span></div>
+  <label class="pick-toggle">
+    <input type="checkbox" class="pick-checkbox" data-game-id="americanfootball_ncaaf_2026-10-10_georgia-bulldogs_at_alabama-crimson-tide"  onchange="togglePick('americanfootball_ncaaf_2026-10-10_georgia-bulldogs_at_alabama-crimson-tide', this)"> I bet on this
+  </label>
+  <div class="pick-status" data-game-id="americanfootball_ncaaf_2026-10-10_georgia-bulldogs_at_alabama-crimson-tide">Couldn't save that pick &mdash; check your connection and try again.</div>
+</div>
+<div class="card">
+  <div class="matchup">Virginia Tech Hokies @ California Golden Bears <span class="your-pick-badge" data-game-id="americanfootball_ncaaf_2026-10-10_virginia-tech-hokies_at_california-golden-bears" style="display:none;">&#10003; Your pick</span></div>
+  <div class="meta">Sat Oct 10, 02:30 PM CDT</div>
+  <div class="odds-row"><div class="odds-item"><div class="odds-label">Moneyline</div><div class="odds-value">California Golden Bears +274 &middot; Virginia Tech Hokies -351</div></div><div class="odds-item"><div class="odds-label">Spread</div><div class="odds-value">California Golden Bears +9.0 &middot; Virginia Tech Hokies -9.0</div></div><div class="odds-item"><div class="odds-label">Total (O/U)</div><div class="odds-value">53.5</div></div></div>
+  <div class="pick-row">
+    <span>Pick:</span> <span class="pick">Virginia Tech Hokies</span>
+    <span class="confidence">58% confidence</span>
+  </div>
+  <div class="pick-row"><span>Against the spread:</span> <span class="pick">Virginia Tech Hokies</span></div>
+  <label class="pick-toggle">
+    <input type="checkbox" class="pick-checkbox" data-game-id="americanfootball_ncaaf_2026-10-10_virginia-tech-hokies_at_california-golden-bears"  onchange="togglePick('americanfootball_ncaaf_2026-10-10_virginia-tech-hokies_at_california-golden-bears', this)"> I bet on this
+  </label>
+  <div class="pick-status" data-game-id="americanfootball_ncaaf_2026-10-10_virginia-tech-hokies_at_california-golden-bears">Couldn't save that pick &mdash; check your connection and try again.</div>
+</div>
+<div class="card">
+  <div class="matchup">UConn Huskies @ Temple Owls <span class="your-pick-badge" data-game-id="americanfootball_ncaaf_2026-10-10_uconn-huskies_at_temple-owls" style="display:none;">&#10003; Your pick</span></div>
+  <div class="meta">Sat Oct 10, 02:45 PM CDT</div>
+  <div class="odds-row"><div class="odds-item"><div class="odds-label">Moneyline</div><div class="odds-value">Temple Owls -182 &middot; UConn Huskies +153</div></div><div class="odds-item"><div class="odds-label">Spread</div><div class="odds-value">Temple Owls -3.5 &middot; UConn Huskies +3.5</div></div><div class="odds-item"><div class="odds-label">Total (O/U)</div><div class="odds-value">54.5</div></div></div>
+  <div class="pick-row">
+    <span>Pick:</span> <span class="pick">Temple Owls</span>
+    <span class="confidence">58% confidence</span>
+  </div>
+  <div class="pick-row"><span>Against the spread:</span> <span class="pick">Temple Owls</span></div>
+  <label class="pick-toggle">
+    <input type="checkbox" class="pick-checkbox" data-game-id="americanfootball_ncaaf_2026-10-10_uconn-huskies_at_temple-owls"  onchange="togglePick('americanfootball_ncaaf_2026-10-10_uconn-huskies_at_temple-owls', this)"> I bet on this
+  </label>
+  <div class="pick-status" data-game-id="americanfootball_ncaaf_2026-10-10_uconn-huskies_at_temple-owls">Couldn't save that pick &mdash; check your connection and try again.</div>
+</div>
+<div class="card">
+  <div class="matchup">Boise State Broncos @ Fresno State Bulldogs <span class="your-pick-badge" data-game-id="americanfootball_ncaaf_2026-10-11_boise-state-broncos_at_fresno-state-bulldogs" style="display:none;">&#10003; Your pick</span></div>
+  <div class="meta">Sat Oct 10, 09:30 PM CDT</div>
+  <div class="odds-row"><div class="odds-item"><div class="odds-label">Moneyline</div><div class="odds-value">Boise State Broncos -250 &middot; Fresno State Bulldogs +205</div></div><div class="odds-item"><div class="odds-label">Spread</div><div class="odds-value">Boise State Broncos -6.5 &middot; Fresno State Bulldogs +6.5</div></div><div class="odds-item"><div class="odds-label">Total (O/U)</div><div class="odds-value">48.5</div></div></div>
+  <div class="pick-row">
+    <span>Pick:</span> <span class="pick">Fresno State Bulldogs</span>
+    <span class="confidence">58% confidence</span>
+  </div>
+  <div class="pick-row"><span>Against the spread:</span> <span class="pick">Fresno State Bulldogs</span></div>
+  <label class="pick-toggle">
+    <input type="checkbox" class="pick-checkbox" data-game-id="americanfootball_ncaaf_2026-10-11_boise-state-broncos_at_fresno-state-bulldogs"  onchange="togglePick('americanfootball_ncaaf_2026-10-11_boise-state-broncos_at_fresno-state-bulldogs', this)"> I bet on this
+  </label>
+  <div class="pick-status" data-game-id="americanfootball_ncaaf_2026-10-11_boise-state-broncos_at_fresno-state-bulldogs">Couldn't save that pick &mdash; check your connection and try again.</div>
+</div>
+<div class="card">
+  <div class="matchup">Ball State Cardinals @ Northwestern Wildcats <span class="your-pick-badge" data-game-id="americanfootball_ncaaf_2026-10-10_ball-state-cardinals_at_northwestern-wildcats" style="display:none;">&#10003; Your pick</span></div>
+  <div class="meta">Sat Oct 10, 11:30 AM CDT</div>
+  <div class="odds-row"><div class="odds-item"><div class="odds-label">Spread</div><div class="odds-value">Ball State Cardinals +36.0 &middot; Northwestern Wildcats -36.0</div></div><div class="odds-item"><div class="odds-label">Total (O/U)</div><div class="odds-value">53.0</div></div></div>
+  <div class="pick-row">
+    <span>Pick:</span> <span class="pick">Northwestern Wildcats</span>
+    <span class="confidence">56% confidence</span>
+  </div>
+  <div class="pick-row"><span>Against the spread:</span> <span class="pick">Ball State Cardinals</span></div>
+  <label class="pick-toggle">
+    <input type="checkbox" class="pick-checkbox" data-game-id="americanfootball_ncaaf_2026-10-10_ball-state-cardinals_at_northwestern-wildcats"  onchange="togglePick('americanfootball_ncaaf_2026-10-10_ball-state-cardinals_at_northwestern-wildcats', this)"> I bet on this
+  </label>
+  <div class="pick-status" data-game-id="americanfootball_ncaaf_2026-10-10_ball-state-cardinals_at_northwestern-wildcats">Couldn't save that pick &mdash; check your connection and try again.</div>
+</div>
+</div>
+<div class="league-group filterable-item" data-league="MLB"><h2>MLB</h2>
+<div class="card">
+  <div class="matchup">Los Angeles Dodgers @ Milwaukee Brewers <span class="your-pick-badge" data-game-id="baseball_mlb_2026-10-12_los-angeles-dodgers_at_milwaukee-brewers" style="display:none;">&#10003; Your pick</span></div>
+  <div class="meta">Sun Oct 11, 07:00 PM CDT</div>
+  <div class="odds-row"><div class="odds-item"><div class="odds-label">Moneyline</div><div class="odds-value">Los Angeles Dodgers -105 &middot; Milwaukee Brewers -111</div></div><div class="odds-item"><div class="odds-label">Spread</div><div class="odds-value">Los Angeles Dodgers 0.0 &middot; Milwaukee Brewers 0.0</div></div><div class="odds-item"><div class="odds-label">Total (O/U)</div><div class="odds-value">6.0</div></div></div>
+  <div class="pick-row">
+    <span>Pick:</span> <span class="pick">Los Angeles Dodgers</span>
+    <span class="confidence">62% confidence</span>
+  </div>
+  <div class="pick-row"><span>Against the spread:</span> <span class="pick">Los Angeles Dodgers</span></div>
+  <label class="pick-toggle">
+    <input type="checkbox" class="pick-checkbox" data-game-id="baseball_mlb_2026-10-12_los-angeles-dodgers_at_milwaukee-brewers"  onchange="togglePick('baseball_mlb_2026-10-12_los-angeles-dodgers_at_milwaukee-brewers', this)"> I bet on this
+  </label>
+  <div class="pick-status" data-game-id="baseball_mlb_2026-10-12_los-angeles-dodgers_at_milwaukee-brewers">Couldn't save that pick &mdash; check your connection and try again.</div>
+</div>
+<div class="card">
+  <div class="matchup">Chicago White Sox @ Cleveland Guardians <span class="your-pick-badge" data-game-id="baseball_mlb_2026-10-11_chicago-white-sox_at_cleveland-guardians" style="display:none;">&#10003; Your pick</span></div>
+  <div class="meta">Sat Oct 10, 07:01 PM CDT</div>
+  <div class="odds-row"><div class="odds-item"><div class="odds-label">Moneyline</div><div class="odds-value">Chicago White Sox +119 &middot; Cleveland Guardians -138</div></div><div class="odds-item"><div class="odds-label">Spread</div><div class="odds-value">Chicago White Sox +1.5 &middot; Cleveland Guardians -1.5</div></div><div class="odds-item"><div class="odds-label">Total (O/U)</div><div class="odds-value">7.0</div></div></div>
+  <div class="pick-row">
+    <span>Pick:</span> <span class="pick">Cleveland Guardians</span>
+    <span class="confidence">60% confidence</span>
+  </div>
+  <div class="pick-row"><span>Against the spread:</span> <span class="pick">Cleveland Guardians</span></div>
+  <label class="pick-toggle">
+    <input type="checkbox" class="pick-checkbox" data-game-id="baseball_mlb_2026-10-11_chicago-white-sox_at_cleveland-guardians"  onchange="togglePick('baseball_mlb_2026-10-11_chicago-white-sox_at_cleveland-guardians', this)"> I bet on this
+  </label>
+  <div class="pick-status" data-game-id="baseball_mlb_2026-10-11_chicago-white-sox_at_cleveland-guardians">Couldn't save that pick &mdash; check your connection and try again.</div>
+</div>
+</div>
 </main>
 </div>
 
