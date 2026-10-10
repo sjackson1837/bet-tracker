@@ -5363,11 +5363,11 @@
     "espn_sport": "football",
     "espn_league": "nfl",
     "outdoor": true,
-    "status": "scheduled",
+    "status": "predicted",
     "odds": {
       "moneyline": {
-        "Denver Broncos": -182,
-        "Los Angeles Chargers": 153
+        "Denver Broncos": -186,
+        "Los Angeles Chargers": 157
       },
       "spread": {
         "Denver Broncos": -3.5,
@@ -5376,7 +5376,52 @@
       "total": 42.0,
       "num_bookmakers": 9
     },
-    "prediction": null,
+    "prediction": {
+      "predicted_winner": "Denver Broncos",
+      "predicted_against_spread": "Denver Broncos",
+      "confidence": 68,
+      "key_factors": [
+        "Chargers on 4-game losing streak, winless at 0-4",
+        "Broncos 2-2 with better overall form",
+        "Market already reflects large gap but trend supports continuation"
+      ],
+      "reasoning": "The Chargers are mired in an 0-4 skid with no positive momentum, while the Broncos, despite a one-game slide, have a much better overall record. The spread (-3.5) seems light given the disparity in recent form, so I favor Denver covering as well as winning.",
+      "context_used": {
+        "away_trends": {
+          "team": "Denver Broncos",
+          "last5": "2-2",
+          "streak": "L1",
+          "record": "2-2",
+          "h2h_vs_opponent": null
+        },
+        "home_trends": {
+          "team": "Los Angeles Chargers",
+          "last5": "0-4",
+          "streak": "L4",
+          "record": "0-4",
+          "h2h_vs_opponent": null
+        },
+        "weather": null,
+        "probable_pitchers": {
+          "home": null,
+          "away": null
+        }
+      },
+      "generated_at": "2026-10-10T15:15:39.943909+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "Denver Broncos": -186,
+          "Los Angeles Chargers": 157
+        },
+        "spread": {
+          "Denver Broncos": -3.5,
+          "Los Angeles Chargers": 3.5
+        },
+        "total": 42.0,
+        "num_bookmakers": 9
+      }
+    },
     "actual": null
   },
   "americanfootball_nfl_2026-10-11_detroit-lions_at_arizona-cardinals": {
@@ -5388,20 +5433,65 @@
     "espn_sport": "football",
     "espn_league": "nfl",
     "outdoor": true,
-    "status": "scheduled",
+    "status": "predicted",
     "odds": {
       "moneyline": {
-        "Arizona Cardinals": 194,
-        "Detroit Lions": -235
+        "Arizona Cardinals": 202,
+        "Detroit Lions": -246
       },
       "spread": {
-        "Arizona Cardinals": 5.0,
-        "Detroit Lions": -5.0
+        "Arizona Cardinals": 5.5,
+        "Detroit Lions": -5.5
       },
-      "total": 54.0,
+      "total": 54.5,
       "num_bookmakers": 9
     },
-    "prediction": null,
+    "prediction": {
+      "predicted_winner": "Detroit Lions",
+      "predicted_against_spread": "Detroit Lions",
+      "confidence": 70,
+      "key_factors": [
+        "Lions 2-2 vs Cardinals 1-3 on L3 skid",
+        "Cardinals struggling defensively (total set high at 54.5)",
+        "Market heavily favors Lions, consistent with form gap"
+      ],
+      "reasoning": "Arizona is on a 3-game losing streak and has a worse record, while Detroit has been more competitive. The large total suggests a track meet, but Detroit's superior roster and form should allow them to cover even a big number against a reeling Cardinals squad.",
+      "context_used": {
+        "away_trends": {
+          "team": "Detroit Lions",
+          "last5": "2-2",
+          "streak": "L1",
+          "record": "2-2",
+          "h2h_vs_opponent": null
+        },
+        "home_trends": {
+          "team": "Arizona Cardinals",
+          "last5": "1-3",
+          "streak": "L3",
+          "record": "1-3",
+          "h2h_vs_opponent": null
+        },
+        "weather": null,
+        "probable_pitchers": {
+          "home": null,
+          "away": null
+        }
+      },
+      "generated_at": "2026-10-10T15:15:39.943909+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "Arizona Cardinals": 202,
+          "Detroit Lions": -246
+        },
+        "spread": {
+          "Arizona Cardinals": 5.5,
+          "Detroit Lions": -5.5
+        },
+        "total": 54.5,
+        "num_bookmakers": 9
+      }
+    },
     "actual": null
   },
   "americanfootball_nfl_2026-10-11_chicago-bears_at_green-bay-packers": {
@@ -5413,20 +5503,71 @@
     "espn_sport": "football",
     "espn_league": "nfl",
     "outdoor": true,
-    "status": "scheduled",
+    "status": "predicted",
     "odds": {
       "moneyline": {
-        "Chicago Bears": -150,
-        "Green Bay Packers": 126
+        "Chicago Bears": -123,
+        "Green Bay Packers": 59
       },
       "spread": {
-        "Chicago Bears": -3.0,
-        "Green Bay Packers": 3.0
+        "Chicago Bears": -1.5,
+        "Green Bay Packers": 1.5
       },
-      "total": 45.5,
+      "total": 46.0,
       "num_bookmakers": 9
     },
-    "prediction": null,
+    "prediction": {
+      "predicted_winner": "Chicago Bears",
+      "predicted_against_spread": "Chicago Bears",
+      "confidence": 58,
+      "key_factors": [
+        "Bears on W2 streak, 3-1 last5",
+        "Packers W1 but overall 2-2",
+        "Close spread (-1.5) reflects tight matchup",
+        "Windy conditions (14 mph) could limit passing game"
+      ],
+      "reasoning": "Chicago enters with better recent form (3-1, W2) compared to Green Bay's more modest 2-2 mark, even though both are trending up. The market's narrow line matches a close game, and I give a slight edge to the Bears based on their stronger recent record and streak.",
+      "context_used": {
+        "away_trends": {
+          "team": "Chicago Bears",
+          "last5": "3-1",
+          "streak": "W2",
+          "record": "3-1",
+          "h2h_vs_opponent": null
+        },
+        "home_trends": {
+          "team": "Green Bay Packers",
+          "last5": "2-2",
+          "streak": "W1",
+          "record": "2-2",
+          "h2h_vs_opponent": null
+        },
+        "weather": {
+          "high_f": 79.3,
+          "low_f": 58.3,
+          "precipitation_in": 0.0,
+          "wind_mph": 14.1
+        },
+        "probable_pitchers": {
+          "home": null,
+          "away": null
+        }
+      },
+      "generated_at": "2026-10-10T15:15:39.943909+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "Chicago Bears": -123,
+          "Green Bay Packers": 59
+        },
+        "spread": {
+          "Chicago Bears": -1.5,
+          "Green Bay Packers": 1.5
+        },
+        "total": 46.0,
+        "num_bookmakers": 9
+      }
+    },
     "actual": null
   },
   "americanfootball_nfl_2026-10-11_san-francisco-49ers_at_seattle-seahawks": {
@@ -5438,20 +5579,70 @@
     "espn_sport": "football",
     "espn_league": "nfl",
     "outdoor": true,
-    "status": "scheduled",
+    "status": "predicted",
     "odds": {
       "moneyline": {
-        "San Francisco 49ers": 132,
-        "Seattle Seahawks": -158
+        "San Francisco 49ers": 144,
+        "Seattle Seahawks": -170
       },
       "spread": {
         "San Francisco 49ers": 3.0,
         "Seattle Seahawks": -3.0
       },
-      "total": 47.0,
+      "total": 46.0,
       "num_bookmakers": 9
     },
-    "prediction": null,
+    "prediction": {
+      "predicted_winner": "San Francisco 49ers",
+      "predicted_against_spread": "San Francisco 49ers",
+      "confidence": 64,
+      "key_factors": [
+        "49ers unbeaten at 4-0 with W4 streak",
+        "Seahawks solid but 3-1 with less dominant run",
+        "Market favors Seahawks despite 49ers' superior form"
+      ],
+      "reasoning": "San Francisco is riding a perfect 4-0 record and a 4-game winning streak, clearly outperforming Seattle's 3-1 mark. Despite the market installing Seattle as home favorites, the 49ers' superior momentum and undefeated record make them live to win outright and cover the +3.",
+      "context_used": {
+        "away_trends": {
+          "team": "San Francisco 49ers",
+          "last5": "4-0",
+          "streak": "W4",
+          "record": "4-0",
+          "h2h_vs_opponent": null
+        },
+        "home_trends": {
+          "team": "Seattle Seahawks",
+          "last5": "3-1",
+          "streak": "W1",
+          "record": "3-1",
+          "h2h_vs_opponent": null
+        },
+        "weather": {
+          "high_f": 59.9,
+          "low_f": 43.7,
+          "precipitation_in": 0.0,
+          "wind_mph": 9.9
+        },
+        "probable_pitchers": {
+          "home": null,
+          "away": null
+        }
+      },
+      "generated_at": "2026-10-10T15:15:39.943909+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "San Francisco 49ers": 144,
+          "Seattle Seahawks": -170
+        },
+        "spread": {
+          "San Francisco 49ers": 3.0,
+          "Seattle Seahawks": -3.0
+        },
+        "total": 46.0,
+        "num_bookmakers": 9
+      }
+    },
     "actual": null
   },
   "americanfootball_nfl_2026-10-12_baltimore-ravens_at_atlanta-falcons": {
@@ -5463,20 +5654,65 @@
     "espn_sport": "football",
     "espn_league": "nfl",
     "outdoor": true,
-    "status": "scheduled",
+    "status": "predicted",
     "odds": {
       "moneyline": {
-        "Atlanta Falcons": -174,
-        "Baltimore Ravens": 146
+        "Atlanta Falcons": -176,
+        "Baltimore Ravens": 149
       },
       "spread": {
-        "Atlanta Falcons": -3.0,
-        "Baltimore Ravens": 3.0
+        "Atlanta Falcons": -3.5,
+        "Baltimore Ravens": 3.5
       },
       "total": 43.5,
       "num_bookmakers": 9
     },
-    "prediction": null,
+    "prediction": {
+      "predicted_winner": "Baltimore Ravens",
+      "predicted_against_spread": "Baltimore Ravens",
+      "confidence": 60,
+      "key_factors": [
+        "Ravens 3-1 with W2 streak vs Falcons 2-2 W2",
+        "Ravens have better overall record",
+        "Market favors Falcons at home despite weaker record"
+      ],
+      "reasoning": "Baltimore's 3-1 record and W2 streak edge out Atlanta's 2-2 mark, even though both teams are trending positively. The market's lean toward Atlanta seems driven by home-field value rather than clear form superiority, so I favor the Ravens to win and cover the +3.5.",
+      "context_used": {
+        "away_trends": {
+          "team": "Baltimore Ravens",
+          "last5": "3-1",
+          "streak": "W2",
+          "record": "3-1",
+          "h2h_vs_opponent": null
+        },
+        "home_trends": {
+          "team": "Atlanta Falcons",
+          "last5": "2-2",
+          "streak": "W2",
+          "record": "2-2",
+          "h2h_vs_opponent": null
+        },
+        "weather": null,
+        "probable_pitchers": {
+          "home": null,
+          "away": null
+        }
+      },
+      "generated_at": "2026-10-10T15:15:39.943909+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "Atlanta Falcons": -176,
+          "Baltimore Ravens": 149
+        },
+        "spread": {
+          "Atlanta Falcons": -3.5,
+          "Baltimore Ravens": 3.5
+        },
+        "total": 43.5,
+        "num_bookmakers": 9
+      }
+    },
     "actual": null
   },
   "americanfootball_nfl_2026-10-13_buffalo-bills_at_los-angeles-rams": {
@@ -5488,11 +5724,11 @@
     "espn_sport": "football",
     "espn_league": "nfl",
     "outdoor": true,
-    "status": "scheduled",
+    "status": "predicted",
     "odds": {
       "moneyline": {
-        "Buffalo Bills": 132,
-        "Los Angeles Rams": -155
+        "Buffalo Bills": 148,
+        "Los Angeles Rams": -177
       },
       "spread": {
         "Buffalo Bills": 3.0,
@@ -5501,7 +5737,52 @@
       "total": 54.5,
       "num_bookmakers": 9
     },
-    "prediction": null,
+    "prediction": {
+      "predicted_winner": "Buffalo Bills",
+      "predicted_against_spread": "Buffalo Bills",
+      "confidence": 56,
+      "key_factors": [
+        "Bills 3-1 last5 despite L1 streak",
+        "Rams 2-2 with W1 streak",
+        "High total (54.5) suggests shootout potential"
+      ],
+      "reasoning": "Buffalo's overall recent form (3-1) is better than the Rams' 2-2 mark, even though the Bills are coming off a single loss. With a high total implying a potential shootout, I lean toward the Bills' superior offensive track record to cover the +3 on the road.",
+      "context_used": {
+        "away_trends": {
+          "team": "Buffalo Bills",
+          "last5": "3-1",
+          "streak": "L1",
+          "record": "3-1",
+          "h2h_vs_opponent": null
+        },
+        "home_trends": {
+          "team": "Los Angeles Rams",
+          "last5": "2-2",
+          "streak": "W1",
+          "record": "2-2",
+          "h2h_vs_opponent": null
+        },
+        "weather": null,
+        "probable_pitchers": {
+          "home": null,
+          "away": null
+        }
+      },
+      "generated_at": "2026-10-10T15:15:39.943909+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "Buffalo Bills": 148,
+          "Los Angeles Rams": -177
+        },
+        "spread": {
+          "Buffalo Bills": 3.0,
+          "Los Angeles Rams": -3.0
+        },
+        "total": 54.5,
+        "num_bookmakers": 9
+      }
+    },
     "actual": null
   },
   "americanfootball_nfl_2026-10-16_seattle-seahawks_at_denver-broncos": {
@@ -5516,15 +5797,15 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Denver Broncos": 110,
-        "Seattle Seahawks": -130
+        "Denver Broncos": 111,
+        "Seattle Seahawks": -134
       },
       "spread": {
         "Denver Broncos": 2.0,
         "Seattle Seahawks": -2.0
       },
-      "total": 43.5,
-      "num_bookmakers": 2
+      "total": 42.0,
+      "num_bookmakers": 7
     },
     "prediction": null,
     "actual": null
@@ -5541,15 +5822,15 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Houston Texans": -110,
-        "Jacksonville Jaguars": -108
+        "Houston Texans": 139,
+        "Jacksonville Jaguars": -170
       },
       "spread": {
-        "Houston Texans": -0.5,
-        "Jacksonville Jaguars": 0.5
+        "Houston Texans": 3.0,
+        "Jacksonville Jaguars": -3.0
       },
-      "total": 41.5,
-      "num_bookmakers": 3
+      "total": 43.0,
+      "num_bookmakers": 7
     },
     "prediction": null,
     "actual": null
@@ -5566,15 +5847,15 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Atlanta Falcons": 130,
-        "Chicago Bears": -155
+        "Atlanta Falcons": 106,
+        "Chicago Bears": -128
       },
       "spread": {
-        "Atlanta Falcons": 3.0,
-        "Chicago Bears": -3.0
+        "Atlanta Falcons": 1.5,
+        "Chicago Bears": -1.5
       },
-      "total": 47.5,
-      "num_bookmakers": 1
+      "total": 48.5,
+      "num_bookmakers": 7
     },
     "prediction": null,
     "actual": null
@@ -5591,15 +5872,15 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Baltimore Ravens": -250,
-        "Cleveland Browns": 205
+        "Baltimore Ravens": -182,
+        "Cleveland Browns": 149
       },
       "spread": {
-        "Baltimore Ravens": -6.5,
-        "Cleveland Browns": 6.5
+        "Baltimore Ravens": -3.0,
+        "Cleveland Browns": 3.0
       },
-      "total": 44.5,
-      "num_bookmakers": 1
+      "total": 40.5,
+      "num_bookmakers": 7
     },
     "prediction": null,
     "actual": null
@@ -5616,15 +5897,15 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Carolina Panthers": 225,
-        "Philadelphia Eagles": -278
+        "Carolina Panthers": 106,
+        "Philadelphia Eagles": -128
       },
       "spread": {
-        "Carolina Panthers": 6.5,
-        "Philadelphia Eagles": -6.5
+        "Carolina Panthers": 2.0,
+        "Philadelphia Eagles": -2.0
       },
-      "total": 43.5,
-      "num_bookmakers": 2
+      "total": 42.5,
+      "num_bookmakers": 7
     },
     "prediction": null,
     "actual": null
@@ -5641,15 +5922,15 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Indianapolis Colts": -198,
-        "Tennessee Titans": 164
+        "Indianapolis Colts": -301,
+        "Tennessee Titans": 238
       },
       "spread": {
-        "Indianapolis Colts": -3.5,
-        "Tennessee Titans": 3.5
+        "Indianapolis Colts": -6.5,
+        "Tennessee Titans": 6.5
       },
-      "total": 48.0,
-      "num_bookmakers": 2
+      "total": 43.5,
+      "num_bookmakers": 7
     },
     "prediction": null,
     "actual": null
@@ -5666,15 +5947,15 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "New England Patriots": -440,
-        "New York Jets": 340
+        "New England Patriots": -331,
+        "New York Jets": 257
       },
       "spread": {
-        "New England Patriots": -9.5,
-        "New York Jets": 9.5
+        "New England Patriots": -7.0,
+        "New York Jets": 7.0
       },
-      "total": 42.5,
-      "num_bookmakers": 1
+      "total": 43.0,
+      "num_bookmakers": 7
     },
     "prediction": null,
     "actual": null
@@ -5691,15 +5972,15 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "New Orleans Saints": 120,
-        "New York Giants": -142
+        "New Orleans Saints": -119,
+        "New York Giants": -52
       },
       "spread": {
-        "New Orleans Saints": 2.5,
-        "New York Giants": -2.5
+        "New Orleans Saints": -1.0,
+        "New York Giants": 1.0
       },
-      "total": 45.0,
-      "num_bookmakers": 2
+      "total": 44.5,
+      "num_bookmakers": 7
     },
     "prediction": null,
     "actual": null
@@ -5741,15 +6022,15 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Arizona Cardinals": 525,
-        "Los Angeles Rams": -750
+        "Arizona Cardinals": 462,
+        "Los Angeles Rams": -665
       },
       "spread": {
-        "Arizona Cardinals": 13.5,
-        "Los Angeles Rams": -13.5
+        "Arizona Cardinals": 10.5,
+        "Los Angeles Rams": -10.5
       },
-      "total": 47.5,
-      "num_bookmakers": 1
+      "total": 50.5,
+      "num_bookmakers": 7
     },
     "prediction": null,
     "actual": null
@@ -5766,15 +6047,15 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Buffalo Bills": -270,
-        "Las Vegas Raiders": 220
+        "Buffalo Bills": -236,
+        "Las Vegas Raiders": 189
       },
       "spread": {
-        "Buffalo Bills": -6.5,
-        "Las Vegas Raiders": 6.5
+        "Buffalo Bills": -4.0,
+        "Las Vegas Raiders": 4.0
       },
-      "total": 47.5,
-      "num_bookmakers": 1
+      "total": 51.5,
+      "num_bookmakers": 7
     },
     "prediction": null,
     "actual": null
@@ -5791,15 +6072,15 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Kansas City Chiefs": -142,
-        "Los Angeles Chargers": 120
+        "Kansas City Chiefs": -422,
+        "Los Angeles Chargers": 315
       },
       "spread": {
-        "Kansas City Chiefs": -2.5,
-        "Los Angeles Chargers": 2.5
+        "Kansas City Chiefs": -7.5,
+        "Los Angeles Chargers": 7.5
       },
-      "total": 46.5,
-      "num_bookmakers": 2
+      "total": 45.5,
+      "num_bookmakers": 7
     },
     "prediction": null,
     "actual": null
@@ -5841,15 +6122,15 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "San Francisco 49ers": -245,
-        "Washington Commanders": 200
+        "San Francisco 49ers": -410,
+        "Washington Commanders": 311
       },
       "spread": {
-        "San Francisco 49ers": -5.5,
-        "Washington Commanders": 5.5
+        "San Francisco 49ers": -7.5,
+        "Washington Commanders": 7.5
       },
-      "total": 50.5,
-      "num_bookmakers": 2
+      "total": 50.0,
+      "num_bookmakers": 7
     },
     "prediction": null,
     "actual": null
@@ -18790,15 +19071,15 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Alabama Crimson Tide": -120,
-        "Tennessee Volunteers": 100
+        "Alabama Crimson Tide": -211,
+        "Tennessee Volunteers": 170
       },
       "spread": {
-        "Alabama Crimson Tide": -1.5,
-        "Tennessee Volunteers": 1.5
+        "Alabama Crimson Tide": -5.0,
+        "Tennessee Volunteers": 5.0
       },
       "total": 56.5,
-      "num_bookmakers": 1
+      "num_bookmakers": 3
     },
     "prediction": null,
     "actual": null
@@ -18815,15 +19096,15 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Auburn Tigers": 750,
-        "Georgia Bulldogs": -1200
+        "Auburn Tigers": 770,
+        "Georgia Bulldogs": -1393
       },
       "spread": {
-        "Auburn Tigers": 16.5,
-        "Georgia Bulldogs": -16.5
+        "Auburn Tigers": 18.5,
+        "Georgia Bulldogs": -18.5
       },
-      "total": 54.5,
-      "num_bookmakers": 1
+      "total": 50.0,
+      "num_bookmakers": 3
     },
     "prediction": null,
     "actual": null
@@ -18865,15 +19146,15 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Indiana Hoosiers": 126,
-        "Ohio State Buckeyes": -152
+        "Indiana Hoosiers": 122,
+        "Ohio State Buckeyes": -148
       },
       "spread": {
-        "Indiana Hoosiers": 3.5,
-        "Ohio State Buckeyes": -3.5
+        "Indiana Hoosiers": 3.0,
+        "Ohio State Buckeyes": -3.0
       },
-      "total": 48.5,
-      "num_bookmakers": 1
+      "total": 49.0,
+      "num_bookmakers": 3
     },
     "prediction": null,
     "actual": null
@@ -33525,15 +33806,15 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Kansas Jayhawks": 235,
-        "Kansas State Wildcats": -290
+        "Kansas Jayhawks": 262,
+        "Kansas State Wildcats": -340
       },
       "spread": {
-        "Kansas Jayhawks": 7.5,
-        "Kansas State Wildcats": -7.5
+        "Kansas Jayhawks": 9.0,
+        "Kansas State Wildcats": -9.0
       },
-      "total": 54.5,
-      "num_bookmakers": 1
+      "total": 55.5,
+      "num_bookmakers": 2
     },
     "prediction": null,
     "actual": null
@@ -33550,15 +33831,15 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Michigan Wolverines": -270,
-        "Penn State Nittany Lions": 220
+        "Michigan Wolverines": -219,
+        "Penn State Nittany Lions": 175
       },
       "spread": {
-        "Michigan Wolverines": -6.5,
-        "Penn State Nittany Lions": 6.5
+        "Michigan Wolverines": -5.5,
+        "Penn State Nittany Lions": 5.5
       },
-      "total": 51.5,
-      "num_bookmakers": 1
+      "total": 43.5,
+      "num_bookmakers": 2
     },
     "prediction": null,
     "actual": null
@@ -33575,15 +33856,15 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Nebraska Cornhuskers": 1500,
-        "Oregon Ducks": -3600
+        "Nebraska Cornhuskers": 395,
+        "Oregon Ducks": -555
       },
       "spread": {
-        "Nebraska Cornhuskers": 21.5,
-        "Oregon Ducks": -21.5
+        "Nebraska Cornhuskers": 12.5,
+        "Oregon Ducks": -12.5
       },
-      "total": 51.5,
-      "num_bookmakers": 1
+      "total": 58.5,
+      "num_bookmakers": 2
     },
     "prediction": null,
     "actual": null
@@ -52516,7 +52797,7 @@
     "espn_sport": "football",
     "espn_league": "college-football",
     "outdoor": true,
-    "status": "predicted",
+    "status": "graded",
     "odds": {
       "moneyline": {
         "Utah State Aggies": -201,
@@ -52575,7 +52856,17 @@
         "num_bookmakers": 9
       }
     },
-    "actual": null
+    "actual": {
+      "home_score": 17,
+      "away_score": 16,
+      "actual_winner": "Utah State Aggies",
+      "straight_up_correct": true,
+      "against_the_spread": {
+        "actual_ats_winner": "Washington State Cougars",
+        "correct": false
+      },
+      "graded_at": "2026-10-10T15:15:08.408473+00:00"
+    }
   },
   "americanfootball_ncaaf_2026-10-10_arizona-wildcats_at_west-virginia-mountaineers": {
     "league": "NCAAF",
@@ -55802,6 +56093,502 @@
           "Tampa Bay Rays": 1.5
         },
         "total": 7.0,
+        "num_bookmakers": 9
+      }
+    },
+    "actual": null
+  },
+  "americanfootball_ncaaf_2026-10-13_delaware-blue-hens_at_middle-tennessee-blue-raiders": {
+    "league": "NCAAF",
+    "sport_key": "americanfootball_ncaaf",
+    "home_team": "Middle Tennessee Blue Raiders",
+    "away_team": "Delaware Blue Hens",
+    "commence_time": "2026-10-13T23:00:00Z",
+    "espn_sport": "football",
+    "espn_league": "college-football",
+    "outdoor": true,
+    "status": "predicted",
+    "odds": {
+      "moneyline": {
+        "Delaware Blue Hens": -110,
+        "Middle Tennessee Blue Raiders": -110
+      },
+      "spread": {
+        "Delaware Blue Hens": 0.0,
+        "Middle Tennessee Blue Raiders": 0.0
+      },
+      "total": 48.0,
+      "num_bookmakers": 2
+    },
+    "prediction": {
+      "predicted_winner": "Middle Tennessee Blue Raiders",
+      "predicted_against_spread": "Middle Tennessee Blue Raiders",
+      "confidence": 52,
+      "key_factors": [
+        "Delaware on L2 skid, 2-3 record",
+        "Middle Tennessee trend data missing entirely",
+        "Pick'em line reflects uncertainty",
+        "Limited bookmaker coverage (2) lowers confidence"
+      ],
+      "reasoning": "With no trend data available for Middle Tennessee and Delaware mired in a two-game losing streak, this is largely a coin-flip. Given the even moneyline and Delaware's negative momentum, I slightly favor the home team Middle Tennessee, but confidence is low due to sparse data.",
+      "context_used": {
+        "away_trends": {
+          "team": "Delaware Blue Hens",
+          "last5": "2-3",
+          "streak": "L2",
+          "record": "2-3",
+          "h2h_vs_opponent": null
+        },
+        "home_trends": {
+          "team": "Middle Tennessee Blue Raiders",
+          "last5": null,
+          "streak": null,
+          "record": null,
+          "h2h_vs_opponent": null
+        },
+        "weather": null,
+        "probable_pitchers": {
+          "home": null,
+          "away": null
+        }
+      },
+      "generated_at": "2026-10-10T15:15:39.943909+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "Delaware Blue Hens": -110,
+          "Middle Tennessee Blue Raiders": -110
+        },
+        "spread": {
+          "Delaware Blue Hens": 0.0,
+          "Middle Tennessee Blue Raiders": 0.0
+        },
+        "total": 48.0,
+        "num_bookmakers": 2
+      }
+    },
+    "actual": null
+  },
+  "americanfootball_ncaaf_2026-10-14_florida-international-panthers_at_jacksonville-state-gamecocks": {
+    "league": "NCAAF",
+    "sport_key": "americanfootball_ncaaf",
+    "home_team": "Jacksonville State Gamecocks",
+    "away_team": "Florida International Panthers",
+    "commence_time": "2026-10-14T00:00:00Z",
+    "espn_sport": "football",
+    "espn_league": "college-football",
+    "outdoor": true,
+    "status": "predicted",
+    "odds": {
+      "moneyline": {
+        "Florida International Panthers": 127,
+        "Jacksonville State Gamecocks": -152
+      },
+      "spread": {
+        "Florida International Panthers": 3.0,
+        "Jacksonville State Gamecocks": -3.0
+      },
+      "total": 45.5,
+      "num_bookmakers": 2
+    },
+    "prediction": {
+      "predicted_winner": "Jacksonville State Gamecocks",
+      "predicted_against_spread": "Jacksonville State Gamecocks",
+      "confidence": 66,
+      "key_factors": [
+        "Jacksonville State on W3 streak, 4-1 last5",
+        "FIU has no trend data provided",
+        "Market strongly favors Jacksonville State at home"
+      ],
+      "reasoning": "Jacksonville State is riding a strong W3 streak and solid 4-1 recent form, while there's no data available for FIU to counter that momentum. The home team's clear positive trend combined with the market's sizable favorite status supports taking Jacksonville State to win and cover.",
+      "context_used": {
+        "away_trends": {
+          "team": "Florida International Panthers",
+          "last5": null,
+          "streak": null,
+          "record": null,
+          "h2h_vs_opponent": null
+        },
+        "home_trends": {
+          "team": "Jacksonville State Gamecocks",
+          "last5": "4-1",
+          "streak": "W3",
+          "record": "4-2",
+          "h2h_vs_opponent": null
+        },
+        "weather": null,
+        "probable_pitchers": {
+          "home": null,
+          "away": null
+        }
+      },
+      "generated_at": "2026-10-10T15:15:39.943909+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "Florida International Panthers": 127,
+          "Jacksonville State Gamecocks": -152
+        },
+        "spread": {
+          "Florida International Panthers": 3.0,
+          "Jacksonville State Gamecocks": -3.0
+        },
+        "total": 45.5,
+        "num_bookmakers": 2
+      }
+    },
+    "actual": null
+  },
+  "americanfootball_ncaaf_2026-10-16_colorado-state-rams_at_texas-state-bobcats": {
+    "league": "NCAAF",
+    "sport_key": "americanfootball_ncaaf",
+    "home_team": "Texas State Bobcats",
+    "away_team": "Colorado State Rams",
+    "commence_time": "2026-10-16T00:00:00Z",
+    "espn_sport": "football",
+    "espn_league": "college-football",
+    "outdoor": true,
+    "status": "scheduled",
+    "odds": {
+      "moneyline": {
+        "Colorado State Rams": 335,
+        "Texas State Bobcats": -438
+      },
+      "spread": {
+        "Colorado State Rams": 12.0,
+        "Texas State Bobcats": -12.0
+      },
+      "total": 66.5,
+      "num_bookmakers": 2
+    },
+    "prediction": null,
+    "actual": null
+  },
+  "americanfootball_ncaaf_2026-10-17_florida-gators_at_texas-longhorns": {
+    "league": "NCAAF",
+    "sport_key": "americanfootball_ncaaf",
+    "home_team": "Texas Longhorns",
+    "away_team": "Florida Gators",
+    "commence_time": "2026-10-17T16:00:00Z",
+    "espn_sport": "football",
+    "espn_league": "college-football",
+    "outdoor": true,
+    "status": "scheduled",
+    "odds": {
+      "moneyline": {
+        "Florida Gators": 268,
+        "Texas Longhorns": -347
+      },
+      "spread": {
+        "Florida Gators": 9.0,
+        "Texas Longhorns": -9.0
+      },
+      "total": 53.5,
+      "num_bookmakers": 3
+    },
+    "prediction": null,
+    "actual": null
+  },
+  "americanfootball_ncaaf_2026-10-17_mississippi-state-bulldogs_at_lsu-tigers": {
+    "league": "NCAAF",
+    "sport_key": "americanfootball_ncaaf",
+    "home_team": "LSU Tigers",
+    "away_team": "Mississippi State Bulldogs",
+    "commence_time": "2026-10-17T16:00:00Z",
+    "espn_sport": "football",
+    "espn_league": "college-football",
+    "outdoor": true,
+    "status": "scheduled",
+    "odds": {
+      "moneyline": {
+        "LSU Tigers": -488,
+        "Mississippi State Bulldogs": 358
+      },
+      "spread": {
+        "LSU Tigers": -12.0,
+        "Mississippi State Bulldogs": 12.0
+      },
+      "total": 59.5,
+      "num_bookmakers": 3
+    },
+    "prediction": null,
+    "actual": null
+  },
+  "americanfootball_ncaaf_2026-10-17_wisconsin-badgers_at_ucla-bruins": {
+    "league": "NCAAF",
+    "sport_key": "americanfootball_ncaaf",
+    "home_team": "UCLA Bruins",
+    "away_team": "Wisconsin Badgers",
+    "commence_time": "2026-10-17T16:00:00Z",
+    "espn_sport": "football",
+    "espn_league": "college-football",
+    "outdoor": true,
+    "status": "scheduled",
+    "odds": {
+      "moneyline": {
+        "UCLA Bruins": -164,
+        "Wisconsin Badgers": 134
+      },
+      "spread": {
+        "UCLA Bruins": -3.5,
+        "Wisconsin Badgers": 3.5
+      },
+      "total": 49.0,
+      "num_bookmakers": 2
+    },
+    "prediction": null,
+    "actual": null
+  },
+  "americanfootball_ncaaf_2026-10-17_north-carolina-tar-heels_at_duke-blue-devils": {
+    "league": "NCAAF",
+    "sport_key": "americanfootball_ncaaf",
+    "home_team": "Duke Blue Devils",
+    "away_team": "North Carolina Tar Heels",
+    "commence_time": "2026-10-17T19:30:00Z",
+    "espn_sport": "football",
+    "espn_league": "college-football",
+    "outdoor": true,
+    "status": "scheduled",
+    "odds": {
+      "moneyline": {
+        "Duke Blue Devils": -192,
+        "North Carolina Tar Heels": 157
+      },
+      "spread": {
+        "Duke Blue Devils": -4.5,
+        "North Carolina Tar Heels": 4.5
+      },
+      "total": 46.5,
+      "num_bookmakers": 2
+    },
+    "prediction": null,
+    "actual": null
+  },
+  "americanfootball_ncaaf_2026-10-17_missouri-tigers_at_ole-miss-rebels": {
+    "league": "NCAAF",
+    "sport_key": "americanfootball_ncaaf",
+    "home_team": "Ole Miss Rebels",
+    "away_team": "Missouri Tigers",
+    "commence_time": "2026-10-17T19:30:00Z",
+    "espn_sport": "football",
+    "espn_league": "college-football",
+    "outdoor": true,
+    "status": "scheduled",
+    "odds": {
+      "moneyline": {
+        "Missouri Tigers": 191,
+        "Ole Miss Rebels": -237
+      },
+      "spread": {
+        "Missouri Tigers": 6.5,
+        "Ole Miss Rebels": -6.5
+      },
+      "total": 58.0,
+      "num_bookmakers": 3
+    },
+    "prediction": null,
+    "actual": null
+  },
+  "americanfootball_ncaaf_2026-10-17_oklahoma-state-cowboys_at_houston-cougars": {
+    "league": "NCAAF",
+    "sport_key": "americanfootball_ncaaf",
+    "home_team": "Houston Cougars",
+    "away_team": "Oklahoma State Cowboys",
+    "commence_time": "2026-10-17T23:30:00Z",
+    "espn_sport": "football",
+    "espn_league": "college-football",
+    "outdoor": true,
+    "status": "scheduled",
+    "odds": {
+      "moneyline": {
+        "Houston Cougars": -159,
+        "Oklahoma State Cowboys": 130
+      },
+      "spread": {
+        "Houston Cougars": -3.0,
+        "Oklahoma State Cowboys": 3.0
+      },
+      "total": 57.5,
+      "num_bookmakers": 3
+    },
+    "prediction": null,
+    "actual": null
+  },
+  "americanfootball_ncaaf_2026-10-17_kentucky-wildcats_at_oklahoma-sooners": {
+    "league": "NCAAF",
+    "sport_key": "americanfootball_ncaaf",
+    "home_team": "Oklahoma Sooners",
+    "away_team": "Kentucky Wildcats",
+    "commence_time": "2026-10-17T23:30:00Z",
+    "espn_sport": "football",
+    "espn_league": "college-football",
+    "outdoor": true,
+    "status": "scheduled",
+    "odds": {
+      "moneyline": {
+        "Kentucky Wildcats": 195,
+        "Oklahoma Sooners": -245
+      },
+      "spread": {
+        "Kentucky Wildcats": 6.0,
+        "Oklahoma Sooners": -6.0
+      },
+      "total": 42.0,
+      "num_bookmakers": 2
+    },
+    "prediction": null,
+    "actual": null
+  },
+  "baseball_mlb_2026-10-11_chicago-white-sox_at_cleveland-guardians": {
+    "league": "MLB",
+    "sport_key": "baseball_mlb",
+    "home_team": "Cleveland Guardians",
+    "away_team": "Chicago White Sox",
+    "commence_time": "2026-10-11T00:01:00Z",
+    "espn_sport": "baseball",
+    "espn_league": "mlb",
+    "outdoor": true,
+    "status": "predicted",
+    "odds": {
+      "moneyline": {
+        "Chicago White Sox": 119,
+        "Cleveland Guardians": -138
+      },
+      "spread": {
+        "Chicago White Sox": 1.5,
+        "Cleveland Guardians": -1.5
+      },
+      "total": 7.0,
+      "num_bookmakers": 9
+    },
+    "prediction": {
+      "predicted_winner": "Cleveland Guardians",
+      "predicted_against_spread": "Cleveland Guardians",
+      "confidence": 60,
+      "key_factors": [
+        "Guardians on W2 streak, won last meeting 9-5",
+        "White Sox on L2 streak despite better overall record",
+        "Even H2H season series (2-2)"
+      ],
+      "reasoning": "Cleveland is riding a 2-game winning streak and just defeated Chicago 9-5 in their last meeting, showing recent dominance in the head-to-head. Although the White Sox have a better overall record, their current L2 skid and Cleveland's home-field edge tip this toward the Guardians.",
+      "context_used": {
+        "away_trends": {
+          "team": "Chicago White Sox",
+          "last5": "3-2",
+          "streak": "L2",
+          "record": "4-2",
+          "h2h_vs_opponent": {
+            "record_this_season": "2-2",
+            "last_meeting_result": "lost 5-9 on 2026-10-09"
+          }
+        },
+        "home_trends": {
+          "team": "Cleveland Guardians",
+          "last5": "2-2",
+          "streak": "W2",
+          "record": "2-2",
+          "h2h_vs_opponent": {
+            "record_this_season": "2-2",
+            "last_meeting_result": "won 9-5 on 2026-10-09"
+          }
+        },
+        "weather": {
+          "high_f": 67.9,
+          "low_f": 59.4,
+          "precipitation_in": 0.031,
+          "wind_mph": 13.7
+        },
+        "probable_pitchers": {
+          "home": null,
+          "away": null
+        }
+      },
+      "generated_at": "2026-10-10T15:15:39.943909+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "Chicago White Sox": 119,
+          "Cleveland Guardians": -138
+        },
+        "spread": {
+          "Chicago White Sox": 1.5,
+          "Cleveland Guardians": -1.5
+        },
+        "total": 7.0,
+        "num_bookmakers": 9
+      }
+    },
+    "actual": null
+  },
+  "baseball_mlb_2026-10-12_los-angeles-dodgers_at_milwaukee-brewers": {
+    "league": "MLB",
+    "sport_key": "baseball_mlb",
+    "home_team": "Milwaukee Brewers",
+    "away_team": "Los Angeles Dodgers",
+    "commence_time": "2026-10-12T00:00:00Z",
+    "espn_sport": "baseball",
+    "espn_league": "mlb",
+    "outdoor": true,
+    "status": "predicted",
+    "odds": {
+      "moneyline": {
+        "Los Angeles Dodgers": -105,
+        "Milwaukee Brewers": -111
+      },
+      "spread": {
+        "Los Angeles Dodgers": 0.0,
+        "Milwaukee Brewers": 0.0
+      },
+      "total": 6.0,
+      "num_bookmakers": 9
+    },
+    "prediction": {
+      "predicted_winner": "Los Angeles Dodgers",
+      "predicted_against_spread": "Los Angeles Dodgers",
+      "confidence": 62,
+      "key_factors": [
+        "Yamamoto on mound with elite 1.29 ERA",
+        "Dodgers W2 streak, 3-1 last5",
+        "Brewers also strong at 3-1 W1, close matchup"
+      ],
+      "reasoning": "The Dodgers have a significant pitching advantage with Yamamoto's sparkling 1.29 ERA taking the mound, which should suppress Milwaukee's offense in a low-scoring affair (total 6.0). Both teams are in good form, but the starting pitching edge gives LA the nod in this even pick'em game.",
+      "context_used": {
+        "away_trends": {
+          "team": "Los Angeles Dodgers",
+          "last5": "3-1",
+          "streak": "W2",
+          "record": "3-1",
+          "h2h_vs_opponent": null
+        },
+        "home_trends": {
+          "team": "Milwaukee Brewers",
+          "last5": "3-1",
+          "streak": "W1",
+          "record": "3-1",
+          "h2h_vs_opponent": null
+        },
+        "weather": null,
+        "probable_pitchers": {
+          "home": null,
+          "away": {
+            "name": "Yoshinobu Yamamoto",
+            "era": "1.29",
+            "record": "(1-0, 1.29)"
+          }
+        }
+      },
+      "generated_at": "2026-10-10T15:15:39.943909+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "Los Angeles Dodgers": -105,
+          "Milwaukee Brewers": -111
+        },
+        "spread": {
+          "Los Angeles Dodgers": 0.0,
+          "Milwaukee Brewers": 0.0
+        },
+        "total": 6.0,
         "num_bookmakers": 9
       }
     },
