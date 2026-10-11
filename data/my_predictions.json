@@ -1,1 +1,24 @@
-{}
+{
+  "americanfootball_nfl_2026-10-16_seattle-seahawks_at_denver-broncos": {
+    "predicted_winner": "Seattle Seahawks",
+    "predicted_against_spread": "Seattle Seahawks",
+    "confidence": 58,
+    "key_factors": [
+      "Seahawks 3-1 with active win streak vs Broncos 2-2 on a loss streak",
+      "Seattle favored on road despite close spread",
+      "Mild weather with low wind, minimal impact on game script"
+    ],
+    "reasoning": "Seattle enters with better recent form (3-1, W1) compared to Denver's 2-2 mark on a one-game losing streak, supporting the Seahawks as slight favorites. The spread is tight at 1.5, but Seattle's momentum edge gives them a slight edge to cover on the road. Weather is mild with low wind, so it shouldn't significantly affect passing or kicking game."
+  },
+  "americanfootball_ncaaf_2026-10-16_colorado-state-rams_at_texas-state-bobcats": {
+    "predicted_winner": "Texas State Bobcats",
+    "predicted_against_spread": "Colorado State Rams",
+    "confidence": 54,
+    "key_factors": [
+      "Texas State 4-1 last5 but currently on L1 streak",
+      "Colorado State on an L3 skid, clear form disadvantage",
+      "Large 12.5-point spread creates cover risk despite Texas State likely winning outright"
+    ],
+    "reasoning": "Texas State's superior recent record (4-1 in last five) versus Colorado State's 2-3 mark and active three-game losing streak strongly favors the Bobcats to win outright. However, a 12.5-point spread is significant, and Texas State's own one-game skid combined with lack of head-to-head or deeper metrics introduces cover uncertainty, so I lean toward Colorado State keeping it closer against the number.'"
+  }
+}

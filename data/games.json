@@ -5794,7 +5794,7 @@
     "espn_sport": "football",
     "espn_league": "nfl",
     "outdoor": true,
-    "status": "scheduled",
+    "status": "predicted",
     "odds": {
       "moneyline": {
         "Denver Broncos": 102,
@@ -5807,7 +5807,57 @@
       "total": 42.5,
       "bookmaker": "DraftKings"
     },
-    "prediction": null,
+    "prediction": {
+      "predicted_winner": "Seattle Seahawks",
+      "predicted_against_spread": "Seattle Seahawks",
+      "confidence": 58,
+      "key_factors": [
+        "Seahawks 3-1 with active win streak vs Broncos 2-2 on a loss streak",
+        "Seattle favored on road despite close spread",
+        "Mild weather with low wind, minimal impact on game script"
+      ],
+      "reasoning": "Seattle enters with better recent form (3-1, W1) compared to Denver's 2-2 mark on a one-game losing streak, supporting the Seahawks as slight favorites. The spread is tight at 1.5, but Seattle's momentum edge gives them a slight edge to cover on the road. Weather is mild with low wind, so it shouldn't significantly affect passing or kicking game.",
+      "context_used": {
+        "away_trends": {
+          "team": "Seattle Seahawks",
+          "last5": "3-1",
+          "streak": "W1",
+          "record": "3-1",
+          "h2h_vs_opponent": null
+        },
+        "home_trends": {
+          "team": "Denver Broncos",
+          "last5": "2-2",
+          "streak": "L1",
+          "record": "2-2",
+          "h2h_vs_opponent": null
+        },
+        "weather": {
+          "high_f": 56.6,
+          "low_f": 46.3,
+          "precipitation_in": 0.0,
+          "wind_mph": 8.8
+        },
+        "probable_pitchers": {
+          "home": null,
+          "away": null
+        }
+      },
+      "generated_at": "2026-10-11T16:42:07.439668+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "Denver Broncos": 102,
+          "Seattle Seahawks": -122
+        },
+        "spread": {
+          "Denver Broncos": 1.5,
+          "Seattle Seahawks": -1.5
+        },
+        "total": 42.5,
+        "bookmaker": "DraftKings"
+      }
+    },
     "actual": null
   },
   "americanfootball_nfl_2026-10-18_houston-texans_at_jacksonville-jaguars": {
@@ -56178,7 +56228,7 @@
     "espn_sport": "football",
     "espn_league": "college-football",
     "outdoor": true,
-    "status": "scheduled",
+    "status": "predicted",
     "odds": {
       "moneyline": {
         "Colorado State Rams": 330,
@@ -56191,7 +56241,52 @@
       "total": 67.5,
       "bookmaker": "DraftKings"
     },
-    "prediction": null,
+    "prediction": {
+      "predicted_winner": "Texas State Bobcats",
+      "predicted_against_spread": "Colorado State Rams",
+      "confidence": 54,
+      "key_factors": [
+        "Texas State 4-1 last5 but currently on L1 streak",
+        "Colorado State on an L3 skid, clear form disadvantage",
+        "Large 12.5-point spread creates cover risk despite Texas State likely winning outright"
+      ],
+      "reasoning": "Texas State's superior recent record (4-1 in last five) versus Colorado State's 2-3 mark and active three-game losing streak strongly favors the Bobcats to win outright. However, a 12.5-point spread is significant, and Texas State's own one-game skid combined with lack of head-to-head or deeper metrics introduces cover uncertainty, so I lean toward Colorado State keeping it closer against the number.'",
+      "context_used": {
+        "away_trends": {
+          "team": "Colorado State Rams",
+          "last5": "2-3",
+          "streak": "L3",
+          "record": "2-3",
+          "h2h_vs_opponent": null
+        },
+        "home_trends": {
+          "team": "Texas State Bobcats",
+          "last5": "4-1",
+          "streak": "L1",
+          "record": "4-2",
+          "h2h_vs_opponent": null
+        },
+        "weather": null,
+        "probable_pitchers": {
+          "home": null,
+          "away": null
+        }
+      },
+      "generated_at": "2026-10-11T16:42:07.439668+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "Colorado State Rams": 330,
+          "Texas State Bobcats": -425
+        },
+        "spread": {
+          "Colorado State Rams": 12.5,
+          "Texas State Bobcats": -12.5
+        },
+        "total": 67.5,
+        "bookmaker": "DraftKings"
+      }
+    },
     "actual": null
   },
   "americanfootball_ncaaf_2026-10-17_florida-gators_at_texas-longhorns": {

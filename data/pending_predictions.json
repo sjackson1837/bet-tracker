@@ -1,4 +1,84 @@
 {
   "instructions": "For each game below, act as a sharp, disciplined sports betting analyst. Do NOT simply pick whichever side the betting market favors -- weigh the actual trend data provided (recent form, streaks, head-to-head history, starting pitcher matchups where given, and weather where relevant) and form an independent judgment. It's fine, and expected, to disagree with the market when the trends support it. If trend data is sparse for a game, say so and let that lower your confidence rather than defaulting to the favorite. For each game_id, produce: predicted_winner (exact team name), predicted_against_spread (exact team name), confidence (integer 1-100), key_factors (2-4 short strings), and reasoning (2-4 sentences referencing the specific trend data given).",
-  "games": {}
+  "games": {
+    "americanfootball_nfl_2026-10-16_seattle-seahawks_at_denver-broncos": {
+      "league": "NFL",
+      "away_team": "Seattle Seahawks",
+      "home_team": "Denver Broncos",
+      "commence_time": "2026-10-16T00:15:00Z",
+      "market_line": {
+        "moneyline": {
+          "Denver Broncos": 102,
+          "Seattle Seahawks": -122
+        },
+        "spread": {
+          "Denver Broncos": 1.5,
+          "Seattle Seahawks": -1.5
+        },
+        "total": 42.5,
+        "bookmaker": "DraftKings"
+      },
+      "away_team_trends": {
+        "team": "Seattle Seahawks",
+        "last5": "3-1",
+        "streak": "W1",
+        "record": "3-1",
+        "h2h_vs_opponent": null
+      },
+      "home_team_trends": {
+        "team": "Denver Broncos",
+        "last5": "2-2",
+        "streak": "L1",
+        "record": "2-2",
+        "h2h_vs_opponent": null
+      },
+      "weather_at_kickoff": {
+        "high_f": 56.6,
+        "low_f": 46.3,
+        "precipitation_in": 0.0,
+        "wind_mph": 8.8
+      },
+      "probable_pitchers": {
+        "home": null,
+        "away": null
+      }
+    },
+    "americanfootball_ncaaf_2026-10-16_colorado-state-rams_at_texas-state-bobcats": {
+      "league": "NCAAF",
+      "away_team": "Colorado State Rams",
+      "home_team": "Texas State Bobcats",
+      "commence_time": "2026-10-16T00:00:00Z",
+      "market_line": {
+        "moneyline": {
+          "Colorado State Rams": 330,
+          "Texas State Bobcats": -425
+        },
+        "spread": {
+          "Colorado State Rams": 12.5,
+          "Texas State Bobcats": -12.5
+        },
+        "total": 67.5,
+        "bookmaker": "DraftKings"
+      },
+      "away_team_trends": {
+        "team": "Colorado State Rams",
+        "last5": "2-3",
+        "streak": "L3",
+        "record": "2-3",
+        "h2h_vs_opponent": null
+      },
+      "home_team_trends": {
+        "team": "Texas State Bobcats",
+        "last5": "4-1",
+        "streak": "L1",
+        "record": "4-2",
+        "h2h_vs_opponent": null
+      },
+      "weather_at_kickoff": null,
+      "probable_pitchers": {
+        "home": null,
+        "away": null
+      }
+    }
+  }
 }
