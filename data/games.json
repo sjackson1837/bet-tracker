@@ -5869,7 +5869,7 @@
     "espn_sport": "football",
     "espn_league": "nfl",
     "outdoor": true,
-    "status": "scheduled",
+    "status": "predicted",
     "odds": {
       "moneyline": {
         "Houston Texans": 145,
@@ -5882,7 +5882,57 @@
       "total": 43.5,
       "bookmaker": "DraftKings"
     },
-    "prediction": null,
+    "prediction": {
+      "predicted_winner": "Jacksonville Jaguars",
+      "predicted_against_spread": "Jacksonville Jaguars",
+      "reasoning": "Jacksonville is red-hot at 4-1 with a 3-game win streak while Houston has struggled to a 1-4 record, only managing one win in their last five. The home team's strong recent form and the Texans' offensive struggles support laying the points here.",
+      "confidence": 68,
+      "key_factors": [
+        "Jaguars W3 streak vs Texans 1-4 last5",
+        "Home field advantage",
+        "Significant form gap"
+      ],
+      "context_used": {
+        "away_trends": {
+          "team": "Houston Texans",
+          "last5": "1-4",
+          "streak": "W1",
+          "record": "1-4",
+          "h2h_vs_opponent": null
+        },
+        "home_trends": {
+          "team": "Jacksonville Jaguars",
+          "last5": "4-1",
+          "streak": "W3",
+          "record": "4-1",
+          "h2h_vs_opponent": null
+        },
+        "weather": {
+          "high_f": 79.3,
+          "low_f": 71.6,
+          "precipitation_in": 0.02,
+          "wind_mph": 15.5
+        },
+        "probable_pitchers": {
+          "home": null,
+          "away": null
+        }
+      },
+      "generated_at": "2026-10-13T18:26:20.707476+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "Houston Texans": 145,
+          "Jacksonville Jaguars": -175
+        },
+        "spread": {
+          "Houston Texans": 3.0,
+          "Jacksonville Jaguars": -3.0
+        },
+        "total": 43.5,
+        "bookmaker": "DraftKings"
+      }
+    },
     "actual": null
   },
   "americanfootball_nfl_2026-10-18_chicago-bears_at_atlanta-falcons": {
@@ -5894,7 +5944,7 @@
     "espn_sport": "football",
     "espn_league": "nfl",
     "outdoor": true,
-    "status": "scheduled",
+    "status": "predicted",
     "odds": {
       "moneyline": {
         "Atlanta Falcons": 102,
@@ -5907,7 +5957,52 @@
       "total": 47.5,
       "bookmaker": "DraftKings"
     },
-    "prediction": null,
+    "prediction": {
+      "predicted_winner": "Chicago Bears",
+      "predicted_against_spread": "Chicago Bears",
+      "reasoning": "Both teams are on one-game losing streaks but Chicago holds a better overall record (3-2 vs 2-3) and recent form edge. The market favors Chicago slightly on the road, which aligns with the data showing a modest edge in recent performance.",
+      "confidence": 54,
+      "key_factors": [
+        "Bears better last5 record",
+        "Both teams on L1 streak",
+        "Close spread reflects even matchup"
+      ],
+      "context_used": {
+        "away_trends": {
+          "team": "Chicago Bears",
+          "last5": "3-2",
+          "streak": "L1",
+          "record": "3-2",
+          "h2h_vs_opponent": null
+        },
+        "home_trends": {
+          "team": "Atlanta Falcons",
+          "last5": "2-3",
+          "streak": "L1",
+          "record": "2-3",
+          "h2h_vs_opponent": null
+        },
+        "weather": null,
+        "probable_pitchers": {
+          "home": null,
+          "away": null
+        }
+      },
+      "generated_at": "2026-10-13T18:26:20.707476+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "Atlanta Falcons": 102,
+          "Chicago Bears": -122
+        },
+        "spread": {
+          "Atlanta Falcons": 1.5,
+          "Chicago Bears": -1.5
+        },
+        "total": 47.5,
+        "bookmaker": "DraftKings"
+      }
+    },
     "actual": null
   },
   "americanfootball_nfl_2026-10-18_baltimore-ravens_at_cleveland-browns": {
@@ -5919,7 +6014,7 @@
     "espn_sport": "football",
     "espn_league": "nfl",
     "outdoor": true,
-    "status": "scheduled",
+    "status": "predicted",
     "odds": {
       "moneyline": {
         "Baltimore Ravens": -170,
@@ -5932,7 +6027,57 @@
       "total": 41.5,
       "bookmaker": "DraftKings"
     },
-    "prediction": null,
+    "prediction": {
+      "predicted_winner": "Baltimore Ravens",
+      "predicted_against_spread": "Baltimore Ravens",
+      "reasoning": "Baltimore is surging with a 3-game win streak and 4-1 record over their last five, clearly outperforming Cleveland's 3-2 mark with an L1 streak. Mild weather conditions shouldn't disrupt Baltimore's momentum as they look like the stronger team heading into this divisional matchup.",
+      "confidence": 70,
+      "key_factors": [
+        "Ravens W3 streak and 4-1 form",
+        "Browns L1 and inferior recent play",
+        "Mild weather favors normal gameplan"
+      ],
+      "context_used": {
+        "away_trends": {
+          "team": "Baltimore Ravens",
+          "last5": "4-1",
+          "streak": "W3",
+          "record": "4-1",
+          "h2h_vs_opponent": null
+        },
+        "home_trends": {
+          "team": "Cleveland Browns",
+          "last5": "3-2",
+          "streak": "L1",
+          "record": "3-2",
+          "h2h_vs_opponent": null
+        },
+        "weather": {
+          "high_f": 63.7,
+          "low_f": 44.4,
+          "precipitation_in": 0.0,
+          "wind_mph": 11.5
+        },
+        "probable_pitchers": {
+          "home": null,
+          "away": null
+        }
+      },
+      "generated_at": "2026-10-13T18:26:20.707476+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "Baltimore Ravens": -170,
+          "Cleveland Browns": 142
+        },
+        "spread": {
+          "Baltimore Ravens": -3.0,
+          "Cleveland Browns": 3.0
+        },
+        "total": 41.5,
+        "bookmaker": "DraftKings"
+      }
+    },
     "actual": null
   },
   "americanfootball_nfl_2026-10-18_carolina-panthers_at_philadelphia-eagles": {
@@ -5944,7 +6089,7 @@
     "espn_sport": "football",
     "espn_league": "nfl",
     "outdoor": true,
-    "status": "scheduled",
+    "status": "predicted",
     "odds": {
       "moneyline": {
         "Carolina Panthers": 110,
@@ -5957,7 +6102,57 @@
       "total": 43.5,
       "bookmaker": "DraftKings"
     },
-    "prediction": null,
+    "prediction": {
+      "predicted_winner": "Carolina Panthers",
+      "predicted_against_spread": "Carolina Panthers",
+      "reasoning": "Philadelphia is reeling with an L3 streak and a losing 2-3 record over their last five, while Carolina enters with momentum on a W1 streak and an even 2-2 mark. The Eagles' recent struggles make this a live spot for the Panthers to pull the upset or at minimum cover as home underdogs value.",
+      "confidence": 58,
+      "key_factors": [
+        "Eagles L3 streak",
+        "Panthers W1 momentum",
+        "Market may be overvaluing Eagles brand name"
+      ],
+      "context_used": {
+        "away_trends": {
+          "team": "Carolina Panthers",
+          "last5": "2-2",
+          "streak": "W1",
+          "record": "2-2",
+          "h2h_vs_opponent": null
+        },
+        "home_trends": {
+          "team": "Philadelphia Eagles",
+          "last5": "2-3",
+          "streak": "L3",
+          "record": "2-3",
+          "h2h_vs_opponent": null
+        },
+        "weather": {
+          "high_f": 61.4,
+          "low_f": 44.7,
+          "precipitation_in": 0.0,
+          "wind_mph": 9.2
+        },
+        "probable_pitchers": {
+          "home": null,
+          "away": null
+        }
+      },
+      "generated_at": "2026-10-13T18:26:20.707476+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "Carolina Panthers": 110,
+          "Philadelphia Eagles": -130
+        },
+        "spread": {
+          "Carolina Panthers": 2.5,
+          "Philadelphia Eagles": -2.5
+        },
+        "total": 43.5,
+        "bookmaker": "DraftKings"
+      }
+    },
     "actual": null
   },
   "americanfootball_nfl_2026-10-18_tennessee-titans_at_indianapolis-colts": {
@@ -5969,7 +6164,7 @@
     "espn_sport": "football",
     "espn_league": "nfl",
     "outdoor": true,
-    "status": "scheduled",
+    "status": "predicted",
     "odds": {
       "moneyline": {
         "Indianapolis Colts": -290,
@@ -5982,7 +6177,52 @@
       "total": 44.5,
       "bookmaker": "DraftKings"
     },
-    "prediction": null,
+    "prediction": {
+      "predicted_winner": "Indianapolis Colts",
+      "predicted_against_spread": "Indianapolis Colts",
+      "reasoning": "Tennessee is in complete freefall with an 0-5 record and 5-game losing streak, while Indianapolis, despite a modest L1 streak, holds a much better 2-3 overall mark. The talent and momentum gap heavily favors the Colts to cover this large spread against a winless team.",
+      "confidence": 76,
+      "key_factors": [
+        "Titans 0-5 and L5 streak",
+        "Colts significantly better recent form",
+        "Large gap in team quality"
+      ],
+      "context_used": {
+        "away_trends": {
+          "team": "Tennessee Titans",
+          "last5": "0-5",
+          "streak": "L5",
+          "record": "0-5",
+          "h2h_vs_opponent": null
+        },
+        "home_trends": {
+          "team": "Indianapolis Colts",
+          "last5": "2-3",
+          "streak": "L1",
+          "record": "2-3",
+          "h2h_vs_opponent": null
+        },
+        "weather": null,
+        "probable_pitchers": {
+          "home": null,
+          "away": null
+        }
+      },
+      "generated_at": "2026-10-13T18:26:20.707476+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "Indianapolis Colts": -290,
+          "Tennessee Titans": 235
+        },
+        "spread": {
+          "Indianapolis Colts": -6.5,
+          "Tennessee Titans": 6.5
+        },
+        "total": 44.5,
+        "bookmaker": "DraftKings"
+      }
+    },
     "actual": null
   },
   "americanfootball_nfl_2026-10-18_new-york-jets_at_new-england-patriots": {
@@ -5994,7 +6234,7 @@
     "espn_sport": "football",
     "espn_league": "nfl",
     "outdoor": true,
-    "status": "scheduled",
+    "status": "predicted",
     "odds": {
       "moneyline": {
         "New England Patriots": -340,
@@ -6007,7 +6247,57 @@
       "total": 43.5,
       "bookmaker": "DraftKings"
     },
-    "prediction": null,
+    "prediction": {
+      "predicted_winner": "New England Patriots",
+      "predicted_against_spread": "New York Jets",
+      "reasoning": "New England is playing well with a W2 streak and 3-2 recent record, justifying the moneyline favorite status, but the 7-point spread looks too large given the Jets are also trending up with a W1 streak. Cold weather conditions could favor a more conservative, lower-scoring game that keeps this closer than the number suggests.",
+      "confidence": 56,
+      "key_factors": [
+        "Patriots W2 vs Jets W1 momentum",
+        "Large 7-point spread seems inflated",
+        "Cold weather could tighten margins"
+      ],
+      "context_used": {
+        "away_trends": {
+          "team": "New York Jets",
+          "last5": "2-3",
+          "streak": "W1",
+          "record": "2-3",
+          "h2h_vs_opponent": null
+        },
+        "home_trends": {
+          "team": "New England Patriots",
+          "last5": "3-2",
+          "streak": "W2",
+          "record": "3-2",
+          "h2h_vs_opponent": null
+        },
+        "weather": {
+          "high_f": 57.9,
+          "low_f": 31.9,
+          "precipitation_in": 0.0,
+          "wind_mph": 12.6
+        },
+        "probable_pitchers": {
+          "home": null,
+          "away": null
+        }
+      },
+      "generated_at": "2026-10-13T18:26:20.707476+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "New England Patriots": -340,
+          "New York Jets": 270
+        },
+        "spread": {
+          "New England Patriots": -7.0,
+          "New York Jets": 7.0
+        },
+        "total": 43.5,
+        "bookmaker": "DraftKings"
+      }
+    },
     "actual": null
   },
   "americanfootball_nfl_2026-10-18_new-orleans-saints_at_new-york-giants": {
@@ -6019,7 +6309,7 @@
     "espn_sport": "football",
     "espn_league": "nfl",
     "outdoor": true,
-    "status": "scheduled",
+    "status": "predicted",
     "odds": {
       "moneyline": {
         "New Orleans Saints": -118,
@@ -6032,7 +6322,57 @@
       "total": 45.5,
       "bookmaker": "DraftKings"
     },
-    "prediction": null,
+    "prediction": {
+      "predicted_winner": "New York Giants",
+      "predicted_against_spread": "New York Giants",
+      "reasoning": "New Orleans is in freefall with an L3 streak and 1-4 recent record, while New York holds a much better 3-2 mark despite being on a 1-game skid. The Giants' superior recent form as home favorites in a near pick'em game makes them the stronger side here.",
+      "confidence": 62,
+      "key_factors": [
+        "Giants 3-2 vs Saints 1-4 last5",
+        "Saints L3 losing streak",
+        "Home field for Giants"
+      ],
+      "context_used": {
+        "away_trends": {
+          "team": "New Orleans Saints",
+          "last5": "1-4",
+          "streak": "L3",
+          "record": "1-4",
+          "h2h_vs_opponent": null
+        },
+        "home_trends": {
+          "team": "New York Giants",
+          "last5": "3-2",
+          "streak": "L1",
+          "record": "3-2",
+          "h2h_vs_opponent": null
+        },
+        "weather": {
+          "high_f": 61.8,
+          "low_f": 44.0,
+          "precipitation_in": 0.0,
+          "wind_mph": 11.2
+        },
+        "probable_pitchers": {
+          "home": null,
+          "away": null
+        }
+      },
+      "generated_at": "2026-10-13T18:26:20.707476+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "New Orleans Saints": -118,
+          "New York Giants": -102
+        },
+        "spread": {
+          "New Orleans Saints": -1.5,
+          "New York Giants": 1.5
+        },
+        "total": 45.5,
+        "bookmaker": "DraftKings"
+      }
+    },
     "actual": null
   },
   "americanfootball_nfl_2026-10-18_pittsburgh-steelers_at_tampa-bay-buccaneers": {
@@ -6044,7 +6384,7 @@
     "espn_sport": "football",
     "espn_league": "nfl",
     "outdoor": true,
-    "status": "scheduled",
+    "status": "predicted",
     "odds": {
       "moneyline": {
         "Pittsburgh Steelers": 105,
@@ -6057,7 +6397,57 @@
       "total": 45.5,
       "num_bookmakers": 2
     },
-    "prediction": null,
+    "prediction": {
+      "predicted_winner": "Pittsburgh Steelers",
+      "predicted_against_spread": "Pittsburgh Steelers",
+      "reasoning": "Pittsburgh enters with better recent form at 3-2 and a W1 streak compared to Tampa Bay's struggling 1-4 record, even though both are riding single-game win streaks. Rainy, windy conditions in Tampa could further neutralize any home-field passing advantage, favoring the more balanced Steelers team.",
+      "confidence": 60,
+      "key_factors": [
+        "Steelers 3-2 vs Bucs 1-4 last5",
+        "Weather with rain/wind could limit passing",
+        "Pittsburgh as road underdog has value"
+      ],
+      "context_used": {
+        "away_trends": {
+          "team": "Pittsburgh Steelers",
+          "last5": "3-2",
+          "streak": "W1",
+          "record": "3-2",
+          "h2h_vs_opponent": null
+        },
+        "home_trends": {
+          "team": "Tampa Bay Buccaneers",
+          "last5": "1-4",
+          "streak": "W1",
+          "record": "1-4",
+          "h2h_vs_opponent": null
+        },
+        "weather": {
+          "high_f": 79.5,
+          "low_f": 72.6,
+          "precipitation_in": 0.157,
+          "wind_mph": 19.2
+        },
+        "probable_pitchers": {
+          "home": null,
+          "away": null
+        }
+      },
+      "generated_at": "2026-10-13T18:26:20.707476+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "Pittsburgh Steelers": 105,
+          "Tampa Bay Buccaneers": -125
+        },
+        "spread": {
+          "Pittsburgh Steelers": 1.5,
+          "Tampa Bay Buccaneers": -1.5
+        },
+        "total": 45.5,
+        "num_bookmakers": 2
+      }
+    },
     "actual": null
   },
   "americanfootball_nfl_2026-10-18_arizona-cardinals_at_los-angeles-rams": {
@@ -19328,7 +19718,7 @@
     "espn_sport": "football",
     "espn_league": "college-football",
     "outdoor": true,
-    "status": "scheduled",
+    "status": "predicted",
     "odds": {
       "moneyline": {
         "Indiana Hoosiers": 120,
@@ -19341,7 +19731,52 @@
       "total": 48.5,
       "bookmaker": "DraftKings"
     },
-    "prediction": null,
+    "prediction": {
+      "predicted_winner": "Ohio State Buckeyes",
+      "predicted_against_spread": "Ohio State Buckeyes",
+      "reasoning": "No trend data is available for either team, so this pick leans heavily on the market line, which has Ohio State as a solid favorite reflecting their typically superior roster talent in this matchup. Given the lack of specific recent-form data, confidence is tempered despite going with the favorite.",
+      "confidence": 55,
+      "key_factors": [
+        "No trend data provided - relying on market",
+        "Ohio State historically strong program",
+        "Moderate spread suggests competitive game"
+      ],
+      "context_used": {
+        "away_trends": {
+          "team": "Ohio State Buckeyes",
+          "last5": null,
+          "streak": null,
+          "record": null,
+          "h2h_vs_opponent": null
+        },
+        "home_trends": {
+          "team": "Indiana Hoosiers",
+          "last5": null,
+          "streak": null,
+          "record": null,
+          "h2h_vs_opponent": null
+        },
+        "weather": null,
+        "probable_pitchers": {
+          "home": null,
+          "away": null
+        }
+      },
+      "generated_at": "2026-10-13T18:26:20.707476+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "Indiana Hoosiers": 120,
+          "Ohio State Buckeyes": -142
+        },
+        "spread": {
+          "Indiana Hoosiers": 2.5,
+          "Ohio State Buckeyes": -2.5
+        },
+        "total": 48.5,
+        "bookmaker": "DraftKings"
+      }
+    },
     "actual": null
   },
   "americanfootball_ncaaf_2026-11-08_miami-hurricanes_at_notre-dame-fighting-irish": {
@@ -56918,7 +57353,7 @@
     "espn_sport": "football",
     "espn_league": "college-football",
     "outdoor": true,
-    "status": "scheduled",
+    "status": "predicted",
     "odds": {
       "moneyline": {
         "Houston Cougars": -162,
@@ -56931,7 +57366,52 @@
       "total": 57.5,
       "bookmaker": "DraftKings"
     },
-    "prediction": null,
+    "prediction": {
+      "predicted_winner": "Houston Cougars",
+      "predicted_against_spread": "Houston Cougars",
+      "reasoning": "With no trend data available for either team, this prediction defaults to the market line favoring Houston at home, but confidence is low given the complete absence of form, streak, or head-to-head information. The high total of 57.5 suggests an expected high-scoring, possibly volatile game.",
+      "confidence": 52,
+      "key_factors": [
+        "No trend data provided",
+        "Home field favors Houston",
+        "High total suggests shootout potential"
+      ],
+      "context_used": {
+        "away_trends": {
+          "team": "Oklahoma State Cowboys",
+          "last5": null,
+          "streak": null,
+          "record": null,
+          "h2h_vs_opponent": null
+        },
+        "home_trends": {
+          "team": "Houston Cougars",
+          "last5": null,
+          "streak": null,
+          "record": null,
+          "h2h_vs_opponent": null
+        },
+        "weather": null,
+        "probable_pitchers": {
+          "home": null,
+          "away": null
+        }
+      },
+      "generated_at": "2026-10-13T18:26:20.707476+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "Houston Cougars": -162,
+          "Oklahoma State Cowboys": 136
+        },
+        "spread": {
+          "Houston Cougars": -3.5,
+          "Oklahoma State Cowboys": 3.5
+        },
+        "total": 57.5,
+        "bookmaker": "DraftKings"
+      }
+    },
     "actual": null
   },
   "americanfootball_ncaaf_2026-10-17_kentucky-wildcats_at_oklahoma-sooners": {
@@ -56943,7 +57423,7 @@
     "espn_sport": "football",
     "espn_league": "college-football",
     "outdoor": true,
-    "status": "scheduled",
+    "status": "predicted",
     "odds": {
       "moneyline": {
         "Kentucky Wildcats": 185,
@@ -56956,7 +57436,52 @@
       "total": 41.5,
       "bookmaker": "DraftKings"
     },
-    "prediction": null,
+    "prediction": {
+      "predicted_winner": "Oklahoma Sooners",
+      "predicted_against_spread": "Oklahoma Sooners",
+      "reasoning": "No specific trend data exists for either team, so this leans on the market's sizable -225 moneyline favoring Oklahoma at home, suggesting a clear talent gap. The low total of 41.5 points to an expected defensive, low-scoring affair where the home favorite should control the game.",
+      "confidence": 58,
+      "key_factors": [
+        "No trend data provided - relying on market signal",
+        "Sizable moneyline gap suggests talent mismatch",
+        "Low total implies defensive game favoring favorite"
+      ],
+      "context_used": {
+        "away_trends": {
+          "team": "Kentucky Wildcats",
+          "last5": null,
+          "streak": null,
+          "record": null,
+          "h2h_vs_opponent": null
+        },
+        "home_trends": {
+          "team": "Oklahoma Sooners",
+          "last5": null,
+          "streak": null,
+          "record": null,
+          "h2h_vs_opponent": null
+        },
+        "weather": null,
+        "probable_pitchers": {
+          "home": null,
+          "away": null
+        }
+      },
+      "generated_at": "2026-10-13T18:26:20.707476+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "Kentucky Wildcats": 185,
+          "Oklahoma Sooners": -225
+        },
+        "spread": {
+          "Kentucky Wildcats": 6.0,
+          "Oklahoma Sooners": -6.0
+        },
+        "total": 41.5,
+        "bookmaker": "DraftKings"
+      }
+    },
     "actual": null
   },
   "baseball_mlb_2026-10-11_chicago-white-sox_at_cleveland-guardians": {
