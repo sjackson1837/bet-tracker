@@ -1,123 +1,46 @@
 {
-  "americanfootball_nfl_2026-10-18_houston-texans_at_jacksonville-jaguars": {
-    "predicted_winner": "Jacksonville Jaguars",
-    "predicted_against_spread": "Jacksonville Jaguars",
-    "reasoning": "Jacksonville is red-hot at 4-1 with a 3-game win streak while Houston has struggled to a 1-4 record, only managing one win in their last five. The home team's strong recent form and the Texans' offensive struggles support laying the points here.",
+  "americanfootball_nfl_2026-10-18_arizona-cardinals_at_los-angeles-rams": {
+    "predicted_winner": "Los Angeles Rams",
+    "predicted_against_spread": "Los Angeles Rams",
     "confidence": 68,
     "key_factors": [
-      "Jaguars W3 streak vs Texans 1-4 last5",
-      "Home field advantage",
-      "Significant form gap"
-    ]
+      "Cardinals on L4 skid, 1-4 record",
+      "Rams at home and above .500 recent form (2-3)",
+      "Large market spread (10.5) reflects talent gap"
+    ],
+    "reasoning": "Arizona is reeling with a four-game losing streak and the league's second-worst record, while the Rams are at home and have a better recent record despite a one-game skid. The double-digit spread is steep, but given the Cardinals' offensive struggles and Rams' home-field edge, I lean toward the Rams covering, though not with extreme confidence given blowout spreads carry variance."
   },
-  "americanfootball_nfl_2026-10-18_chicago-bears_at_atlanta-falcons": {
-    "predicted_winner": "Chicago Bears",
-    "predicted_against_spread": "Chicago Bears",
-    "reasoning": "Both teams are on one-game losing streaks but Chicago holds a better overall record (3-2 vs 2-3) and recent form edge. The market favors Chicago slightly on the road, which aligns with the data showing a modest edge in recent performance.",
-    "confidence": 54,
-    "key_factors": [
-      "Bears better last5 record",
-      "Both teams on L1 streak",
-      "Close spread reflects even matchup"
-    ]
-  },
-  "americanfootball_nfl_2026-10-18_baltimore-ravens_at_cleveland-browns": {
-    "predicted_winner": "Baltimore Ravens",
-    "predicted_against_spread": "Baltimore Ravens",
-    "reasoning": "Baltimore is surging with a 3-game win streak and 4-1 record over their last five, clearly outperforming Cleveland's 3-2 mark with an L1 streak. Mild weather conditions shouldn't disrupt Baltimore's momentum as they look like the stronger team heading into this divisional matchup.",
+  "americanfootball_nfl_2026-10-18_buffalo-bills_at_las-vegas-raiders": {
+    "predicted_winner": "Buffalo Bills",
+    "predicted_against_spread": "Buffalo Bills",
     "confidence": 70,
     "key_factors": [
-      "Ravens W3 streak and 4-1 form",
-      "Browns L1 and inferior recent play",
-      "Mild weather favors normal gameplan"
-    ]
+      "Bills 4-1 with current win streak",
+      "Raiders on L2 skid",
+      "Bills superior recent form (4-1 vs 3-2)"
+    ],
+    "reasoning": "Buffalo enters with strong momentum (W1, 4-1 last five) compared to Las Vegas which is mired in a two-game losing streak. The Bills' overall form and road performance this season support both the moneyline and the -4.5 spread, though Raiders' home crowd adds some uncertainty."
   },
-  "americanfootball_nfl_2026-10-18_carolina-panthers_at_philadelphia-eagles": {
-    "predicted_winner": "Carolina Panthers",
-    "predicted_against_spread": "Carolina Panthers",
-    "reasoning": "Philadelphia is reeling with an L3 streak and a losing 2-3 record over their last five, while Carolina enters with momentum on a W1 streak and an even 2-2 mark. The Eagles' recent struggles make this a live spot for the Panthers to pull the upset or at minimum cover as home underdogs value.",
-    "confidence": 58,
-    "key_factors": [
-      "Eagles L3 streak",
-      "Panthers W1 momentum",
-      "Market may be overvaluing Eagles brand name"
-    ]
-  },
-  "americanfootball_nfl_2026-10-18_tennessee-titans_at_indianapolis-colts": {
-    "predicted_winner": "Indianapolis Colts",
-    "predicted_against_spread": "Indianapolis Colts",
-    "reasoning": "Tennessee is in complete freefall with an 0-5 record and 5-game losing streak, while Indianapolis, despite a modest L1 streak, holds a much better 2-3 overall mark. The talent and momentum gap heavily favors the Colts to cover this large spread against a winless team.",
-    "confidence": 76,
-    "key_factors": [
-      "Titans 0-5 and L5 streak",
-      "Colts significantly better recent form",
-      "Large gap in team quality"
-    ]
-  },
-  "americanfootball_nfl_2026-10-18_new-york-jets_at_new-england-patriots": {
-    "predicted_winner": "New England Patriots",
-    "predicted_against_spread": "New York Jets",
-    "reasoning": "New England is playing well with a W2 streak and 3-2 recent record, justifying the moneyline favorite status, but the 7-point spread looks too large given the Jets are also trending up with a W1 streak. Cold weather conditions could favor a more conservative, lower-scoring game that keeps this closer than the number suggests.",
-    "confidence": 56,
-    "key_factors": [
-      "Patriots W2 vs Jets W1 momentum",
-      "Large 7-point spread seems inflated",
-      "Cold weather could tighten margins"
-    ]
-  },
-  "americanfootball_nfl_2026-10-18_new-orleans-saints_at_new-york-giants": {
-    "predicted_winner": "New York Giants",
-    "predicted_against_spread": "New York Giants",
-    "reasoning": "New Orleans is in freefall with an L3 streak and 1-4 recent record, while New York holds a much better 3-2 mark despite being on a 1-game skid. The Giants' superior recent form as home favorites in a near pick'em game makes them the stronger side here.",
+  "americanfootball_nfl_2026-10-18_los-angeles-chargers_at_kansas-city-chiefs": {
+    "predicted_winner": "Kansas City Chiefs",
+    "predicted_against_spread": "Los Angeles Chargers",
     "confidence": 62,
     "key_factors": [
-      "Giants 3-2 vs Saints 1-4 last5",
-      "Saints L3 losing streak",
-      "Home field for Giants"
-    ]
+      "Chiefs 4-0 win streak vs Chargers 0-5 skid",
+      "Large 7.5 point spread may be inflated by streak disparity",
+      "Windy conditions (15.7 mph) could limit scoring, keep margin tighter"
+    ],
+    "reasoning": "Kansas City is red-hot at 4-0 while the Chargers are winless and reeling at 0-5, making the Chiefs a clear favorite to win outright. However, a 7.5-point spread against a divisional-familiar opponent combined with windy conditions suggests the Chargers could keep this closer than the line indicates, so I favor the Chargers against the spread despite expecting a Chiefs win."
   },
-  "americanfootball_nfl_2026-10-18_pittsburgh-steelers_at_tampa-bay-buccaneers": {
-    "predicted_winner": "Pittsburgh Steelers",
-    "predicted_against_spread": "Pittsburgh Steelers",
-    "reasoning": "Pittsburgh enters with better recent form at 3-2 and a W1 streak compared to Tampa Bay's struggling 1-4 record, even though both are riding single-game win streaks. Rainy, windy conditions in Tampa could further neutralize any home-field passing advantage, favoring the more balanced Steelers team.",
+  "americanfootball_nfl_2026-10-19_dallas-cowboys_at_green-bay-packers": {
+    "predicted_winner": "Green Bay Packers",
+    "predicted_against_spread": "Green Bay Packers",
     "confidence": 60,
     "key_factors": [
-      "Steelers 3-2 vs Bucs 1-4 last5",
-      "Weather with rain/wind could limit passing",
-      "Pittsburgh as road underdog has value"
-    ]
-  },
-  "americanfootball_ncaaf_2026-10-17_ohio-state-buckeyes_at_indiana-hoosiers": {
-    "predicted_winner": "Ohio State Buckeyes",
-    "predicted_against_spread": "Ohio State Buckeyes",
-    "reasoning": "No trend data is available for either team, so this pick leans heavily on the market line, which has Ohio State as a solid favorite reflecting their typically superior roster talent in this matchup. Given the lack of specific recent-form data, confidence is tempered despite going with the favorite.",
-    "confidence": 55,
-    "key_factors": [
-      "No trend data provided - relying on market",
-      "Ohio State historically strong program",
-      "Moderate spread suggests competitive game"
-    ]
-  },
-  "americanfootball_ncaaf_2026-10-17_oklahoma-state-cowboys_at_houston-cougars": {
-    "predicted_winner": "Houston Cougars",
-    "predicted_against_spread": "Houston Cougars",
-    "reasoning": "With no trend data available for either team, this prediction defaults to the market line favoring Houston at home, but confidence is low given the complete absence of form, streak, or head-to-head information. The high total of 57.5 suggests an expected high-scoring, possibly volatile game.",
-    "confidence": 52,
-    "key_factors": [
-      "No trend data provided",
-      "Home field favors Houston",
-      "High total suggests shootout potential"
-    ]
-  },
-  "americanfootball_ncaaf_2026-10-17_kentucky-wildcats_at_oklahoma-sooners": {
-    "predicted_winner": "Oklahoma Sooners",
-    "predicted_against_spread": "Oklahoma Sooners",
-    "reasoning": "No specific trend data exists for either team, so this leans on the market's sizable -225 moneyline favoring Oklahoma at home, suggesting a clear talent gap. The low total of 41.5 points to an expected defensive, low-scoring affair where the home favorite should control the game.",
-    "confidence": 58,
-    "key_factors": [
-      "No trend data provided - relying on market signal",
-      "Sizable moneyline gap suggests talent mismatch",
-      "Low total implies defensive game favoring favorite"
-    ]
+      "Packers on W2 streak, better recent record (3-2 vs 2-3)",
+      "Home field advantage for Green Bay",
+      "Cowboys on a one-game skid"
+    ],
+    "reasoning": "Green Bay holds the edge with a two-game winning streak and a better recent record compared to Dallas, who are coming off a loss. Home field and current momentum favor the Packers covering the modest 3-point spread, though the game projects as fairly competitive given both teams' similar overall records."
   }
 }

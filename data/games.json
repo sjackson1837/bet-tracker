@@ -6459,7 +6459,7 @@
     "espn_sport": "football",
     "espn_league": "nfl",
     "outdoor": true,
-    "status": "scheduled",
+    "status": "predicted",
     "odds": {
       "moneyline": {
         "Arizona Cardinals": 470,
@@ -6472,7 +6472,52 @@
       "total": 51.5,
       "bookmaker": "DraftKings"
     },
-    "prediction": null,
+    "prediction": {
+      "predicted_winner": "Los Angeles Rams",
+      "predicted_against_spread": "Los Angeles Rams",
+      "confidence": 68,
+      "key_factors": [
+        "Cardinals on L4 skid, 1-4 record",
+        "Rams at home and above .500 recent form (2-3)",
+        "Large market spread (10.5) reflects talent gap"
+      ],
+      "reasoning": "Arizona is reeling with a four-game losing streak and the league's second-worst record, while the Rams are at home and have a better recent record despite a one-game skid. The double-digit spread is steep, but given the Cardinals' offensive struggles and Rams' home-field edge, I lean toward the Rams covering, though not with extreme confidence given blowout spreads carry variance.",
+      "context_used": {
+        "away_trends": {
+          "team": "Arizona Cardinals",
+          "last5": "1-4",
+          "streak": "L4",
+          "record": "1-4",
+          "h2h_vs_opponent": null
+        },
+        "home_trends": {
+          "team": "Los Angeles Rams",
+          "last5": "2-3",
+          "streak": "L1",
+          "record": "2-3",
+          "h2h_vs_opponent": null
+        },
+        "weather": null,
+        "probable_pitchers": {
+          "home": null,
+          "away": null
+        }
+      },
+      "generated_at": "2026-10-14T15:53:30.917641+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "Arizona Cardinals": 470,
+          "Los Angeles Rams": -650
+        },
+        "spread": {
+          "Arizona Cardinals": 10.5,
+          "Los Angeles Rams": -10.5
+        },
+        "total": 51.5,
+        "bookmaker": "DraftKings"
+      }
+    },
     "actual": null
   },
   "americanfootball_nfl_2026-10-18_buffalo-bills_at_las-vegas-raiders": {
@@ -6484,7 +6529,7 @@
     "espn_sport": "football",
     "espn_league": "nfl",
     "outdoor": true,
-    "status": "scheduled",
+    "status": "predicted",
     "odds": {
       "moneyline": {
         "Buffalo Bills": -225,
@@ -6497,7 +6542,52 @@
       "total": 51.5,
       "bookmaker": "DraftKings"
     },
-    "prediction": null,
+    "prediction": {
+      "predicted_winner": "Buffalo Bills",
+      "predicted_against_spread": "Buffalo Bills",
+      "confidence": 70,
+      "key_factors": [
+        "Bills 4-1 with current win streak",
+        "Raiders on L2 skid",
+        "Bills superior recent form (4-1 vs 3-2)"
+      ],
+      "reasoning": "Buffalo enters with strong momentum (W1, 4-1 last five) compared to Las Vegas which is mired in a two-game losing streak. The Bills' overall form and road performance this season support both the moneyline and the -4.5 spread, though Raiders' home crowd adds some uncertainty.",
+      "context_used": {
+        "away_trends": {
+          "team": "Buffalo Bills",
+          "last5": "4-1",
+          "streak": "W1",
+          "record": "4-1",
+          "h2h_vs_opponent": null
+        },
+        "home_trends": {
+          "team": "Las Vegas Raiders",
+          "last5": "3-2",
+          "streak": "L2",
+          "record": "3-2",
+          "h2h_vs_opponent": null
+        },
+        "weather": null,
+        "probable_pitchers": {
+          "home": null,
+          "away": null
+        }
+      },
+      "generated_at": "2026-10-14T15:53:30.917641+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "Buffalo Bills": -225,
+          "Las Vegas Raiders": 185
+        },
+        "spread": {
+          "Buffalo Bills": -4.5,
+          "Las Vegas Raiders": 4.5
+        },
+        "total": 51.5,
+        "bookmaker": "DraftKings"
+      }
+    },
     "actual": null
   },
   "americanfootball_nfl_2026-10-18_los-angeles-chargers_at_kansas-city-chiefs": {
@@ -6509,7 +6599,7 @@
     "espn_sport": "football",
     "espn_league": "nfl",
     "outdoor": true,
-    "status": "scheduled",
+    "status": "predicted",
     "odds": {
       "moneyline": {
         "Kansas City Chiefs": -395,
@@ -6522,7 +6612,57 @@
       "total": 45.5,
       "bookmaker": "DraftKings"
     },
-    "prediction": null,
+    "prediction": {
+      "predicted_winner": "Kansas City Chiefs",
+      "predicted_against_spread": "Los Angeles Chargers",
+      "confidence": 62,
+      "key_factors": [
+        "Chiefs 4-0 win streak vs Chargers 0-5 skid",
+        "Large 7.5 point spread may be inflated by streak disparity",
+        "Windy conditions (15.7 mph) could limit scoring, keep margin tighter"
+      ],
+      "reasoning": "Kansas City is red-hot at 4-0 while the Chargers are winless and reeling at 0-5, making the Chiefs a clear favorite to win outright. However, a 7.5-point spread against a divisional-familiar opponent combined with windy conditions suggests the Chargers could keep this closer than the line indicates, so I favor the Chargers against the spread despite expecting a Chiefs win.",
+      "context_used": {
+        "away_trends": {
+          "team": "Los Angeles Chargers",
+          "last5": "0-5",
+          "streak": "L5",
+          "record": "0-5",
+          "h2h_vs_opponent": null
+        },
+        "home_trends": {
+          "team": "Kansas City Chiefs",
+          "last5": "4-0",
+          "streak": "W4",
+          "record": "4-0",
+          "h2h_vs_opponent": null
+        },
+        "weather": {
+          "high_f": 65.9,
+          "low_f": 43.0,
+          "precipitation_in": 0.0,
+          "wind_mph": 15.7
+        },
+        "probable_pitchers": {
+          "home": null,
+          "away": null
+        }
+      },
+      "generated_at": "2026-10-14T15:53:30.917641+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "Kansas City Chiefs": -395,
+          "Los Angeles Chargers": 310
+        },
+        "spread": {
+          "Kansas City Chiefs": -7.5,
+          "Los Angeles Chargers": 7.5
+        },
+        "total": 45.5,
+        "bookmaker": "DraftKings"
+      }
+    },
     "actual": null
   },
   "americanfootball_nfl_2026-10-19_dallas-cowboys_at_green-bay-packers": {
@@ -6534,7 +6674,7 @@
     "espn_sport": "football",
     "espn_league": "nfl",
     "outdoor": true,
-    "status": "scheduled",
+    "status": "predicted",
     "odds": {
       "moneyline": {
         "Dallas Cowboys": 140,
@@ -6547,7 +6687,57 @@
       "total": 51.5,
       "num_bookmakers": 2
     },
-    "prediction": null,
+    "prediction": {
+      "predicted_winner": "Green Bay Packers",
+      "predicted_against_spread": "Green Bay Packers",
+      "confidence": 60,
+      "key_factors": [
+        "Packers on W2 streak, better recent record (3-2 vs 2-3)",
+        "Home field advantage for Green Bay",
+        "Cowboys on a one-game skid"
+      ],
+      "reasoning": "Green Bay holds the edge with a two-game winning streak and a better recent record compared to Dallas, who are coming off a loss. Home field and current momentum favor the Packers covering the modest 3-point spread, though the game projects as fairly competitive given both teams' similar overall records.",
+      "context_used": {
+        "away_trends": {
+          "team": "Dallas Cowboys",
+          "last5": "2-3",
+          "streak": "L1",
+          "record": "2-3",
+          "h2h_vs_opponent": null
+        },
+        "home_trends": {
+          "team": "Green Bay Packers",
+          "last5": "3-2",
+          "streak": "W2",
+          "record": "3-2",
+          "h2h_vs_opponent": null
+        },
+        "weather": {
+          "high_f": 65.1,
+          "low_f": 46.6,
+          "precipitation_in": 0.0,
+          "wind_mph": 15.0
+        },
+        "probable_pitchers": {
+          "home": null,
+          "away": null
+        }
+      },
+      "generated_at": "2026-10-14T15:53:30.917641+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "Dallas Cowboys": 140,
+          "Green Bay Packers": -166
+        },
+        "spread": {
+          "Dallas Cowboys": 3.0,
+          "Green Bay Packers": -3.0
+        },
+        "total": 51.5,
+        "num_bookmakers": 2
+      }
+    },
     "actual": null
   },
   "americanfootball_nfl_2026-10-20_washington-commanders_at_san-francisco-49ers": {
