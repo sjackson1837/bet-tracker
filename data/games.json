@@ -6749,7 +6749,7 @@
     "espn_sport": "football",
     "espn_league": "nfl",
     "outdoor": true,
-    "status": "scheduled",
+    "status": "predicted",
     "odds": {
       "moneyline": {
         "San Francisco 49ers": -425,
@@ -6762,7 +6762,58 @@
       "total": 50.5,
       "bookmaker": "DraftKings"
     },
-    "prediction": null,
+    "prediction": {
+      "predicted_winner": "San Francisco 49ers",
+      "predicted_against_spread": "San Francisco 49ers",
+      "confidence": 72,
+      "key_factors": [
+        "49ers 5-0 and on a 5-game win streak vs Commanders 1-4 on a 2-game losing streak",
+        "Massive form disparity (5-0 last5 vs 1-4 last5)",
+        "Mild weather with no precipitation favors a clean, high-execution home team",
+        "Market also heavily favors SF (-425 ML, -7.5 spread), aligning with trend data"
+      ],
+      "reasoning": "San Francisco's 5-0 record and active win streak starkly contrast with Washington's 1-4 mark and two-game skid, indicating a clear talent and momentum gap. While the spread is large at -7.5, the 49ers' dominant recent form supports covering against a struggling opponent. Weather is mild and shouldn't be a major factor. Confidence is tempered slightly since covering a touchdown-plus spread against divisional-caliber opponents can be unpredictable.",
+      "context_used": {
+        "away_trends": {
+          "team": "Washington Commanders",
+          "last5": "1-4",
+          "streak": "L2",
+          "record": "1-4",
+          "h2h_vs_opponent": null
+        },
+        "home_trends": {
+          "team": "San Francisco 49ers",
+          "last5": "5-0",
+          "streak": "W5",
+          "record": "5-0",
+          "h2h_vs_opponent": null
+        },
+        "weather": {
+          "high_f": 70.5,
+          "low_f": 59.4,
+          "precipitation_in": 0.0,
+          "wind_mph": 12.1
+        },
+        "probable_pitchers": {
+          "home": null,
+          "away": null
+        }
+      },
+      "generated_at": "2026-10-15T15:40:42.138374+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "San Francisco 49ers": -425,
+          "Washington Commanders": 330
+        },
+        "spread": {
+          "San Francisco 49ers": -7.5,
+          "Washington Commanders": 7.5
+        },
+        "total": 50.5,
+        "bookmaker": "DraftKings"
+      }
+    },
     "actual": null
   },
   "americanfootball_nfl_2026-10-23_new-england-patriots_at_chicago-bears": {

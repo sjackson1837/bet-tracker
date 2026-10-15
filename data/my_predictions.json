@@ -1,46 +1,14 @@
 {
-  "americanfootball_nfl_2026-10-18_arizona-cardinals_at_los-angeles-rams": {
-    "predicted_winner": "Los Angeles Rams",
-    "predicted_against_spread": "Los Angeles Rams",
-    "confidence": 68,
+  "americanfootball_nfl_2026-10-20_washington-commanders_at_san-francisco-49ers": {
+    "predicted_winner": "San Francisco 49ers",
+    "predicted_against_spread": "San Francisco 49ers",
+    "confidence": 72,
     "key_factors": [
-      "Cardinals on L4 skid, 1-4 record",
-      "Rams at home and above .500 recent form (2-3)",
-      "Large market spread (10.5) reflects talent gap"
+      "49ers 5-0 and on a 5-game win streak vs Commanders 1-4 on a 2-game losing streak",
+      "Massive form disparity (5-0 last5 vs 1-4 last5)",
+      "Mild weather with no precipitation favors a clean, high-execution home team",
+      "Market also heavily favors SF (-425 ML, -7.5 spread), aligning with trend data"
     ],
-    "reasoning": "Arizona is reeling with a four-game losing streak and the league's second-worst record, while the Rams are at home and have a better recent record despite a one-game skid. The double-digit spread is steep, but given the Cardinals' offensive struggles and Rams' home-field edge, I lean toward the Rams covering, though not with extreme confidence given blowout spreads carry variance."
-  },
-  "americanfootball_nfl_2026-10-18_buffalo-bills_at_las-vegas-raiders": {
-    "predicted_winner": "Buffalo Bills",
-    "predicted_against_spread": "Buffalo Bills",
-    "confidence": 70,
-    "key_factors": [
-      "Bills 4-1 with current win streak",
-      "Raiders on L2 skid",
-      "Bills superior recent form (4-1 vs 3-2)"
-    ],
-    "reasoning": "Buffalo enters with strong momentum (W1, 4-1 last five) compared to Las Vegas which is mired in a two-game losing streak. The Bills' overall form and road performance this season support both the moneyline and the -4.5 spread, though Raiders' home crowd adds some uncertainty."
-  },
-  "americanfootball_nfl_2026-10-18_los-angeles-chargers_at_kansas-city-chiefs": {
-    "predicted_winner": "Kansas City Chiefs",
-    "predicted_against_spread": "Los Angeles Chargers",
-    "confidence": 62,
-    "key_factors": [
-      "Chiefs 4-0 win streak vs Chargers 0-5 skid",
-      "Large 7.5 point spread may be inflated by streak disparity",
-      "Windy conditions (15.7 mph) could limit scoring, keep margin tighter"
-    ],
-    "reasoning": "Kansas City is red-hot at 4-0 while the Chargers are winless and reeling at 0-5, making the Chiefs a clear favorite to win outright. However, a 7.5-point spread against a divisional-familiar opponent combined with windy conditions suggests the Chargers could keep this closer than the line indicates, so I favor the Chargers against the spread despite expecting a Chiefs win."
-  },
-  "americanfootball_nfl_2026-10-19_dallas-cowboys_at_green-bay-packers": {
-    "predicted_winner": "Green Bay Packers",
-    "predicted_against_spread": "Green Bay Packers",
-    "confidence": 60,
-    "key_factors": [
-      "Packers on W2 streak, better recent record (3-2 vs 2-3)",
-      "Home field advantage for Green Bay",
-      "Cowboys on a one-game skid"
-    ],
-    "reasoning": "Green Bay holds the edge with a two-game winning streak and a better recent record compared to Dallas, who are coming off a loss. Home field and current momentum favor the Packers covering the modest 3-point spread, though the game projects as fairly competitive given both teams' similar overall records."
+    "reasoning": "San Francisco's 5-0 record and active win streak starkly contrast with Washington's 1-4 mark and two-game skid, indicating a clear talent and momentum gap. While the spread is large at -7.5, the 49ers' dominant recent form supports covering against a struggling opponent. Weather is mild and shouldn't be a major factor. Confidence is tempered slightly since covering a touchdown-plus spread against divisional-caliber opponents can be unpredictable."
   }
 }
