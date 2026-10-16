@@ -1,47 +1,4 @@
 {
   "instructions": "For each game below, act as a sharp, disciplined sports betting analyst. Do NOT simply pick whichever side the betting market favors -- weigh the actual trend data provided (recent form, streaks, head-to-head history, starting pitcher matchups where given, and weather where relevant) and form an independent judgment. It's fine, and expected, to disagree with the market when the trends support it. If trend data is sparse for a game, say so and let that lower your confidence rather than defaulting to the favorite. For each game_id, produce: predicted_winner (exact team name), predicted_against_spread (exact team name), confidence (integer 1-100), key_factors (2-4 short strings), and reasoning (2-4 sentences referencing the specific trend data given).",
-  "games": {
-    "americanfootball_nfl_2026-10-20_washington-commanders_at_san-francisco-49ers": {
-      "league": "NFL",
-      "away_team": "Washington Commanders",
-      "home_team": "San Francisco 49ers",
-      "commence_time": "2026-10-20T00:15:00Z",
-      "market_line": {
-        "moneyline": {
-          "San Francisco 49ers": -425,
-          "Washington Commanders": 330
-        },
-        "spread": {
-          "San Francisco 49ers": -7.5,
-          "Washington Commanders": 7.5
-        },
-        "total": 50.5,
-        "bookmaker": "DraftKings"
-      },
-      "away_team_trends": {
-        "team": "Washington Commanders",
-        "last5": "1-4",
-        "streak": "L2",
-        "record": "1-4",
-        "h2h_vs_opponent": null
-      },
-      "home_team_trends": {
-        "team": "San Francisco 49ers",
-        "last5": "5-0",
-        "streak": "W5",
-        "record": "5-0",
-        "h2h_vs_opponent": null
-      },
-      "weather_at_kickoff": {
-        "high_f": 70.5,
-        "low_f": 59.4,
-        "precipitation_in": 0.0,
-        "wind_mph": 12.1
-      },
-      "probable_pitchers": {
-        "home": null,
-        "away": null
-      }
-    }
-  }
+  "games": {}
 }
