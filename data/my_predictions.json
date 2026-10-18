@@ -1,1 +1,14 @@
-{}
+{
+  "americanfootball_nfl_2026-10-23_new-england-patriots_at_chicago-bears": {
+    "predicted_winner": "New England Patriots",
+    "predicted_against_spread": "New England Patriots",
+    "confidence": 54,
+    "key_factors": [
+      "Patriots on a 2-game winning streak vs Bears' 1-game losing streak",
+      "Both teams even at 3-2 record and last-5 form",
+      "Mild weather with moderate wind, no major impact expected",
+      "Limited data (no H2H, no starting info) caps confidence"
+    ],
+    "reasoning": "Both teams have identical 3-2 records, but New England carries momentum with a 2-game win streak while Chicago is coming off a loss. The spread is nearly a pick'em, and the slight edge in recent trajectory favors the Patriots to cover and win outright. Data is otherwise thin, so confidence remains modest."
+  }
+}
