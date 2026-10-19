@@ -1,14 +1,46 @@
 {
-  "americanfootball_nfl_2026-10-23_new-england-patriots_at_chicago-bears": {
-    "predicted_winner": "New England Patriots",
-    "predicted_against_spread": "New England Patriots",
-    "confidence": 54,
+  "americanfootball_ncaaf_2026-10-24_texas-a&m-aggies_at_alabama-crimson-tide": {
+    "predicted_winner": "Alabama Crimson Tide",
+    "predicted_against_spread": "Alabama Crimson Tide",
+    "confidence": 55,
     "key_factors": [
-      "Patriots on a 2-game winning streak vs Bears' 1-game losing streak",
-      "Both teams even at 3-2 record and last-5 form",
-      "Mild weather with moderate wind, no major impact expected",
-      "Limited data (no H2H, no starting info) caps confidence"
+      "Home field advantage in a rivalry-caliber SEC matchup",
+      "No trend data provided to differentiate teams beyond market line",
+      "Market line is close (-142/-2.5), suggesting a competitive game"
     ],
-    "reasoning": "Both teams have identical 3-2 records, but New England carries momentum with a 2-game win streak while Chicago is coming off a loss. The spread is nearly a pick'em, and the slight edge in recent trajectory favors the Patriots to cover and win outright. Data is otherwise thin, so confidence remains modest."
+    "reasoning": "With no statistical trends, streaks, or head-to-head data supplied, I default to the market's modest lean toward Alabama at home, but the tight spread (2.5) reflects genuine uncertainty. Lacking differentiating data lowers my confidence to near a coin-flip territory."
+  },
+  "americanfootball_ncaaf_2026-10-24_houston-cougars_at_utah-utes": {
+    "predicted_winner": "Utah Utes",
+    "predicted_against_spread": "Houston Cougars",
+    "confidence": 58,
+    "key_factors": [
+      "Large moneyline gap (-258/+210) implies significant talent disparity favoring Utah",
+      "No trend/streak data available to confirm or contradict market view",
+      "Large spread (6.5) is often inflated for home favorites, creating backdoor cover value"
+    ],
+    "reasoning": "The market strongly favors Utah, and without contrary trend evidence I lean with that outright, but large spreads like 6.5 points in sparse-data games often see the underdog cover. I'll back Houston against the spread as a hedge against potential market overreach while still picking Utah to win outright."
+  },
+  "americanfootball_ncaaf_2026-10-24_indiana-hoosiers_at_michigan-wolverines": {
+    "predicted_winner": "Indiana Hoosiers",
+    "predicted_against_spread": "Indiana Hoosiers",
+    "confidence": 60,
+    "key_factors": [
+      "Indiana is a significant road favorite (-258/-6.0), suggesting strong current form",
+      "No trend data provided to verify, but market conviction is notable given Michigan is at home",
+      "Road favorites of this size in the current era often reflect a real quality gap"
+    ],
+    "reasoning": "Indiana being favored by 6 points on the road against Michigan is a strong signal given Michigan's historic home strength, implying the market has high conviction in Indiana's current quality. Without trend data to contradict this, I'll side with the market's clear lean here, giving moderate-high confidence."
+  },
+  "americanfootball_ncaaf_2026-10-24_ole-miss-rebels_at_texas-longhorns": {
+    "predicted_winner": "Texas Longhorns",
+    "predicted_against_spread": "Ole Miss Rebels",
+    "confidence": 55,
+    "key_factors": [
+      "Texas is a substantial home favorite (-310/-8.5)",
+      "No trend or h2h data supplied to validate the size of the favorite status",
+      "Large spreads (8.5+) in data-sparse SEC crossover games often see backdoor covers from the underdog"
+    ],
+    "reasoning": "Texas is clearly favored by the market, and I'll side with that for the outright winner given home-field advantage and presumed higher quality. However, with no trend data to confirm such a large margin is warranted, I favor Ole Miss to keep it closer than 8.5 points against the spread."
   }
 }
