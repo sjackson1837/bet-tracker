@@ -1,46 +1,13 @@
 {
-  "americanfootball_ncaaf_2026-10-24_texas-a&m-aggies_at_alabama-crimson-tide": {
-    "predicted_winner": "Alabama Crimson Tide",
-    "predicted_against_spread": "Alabama Crimson Tide",
-    "confidence": 55,
+  "americanfootball_nfl_2026-10-25_pittsburgh-steelers_at_new-orleans-saints": {
+    "predicted_winner": "Pittsburgh Steelers",
+    "predicted_against_spread": "Pittsburgh Steelers",
+    "confidence": 68,
     "key_factors": [
-      "Home field advantage in a rivalry-caliber SEC matchup",
-      "No trend data provided to differentiate teams beyond market line",
-      "Market line is close (-142/-2.5), suggesting a competitive game"
+      "Steelers riding a 2-game win streak with 4-2 record vs Saints' 4-game losing streak at 1-5",
+      "Saints' last5 form (1-4) is among the worst in the league entering this matchup",
+      "Market line (-2.2) actually undervalues Steelers' form gap relative to Saints' collapse"
     ],
-    "reasoning": "With no statistical trends, streaks, or head-to-head data supplied, I default to the market's modest lean toward Alabama at home, but the tight spread (2.5) reflects genuine uncertainty. Lacking differentiating data lowers my confidence to near a coin-flip territory."
-  },
-  "americanfootball_ncaaf_2026-10-24_houston-cougars_at_utah-utes": {
-    "predicted_winner": "Utah Utes",
-    "predicted_against_spread": "Houston Cougars",
-    "confidence": 58,
-    "key_factors": [
-      "Large moneyline gap (-258/+210) implies significant talent disparity favoring Utah",
-      "No trend/streak data available to confirm or contradict market view",
-      "Large spread (6.5) is often inflated for home favorites, creating backdoor cover value"
-    ],
-    "reasoning": "The market strongly favors Utah, and without contrary trend evidence I lean with that outright, but large spreads like 6.5 points in sparse-data games often see the underdog cover. I'll back Houston against the spread as a hedge against potential market overreach while still picking Utah to win outright."
-  },
-  "americanfootball_ncaaf_2026-10-24_indiana-hoosiers_at_michigan-wolverines": {
-    "predicted_winner": "Indiana Hoosiers",
-    "predicted_against_spread": "Indiana Hoosiers",
-    "confidence": 60,
-    "key_factors": [
-      "Indiana is a significant road favorite (-258/-6.0), suggesting strong current form",
-      "No trend data provided to verify, but market conviction is notable given Michigan is at home",
-      "Road favorites of this size in the current era often reflect a real quality gap"
-    ],
-    "reasoning": "Indiana being favored by 6 points on the road against Michigan is a strong signal given Michigan's historic home strength, implying the market has high conviction in Indiana's current quality. Without trend data to contradict this, I'll side with the market's clear lean here, giving moderate-high confidence."
-  },
-  "americanfootball_ncaaf_2026-10-24_ole-miss-rebels_at_texas-longhorns": {
-    "predicted_winner": "Texas Longhorns",
-    "predicted_against_spread": "Ole Miss Rebels",
-    "confidence": 55,
-    "key_factors": [
-      "Texas is a substantial home favorite (-310/-8.5)",
-      "No trend or h2h data supplied to validate the size of the favorite status",
-      "Large spreads (8.5+) in data-sparse SEC crossover games often see backdoor covers from the underdog"
-    ],
-    "reasoning": "Texas is clearly favored by the market, and I'll side with that for the outright winner given home-field advantage and presumed higher quality. However, with no trend data to confirm such a large margin is warranted, I favor Ole Miss to keep it closer than 8.5 points against the spread."
+    "reasoning": "Pittsburgh's recent form (3-2 in last 5, W2 streak) sharply contrasts with New Orleans' freefall (1-4 in last 5, L4 streak). The spread is unusually small (~2.2) given the disparity in records and momentum, suggesting value on the Steelers covering as well as winning outright. Lack of head-to-head data and no weather/injury specifics slightly tempers confidence, but the form trend is a strong signal here."
   }
 }

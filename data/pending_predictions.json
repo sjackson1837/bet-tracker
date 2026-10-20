@@ -1,146 +1,35 @@
 {
   "instructions": "For each game below, act as a sharp, disciplined sports betting analyst. Do NOT simply pick whichever side the betting market favors -- weigh the actual trend data provided (recent form, streaks, head-to-head history, starting pitcher matchups where given, and weather where relevant) and form an independent judgment. It's fine, and expected, to disagree with the market when the trends support it. If trend data is sparse for a game, say so and let that lower your confidence rather than defaulting to the favorite. For each game_id, produce: predicted_winner (exact team name), predicted_against_spread (exact team name), confidence (integer 1-100), key_factors (2-4 short strings), and reasoning (2-4 sentences referencing the specific trend data given).",
   "games": {
-    "americanfootball_ncaaf_2026-10-24_texas-a&m-aggies_at_alabama-crimson-tide": {
-      "league": "NCAAF",
-      "away_team": "Texas A&M Aggies",
-      "home_team": "Alabama Crimson Tide",
-      "commence_time": "2026-10-24T16:00:00Z",
+    "americanfootball_nfl_2026-10-25_pittsburgh-steelers_at_new-orleans-saints": {
+      "league": "NFL",
+      "away_team": "Pittsburgh Steelers",
+      "home_team": "New Orleans Saints",
+      "commence_time": "2026-10-25T13:30:00Z",
       "market_line": {
         "moneyline": {
-          "Alabama Crimson Tide": -142,
-          "Texas A&M Aggies": 120
+          "New Orleans Saints": 115,
+          "Pittsburgh Steelers": -136
         },
         "spread": {
-          "Alabama Crimson Tide": -2.5,
-          "Texas A&M Aggies": 2.5
+          "New Orleans Saints": 2.2,
+          "Pittsburgh Steelers": -2.2
         },
-        "total": 54.5,
-        "num_bookmakers": 1
+        "total": 41.8,
+        "num_bookmakers": 3
       },
       "away_team_trends": {
-        "team": "Texas A&M Aggies",
-        "last5": null,
-        "streak": null,
-        "record": null,
+        "team": "Pittsburgh Steelers",
+        "last5": "3-2",
+        "streak": "W2",
+        "record": "4-2",
         "h2h_vs_opponent": null
       },
       "home_team_trends": {
-        "team": "Alabama Crimson Tide",
-        "last5": null,
-        "streak": null,
-        "record": null,
-        "h2h_vs_opponent": null
-      },
-      "weather_at_kickoff": null,
-      "probable_pitchers": {
-        "home": null,
-        "away": null
-      }
-    },
-    "americanfootball_ncaaf_2026-10-24_houston-cougars_at_utah-utes": {
-      "league": "NCAAF",
-      "away_team": "Houston Cougars",
-      "home_team": "Utah Utes",
-      "commence_time": "2026-10-24T16:00:00Z",
-      "market_line": {
-        "moneyline": {
-          "Houston Cougars": 210,
-          "Utah Utes": -258
-        },
-        "spread": {
-          "Houston Cougars": 6.5,
-          "Utah Utes": -6.5
-        },
-        "total": 50.5,
-        "num_bookmakers": 1
-      },
-      "away_team_trends": {
-        "team": "Houston Cougars",
-        "last5": null,
-        "streak": null,
-        "record": null,
-        "h2h_vs_opponent": null
-      },
-      "home_team_trends": {
-        "team": "Utah Utes",
-        "last5": null,
-        "streak": null,
-        "record": null,
-        "h2h_vs_opponent": null
-      },
-      "weather_at_kickoff": null,
-      "probable_pitchers": {
-        "home": null,
-        "away": null
-      }
-    },
-    "americanfootball_ncaaf_2026-10-24_indiana-hoosiers_at_michigan-wolverines": {
-      "league": "NCAAF",
-      "away_team": "Indiana Hoosiers",
-      "home_team": "Michigan Wolverines",
-      "commence_time": "2026-10-24T16:00:00Z",
-      "market_line": {
-        "moneyline": {
-          "Indiana Hoosiers": -258,
-          "Michigan Wolverines": 210
-        },
-        "spread": {
-          "Indiana Hoosiers": -6.0,
-          "Michigan Wolverines": 6.0
-        },
-        "total": 52.5,
-        "num_bookmakers": 1
-      },
-      "away_team_trends": {
-        "team": "Indiana Hoosiers",
-        "last5": null,
-        "streak": null,
-        "record": null,
-        "h2h_vs_opponent": null
-      },
-      "home_team_trends": {
-        "team": "Michigan Wolverines",
-        "last5": null,
-        "streak": null,
-        "record": null,
-        "h2h_vs_opponent": null
-      },
-      "weather_at_kickoff": null,
-      "probable_pitchers": {
-        "home": null,
-        "away": null
-      }
-    },
-    "americanfootball_ncaaf_2026-10-24_ole-miss-rebels_at_texas-longhorns": {
-      "league": "NCAAF",
-      "away_team": "Ole Miss Rebels",
-      "home_team": "Texas Longhorns",
-      "commence_time": "2026-10-24T16:00:00Z",
-      "market_line": {
-        "moneyline": {
-          "Ole Miss Rebels": 250,
-          "Texas Longhorns": -310
-        },
-        "spread": {
-          "Ole Miss Rebels": 8.5,
-          "Texas Longhorns": -8.5
-        },
-        "total": 54.5,
-        "num_bookmakers": 1
-      },
-      "away_team_trends": {
-        "team": "Ole Miss Rebels",
-        "last5": null,
-        "streak": null,
-        "record": null,
-        "h2h_vs_opponent": null
-      },
-      "home_team_trends": {
-        "team": "Texas Longhorns",
-        "last5": null,
-        "streak": null,
-        "record": null,
+        "team": "New Orleans Saints",
+        "last5": "1-4",
+        "streak": "L4",
+        "record": "1-5",
         "h2h_vs_opponent": null
       },
       "weather_at_kickoff": null,

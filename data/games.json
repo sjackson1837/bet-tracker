@@ -6901,7 +6901,7 @@
     "espn_sport": "football",
     "espn_league": "nfl",
     "outdoor": true,
-    "status": "scheduled",
+    "status": "predicted",
     "odds": {
       "moneyline": {
         "New Orleans Saints": 115,
@@ -6914,7 +6914,52 @@
       "total": 41.8,
       "num_bookmakers": 3
     },
-    "prediction": null,
+    "prediction": {
+      "predicted_winner": "Pittsburgh Steelers",
+      "predicted_against_spread": "Pittsburgh Steelers",
+      "confidence": 68,
+      "key_factors": [
+        "Steelers riding a 2-game win streak with 4-2 record vs Saints' 4-game losing streak at 1-5",
+        "Saints' last5 form (1-4) is among the worst in the league entering this matchup",
+        "Market line (-2.2) actually undervalues Steelers' form gap relative to Saints' collapse"
+      ],
+      "reasoning": "Pittsburgh's recent form (3-2 in last 5, W2 streak) sharply contrasts with New Orleans' freefall (1-4 in last 5, L4 streak). The spread is unusually small (~2.2) given the disparity in records and momentum, suggesting value on the Steelers covering as well as winning outright. Lack of head-to-head data and no weather/injury specifics slightly tempers confidence, but the form trend is a strong signal here.",
+      "context_used": {
+        "away_trends": {
+          "team": "Pittsburgh Steelers",
+          "last5": "3-2",
+          "streak": "W2",
+          "record": "4-2",
+          "h2h_vs_opponent": null
+        },
+        "home_trends": {
+          "team": "New Orleans Saints",
+          "last5": "1-4",
+          "streak": "L4",
+          "record": "1-5",
+          "h2h_vs_opponent": null
+        },
+        "weather": null,
+        "probable_pitchers": {
+          "home": null,
+          "away": null
+        }
+      },
+      "generated_at": "2026-10-20T15:43:36.081952+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "New Orleans Saints": 115,
+          "Pittsburgh Steelers": -136
+        },
+        "spread": {
+          "New Orleans Saints": 2.2,
+          "Pittsburgh Steelers": -2.2
+        },
+        "total": 41.8,
+        "num_bookmakers": 3
+      }
+    },
     "actual": null
   },
   "americanfootball_nfl_2026-10-25_san-francisco-49ers_at_atlanta-falcons": {
