@@ -7552,7 +7552,7 @@
     "espn_sport": "football",
     "espn_league": "nfl",
     "outdoor": true,
-    "status": "scheduled",
+    "status": "predicted",
     "odds": {
       "moneyline": {
         "Detroit Lions": -135,
@@ -7565,7 +7565,53 @@
       "total": 50.5,
       "num_bookmakers": 1
     },
-    "prediction": null,
+    "prediction": {
+      "predicted_winner": "Green Bay Packers",
+      "reasoning": "Green Bay enters with a stronger recent form (4-1 last5, W3 streak) compared to Detroit's more modest 3-2 last5 and W1 streak, suggesting better momentum heading into this divisional matchup. The Lions are favored at home, but the market line is relatively tight at -2.5, indicating this is close to a coin-flip game. Green Bay's superior overall record and streak give a slight edge against the spread as road underdogs.",
+      "predicted_against_spread": "Green Bay Packers",
+      "confidence": 54,
+      "key_factors": [
+        "Packers on 3-game win streak vs Lions 1-game streak",
+        "Packers 4-1 in last 5 vs Lions 3-2",
+        "Close spread (-2.5) suggests tight divisional matchup",
+        "No head-to-head data available to adjust further"
+      ],
+      "context_used": {
+        "away_trends": {
+          "team": "Green Bay Packers",
+          "last5": "4-1",
+          "streak": "W3",
+          "record": "4-2",
+          "h2h_vs_opponent": null
+        },
+        "home_trends": {
+          "team": "Detroit Lions",
+          "last5": "3-2",
+          "streak": "W1",
+          "record": "3-2",
+          "h2h_vs_opponent": null
+        },
+        "weather": null,
+        "probable_pitchers": {
+          "home": null,
+          "away": null
+        }
+      },
+      "generated_at": "2026-10-24T14:43:50.150501+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "Detroit Lions": -135,
+          "Green Bay Packers": 114
+        },
+        "spread": {
+          "Detroit Lions": -2.5,
+          "Green Bay Packers": 2.5
+        },
+        "total": 50.5,
+        "num_bookmakers": 1
+      }
+    },
     "actual": null
   },
   "americanfootball_nfl_2026-10-25_los-angeles-rams_at_las-vegas-raiders": {
