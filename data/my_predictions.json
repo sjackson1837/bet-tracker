@@ -1,14 +1,14 @@
 {
-  "americanfootball_nfl_2026-10-25_green-bay-packers_at_detroit-lions": {
+  "americanfootball_nfl_2026-10-30_carolina-panthers_at_green-bay-packers": {
     "predicted_winner": "Green Bay Packers",
-    "reasoning": "Green Bay enters with a stronger recent form (4-1 last5, W3 streak) compared to Detroit's more modest 3-2 last5 and W1 streak, suggesting better momentum heading into this divisional matchup. The Lions are favored at home, but the market line is relatively tight at -2.5, indicating this is close to a coin-flip game. Green Bay's superior overall record and streak give a slight edge against the spread as road underdogs.",
-    "predicted_against_spread": "Green Bay Packers",
-    "confidence": 54,
+    "predicted_against_spread": "Carolina Panthers",
+    "confidence": 60,
     "key_factors": [
-      "Packers on 3-game win streak vs Lions 1-game streak",
-      "Packers 4-1 in last 5 vs Lions 3-2",
-      "Close spread (-2.5) suggests tight divisional matchup",
-      "No head-to-head data available to adjust further"
-    ]
+      "Packers on W3 streak with 4-1 last5, strong home form",
+      "Panthers also winning recently (W2, 3-2 last5), better than record suggests",
+      "7-point home spread is large given both teams trending upward",
+      "Mild weather with moderate wind shouldn't significantly impact game plan"
+    ],
+    "reasoning": "Green Bay is clearly the better and hotter team right now, winning 4 of their last 5 and riding a 3-game streak, so they're a reasonable straight-up favorite at home. However, a 7-point spread against a Panthers team that is also on a 2-game win streak and 3-2 over their last 5 seems like more than the talent gap justifies, especially without clear h2h data to lean on. I'll take the Packers to win but fade the full margin, expecting a tighter game than the number implies."
   }
 }

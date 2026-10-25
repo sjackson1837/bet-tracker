@@ -7843,7 +7843,7 @@
     "espn_sport": "football",
     "espn_league": "nfl",
     "outdoor": true,
-    "status": "scheduled",
+    "status": "predicted",
     "odds": {
       "moneyline": {
         "Carolina Panthers": 275,
@@ -7856,7 +7856,58 @@
       "total": 45.5,
       "num_bookmakers": 2
     },
-    "prediction": null,
+    "prediction": {
+      "predicted_winner": "Green Bay Packers",
+      "predicted_against_spread": "Carolina Panthers",
+      "confidence": 60,
+      "key_factors": [
+        "Packers on W3 streak with 4-1 last5, strong home form",
+        "Panthers also winning recently (W2, 3-2 last5), better than record suggests",
+        "7-point home spread is large given both teams trending upward",
+        "Mild weather with moderate wind shouldn't significantly impact game plan"
+      ],
+      "reasoning": "Green Bay is clearly the better and hotter team right now, winning 4 of their last 5 and riding a 3-game streak, so they're a reasonable straight-up favorite at home. However, a 7-point spread against a Panthers team that is also on a 2-game win streak and 3-2 over their last 5 seems like more than the talent gap justifies, especially without clear h2h data to lean on. I'll take the Packers to win but fade the full margin, expecting a tighter game than the number implies.",
+      "context_used": {
+        "away_trends": {
+          "team": "Carolina Panthers",
+          "last5": "3-2",
+          "streak": "W2",
+          "record": "3-2",
+          "h2h_vs_opponent": null
+        },
+        "home_trends": {
+          "team": "Green Bay Packers",
+          "last5": "4-1",
+          "streak": "W3",
+          "record": "4-2",
+          "h2h_vs_opponent": null
+        },
+        "weather": {
+          "high_f": 55.7,
+          "low_f": 43.7,
+          "precipitation_in": 0.0,
+          "wind_mph": 12.8
+        },
+        "probable_pitchers": {
+          "home": null,
+          "away": null
+        }
+      },
+      "generated_at": "2026-10-25T14:59:57.605734+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "Carolina Panthers": 275,
+          "Green Bay Packers": -345
+        },
+        "spread": {
+          "Carolina Panthers": 7.0,
+          "Green Bay Packers": -7.0
+        },
+        "total": 45.5,
+        "num_bookmakers": 2
+      }
+    },
     "actual": null
   },
   "americanfootball_nfl_2026-11-01_arizona-cardinals_at_dallas-cowboys": {
