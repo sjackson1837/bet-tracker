@@ -35803,7 +35803,7 @@
     "espn_sport": "football",
     "espn_league": "college-football",
     "outdoor": true,
-    "status": "scheduled",
+    "status": "predicted",
     "odds": {
       "moneyline": {
         "Florida Gators": 410,
@@ -35816,7 +35816,53 @@
       "total": 53.5,
       "num_bookmakers": 1
     },
-    "prediction": null,
+    "prediction": {
+      "reasoning": "Georgia holds a stronger overall record (6-1 vs 5-2) and better recent form (4-1 last5 vs 3-2), and historically this rivalry heavily favors Georgia at home in recent years. However, Georgia is on a one-game losing streak while Florida enters on a win, which injects some uncertainty into the margin. The market's 12.5-point spread is large, and with limited trend granularity (no h2h data, no weather, no pitcher/QB-level info), I'll lean Georgia to win but be cautious on covering such a big number given Florida's momentum.",
+      "confidence": 62,
+      "predicted_winner": "Georgia Bulldogs",
+      "predicted_against_spread": "Florida Gators",
+      "key_factors": [
+        "Georgia superior season record (6-1) and recent form (4-1 last5)",
+        "Florida on a 1-game win streak while Georgia on a 1-game loss streak",
+        "Large 12.5-point spread increases cover risk despite talent gap",
+        "No head-to-head or weather data available to refine margin expectations"
+      ],
+      "context_used": {
+        "away_trends": {
+          "team": "Florida Gators",
+          "last5": "3-2",
+          "streak": "W1",
+          "record": "5-2",
+          "h2h_vs_opponent": null
+        },
+        "home_trends": {
+          "team": "Georgia Bulldogs",
+          "last5": "4-1",
+          "streak": "L1",
+          "record": "6-1",
+          "h2h_vs_opponent": null
+        },
+        "weather": null,
+        "probable_pitchers": {
+          "home": null,
+          "away": null
+        }
+      },
+      "generated_at": "2026-10-26T17:30:47.095885+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "Florida Gators": 410,
+          "Georgia Bulldogs": -550
+        },
+        "spread": {
+          "Florida Gators": 12.5,
+          "Georgia Bulldogs": -12.5
+        },
+        "total": 53.5,
+        "num_bookmakers": 1
+      }
+    },
     "actual": null
   },
   "americanfootball_ncaaf_2026-11-07_alabama-crimson-tide_at_lsu-tigers": {

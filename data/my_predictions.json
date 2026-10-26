@@ -1,14 +1,14 @@
 {
-  "americanfootball_nfl_2026-10-30_carolina-panthers_at_green-bay-packers": {
-    "predicted_winner": "Green Bay Packers",
-    "predicted_against_spread": "Carolina Panthers",
-    "confidence": 60,
+  "americanfootball_ncaaf_2026-10-31_florida-gators_at_georgia-bulldogs": {
+    "reasoning": "Georgia holds a stronger overall record (6-1 vs 5-2) and better recent form (4-1 last5 vs 3-2), and historically this rivalry heavily favors Georgia at home in recent years. However, Georgia is on a one-game losing streak while Florida enters on a win, which injects some uncertainty into the margin. The market's 12.5-point spread is large, and with limited trend granularity (no h2h data, no weather, no pitcher/QB-level info), I'll lean Georgia to win but be cautious on covering such a big number given Florida's momentum.",
+    "confidence": 62,
+    "predicted_winner": "Georgia Bulldogs",
+    "predicted_against_spread": "Florida Gators",
     "key_factors": [
-      "Packers on W3 streak with 4-1 last5, strong home form",
-      "Panthers also winning recently (W2, 3-2 last5), better than record suggests",
-      "7-point home spread is large given both teams trending upward",
-      "Mild weather with moderate wind shouldn't significantly impact game plan"
-    ],
-    "reasoning": "Green Bay is clearly the better and hotter team right now, winning 4 of their last 5 and riding a 3-game streak, so they're a reasonable straight-up favorite at home. However, a 7-point spread against a Panthers team that is also on a 2-game win streak and 3-2 over their last 5 seems like more than the talent gap justifies, especially without clear h2h data to lean on. I'll take the Packers to win but fade the full margin, expecting a tighter game than the number implies."
+      "Georgia superior season record (6-1) and recent form (4-1 last5)",
+      "Florida on a 1-game win streak while Georgia on a 1-game loss streak",
+      "Large 12.5-point spread increases cover risk despite talent gap",
+      "No head-to-head or weather data available to refine margin expectations"
+    ]
   }
 }
