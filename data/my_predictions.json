@@ -1,14 +1,1 @@
-{
-  "americanfootball_ncaaf_2026-10-31_florida-gators_at_georgia-bulldogs": {
-    "reasoning": "Georgia holds a stronger overall record (6-1 vs 5-2) and better recent form (4-1 last5 vs 3-2), and historically this rivalry heavily favors Georgia at home in recent years. However, Georgia is on a one-game losing streak while Florida enters on a win, which injects some uncertainty into the margin. The market's 12.5-point spread is large, and with limited trend granularity (no h2h data, no weather, no pitcher/QB-level info), I'll lean Georgia to win but be cautious on covering such a big number given Florida's momentum.",
-    "confidence": 62,
-    "predicted_winner": "Georgia Bulldogs",
-    "predicted_against_spread": "Florida Gators",
-    "key_factors": [
-      "Georgia superior season record (6-1) and recent form (4-1 last5)",
-      "Florida on a 1-game win streak while Georgia on a 1-game loss streak",
-      "Large 12.5-point spread increases cover risk despite talent gap",
-      "No head-to-head or weather data available to refine margin expectations"
-    ]
-  }
-}
+{}
