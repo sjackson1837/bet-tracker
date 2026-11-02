@@ -1,1 +1,466 @@
-{}
+{
+  "americanfootball_nfl_2026-11-06_jacksonville-jaguars_at_baltimore-ravens": {
+    "predicted_winner": "Jacksonville Jaguars",
+    "predicted_against_spread": "Baltimore Ravens",
+    "confidence": 58,
+    "key_factors": [
+      "Jaguars 5-2 with W1 streak and 4-1 last5",
+      "Ravens 4-4 on L3 skid",
+      "Spread of 8.5 is very large for a divisional-caliber gap"
+    ],
+    "reasoning": "Jacksonville is clearly playing better football right now (4-1 last5, W1) compared to Baltimore's L3 skid, supporting the Jaguars moneyline. However, an 8.5-point spread is steep against a team with a winning record even while slumping, so we lean Ravens to keep it closer against the number."
+  },
+  "americanfootball_ncaaf_2026-11-07_alabama-crimson-tide_at_lsu-tigers": {
+    "predicted_winner": "Alabama Crimson Tide",
+    "predicted_against_spread": "Alabama Crimson Tide",
+    "confidence": 60,
+    "key_factors": [
+      "LSU on L2 streak, 2-3 last5",
+      "Alabama lacks trend data but market still favors them heavily on road",
+      "Historical Alabama dominance in this rivalry"
+    ],
+    "reasoning": "LSU is clearly scuffling with a 2-3 last5 and L2 streak, while the market still makes Alabama a substantial road favorite, suggesting oddsmakers see a quality gap. Lacking specific Alabama trend data lowers confidence somewhat, but LSU's poor form is a real red flag.",
+    "reasoning2": ""
+  },
+  "americanfootball_ncaaf_2026-11-07_byu-cougars_at_utah-utes": {
+    "predicted_winner": "Utah Utes",
+    "predicted_against_spread": "BYU Cougars",
+    "confidence": 50,
+    "key_factors": [
+      "No trend data provided for either team",
+      "Market favors Utah by 5.5 at home",
+      "Rivalry game unpredictability"
+    ],
+    "reasoning": "With no recent form data for either squad, we default closer to a coin flip on the moneyline while leaning toward the home favorite per market pricing. Given uncertainty, we favor the underdog to cover the spread as a hedge against variance in this rivalry matchup.",
+    "key_factors2": []
+  },
+  "americanfootball_ncaaf_2026-11-07_georgia-bulldogs_at_ole-miss-rebels": {
+    "predicted_winner": "Georgia Bulldogs",
+    "predicted_against_spread": "Georgia Bulldogs",
+    "confidence": 66,
+    "key_factors": [
+      "Georgia 7-1 with W1 streak and 4-1 last5",
+      "No trend data for Ole Miss",
+      "Georgia favored on road by 4.5 despite being the better documented team"
+    ],
+    "reasoning": "Georgia's 7-1 record and strong recent form (4-1 last5, W1 streak) give it a clear statistical edge, and the market's modest 4.5 road spread undervalues that gap given no contrary data on Ole Miss. We back Georgia both straight up and against the spread."
+  },
+  "americanfootball_ncaaf_2026-11-07_michigan-state-spartans_at_michigan-wolverines": {
+    "predicted_winner": "Michigan Wolverines",
+    "predicted_against_spread": "Michigan State Spartans",
+    "confidence": 62,
+    "key_factors": [
+      "Michigan State on L2 skid, 4-5 record",
+      "Michigan massive -950 ML favorite, 16.5 spread",
+      "Large spreads are risky to lay even against weak teams"
+    ],
+    "reasoning": "Michigan State's L2 streak and sub-.500 record support Michigan winning outright, but a 16.5-point spread is an extreme number to cover consistently, especially against a rival. We take the Spartans to keep it within the large margin."
+  },
+  "americanfootball_ncaaf_2026-11-07_oregon-ducks_at_ohio-state-buckeyes": {
+    "predicted_winner": "Ohio State Buckeyes",
+    "predicted_against_spread": "Ohio State Buckeyes",
+    "confidence": 58,
+    "key_factors": [
+      "No trend data for either team",
+      "Market has Ohio State as solid home favorite (-278)",
+      "Total relatively low at 46.5 suggesting defensive battle"
+    ],
+    "reasoning": "Without specific recent-form data for either team, we defer more heavily to the market's clear preference for Ohio State at home. The sizable moneyline gap suggests a real talent differential that we have no contradicting data to dispute."
+  },
+  "americanfootball_ncaaf_2026-11-04_ohio-bobcats_at_akron-zips": {
+    "predicted_winner": "Ohio Bobcats",
+    "predicted_against_spread": "Ohio Bobcats",
+    "confidence": 63,
+    "key_factors": [
+      "No trend data for either side",
+      "Market strongly favors Ohio Bobcats (-535)",
+      "Large spread of 13.5 reflects significant talent gap"
+    ],
+    "reasoning": "With no trend data available, we lean on the heavy market pricing favoring Ohio Bobcats as an indication of a real talent gap. We'll back Ohio both to win and cover given the lack of contradicting signals for Akron."
+  },
+  "americanfootball_ncaaf_2026-11-04_buffalo-bulls_at_miami-(oh)-redhawks": {
+    "predicted_winner": "Miami (OH) RedHawks",
+    "predicted_against_spread": "Miami (OH) RedHawks",
+    "confidence": 57,
+    "key_factors": [
+      "No trend data for either team",
+      "Miami (OH) favored at home by 6.5",
+      "Market consensus the only signal available"
+    ],
+    "reasoning": "Lacking any recent form data, we defer to the market's moderate home favorite status for Miami (OH). Confidence is tempered due to the absence of trend confirmation."
+  },
+  "americanfootball_ncaaf_2026-11-05_ball-state-cardinals_at_umass-minutemen": {
+    "predicted_winner": "Ball State Cardinals",
+    "predicted_against_spread": "Ball State Cardinals",
+    "confidence": 57,
+    "key_factors": [
+      "Ball State on W3 streak, 3-2 last5, 5-4 record",
+      "No trend data for UMass",
+      "Market favors UMass by only 3 points"
+    ],
+    "reasoning": "Ball State's W3 streak and positive recent form give it momentum heading into this game, while UMass has no documented trend signal to counter it. The modest 3-point home spread doesn't fully account for Ball State's hot streak, so we lean toward the Cardinals both to win and cover."
+  },
+  "americanfootball_ncaaf_2026-11-05_toledo-rockets_at_sacramento-state-hornets": {
+    "predicted_winner": "Toledo Rockets",
+    "predicted_against_spread": "Sacramento State Hornets",
+    "confidence": 70,
+    "key_factors": [
+      "Sacramento State 2-7 record, 1-4 last5",
+      "Toledo massive -2800 favorite",
+      "Extreme 25.5 spread hard to cover consistently"
+    ],
+    "reasoning": "Sacramento State's poor 2-7 record and 1-4 last5 clearly support Toledo winning this game outright with high confidence. However, a 25.5-point spread is an extreme number that's historically difficult to cover even for dominant favorites, so we take the Hornets to keep it within the number."
+  },
+  "americanfootball_ncaaf_2026-11-05_central-michigan-chippewas_at_eastern-michigan-eagles": {
+    "predicted_winner": "Eastern Michigan Eagles",
+    "predicted_against_spread": "Central Michigan Chippewas",
+    "confidence": 52,
+    "key_factors": [
+      "No trend data for either team",
+      "Market has this as a near pick'em game (-120/+100)",
+      "Minimal spread of 1.5 points"
+    ],
+    "reasoning": "This is essentially a coin-flip game per the market with no trend data to differentiate the teams. We slightly favor the home team on moneyline per market consensus but take the plus-money underdog against the small spread given the uncertainty."
+  },
+  "americanfootball_ncaaf_2026-11-06_utsa-roadrunners_at_florida-atlantic-owls": {
+    "predicted_winner": "UTSA Roadrunners",
+    "predicted_against_spread": "UTSA Roadrunners",
+    "confidence": 64,
+    "key_factors": [
+      "FAU on L3 streak, 3-5 record, 2-3 last5",
+      "High total of 72.5 suggests shootout potential",
+      "UTSA favored by 7 on road"
+    ],
+    "reasoning": "Florida Atlantic's L3 losing streak and sub-.500 record support UTSA as the stronger team heading into this matchup. With a very high total of 72.5, we expect UTSA's offense to control the game and cover the spread against a struggling FAU defense."
+  },
+  "americanfootball_ncaaf_2026-11-06_james-madison-dukes_at_southern-mississippi-golden-eagles": {
+    "predicted_winner": "James Madison Dukes",
+    "predicted_against_spread": "Southern Mississippi Golden Eagles",
+    "confidence": 60,
+    "key_factors": [
+      "No trend data for either team",
+      "Large 14.5 spread implies big talent gap per market",
+      "James Madison heavy -650 favorite"
+    ],
+    "reasoning": "The market's extreme pricing (-650 ML, 14.5 spread) suggests a significant quality gap favoring James Madison, which we have no contradicting data to dispute. Given the size of the spread though, we lean toward the home underdog Southern Miss to cover."
+  },
+  "americanfootball_ncaaf_2026-11-07_virginia-tech-hokies_at_smu-mustangs": {
+    "predicted_winner": "Virginia Tech Hokies",
+    "predicted_against_spread": "Virginia Tech Hokies",
+    "confidence": 58,
+    "key_factors": [
+      "SMU on L3 streak, 1-4 last5, 4-6 record",
+      "No trend data for Virginia Tech",
+      "Market still favors SMU at home despite poor form"
+    ],
+    "reasoning": "SMU's documented struggles (L3 streak, 1-4 last5, below-.500 record) are a significant red flag that undercuts their status as a market favorite. We lean toward Virginia Tech pulling the upset and covering given SMU's clear form decline."
+  },
+  "americanfootball_ncaaf_2026-11-07_south-florida-bulls_at_east-carolina-pirates": {
+    "predicted_winner": "South Florida Bulls",
+    "predicted_against_spread": "South Florida Bulls",
+    "confidence": 60,
+    "key_factors": [
+      "USF 6-2 record, W2 streak, 3-2 last5",
+      "No trend data for East Carolina",
+      "USF getting plus money as road dog despite better documented form"
+    ],
+    "reasoning": "South Florida's strong 6-2 record and W2 streak give it good momentum, and getting plus-money as a road underdog against a team with no superior trend data is good value. We back USF both to win outright and cover."
+  },
+  "americanfootball_ncaaf_2026-11-07_nebraska-cornhuskers_at_illinois-fighting-illini": {
+    "predicted_winner": "Nebraska Cornhuskers",
+    "predicted_against_spread": "Nebraska Cornhuskers",
+    "confidence": 58,
+    "key_factors": [
+      "No trend data for either team",
+      "Nebraska favored on road by 4.5",
+      "Market consensus the primary signal"
+    ],
+    "reasoning": "Without specific trend data for either side, we rely on the market's moderate preference for Nebraska as a road favorite. Confidence is middling given the lack of corroborating recent-form data."
+  },
+  "americanfootball_ncaaf_2026-11-07_new-mexico-lobos_at_nevada-wolf-pack": {
+    "predicted_winner": "New Mexico Lobos",
+    "predicted_against_spread": "New Mexico Lobos",
+    "confidence": 60,
+    "key_factors": [
+      "No trend data for either team",
+      "New Mexico heavily favored at -395",
+      "Low total of 38.5 suggests defensive-minded matchup"
+    ],
+    "reasoning": "The significant market gap (-395 ML) suggests meaningful separation in team quality, which we have no data to dispute. We lean toward New Mexico covering given the clear market signal and lack of contrary trends for Nevada."
+  },
+  "americanfootball_ncaaf_2026-11-07_tcu-horned-frogs_at_arizona-wildcats": {
+    "predicted_winner": "Arizona Wildcats",
+    "predicted_against_spread": "TCU Horned Frogs",
+    "confidence": 56,
+    "key_factors": [
+      "Arizona 6-2 record but on L1 streak",
+      "4-1 last5 for Arizona shows mostly strong form",
+      "8.5-point spread is large given Arizona's recent L1"
+    ],
+    "reasoning": "Arizona's strong 6-2 record and 4-1 last5 support them as the better team, but their current L1 streak combined with a large 8.5-point spread makes covering less certain. We take TCU to keep the game within the spread given Arizona's recent minor stumble."
+  },
+  "americanfootball_ncaaf_2026-11-07_iowa-state-cyclones_at_baylor-bears": {
+    "predicted_winner": "Baylor Bears",
+    "predicted_against_spread": "Iowa State Cyclones",
+    "confidence": 55,
+    "key_factors": [
+      "Iowa State on W1 streak, 5-3 record, but mediocre 2-3 last5",
+      "No trend data for Baylor",
+      "Large 10-point spread despite Iowa State's decent record"
+    ],
+    "reasoning": "Iowa State's W1 momentum and 5-3 record suggest a competitive team, making the 10-point spread seem too generous for Baylor without specific data confirming Baylor's dominance. We lean Baylor to win but Iowa State to cover given their recent positive trend."
+  },
+  "americanfootball_ncaaf_2026-11-07_florida-state-seminoles_at_boston-college-eagles": {
+    "predicted_winner": "Boston College Eagles",
+    "predicted_against_spread": "Boston College Eagles",
+    "confidence": 62,
+    "key_factors": [
+      "FSU on L3 streak, 3-5 record, 2-3 last5",
+      "No trend data for Boston College",
+      "Market still favors struggling FSU by 7 on road"
+    ],
+    "reasoning": "Florida State's clear decline (L3 streak, below-.500 record) is a strong signal against them despite being the market favorite. We back Boston College to pull the upset and cover against a Seminoles team in a documented slump."
+  },
+  "americanfootball_ncaaf_2026-11-07_clemson-tigers_at_syracuse-orange": {
+    "predicted_winner": "Clemson Tigers",
+    "predicted_against_spread": "Syracuse Orange",
+    "confidence": 54,
+    "key_factors": [
+      "No trend data for either team",
+      "Close spread of 2.5 suggests tight game expected by market",
+      "Clemson modest road favorite"
+    ],
+    "reasoning": "With no trend data provided, this is close to a coin-flip matchup per the market's tight 2.5-point line. We lean Clemson to win but take Syracuse with the points given the low confidence in this projection."
+  },
+  "americanfootball_ncaaf_2026-11-07_ucla-bruins_at_minnesota-golden-gophers": {
+    "predicted_winner": "UCLA Bruins",
+    "predicted_against_spread": "UCLA Bruins",
+    "confidence": 75,
+    "key_factors": [
+      "UCLA undefeated 8-0 with W8 streak and 5-0 last5",
+      "No trend data for Minnesota to counter UCLA's dominance",
+      "Low total of 39.5 suggests tight, controlled game"
+    ],
+    "reasoning": "UCLA's perfect 8-0 record and dominant W8 streak represent one of the strongest trend signals in this entire slate, making them a strong pick both straight up and against the spread. With no countervailing data for Minnesota, we have high confidence in UCLA's continued excellence."
+  },
+  "americanfootball_ncaaf_2026-11-07_texas-longhorns_at_missouri-tigers": {
+    "predicted_winner": "Texas Longhorns",
+    "predicted_against_spread": "Missouri Tigers",
+    "confidence": 54,
+    "key_factors": [
+      "No trend data for either team",
+      "Tight spread of 2.5 suggests close contest",
+      "Market slightly favors Texas on road"
+    ],
+    "reasoning": "Without specific trend data, this projects as a close game per the market's tight spread. We lean Texas to win straight up but take Missouri with the points given the lack of strong differentiating signals."
+  },
+  "americanfootball_ncaaf_2026-11-07_north-carolina-tar-heels_at_uconn-huskies": {
+    "predicted_winner": "North Carolina Tar Heels",
+    "predicted_against_spread": "North Carolina Tar Heels",
+    "confidence": 60,
+    "key_factors": [
+      "UConn on L1 streak, 4-4 record, mediocre 2-3 last5",
+      "No trend data for North Carolina",
+      "Market favors UNC by 7 on road"
+    ],
+    "reasoning": "UConn's mediocre 4-4 record and recent L1 skid support North Carolina's status as a sizable road favorite. We back UNC to both win and cover given UConn's documented recent struggles."
+  },
+  "americanfootball_ncaaf_2026-11-07_tulsa-golden-hurricane_at_tulane-green-wave": {
+    "predicted_winner": "Tulsa Golden Hurricane",
+    "predicted_against_spread": "Tulane Green Wave",
+    "confidence": 52,
+    "key_factors": [
+      "No trend data for either team",
+      "Very tight spread of 1.5 points",
+      "Market near pick'em suggests close game"
+    ],
+    "reasoning": "This is essentially a coin-flip per the market with no trend data to differentiate the two teams. We slightly favor Tulsa on the moneyline but take Tulane with the small home points given the uncertainty."
+  },
+  "americanfootball_ncaaf_2026-11-07_duke-blue-devils_at_nc-state-wolfpack": {
+    "predicted_winner": "Duke Blue Devils",
+    "predicted_against_spread": "Duke Blue Devils",
+    "confidence": 58,
+    "key_factors": [
+      "No trend data for either team",
+      "Duke favored on road by 4.5",
+      "Market consensus the primary available signal"
+    ],
+    "reasoning": "Lacking trend data for either side, we defer to the market's moderate preference for Duke as road favorite. Confidence remains middling given the absence of corroborating recent-form data."
+  },
+  "americanfootball_ncaaf_2026-11-07_maryland-terrapins_at_purdue-boilermakers": {
+    "predicted_winner": "Purdue Boilermakers",
+    "predicted_against_spread": "Purdue Boilermakers",
+    "confidence": 60,
+    "key_factors": [
+      "No trend data for either team",
+      "Purdue favored at home by 6.5",
+      "High total of 57.5 implies expected offensive output"
+    ],
+    "reasoning": "With no trend data available, we rely on the market's clear home favorite status for Purdue. The high total suggests both teams can score, but we favor the home side to control and cover."
+  },
+  "americanfootball_ncaaf_2026-11-07_arkansas-razorbacks_at_auburn-tigers": {
+    "predicted_winner": "Auburn Tigers",
+    "predicted_against_spread": "Arkansas Razorbacks",
+    "confidence": 54,
+    "key_factors": [
+      "Both teams struggling: Arkansas L1 and Auburn L2",
+      "Arkansas 3-5, Auburn 4-4 - both mediocre",
+      "Large 10.5 spread despite both teams' similar poor recent form"
+    ],
+    "reasoning": "Both teams show negative recent trends (Arkansas L1, Auburn L2), making the large 10.5-point spread hard to justify given their similar struggles. We lean Auburn to win at home but take Arkansas with the generous points given both teams' comparable mediocrity."
+  },
+  "americanfootball_ncaaf_2026-11-07_old-dominion-monarchs_at_coastal-carolina-chanticleers": {
+    "predicted_winner": "Coastal Carolina Chanticleers",
+    "predicted_against_spread": "Coastal Carolina Chanticleers",
+    "confidence": 58,
+    "key_factors": [
+      "No trend data for either team",
+      "Coastal Carolina favored at home by 7",
+      "Market consensus the main differentiator"
+    ],
+    "reasoning": "Without trend data, we defer to the market's solid home favorite status for Coastal Carolina. Confidence is moderate given the lack of corroborating recent-form signals."
+  },
+  "americanfootball_ncaaf_2026-11-07_oklahoma-state-cowboys_at_kansas-state-wildcats": {
+    "predicted_winner": "Oklahoma State Cowboys",
+    "predicted_against_spread": "Kansas State Wildcats",
+    "confidence": 54,
+    "key_factors": [
+      "No trend data for either team",
+      "High total of 61.5 suggests shootout potential",
+      "Moderate 4-point spread favoring road team"
+    ],
+    "reasoning": "Without trend data, we lean on the market's modest preference for Oklahoma State on the road. Given the high total and close spread, we take Kansas State with the points as a hedge against uncertainty."
+  },
+  "americanfootball_ncaaf_2026-11-07_georgia-state-panthers_at_appalachian-state-mountaineers": {
+    "predicted_winner": "Appalachian State Mountaineers",
+    "predicted_against_spread": "Appalachian State Mountaineers",
+    "confidence": 58,
+    "key_factors": [
+      "No trend data for either team",
+      "App State favored at home by 5.5",
+      "Market consensus is the primary signal"
+    ],
+    "reasoning": "Lacking trend data for either side, we defer to the market's moderate home favorite status for Appalachian State. Confidence remains middling absent corroborating recent-form data."
+  },
+  "americanfootball_ncaaf_2026-11-07_ul-monroe-warhawks_at_arkansas-state-red-wolves": {
+    "predicted_winner": "Arkansas State Red Wolves",
+    "predicted_against_spread": "UL Monroe Warhawks",
+    "confidence": 63,
+    "key_factors": [
+      "No trend data for either team",
+      "Arkansas State heavy -675 favorite",
+      "Extreme 14.5-point spread hard to cover consistently"
+    ],
+    "reasoning": "The market's extreme pricing clearly favors Arkansas State winning outright, which we have no contradicting data to dispute. However, a 14.5-point spread is a large number to cover reliably, so we lean toward UL Monroe to keep it within the margin."
+  },
+  "americanfootball_ncaaf_2026-11-07_delaware-blue-hens_at_kennesaw-state-owls": {
+    "predicted_winner": "Delaware Blue Hens",
+    "predicted_against_spread": "Delaware Blue Hens",
+    "confidence": 58,
+    "key_factors": [
+      "Delaware on W2 streak, 4-4 record, 2-3 last5",
+      "No trend data for Kennesaw State",
+      "Delaware favored as road team by 2.5"
+    ],
+    "reasoning": "Delaware's W2 streak gives it positive momentum heading into this road matchup against a team with no documented trend data. We lean Delaware to both win and cover given their recent form advantage."
+  },
+  "americanfootball_ncaaf_2026-11-07_texas-a&m-aggies_at_south-carolina-gamecocks": {
+    "predicted_winner": "South Carolina Gamecocks",
+    "predicted_against_spread": "Texas A&M Aggies",
+    "confidence": 55,
+    "key_factors": [
+      "No trend data for either team",
+      "South Carolina sizable home favorite at -290",
+      "Large 7.5-point spread despite lack of trend confirmation"
+    ],
+    "reasoning": "The market makes South Carolina a clear home favorite, but without trend data to validate the size of this gap, we're cautious about the large 7.5-point spread. We lean toward Texas A&M covering given the uncertainty in this projection."
+  },
+  "americanfootball_ncaaf_2026-11-07_charlotte-49ers_at_uab-blazers": {
+    "predicted_winner": "UAB Blazers",
+    "predicted_against_spread": "Charlotte 49ers",
+    "confidence": 57,
+    "key_factors": [
+      "UAB 4-4 record but on L1 streak, 3-2 last5",
+      "No trend data for Charlotte",
+      "Large 10-point spread despite UAB's mediocre recent form"
+    ],
+    "reasoning": "UAB's modest 4-4 record and recent L1 streak don't strongly justify a 10-point spread, even against a team with no documented trends. We back UAB to win at home but take Charlotte with the generous points."
+  },
+  "americanfootball_ncaaf_2026-11-07_cincinnati-bearcats_at_houston-cougars": {
+    "predicted_winner": "Houston Cougars",
+    "predicted_against_spread": "Cincinnati Bearcats",
+    "confidence": 58,
+    "key_factors": [
+      "No trend data for either team",
+      "High total of 62.5 suggests explosive offenses expected",
+      "Large 11.5-point spread favoring home team"
+    ],
+    "reasoning": "The market strongly favors Houston at home with a high total suggesting an offensive showcase. Without trend data to confirm such a large gap, we lean toward Cincinnati covering the generous 11.5 points."
+  },
+  "americanfootball_ncaaf_2026-11-07_marshall-thundering-herd_at_georgia-southern-eagles": {
+    "predicted_winner": "Georgia Southern Eagles",
+    "predicted_against_spread": "Marshall Thundering Herd",
+    "confidence": 57,
+    "key_factors": [
+      "No trend data for either team",
+      "Georgia Southern heavy home favorite at -395",
+      "Large 10-point spread despite lack of trend data"
+    ],
+    "reasoning": "The market clearly favors Georgia Southern at home, but with no trend data to validate such a significant gap, we're cautious about laying the full 10 points. We lean Marshall to keep the game competitive and cover."
+  },
+  "americanfootball_ncaaf_2026-11-07_merrimack-warriors_at_wake-forest-demon-deacons": {
+    "predicted_winner": "Wake Forest Demon Deacons",
+    "predicted_against_spread": "Wake Forest Demon Deacons",
+    "confidence": 60,
+    "key_factors": [
+      "No market line or trend data provided at all",
+      "Merrimack is an FCS-level program facing FBS Wake Forest",
+      "Significant level-of-competition gap typically favors FBS team"
+    ],
+    "reasoning": "With no betting line or trend data provided, this appears to be a mismatch between an FCS program (Merrimack) and an FBS team (Wake Forest). We lean toward Wake Forest based on the typical level-of-competition gap in these matchups, though confidence is tempered by the complete absence of market or trend confirmation."
+  },
+  "americanfootball_ncaaf_2026-11-07_western-kentucky-hilltoppers_at_middle-tennessee-blue-raiders": {
+    "predicted_winner": "Middle Tennessee Blue Raiders",
+    "predicted_against_spread": "Western Kentucky Hilltoppers",
+    "confidence": 51,
+    "key_factors": [
+      "No trend data for either team",
+      "Essentially a pick'em game per market odds",
+      "Minimal 1.5-point spread"
+    ],
+    "reasoning": "This is virtually a coin-flip matchup per the market's near pick'em odds, with no trend data to differentiate the teams. We slightly favor the home team on moneyline but take the road underdog with the small points given the extreme uncertainty."
+  },
+  "americanfootball_ncaaf_2026-11-07_temple-owls_at_navy-midshipmen": {
+    "predicted_winner": "Navy Midshipmen",
+    "predicted_against_spread": "Temple Owls",
+    "confidence": 57,
+    "key_factors": [
+      "No trend data for either team",
+      "Navy heavy home favorite at -305",
+      "Large 7.5-point spread despite lack of trend confirmation"
+    ],
+    "reasoning": "The market clearly favors Navy at home, but without trend data to validate such a significant gap, we're cautious about the full 7.5-point spread. We lean Temple to keep the game within the number."
+  },
+  "americanfootball_ncaaf_2026-11-07_penn-state-nittany-lions_at_washington-huskies": {
+    "predicted_winner": "Washington Huskies",
+    "predicted_against_spread": "Penn State Nittany Lions",
+    "confidence": 54,
+    "key_factors": [
+      "Washington on L1 streak, 4-4 record, mediocre 2-3 last5",
+      "No trend data for Penn State",
+      "Tight spread of 2.5 points"
+    ],
+    "reasoning": "Washington's mediocre 4-4 record and recent L1 streak don't strongly support them as home favorites in this close spread matchup. We lean Washington to win narrowly but take Penn State with the points given Washington's underwhelming recent form."
+  },
+  "americanfootball_ncaaf_2026-11-07_ucf-knights_at_kansas-jayhawks": {
+    "predicted_winner": "Kansas Jayhawks",
+    "predicted_against_spread": "UCF Knights",
+    "confidence": 54,
+    "key_factors": [
+      "No trend data for either team",
+      "Tight spread of 2.5 points",
+      "Market slightly favors Kansas at home"
+    ],
+    "reasoning": "Without trend data for either team, this projects as a close contest per the market's tight spread. We lean Kansas to win at home but take UCF with the points given the lack of strong differentiating signals."
+  }
+}
