@@ -8972,20 +8972,65 @@
     "espn_sport": "football",
     "espn_league": "nfl",
     "outdoor": true,
-    "status": "scheduled",
+    "status": "predicted",
     "odds": {
       "moneyline": {
-        "Atlanta Falcons": 140,
-        "Cincinnati Bengals": -166
+        "Atlanta Falcons": 136,
+        "Cincinnati Bengals": -162
       },
       "spread": {
         "Atlanta Falcons": 3.0,
         "Cincinnati Bengals": -3.0
       },
-      "total": 51.5,
+      "total": 52.5,
       "bookmaker": "DraftKings"
     },
-    "prediction": null,
+    "prediction": {
+      "predicted_winner": "Cincinnati Bengals",
+      "predicted_against_spread": "Cincinnati Bengals",
+      "confidence": 60,
+      "key_factors": [
+        "Bengals on W3 streak, 5-2 record",
+        "Falcons L1, under .500 at 3-5",
+        "Market favors Cincinnati already, trends confirm"
+      ],
+      "reasoning": "Cincinnati's 5-2 record and 3-game win streak significantly outclass Atlanta's 3-5 mark and 1-game losing skid. The market line aligns with form here, giving extra confidence to ride the favorite and lay the small number.",
+      "context_used": {
+        "away_trends": {
+          "team": "Cincinnati Bengals",
+          "last5": "3-2",
+          "streak": "W3",
+          "record": "5-2",
+          "h2h_vs_opponent": null
+        },
+        "home_trends": {
+          "team": "Atlanta Falcons",
+          "last5": "2-3",
+          "streak": "L1",
+          "record": "3-5",
+          "h2h_vs_opponent": null
+        },
+        "weather": null,
+        "probable_pitchers": {
+          "home": null,
+          "away": null
+        }
+      },
+      "generated_at": "2026-11-03T18:35:02.521312+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "Atlanta Falcons": 136,
+          "Cincinnati Bengals": -162
+        },
+        "spread": {
+          "Atlanta Falcons": 3.0,
+          "Cincinnati Bengals": -3.0
+        },
+        "total": 52.5,
+        "bookmaker": "DraftKings"
+      }
+    },
     "actual": null
   },
   "americanfootball_nfl_2026-11-08_denver-broncos_at_carolina-panthers": {
@@ -8997,20 +9042,70 @@
     "espn_sport": "football",
     "espn_league": "nfl",
     "outdoor": true,
-    "status": "scheduled",
+    "status": "predicted",
     "odds": {
       "moneyline": {
-        "Carolina Panthers": 124,
-        "Denver Broncos": -148
+        "Carolina Panthers": 120,
+        "Denver Broncos": -142
       },
       "spread": {
-        "Carolina Panthers": 3.0,
-        "Denver Broncos": -3.0
+        "Carolina Panthers": 2.5,
+        "Denver Broncos": -2.5
       },
       "total": 43.5,
       "bookmaker": "DraftKings"
     },
-    "prediction": null,
+    "prediction": {
+      "predicted_winner": "Denver Broncos",
+      "predicted_against_spread": "Denver Broncos",
+      "confidence": 70,
+      "key_factors": [
+        "Broncos W4 streak, 6-2 record",
+        "Panthers L2, below .500",
+        "Mild weather, no major impact"
+      ],
+      "reasoning": "Denver is red hot with a 4-game win streak and 6-2 record, while Carolina is scuffling at 3-4 with 2 straight losses. The form gap strongly favors Denver covering the small road spread.",
+      "context_used": {
+        "away_trends": {
+          "team": "Denver Broncos",
+          "last5": "4-1",
+          "streak": "W4",
+          "record": "6-2",
+          "h2h_vs_opponent": null
+        },
+        "home_trends": {
+          "team": "Carolina Panthers",
+          "last5": "2-3",
+          "streak": "L2",
+          "record": "3-4",
+          "h2h_vs_opponent": null
+        },
+        "weather": {
+          "high_f": 61.6,
+          "low_f": 45.8,
+          "precipitation_in": 0.0,
+          "wind_mph": 6.5
+        },
+        "probable_pitchers": {
+          "home": null,
+          "away": null
+        }
+      },
+      "generated_at": "2026-11-03T18:35:02.521312+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "Carolina Panthers": 120,
+          "Denver Broncos": -142
+        },
+        "spread": {
+          "Carolina Panthers": 2.5,
+          "Denver Broncos": -2.5
+        },
+        "total": 43.5,
+        "bookmaker": "DraftKings"
+      }
+    },
     "actual": null
   },
   "americanfootball_nfl_2026-11-08_cleveland-browns_at_new-orleans-saints": {
@@ -9022,20 +9117,65 @@
     "espn_sport": "football",
     "espn_league": "nfl",
     "outdoor": true,
-    "status": "scheduled",
+    "status": "predicted",
     "odds": {
       "moneyline": {
-        "Cleveland Browns": 120,
-        "New Orleans Saints": -142
+        "Cleveland Browns": 102,
+        "New Orleans Saints": -122
       },
       "spread": {
-        "Cleveland Browns": 2.5,
-        "New Orleans Saints": -2.5
+        "Cleveland Browns": 1.5,
+        "New Orleans Saints": -1.5
       },
       "total": 43.5,
       "bookmaker": "DraftKings"
     },
-    "prediction": null,
+    "prediction": {
+      "predicted_winner": "Cleveland Browns",
+      "predicted_against_spread": "Cleveland Browns",
+      "confidence": 68,
+      "key_factors": [
+        "Saints on brutal L5 streak, 1-6 record",
+        "Browns 5-3, far better overall form",
+        "Line nearly a pick'em despite form gap"
+      ],
+      "reasoning": "New Orleans is in freefall at 1-6 with 5 straight losses, while Cleveland sits comfortably at 5-3. The market line is nearly even, but the trend disparity strongly favors the Browns both straight up and against the spread.",
+      "context_used": {
+        "away_trends": {
+          "team": "Cleveland Browns",
+          "last5": "3-2",
+          "streak": "L1",
+          "record": "5-3",
+          "h2h_vs_opponent": null
+        },
+        "home_trends": {
+          "team": "New Orleans Saints",
+          "last5": "0-5",
+          "streak": "L5",
+          "record": "1-6",
+          "h2h_vs_opponent": null
+        },
+        "weather": null,
+        "probable_pitchers": {
+          "home": null,
+          "away": null
+        }
+      },
+      "generated_at": "2026-11-03T18:35:02.521312+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "Cleveland Browns": 102,
+          "New Orleans Saints": -122
+        },
+        "spread": {
+          "Cleveland Browns": 1.5,
+          "New Orleans Saints": -1.5
+        },
+        "total": 43.5,
+        "bookmaker": "DraftKings"
+      }
+    },
     "actual": null
   },
   "americanfootball_nfl_2026-11-08_dallas-cowboys_at_indianapolis-colts": {
@@ -9047,11 +9187,11 @@
     "espn_sport": "football",
     "espn_league": "nfl",
     "outdoor": true,
-    "status": "scheduled",
+    "status": "predicted",
     "odds": {
       "moneyline": {
-        "Dallas Cowboys": -265,
-        "Indianapolis Colts": 215
+        "Dallas Cowboys": -278,
+        "Indianapolis Colts": 225
       },
       "spread": {
         "Dallas Cowboys": -6.0,
@@ -9060,7 +9200,52 @@
       "total": 51.5,
       "bookmaker": "DraftKings"
     },
-    "prediction": null,
+    "prediction": {
+      "predicted_winner": "Dallas Cowboys",
+      "predicted_against_spread": "Dallas Cowboys",
+      "confidence": 62,
+      "key_factors": [
+        "Colts L4 streak, 2-6 record",
+        "Cowboys 3-5 but better recent form (2-3 last5)",
+        "Large spread reflects form gap"
+      ],
+      "reasoning": "Indianapolis is reeling with a 4-game losing streak and 2-6 record, while Dallas, though mediocre, has been more competitive recently. The gap in trajectory supports Dallas covering the 6-point line on the road.",
+      "context_used": {
+        "away_trends": {
+          "team": "Dallas Cowboys",
+          "last5": "2-3",
+          "streak": "L1",
+          "record": "3-5",
+          "h2h_vs_opponent": null
+        },
+        "home_trends": {
+          "team": "Indianapolis Colts",
+          "last5": "1-4",
+          "streak": "L4",
+          "record": "2-6",
+          "h2h_vs_opponent": null
+        },
+        "weather": null,
+        "probable_pitchers": {
+          "home": null,
+          "away": null
+        }
+      },
+      "generated_at": "2026-11-03T18:35:02.521312+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "Dallas Cowboys": -278,
+          "Indianapolis Colts": 225
+        },
+        "spread": {
+          "Dallas Cowboys": -6.0,
+          "Indianapolis Colts": 6.0
+        },
+        "total": 51.5,
+        "bookmaker": "DraftKings"
+      }
+    },
     "actual": null
   },
   "americanfootball_nfl_2026-11-08_detroit-lions_at_miami-dolphins": {
@@ -9072,7 +9257,7 @@
     "espn_sport": "football",
     "espn_league": "nfl",
     "outdoor": true,
-    "status": "scheduled",
+    "status": "predicted",
     "odds": {
       "moneyline": {
         "Detroit Lions": -375,
@@ -9085,7 +9270,57 @@
       "total": 50.5,
       "bookmaker": "DraftKings"
     },
-    "prediction": null,
+    "prediction": {
+      "predicted_winner": "Detroit Lions",
+      "predicted_against_spread": "Detroit Lions",
+      "confidence": 78,
+      "key_factors": [
+        "Lions W3 streak, 5-2 record, 4-1 last5",
+        "Dolphins 1-6, worst record in matchup",
+        "Weather with rain/wind favors ground-control team"
+      ],
+      "reasoning": "Detroit is playing excellent football with a 3-game win streak and 4-1 in their last 5, while Miami is one of the league's worst teams at 1-6. The large talent and form gap supports Detroit covering even a 7-point spread.",
+      "context_used": {
+        "away_trends": {
+          "team": "Detroit Lions",
+          "last5": "4-1",
+          "streak": "W3",
+          "record": "5-2",
+          "h2h_vs_opponent": null
+        },
+        "home_trends": {
+          "team": "Miami Dolphins",
+          "last5": "1-4",
+          "streak": "L1",
+          "record": "1-6",
+          "h2h_vs_opponent": null
+        },
+        "weather": {
+          "high_f": 83.4,
+          "low_f": 76.6,
+          "precipitation_in": 0.094,
+          "wind_mph": 12.2
+        },
+        "probable_pitchers": {
+          "home": null,
+          "away": null
+        }
+      },
+      "generated_at": "2026-11-03T18:35:02.521312+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "Detroit Lions": -375,
+          "Miami Dolphins": 295
+        },
+        "spread": {
+          "Detroit Lions": -7.0,
+          "Miami Dolphins": 7.0
+        },
+        "total": 50.5,
+        "bookmaker": "DraftKings"
+      }
+    },
     "actual": null
   },
   "americanfootball_nfl_2026-11-08_new-york-jets_at_kansas-city-chiefs": {
@@ -9097,11 +9332,11 @@
     "espn_sport": "football",
     "espn_league": "nfl",
     "outdoor": true,
-    "status": "scheduled",
+    "status": "predicted",
     "odds": {
       "moneyline": {
-        "Kansas City Chiefs": -470,
-        "New York Jets": 360
+        "Kansas City Chiefs": -500,
+        "New York Jets": 380
       },
       "spread": {
         "Kansas City Chiefs": -9.5,
@@ -9110,7 +9345,57 @@
       "total": 46.5,
       "bookmaker": "DraftKings"
     },
-    "prediction": null,
+    "prediction": {
+      "predicted_winner": "Kansas City Chiefs",
+      "predicted_against_spread": "New York Jets",
+      "confidence": 58,
+      "key_factors": [
+        "Chiefs L2 streak despite 5-2 record",
+        "Jets L3 streak, 2-6, very poor form",
+        "Large spread (9.5) risky given Chiefs' recent skid"
+      ],
+      "reasoning": "Kansas City should win this game given the massive talent gap, but their 2-game losing streak raises some concern about covering a huge 9.5-point spread. I'll back KC to win but take the Jets for backdoor cover value given KC's recent inconsistency.",
+      "context_used": {
+        "away_trends": {
+          "team": "New York Jets",
+          "last5": "1-4",
+          "streak": "L3",
+          "record": "2-6",
+          "h2h_vs_opponent": null
+        },
+        "home_trends": {
+          "team": "Kansas City Chiefs",
+          "last5": "3-2",
+          "streak": "L2",
+          "record": "5-2",
+          "h2h_vs_opponent": null
+        },
+        "weather": {
+          "high_f": 61.5,
+          "low_f": 40.4,
+          "precipitation_in": 0.0,
+          "wind_mph": 5.6
+        },
+        "probable_pitchers": {
+          "home": null,
+          "away": null
+        }
+      },
+      "generated_at": "2026-11-03T18:35:02.521312+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "Kansas City Chiefs": -500,
+          "New York Jets": 380
+        },
+        "spread": {
+          "Kansas City Chiefs": -9.5,
+          "New York Jets": 9.5
+        },
+        "total": 46.5,
+        "bookmaker": "DraftKings"
+      }
+    },
     "actual": null
   },
   "americanfootball_nfl_2026-11-08_los-angeles-rams_at_washington-commanders": {
@@ -9122,11 +9407,11 @@
     "espn_sport": "football",
     "espn_league": "nfl",
     "outdoor": true,
-    "status": "scheduled",
+    "status": "predicted",
     "odds": {
       "moneyline": {
-        "Los Angeles Rams": -218,
-        "Washington Commanders": 180
+        "Los Angeles Rams": -245,
+        "Washington Commanders": 200
       },
       "spread": {
         "Los Angeles Rams": -5.5,
@@ -9135,7 +9420,57 @@
       "total": 47.5,
       "bookmaker": "DraftKings"
     },
-    "prediction": null,
+    "prediction": {
+      "predicted_winner": "Los Angeles Rams",
+      "predicted_against_spread": "Los Angeles Rams",
+      "confidence": 65,
+      "key_factors": [
+        "Rams W2 streak, 4-4 record",
+        "Commanders W1 but only 2-5 overall",
+        "Weather mild, no major factor"
+      ],
+      "reasoning": "The Rams are trending upward with a 2-game win streak and a .500 record, clearly superior to Washington's 2-5 mark. Despite Washington's single-game win streak, the overall body of work favors LA covering the 5.5-point spread.",
+      "context_used": {
+        "away_trends": {
+          "team": "Los Angeles Rams",
+          "last5": "3-2",
+          "streak": "W2",
+          "record": "4-4",
+          "h2h_vs_opponent": null
+        },
+        "home_trends": {
+          "team": "Washington Commanders",
+          "last5": "2-3",
+          "streak": "W1",
+          "record": "2-5",
+          "h2h_vs_opponent": null
+        },
+        "weather": {
+          "high_f": 60.3,
+          "low_f": 46.7,
+          "precipitation_in": 0.0,
+          "wind_mph": 12.9
+        },
+        "probable_pitchers": {
+          "home": null,
+          "away": null
+        }
+      },
+      "generated_at": "2026-11-03T18:35:02.521312+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "Los Angeles Rams": -245,
+          "Washington Commanders": 200
+        },
+        "spread": {
+          "Los Angeles Rams": -5.5,
+          "Washington Commanders": 5.5
+        },
+        "total": 47.5,
+        "bookmaker": "DraftKings"
+      }
+    },
     "actual": null
   },
   "americanfootball_nfl_2026-11-08_new-york-giants_at_philadelphia-eagles": {
@@ -9147,7 +9482,7 @@
     "espn_sport": "football",
     "espn_league": "nfl",
     "outdoor": true,
-    "status": "scheduled",
+    "status": "predicted",
     "odds": {
       "moneyline": {
         "New York Giants": -170,
@@ -9160,7 +9495,57 @@
       "total": 39.5,
       "bookmaker": "DraftKings"
     },
-    "prediction": null,
+    "prediction": {
+      "predicted_winner": "New York Giants",
+      "predicted_against_spread": "New York Giants",
+      "confidence": 75,
+      "key_factors": [
+        "Eagles on brutal L6 streak, 0-5 last5, 2-6 record",
+        "Giants W1, 4-3 record, more competitive form",
+        "Dramatic form disparity favors Giants"
+      ],
+      "reasoning": "Philadelphia is in complete collapse mode with a 6-game losing streak and winless in their last 5, while New York is 4-3 and trending positively. This is one of the clearer trend-based edges on the board, supporting the Giants both straight up and against the modest 3.5 spread.",
+      "context_used": {
+        "away_trends": {
+          "team": "New York Giants",
+          "last5": "3-2",
+          "streak": "W1",
+          "record": "4-3",
+          "h2h_vs_opponent": null
+        },
+        "home_trends": {
+          "team": "Philadelphia Eagles",
+          "last5": "0-5",
+          "streak": "L6",
+          "record": "2-6",
+          "h2h_vs_opponent": null
+        },
+        "weather": {
+          "high_f": 58.7,
+          "low_f": 47.4,
+          "precipitation_in": 0.0,
+          "wind_mph": 14.5
+        },
+        "probable_pitchers": {
+          "home": null,
+          "away": null
+        }
+      },
+      "generated_at": "2026-11-03T18:35:02.521312+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "New York Giants": -170,
+          "Philadelphia Eagles": 142
+        },
+        "spread": {
+          "New York Giants": -3.5,
+          "Philadelphia Eagles": 3.5
+        },
+        "total": 39.5,
+        "bookmaker": "DraftKings"
+      }
+    },
     "actual": null
   },
   "americanfootball_nfl_2026-11-08_houston-texans_at_los-angeles-chargers": {
@@ -9175,8 +9560,8 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Houston Texans": -218,
-        "Los Angeles Chargers": 180
+        "Houston Texans": -205,
+        "Los Angeles Chargers": 170
       },
       "spread": {
         "Houston Texans": -4.5,
@@ -9200,12 +9585,12 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Las Vegas Raiders": 380,
-        "San Francisco 49ers": -500
+        "Las Vegas Raiders": 410,
+        "San Francisco 49ers": -550
       },
       "spread": {
-        "Las Vegas Raiders": 9.5,
-        "San Francisco 49ers": -9.5
+        "Las Vegas Raiders": 10.0,
+        "San Francisco 49ers": -10.0
       },
       "total": 51.5,
       "bookmaker": "DraftKings"
@@ -9225,14 +9610,14 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Arizona Cardinals": 500,
-        "Seattle Seahawks": -700
+        "Arizona Cardinals": 440,
+        "Seattle Seahawks": -600
       },
       "spread": {
-        "Arizona Cardinals": 11.5,
-        "Seattle Seahawks": -11.5
+        "Arizona Cardinals": 10.5,
+        "Seattle Seahawks": -10.5
       },
-      "total": 44.5,
+      "total": 41.5,
       "bookmaker": "DraftKings"
     },
     "prediction": null,
@@ -9254,10 +9639,10 @@
         "New England Patriots": -155
       },
       "spread": {
-        "Green Bay Packers": 3.0,
-        "New England Patriots": -3.0
+        "Green Bay Packers": 2.5,
+        "New England Patriots": -2.5
       },
-      "total": 47.5,
+      "total": 46.5,
       "bookmaker": "DraftKings"
     },
     "prediction": null,
@@ -9275,14 +9660,14 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Chicago Bears": -238,
-        "Tampa Bay Buccaneers": 195
+        "Chicago Bears": -270,
+        "Tampa Bay Buccaneers": 220
       },
       "spread": {
-        "Chicago Bears": -5.5,
-        "Tampa Bay Buccaneers": 5.5
+        "Chicago Bears": -6.0,
+        "Tampa Bay Buccaneers": 6.0
       },
-      "total": 47.5,
+      "total": 46.5,
       "bookmaker": "DraftKings"
     },
     "prediction": null,
@@ -9307,7 +9692,7 @@
         "Buffalo Bills": -3.5,
         "Minnesota Vikings": 3.5
       },
-      "total": 46.5,
+      "total": 45.5,
       "bookmaker": "DraftKings"
     },
     "prediction": null,
@@ -21451,20 +21836,65 @@
     "espn_sport": "football",
     "espn_league": "college-football",
     "outdoor": true,
-    "status": "scheduled",
+    "status": "predicted",
     "odds": {
       "moneyline": {
         "Miami Hurricanes": 170,
         "Notre Dame Fighting Irish": -205
       },
       "spread": {
-        "Miami Hurricanes": 5.5,
-        "Notre Dame Fighting Irish": -5.5
+        "Miami Hurricanes": 6.0,
+        "Notre Dame Fighting Irish": -6.0
       },
       "total": 57.5,
       "bookmaker": "DraftKings"
     },
-    "prediction": null,
+    "prediction": {
+      "predicted_winner": "Notre Dame Fighting Irish",
+      "predicted_against_spread": "Notre Dame Fighting Irish",
+      "confidence": 55,
+      "key_factors": [
+        "No trend data provided for either team",
+        "Market favors Notre Dame by 6 at home",
+        "High total suggests competitive, high-scoring affair"
+      ],
+      "reasoning": "With no recent form or streak data for either team, I default cautiously to the market's assessment of Notre Dame's home-field edge. Confidence is lowered given the lack of trend information to validate or contradict the line.",
+      "context_used": {
+        "away_trends": {
+          "team": "Miami Hurricanes",
+          "last5": null,
+          "streak": null,
+          "record": null,
+          "h2h_vs_opponent": null
+        },
+        "home_trends": {
+          "team": "Notre Dame Fighting Irish",
+          "last5": null,
+          "streak": null,
+          "record": null,
+          "h2h_vs_opponent": null
+        },
+        "weather": null,
+        "probable_pitchers": {
+          "home": null,
+          "away": null
+        }
+      },
+      "generated_at": "2026-11-03T18:35:02.521312+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "Miami Hurricanes": 170,
+          "Notre Dame Fighting Irish": -205
+        },
+        "spread": {
+          "Miami Hurricanes": 6.0,
+          "Notre Dame Fighting Irish": -6.0
+        },
+        "total": 57.5,
+        "bookmaker": "DraftKings"
+      }
+    },
     "actual": null
   },
   "americanfootball_ncaaf_2026-11-28_michigan-wolverines_at_ohio-state-buckeyes": {
@@ -62272,7 +62702,7 @@
     "espn_sport": "football",
     "espn_league": "college-football",
     "outdoor": true,
-    "status": "scheduled",
+    "status": "predicted",
     "odds": {
       "moneyline": {
         "Florida International Panthers": -205,
@@ -62285,7 +62715,52 @@
       "total": 49.5,
       "bookmaker": "DraftKings"
     },
-    "prediction": null,
+    "prediction": {
+      "predicted_winner": "Missouri State Bears",
+      "predicted_against_spread": "Missouri State Bears",
+      "confidence": 62,
+      "key_factors": [
+        "Bears W4 streak, strong 7-1 record",
+        "FIU trend data unavailable",
+        "Bears' hot form merits weight despite market favoring FIU"
+      ],
+      "reasoning": "Missouri State is 7-1 with a 4-game win streak, an impressive trend profile, while no data exists for FIU to counter it. Given the strength of the Bears' recent form, I lean toward them upsetting the market favorite and covering the spread.",
+      "context_used": {
+        "away_trends": {
+          "team": "Missouri State Bears",
+          "last5": "4-1",
+          "streak": "W4",
+          "record": "7-1",
+          "h2h_vs_opponent": null
+        },
+        "home_trends": {
+          "team": "Florida International Panthers",
+          "last5": null,
+          "streak": null,
+          "record": null,
+          "h2h_vs_opponent": null
+        },
+        "weather": null,
+        "probable_pitchers": {
+          "home": null,
+          "away": null
+        }
+      },
+      "generated_at": "2026-11-03T18:35:02.521312+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "Florida International Panthers": -205,
+          "Missouri State Bears": 170
+        },
+        "spread": {
+          "Florida International Panthers": -4.5,
+          "Missouri State Bears": 4.5
+        },
+        "total": 49.5,
+        "bookmaker": "DraftKings"
+      }
+    },
     "actual": null
   },
   "americanfootball_ncaaf_2026-11-07_louisiana-tech-bulldogs_at_troy-trojans": {
@@ -62297,7 +62772,7 @@
     "espn_sport": "football",
     "espn_league": "college-football",
     "outdoor": true,
-    "status": "scheduled",
+    "status": "predicted",
     "odds": {
       "moneyline": {
         "Louisiana Tech Bulldogs": -198,
@@ -62310,7 +62785,52 @@
       "total": 47.5,
       "bookmaker": "DraftKings"
     },
-    "prediction": null,
+    "prediction": {
+      "predicted_winner": "Louisiana Tech Bulldogs",
+      "predicted_against_spread": "Louisiana Tech Bulldogs",
+      "confidence": 58,
+      "key_factors": [
+        "Both teams 7-1/7-2 with recent win streaks",
+        "La Tech favored on road per market",
+        "Close trend profiles, slight edge to La Tech's form"
+      ],
+      "reasoning": "Both teams enter with strong records and winning momentum, making this a close contest on paper. Louisiana Tech's slightly better record (7-1 vs 7-2) and market support give it a marginal edge to win and cover as a road favorite.",
+      "context_used": {
+        "away_trends": {
+          "team": "Louisiana Tech Bulldogs",
+          "last5": "4-1",
+          "streak": "W1",
+          "record": "7-1",
+          "h2h_vs_opponent": null
+        },
+        "home_trends": {
+          "team": "Troy Trojans",
+          "last5": "3-2",
+          "streak": "W1",
+          "record": "7-2",
+          "h2h_vs_opponent": null
+        },
+        "weather": null,
+        "probable_pitchers": {
+          "home": null,
+          "away": null
+        }
+      },
+      "generated_at": "2026-11-03T18:35:02.521312+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "Louisiana Tech Bulldogs": -198,
+          "Troy Trojans": 164
+        },
+        "spread": {
+          "Louisiana Tech Bulldogs": -4.5,
+          "Troy Trojans": 4.5
+        },
+        "total": 47.5,
+        "bookmaker": "DraftKings"
+      }
+    },
     "actual": null
   },
   "americanfootball_ncaaf_2026-11-07_rice-owls_at_north-texas-mean-green": {
@@ -62322,7 +62842,7 @@
     "espn_sport": "football",
     "espn_league": "college-football",
     "outdoor": true,
-    "status": "scheduled",
+    "status": "predicted",
     "odds": {
       "moneyline": {
         "North Texas Mean Green": -900,
@@ -62335,7 +62855,52 @@
       "total": 64.5,
       "bookmaker": "DraftKings"
     },
-    "prediction": null,
+    "prediction": {
+      "predicted_winner": "North Texas Mean Green",
+      "predicted_against_spread": "Rice Owls",
+      "confidence": 55,
+      "key_factors": [
+        "No trend data for either team",
+        "Massive 16.5 point spread implies heavy mismatch",
+        "Large spreads often see backdoor covers from underdog"
+      ],
+      "reasoning": "Lacking any trend data, I defer largely to the market's clear indication that North Texas is significantly superior. However, such a large spread (16.5) is often difficult to cover consistently, so I lean toward Rice keeping it within the number.",
+      "context_used": {
+        "away_trends": {
+          "team": "Rice Owls",
+          "last5": null,
+          "streak": null,
+          "record": null,
+          "h2h_vs_opponent": null
+        },
+        "home_trends": {
+          "team": "North Texas Mean Green",
+          "last5": null,
+          "streak": null,
+          "record": null,
+          "h2h_vs_opponent": null
+        },
+        "weather": null,
+        "probable_pitchers": {
+          "home": null,
+          "away": null
+        }
+      },
+      "generated_at": "2026-11-03T18:35:02.521312+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "North Texas Mean Green": -900,
+          "Rice Owls": 600
+        },
+        "spread": {
+          "North Texas Mean Green": -16.5,
+          "Rice Owls": 16.5
+        },
+        "total": 64.5,
+        "bookmaker": "DraftKings"
+      }
+    },
     "actual": null
   },
   "americanfootball_ncaaf_2026-11-07_northern-illinois-huskies_at_san-jose-state-spartans": {
@@ -62347,7 +62912,7 @@
     "espn_sport": "football",
     "espn_league": "college-football",
     "outdoor": true,
-    "status": "scheduled",
+    "status": "predicted",
     "odds": {
       "moneyline": {
         "Northern Illinois Huskies": 310,
@@ -62360,7 +62925,52 @@
       "total": 51.5,
       "bookmaker": "DraftKings"
     },
-    "prediction": null,
+    "prediction": {
+      "predicted_winner": "San Jose State Spartans",
+      "predicted_against_spread": "Northern Illinois Huskies",
+      "confidence": 52,
+      "key_factors": [
+        "SJSU on L2 streak, mediocre 4-5 record",
+        "No data for Northern Illinois",
+        "Large 10-point spread despite SJSU's shaky form"
+      ],
+      "reasoning": "San Jose State is favored by double digits, yet their own trend shows a 2-game losing streak and a below-.500 record, which is a yellow flag. With no data on Northern Illinois to confirm the gap, I lean toward the underdog covering the generous spread.",
+      "context_used": {
+        "away_trends": {
+          "team": "Northern Illinois Huskies",
+          "last5": null,
+          "streak": null,
+          "record": null,
+          "h2h_vs_opponent": null
+        },
+        "home_trends": {
+          "team": "San Jose State Spartans",
+          "last5": "2-3",
+          "streak": "L2",
+          "record": "4-5",
+          "h2h_vs_opponent": null
+        },
+        "weather": null,
+        "probable_pitchers": {
+          "home": null,
+          "away": null
+        }
+      },
+      "generated_at": "2026-11-03T18:35:02.521312+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "Northern Illinois Huskies": 310,
+          "San Jose State Spartans": -395
+        },
+        "spread": {
+          "Northern Illinois Huskies": 10.0,
+          "San Jose State Spartans": -10.0
+        },
+        "total": 51.5,
+        "bookmaker": "DraftKings"
+      }
+    },
     "actual": null
   },
   "americanfootball_ncaaf_2026-11-07_vanderbilt-commodores_at_mississippi-state-bulldogs": {
@@ -62372,7 +62982,7 @@
     "espn_sport": "football",
     "espn_league": "college-football",
     "outdoor": true,
-    "status": "scheduled",
+    "status": "predicted",
     "odds": {
       "moneyline": {
         "Mississippi State Bulldogs": -155,
@@ -62385,7 +62995,52 @@
       "total": 48.5,
       "bookmaker": "DraftKings"
     },
-    "prediction": null,
+    "prediction": {
+      "predicted_winner": "Mississippi State Bulldogs",
+      "predicted_against_spread": "Mississippi State Bulldogs",
+      "confidence": 54,
+      "key_factors": [
+        "No trend data for either team",
+        "Market favors Mississippi State at home by 3",
+        "Low confidence due to sparse data"
+      ],
+      "reasoning": "Without any recent form, streak, or record data for either team, I default cautiously to the home favorite per the market line. Confidence is kept low given the complete absence of trend data to validate this pick.",
+      "context_used": {
+        "away_trends": {
+          "team": "Vanderbilt Commodores",
+          "last5": null,
+          "streak": null,
+          "record": null,
+          "h2h_vs_opponent": null
+        },
+        "home_trends": {
+          "team": "Mississippi State Bulldogs",
+          "last5": null,
+          "streak": null,
+          "record": null,
+          "h2h_vs_opponent": null
+        },
+        "weather": null,
+        "probable_pitchers": {
+          "home": null,
+          "away": null
+        }
+      },
+      "generated_at": "2026-11-03T18:35:02.521312+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "Mississippi State Bulldogs": -155,
+          "Vanderbilt Commodores": 130
+        },
+        "spread": {
+          "Mississippi State Bulldogs": -3.0,
+          "Vanderbilt Commodores": 3.0
+        },
+        "total": 48.5,
+        "bookmaker": "DraftKings"
+      }
+    },
     "actual": null
   },
   "americanfootball_ncaaf_2026-11-07_rutgers-scarlet-knights_at_wisconsin-badgers": {
@@ -62397,7 +63052,7 @@
     "espn_sport": "football",
     "espn_league": "college-football",
     "outdoor": true,
-    "status": "scheduled",
+    "status": "predicted",
     "odds": {
       "moneyline": {
         "Rutgers Scarlet Knights": 600,
@@ -62407,10 +63062,55 @@
         "Rutgers Scarlet Knights": 17.5,
         "Wisconsin Badgers": -17.5
       },
-      "total": 46.5,
+      "total": 45.5,
       "bookmaker": "DraftKings"
     },
-    "prediction": null,
+    "prediction": {
+      "predicted_winner": "Wisconsin Badgers",
+      "predicted_against_spread": "Wisconsin Badgers",
+      "confidence": 58,
+      "key_factors": [
+        "No trend data for either team",
+        "Massive 17.5 spread implies significant mismatch",
+        "Defer to market given lack of trend info"
+      ],
+      "reasoning": "There is no trend data available for either Rutgers or Wisconsin, so I largely defer to the market's steep spread reflecting Wisconsin's clear superiority this season. Confidence is moderate due to the lack of independent confirming data.",
+      "context_used": {
+        "away_trends": {
+          "team": "Rutgers Scarlet Knights",
+          "last5": null,
+          "streak": null,
+          "record": null,
+          "h2h_vs_opponent": null
+        },
+        "home_trends": {
+          "team": "Wisconsin Badgers",
+          "last5": null,
+          "streak": null,
+          "record": null,
+          "h2h_vs_opponent": null
+        },
+        "weather": null,
+        "probable_pitchers": {
+          "home": null,
+          "away": null
+        }
+      },
+      "generated_at": "2026-11-03T18:35:02.521312+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "Rutgers Scarlet Knights": 600,
+          "Wisconsin Badgers": -900
+        },
+        "spread": {
+          "Rutgers Scarlet Knights": 17.5,
+          "Wisconsin Badgers": -17.5
+        },
+        "total": 45.5,
+        "bookmaker": "DraftKings"
+      }
+    },
     "actual": null
   },
   "americanfootball_ncaaf_2026-11-07_south-alabama-jaguars_at_louisiana-ragin-cajuns": {
@@ -62422,7 +63122,7 @@
     "espn_sport": "football",
     "espn_league": "college-football",
     "outdoor": true,
-    "status": "scheduled",
+    "status": "predicted",
     "odds": {
       "moneyline": {
         "Louisiana Ragin Cajuns": -325,
@@ -62435,7 +63135,52 @@
       "total": 57.5,
       "bookmaker": "DraftKings"
     },
-    "prediction": null,
+    "prediction": {
+      "predicted_winner": "Louisiana Ragin Cajuns",
+      "predicted_against_spread": "South Alabama Jaguars",
+      "confidence": 54,
+      "key_factors": [
+        "South Alabama on L2 streak, 4-4 record",
+        "No data for Louisiana to confirm large favorite status",
+        "8.5 spread is steep without confirming home team trend"
+      ],
+      "reasoning": "South Alabama's recent form (L2, 4-4) supports them being an underdog, but lacking any trend data for Louisiana makes the size of this spread hard to fully trust. I'll side with the favorite to win but expect South Alabama to keep it closer than 8.5.",
+      "context_used": {
+        "away_trends": {
+          "team": "South Alabama Jaguars",
+          "last5": "2-3",
+          "streak": "L2",
+          "record": "4-4",
+          "h2h_vs_opponent": null
+        },
+        "home_trends": {
+          "team": "Louisiana Ragin Cajuns",
+          "last5": null,
+          "streak": null,
+          "record": null,
+          "h2h_vs_opponent": null
+        },
+        "weather": null,
+        "probable_pitchers": {
+          "home": null,
+          "away": null
+        }
+      },
+      "generated_at": "2026-11-03T18:35:02.521312+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "Louisiana Ragin Cajuns": -325,
+          "South Alabama Jaguars": 260
+        },
+        "spread": {
+          "Louisiana Ragin Cajuns": -8.5,
+          "South Alabama Jaguars": 8.5
+        },
+        "total": 57.5,
+        "bookmaker": "DraftKings"
+      }
+    },
     "actual": null
   },
   "americanfootball_ncaaf_2026-11-07_boise-state-broncos_at_colorado-state-rams": {
@@ -62447,7 +63192,7 @@
     "espn_sport": "football",
     "espn_league": "college-football",
     "outdoor": true,
-    "status": "scheduled",
+    "status": "predicted",
     "odds": {
       "moneyline": {
         "Boise State Broncos": -950,
@@ -62460,7 +63205,52 @@
       "total": 68.5,
       "bookmaker": "DraftKings"
     },
-    "prediction": null,
+    "prediction": {
+      "predicted_winner": "Boise State Broncos",
+      "predicted_against_spread": "Boise State Broncos",
+      "confidence": 80,
+      "key_factors": [
+        "Boise State W7 streak, 7-1 record, 5-0 last5",
+        "Colorado State L1, below .500 at 3-5",
+        "High total (68.5) suggests shootout potential favoring explosive Boise offense"
+      ],
+      "reasoning": "Boise State is in dominant form with a remarkable 7-game winning streak and perfect 5-0 in their last five, clearly outclassing a struggling Colorado State team at 3-5. This is one of the strongest trend-confirmed edges on the board, supporting Boise State comfortably covering even the large 17.5-point spread.",
+      "context_used": {
+        "away_trends": {
+          "team": "Boise State Broncos",
+          "last5": "5-0",
+          "streak": "W7",
+          "record": "7-1",
+          "h2h_vs_opponent": null
+        },
+        "home_trends": {
+          "team": "Colorado State Rams",
+          "last5": "1-4",
+          "streak": "L1",
+          "record": "3-5",
+          "h2h_vs_opponent": null
+        },
+        "weather": null,
+        "probable_pitchers": {
+          "home": null,
+          "away": null
+        }
+      },
+      "generated_at": "2026-11-03T18:35:02.521312+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "Boise State Broncos": -950,
+          "Colorado State Rams": 625
+        },
+        "spread": {
+          "Boise State Broncos": -17.5,
+          "Colorado State Rams": 17.5
+        },
+        "total": 68.5,
+        "bookmaker": "DraftKings"
+      }
+    },
     "actual": null
   },
   "americanfootball_ncaaf_2026-11-07_kentucky-wildcats_at_tennessee-volunteers": {
@@ -62472,11 +63262,11 @@
     "espn_sport": "football",
     "espn_league": "college-football",
     "outdoor": true,
-    "status": "scheduled",
+    "status": "predicted",
     "odds": {
       "moneyline": {
-        "Kentucky Wildcats": 200,
-        "Tennessee Volunteers": -245
+        "Kentucky Wildcats": 195,
+        "Tennessee Volunteers": -238
       },
       "spread": {
         "Kentucky Wildcats": 6.5,
@@ -62485,7 +63275,52 @@
       "total": 50.5,
       "bookmaker": "DraftKings"
     },
-    "prediction": null,
+    "prediction": {
+      "predicted_winner": "Tennessee Volunteers",
+      "predicted_against_spread": "Tennessee Volunteers",
+      "confidence": 55,
+      "key_factors": [
+        "No trend data for either team",
+        "Market favors Tennessee at home by 6.5",
+        "Low confidence due to lack of trend confirmation"
+      ],
+      "reasoning": "Without recent form data for either Kentucky or Tennessee, I defer to the market's assessment of Tennessee's home advantage. Confidence is capped given the absence of any trend-based evidence.",
+      "context_used": {
+        "away_trends": {
+          "team": "Kentucky Wildcats",
+          "last5": null,
+          "streak": null,
+          "record": null,
+          "h2h_vs_opponent": null
+        },
+        "home_trends": {
+          "team": "Tennessee Volunteers",
+          "last5": null,
+          "streak": null,
+          "record": null,
+          "h2h_vs_opponent": null
+        },
+        "weather": null,
+        "probable_pitchers": {
+          "home": null,
+          "away": null
+        }
+      },
+      "generated_at": "2026-11-03T18:35:02.521312+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "Kentucky Wildcats": 195,
+          "Tennessee Volunteers": -238
+        },
+        "spread": {
+          "Kentucky Wildcats": 6.5,
+          "Tennessee Volunteers": -6.5
+        },
+        "total": 50.5,
+        "bookmaker": "DraftKings"
+      }
+    },
     "actual": null
   },
   "americanfootball_ncaaf_2026-11-08_sam-houston-state-bearkats_at_jacksonville-state-gamecocks": {
@@ -62497,7 +63332,7 @@
     "espn_sport": "football",
     "espn_league": "college-football",
     "outdoor": true,
-    "status": "scheduled",
+    "status": "predicted",
     "odds": {
       "moneyline": {
         "Jacksonville State Gamecocks": -850,
@@ -62510,7 +63345,52 @@
       "total": 48.5,
       "bookmaker": "DraftKings"
     },
-    "prediction": null,
+    "prediction": {
+      "predicted_winner": "Jacksonville State Gamecocks",
+      "predicted_against_spread": "Jacksonville State Gamecocks",
+      "confidence": 75,
+      "key_factors": [
+        "JSU on W5 streak, 6-2 record",
+        "Sam Houston State 2-7, L1 but mostly poor form",
+        "Large trend gap supports big favorite"
+      ],
+      "reasoning": "Jacksonville State is riding a 5-game win streak with a strong 6-2 record, while Sam Houston State is struggling at 2-7 overall. The clear form disparity supports JSU not just winning but covering the substantial 16.5-point spread.",
+      "context_used": {
+        "away_trends": {
+          "team": "Sam Houston State Bearkats",
+          "last5": "1-4",
+          "streak": "W1",
+          "record": "2-7",
+          "h2h_vs_opponent": null
+        },
+        "home_trends": {
+          "team": "Jacksonville State Gamecocks",
+          "last5": "5-0",
+          "streak": "W5",
+          "record": "6-2",
+          "h2h_vs_opponent": null
+        },
+        "weather": null,
+        "probable_pitchers": {
+          "home": null,
+          "away": null
+        }
+      },
+      "generated_at": "2026-11-03T18:35:02.521312+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "Jacksonville State Gamecocks": -850,
+          "Sam Houston State Bearkats": 575
+        },
+        "spread": {
+          "Jacksonville State Gamecocks": -16.5,
+          "Sam Houston State Bearkats": 16.5
+        },
+        "total": 48.5,
+        "bookmaker": "DraftKings"
+      }
+    },
     "actual": null
   },
   "americanfootball_ncaaf_2026-11-08_air-force-falcons_at_army-black-knights": {
@@ -62522,20 +63402,65 @@
     "espn_sport": "football",
     "espn_league": "college-football",
     "outdoor": true,
-    "status": "scheduled",
+    "status": "predicted",
     "odds": {
       "moneyline": {
         "Air Force Falcons": 140,
         "Army Black Knights": -166
       },
       "spread": {
-        "Air Force Falcons": 3.5,
-        "Army Black Knights": -3.5
+        "Air Force Falcons": 3.0,
+        "Army Black Knights": -3.0
       },
       "total": 45.5,
       "bookmaker": "DraftKings"
     },
-    "prediction": null,
+    "prediction": {
+      "predicted_winner": "Army Black Knights",
+      "predicted_against_spread": "Army Black Knights",
+      "confidence": 55,
+      "key_factors": [
+        "No trend data for either team",
+        "Market favors Army at home by 3",
+        "Low confidence due to sparse data"
+      ],
+      "reasoning": "Neither team has recent form data provided, so I lean on the market's modest home favorite status for Army. Confidence is kept moderate given the lack of trend confirmation for this pick.",
+      "context_used": {
+        "away_trends": {
+          "team": "Air Force Falcons",
+          "last5": null,
+          "streak": null,
+          "record": null,
+          "h2h_vs_opponent": null
+        },
+        "home_trends": {
+          "team": "Army Black Knights",
+          "last5": null,
+          "streak": null,
+          "record": null,
+          "h2h_vs_opponent": null
+        },
+        "weather": null,
+        "probable_pitchers": {
+          "home": null,
+          "away": null
+        }
+      },
+      "generated_at": "2026-11-03T18:35:02.521312+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "Air Force Falcons": 140,
+          "Army Black Knights": -166
+        },
+        "spread": {
+          "Air Force Falcons": 3.0,
+          "Army Black Knights": -3.0
+        },
+        "total": 45.5,
+        "bookmaker": "DraftKings"
+      }
+    },
     "actual": null
   },
   "americanfootball_ncaaf_2026-11-08_colorado-buffaloes_at_arizona-state-sun-devils": {
@@ -62547,7 +63472,7 @@
     "espn_sport": "football",
     "espn_league": "college-football",
     "outdoor": true,
-    "status": "scheduled",
+    "status": "predicted",
     "odds": {
       "moneyline": {
         "Arizona State Sun Devils": -162,
@@ -62557,10 +63482,55 @@
         "Arizona State Sun Devils": -3.0,
         "Colorado Buffaloes": 3.0
       },
-      "total": 49.5,
+      "total": 48.5,
       "bookmaker": "DraftKings"
     },
-    "prediction": null,
+    "prediction": {
+      "predicted_winner": "Arizona State Sun Devils",
+      "predicted_against_spread": "Colorado Buffaloes",
+      "confidence": 52,
+      "key_factors": [
+        "Colorado on W1 streak but poor 3-5/1-4 last5",
+        "ASU L1, modest 4-4 record",
+        "Close spread suggests competitive game despite form edge to ASU"
+      ],
+      "reasoning": "Arizona State's 4-4 record is better than Colorado's 3-5, but ASU is on a one-game skid while Colorado just snapped a slide with a win. Given the closely matched trends and small spread, I'll side with the home favorite to win but expect Colorado to keep it within the 3 points.",
+      "context_used": {
+        "away_trends": {
+          "team": "Colorado Buffaloes",
+          "last5": "1-4",
+          "streak": "W1",
+          "record": "3-5",
+          "h2h_vs_opponent": null
+        },
+        "home_trends": {
+          "team": "Arizona State Sun Devils",
+          "last5": "2-3",
+          "streak": "L1",
+          "record": "4-4",
+          "h2h_vs_opponent": null
+        },
+        "weather": null,
+        "probable_pitchers": {
+          "home": null,
+          "away": null
+        }
+      },
+      "generated_at": "2026-11-03T18:35:02.521312+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "Arizona State Sun Devils": -162,
+          "Colorado Buffaloes": 136
+        },
+        "spread": {
+          "Arizona State Sun Devils": -3.0,
+          "Colorado Buffaloes": 3.0
+        },
+        "total": 48.5,
+        "bookmaker": "DraftKings"
+      }
+    },
     "actual": null
   },
   "americanfootball_ncaaf_2026-11-08_georgia-bulldogs_at_ole-miss-rebels": {
@@ -62572,7 +63542,7 @@
     "espn_sport": "football",
     "espn_league": "college-football",
     "outdoor": true,
-    "status": "scheduled",
+    "status": "predicted",
     "odds": {
       "moneyline": {
         "Georgia Bulldogs": -175,
@@ -62585,7 +63555,52 @@
       "total": 56.5,
       "bookmaker": "DraftKings"
     },
-    "prediction": null,
+    "prediction": {
+      "predicted_winner": "Georgia Bulldogs",
+      "predicted_against_spread": "Georgia Bulldogs",
+      "confidence": 65,
+      "key_factors": [
+        "Georgia W1 streak, strong 7-1 record, 4-1 last5",
+        "No trend data for Ole Miss",
+        "Georgia's elite form supports covering as road favorite"
+      ],
+      "reasoning": "Georgia enters with an impressive 7-1 record and 4-1 in their last five games, showing strong and consistent form. With no data to counter this on Ole Miss's side, I favor Georgia to win and cover the 3.5-point road spread.",
+      "context_used": {
+        "away_trends": {
+          "team": "Georgia Bulldogs",
+          "last5": "4-1",
+          "streak": "W1",
+          "record": "7-1",
+          "h2h_vs_opponent": null
+        },
+        "home_trends": {
+          "team": "Ole Miss Rebels",
+          "last5": null,
+          "streak": null,
+          "record": null,
+          "h2h_vs_opponent": null
+        },
+        "weather": null,
+        "probable_pitchers": {
+          "home": null,
+          "away": null
+        }
+      },
+      "generated_at": "2026-11-03T18:35:02.521312+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "Georgia Bulldogs": -175,
+          "Ole Miss Rebels": 145
+        },
+        "spread": {
+          "Georgia Bulldogs": -3.5,
+          "Ole Miss Rebels": 3.5
+        },
+        "total": 56.5,
+        "bookmaker": "DraftKings"
+      }
+    },
     "actual": null
   },
   "americanfootball_ncaaf_2026-11-08_louisville-cardinals_at_georgia-tech-yellow-jackets": {
@@ -62597,7 +63612,7 @@
     "espn_sport": "football",
     "espn_league": "college-football",
     "outdoor": true,
-    "status": "scheduled",
+    "status": "predicted",
     "odds": {
       "moneyline": {
         "Georgia Tech Yellow Jackets": 490,
@@ -62610,7 +63625,52 @@
       "total": 61.5,
       "bookmaker": "DraftKings"
     },
-    "prediction": null,
+    "prediction": {
+      "predicted_winner": "Louisville Cardinals",
+      "predicted_against_spread": "Louisville Cardinals",
+      "confidence": 72,
+      "key_factors": [
+        "Georgia Tech L3 streak, poor 2-6 record, 1-4 last5",
+        "No trend data for Louisville but large market favorite",
+        "Form strongly supports Louisville's big favorite status"
+      ],
+      "reasoning": "Georgia Tech is struggling badly with a 3-game losing streak and 2-6 record, going just 1-4 in their last five games. Although Louisville's own trends are unlisted, the market's large spread combined with Georgia Tech's poor form supports Louisville covering comfortably.",
+      "context_used": {
+        "away_trends": {
+          "team": "Louisville Cardinals",
+          "last5": null,
+          "streak": null,
+          "record": null,
+          "h2h_vs_opponent": null
+        },
+        "home_trends": {
+          "team": "Georgia Tech Yellow Jackets",
+          "last5": "1-4",
+          "streak": "L3",
+          "record": "2-6",
+          "h2h_vs_opponent": null
+        },
+        "weather": null,
+        "probable_pitchers": {
+          "home": null,
+          "away": null
+        }
+      },
+      "generated_at": "2026-11-03T18:35:02.521312+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "Georgia Tech Yellow Jackets": 490,
+          "Louisville Cardinals": -675
+        },
+        "spread": {
+          "Georgia Tech Yellow Jackets": 14.5,
+          "Louisville Cardinals": -14.5
+        },
+        "total": 61.5,
+        "bookmaker": "DraftKings"
+      }
+    },
     "actual": null
   },
   "americanfootball_ncaaf_2026-11-08_iowa-hawkeyes_at_northwestern-wildcats": {
@@ -62622,7 +63682,7 @@
     "espn_sport": "football",
     "espn_league": "college-football",
     "outdoor": true,
-    "status": "scheduled",
+    "status": "predicted",
     "odds": {
       "moneyline": {
         "Iowa Hawkeyes": 114,
@@ -62635,7 +63695,52 @@
       "total": 45.5,
       "bookmaker": "DraftKings"
     },
-    "prediction": null,
+    "prediction": {
+      "predicted_winner": "Northwestern Wildcats",
+      "predicted_against_spread": "Iowa Hawkeyes",
+      "confidence": 54,
+      "key_factors": [
+        "Northwestern 4-1 last5 but L1 and 6-2 overall",
+        "Iowa W1 streak, 5-3 record",
+        "Close records support competitive game, lean dog for cover"
+      ],
+      "reasoning": "Northwestern's 6-2 record and strong 4-1 last-five mark edges Iowa's 5-3, but Northwestern is on a 1-game slide while Iowa just snapped theirs with a win. Given the tight trend profiles and small spread, I favor Northwestern to win but expect Iowa to cover the short underdog number.",
+      "context_used": {
+        "away_trends": {
+          "team": "Iowa Hawkeyes",
+          "last5": "2-3",
+          "streak": "W1",
+          "record": "5-3",
+          "h2h_vs_opponent": null
+        },
+        "home_trends": {
+          "team": "Northwestern Wildcats",
+          "last5": "4-1",
+          "streak": "L1",
+          "record": "6-2",
+          "h2h_vs_opponent": null
+        },
+        "weather": null,
+        "probable_pitchers": {
+          "home": null,
+          "away": null
+        }
+      },
+      "generated_at": "2026-11-03T18:35:02.521312+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "Iowa Hawkeyes": 114,
+          "Northwestern Wildcats": -135
+        },
+        "spread": {
+          "Iowa Hawkeyes": 2.5,
+          "Northwestern Wildcats": -2.5
+        },
+        "total": 45.5,
+        "bookmaker": "DraftKings"
+      }
+    },
     "actual": null
   },
   "americanfootball_ncaaf_2026-11-08_michigan-state-spartans_at_michigan-wolverines": {
@@ -62647,7 +63752,7 @@
     "espn_sport": "football",
     "espn_league": "college-football",
     "outdoor": true,
-    "status": "scheduled",
+    "status": "predicted",
     "odds": {
       "moneyline": {
         "Michigan State Spartans": 410,
@@ -62660,7 +63765,52 @@
       "total": 39.5,
       "bookmaker": "DraftKings"
     },
-    "prediction": null,
+    "prediction": {
+      "predicted_winner": "Michigan Wolverines",
+      "predicted_against_spread": "Michigan Wolverines",
+      "confidence": 68,
+      "key_factors": [
+        "Michigan State L2 streak, 4-5 record",
+        "No trend data for Michigan but large market favorite",
+        "Rivalry game with form favoring the Wolverines"
+      ],
+      "reasoning": "Michigan State enters on a 2-game losing streak and a below-.500 record, while Michigan lacks listed trends but is a significant market favorite in this rivalry matchup. The combination of Michigan State's poor recent form and the steep market line supports Michigan covering the 13.5 spread.",
+      "context_used": {
+        "away_trends": {
+          "team": "Michigan State Spartans",
+          "last5": "2-3",
+          "streak": "L2",
+          "record": "4-5",
+          "h2h_vs_opponent": null
+        },
+        "home_trends": {
+          "team": "Michigan Wolverines",
+          "last5": null,
+          "streak": null,
+          "record": null,
+          "h2h_vs_opponent": null
+        },
+        "weather": null,
+        "probable_pitchers": {
+          "home": null,
+          "away": null
+        }
+      },
+      "generated_at": "2026-11-03T18:35:02.521312+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "Michigan State Spartans": 410,
+          "Michigan Wolverines": -550
+        },
+        "spread": {
+          "Michigan State Spartans": 13.5,
+          "Michigan Wolverines": -13.5
+        },
+        "total": 39.5,
+        "bookmaker": "DraftKings"
+      }
+    },
     "actual": null
   },
   "americanfootball_ncaaf_2026-11-08_oklahoma-sooners_at_florida-gators": {
@@ -62672,7 +63822,7 @@
     "espn_sport": "football",
     "espn_league": "college-football",
     "outdoor": true,
-    "status": "scheduled",
+    "status": "predicted",
     "odds": {
       "moneyline": {
         "Florida Gators": -238,
@@ -62682,10 +63832,55 @@
         "Florida Gators": -6.0,
         "Oklahoma Sooners": 6.0
       },
-      "total": 45.5,
+      "total": 44.5,
       "bookmaker": "DraftKings"
     },
-    "prediction": null,
+    "prediction": {
+      "predicted_winner": "Florida Gators",
+      "predicted_against_spread": "Florida Gators",
+      "confidence": 58,
+      "key_factors": [
+        "Florida 5-3 record despite L1 streak",
+        "No trend data for Oklahoma",
+        "Market favors Florida by 6 at home"
+      ],
+      "reasoning": "Florida has a respectable 5-3 record despite a single-game slide, and there is no trend data available to contradict Florida's home favorite status against Oklahoma. I lean toward Florida covering, though confidence is moderated by the lack of Oklahoma trend information.",
+      "context_used": {
+        "away_trends": {
+          "team": "Oklahoma Sooners",
+          "last5": null,
+          "streak": null,
+          "record": null,
+          "h2h_vs_opponent": null
+        },
+        "home_trends": {
+          "team": "Florida Gators",
+          "last5": "2-3",
+          "streak": "L1",
+          "record": "5-3",
+          "h2h_vs_opponent": null
+        },
+        "weather": null,
+        "probable_pitchers": {
+          "home": null,
+          "away": null
+        }
+      },
+      "generated_at": "2026-11-03T18:35:02.521312+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "Florida Gators": -238,
+          "Oklahoma Sooners": 195
+        },
+        "spread": {
+          "Florida Gators": -6.0,
+          "Oklahoma Sooners": 6.0
+        },
+        "total": 44.5,
+        "bookmaker": "DraftKings"
+      }
+    },
     "actual": null
   },
   "americanfootball_ncaaf_2026-11-08_liberty-flames_at_new-mexico-state-aggies": {
@@ -62697,20 +63892,65 @@
     "espn_sport": "football",
     "espn_league": "college-football",
     "outdoor": true,
-    "status": "scheduled",
+    "status": "predicted",
     "odds": {
       "moneyline": {
-        "Liberty Flames": -900,
-        "New Mexico State Aggies": 600
+        "Liberty Flames": -850,
+        "New Mexico State Aggies": 575
       },
       "spread": {
         "Liberty Flames": -16.5,
         "New Mexico State Aggies": 16.5
       },
-      "total": 45.5,
+      "total": 46.5,
       "bookmaker": "DraftKings"
     },
-    "prediction": null,
+    "prediction": {
+      "predicted_winner": "Liberty Flames",
+      "predicted_against_spread": "New Mexico State Aggies",
+      "confidence": 55,
+      "key_factors": [
+        "No trend data for either team",
+        "Large 16.5 spread implies significant mismatch per market",
+        "Lean underdog cover given lack of confirming data"
+      ],
+      "reasoning": "With no trend data for either Liberty or New Mexico State, I defer to the market's clear favorite status for Liberty. However, such large spreads (16.5) are often hard to sustain, so I lean toward the Aggies keeping the game within the number.",
+      "context_used": {
+        "away_trends": {
+          "team": "Liberty Flames",
+          "last5": null,
+          "streak": null,
+          "record": null,
+          "h2h_vs_opponent": null
+        },
+        "home_trends": {
+          "team": "New Mexico State Aggies",
+          "last5": null,
+          "streak": null,
+          "record": null,
+          "h2h_vs_opponent": null
+        },
+        "weather": null,
+        "probable_pitchers": {
+          "home": null,
+          "away": null
+        }
+      },
+      "generated_at": "2026-11-03T18:35:02.521312+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "Liberty Flames": -850,
+          "New Mexico State Aggies": 575
+        },
+        "spread": {
+          "Liberty Flames": -16.5,
+          "New Mexico State Aggies": 16.5
+        },
+        "total": 46.5,
+        "bookmaker": "DraftKings"
+      }
+    },
     "actual": null
   },
   "americanfootball_ncaaf_2026-11-08_fresno-state-bulldogs_at_utah-state-aggies": {
@@ -62722,11 +63962,11 @@
     "espn_sport": "football",
     "espn_league": "college-football",
     "outdoor": true,
-    "status": "scheduled",
+    "status": "predicted",
     "odds": {
       "moneyline": {
-        "Fresno State Bulldogs": -135,
-        "Utah State Aggies": 114
+        "Fresno State Bulldogs": -130,
+        "Utah State Aggies": 110
       },
       "spread": {
         "Fresno State Bulldogs": -2.5,
@@ -62735,7 +63975,52 @@
       "total": 42.5,
       "bookmaker": "DraftKings"
     },
-    "prediction": null,
+    "prediction": {
+      "predicted_winner": "Fresno State Bulldogs",
+      "predicted_against_spread": "Fresno State Bulldogs",
+      "confidence": 62,
+      "key_factors": [
+        "Fresno State W1 streak, strong 7-1 record, 4-1 last5",
+        "No trend data for Utah State",
+        "Fresno's solid form supports modest road favorite status"
+      ],
+      "reasoning": "Fresno State comes in with an excellent 7-1 record and 4-1 in their last five games, demonstrating consistent winning form. Without data to counter this for Utah State, I lean toward Fresno State covering the small 2.5-point road spread.",
+      "context_used": {
+        "away_trends": {
+          "team": "Fresno State Bulldogs",
+          "last5": "4-1",
+          "streak": "W1",
+          "record": "7-1",
+          "h2h_vs_opponent": null
+        },
+        "home_trends": {
+          "team": "Utah State Aggies",
+          "last5": null,
+          "streak": null,
+          "record": null,
+          "h2h_vs_opponent": null
+        },
+        "weather": null,
+        "probable_pitchers": {
+          "home": null,
+          "away": null
+        }
+      },
+      "generated_at": "2026-11-03T18:35:02.521312+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "Fresno State Bulldogs": -130,
+          "Utah State Aggies": 110
+        },
+        "spread": {
+          "Fresno State Bulldogs": -2.5,
+          "Utah State Aggies": 2.5
+        },
+        "total": 42.5,
+        "bookmaker": "DraftKings"
+      }
+    },
     "actual": null
   },
   "americanfootball_ncaaf_2026-11-08_hawaii-rainbow-warriors_at_utep-miners": {
@@ -62747,7 +64032,7 @@
     "espn_sport": "football",
     "espn_league": "college-football",
     "outdoor": true,
-    "status": "scheduled",
+    "status": "predicted",
     "odds": {
       "moneyline": {
         "Hawaii Rainbow Warriors": -345,
@@ -62757,10 +64042,55 @@
         "Hawaii Rainbow Warriors": -9.5,
         "UTEP Miners": 9.5
       },
-      "total": 48.5,
+      "total": 49.5,
       "bookmaker": "DraftKings"
     },
-    "prediction": null,
+    "prediction": {
+      "predicted_winner": "Hawaii Rainbow Warriors",
+      "predicted_against_spread": "UTEP Miners",
+      "confidence": 52,
+      "key_factors": [
+        "Hawaii W1 but poor 2-6 record, 1-4 last5",
+        "No trend data for UTEP",
+        "Large 9.5 spread questionable given Hawaii's weak overall form"
+      ],
+      "reasoning": "Hawaii's own trend data shows a struggling team at 2-6 and just 1-4 in their last five games, which raises doubts about laying 9.5 points as a big favorite. I'll side with Hawaii to win on talent, but lean toward UTEP covering given Hawaii's shaky recent form.",
+      "context_used": {
+        "away_trends": {
+          "team": "Hawaii Rainbow Warriors",
+          "last5": "1-4",
+          "streak": "W1",
+          "record": "2-6",
+          "h2h_vs_opponent": null
+        },
+        "home_trends": {
+          "team": "UTEP Miners",
+          "last5": null,
+          "streak": null,
+          "record": null,
+          "h2h_vs_opponent": null
+        },
+        "weather": null,
+        "probable_pitchers": {
+          "home": null,
+          "away": null
+        }
+      },
+      "generated_at": "2026-11-03T18:35:02.521312+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "Hawaii Rainbow Warriors": -345,
+          "UTEP Miners": 275
+        },
+        "spread": {
+          "Hawaii Rainbow Warriors": -9.5,
+          "UTEP Miners": 9.5
+        },
+        "total": 49.5,
+        "bookmaker": "DraftKings"
+      }
+    },
     "actual": null
   },
   "americanfootball_ncaaf_2026-11-08_west-virginia-mountaineers_at_texas-tech-red-raiders": {
@@ -62772,20 +64102,65 @@
     "espn_sport": "football",
     "espn_league": "college-football",
     "outdoor": true,
-    "status": "scheduled",
+    "status": "predicted",
     "odds": {
       "moneyline": {
         "Texas Tech Red Raiders": -900,
         "West Virginia Mountaineers": 600
       },
       "spread": {
-        "Texas Tech Red Raiders": -16.5,
-        "West Virginia Mountaineers": 16.5
+        "Texas Tech Red Raiders": -17.5,
+        "West Virginia Mountaineers": 17.5
       },
-      "total": 65.5,
+      "total": 64.5,
       "bookmaker": "DraftKings"
     },
-    "prediction": null,
+    "prediction": {
+      "predicted_winner": "Texas Tech Red Raiders",
+      "predicted_against_spread": "Texas Tech Red Raiders",
+      "confidence": 60,
+      "key_factors": [
+        "No trend data for either team",
+        "Massive 17.5 spread and high total (64.5) imply big mismatch",
+        "Defer to market given lack of trend info"
+      ],
+      "reasoning": "There is no trend data available for either West Virginia or Texas Tech, so I lean on the market's steep spread and high total as evidence of a significant talent and offensive gap. Confidence is moderate given the lack of independent confirming data.",
+      "context_used": {
+        "away_trends": {
+          "team": "West Virginia Mountaineers",
+          "last5": null,
+          "streak": null,
+          "record": null,
+          "h2h_vs_opponent": null
+        },
+        "home_trends": {
+          "team": "Texas Tech Red Raiders",
+          "last5": null,
+          "streak": null,
+          "record": null,
+          "h2h_vs_opponent": null
+        },
+        "weather": null,
+        "probable_pitchers": {
+          "home": null,
+          "away": null
+        }
+      },
+      "generated_at": "2026-11-03T18:35:02.521312+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "Texas Tech Red Raiders": -900,
+          "West Virginia Mountaineers": 600
+        },
+        "spread": {
+          "Texas Tech Red Raiders": -17.5,
+          "West Virginia Mountaineers": 17.5
+        },
+        "total": 64.5,
+        "bookmaker": "DraftKings"
+      }
+    },
     "actual": null
   },
   "americanfootball_ncaaf_2026-11-08_texas-state-bobcats_at_oregon-state-beavers": {
@@ -62797,7 +64172,7 @@
     "espn_sport": "football",
     "espn_league": "college-football",
     "outdoor": true,
-    "status": "scheduled",
+    "status": "predicted",
     "odds": {
       "moneyline": {
         "Oregon State Beavers": -250,
@@ -62807,10 +64182,55 @@
         "Oregon State Beavers": -6.5,
         "Texas State Bobcats": 6.5
       },
-      "total": 71.5,
+      "total": 72.5,
       "bookmaker": "DraftKings"
     },
-    "prediction": null,
+    "prediction": {
+      "predicted_winner": "Texas State Bobcats",
+      "predicted_against_spread": "Texas State Bobcats",
+      "confidence": 72,
+      "key_factors": [
+        "Texas State W2 streak, strong 6-2 record",
+        "Oregon State on brutal L6 streak, 1-7, winless last5",
+        "Clear trend disparity favors road team upset and cover"
+      ],
+      "reasoning": "Texas State is playing well at 6-2 with a 2-game win streak, while Oregon State is in utter collapse mode at 1-7 with 6 straight losses and 0-5 in their last five games. This stark form gap strongly supports Texas State winning outright and covering as a road underdog.",
+      "context_used": {
+        "away_trends": {
+          "team": "Texas State Bobcats",
+          "last5": "4-1",
+          "streak": "W2",
+          "record": "6-2",
+          "h2h_vs_opponent": null
+        },
+        "home_trends": {
+          "team": "Oregon State Beavers",
+          "last5": "0-5",
+          "streak": "L6",
+          "record": "1-7",
+          "h2h_vs_opponent": null
+        },
+        "weather": null,
+        "probable_pitchers": {
+          "home": null,
+          "away": null
+        }
+      },
+      "generated_at": "2026-11-03T18:35:02.521312+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "Oregon State Beavers": -250,
+          "Texas State Bobcats": 205
+        },
+        "spread": {
+          "Oregon State Beavers": -6.5,
+          "Texas State Bobcats": 6.5
+        },
+        "total": 72.5,
+        "bookmaker": "DraftKings"
+      }
+    },
     "actual": null
   },
   "americanfootball_ncaaf_2026-11-08_wyoming-cowboys_at_unlv-rebels": {
@@ -62822,7 +64242,7 @@
     "espn_sport": "football",
     "espn_league": "college-football",
     "outdoor": true,
-    "status": "scheduled",
+    "status": "predicted",
     "odds": {
       "moneyline": {
         "UNLV Rebels": -230,
@@ -62832,10 +64252,55 @@
         "UNLV Rebels": -6.0,
         "Wyoming Cowboys": 6.0
       },
-      "total": 47.5,
+      "total": 48.5,
       "bookmaker": "DraftKings"
     },
-    "prediction": null,
+    "prediction": {
+      "predicted_winner": "UNLV Rebels",
+      "predicted_against_spread": "UNLV Rebels",
+      "confidence": 55,
+      "key_factors": [
+        "No trend data for either team",
+        "Market favors UNLV at home by 6",
+        "Low confidence due to sparse data"
+      ],
+      "reasoning": "Without any recent form or record data for either Wyoming or UNLV, I default cautiously to the market's assessment of UNLV's home favorite status. Confidence is kept low given the complete absence of trend data to validate this pick.",
+      "context_used": {
+        "away_trends": {
+          "team": "Wyoming Cowboys",
+          "last5": null,
+          "streak": null,
+          "record": null,
+          "h2h_vs_opponent": null
+        },
+        "home_trends": {
+          "team": "UNLV Rebels",
+          "last5": null,
+          "streak": null,
+          "record": null,
+          "h2h_vs_opponent": null
+        },
+        "weather": null,
+        "probable_pitchers": {
+          "home": null,
+          "away": null
+        }
+      },
+      "generated_at": "2026-11-03T18:35:02.521312+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {
+          "UNLV Rebels": -230,
+          "Wyoming Cowboys": 190
+        },
+        "spread": {
+          "UNLV Rebels": -6.0,
+          "Wyoming Cowboys": 6.0
+        },
+        "total": 48.5,
+        "bookmaker": "DraftKings"
+      }
+    },
     "actual": null
   }
 }
