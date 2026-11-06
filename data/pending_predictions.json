@@ -1,35 +1,29 @@
 {
   "instructions": "For each game below, act as a sharp, disciplined sports betting analyst. Do NOT simply pick whichever side the betting market favors -- weigh the actual trend data provided (recent form, streaks, head-to-head history, starting pitcher matchups where given, and weather where relevant) and form an independent judgment. It's fine, and expected, to disagree with the market when the trends support it. If trend data is sparse for a game, say so and let that lower your confidence rather than defaulting to the favorite. For each game_id, produce: predicted_winner (exact team name), predicted_against_spread (exact team name), confidence (integer 1-100), key_factors (2-4 short strings), and reasoning (2-4 sentences referencing the specific trend data given).",
   "games": {
-    "americanfootball_nfl_2026-11-08_houston-texans_at_los-angeles-chargers": {
-      "league": "NFL",
-      "away_team": "Houston Texans",
-      "home_team": "Los Angeles Chargers",
-      "commence_time": "2026-11-08T21:05:00Z",
+    "americanfootball_ncaaf_2026-11-11_western-michigan-broncos_at_akron-zips": {
+      "league": "NCAAF",
+      "away_team": "Western Michigan Broncos",
+      "home_team": "Akron Zips",
+      "commence_time": "2026-11-11T00:00:00Z",
       "market_line": {
-        "moneyline": {
-          "Houston Texans": -218,
-          "Los Angeles Chargers": 180
-        },
-        "spread": {
-          "Houston Texans": -4.5,
-          "Los Angeles Chargers": 4.5
-        },
-        "total": 40.5,
-        "bookmaker": "DraftKings"
+        "moneyline": {},
+        "spread": {},
+        "total": null,
+        "bookmaker": null
       },
       "away_team_trends": {
-        "team": "Houston Texans",
-        "last5": "2-3",
-        "streak": "L1",
-        "record": "2-5",
+        "team": "Western Michigan Broncos",
+        "last5": null,
+        "streak": null,
+        "record": null,
         "h2h_vs_opponent": null
       },
       "home_team_trends": {
-        "team": "Los Angeles Chargers",
-        "last5": "1-4",
-        "streak": "W1",
-        "record": "1-6",
+        "team": "Akron Zips",
+        "last5": null,
+        "streak": null,
+        "record": null,
         "h2h_vs_opponent": null
       },
       "weather_at_kickoff": null,
@@ -38,209 +32,60 @@
         "away": null
       }
     },
-    "americanfootball_nfl_2026-11-08_las-vegas-raiders_at_san-francisco-49ers": {
-      "league": "NFL",
-      "away_team": "Las Vegas Raiders",
-      "home_team": "San Francisco 49ers",
-      "commence_time": "2026-11-08T21:05:00Z",
+    "americanfootball_ncaaf_2026-11-11_kent-state-golden-flashes_at_bowling-green-falcons": {
+      "league": "NCAAF",
+      "away_team": "Kent State Golden Flashes",
+      "home_team": "Bowling Green Falcons",
+      "commence_time": "2026-11-11T00:00:00Z",
       "market_line": {
-        "moneyline": {
-          "Las Vegas Raiders": 390,
-          "San Francisco 49ers": -520
-        },
-        "spread": {
-          "Las Vegas Raiders": 10.0,
-          "San Francisco 49ers": -10.0
-        },
-        "total": 51.5,
-        "bookmaker": "DraftKings"
+        "moneyline": {},
+        "spread": {},
+        "total": null,
+        "bookmaker": null
       },
       "away_team_trends": {
-        "team": "Las Vegas Raiders",
-        "last5": "1-4",
-        "streak": "W1",
-        "record": "4-4",
+        "team": "Kent State Golden Flashes",
+        "last5": null,
+        "streak": null,
+        "record": null,
         "h2h_vs_opponent": null
       },
       "home_team_trends": {
-        "team": "San Francisco 49ers",
-        "last5": "4-1",
-        "streak": "L1",
-        "record": "6-1",
+        "team": "Bowling Green Falcons",
+        "last5": null,
+        "streak": null,
+        "record": null,
         "h2h_vs_opponent": null
       },
-      "weather_at_kickoff": {
-        "high_f": 72.3,
-        "low_f": 57.5,
-        "precipitation_in": 0.0,
-        "wind_mph": 7.3
-      },
+      "weather_at_kickoff": null,
       "probable_pitchers": {
         "home": null,
         "away": null
       }
     },
-    "americanfootball_nfl_2026-11-08_arizona-cardinals_at_seattle-seahawks": {
-      "league": "NFL",
-      "away_team": "Arizona Cardinals",
-      "home_team": "Seattle Seahawks",
-      "commence_time": "2026-11-08T21:25:00Z",
+    "americanfootball_ncaaf_2026-11-11_ohio-bobcats_at_miami-(oh)-redhawks": {
+      "league": "NCAAF",
+      "away_team": "Ohio Bobcats",
+      "home_team": "Miami (OH) RedHawks",
+      "commence_time": "2026-11-11T01:00:00Z",
       "market_line": {
-        "moneyline": {
-          "Arizona Cardinals": 350,
-          "Seattle Seahawks": -455
-        },
-        "spread": {
-          "Arizona Cardinals": 8.5,
-          "Seattle Seahawks": -8.5
-        },
-        "total": 39.5,
-        "bookmaker": "DraftKings"
+        "moneyline": {},
+        "spread": {},
+        "total": null,
+        "bookmaker": null
       },
       "away_team_trends": {
-        "team": "Arizona Cardinals",
-        "last5": "2-3",
-        "streak": "W1",
-        "record": "3-5",
-        "h2h_vs_opponent": {
-          "record_this_season": "0-1",
-          "last_meeting_result": "lost 7-31 on 2026-09-20"
-        }
-      },
-      "home_team_trends": {
-        "team": "Seattle Seahawks",
-        "last5": "2-3",
-        "streak": "L1",
-        "record": "4-4",
-        "h2h_vs_opponent": {
-          "record_this_season": "1-0",
-          "last_meeting_result": "won 31-7 on 2026-09-20"
-        }
-      },
-      "weather_at_kickoff": {
-        "high_f": 55.5,
-        "low_f": 45.3,
-        "precipitation_in": 0.134,
-        "wind_mph": 16.4
-      },
-      "probable_pitchers": {
-        "home": null,
-        "away": null
-      }
-    },
-    "americanfootball_nfl_2026-11-08_green-bay-packers_at_new-england-patriots": {
-      "league": "NFL",
-      "away_team": "Green Bay Packers",
-      "home_team": "New England Patriots",
-      "commence_time": "2026-11-08T21:25:00Z",
-      "market_line": {
-        "moneyline": {
-          "Green Bay Packers": 140,
-          "New England Patriots": -166
-        },
-        "spread": {
-          "Green Bay Packers": 3.0,
-          "New England Patriots": -3.0
-        },
-        "total": 45.5,
-        "bookmaker": "DraftKings"
-      },
-      "away_team_trends": {
-        "team": "Green Bay Packers",
-        "last5": "4-1",
-        "streak": "W1",
-        "record": "5-3",
+        "team": "Ohio Bobcats",
+        "last5": null,
+        "streak": null,
+        "record": null,
         "h2h_vs_opponent": null
       },
       "home_team_trends": {
-        "team": "New England Patriots",
-        "last5": "4-1",
-        "streak": "W1",
-        "record": "5-3",
-        "h2h_vs_opponent": null
-      },
-      "weather_at_kickoff": {
-        "high_f": 50.3,
-        "low_f": 42.1,
-        "precipitation_in": 0.094,
-        "wind_mph": 12.8
-      },
-      "probable_pitchers": {
-        "home": null,
-        "away": null
-      }
-    },
-    "americanfootball_nfl_2026-11-09_tampa-bay-buccaneers_at_chicago-bears": {
-      "league": "NFL",
-      "away_team": "Tampa Bay Buccaneers",
-      "home_team": "Chicago Bears",
-      "commence_time": "2026-11-09T01:20:00Z",
-      "market_line": {
-        "moneyline": {
-          "Chicago Bears": -298,
-          "Tampa Bay Buccaneers": 240
-        },
-        "spread": {
-          "Chicago Bears": -6.0,
-          "Tampa Bay Buccaneers": 6.0
-        },
-        "total": 47.5,
-        "bookmaker": "DraftKings"
-      },
-      "away_team_trends": {
-        "team": "Tampa Bay Buccaneers",
-        "last5": "3-2",
-        "streak": "W2",
-        "record": "3-5",
-        "h2h_vs_opponent": null
-      },
-      "home_team_trends": {
-        "team": "Chicago Bears",
-        "last5": "4-1",
-        "streak": "W3",
-        "record": "6-2",
-        "h2h_vs_opponent": null
-      },
-      "weather_at_kickoff": {
-        "high_f": 63.7,
-        "low_f": 49.2,
-        "precipitation_in": 0.0,
-        "wind_mph": 12.4
-      },
-      "probable_pitchers": {
-        "home": null,
-        "away": null
-      }
-    },
-    "americanfootball_nfl_2026-11-10_buffalo-bills_at_minnesota-vikings": {
-      "league": "NFL",
-      "away_team": "Buffalo Bills",
-      "home_team": "Minnesota Vikings",
-      "commence_time": "2026-11-10T01:15:00Z",
-      "market_line": {
-        "moneyline": {
-          "Buffalo Bills": -185,
-          "Minnesota Vikings": 154
-        },
-        "spread": {
-          "Buffalo Bills": -3.5,
-          "Minnesota Vikings": 3.5
-        },
-        "total": 44.5,
-        "bookmaker": "DraftKings"
-      },
-      "away_team_trends": {
-        "team": "Buffalo Bills",
-        "last5": "4-1",
-        "streak": "W3",
-        "record": "6-1",
-        "h2h_vs_opponent": null
-      },
-      "home_team_trends": {
-        "team": "Minnesota Vikings",
-        "last5": "4-1",
-        "streak": "L1",
-        "record": "6-1",
+        "team": "Miami (OH) RedHawks",
+        "last5": null,
+        "streak": null,
+        "record": null,
         "h2h_vs_opponent": null
       },
       "weather_at_kickoff": null,

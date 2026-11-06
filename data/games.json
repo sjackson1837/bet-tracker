@@ -10056,8 +10056,8 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Atlanta Falcons": 145,
-        "Kansas City Chiefs": -175
+        "Atlanta Falcons": 142,
+        "Kansas City Chiefs": -170
       },
       "spread": {
         "Atlanta Falcons": 3.0,
@@ -10131,8 +10131,8 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Cleveland Browns": 170,
-        "Houston Texans": -205
+        "Cleveland Browns": 164,
+        "Houston Texans": -198
       },
       "spread": {
         "Cleveland Browns": 4.5,
@@ -10156,8 +10156,8 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Green Bay Packers": -170,
-        "Minnesota Vikings": 142
+        "Green Bay Packers": -166,
+        "Minnesota Vikings": 140
       },
       "spread": {
         "Green Bay Packers": -3.0,
@@ -10206,14 +10206,14 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Jacksonville Jaguars": -455,
-        "Tennessee Titans": 350
+        "Jacksonville Jaguars": -535,
+        "Tennessee Titans": 400
       },
       "spread": {
-        "Jacksonville Jaguars": -9.5,
-        "Tennessee Titans": 9.5
+        "Jacksonville Jaguars": -10.0,
+        "Tennessee Titans": 10.0
       },
-      "total": 44.5,
+      "total": 45.5,
       "bookmaker": "DraftKings"
     },
     "prediction": null,
@@ -10331,14 +10331,14 @@
     "status": "scheduled",
     "odds": {
       "moneyline": {
-        "Baltimore Ravens": -120,
-        "Los Angeles Chargers": 100
+        "Baltimore Ravens": -118,
+        "Los Angeles Chargers": -102
       },
       "spread": {
         "Baltimore Ravens": -1.5,
         "Los Angeles Chargers": 1.5
       },
-      "total": 38.5,
+      "total": 37.5,
       "bookmaker": "DraftKings"
     },
     "prediction": null,
@@ -64608,14 +64608,53 @@
     "espn_sport": "football",
     "espn_league": "college-football",
     "outdoor": true,
-    "status": "scheduled",
+    "status": "predicted",
     "odds": {
       "moneyline": {},
       "spread": {},
       "total": null,
       "bookmaker": null
     },
-    "prediction": null,
+    "prediction": {
+      "predicted_winner": "Western Michigan Broncos",
+      "predicted_against_spread": "Western Michigan Broncos",
+      "confidence": 52,
+      "key_factors": [
+        "No trend data provided for either team",
+        "Akron historically weak MAC program",
+        "Home field is only tangible edge for Akron"
+      ],
+      "reasoning": "No statistical trends, records, streaks, or betting lines were provided for this matchup, making this essentially a coin-flip estimate. Western Michigan has generally been the more competitive program in recent MAC history compared to Akron, which nudges a very slight edge their way, but confidence is low given the complete absence of data.",
+      "context_used": {
+        "away_trends": {
+          "team": "Western Michigan Broncos",
+          "last5": null,
+          "streak": null,
+          "record": null,
+          "h2h_vs_opponent": null
+        },
+        "home_trends": {
+          "team": "Akron Zips",
+          "last5": null,
+          "streak": null,
+          "record": null,
+          "h2h_vs_opponent": null
+        },
+        "weather": null,
+        "probable_pitchers": {
+          "home": null,
+          "away": null
+        }
+      },
+      "generated_at": "2026-11-06T18:12:09.080507+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {},
+        "spread": {},
+        "total": null,
+        "bookmaker": null
+      }
+    },
     "actual": null
   },
   "americanfootball_ncaaf_2026-11-11_kent-state-golden-flashes_at_bowling-green-falcons": {
@@ -64627,14 +64666,53 @@
     "espn_sport": "football",
     "espn_league": "college-football",
     "outdoor": true,
-    "status": "scheduled",
+    "status": "predicted",
     "odds": {
       "moneyline": {},
       "spread": {},
       "total": null,
       "bookmaker": null
     },
-    "prediction": null,
+    "prediction": {
+      "predicted_winner": "Bowling Green Falcons",
+      "predicted_against_spread": "Bowling Green Falcons",
+      "confidence": 55,
+      "key_factors": [
+        "No trend data provided for either team",
+        "Bowling Green has home field advantage",
+        "Kent State has been a perennial MAC bottom-dweller"
+      ],
+      "reasoning": "With no specific records, streaks, or line data supplied, this projection leans on general program strength rather than situational trends. Bowling Green has typically fielded more competitive rosters than Kent State in recent seasons, and home field provides an additional marginal edge. Confidence remains modest due to the lack of concrete trend inputs.",
+      "context_used": {
+        "away_trends": {
+          "team": "Kent State Golden Flashes",
+          "last5": null,
+          "streak": null,
+          "record": null,
+          "h2h_vs_opponent": null
+        },
+        "home_trends": {
+          "team": "Bowling Green Falcons",
+          "last5": null,
+          "streak": null,
+          "record": null,
+          "h2h_vs_opponent": null
+        },
+        "weather": null,
+        "probable_pitchers": {
+          "home": null,
+          "away": null
+        }
+      },
+      "generated_at": "2026-11-06T18:12:09.080507+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {},
+        "spread": {},
+        "total": null,
+        "bookmaker": null
+      }
+    },
     "actual": null
   },
   "americanfootball_ncaaf_2026-11-11_ohio-bobcats_at_miami-(oh)-redhawks": {
@@ -64646,14 +64724,53 @@
     "espn_sport": "football",
     "espn_league": "college-football",
     "outdoor": true,
-    "status": "scheduled",
+    "status": "predicted",
     "odds": {
       "moneyline": {},
       "spread": {},
       "total": null,
       "bookmaker": null
     },
-    "prediction": null,
+    "prediction": {
+      "predicted_winner": "Ohio Bobcats",
+      "predicted_against_spread": "Ohio Bobcats",
+      "confidence": 54,
+      "key_factors": [
+        "No trend data provided for either team",
+        "Ohio has been the stronger MAC program in recent years",
+        "Rivalry game (Battle of the Bricks) adds unpredictability"
+      ],
+      "reasoning": "No statistics, streaks, or market lines were given for this rivalry matchup, so this call is based on general program trajectory rather than specific trend evidence. Ohio has generally outperformed Miami (OH) in the MAC in recent seasons, giving them a slight theoretical edge despite the game being played on Miami's home turf. Confidence is kept low-moderate given the total lack of situational data.",
+      "context_used": {
+        "away_trends": {
+          "team": "Ohio Bobcats",
+          "last5": null,
+          "streak": null,
+          "record": null,
+          "h2h_vs_opponent": null
+        },
+        "home_trends": {
+          "team": "Miami (OH) RedHawks",
+          "last5": null,
+          "streak": null,
+          "record": null,
+          "h2h_vs_opponent": null
+        },
+        "weather": null,
+        "probable_pitchers": {
+          "home": null,
+          "away": null
+        }
+      },
+      "generated_at": "2026-11-06T18:12:09.080507+00:00",
+      "model": "claude (cowork session, manual)",
+      "line_at_prediction": {
+        "moneyline": {},
+        "spread": {},
+        "total": null,
+        "bookmaker": null
+      }
+    },
     "actual": null
   },
   "americanfootball_ncaaf_2026-11-12_buffalo-bulls_at_ball-state-cardinals": {

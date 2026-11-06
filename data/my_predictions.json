@@ -1,68 +1,35 @@
 {
-  "americanfootball_nfl_2026-11-08_houston-texans_at_los-angeles-chargers": {
-    "predicted_winner": "Houston Texans",
-    "predicted_against_spread": "Los Angeles Chargers",
-    "confidence": 54,
-    "key_factors": [
-      "Texans favored but both teams struggling (2-5 vs 1-6)",
-      "Chargers on 1-game win streak at home",
-      "Texans on a 1-game losing streak, inconsistent form"
-    ],
-    "reasoning": "Both teams are having poor seasons, but the Chargers are at home and riding a win streak while the Texans just lost. The large -4.5 spread seems overpriced given neither team has shown dominant form, so taking the home underdog with recent momentum is the better value play."
-  },
-  "americanfootball_nfl_2026-11-08_las-vegas-raiders_at_san-francisco-49ers": {
-    "predicted_winner": "San Francisco 49ers",
-    "predicted_against_spread": "Las Vegas Raiders",
-    "confidence": 65,
-    "key_factors": [
-      "49ers 6-1 record and 4-1 last5 vs Raiders 4-4 and 1-4 last5",
-      "Raiders on a W1 streak snapping bad run",
-      "10-point spread is very large, good weather favors offense/passing game"
-    ],
-    "reasoning": "San Francisco is clearly the better team by record and recent form, so the moneyline pick is straightforward. However, a 10-point spread is steep for a divisional-style mismatch, and the Raiders' recent win suggests they could keep it respectable, making the underdog the smarter ATS play."
-  },
-  "americanfootball_nfl_2026-11-08_arizona-cardinals_at_seattle-seahawks": {
-    "predicted_winner": "Seattle Seahawks",
-    "predicted_against_spread": "Arizona Cardinals",
-    "confidence": 60,
-    "key_factors": [
-      "Seahawks swept H2H this season, won 31-7 last meeting",
-      "Seahawks are on L1 streak while Cardinals are on W1",
-      "8.5-point spread is large despite similar overall records (4-4 vs 3-5)"
-    ],
-    "reasoning": "Seattle has the head-to-head edge and a lopsided prior win, but both teams have nearly identical recent form (2-3 last5) and Seattle is currently slumping while Arizona is trending up. The spread of 8.5 looks too large given the closeness in records, so Arizona is the value play against the spread despite Seattle likely winning outright."
-  },
-  "americanfootball_nfl_2026-11-08_green-bay-packers_at_new-england-patriots": {
-    "predicted_winner": "New England Patriots",
-    "predicted_against_spread": "Green Bay Packers",
+  "americanfootball_ncaaf_2026-11-11_western-michigan-broncos_at_akron-zips": {
+    "predicted_winner": "Western Michigan Broncos",
+    "predicted_against_spread": "Western Michigan Broncos",
     "confidence": 52,
     "key_factors": [
-      "Both teams identical records (5-3) and last5 (4-1), both on W1 streaks",
-      "Home field for Patriots is the main differentiator",
-      "Weather includes rain and wind, which could limit scoring"
+      "No trend data provided for either team",
+      "Akron historically weak MAC program",
+      "Home field is only tangible edge for Akron"
     ],
-    "reasoning": "This is an extremely evenly matched game with identical records and momentum for both sides, making it close to a true coin flip. The Patriots get a slight edge for home field, but the modest 3-point line reflects the tight matchup, and Green Bay's quality on the road makes them live to cover."
+    "reasoning": "No statistical trends, records, streaks, or betting lines were provided for this matchup, making this essentially a coin-flip estimate. Western Michigan has generally been the more competitive program in recent MAC history compared to Akron, which nudges a very slight edge their way, but confidence is low given the complete absence of data."
   },
-  "americanfootball_nfl_2026-11-09_tampa-bay-buccaneers_at_chicago-bears": {
-    "predicted_winner": "Chicago Bears",
-    "predicted_against_spread": "Chicago Bears",
-    "confidence": 68,
+  "americanfootball_ncaaf_2026-11-11_kent-state-golden-flashes_at_bowling-green-falcons": {
+    "predicted_winner": "Bowling Green Falcons",
+    "predicted_against_spread": "Bowling Green Falcons",
+    "confidence": 55,
     "key_factors": [
-      "Bears 6-2 record with W3 streak and 4-1 last5",
-      "Buccaneers only 3-5 despite recent W2 streak",
-      "Bears at home with clearly superior overall form"
+      "No trend data provided for either team",
+      "Bowling Green has home field advantage",
+      "Kent State has been a perennial MAC bottom-dweller"
     ],
-    "reasoning": "Chicago is the far stronger team by record and is riding a 3-game win streak, while Tampa Bay sits under .500 despite a recent uptick. The 6-point home favorite looks justified given the gap in overall season performance and recent momentum."
+    "reasoning": "With no specific records, streaks, or line data supplied, this projection leans on general program strength rather than situational trends. Bowling Green has typically fielded more competitive rosters than Kent State in recent seasons, and home field provides an additional marginal edge. Confidence remains modest due to the lack of concrete trend inputs."
   },
-  "americanfootball_nfl_2026-11-10_buffalo-bills_at_minnesota-vikings": {
-    "predicted_winner": "Buffalo Bills",
-    "predicted_against_spread": "Minnesota Vikings",
-    "confidence": 58,
+  "americanfootball_ncaaf_2026-11-11_ohio-bobcats_at_miami-(oh)-redhawks": {
+    "predicted_winner": "Ohio Bobcats",
+    "predicted_against_spread": "Ohio Bobcats",
+    "confidence": 54,
     "key_factors": [
-      "Both teams 6-1 with strong last5 records (4-1 each)",
-      "Bills on W3 streak while Vikings are on L1",
-      "Vikings at home could keep this close despite recent skid"
+      "No trend data provided for either team",
+      "Ohio has been the stronger MAC program in recent years",
+      "Rivalry game (Battle of the Bricks) adds unpredictability"
     ],
-    "reasoning": "This is a battle of two elite teams with identical 6-1 records, making it one of the closer games on the board. Buffalo's hotter streak gives them a slight edge to win outright, but Minnesota's home-field advantage and similar season-long quality suggest they can cover the 3.5-point spread even in a loss."
+    "reasoning": "No statistics, streaks, or market lines were given for this rivalry matchup, so this call is based on general program trajectory rather than specific trend evidence. Ohio has generally outperformed Miami (OH) in the MAC in recent seasons, giving them a slight theoretical edge despite the game being played on Miami's home turf. Confidence is kept low-moderate given the total lack of situational data."
   }
 }
