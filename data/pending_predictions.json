@@ -1,11 +1,11 @@
 {
   "instructions": "For each game below, act as a sharp, disciplined sports betting analyst. Do NOT simply pick whichever side the betting market favors -- weigh the actual trend data provided (recent form, streaks, head-to-head history, starting pitcher matchups where given, and weather where relevant) and form an independent judgment. It's fine, and expected, to disagree with the market when the trends support it. If trend data is sparse for a game, say so and let that lower your confidence rather than defaulting to the favorite. For each game_id, produce: predicted_winner (exact team name), predicted_against_spread (exact team name), confidence (integer 1-100), key_factors (2-4 short strings), and reasoning (2-4 sentences referencing the specific trend data given).",
   "games": {
-    "americanfootball_ncaaf_2026-11-11_western-michigan-broncos_at_akron-zips": {
+    "americanfootball_ncaaf_2026-11-12_buffalo-bulls_at_ball-state-cardinals": {
       "league": "NCAAF",
-      "away_team": "Western Michigan Broncos",
-      "home_team": "Akron Zips",
-      "commence_time": "2026-11-11T00:00:00Z",
+      "away_team": "Buffalo Bulls",
+      "home_team": "Ball State Cardinals",
+      "commence_time": "2026-11-12T00:30:00Z",
       "market_line": {
         "moneyline": {},
         "spread": {},
@@ -13,14 +13,45 @@
         "bookmaker": null
       },
       "away_team_trends": {
-        "team": "Western Michigan Broncos",
+        "team": "Buffalo Bulls",
         "last5": null,
         "streak": null,
         "record": null,
         "h2h_vs_opponent": null
       },
       "home_team_trends": {
-        "team": "Akron Zips",
+        "team": "Ball State Cardinals",
+        "last5": "3-2",
+        "streak": "W3",
+        "record": "5-4",
+        "h2h_vs_opponent": null
+      },
+      "weather_at_kickoff": null,
+      "probable_pitchers": {
+        "home": null,
+        "away": null
+      }
+    },
+    "americanfootball_ncaaf_2026-11-12_sacramento-state-hornets_at_central-michigan-chippewas": {
+      "league": "NCAAF",
+      "away_team": "Sacramento State Hornets",
+      "home_team": "Central Michigan Chippewas",
+      "commence_time": "2026-11-12T00:30:00Z",
+      "market_line": {
+        "moneyline": {},
+        "spread": {},
+        "total": null,
+        "bookmaker": null
+      },
+      "away_team_trends": {
+        "team": "Sacramento State Hornets",
+        "last5": "1-4",
+        "streak": "L1",
+        "record": "2-8",
+        "h2h_vs_opponent": null
+      },
+      "home_team_trends": {
+        "team": "Central Michigan Chippewas",
         "last5": null,
         "streak": null,
         "record": null,
@@ -32,11 +63,11 @@
         "away": null
       }
     },
-    "americanfootball_ncaaf_2026-11-11_kent-state-golden-flashes_at_bowling-green-falcons": {
+    "americanfootball_ncaaf_2026-11-12_umass-minutemen_at_toledo-rockets": {
       "league": "NCAAF",
-      "away_team": "Kent State Golden Flashes",
-      "home_team": "Bowling Green Falcons",
-      "commence_time": "2026-11-11T00:00:00Z",
+      "away_team": "UMass Minutemen",
+      "home_team": "Toledo Rockets",
+      "commence_time": "2026-11-12T00:30:00Z",
       "market_line": {
         "moneyline": {},
         "spread": {},
@@ -44,45 +75,14 @@
         "bookmaker": null
       },
       "away_team_trends": {
-        "team": "Kent State Golden Flashes",
+        "team": "UMass Minutemen",
         "last5": null,
         "streak": null,
         "record": null,
         "h2h_vs_opponent": null
       },
       "home_team_trends": {
-        "team": "Bowling Green Falcons",
-        "last5": null,
-        "streak": null,
-        "record": null,
-        "h2h_vs_opponent": null
-      },
-      "weather_at_kickoff": null,
-      "probable_pitchers": {
-        "home": null,
-        "away": null
-      }
-    },
-    "americanfootball_ncaaf_2026-11-11_ohio-bobcats_at_miami-(oh)-redhawks": {
-      "league": "NCAAF",
-      "away_team": "Ohio Bobcats",
-      "home_team": "Miami (OH) RedHawks",
-      "commence_time": "2026-11-11T01:00:00Z",
-      "market_line": {
-        "moneyline": {},
-        "spread": {},
-        "total": null,
-        "bookmaker": null
-      },
-      "away_team_trends": {
-        "team": "Ohio Bobcats",
-        "last5": null,
-        "streak": null,
-        "record": null,
-        "h2h_vs_opponent": null
-      },
-      "home_team_trends": {
-        "team": "Miami (OH) RedHawks",
+        "team": "Toledo Rockets",
         "last5": null,
         "streak": null,
         "record": null,

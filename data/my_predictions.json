@@ -1,35 +1,38 @@
 {
-  "americanfootball_ncaaf_2026-11-11_western-michigan-broncos_at_akron-zips": {
-    "predicted_winner": "Western Michigan Broncos",
-    "predicted_against_spread": "Western Michigan Broncos",
-    "confidence": 52,
+  "americanfootball_ncaaf_2026-11-12_buffalo-bulls_at_ball-state-cardinals": {
+    "predicted_winner": "Ball State Cardinals",
+    "predicted_against_spread": "Ball State Cardinals",
+    "confidence": 58,
     "key_factors": [
-      "No trend data provided for either team",
-      "Akron historically weak MAC program",
-      "Home field is only tangible edge for Akron"
+      "Ball State on a 3-game winning streak",
+      "Ball State has a winning recent form at 3-2 in last 5",
+      "No data available on Buffalo's recent form or record",
+      "Home field advantage"
     ],
-    "reasoning": "No statistical trends, records, streaks, or betting lines were provided for this matchup, making this essentially a coin-flip estimate. Western Michigan has generally been the more competitive program in recent MAC history compared to Akron, which nudges a very slight edge their way, but confidence is low given the complete absence of data."
+    "reasoning": "Ball State enters this matchup red hot with a W3 streak and a 5-4 record, showing positive momentum at home. Buffalo's trend data is completely absent, making it impossible to gauge their current form, so we lean on Ball State's documented momentum. This is a moderate confidence pick given the data gap on the away side."
   },
-  "americanfootball_ncaaf_2026-11-11_kent-state-golden-flashes_at_bowling-green-falcons": {
-    "predicted_winner": "Bowling Green Falcons",
-    "predicted_against_spread": "Bowling Green Falcons",
-    "confidence": 55,
+  "americanfootball_ncaaf_2026-11-12_sacramento-state-hornets_at_central-michigan-chippewas": {
+    "predicted_winner": "Central Michigan Chippewas",
+    "predicted_against_spread": "Central Michigan Chippewas",
+    "confidence": 62,
     "key_factors": [
-      "No trend data provided for either team",
-      "Bowling Green has home field advantage",
-      "Kent State has been a perennial MAC bottom-dweller"
+      "Sacramento State is 2-8 on the season, struggling badly",
+      "Sacramento State on a losing streak (L1) and 1-4 in last 5",
+      "No data on Central Michigan's form, but presumed stronger as home favorite",
+      "Significant disparity in available season performance data"
     ],
-    "reasoning": "With no specific records, streaks, or line data supplied, this projection leans on general program strength rather than situational trends. Bowling Green has typically fielded more competitive rosters than Kent State in recent seasons, and home field provides an additional marginal edge. Confidence remains modest due to the lack of concrete trend inputs."
+    "reasoning": "Sacramento State's trends paint a clear picture of a struggling team with a 2-8 record and a 1-4 mark in their last five games, currently on a losing streak. While Central Michigan's specific trends weren't provided, the stark weakness of Sacramento State combined with typical home field advantage supports taking the Chippewas. Confidence is moderate due to missing home team data, but the away team's poor form is a strong enough signal."
   },
-  "americanfootball_ncaaf_2026-11-11_ohio-bobcats_at_miami-(oh)-redhawks": {
-    "predicted_winner": "Ohio Bobcats",
-    "predicted_against_spread": "Ohio Bobcats",
-    "confidence": 54,
+  "americanfootball_ncaaf_2026-11-12_umass-minutemen_at_toledo-rockets": {
+    "predicted_winner": "Toledo Rockets",
+    "predicted_against_spread": "Toledo Rockets",
+    "confidence": 50,
     "key_factors": [
-      "No trend data provided for either team",
-      "Ohio has been the stronger MAC program in recent years",
-      "Rivalry game (Battle of the Bricks) adds unpredictability"
+      "No trend data available for either team",
+      "Home field advantage is the only distinguishing factor",
+      "Complete absence of record, streak, or recent form data",
+      "Low information game requiring minimal confidence"
     ],
-    "reasoning": "No statistics, streaks, or market lines were given for this rivalry matchup, so this call is based on general program trajectory rather than specific trend evidence. Ohio has generally outperformed Miami (OH) in the MAC in recent seasons, giving them a slight theoretical edge despite the game being played on Miami's home turf. Confidence is kept low-moderate given the total lack of situational data."
+    "reasoning": "This matchup has no trend data provided for either UMass or Toledo, making it essentially a coin-flip from an analytical standpoint. With no information to differentiate the teams, we default to a slight home field edge for Toledo, but confidence is kept at the baseline since there's nothing substantive to support a stronger lean."
   }
 }
