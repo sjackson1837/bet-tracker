@@ -1,60 +1,83 @@
 {
   "instructions": "For each game below, act as a sharp, disciplined sports betting analyst. Do NOT simply pick whichever side the betting market favors -- weigh the actual trend data provided (recent form, streaks, head-to-head history, starting pitcher matchups where given, and weather where relevant) and form an independent judgment. It's fine, and expected, to disagree with the market when the trends support it. If trend data is sparse for a game, say so and let that lower your confidence rather than defaulting to the favorite. For each game_id, produce: predicted_winner (exact team name), predicted_against_spread (exact team name), confidence (integer 1-100), key_factors (2-4 short strings), and reasoning (2-4 sentences referencing the specific trend data given).",
   "games": {
-    "americanfootball_ncaaf_2026-11-12_buffalo-bulls_at_ball-state-cardinals": {
-      "league": "NCAAF",
-      "away_team": "Buffalo Bulls",
-      "home_team": "Ball State Cardinals",
-      "commence_time": "2026-11-12T00:30:00Z",
+    "americanfootball_nfl_2026-11-13_washington-commanders_at_new-york-giants": {
+      "league": "NFL",
+      "away_team": "Washington Commanders",
+      "home_team": "New York Giants",
+      "commence_time": "2026-11-13T01:15:00Z",
       "market_line": {
-        "moneyline": {},
-        "spread": {},
-        "total": null,
-        "bookmaker": null
+        "moneyline": {
+          "New York Giants": -118,
+          "Washington Commanders": -102
+        },
+        "spread": {
+          "New York Giants": -1.5,
+          "Washington Commanders": 1.5
+        },
+        "total": 44.5,
+        "bookmaker": "DraftKings"
       },
       "away_team_trends": {
-        "team": "Buffalo Bulls",
-        "last5": null,
-        "streak": null,
-        "record": null,
-        "h2h_vs_opponent": null
+        "team": "Washington Commanders",
+        "last5": "2-3",
+        "streak": "W1",
+        "record": "2-5",
+        "h2h_vs_opponent": {
+          "record_this_season": "0-1",
+          "last_meeting_result": "lost 27-27 on 2026-10-11"
+        }
       },
       "home_team_trends": {
-        "team": "Ball State Cardinals",
+        "team": "New York Giants",
         "last5": "3-2",
-        "streak": "W3",
-        "record": "5-4",
-        "h2h_vs_opponent": null
+        "streak": "W1",
+        "record": "4-3",
+        "h2h_vs_opponent": {
+          "record_this_season": "0-1",
+          "last_meeting_result": "lost 27-27 on 2026-10-11"
+        }
       },
-      "weather_at_kickoff": null,
+      "weather_at_kickoff": {
+        "high_f": 55.5,
+        "low_f": 43.5,
+        "precipitation_in": 1.602,
+        "wind_mph": 16.0
+      },
       "probable_pitchers": {
         "home": null,
         "away": null
       }
     },
-    "americanfootball_ncaaf_2026-11-12_sacramento-state-hornets_at_central-michigan-chippewas": {
+    "americanfootball_ncaaf_2026-11-13_memphis-tigers_at_south-florida-bulls": {
       "league": "NCAAF",
-      "away_team": "Sacramento State Hornets",
-      "home_team": "Central Michigan Chippewas",
-      "commence_time": "2026-11-12T00:30:00Z",
+      "away_team": "Memphis Tigers",
+      "home_team": "South Florida Bulls",
+      "commence_time": "2026-11-13T01:00:00Z",
       "market_line": {
-        "moneyline": {},
-        "spread": {},
-        "total": null,
-        "bookmaker": null
+        "moneyline": {
+          "Memphis Tigers": -270,
+          "South Florida Bulls": 220
+        },
+        "spread": {
+          "Memphis Tigers": -6.5,
+          "South Florida Bulls": 6.5
+        },
+        "total": 48.5,
+        "bookmaker": "DraftKings"
       },
       "away_team_trends": {
-        "team": "Sacramento State Hornets",
-        "last5": "1-4",
+        "team": "Memphis Tigers",
+        "last5": null,
+        "streak": null,
+        "record": null,
+        "h2h_vs_opponent": null
+      },
+      "home_team_trends": {
+        "team": "South Florida Bulls",
+        "last5": "2-3",
         "streak": "L1",
-        "record": "2-8",
-        "h2h_vs_opponent": null
-      },
-      "home_team_trends": {
-        "team": "Central Michigan Chippewas",
-        "last5": null,
-        "streak": null,
-        "record": null,
+        "record": "6-3",
         "h2h_vs_opponent": null
       },
       "weather_at_kickoff": null,
@@ -63,26 +86,32 @@
         "away": null
       }
     },
-    "americanfootball_ncaaf_2026-11-12_umass-minutemen_at_toledo-rockets": {
+    "americanfootball_ncaaf_2026-11-13_louisiana-ragin-cajuns_at_ul-monroe-warhawks": {
       "league": "NCAAF",
-      "away_team": "UMass Minutemen",
-      "home_team": "Toledo Rockets",
-      "commence_time": "2026-11-12T00:30:00Z",
+      "away_team": "Louisiana Ragin Cajuns",
+      "home_team": "UL Monroe Warhawks",
+      "commence_time": "2026-11-13T02:00:00Z",
       "market_line": {
-        "moneyline": {},
-        "spread": {},
-        "total": null,
-        "bookmaker": null
+        "moneyline": {
+          "Louisiana Ragin Cajuns": -455,
+          "UL Monroe Warhawks": 350
+        },
+        "spread": {
+          "Louisiana Ragin Cajuns": -11.5,
+          "UL Monroe Warhawks": 11.5
+        },
+        "total": 48.5,
+        "bookmaker": "DraftKings"
       },
       "away_team_trends": {
-        "team": "UMass Minutemen",
+        "team": "Louisiana Ragin Cajuns",
         "last5": null,
         "streak": null,
         "record": null,
         "h2h_vs_opponent": null
       },
       "home_team_trends": {
-        "team": "Toledo Rockets",
+        "team": "UL Monroe Warhawks",
         "last5": null,
         "streak": null,
         "record": null,
